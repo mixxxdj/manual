@@ -24,7 +24,7 @@ See the tables below for controls descriptions.
 | --- | --- | --- |
 | 1 | {hwlabel}`BROWSE` (rotate) | Browse library |
 | 1 | {hwlabel}`BROWSE` (press+rotate) | switch between Library and Sidebar |
-| 1 | {hwlabel}`BROWSE` (press) | Equivalent to double clicking the currently selected item in Library (see :mixxx{coref}`GoToItem<[Library],GoToItem>` control) |
+| 1 | {hwlabel}`BROWSE` (press) | Equivalent to double clicking the currently selected item in Library (see {mixxx:coref}`GoToItem<[Library],GoToItem>` control) |
 | 2 | {hwlabel}`LOAD` 1 and 2 | load currently selected track to Deck 1 or 2 |
 | 3 | {hwlabel}`MASTER GAIN` | Adjust the volume level of {term}`master output`. |
 | 4 | {hwlabel}`CUE MIX` | {term}`Head/mix knob<Head/mix button>`. Adjust the cue/main mix in the headphone output. |

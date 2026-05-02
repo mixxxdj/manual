@@ -4,7 +4,8 @@
 
 
 :::{sectionauthor} Owen Williams <owilliams at mixxx.org>
-Robbert van der Helm <mail@robbertvanderhelm.nl>
+:::
+:::{sectionauthor} Robbert van der Helm <mail@robbertvanderhelm.nl>
 :::
 The Kontrol S3 is an introductory 4 deck controller with good build
 quality and integrated sound card. This is the first controller released

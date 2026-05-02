@@ -31,7 +31,7 @@ of the box.
 
 :::{versionadded} 1.11
 :::
-#### Mapping Description
+## Mapping Description
 
 
 ```{figure-md}

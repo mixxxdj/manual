@@ -33,7 +33,7 @@ This controller has a built-in 4 channel sound card, with MASTER output (RCA and
 Above the **Gain** knobs are switches to select which input should be sent to the PC. For input 1 this can be Aux (3.5 mm TRS) or Line/Phono 1/2 (RCA) and for input 2 this can be microphone (6.3 mm
 TRS on front) or Line/Phono 3/4 (RCA).
 
-#### Input 1 routing
+### Input 1 routing
 
 
 On the rear side is a small switch to select if Input 1 is routed to the PC or directly to the main output (through). It is therefore possible to include the microphone into a recording/stream or to
@@ -42,7 +42,7 @@ exclude it.
 :::{seealso}
 The {ref}`example setups section <setup-laptop-and-external-card>` provides more details about the audio configuration in Mixxx.
 :::
-#### Hardware controls
+### Hardware controls
 
 
 The **Master** and **Mic Level** are hardware controls and interact directly with the integrated sound card and are not mapped to Mixxx.
@@ -56,7 +56,7 @@ The {ref}`gain staging documentation <djing-gain-staging>` explains how to set y
 The knobs for {hwlabel}`MASTER LEVEL`, {hwlabel}`MIC LEVEL` and the {hwlabel}`MIC ON/OFF` switch are controlling the hardware mixer of the built-in audio interface.
 Hence, turning the knobs will not change values in the Mixxx {term}`GUI` and you’ll need to set the Mixxx knobs to their default values when using the controller.
 
-#### Controls
+### Controls
 
 
 ### Center section

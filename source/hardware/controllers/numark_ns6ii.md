@@ -122,7 +122,7 @@ Numark NS6II (Annotated Topview)
 
 (numark-ns6ii-takeover-leds)=
 
-#### Takeover LEDs
+### Takeover LEDs
 
 
 These indicate the physical position of the tempo fader relative to the software
@@ -136,7 +136,7 @@ have to move it until it is at neutral speed. These leds (with the exceptions of
 the middle LED are also repeated on the Jogwheel LCD Display).
 
 
-#### Mixer Section
+### Mixer Section
 
 
 The NS6II features 4 identical (with respect to symmetry) Mixer Channels. See {ref}`interface-eq-gain` for a complete explanation of the individual concepts
@@ -158,7 +158,7 @@ The NS6II features 4 identical (with respect to symmetry) Mixer Channels. See {r
 | 12       |  Channel Fader                                                 |   Decrease the volume of the channel |
 
 
-#### Front Panel
+### Front Panel
 
 
 ```{figure-md}
@@ -181,7 +181,7 @@ Numark NS6II (front view)
 | 8        |  {hwlabel}`LOW` Knob                                           |   Low EQ of the microphone signal |
 
 
-#### Effects Section
+### Effects Section
 
 
 ```{figure-md}
@@ -197,7 +197,7 @@ The mapping follows the standards {ref}`controller-effects-mapping`.
 
 (numark-ns6ii-jogwheel-display)=
 
-#### Jogwheel Display
+### Jogwheel Display
 
 
 ```{figure-md}
@@ -221,7 +221,7 @@ Numark NS6II (jogwheel display)
 | 9        |  Shows whether {term}`key lock` is enabled. |
 
 
-#### Performance Pads
+### Performance Pads
 
 
 ```{figure-md}
@@ -249,7 +249,7 @@ The functionality of the {hwlabel}`PARAMETER ADJUST` buttons (labelled 27) is sp
 | 32       |  {hwlabel}`SLICER`   |       beat jumping      |    intro/outro markers           |     beatgridsettings |
 
 
-##### Hotcues
+#### Hotcues
 
 
 ```{figure-md}
@@ -273,7 +273,7 @@ Pressing the hotcue selector a second time, the second hotcue mode will get sele
 
 (numark-ns6ii-autoloop)=
 
-##### Auto Loop Mode
+#### Auto Loop Mode
 
 
 ```{figure-md}
@@ -294,13 +294,13 @@ Numark NS6II (autoloop)
 
 (numark-ns6ii-looproll)=
 
-##### Loop Roll Mode
+#### Loop Roll Mode
 
 
 Works exactly like {ref}`numark-ns6ii-autoloop`, but the loop will get deactivated after letting go of the pad and the track resumes at the position where it would
 have been if it had not looped.
 
-##### Loop Control Mode
+#### Loop Control Mode
 
 
 ```{figure-md}
@@ -325,7 +325,7 @@ Numark NS6II (loop control)
 
 
 
-##### Key Control
+#### Key Control
 
 
 ```{figure-md}
@@ -347,7 +347,7 @@ Numark NS6II (key control)
 
 
 
-##### Sampler Pads
+#### Sampler Pads
 
 
 ```{figure-md}
@@ -371,7 +371,7 @@ The sampler modes allow you to load, play and stop samples in the first 8 sample
 
 (numark-ns6ii-beatjump)=
 
-##### Beat Jump
+#### Beat Jump
 
 
 ```{figure-md}
@@ -393,7 +393,7 @@ The beat jump mode allows you to jump to specific beat positions in your loop.
 
 
 
-##### Intro/Outro Markers
+#### Intro/Outro Markers
 
 
 ```{figure-md}
@@ -420,7 +420,7 @@ This mode allow you to prepare tracks by setting intro/outro cues.
 | 27       |  {hwlabel}`PARAMETER ADJUST`                                    |   No function |
 
 
-##### Beatgrid Adjustments
+#### Beatgrid Adjustments
 
 
 ```{figure-md}

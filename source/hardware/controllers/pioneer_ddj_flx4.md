@@ -4,13 +4,13 @@
 
 
 :::{sectionauthor} Based on DDJ-400 from jusko <justin.kourie@gmail.com>
-Robert904 <robert@percu.be>
+:::
+:::{sectionauthor} Robert904 <robert@percu.be>
 :::
 ```{figure-md}
 :align: center
 
 <img src="../../_static/controllers/pioneer_ddj_flx4.svg" alt="Pioneer DDJ-FLX4 (schematic view)" class="pretty-figures" width="100%">
-
 
 Pioneer DDJ-FLX4 (schematic view)
 ```

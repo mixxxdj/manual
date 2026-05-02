@@ -8,7 +8,7 @@ The Numark N4 is a 4-deck DJ controller with seamless integration of external de
 
 :::{versionadded} 1.10
 :::
-##### Mapping Description
+## Mapping Description
 
 
 ```{figure-md}
@@ -62,6 +62,7 @@ Some settings in the script can be changed by editing them at the top of the scr
 
 The Deck consists of the jogwheel, play, cue, the topContainer (which hold the eight square buttons and the four encoders), pitchslider, pitchrange, search, keylock, tap, sync and pitchbend ±.
 
+(special_features)=
 ### Special Features
 
 
@@ -275,32 +276,27 @@ Shift: Maximize Library<br>
 ## Miscellaneous
 
 
-#### Crossfader
-
+### Crossfader
 
 The Crossfader and its assignment buttons are integrated seamlessly with Mixxx.
 
-#### Line/PC Input Source
+### Line/PC Input Source
 
 
 Function as expected: Mutes the corresponding Deck in Mixxx if set to Line.
 
-#### Crossfader Contour
-
+### Crossfader Contour
 
 Normal: Uses the crossfader parameters that were present when the mapping was loaded Scratch: Uses Scratch typical parameters for hard cuts
 
-#### Cue-Master Mix
-
+### Cue-Master Mix
 
 Doesn’t manipulate the mixxx controls. Make sure the head gain is not zero and the mix is set to 100% PFL
 
-#### Cue Volume
-
+### Cue Volume
 
 Make sure its high enough within mixxx
 
-#### Booth/Gain Volume
-
+### Booth/Gain Volume
 
 Behaves as expected (but doesn’t manipulate any mixxx controls).

@@ -4,9 +4,9 @@
 ```{figure-md}
 :align: center
 
-<img src="../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg" alt="Numark Mixtrack Playinum FX (schematic view)" class="pretty-figures" width="100%">
+<img src="../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg" alt="Numark Mixtrack Platinum FX (schematic view)" class="pretty-figures" width="100%">
 
-
+Numark Mixtrack Platinum FX (schematic view)
 ```
 The Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels and 16-multifunctional performance pads. Its stand out feature  is the LCD displays integrated into the jog wheels, apart from that it shares the layout of the Mixtrack Pro FX.
 
@@ -39,7 +39,7 @@ The microphone input on this controller is not available to the computer through
 
 <img src="../../_static/controllers/numark_mixtrack_platinum_fx.svg" alt="Numark Mixtrack Platinum FX (schematic view)" class="pretty-figures" width="100%">
 
-
+Numark Mixtrack Platinum FX (schematic view)
 ```
 | No.     |  Control                                       |   Function |
 | --- | --- | --- |

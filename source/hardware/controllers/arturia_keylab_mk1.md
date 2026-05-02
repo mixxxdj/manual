@@ -26,7 +26,7 @@ Arturia also made 61 and 25 key versions of this keyboard.
 This mapping has only been tested with the full size version and it is
 unknown whether it works for the smaller versions.
 :::
-## Menu Controls
+### Menu Controls
 
 
 On the left side of the controller is an unlabeled section of controls
@@ -51,7 +51,7 @@ The on screen menu contains the following options:
 
 (main-menu)=
 
-#### Main Menu
+### Main Menu
 
 
 | Label | Action | Function |
@@ -70,7 +70,7 @@ The on screen menu contains the following options:
 
 (library-menu)=
 
-#### Library Menu
+### Library Menu
 
 
 The library submenu contains options for navigating and selecting items in the
@@ -97,7 +97,7 @@ version of Mixxx.
 
 (skin-menu)=
 
-#### Skin Menu
+### Skin Menu
 
 
 The skin submenu contains options for configuring and changing the Mixxx UI.
@@ -113,7 +113,7 @@ The skin submenu contains options for configuring and changing the Mixxx UI.
 
 (fx-menus)=
 
-#### FX Menus
+### FX Menus
 
 
 There are four FX menus for controlling individual effect racks.
@@ -128,7 +128,7 @@ Each one has the following options:
 | Back | Press | Go back to the {ref}`main-menu` |
 
 
-## Main Controls
+### Main Controls
 
 
 To the right of the KeyLab logo are the main bank of controls
@@ -154,7 +154,7 @@ be illuminated, otherwise the other controls in this section may not work.
 | X-Fader | {hwlabel}`F9` | Crossfader |
 
 
-## Snapshots
+### Snapshots
 
 
 Below the main controls are a collection of 10 physical buttons labeled
@@ -167,7 +167,7 @@ Below the main controls are a collection of 10 physical buttons labeled
 | Samplers | {hwlabel}`3` | Configure all 16 drum pads to be velocity sensitive samplers. |
 
 
-## Transports
+### Transports
 
 
 To the right of the snapshot buttons are a collection of buttons labeled
@@ -189,7 +189,7 @@ button.
 :::{hint}
 The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings. See {ref}`interface-cue-modes` for more info.
 :::
-## Drum Pads
+### Drum Pads
 
 
 To the right of the main controls are a collection of 16 drum pads that are

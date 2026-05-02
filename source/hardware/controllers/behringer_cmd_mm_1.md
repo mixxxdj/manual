@@ -28,6 +28,7 @@ options can be changed during runtime via the Buttons in the of the
 this document.
 
 ### Mapping options
+(mapping-options)=
 
 
 There are a few user configurable options available for you to customize. You
@@ -161,8 +162,7 @@ FxMode:
 ### Reassigning channel mode and number
 
 
-The channel modes and numbers can be set by changing the [#mapping
-options](#mapping%20options) at the top of the script. They can also
+The channel modes and numbers can be set by changing the {ref}`mapping options <mapping-options>` at the top of the script. They can also
 be changed while using the controller when in **thirdMode**. Pressing
 the cue- button toggles between Deck and FX Mode. The Channel number is
 assigned with the [1]&[2] buttons.

@@ -51,7 +51,7 @@ The base LED is linked to the VU Meter for light show effect on each deck respec
 
 All controls not listed here work as labeled.
 
-#### Decks
+### Decks
 
 
 | Button              |  Description |
@@ -69,7 +69,7 @@ All controls not listed here work as labeled.
 When Vinyl is on, turning a jog wheel scratches that deck. When Vinyl is
 off, turning a jog wheel bends the pitch of the track.
 
-#### Pads
+### Pads
 
 
 | Pad Mode   |  Button           |   Description |

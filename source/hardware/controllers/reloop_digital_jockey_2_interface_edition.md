@@ -42,6 +42,7 @@ Pressing {hwlabel}`SHIFT` does not enable decks C and D control.
 - {hwlabel}`CUP` is mapped to {mixxx:coref}`[ChannelN],cue_play` (usual CUP button behavior)
 - {hwlabel}`SHIFT` + {hwlabel}`CUP`  is mapped to {mixxx:coref}`[ChannelN],cue_gotoandplay`
 
+(jog-wheels)=
 #### Jog Wheels
 
 
@@ -68,7 +69,7 @@ The library can be controlled as follows:
 - turning the {hwlabel}`TRAX` knob changes currently selected item
 - turning the {hwlabel}`TRAX` knob with {hwlabel}`SHIFT` scrolls the items (equivalent to {hwlabel}`PageUp`/{hwlabel}`PageDown` on keyboard)
 - pressing {hwlabel}`SHIFT` + any of the four pitch bend buttons ({hwlabel}`CLOSE/OPEN FOLDER` label) invokes action for {mixxx:coref}`[Library],GoToItem`
-- turning any jog wheel with {hwlabel}`SHIFT` enables smooth and fast browsing (see {ref}`Jog Wheels`)
+- turning any jog wheel with {hwlabel}`SHIFT` enables smooth and fast browsing (see {ref}`Jog Wheels <jog-wheels>`)
 
 
 ### FX Controls

@@ -28,7 +28,7 @@ Hercules DJControl MP3 e2 (schematic view)
 ## Mapping description (by function)
 
 
-#### Library
+### Library
 
 
 |  Number  |  Control                                       |  Function |
@@ -41,7 +41,7 @@ Hercules DJControl MP3 e2 (schematic view)
 
 
 
-#### Main/Headphones
+### Main/Headphones
 
 
 |  Number  |  Control                                       |  Function |
@@ -50,10 +50,10 @@ Hercules DJControl MP3 e2 (schematic view)
 |  20      |  Headphone monitor                             |  Toggles deck output to the headphones monitor on/off |
 
 
-#### Decks / Channels
+### Decks / Channels
 
 
-##### Playing
+#### Playing
 
 
 |  Number  |  Control                                       |  Function |
@@ -66,7 +66,7 @@ Hercules DJControl MP3 e2 (schematic view)
 |  16      |  Jog wheel                                     |  Seeks forwards and backwards in a stopped track. Temporarily changes the playback speed for playing tracks.  Absolute sync of the track speed to the jog wheel if scratch mode enabled |
 
 
-##### Volume / Equalizer / Effects
+#### Volume / Equalizer / Effects
 
 
 |  Number  |  Control                                       | Function |
@@ -77,7 +77,7 @@ Hercules DJControl MP3 e2 (schematic view)
 |  11      |  Button {hwlabel}`1`/{hwlabel}`2`/{hwlabel}`3` | Toggle Effect 1/2/3 for corresponding deck (with shift activated) |
 
 
-##### Loops
+#### Loops
 
 
 |  Number  |  Control                                       | Function |
@@ -88,7 +88,7 @@ Hercules DJControl MP3 e2 (schematic view)
 |  11      |  Button {hwlabel}`4`                           |  Loop 8 |
 
 
-##### Pitch / Syncing
+#### Pitch / Syncing
 
 
 |  Number  |  Control                                       |  Function |
@@ -102,7 +102,7 @@ Hercules DJControl MP3 e2 (schematic view)
 ## Troubleshooting
 
 
-#### Jog wheels not working or controller not responding
+### Jog wheels not working or controller not responding
 
 
 If your jog wheels doesn’t work, or nothing works on the controller even when you have carefully read all other resources, you should be aware that this controller stores at least two configuration
@@ -127,7 +127,7 @@ page](http://ts.hercules.com/eng/index.php?pg=view_files&gid=17&fid=61&pid=241&c
 solution for Linux. So if you normally use Linux, you will have to find a computer with Windows or Mac OS X, install the Hercules driver, plug-in the controller and change configuration. You will only
 need to do this once, then the controller should work with Linux.
 
-#### Controller not recognized as bulk controller
+### Controller not recognized as bulk controller
 
 
 It has been reported that when the Hercules drivers are installed on a Windows, the driver takes over the bulk communication with the controller so it cannot be recognized by Mixxx as a bulk
