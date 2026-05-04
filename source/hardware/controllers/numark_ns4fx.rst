@@ -214,12 +214,12 @@ It assigns the upper 4 performance pads to the following functions:
 Auto Loop Beat Jump
 ^^^^^^^^^^^^^^^^^^^
 
-When the 'Control beat jump with Auto Loop second row pads' option is enabled in the controller preferences, the bottom row of transport pads (Stutter, Start, Search Backward, Search Forward) control beat jump functions while in Auto Loop mode:
+When the 'Control beat jump with Auto Loop second row pads' option is enabled in the controller preferences, the bottom row of transport pads (CUE, START, BACK, FWD) control beat jump functions while in Auto Loop mode:
 
-- **Stutter:** Jumps backward by the current beatjump size.
-- **Start:** Halves the current beatjump size.
-- **Search Backward:** Doubles the current beatjump size.
-- **Search Forward:** Jumps forward by the current beatjump size.
+- **CUE:** Jumps backward by the current beatjump size.
+- **START:** Halves the current beatjump size.
+- **BACK:** Doubles the current beatjump size.
+- **FWD:** Jumps forward by the current beatjump size.
 
 Holding SHIFT and pressing one of these pads will jump by a custom number of beats, which can be set in the controller preferences for each pad.
 
