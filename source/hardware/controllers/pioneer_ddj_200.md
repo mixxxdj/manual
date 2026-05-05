@@ -20,6 +20,10 @@ The Pioneer DDJ-200 is a 2 deck USB and Bluetooth DJ controller designed for WeD
 -  [Manufacturer's User Manual](https://support.pioneerdj.com/hc/en-us/articles/4404919733401-How-to-use-the-Pioneer-DJ-DDJ-200-Controller-Instruction-manual/)
 -  [Manufacturer's Firmware Update](https://www.pioneerdj.com/en/support/software/controller/ddj-200/)
 -  [Mixxx User Forum](https://mixxx.discourse.group/t/pioneer-ddj-200-mapping/18259)
+-  [Midi Mappings](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-200/ddj-200_midi_message_list_e2.pdf)
+-  [Hardware Diagram](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-200/ddj-200_hardwarediagram_rekordboxdj_e2.pdf)
+-  [Mapping Git Fork](https://github.com/dan-giddins/mixxx/tree/ddj-200-support)
+-  [Simple Mapping Git Repository](https://github.com/dan-giddins/mixxx-ddj-200-mapping)
 
 :::{versionadded} 2.2.5
 :::
@@ -57,7 +61,6 @@ Deck section (p. 8)
 | 7   |  {hwlabel}`TEMPO` slider                          |   Adjust track playing speed (can be adjusted via {hwlabel}`SHIFT` + {hwlabel}`BEAT SYNC`) |
 
 
-
 (pioneer-ddj-200-mixer)=
 
 ### Mixer section (p. 10)
@@ -86,3 +89,7 @@ Mixer section (p. 10)
 | 5   |  Channel faders                                       |   Adjust the output level for each channel |
 | 6   |  Transition FX Button                                 |   Turns on {ref}`AutoDJ <djing-auto-dj>` |
 | 7   |  Cross fader                                          |   Fade between left and right deck |
+
+### Known Issues
+
+- Track does not align to the other track if jog wheel is used to move the play position.

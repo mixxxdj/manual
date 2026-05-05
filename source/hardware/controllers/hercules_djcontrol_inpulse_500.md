@@ -40,7 +40,7 @@ This controller has built-in 4 channel output sound card, with MAIN output
 -  Click **Apply** to save the changes.
 
 :::{seealso}
-The {ref}`example setups section <setup-laptop-and-external-card>` provides more details about the audio configuration in Mixxx.
+The {ref}`example setups section <setup-laptop-and-external-card>` provides more details about the audio configuration in Mixxx and how to [learn how to set your levels properly when using Mixxx](https://mixxx.org/manual/latest/en/chapters/djing_with_mixxx.html#djing-gain-staging).
 :::
 :::{note}
 The **Master** and **Headphone** knobs, as well as the
@@ -51,6 +51,10 @@ reaction when using them. This was done to prevent the knobs to adjust
 both the gain on the controller’s sound card and in Mixxx.
 :::
 ## Mapping description
+
+***
+Save both [MIDI](https://mixxx.discourse.group/uploads/short-url/iM3HIi1t8Rk2UzyvVzt7ihr4W9J.xml) and [script](https://mixxx.discourse.group/uploads/short-url/kSoIcpk36f5XXAqin2wuNNKwmC7.js) files to your [user controller mapping folder](https://github.com/mixxxdj/mixxx/wiki/controller%20mapping%20file%20locations#user%20controller%20mapping%20folder), then load the preset as described in [the user manual](https://mixxx.org/manual/latest/en/chapters/controlling_mixxx.html#using-midi-hid-controllers).
+***
 
 
 ### Decks
@@ -301,4 +305,6 @@ Hercules DJControl Inpulse 500 (Beatjump mode shift + pads)
 -  Master knob (Hardware control)
 -  Headphone knob (Hardware control)
 -  Master buttons (Hardware control)
+-  Mic Vol, High, Low (Hardware control)
+-  Aux Vol, Aux Filter (Hardware control)
 -  PADS: Toneplay

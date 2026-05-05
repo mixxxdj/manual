@@ -7,8 +7,11 @@ This controller has been discontinued as Vestax went out of business in 2014.
 -  [ASIO driver for Windows in serato.com](https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware)
 -  [Forum thread](https://mixxx.discourse.group/t/vestax-vci-100mkii/14084)
 
-:::{versionadded} 2.0
+![vci100mkii.png](_static/controllers/vci100mkii.png)
+
+::: {versionadded} 2.0
 :::
+
 ## Mapping Description
 
 
@@ -112,18 +115,20 @@ pressed.** Changes after the previous version are in bold.
 35. PFL [PFL solo] (if headphone mix is cue or main only then switch it)
 36. Enable EffectUnit1 [EffectUnit3] for the channel
 37. Enable EffectUnit2 [EffectUnit4] for the channel
-38. Up: previous track and scroll, Down: next track and scroll, Left: load to
-    left, Right: load to right, Push: load to first stopped
+38. Up: previous track and scroll, Down: next track and scroll, Left:
+    load to left, Right: load to right, Push: load to first stopped
 39. Channel select
 
-    1. left-right inverse -> right inverse -> left inverse -> full inverse ->
-       none -> full -> left -> right -> left-right
-    2. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
-       size: LED28 & 29
-    3. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
-       size: LED28 & 29
-    4. see [the article](https://mixxx.discourse.group/t/vestax-vci-100mkii/14084/21)
-       or use {ref}`Controller Wizard <advanced-controller-wizard>`
-       (choose “Quick Effect Super Knob”) for low-high pass
-    5. size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
-       size: LED28 & 29
+<!-- end list -->
+
+1.  left-right inverse -> right inverse -> left inverse -> full inverse ->
+   none -> full -> left -> right -> left-right
+2.  size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
+   size: LED28 & 29
+3.  size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
+   size: LED28 & 29
+4.  see [the article](https://mixxx.discourse.group/t/vestax-vci-100mkii/14084/21)
+   or use {ref}`Controller Wizard <advanced-controller-wizard>`
+   (choose “Quick Effect Super Knob”) for low-high pass
+5.  size < 1/4: LED28 & 29; 1/4 ≤ size < 4: LED28; 4 < size ≤ 64: LED29; 64 <
+   size: LED28 & 29

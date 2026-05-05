@@ -1,6 +1,5 @@
 # Stanton SCS.1m
 
-
 ```{figure-md}
 :align: center
 
@@ -11,7 +10,15 @@ Stanton SCS.1m (top/schematic view). Image courtesy of [Stanton Magnetics, Inc.]
 ```
 -  [Manufacturer’s product page](https://web.archive.org/web/20220903093704/https://www.stantondj.com/stanton-controllers-systems/scs1m.html)
 
-:::{versionadded} 1.7
+## Mapping description
+
+```{figure-md}
+:align: center
+
+<img src="../../_static/controllers/hardware/stantonscs/scs1m-map.png" alt="Stanton SCS.1m (mapping view)" class="pretty-figures" width="75%">
+```
+
+:{versionadded} 1.7
 :::
 **Easy customization:** We have provided the following customization variables
 at the top of the script you can set to your liking:
@@ -93,7 +100,7 @@ top. Edit & save.
 
    -  Rotate to move the track select highlight
    -  Press to load the selected track into the first stopped deck, if any.
-      //(This is [*not working*](https://github.com/mixxxdj/mixxx/issues/5815) in
+      //(This is [*not working*](https://github.com/mixxxxdj/mixxx/issues/5815) in
       1.9.x for some reason.)//
 
 -  **Control mode**:

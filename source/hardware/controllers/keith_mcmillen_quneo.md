@@ -1,7 +1,10 @@
 # Keith McMillen QuNeo
 
+![](../../_static/controllers/hardware/kmi_quoneo/quneo.jpg)
 
--  [Manufacturer’s product page](https://www.keithmcmillen.com/products/quneo/)
+Images (c) [KMI](http://www.keithmcmillen.com/)
+
+- [Manufacturer’s product page](https://www.keithmcmillen.com/products/quneo/)
 
 Keith McMillen QuNeo is a USB multi purpose pad controller and features
 tactile pads, sliders, rotary sensors and switches. Works with USB, MIDI
@@ -42,6 +45,8 @@ of the box.
 
 Keith McMillen Quneo (schematic view)
 ```
+#### Keith McMillen QuNeo Factory Midi mapping v1.0 for Mixxx 1.10+
+
 The mapping is included with the QuNeo installer, make sure to click the
 “Mixxx” check box when prompted during the installation. Alternatively
 download the Installer from
@@ -55,3 +60,15 @@ It turns QuNeo into a full fledged DJ controller using Mixxx. It
 includes controls for 2 players: play, sync, cue, tempo controls,
 crossfading, scratching, and various volume controls accessible from
 QuNeo.
+
+![](../../_static/controllers/hardware/kmi_quoneo/quneo_mixxx_mapping_v1.0.png)
+
+The next image shows what MIDI data will output for each sensor in the
+mapping. The top 2 rows of Pads are in Grid Mode and the bottom 2 rows
+of Pads are in Drum Mode. This preset doesn’t use banks. Rotaries are
+set to use Direction instead of Location. Velocity response is fixed at
+127 for all notes.
+
+![](../../_static/controllers/hardware/kmi_quoneo/quneo_mixxx_midi_output_v1.0.png)
+
+#### Keith McMillen QuNeo Alternative Midi mapping for Mixxx 1.10+

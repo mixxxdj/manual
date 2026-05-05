@@ -3,7 +3,7 @@
 # Roland DJ-505
 
 
-:::{sectionauthor} Jan Holthuis <jholthuis@mixxx.org>
+::: {sectionauthor} Jan Holthuis <jholthuis@mixxx.org>
 :::
 ```{figure-md}
 :align: center
@@ -24,10 +24,11 @@ It also features a TR-S step sequencer with sounds from the TR-808 and the TR-90
 -  [Owner’s Manual](https://www.roland.com/global/support/by_product/dj-505/owners_manuals/)
 -  [Driver/Firmware/TR-S Samples Download Page](https://www.roland.com/global/products/dj-505/downloads)
 -  [Mapping Forum Thread](https://mixxx.discourse.group/t/roland-dj-505/17916)
+-  [Mapping Git Repository](https://github.com/Holzhaus/mixxx/tree/roland-dj-505-mapping)
 
-:::{versionadded} 2.3.0
+::: {versionadded} 2.3.0
 :::
-:::{versionchanged} 2.4.0
+::: {versionchanged} 2.4.0
 Added Saved Loop mode and improved Cue Loop Mode.
 :::
 ## Drivers
@@ -55,7 +56,6 @@ input support, applying effects to the TR-S output, etc.):
 | 5-6 (Mix)             | Record/Broadcast |
 | 7-8 (TR-S output)     | Auxiliary 1 |
 
-
 The microphone, TR-S drum machine, and external inputs are mixed
 together in input channels 5-6, so Mixxx can record and broadcast them.
 
@@ -65,7 +65,7 @@ Hence, turning the knobs will not change values in the Mixxx {term}`GUI` and you
 - Set the main/booth/headphones/microphone/aux channel levels to 100% (knob center position)
 - Set cue/main mixing to cue-only (leftmost position)
 
-:::{note}
+::: {note}
 You should assign the {guilabel}`Vinyl Control` input channels even if you do not intend to use timecode vinyl.
 These channel assignments are also needed to make the {hwlabel}`CH 1/2 PC/LINE/PHONO` switches work (i. e. passing through line or phono input to the left/right deck).
 :::
@@ -75,6 +75,7 @@ These channel assignments are also needed to make the {hwlabel}`CH 1/2 PC/LINE/P
 The control numbering in the schematic drawings matches the those found on the
 specified page in the Owner’s Manual.
 
+A mapping has been [added to Mixxx](https://github.com/mixxxdj/mixxx/pull/2111) prior to the 2.3.0 release.
 
 ### Browser Section (p. 4)
 
@@ -92,13 +93,12 @@ Roland DJ-505 (browser section)
 | 1        |  {hwlabel}`LOAD` buttons                           |   Load song into deck. |
 | 1        |  {hwlabel}`SHIFT` + {hwlabel}`LOAD` button (left)  |   Sort library by BPM (press repeatedly to toggle ascending/descending order). |
 | 1        |  {hwlabel}`SHIFT` + {hwlabel}`LOAD` button (right) |   Sort library by key (press repeatedly to toggle ascending/descending order). |
-| 2        |  Rotary Selector                                   |   Turn to move tracklist cursor up/down. Press to load and play/pause currently selected track on preview deck. Hold and turn to seek in track on preview deck. |
+| 2        | Rotary Selector                                   |   Turn to move tracklist cursor up/down. Press to load and play/pause currently selected track on preview deck. Hold and turn to seek in track on preview deck. |
 | 2        |  {hwlabel}`SHIFT` + Rotary Selector                |   Turn to move sidebar cursor up/down. Hold and turn to change track color of currently selected track. |
 | 3        |  {hwlabel}`BACK` button                            |   *Not yet mapped.* |
 | 3        |  {hwlabel}`SHIFT` + {hwlabel}`BACK` button         |   Sort library by title (press repeatedly  to toggle ascending/descending order). |
 | 4        |  {hwlabel}`ADD PREPARE` button                     |   (Un-)Maximizes the library view. |
 | 4        |  {hwlabel}`SHIFT` + {hwlabel}`ADD PREPARE` button  |   Sort library by artist (press repeatedly to toggle ascending/descending order). |
-
 
 
 ### Deck Section (p. 5-6)
@@ -143,7 +143,6 @@ Roland DJ-505 (deck section)
 | 13       |  Tempo slider                                                         |   Adjust song playback speed (and pitch if key lock if off). |
 
 
-
 ### Mixer Section (p. 7)
 
 
@@ -174,7 +173,6 @@ Roland DJ-505 (mixer section)
 | 12       |  Level indicator                                                |   Indicate the output level of each channel and main. |
 
 
-
 ### Effects Section (p. 7)
 
 
@@ -190,7 +188,6 @@ Roland DJ-505 (effects section)
 | --- | --- | --- |
 | 1        |  {hwlabel}`CH ASSIGN` area                                      |   Toggle effect units 1/2 for decks 1/2 (3/4 if {hwlabel}`SHIFT` is pressed) or the TR-S (Aux 3) and Samplers 1-16. |
 | 2-5      |  *Various*                                                      |   See {ref}`Standard Effects Mapping <controller-effects-mapping>`. |
-
 
 
 ### TR-S Section (p. 8)
@@ -233,27 +230,26 @@ Roland DJ-505 (TR-S section)
 ### Performance Pads
 
 
-You can use the Pad Mode Select buttons to select a mode for the
-performance pads.
+You can use the Pad Mode Select buttons to select a mode for the performance pads.
+Most pad modes are similar to those found when used with Serato.
 
-| Control                                                    |  Mode                 |   LED Color |
-| --- | --- | --- |
-| {hwlabel}`HOT CUE` button                                  |  Hot Cue Mode         |   White |
-| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button               |  Cue Loop Mode        |   Blue |
-| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button (press twice) |  Prepare Mode         |   Red |
-| {hwlabel}`ROLL` button                                     |  Roll Mode            |   Light blue |
-| {hwlabel}`ROLL` button (press twice)                       |  Saved Loop Mode      |   Green |
-| {hwlabel}`TR` button                                       |  TR Mode              |   Red |
-| {hwlabel}`SHIFT` + {hwlabel}`TR` button                    |  Pattern Mode         |   Green |
-| {hwlabel}`TR` button (press twice)                         |  TR Velocity Mode     |   Orange |
-| {hwlabel}`SAMPLER` button                                  |  Sampler Mode         |   Magenta |
-| {hwlabel}`SHIFT` + {hwlabel}`SAMPLER` button               |  Velocity Sampler Mod |   Purple |
-| {hwlabel}`SAMPLER` button (press twice)                    |  Pitch Play Mode      |   Green |
+| Control                                                    |  Mode                 | LED Color  |
+| ---------------------------------------------------------- | --------------------- | ---------- |
+| {hwlabel}`HOT CUE` button                                  | Hot Cue Mode          | White      |
+| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button               | Cue Loop Mode         | Blue       |
+| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button (press twice) | Prepare Mode         | Red        |
+| {hwlabel}`ROLL` button                                     | Roll Mode             | Light blue |
+| {hwlabel}`ROLL` button (press twice)                       | Saved Loop Mode      | Green      |
+| {hwlabel}`TR` button                                       | TR Mode              | Red        |
+| {hwlabel}`SHIFT` + {hwlabel}`TR` button                    | Pattern Mode         | Green      |
+| {hwlabel}`TR` button (press twice)                         | TR Velocity Mode     | Orange     |
+| {hwlabel}`SAMPLER` button                                  | Sampler Mode          | Magenta    |
+| {hwlabel}`SHIFT` + {hwlabel}`SAMPLER` button               | Velocity Sampler Mod | Purple     |
+| {hwlabel}`SAMPLER` button (press twice)                    | Pitch Play Mode       | Green      |
 
 
 Most pad modes are similar to those found when used with Serato.
-Modes that are described in the owner’s manual (Slicer, Slicer
-Loop, Flip) but not listed below are currently not mapped.
+Modes that are described in the owner’s manual (Slicer, Slicer Loop, Flip) but not listed below are currently not mapped.
 
 #### Hot Cue Mode
 
@@ -329,7 +325,7 @@ This mode allow you to prepare tracks by setting intro/outro cues.
 | 9-10     |  {hwlabel}`SHIFT` + {hwlabel}`PARAMETER -/+` buttons            |   *Currently not mapped*. |
 
 
-:::{note}
+::: {note}
 This mode has been added by the Mixxx developers and is not available in
 Serato.
 :::
@@ -412,7 +408,6 @@ The sampler modes allow you to load, play and stop samples in the first 8 sample
 | 9-10     |  {hwlabel}`PARAMETER -/+` buttons                               |   *Currently not mapped*. |
 
 
-
 #### Pitch Play Mode
 
 
@@ -430,7 +425,7 @@ Pads right of the white lit pad raise the pitch, pads left of it lower it.
 | No.      |  Control                                                        |   Function |
 | --- | --- | --- |
 | 1-8      |  Pad                                                            |   Play currently selected hotcue with modified pitch. |
-| 1-8      |  {hwlabel}`SHIFT` + Pad (dimly lit)                             |   Select hot cue for pitch play. The pad of the currently selected hotcue pad is lit. |
+| 1-8      |  {hwlabel}`SHIFT` + Pad (dimly lit)                             |   Select hot cue for pitch play. The pad of the selected hotcue pad is lit. |
 | 9-10     |  {hwlabel}`PARAMETER -/+` buttons                               |   Cycles through semitone ranges (Up, Mid, Down). |
 
 
@@ -439,7 +434,7 @@ Pads right of the white lit pad raise the pitch, pads left of it lower it.
 
 -  TR-S Syncing currently works at the {term}`BPM` level, but phase syncing is not implemented yet.
    As a workaround, the {hwlabel}`NUDGE` button can be used to adjust the phase.
-   This depends on {term}`MIDI` clock I/O ([Bug #5682](https://github.com/mixxxdj/mixxx/issues/5682)).
+   This depends on {term}`MIDI` clock I/O ([Bug #5682](https://github.com/mixxx/issues/5682)).
 -  Some performance pad modes are missing
    (Slicer [[Launchpad Bug #9660](https://github.com/mixxxdj/mixxx/issues/9660)],
    Slicer Loop,

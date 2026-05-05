@@ -1,5 +1,6 @@
 # Behringer CMD STUDIO 4a
 
+![](../../_static/controllers/hardware/cmd-studio-4a_p0809_top_l.png)
 
 The Behringer CMD STUDIO 4a is a 2 deck controller that supports 4
 virtual decks and has a built in 4 channel (one stereo main, one
@@ -7,9 +8,12 @@ stereo headphones) USB sound card built in.
 
 -  [Manufacturer’s product page](https://www.behringer.com/product.html?modelCode=P0809)
 -  [Mixxx Forum Thread](https://mixxx.discourse.group/t/new-behringer-cmd-studio-4a-mapping/15604)
+-  [Manufacturer's manual](https://media.music-group.com/media/PLM/data/docs/P0809/CMD-STUDIO-4A_QSG_WW.pdf)
+
 
 :::{versionadded} 2.1
 :::
+
 ## Mixxx Sound Hardware Preferences
 
 
@@ -17,7 +21,6 @@ stereo headphones) USB sound card built in.
 -  Headphone output: channels 3-4
 
 ## Mapping description
-
 
 Most of the buttons and knobs on the controller behave as they are
 labelled:
@@ -34,7 +37,6 @@ The only major departure from the above are the 4 “FX Control” knobs and
 buttons at the top of each deck.
 
 ### Mixer
-
 
 -  The HIGH, MID, and LOW EQ knobs & kill buttons, deck faders,
    cross-fader, main, and headphone monitoring (mix & volume) knobs
@@ -103,7 +105,6 @@ buttons at the top of each deck.
 
 ### FX Control Buttons
 
-
 These do not control effects; they have other functions:
 
 -  FX Control button 1 toggles the deck slip-mode on/off, (button lights
@@ -140,9 +141,7 @@ These do not control effects; they have other functions:
 -  \*Holding\* an FX ASSIGN button allows the effect in that effect unit
    to be changed using the BROWSE LEFT/RIGHT buttons.
 
-(del-mode)=
 ### DEL-mode
-
 
 DEL-mode is activated by *tapping* the deck’s hot cue DEL button (the
 button will light up blue). This is equivalent to a shift button on

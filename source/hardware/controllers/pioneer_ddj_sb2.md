@@ -2,14 +2,18 @@
 
 # Pioneer DDJ-SB2
 
-
-The Pioneer DDJ-SB2 is an all-in-one USB {term}`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
+![](../../_static/controllers/hardware/pioneer-ddj-sb2_1.jpg)
 
 -  [Manufacturer’s product page](https://www.pioneerdj.com/en/product/controller/archive/ddj-sb2/black/overview/)
 -  [Forum thread](https://mixxx.discourse.group/t/pinoneer-ddj-sb2-midi-mapping/15373/26)
+-  [Mixxx DDJ-SB2 mapping repository](https://github.com/dg3nec/mixxx/tree/DDJ-SB2/res/controllers)
 
-:::{versionadded} 2.0
+
+::: {versionadded} 2.0
 :::
+
+The Pioneer DDJ-SB2 is an all-in-one USB {term}`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
+
 ## Audio
 
 
@@ -32,7 +36,7 @@ The DDJ-SB2 is a USB class compliant {term}`MIDI` and audio device, so it works 
 ## User Options
 
 
-There are some user configurable options for this mapping. To change the options, open the ``.js`` file in your controller for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or TextEdit on Mac OS X.
+There are some user configurable options for this mapping. To change the options, open the ``.js`` file in your controller for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or TextEdit on Mac OS X. The mapping files can be found in the [user controller mapping folder](controller%20mapping%20file%20locations#user%20controller%20mapping%20folder).
 
 -  **blinkingSync**: If true the sync button blinks with the beat, if false led is lit when sync is enabled.
 -  **invertVinylSlipButton**: If true, the vinyl button activates slip. Vinyl mode is then activated by using shift. Allows toggling slip faster, but is counterintuitive.
@@ -95,11 +99,11 @@ When a deck is paused, the jogwheel allows you to browse through a track. If you
 
 When a deck is playing, using the jogwheel allows you to temporarily change the tempo of the playing track. Again, holding shift exaggerates this effect.
 
-The tempo slider allows changing the tempo of each deck. This normally changes the pitch of a track, but you can make the pitch stay constant by pressing the “key lock / tempo range” button.
-Additionally, with shift, the “key lock / tempo range” will fade the tempo slowly to 0. The fading speed can be customized with the speedRateToNormalTime mapping option.
+The tempo slider allows changing the tempo of each deck. This normally changes the pitch of a track, but you can make the pitch stay constant by pressing the “key lock / tempo range” button. Additionally, with shift, the “key lock / tempo range” will fade the tempo slowly to 0. The fading speed can be customized with the speedRateToNormalTime mapping option.
 
 Vinyl mode makes the jogwheels emulate the way turntables work. Vinyl mode can be toggled by pressing the “vinyl / slip” button. Touching the outer plastic ring of the jogwheel will temporarily change
-the tempo like when vinyl mode is off. Touching the metal disc simulates touching the vinyl record, so just putting your hand on it will stop the “vinyl”. You can scratch in a similar way as with
+the tempo like when vinyl mode is off. Touching the metal disc simulates touching
+the vinyl record, so just putting your hand on it will stop the “vinyl”. You can scratch in a similar way as with
 turntables in vinyl mode.
 
 ### Slip mode
@@ -111,7 +115,7 @@ loop. When you press shift + slip again, Mixxx will jump back to that point.
 ### Pads - lower row
 
 
-The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed.
+The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed. Refer to the Mixxx manual for how to use master sync.
 
 Additional functions can be accessed by holding shift
 
@@ -119,7 +123,7 @@ Additional functions can be accessed by holding shift
 | --- | --- |
 | Shift + play | Plays the track in reverse and enables slipping (see slip mode) |
 | Shift + cue  | Brakes the track as if the power of the motor on a turntable was turned off |
-| Shift + sync | Enables quantize mode (this makes most actions, e.g. pressing play or setting the cue point, fall to the nearest beat) |
+| Shift + sync | Enables quantize mode (this makes most actions, e.g. pressing play or setting the cue point, fall to the nearest beat) |
 
 
 ### Pads - hot cue mode
@@ -128,7 +132,8 @@ Additional functions can be accessed by holding shift
 In hot cue mode the upper row of pads control the hotcues. Pressing a pad that is not lit sets a hotcue. Pressing a pad that is lit makes the track jump and play from that hotcue. Pressing a pad while
 holding shift deletes that hotcue.
 
-You can control a set of 4 more hotcues by pressing shift + hot cue. The hot cue button will start blinking. The pads will behave in the same way, but controlling hotcues 5 to 8.
+You can control a set of 4 more hotcues by pressing shift + hot cue. The hot cue button will start blinking. The pads will behave in the same
+way, but controlling hotcues 5 to 8.
 
 ### Pads - auto loop mode
 
@@ -143,77 +148,93 @@ Pressing the pads in auto loop mode will make loops of a specific length measure
 | Pad 4         | reloop (reactivate a pre-existing loop) |
 | Shift + pad 1 | set a rolling loop of the selected number of beats |
 | Shift + pad 2 | beatjump backwards by the beatjump size, or move the loop backwards by the beatjump size if the loop is enabled |
-| Shift + pad 3 | beatjump forwards by the beatjump size, or move the loop forwards by the beatjump size if the loop is enabled |
+| Shift + pad 3 | beatjump forwards by the beatjump size, or move the loop forwards by the beatjump size if the loop is enabled   |
 | Shift + pad 4 | enable loop, jump to loop in marker, and stop playback |
 
 
 ### Pads - manual loop mode
 
 
-This mode allows you to set loops different from the fixed lengths of beats in auto loop mode.
+This mode allows you to set loops different from the fixed lengths of
+beats in auto loop mode.
 
-| Control       | Function |
+| Control       | Function                    |
 | --- | --- |
-| Pad 1         | Set loop in |
-| Pad 2         | Set loop out |
-| Pad 3         | Toggles loop |
-| Pad 4         | Halve loop length |
-| Shift + pad 4 | Double loop length |
+| Pad 1         | Set loop in                 |
+| Pad 2         | Set loop out                |
+| Pad 3         | Toggles loop                 |
+| Pad 4         | Halve loop length           |
+| Shift + pad 4 | Double loop length          |
 | Shift + pad 1 | Move loop one beat backward |
-| Shift + pad 2 | Move loop one beat forward |
+| Shift + pad 2 | Move loop one beat forward  |
 
 
 ### Pads - sampler mode
 
 
-In sampler mode the sampler can be controlled. To load a file into a sampler, first press the sampler button while holding shift, so that the sampler button starts blinking. Now pressing a pad will
+In sampler mode the sampler can be controlled. To load a file into a
+sampler, first press the sampler button while holding shift, so that the sampler button starts blinking. Now pressing a pad will
 load the currently highlighted track on the library into the corresponding sampler. Pressing a pad while holding shift will eject the sample.
 
-To play samples, press the sampler button without holding shift (it should not blink). Pressing a pad will start playing the corresponding sample, pressing a pad while holding shift will stop it.
+To play samples, press the sampler button without holding shift (it
+should not blink). Pressing a pad will start playing the corresponding sample, pressing a pad while holding shift will stop it.
 
 ### Pads - loop roll (shift + auto loop)
 
 
-By pressing the auto loop button while holding shift (it should start blinking) you can make loop rolls. This mode combines auto loops with slip mode. The pads will start a loop in the current
-position with a determinate beat length while simultaneously enabling slip mode, so that when releasing the pad the track will continue playing as if the loop never happened.
+By pressing the auto loop button while holding shift (it should start
+blinking) you can make loop rolls. This mode combines auto loops with
+slip mode. The pads will start a loop in the current
+position with a determinate beat length while simultaneously enabling slip mode, so that
+when releasing the pad the track will continue playing as if the loop never happened.
 
-| Control       | Function |
+| Control       | Function              |
 | --- | --- |
 | Pad 1         | 1/16th beat loop roll |
-| Pad 2         | 1/8th beat loop roll |
-| Pad 3         | 1/4th beat loop roll |
-| Pad 4         | 1/2 beat loop roll |
-| Shift + pad 1 | 1 beat loop roll |
-| Shift + pad 2 | 2 beat loop roll |
-| Shift + pad 3 | 4 beat loop roll |
-| Shift + pad 4 | 8 beat loop roll |
+| Pad 2         | 1/8th beat loop roll  |
+| Pad 3         | 1/4th beat loop roll  |
+| Pad 4         | 1/2 beat loop roll    |
+| Shift + pad 1 | 1 beat loop roll      |
+| Shift + pad 2 | 2 beat loop roll      |
+| Shift + pad 3 | 4 beat loop roll      |
+| Shift + pad 4 | 8 beat loop roll      |
 
 
 ### Pads - kill (shift + manual loop)
 
 
-By pressing the manual loop button while holding shift (it should start blinking) you can make the pads behave as EQ kill switches.
+By pressing the manual loop button while holding shift (it should start
+blinking) you can make the pads behave as EQ kill switches.
 
-| Control | Function |
+| Control | Function  |
 | --- | --- |
-| Pad 1   | Kill low |
-| Pad 2   | Kill mid |
+| Pad 1   | Kill low  |
+| Pad 2   | Kill mid  |
 | Pad 3   | Kill high |
-| Pad 4   | Mute |
+| Pad 4   | Mute      |
 
 
 ### Effects
 
 
-The knob controls the dry/wet knob of the whole effect chain when no effect is focused. When an effect is focused, the knob controls the metaknob of the focused effect. Focus an effect by pressing one
-of the effect buttons. To switch the controller’s knob back to manipulating the dry/wet knob, unfocus by pressing the button of the focused effect again.
+The knob controls the dry/wet knob of the whole effect chain when no
+effect is focused. When an effect is focused, the knob controls the
+metaknob of the focused effect. Focus an effect by pressing one
+of the effect buttons. To switch the controller’s knob back to manipulating the
+dry/wet knob, unfocus by pressing the button of the focused effect
+again.
 
-Press and hold an effect button to toggle the enable switch for that effect. The enable switches for each effect are not shown on the controller’s LEDs, so you need to look at the screen to check
+Press and hold an effect button to toggle the enable switch for that
+effect. The enable switches for each effect are not shown on the
+controller’s LEDs, so you need to look at the screen to check
 whether an effect is on. All effects are off when Mixxx starts.
 
-Use shift and the mixer knobs to control the parameters of the focused effect. The trim knob controls parameter 1, the equalizer knobs control parameters 2-4, and the filter knob controls parameter 5.
+Use shift and the mixer knobs to control the parameters of the focused
+effect. The trim knob controls parameter 1, the equalizer knobs control
+parameters 2-4, and the filter knob controls parameter 5.
 
-The DDJ-SB2 does not have enough buttons to control assigning effect units to different decks.
+The DDJ-SB2 does not have enough buttons to control assigning effect
+units to different decks.
 You may want to set up a {ref}`custom keyboard mapping <advanced-keyboard>` to have easy access to those switches.
 Otherwise, you can use your mouse to click the buttons on screen.
 
@@ -221,6 +242,8 @@ Otherwise, you can use your mouse to click the buttons on screen.
 
 
 Start/stop Auto DJ: Shift + DECK 4. If enabled in the user options enabled, the level meter LEDs twinkle.
+
+### Skip Track
 
 Skip Track: Shift + DECK 3
 

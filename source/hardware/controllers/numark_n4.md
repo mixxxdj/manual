@@ -27,7 +27,7 @@ An annotated, ready-to-print overlay of this mapping can be downloaded for {down
 ## Definable Settings
 
 
-Some settings in the script can be changed by editing them at the top of the script.
+Some settings in the script can be changed by editing them at the top of the script. You can find the Javascript file by opening the pressing the "Open User Preset Folder" Button in Preferences\>Controllers and search for "Numark-N4-4channel-scripts.js".
 
 **searchAmplification** Defines the speedup-factor used when using the searchbutton and scrolling.<br>
 *type:* number<br>
@@ -57,6 +57,7 @@ Some settings in the script can be changed by editing them at the top of the scr
 *type:* array<br>
 *range:* ]0;3]
 
+
 ## Deck
 
 
@@ -78,13 +79,13 @@ original state (like a regular shift-/pushbutton). If the Button was pressed for
 #### Hotcues
 
 
-The four lower buttons of the topContainer are hotcues. They can be changed by using the corresponding Encoder [HOTCUE PAGE]. The current assignment will then be shown for one second in the upper row.
-Currently up to 4 Pages are supported (with 4 hotcues each).
+The four lower buttons of the topContainer are hotcues. They can be changed by using the corresponding Encoder [HOTCUE PAGE]. The current assignment will then be shown for one second in the upper row. Currently up to 4 Pages are supported (with 4 hotcues each). A demo of how this looks can be seen on [JsFiddle](https://jsfiddle.net/Swiftb0y/q9zbgvxj/1/) (not done yet) (the slider represents the Encoder).
 
 ### Controls
 
 
 Most of these controls behave as expected but they are listed in detail for the sake of completeness anyways.
+
 
 #### Play
 
@@ -110,7 +111,7 @@ Shifted: Change rate temporarily small.
 Default: Momentary BPM Sync<br>
 \* Short Press: Momentary BPM & Phase Sync
 
--  Long Press: Toggle Sync Lock
+-  Long Press: Toggle Master Sync (Sync Lock)
 
 Shifted: Toggles magnet (quantize)
 
@@ -272,11 +273,13 @@ Shifted: Move Focus between panes<br>
 *sometimes the focus is stuck somewhere (eg when using the searchbox) and is only recoverable with user intervention via a pointing device.*
 
 **Button** Default: Open/Close Folder / Load Item into first available Deck (Context-dependent)<br>
-Shift: Maximize Library<br>
+Shift: Maximize Library
+
 ## Miscellaneous
 
 
 ### Crossfader
+
 
 The Crossfader and its assignment buttons are integrated seamlessly with Mixxx.
 
@@ -287,16 +290,30 @@ Function as expected: Mutes the corresponding Deck in Mixxx if set to Line.
 
 ### Crossfader Contour
 
+
 Normal: Uses the crossfader parameters that were present when the mapping was loaded Scratch: Uses Scratch typical parameters for hard cuts
 
 ### Cue-Master Mix
+
 
 Doesn’t manipulate the mixxx controls. Make sure the head gain is not zero and the mix is set to 100% PFL
 
 ### Cue Volume
 
+
 Make sure its high enough within mixxx
 
 ### Booth/Gain Volume
 
+
 Behaves as expected (but doesn’t manipulate any mixxx controls).
+
+## Troubleshooting
+
+
+### The only Mapping for the N4 I have works completely different
+
+
+This is probably due to your Mixxx version not being up-to-date or this mapping not being merged yet. You can download the mapping directly on [GitHub](https://github.com/mixxxdj/mixxx/pull/1647).
+
+  - [Manufacturer's product page](http://www.numark.com/product/n4)

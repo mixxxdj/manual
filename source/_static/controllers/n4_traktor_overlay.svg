@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1595.5 312.96" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:ns="&amp;#38;ns_ai;" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern id="pattern2681" patternTransform="matrix(-1.9753 0 0 -1.9753 27.312 -158.97)" xlink:href="#pattern2632"/><pattern id="pattern2632" patternTransform="matrix(-1.9753 0 0 -1.9753 180.16 -158.97)" xlink:href="#pattern2451"/><pattern id="pattern2451" patternTransform="matrix(-1.9753 0 0 -1.9753 180.16 -158.97)" xlink:href="#pattern2409"/><pattern id="pattern2409" patternTransform="matrix(-1.9753 0 0 -1.9753 27.312 -158.97)" xlink:href="#Checkerboard"/><pattern id="Checkerboard" width="2" height="2" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse"><rect width="1" height="1"/><rect x="1" y="1" width="1" height="1"/></pattern><clipPath id="clipPath7236"><rect x="-17.777" y="232.91" width="177.5" height="63.5" fill="#a2b0b0"/></clipPath></defs><g transform="matrix(1.3333 0 0 -1.3333 0 312.96)"><path d="m0 234.72s-0.097009-148.39 0-222.59c0.0083033-6.3507 6.4918-11.99 11.999-11.999 107.81-0.16255 322.51-0.0069917 322.51-0.0069917l-5.1e-4 33.152c-0.0663 2.5854 1.5244 4.2017 3.6457 4.2017l44.165-0.04849c3.0494 0.19887 4.0347-1.6287 3.9022-3.8826l-0.13759-33.405 424.48 0.38365 0.18245 32.347s-0.0888 4.498 4.2237 4.498l42.563 0.0061c4.4062-0.09375 4.5521-4.4649 4.5521-4.4649l-0.14581-32.378s241.93-0.092606 322.24-0.40169c5.4749-0.021069 12.377 3.5995 12.356 12.356-0.1781 74.04 0 222.12 0 222.12z" fill="#aaa6a5" fill-opacity=".93865" stroke="#a5c2ca" stroke-width=".75px"/><rect id="use842" transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect id="use2488" transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/><g id="use2580" transform="translate(-76.544)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/></g><use id="use2582" transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2580"/><use id="use2584" transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2582"/><use id="use2595" transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2584"/><use transform="translate(76.633)" width="100%" height="100%" xlink:href="#use2595"/><use id="use2993" transform="translate(167.25 56.25)" width="100%" height="100%" xlink:href="#use842"/><use transform="translate(166.92 32.814)" width="100%" height="100%" xlink:href="#use2580"/><g id="g2786" transform="translate(152.91)"><rect transform="scale(1,-1)" x="33.271" y="-180.68" width="13.769" height="45.403" fill="url(#pattern2681)"/><g id="g2836"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/></g><use xlink:href="#g2836"/><use transform="matrix(1.1361 0 0 1 -266.28 200.65)" width="100%" height="100%" xlink:href="#use2488"/></g><use id="use2788" transform="translate(-76.455)" width="100%" height="100%" xlink:href="#g2786"/><use id="use2790" transform="translate(-76.455)" width="100%" height="100%" xlink:href="#use2788"/><use transform="translate(229.37)" width="100%" height="100%" xlink:href="#use2790"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/></g><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(361.16 .077668)" width="100%" height="100%" xlink:href="#g2836"/><path d="m471.61 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m472.82 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(432.04 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(322.97)"><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(70.875)"><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g></g></g><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(361.16 .077668)" width="100%" height="100%" xlink:href="#g2836"/><g transform="translate(-107.25,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(-36.375,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(322.97)"><g transform="translate(-107.25,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(-36.375,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g></g><g transform="translate(-71.592 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(167.25 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="436.83139" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="436.83139" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+<text transform="scale(1,-1)" x="437.05112" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.05112" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+<use width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="437.01694" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.01694" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">3</tspan></text>
+
+<path d="m426.36 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="414.71814" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="414.71814" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="459.6636" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="459.6636" y="-18.296413">MAX</tspan></text>
+
+<text transform="scale(1,-1)" x="450.25024" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="450.25024" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="495.19571" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="495.19571" y="-157.2429">MAX</tspan></text>
+
+<text transform="scale(1,-1)" x="450.25024" y="-157.35754" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="450.25024" y="-157.35754" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="495.19571" y="-157.35754" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="495.19571" y="-157.35754">MAX</tspan></text>
+
+<text transform="scale(1,-1)" x="702.79718" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="702.79718" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="747.74268" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="747.74268" y="-157.2429">MAX</tspan></text>
+
+<text transform="scale(1,-1)" x="773.86139" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="773.86139" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="818.80688" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="818.80688" y="-157.2429">MAX</tspan></text>
+
+<g transform="translate(35.798 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(274.64 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="544.22205" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.22205" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+<text transform="scale(1,-1)" x="544.44177" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.44177" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+<use transform="translate(107.39)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="544.40759" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.40759" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">1</tspan></text>
+
+<path d="m533.75 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="522.10876" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="522.10876" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="567.05426" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="567.05426" y="-18.296413">MAX</tspan></text>
+
+<g transform="translate(143.42 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(382.27 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="651.84827" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="651.84827" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+<text transform="scale(1,-1)" x="652.06799" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="652.06799" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+<use transform="translate(215.02)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="652.03381" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="652.03381" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">2</tspan></text>
+
+<path d="m641.38 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="629.73499" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="629.73499" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="674.68048" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="674.68048" y="-18.296413">MAX</tspan></text>
+
+<g transform="translate(251.24 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(490.08 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="759.66077" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.66077" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+<text transform="scale(1,-1)" x="759.88049" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.88049" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+<use transform="translate(322.83)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="759.84631" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.84631" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">4</tspan></text>
+
+<path d="m749.19 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="737.54749" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="737.54749" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+<text transform="scale(1,-1)" x="782.49298" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="782.49298" y="-18.296413">MAX</tspan></text>
+
+<use transform="translate(-76.873 -23.436)" width="100%" height="100%" xlink:href="#use2993"/><use transform="translate(90.377 33.564)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SHIFT</tspan></text>
+
+<g transform="translate(476.2)"><use transform="translate(-76.873 -23.436)" width="100%" height="100%" xlink:href="#use2993"/><use transform="translate(90.377 33.564)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SHIFT</tspan></text>
+
+</g><text transform="scale(1,-1)" x="379.125" y="-157.35999" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="379.125" y="-157.35999" stroke-width=".75">CUE</tspan></text>
+
+<text transform="scale(1,-1)" x="429.1875" y="-157.35999" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="429.1875" y="-157.35999" stroke-width=".75">MASTER</tspan></text>
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="525.03" y="18.45" width="19.092" height="8.1317"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="597.94714" y="-223.269" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="597.94714" y="-223.269" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SCROLL / MAXIMIZE LIBRARY</tspan></text>
+
+<text transform="scale(1,-1)" x="437.52231" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.52231" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CUE</tspan></text>
+
+<text transform="scale(1,-1)" x="400.66437" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="400.66437" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIX</tspan></text>
+
+<rect transform="scale(1,-1)" x="410.86" y="-218.81" width="17.156" height="1.2656" ry="0"/><rect transform="scale(1,-1)" x="446.67" y="-218.81" width="14.772" height="1.2656" ry="0"/><text transform="scale(1,-1)" x="795.08844" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="795.08844" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MASTER</tspan></text>
+
+<text transform="scale(1,-1)" x="724.28937" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="724.28937" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BOOTH</tspan></text>
+
+<use transform="matrix(1.3751 0 0 1.3751 542.76 -68.766)" width="100%" height="100%" xlink:href="#g2836"/><use transform="matrix(1.794 0 0 1 114.65 126.58)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="567.18799" y="-142.65881" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="567.18799" y="-138.23499" stroke-width=".75"/></text>
+
+<text transform="scale(1,-1)" x="598.36523" y="-140.50494" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="598.36523" y="-140.50494" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MOVE  FOCUS / CLICK ITEM</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42609" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEATJUMP</tspan></text>
+
+<text transform="scale(1,-1)" x="193.05858" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE PAGE</tspan></text>
+
+<text transform="scale(1,-1)" x="116.69104" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 SUPER</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 SUPER</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42609" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="193.05858" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="116.69104" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SETHOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="193.05861" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="62.225" y="223.86" width="4.2426" height="22.981"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="116.69106" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42612" y="-12.749291" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-12.749291" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="193.05861" y="-77.714729" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-77.714729" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SLIP</tspan></text>
+
+<text transform="scale(1,-1)" x="116.69106" y="-77.658089" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-77.658089" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 2</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 1</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42612" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">REPEAT</tspan></text>
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="15.556" y="199.82" width="426.39" height="18.031"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="193.05861" y="-213.47923" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-213.47923" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP SIZE</tspan></text>
+
+<text transform="scale(1,-1)" x="116.69106" y="-213.42259" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-213.42259" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 MIX</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 MIX</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42612" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">JUMP SIZE</tspan></text>
+
+<text transform="scale(1,-1)" x="269.42609" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">RELOOP</tspan></text>
+
+<text transform="scale(1,-1)" x="193.05858" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP HERE</tspan></text>
+
+<text transform="scale(1,-1)" x="116.69104" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP OUT</tspan></text>
+
+<text transform="scale(1,-1)" x="40.323513" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP IN</tspan></text>
+
+<g transform="translate(886.71 -.46875)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/><g transform="translate(-76.544)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/></g><use transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2584"/><use transform="translate(76.633)" width="100%" height="100%" xlink:href="#use2595"/><g transform="translate(152.91)"><rect transform="scale(1,-1)" x="33.271" y="-180.68" width="13.769" height="45.403" fill="url(#pattern2681)"/><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/><use transform="matrix(1.1361 0 0 1 -266.28 200.65)" width="100%" height="100%" xlink:href="#use2488"/></g><use transform="translate(-76.455)" width="100%" height="100%" xlink:href="#g2786"/><use transform="translate(-76.455)" width="100%" height="100%" xlink:href="#use2788"/><use transform="translate(229.37)" width="100%" height="100%" xlink:href="#use2790"/></g><text transform="scale(1,-1)" x="1156.1381" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEATJUMP</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE PAGE</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 SUPER</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 SUPER</tspan></text>
+
+<text transform="scale(1,-1)" x="1156.1381" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SETHOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="1156.1381" y="-12.280541" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-12.280541" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-77.245979" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-77.245979" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SLIP</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-77.189339" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-77.189339" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 2</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 1</tspan></text>
+
+<text transform="scale(1,-1)" x="1156.1381" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">REPEAT</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-213.01048" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-213.01048" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP SIZE</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-212.95384" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-212.95384" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 MIX</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 MIX</tspan></text>
+
+<text transform="scale(1,-1)" x="1156.1381" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">JUMP SIZE</tspan></text>
+
+<text transform="scale(1,-1)" x="1156.1381" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">RELOOP</tspan></text>
+
+<text transform="scale(1,-1)" x="1079.7705" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP HERE</tspan></text>
+
+<text transform="scale(1,-1)" x="1003.403" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP OUT</tspan></text>
+
+<text transform="scale(1,-1)" x="927.03546" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP IN</tspan></text>
+
+<switch transform="matrix(.43539 0 0 -.43539 307.96 298)" clip-path="url(#clipPath7236)">
+	<foreignObject width="1" height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+		<ns:pgfRef xlink:href="#adobe_illustrator_pgf">
+		</ns:pgfRef>
+	</foreignObject>
+	<g ns:extraneous="self">
+
+
+		<linearGradient id="SVGID_1_" x1="133.36" x2="109.59" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="114.82 211.64 104.38 211.64 128 177.19 138.44 177.19" fill="url(#SVGID_1_)"/>
+		<linearGradient id="SVGID_2_" x1="86.048" x2="62.274" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="67.51 211.64 57.062 211.64 80.68 177.19 91.126 177.19" fill="url(#SVGID_2_)"/>
+		<linearGradient id="SVGID_3_" x1="109.71" x2="85.934" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="91.167 211.64 80.722 211.64 104.34 177.19 114.78 177.19" fill="url(#SVGID_3_)"/>
+
+			<linearGradient id="SVGID_4_" x1="74.096" x2="74.096" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="80.68 211.64 91.126 211.64 67.51 177.19 57.065 177.19" fill="url(#SVGID_4_)"/>
+			<linearGradient id="SVGID_5_" x1="97.754" x2="97.754" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="104.34 211.64 114.79 211.64 91.167 177.19 80.722 177.19" fill="url(#SVGID_5_)"/>
+			<linearGradient id="SVGID_6_" x1="121.41" x2="121.41" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="128 211.64 138.44 211.64 114.82 177.19 104.38 177.19" fill="url(#SVGID_6_)"/>
+			<linearGradient id="SVGID_7_" x1="49.035" x2="49.035" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="44.568" y="177.19" width="8.934" height="34.445" fill="url(#SVGID_7_)"/>
+			<linearGradient id="SVGID_8_" x1="20.309" x2="20.309" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="40.618 177.19 30.988 177.19 20.307 194.36 9.631 177.19 0 177.19 0 211.64 8.76 211.64 8.76 191.46 20.076 208.64 20.307 208.64 31.74 191.29 31.74 211.64 40.618 211.64" fill="url(#SVGID_8_)"/>
+
+		<linearGradient id="SVGID_9_" x1="65.429" x2="65.429" y1="172.52" y2="191.13" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#828486" offset="0"/>
+			<stop stop-color="#5A5B5D" offset=".3791"/>
+			<stop stop-color="#D1D3D4" offset="1"/>
+		</linearGradient>
+		<path d="m57.065 177.19 10.983 16.02c3.613 0.057 7.17 0.168 10.668 0.326l-11.206-16.346zm23.657 0 11.827 17.244c3.859 0.333 7.613 0.725 11.247 1.176l-12.629-18.42zm34.101 0h-10.445l14.188 20.685c4.366 0.811 8.477 1.714 12.292 2.695zm-70.255 16.35c2.933-0.134 5.917-0.23 8.934-0.294v-16.056h-8.934zm-24.261 0.825-10.676-17.175h-9.631v21.803c2.799-0.604 5.723-1.161 8.76-1.679v-5.851l3.479 5.282c5.459-0.85 11.247-1.564 17.305-2.125l2.195-3.332v3.136c2.903-0.249 5.865-0.462 8.877-0.638v-16.596h-9.63z" fill="url(#SVGID_9_)"/>
+		<path d="m92.476 194.33 0.073 0.106c3.859 0.333 7.613 0.725 11.247 1.176l-0.08-0.116c-3.624-0.446-7.378-0.835-11.24-1.166zm-92.476 4.665c2.799-0.604 5.723-1.161 8.76-1.679v-0.452c-3.039 0.49-5.971 1.018-8.76 1.586zm130.78 1.46c-3.786-0.988-7.894-1.9-12.307-2.716l0.095 0.138c4.366 0.811 8.477 1.714 12.292 2.695zm-62.814-7.366 0.084 0.123c3.613 0.057 7.17 0.168 10.668 0.326l-0.078-0.112c-3.494-0.161-7.056-0.274-10.674-0.337zm-23.396 0.453c2.933-0.134 5.917-0.23 8.934-0.294v-0.162c-3.018 0.053-5.999 0.137-8.934 0.257zm-32.328 3.206c5.459-0.85 11.247-1.564 17.305-2.125l0.197-0.301c-6.232 0.533-12.176 1.219-17.755 2.042zm19.5-2.321c2.903-0.249 5.865-0.462 8.877-0.638v-0.223c-3.014 0.162-5.977 0.357-8.877 0.589z" fill="#fff"/>
+		<linearGradient id="SVGID_10_" x1="53.368" x2="53.368" y1="212.22" y2="176.29" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="53.502 177.19 53.233 177.19 53.502 211.64" fill="url(#SVGID_10_)"/>
+		<linearGradient id="SVGID_11_" x1="40.463" x2="40.463" y1="212.22" y2="176.29" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="40.598 177.19 40.329 177.19 40.598 211.64" fill="url(#SVGID_11_)"/>
+		<linearGradient id="SVGID_12_" x1="44.689" x2="44.689" y1="211.46" y2="177.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="44.568 177.19 44.568 211.64 44.81 211.64" fill="url(#SVGID_12_)"/>
+		<linearGradient id="SVGID_13_" x1=".1509" x2=".1509" y1="211.46" y2="177.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="0.03 177.19 0.03 211.64 0.272 211.64" fill="url(#SVGID_13_)"/>
+
+			<linearGradient id="SVGID_14_" x1="79.318" x2="79.318" y1="211.64" y2="175.94" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="67.51 177.19 90.904 211.64 91.126 211.64" fill="url(#SVGID_14_)"/>
+			<linearGradient id="SVGID_15_" x1="68.873" x2="68.873" y1="211.99" y2="177.23" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="57.065 177.19 80.68 211.64 57.383 177.19" fill="url(#SVGID_15_)"/>
+
+
+			<linearGradient id="SVGID_16_" x1="102.97" x2="102.97" y1="211.62" y2="175.93" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="91.158 177.18 114.55 211.62 114.77 211.62" fill="url(#SVGID_16_)"/>
+			<linearGradient id="SVGID_17_" x1="92.521" x2="92.521" y1="211.97" y2="177.22" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="80.713 177.18 104.33 211.62 81.031 177.18" fill="url(#SVGID_17_)"/>
+
+
+			<linearGradient id="SVGID_18_" x1="126.63" x2="126.63" y1="211.62" y2="175.93" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="114.82 177.18 138.21 211.62 138.43 211.62" fill="url(#SVGID_18_)"/>
+			<linearGradient id="SVGID_19_" x1="116.18" x2="116.18" y1="211.97" y2="177.22" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="104.37 177.18 127.99 211.62 104.69 177.18" fill="url(#SVGID_19_)"/>
+
+		<linearGradient id="SVGID_20_" x1="31.853" x2="31.853" y1="211.64" y2="176.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="31.74 211.64 31.965 211.64 31.74 191.29" fill="url(#SVGID_20_)"/>
+		<linearGradient id="SVGID_21_" x1="8.6626" x2="8.6626" y1="211.64" y2="177.53" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="8.758 191.46 8.566 191.18 8.758 211.64" fill="url(#SVGID_21_)"/>
+		<linearGradient id="SVGID_22_" x1="20.31" x2="20.31" y1="211.64" y2="177.24" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="9.631 177.19 20.308 194.62 30.988 177.19 20.307 194.36" fill="url(#SVGID_22_)"/>
+		<linearGradient id="SVGID_23_" x1="20.25" x2="20.25" y1="211.92" y2="177.14" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="20.307 208.64 31.74 191.29 20.203 208.52 8.76 191.46 20.076 208.64" fill="url(#SVGID_23_)"/>
+		<linearGradient id="SVGID_24_" x1="345.04" x2="283.53" y1="-.1182" y2="88.795" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="297.07 89.146 270.05 89.146 331.16 0.028 358.17 0.028" fill="url(#SVGID_24_)"/>
+		<linearGradient id="SVGID_25_" x1="222.63" x2="161.12" y1="-.1221" y2="88.795" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="174.66 89.146 147.63 89.146 208.74 0.028 235.76 0.028" fill="url(#SVGID_25_)"/>
+		<linearGradient id="SVGID_26_" x1="283.84" x2="222.33" y1="-.1191" y2="88.794" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="235.87 89.146 208.84 89.146 269.96 0.028 296.97 0.028" fill="url(#SVGID_26_)"/>
+
+			<linearGradient id="SVGID_27_" x1="191.7" x2="191.7" y1=".2749" y2="93.906" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="208.74 89.146 235.76 89.146 174.66 0.028 147.64 0.028" fill="url(#SVGID_27_)"/>
+			<linearGradient id="SVGID_28_" x1="252.91" x2="252.91" y1=".2749" y2="93.906" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="269.96 89.146 296.98 89.146 235.87 0.028 208.84 0.028" fill="url(#SVGID_28_)"/>
+			<linearGradient id="SVGID_29_" x1="314.11" x2="314.11" y1=".2749" y2="93.906" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="331.16 89.146 358.18 89.146 297.07 0.028 270.05 0.028" fill="url(#SVGID_29_)"/>
+			<linearGradient id="SVGID_30_" x1="126.86" x2="126.86" y1=".2749" y2="93.906" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="115.31" y=".028" width="23.115" height="89.118" fill="url(#SVGID_30_)"/>
+			<linearGradient id="SVGID_31_" x1="52.543" x2="52.543" y1=".2749" y2="93.906" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="105.09 0.028 80.171 0.028 52.538 44.465 24.919 0.028 0 0.028 0 89.146 22.665 89.146 22.665 36.958 51.941 81.396 52.538 81.396 82.118 36.506 82.118 89.146 105.09 89.146" fill="url(#SVGID_31_)"/>
+
+		<linearGradient id="SVGID_32_" x1="169.28" x2="169.28" y1="-12.06" y2="36.101" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#828486" offset="0"/>
+			<stop stop-color="#5A5B5D" offset=".3791"/>
+			<stop stop-color="#D1D3D4" offset="1"/>
+		</linearGradient>
+		<path d="m147.64 0.028 28.416 41.447c9.348 0.146 18.55 0.434 27.602 0.843l-28.994-42.29zm61.204 0 30.598 44.615c9.984 0.861 19.696 1.875 29.099 3.043l-32.675-47.658zm88.226 0h-27.023l36.707 53.517c11.295 2.097 21.933 4.434 31.802 6.973zm-181.76 42.301c7.587-0.347 15.31-0.597 23.115-0.762v-41.539h-23.115zm-62.769 2.136-27.619-44.437h-24.919v56.41c7.241-1.561 14.806-3.004 22.665-4.344v-15.136l9.002 13.665c14.124-2.196 29.098-4.047 44.772-5.497l5.68-8.62v8.112c7.512-0.645 15.174-1.194 22.969-1.65v-42.94h-24.917z" fill="url(#SVGID_32_)"/>
+		<path d="m239.25 44.368 0.188 0.275c9.984 0.861 19.696 1.875 29.099 3.043l-0.208-0.301c-9.372-1.154-19.085-2.159-29.079-3.017zm-239.25 12.07c7.241-1.561 14.806-3.004 22.665-4.344v-1.17c-7.862 1.268-15.449 2.632-22.665 4.103zm338.35 3.776c-9.795-2.556-20.422-4.915-31.841-7.025l0.246 0.356c11.295 2.097 21.933 4.434 31.802 6.973zm-162.51-19.059 0.218 0.32c9.348 0.146 18.55 0.434 27.602 0.843l-0.2-0.29c-9.046-0.416-18.262-0.707-27.62-0.873zm-60.532 1.174c7.587-0.347 15.31-0.597 23.115-0.762v-0.418c-7.808 0.137-15.521 0.354-23.115 0.665zm-83.64 8.294c14.124-2.196 29.098-4.047 44.772-5.497l0.511-0.777c-16.125 1.379-31.502 3.152-45.937 5.281zm50.451-6.005c7.512-0.645 15.174-1.194 22.969-1.65v-0.574c-7.798 0.42-15.464 0.925-22.969 1.521z" fill="#fff"/>
+		<linearGradient id="SVGID_33_" x1="138.07" x2="138.07" y1="90.665" y2="-2.3044" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="138.42 0.028 137.72 0.028 138.42 89.146" fill="url(#SVGID_33_)"/>
+		<linearGradient id="SVGID_34_" x1="104.69" x2="104.69" y1="90.665" y2="-2.3044" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="105.04 0.028 104.34 0.028 105.04 89.146" fill="url(#SVGID_34_)"/>
+		<linearGradient id="SVGID_35_" x1="115.62" x2="115.62" y1="88.684" y2="1.2002" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="115.31 0.028 115.31 89.146 115.93 89.146" fill="url(#SVGID_35_)"/>
+		<linearGradient id="SVGID_36_" x1=".3911" x2=".3911" y1="88.684" y2="1.2002" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="0.079 0.028 0.079 89.146 0.704 89.146" fill="url(#SVGID_36_)"/>
+
+			<linearGradient id="SVGID_37_" x1="205.21" x2="205.21" y1="89.146" y2="-3.2129" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="174.66 0.028 235.19 89.146 235.76 89.146" fill="url(#SVGID_37_)"/>
+			<linearGradient id="SVGID_38_" x1="178.19" x2="178.19" y1="90.054" y2=".1335" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="147.64 0.028 208.74 89.146 148.46 0.028" fill="url(#SVGID_38_)"/>
+
+
+			<linearGradient id="SVGID_39_" x1="266.4" x2="266.4" y1="89.118" y2="-3.2412" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="235.85 0 296.37 89.118 296.95 89.118" fill="url(#SVGID_39_)"/>
+			<linearGradient id="SVGID_40_" x1="239.37" x2="239.37" y1="90.025" y2=".1052" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="208.82 0 269.92 89.118 209.64 0" fill="url(#SVGID_40_)"/>
+
+
+			<linearGradient id="SVGID_41_" x1="327.61" x2="327.61" y1="89.118" y2="-3.2412" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="297.06 0 357.58 89.118 358.16 89.118" fill="url(#SVGID_41_)"/>
+			<linearGradient id="SVGID_42_" x1="300.58" x2="300.58" y1="90.025" y2=".1052" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="270.03 0 331.13 89.118 270.86 0" fill="url(#SVGID_42_)"/>
+
+		<linearGradient id="SVGID_43_" x1="82.41" x2="82.41" y1="89.146" y2="-1.3928" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="82.118 89.146 82.701 89.146 82.118 36.506" fill="url(#SVGID_43_)"/>
+		<linearGradient id="SVGID_44_" x1="22.411" x2="22.411" y1="89.146" y2=".9043" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="22.66 36.958 22.163 36.23 22.66 89.146" fill="url(#SVGID_44_)"/>
+		<linearGradient id="SVGID_45_" x1="52.545" x2="52.545" y1="89.148" y2=".1582" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="24.919 0.028 52.541 45.118 80.171 0.028 52.538 44.465" fill="url(#SVGID_45_)"/>
+		<linearGradient id="SVGID_46_" x1="52.391" x2="52.391" y1="89.895" y2="-.1152" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="52.538 81.396 82.118 36.506 52.268 81.076 22.665 36.958 51.941 81.396" fill="url(#SVGID_46_)"/>
+		<linearGradient id="SVGID_47_" x1="133.36" x2="109.59" y1="244.09" y2="278.45" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="114.82 278.59 104.38 278.59 128 244.15 138.44 244.15" fill="url(#SVGID_47_)"/>
+		<linearGradient id="SVGID_48_" x1="86.049" x2="62.275" y1="244.09" y2="278.46" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="67.51 278.59 57.062 278.59 80.68 244.15 91.126 244.15" fill="url(#SVGID_48_)"/>
+		<linearGradient id="SVGID_49_" x1="109.71" x2="85.934" y1="244.09" y2="278.45" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="91.167 278.59 80.722 278.59 104.34 244.15 114.78 244.15" fill="url(#SVGID_49_)"/>
+
+			<linearGradient id="SVGID_50_" x1="74.096" x2="74.096" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="80.68 278.59 91.126 278.59 67.51 244.15 57.065 244.15" fill="url(#SVGID_50_)"/>
+			<linearGradient id="SVGID_51_" x1="97.754" x2="97.754" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="104.34 278.59 114.79 278.59 91.167 244.15 80.722 244.15" fill="url(#SVGID_51_)"/>
+			<linearGradient id="SVGID_52_" x1="121.41" x2="121.41" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="128 278.59 138.44 278.59 114.82 244.15 104.38 244.15" fill="url(#SVGID_52_)"/>
+			<linearGradient id="SVGID_53_" x1="49.035" x2="49.035" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="44.568" y="244.15" width="8.934" height="34.445" fill="url(#SVGID_53_)"/>
+			<linearGradient id="SVGID_54_" x1="20.309" x2="20.309" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="40.618 244.15 30.988 244.15 20.307 261.32 9.631 244.15 0 244.15 0 278.59 8.76 278.59 8.76 258.42 20.076 275.6 20.307 275.6 31.74 258.24 31.74 278.59 40.618 278.59" fill="url(#SVGID_54_)"/>
+
+
+			<linearGradient id="SVGID_55_" x1="133.36" x2="109.59" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#39B54A" offset=".478"/>
+				<stop stop-color="#1B75BC" offset="1"/>
+			</linearGradient>
+			<polygon points="114.82 345.55 104.38 345.55 128 311.1 138.44 311.1" fill="url(#SVGID_55_)"/>
+			<linearGradient id="SVGID_56_" x1="86.049" x2="62.275" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#381F1F" offset="0"/>
+				<stop stop-color="#3A1F20" offset=".0017"/>
+				<stop stop-color="#5B2926" offset=".0376"/>
+				<stop stop-color="#7C2F28" offset=".0757"/>
+				<stop stop-color="#9B3029" offset=".1173"/>
+				<stop stop-color="#B62E28" offset=".1626"/>
+				<stop stop-color="#CC2927" offset=".2129"/>
+				<stop stop-color="#DC2325" offset=".271"/>
+				<stop stop-color="#E81F25" offset=".3438"/>
+				<stop stop-color="#ED1C24" offset=".478"/>
+				<stop stop-color="#F7931E" offset="1"/>
+			</linearGradient>
+			<polygon points="67.51 345.55 57.062 345.55 80.68 311.1 91.126 311.1" fill="url(#SVGID_56_)"/>
+			<linearGradient id="SVGID_57_" x1="109.71" x2="85.934" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#130E1E" offset="0"/>
+				<stop stop-color="#1C1426" offset=".0231"/>
+				<stop stop-color="#442349" offset=".1446"/>
+				<stop stop-color="#652966" offset=".2552"/>
+				<stop stop-color="#7C287A" offset=".3511"/>
+				<stop stop-color="#8B2688" offset=".4286"/>
+				<stop stop-color="#91278F" offset=".478"/>
+				<stop stop-color="#ED1C24" offset="1"/>
+			</linearGradient>
+			<polygon points="91.167 345.55 80.722 345.55 104.34 311.1 114.78 311.1" fill="url(#SVGID_57_)"/>
+
+				<polygon points="80.68 345.55 91.126 345.55 67.51 311.1 57.065 311.1"/>
+				<polygon points="104.34 345.55 114.79 345.55 91.167 311.1 80.722 311.1"/>
+				<polygon points="128 345.55 138.44 345.55 114.82 311.1 104.38 311.1"/>
+				<rect x="44.568" y="311.1" width="8.934" height="34.445"/>
+				<polygon points="40.618 311.1 30.988 311.1 20.307 328.28 9.631 311.1 0 311.1 0 345.55 8.76 345.55 8.76 325.38 20.076 342.55 20.307 342.55 31.74 325.2 31.74 345.55 40.618 345.55"/>
+
+
+
+			<polygon points="80.68 412.5 91.126 412.5 67.51 378.06 57.065 378.06"/>
+			<polygon points="104.34 412.5 114.79 412.5 91.167 378.06 80.722 378.06"/>
+			<polygon points="128 412.5 138.44 412.5 114.82 378.06 104.38 378.06"/>
+			<rect x="44.568" y="378.06" width="8.934" height="34.445"/>
+			<polygon points="40.618 378.06 30.988 378.06 20.307 395.23 9.631 378.06 0 378.06 0 412.5 8.76 412.5 8.76 392.33 20.076 409.51 20.307 409.51 31.74 392.16 31.74 412.5 40.618 412.5"/>
+
+		<path d="m86.537 404.02 5.222 7.617 5.383-7.852-5.222-7.615zm-11.829-17.253 5.223 7.619 5.382-7.85-5.224-7.617zm53.291-8.711-5.976 8.714 5.221 7.614 11.195-16.328zm-70.937 34.445h10.448l5.973-8.712-5.224-7.619zm53.133-8.482 5.222 7.615 5.381-7.848-5.222-7.615zm-11.828-17.25 5.221 7.614 5.381-7.848-5.221-7.613z"/>
+		<rect x="164.89" y="152.28" width="195.1" height="285.36"/>
+		<linearGradient id="SVGID_58_" x1="326.29" x2="302.52" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="307.75 211.64 297.31 211.64 320.93 177.19 331.37 177.19" fill="url(#SVGID_58_)"/>
+		<linearGradient id="SVGID_59_" x1="278.98" x2="255.21" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="260.44 211.64 249.99 211.64 273.61 177.19 284.06 177.19" fill="url(#SVGID_59_)"/>
+		<linearGradient id="SVGID_60_" x1="302.64" x2="278.87" y1="177.13" y2="211.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="284.1 211.64 273.65 211.64 297.27 177.19 307.71 177.19" fill="url(#SVGID_60_)"/>
+
+			<linearGradient id="SVGID_61_" x1="267.03" x2="267.03" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="273.61 211.64 284.06 211.64 260.44 177.19 250 177.19" fill="url(#SVGID_61_)"/>
+			<linearGradient id="SVGID_62_" x1="290.68" x2="290.68" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="297.27 211.64 307.72 211.64 284.1 177.19 273.65 177.19" fill="url(#SVGID_62_)"/>
+			<linearGradient id="SVGID_63_" x1="314.34" x2="314.34" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="320.93 211.64 331.37 211.64 307.75 177.19 297.31 177.19" fill="url(#SVGID_63_)"/>
+			<linearGradient id="SVGID_64_" x1="241.97" x2="241.97" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="237.5" y="177.19" width="8.934" height="34.445" fill="url(#SVGID_64_)"/>
+			<linearGradient id="SVGID_65_" x1="213.24" x2="213.24" y1="177.29" y2="213.48" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset=".478"/>
+				<stop stop-color="#58595B" offset=".8626"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="233.55 177.19 223.92 177.19 213.24 194.36 202.56 177.19 192.93 177.19 192.93 211.64 201.69 211.64 201.69 191.46 213.01 208.64 213.24 208.64 224.67 191.29 224.67 211.64 233.55 211.64" fill="url(#SVGID_65_)"/>
+
+		<linearGradient id="SVGID_66_" x1="258.36" x2="258.36" y1="172.52" y2="191.13" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#828486" offset="0"/>
+			<stop stop-color="#5A5B5D" offset=".3791"/>
+			<stop stop-color="#D1D3D4" offset="1"/>
+		</linearGradient>
+		<path d="m250 177.19 10.983 16.02c3.613 0.057 7.17 0.168 10.669 0.326l-11.207-16.346zm23.656 0 11.827 17.244c3.858 0.333 7.613 0.725 11.247 1.176l-12.629-18.42zm34.102 0h-10.445l14.188 20.685c4.365 0.811 8.477 1.714 12.292 2.695zm-70.255 16.35c2.933-0.134 5.917-0.23 8.934-0.294v-16.056h-8.934zm-24.262 0.825-10.675-17.175h-9.632v21.803c2.799-0.604 5.723-1.161 8.761-1.679v-5.851l3.479 5.282c5.459-0.85 11.246-1.564 17.305-2.125l2.195-3.332v3.136c2.903-0.249 5.865-0.462 8.878-0.638v-16.596h-9.63z" fill="url(#SVGID_66_)"/>
+		<path d="m285.41 194.33 0.073 0.106c3.858 0.333 7.613 0.725 11.247 1.176l-0.08-0.116c-3.623-0.446-7.376-0.835-11.24-1.166zm-92.475 4.665c2.799-0.604 5.723-1.161 8.761-1.679v-0.452c-3.039 0.49-5.972 1.018-8.761 1.586zm130.78 1.46c-3.786-0.988-7.894-1.9-12.308-2.716l0.096 0.138c4.365 0.811 8.477 1.714 12.292 2.695zm-62.813-7.366 0.084 0.123c3.613 0.057 7.17 0.168 10.669 0.326l-0.078-0.112c-3.496-0.161-7.058-0.274-10.675-0.337zm-23.397 0.453c2.933-0.134 5.917-0.23 8.934-0.294v-0.162c-3.018 0.053-5.998 0.137-8.934 0.257zm-32.328 3.206c5.459-0.85 11.246-1.564 17.305-2.125l0.197-0.301c-6.232 0.533-12.176 1.219-17.755 2.042zm19.5-2.321c2.903-0.249 5.865-0.462 8.878-0.638v-0.223c-3.015 0.162-5.978 0.357-8.878 0.589z" fill="#fff"/>
+		<linearGradient id="SVGID_67_" x1="246.3" x2="246.3" y1="212.22" y2="176.29" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="246.43 177.19 246.16 177.19 246.43 211.64" fill="url(#SVGID_67_)"/>
+		<linearGradient id="SVGID_68_" x1="233.39" x2="233.39" y1="212.22" y2="176.29" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="233.53 177.19 233.26 177.19 233.53 211.64" fill="url(#SVGID_68_)"/>
+		<linearGradient id="SVGID_69_" x1="237.62" x2="237.62" y1="211.46" y2="177.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="237.5 177.19 237.5 211.64 237.74 211.64" fill="url(#SVGID_69_)"/>
+		<linearGradient id="SVGID_70_" x1="193.08" x2="193.08" y1="211.46" y2="177.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="192.96 177.19 192.96 211.64 193.2 211.64" fill="url(#SVGID_70_)"/>
+
+			<linearGradient id="SVGID_71_" x1="272.25" x2="272.25" y1="211.64" y2="175.94" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="260.44 177.19 283.84 211.64 284.06 211.64" fill="url(#SVGID_71_)"/>
+			<linearGradient id="SVGID_72_" x1="261.8" x2="261.8" y1="211.99" y2="177.23" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="250 177.19 273.61 211.64 250.31 177.19" fill="url(#SVGID_72_)"/>
+
+
+			<linearGradient id="SVGID_73_" x1="295.9" x2="295.9" y1="211.62" y2="175.93" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="284.09 177.18 307.48 211.62 307.7 211.62" fill="url(#SVGID_73_)"/>
+			<linearGradient id="SVGID_74_" x1="285.45" x2="285.45" y1="211.97" y2="177.22" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="273.64 177.18 297.26 211.62 273.96 177.18" fill="url(#SVGID_74_)"/>
+
+
+			<linearGradient id="SVGID_75_" x1="319.56" x2="319.56" y1="211.62" y2="175.93" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="307.75 177.18 331.14 211.62 331.36 211.62" fill="url(#SVGID_75_)"/>
+			<linearGradient id="SVGID_76_" x1="309.11" x2="309.11" y1="211.97" y2="177.22" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#fff" offset="0"/>
+				<stop offset="1"/>
+			</linearGradient>
+			<polygon points="297.3 177.18 320.92 211.62 297.62 177.18" fill="url(#SVGID_76_)"/>
+
+		<linearGradient id="SVGID_77_" x1="224.78" x2="224.78" y1="211.64" y2="176.64" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="224.67 211.64 224.9 211.64 224.67 191.29" fill="url(#SVGID_77_)"/>
+		<linearGradient id="SVGID_78_" x1="201.59" x2="201.59" y1="211.64" y2="177.53" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="201.69 191.46 201.5 191.18 201.69 211.64" fill="url(#SVGID_78_)"/>
+		<linearGradient id="SVGID_79_" x1="213.24" x2="213.24" y1="211.64" y2="177.24" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="202.56 177.19 213.24 194.62 223.92 177.19 213.24 194.36" fill="url(#SVGID_79_)"/>
+		<linearGradient id="SVGID_80_" x1="213.18" x2="213.18" y1="211.92" y2="177.14" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop offset="1"/>
+		</linearGradient>
+		<polygon points="213.24 208.64 224.67 191.29 213.13 208.52 201.69 191.46 213.01 208.64" fill="url(#SVGID_80_)"/>
+		<linearGradient id="SVGID_81_" x1="326.29" x2="302.52" y1="244.09" y2="278.46" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="307.75 278.59 297.31 278.59 320.93 244.15 331.37 244.15" fill="url(#SVGID_81_)"/>
+		<linearGradient id="SVGID_82_" x1="278.98" x2="255.21" y1="244.09" y2="278.46" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="260.44 278.59 249.99 278.59 273.61 244.15 284.06 244.15" fill="url(#SVGID_82_)"/>
+		<linearGradient id="SVGID_83_" x1="302.64" x2="278.87" y1="244.09" y2="278.45" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="284.1 278.59 273.65 278.59 297.27 244.15 307.71 244.15" fill="url(#SVGID_83_)"/>
+
+			<linearGradient id="SVGID_84_" x1="267.03" x2="267.03" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="273.61 278.59 284.06 278.59 260.44 244.15 250 244.15" fill="url(#SVGID_84_)"/>
+			<linearGradient id="SVGID_85_" x1="290.68" x2="290.68" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="297.27 278.59 307.72 278.59 284.1 244.15 273.65 244.15" fill="url(#SVGID_85_)"/>
+			<linearGradient id="SVGID_86_" x1="314.34" x2="314.34" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="320.93 278.59 331.37 278.59 307.75 244.15 297.31 244.15" fill="url(#SVGID_86_)"/>
+			<linearGradient id="SVGID_87_" x1="241.97" x2="241.97" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="237.5" y="244.15" width="8.934" height="34.445" fill="url(#SVGID_87_)"/>
+			<linearGradient id="SVGID_88_" x1="213.24" x2="213.24" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="233.55 244.15 223.92 244.15 213.24 261.32 202.56 244.15 192.93 244.15 192.93 278.59 201.69 278.59 201.69 258.42 213.01 275.6 213.24 275.6 224.67 258.24 224.67 278.59 233.55 278.59" fill="url(#SVGID_88_)"/>
+
+		<linearGradient id="SVGID_89_" x1="326.29" x2="302.52" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+		<polygon points="307.75 345.55 297.31 345.55 320.93 311.1 331.37 311.1" fill="url(#SVGID_89_)"/>
+		<linearGradient id="SVGID_90_" x1="278.98" x2="255.21" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+		<polygon points="260.44 345.55 249.99 345.55 273.61 311.1 284.06 311.1" fill="url(#SVGID_90_)"/>
+		<linearGradient id="SVGID_91_" x1="302.64" x2="278.87" y1="311.04" y2="345.41" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+		<polygon points="284.1 345.55 273.65 345.55 297.27 311.1 307.71 311.1" fill="url(#SVGID_91_)"/>
+		<g fill="#fff">
+			<polygon points="273.61 345.55 284.06 345.55 260.44 311.1 250 311.1"/>
+			<polygon points="297.27 345.55 307.72 345.55 284.1 311.1 273.65 311.1"/>
+			<polygon points="320.93 345.55 331.37 345.55 307.75 311.1 297.31 311.1"/>
+			<rect x="237.5" y="311.1" width="8.934" height="34.445"/>
+			<polygon points="233.55 311.1 223.92 311.1 213.24 328.28 202.56 311.1 192.93 311.1 192.93 345.55 201.69 345.55 201.69 325.38 213.01 342.55 213.24 342.55 224.67 325.2 224.67 345.55 233.55 345.55"/>
+		</g>
+		<g fill="#fff">
+			<polygon points="273.61 412.5 284.06 412.5 260.44 378.06 250 378.06"/>
+			<polygon points="297.27 412.5 307.72 412.5 284.1 378.06 273.65 378.06"/>
+			<polygon points="320.93 412.5 331.37 412.5 307.75 378.06 297.31 378.06"/>
+			<rect x="237.5" y="378.06" width="8.934" height="34.445"/>
+			<polygon points="233.55 378.06 223.92 378.06 213.24 395.23 202.56 378.06 192.93 378.06 192.93 412.5 201.69 412.5 201.69 392.33 213.01 409.51 213.24 409.51 224.67 392.16 224.67 412.5 233.55 412.5"/>
+		</g>
+		<path d="m279.47 404.02 5.222 7.617 5.383-7.852-5.222-7.615zm-11.829-17.253 5.223 7.619 5.382-7.85-5.224-7.617zm53.291-8.711-5.976 8.714 5.221 7.614 11.195-16.328zm-70.938 34.445h10.449l5.973-8.712-5.224-7.619zm53.134-8.482 5.222 7.615 5.381-7.848-5.222-7.615zm-11.828-17.25 5.221 7.614 5.381-7.848-5.221-7.613z" fill="#fff"/>
+	</g>
+</switch><text transform="scale(1,-1)" x="471.92746" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="471.92746" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">VOL</tspan></text>
+
+</g></svg>

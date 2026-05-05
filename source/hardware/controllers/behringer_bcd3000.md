@@ -2,6 +2,8 @@
 
 # Behringer BCD3000
 
+![](../../_static/controllers/hardware/behringer_bcd3000.png)
+
 
   - [Manufacturer's page](https://www.behringer.com/product.html?modelCode=P0758)
 
@@ -9,6 +11,8 @@ The B-Control Deejay BCD3000 controller is a 4-channel audio interface.
 It offers a fully fitted controller console with 24-bit A/D und D/A converters,
 a USB audio interface with a microphone preamplifier,
 a 3-band kill EQ for each channel, faders, a crossfader and talkover function.
+
+Its manual can be found [here](https://www.parts-express.com/pedocs/manuals/248-6084-behringer-bcd3000-manual-42714.pdf).
 
 By default, the input channels 1-2 use the RCA phono inputs for the
 source signal. On Windows, this can be switched to the microphone in the

@@ -1,12 +1,15 @@
 # Electrix Tweaker
 
+![http://electrixpro.com/wp-content/uploads/2014/09/Tweaker-Angle-570x380.jpg](http://electrixpro.com/wp-content/uploads/2014/09/Tweaker-Angle-570x380.jpg)
 
 The Electrix Tweaker is an unconventional MIDI controller that can
 control most aspects of Mixxx. Instead of jog wheels, it fits an 8x4
 grid of multicolor backlit buttons, 8 velocity-sensitive buttons, and 6
 push encoders with LED rings into a relatively small package. It does
-not have a built in sound card, so it requires a separate sound card or
-splitter cable (although it does include 5-pin MIDI in and out ports).
+not have a built in sound card, so it requires a [separate sound
+card](hardware%20compatibility#usb%20sound%20cards) or [splitter
+cable](hardware%20compatibility#splitter%20cables) (although it does
+include 5-pin MIDI in and out ports).
 
 -  [Manufacturer’s website](https://electrixpro.com/)
 -  [Forum topic](https://mixxx.discourse.group/t/electrix-tweaker-mapping/15071)
@@ -14,8 +17,10 @@ splitter cable (although it does include 5-pin MIDI in and out ports).
 
 :::{versionadded} 2.0
 :::
+
 ## Compatibility and setup
 
+The mapping is included with Mixxx starting with Mixxx 2.0.
 
 The Tweaker is a USB MIDI class compliant device, so it does not require
 any special drivers on any operating system. Just plug it in and load
@@ -24,11 +29,18 @@ the Mixxx mapping on any OS that Mixxx runs on.
 Use it with the Tweaker MIDI 1 port (Tweaker MIDI 2 is the 5-pin MIDI
 I/O on the Tweaker).
 
+## Reviews
+
+  - [DJ Tech Tools](http://djtechtools.com/2012/09/27/review-electrix-tweaker-midi-performance-controller/)
+  - [Digital DJ Tips](http://www.digitaldjtips.com/2013/01/electrix-tweaker-review-video/)
+  - [DJWORX](http://djworx.com/review-electrix-tweaker-dj-controller/)
+  - [Magnetic Mag](http://www.magneticmag.com/2013/03/gear-review-electrix-pro-tweaker-dj-controller/)
+  - [Crossfadr](http://www.crossfadr.com/2013/05/10/tweaking-knobs-on-the-electrix-tweaker/)
+  - [Core Mag TV](https://www.youtube.com/watch?v=Tk-I_lJfxys)
+
 ## Mapping description
 
-
 ### Global controls
-
 
 ```{figure-md}
 :align: center
@@ -83,13 +95,13 @@ pressing the encoders 7-12 resets them to center.
 7.  Headphone gain
 8.  Headphone cue/main mix in headphones. Press to toggle split cue mode. The blue LED below encoder is lit when split cue mode is enabled.
 9.  Channel gain for active deck on left side
-10.  Main output gain
-11.  Main output balance
-12.  Channel gain for active deck on right side
-13.  Eject sampler
-14.  Delete hotcue
-15.  Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the left side (press top shift button first, then this button while holding down top shift)
-16.  Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the right side (press top shift button first, then this button while holding down top shift)
+10. Main output gain
+11. Main output balance
+12. Channel gain for active deck on right side
+13. Eject sampler
+14. Delete hotcue
+15. Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the left side (press top shift button first, then this button while holding down top shift)
+16. Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that is active on the right side (press top shift button first, then this button while holding down top shift)
 
 (deck-controls)=
 ### Deck controls
@@ -129,10 +141,10 @@ the right side of the diagram.
 9.  Slip mode. When active, loops and hotcues will only play as long as
     they are held down. When they are released, the track will jump to
     where it would have been if the loop or hotcue was not pressed.
-10.  [[#deck-shift-layer|Deck shift]]
-11.  Deck toggle between decks 1 & 3 on the left and decks 2 & 4 on the right.
-12.  Jump 4 beats backward (with quantize enabled)
-13.  Quantize. In addition to snapping cues, loops, and play button
+10. [[#deck-shift-layer|Deck shift]]
+11. Deck toggle between decks 1 & 3 on the left and decks 2 & 4 on the right.
+12. Jump 4 beats backward (with quantize enabled)
+13. Quantize. In addition to snapping cues, loops, and play button
      presses to the nearest beat, this changes the behavior of the
      controller’s navigation buttons. When enabled, the navigation buttons
      are white as shown by 8 & 11 in the diagram. With quantize enabled,
@@ -176,14 +188,14 @@ the controller is held down.
 7.  Move hotcue to current position
 8.  Jump forward 1 beat (with quantize enabled, see [[#deck-controls|deck controls #13]])
 9.  Manually place loop start point
-10.  Deck shift button
-11.  Manually place loop end point
-12.  Jump back 1 beat (with quantize enabled, see [[#deck-controls|deck controls #13]])
-13.  Align beatgrid with current position
-14.  Sync key. If key has been changed from track’s original key, reset the key.
-15.  Reset tempo
-16.  Temporarily raise pitch while pressed (with quantize disabled, see [[#deck-controls|deck controls #13]])
-17.  Temporarily lower pitch while pressed (with quantize disabled, see [[#deck-controls|deck controls #13]])
+10. Deck shift button
+11. Manually place loop end point
+12. Jump back 1 beat (with quantize enabled, see [[#deck-controls|deck controls #13]])
+13. Align beatgrid with current position
+14. Sync key. If key has been changed from track’s original key, reset the key.
+15. Reset tempo
+16. Temporarily raise pitch while pressed (with quantize disabled, see [[#deck-controls|deck controls #13]])
+17. Temporarily lower pitch while pressed (with quantize disabled, see [[#deck-controls|deck controls #13]])
 
 ### Channel encoder layers
 
@@ -217,17 +229,7 @@ length and loop length encoders represent numbers of beats. Center means
 left halves the beats. For example, the default loop length is 4 beats,
 so the center LED and 2 LEDs to the right are lit (2 x 2 = 4).
 
-1.  High EQ
-2.  Mid EQ
-3.  Low EQ
-4.  Encoder mode button. Press to switch to loop mode.
-5.  Loop move length
-6.  Move loop
-7.  Loop length. Press to toggle loop. When in slip mode (see [[#deck-controls|deck control button #9]]), the loop is only active while this is held down. The blue LED below the encoder is lit while
-8.  a loop is active.
-9.  Encoder mode button. Press to switch to EQ mode.
-
-### Vinyl Timecode Mode
+### Vinyl timecode mode
 
 
 ```{figure-md}
@@ -241,4 +243,4 @@ Electrix Tweaker (vinyl timecode mode)
 1.  Top Shift
 2.  Toggle vinyl timecode mode by pressing deck shift (#2 in the diagram) while holding top shift (#1 in the the diagram). This replaces the navigation buttons for that deck with buttons that toggle options for timecode control.
 3.  Cycle through vinyl control modes: absolute (LED off), relative (LED indicates cue mode), and constant (LED red). If the deck is in relative mode and playing, pressing the button cycles through cue modes: off (white), cue (yellow), hotcue (green). When the deck is playing in relative mode, pressing the button with deck shift (#2) switches to constant mode.
-4.  toggle vinyl control. Turns green when vinyl control is enabled. With deck shift (#2) pressed, it toggles passthrough mode and turns white.  Pressing the button while passthrough mode is enabled turns passthrough mode off (without toggling whether vinyl control is enabled).
+4.  toggle vinyl control. Turns green when vinyl control is enabled. With deck shift (#2) pressed, it toggoggles passthrough mode and turns white. Pressing the button while passthrough mode is enabled turns passthrough mode off (without toggling whether vinyl control is enabled).
