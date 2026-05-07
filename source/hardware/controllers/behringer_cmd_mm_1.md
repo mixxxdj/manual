@@ -2,6 +2,8 @@
 
 # Behringer CMD MM-1
 
+![](../../_static/controllers/hardware/behringer/behringercmdmm1overview.png)
+
 
 The Behringer CMD MM-1 is a flexible controller that controls 4 decks by
 default. The mapping can be easily configured to control any combination
@@ -32,12 +34,12 @@ this document.
 
 
 There are a few user configurable options available for you to customize. You
-can change these by opening the {file}`Behringer-CMD-MM-1-scripts.js` file with
+can change these by opening the {file}`Behringer-CMD-MM-1-scripts.js` file in your [controller mapping file locations\#user controller mapping folder](controller%20mapping%20file%20locations#user%20controller%20mapping%20folder) with
 your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and
 editing the lines at the very top of the file.
 
 -  channelNumber: change this if your {ref}`controller LEDs do not light
-   up <behringer-cmd-mm1-1-troubleshooting-led>`.
+   up <behringer-cmd-mm1-1-troubleshooting-led>.
 -  invertColor: Swaps the colors which suits certain skins more
 -  defaultChannelSequence: Defines how the channels are mapped when
    Mixxx starts
@@ -71,7 +73,6 @@ computer keyboard.
 
 ### Knobs
 
-
 The Knobs have three different modes which can be cycled while in
 operation. The knobs in each mode, from top to bottom, control:
 
@@ -85,14 +86,12 @@ the knobs of EffectUnit1, Channel 2 controls EffectUnit2, and so on.
 
 #### FX Mode
 
-
 The Knobs in FxMode overwrite the assigned mapping and are mapped as
 [Effect 1 Meta, Effect 2 Meta, Effect 3 Meta, Super] and the fader is
 also mapped to the mix of the EffectUnit. The buttons are documented in
 their own section.
 
 ### Middle button
-
 
 -  Normal: recenter Crossfader
 -  Shift: Cycle Knob assignment (swaps the mapping of the knobs as
@@ -120,6 +119,7 @@ their own section.
 
 (fx-mode-1)=
 
+
 #### FX Mode
 
 
@@ -130,8 +130,10 @@ their own section.
 
 
 Behringer CMD MM-1 (FX mode)
-
 ```
+
+![](../../_static/controllers/hardware/behringer/buttonsofflabeledfxmode-min.png)
+
 [1]&[2] Buttons:
 
 -  Normal: Toggle Effect 1&2 in desired FxUnit
@@ -143,7 +145,7 @@ Behringer CMD MM-1 (FX mode)
 
 -  Normal: Toggle Effect 3 for desired FxUnit
 -  Shift: Pre-Fader-Listening for FxUnit
--  Ctrl: change mix_mode of Unit
+-  Ctrl: change mix\_mode of Unit
 -  Third: Change Channelmode
 
 ### Faders
@@ -184,7 +186,6 @@ the assignment first).
 
 ## Troubleshooting
 
-
 (behringer-cmd-mm1-1-troubleshooting-led)=
 
 ### Controller does not light up
@@ -194,7 +195,9 @@ The issue is probably the MIDI channel of your MM-1. Behringer had a
 tool that can set the controller to a different MIDI channel, however
 this is no longer available for download from Behringer’s website. So
 you will have to modify the controller mapping to use the MIDI channel
-that your controller is set to.
+that your controller is set to. Refer to [MIDI Crash
+Course](midi_crash_course#sniffing_your_controller_with_mixxx) for how
+to see incoming MIDI messages from your controller.
 
 Once you know the MIDI channel of your controller, open the file
 {file}`Behringer-CMD-MM-1-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or

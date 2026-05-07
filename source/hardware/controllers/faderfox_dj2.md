@@ -1,12 +1,13 @@
 # FaderFox DJ2
 
+![http://www.faderfox.de/images/DJ2%20front%202-2.jpg](http://www.faderfox.de/images/DJ2%20front%202-2.jpg)
 
--  [Manufacturer’s product page](http://www.faderfox.de/dj2.html)
+- [Manufacturer’s product page](http://www.faderfox.de/dj2.html)
 
 :::{versionadded} 1.6
 :::
-## Setting up the controller
 
+## Setting up the controller
 
 In order for this mapping to work, you will need to use these settings.
 First, enter *System Mode* by pressing the two black buttons in the top
@@ -54,7 +55,6 @@ section.
 
 ## Encoders Section
 
-
 The two encoders on top of the controller control various parameters.
 They can of course be turned but also act as push buttons. You can
 select which function is used for each of the encoders by pushing the
@@ -75,7 +75,6 @@ currently selected.
 
 ## Joystick
 
-
 The joystick can be set to control either the first or the second unit
 of the effect rack. To control the first effect unit, press *Shift* +
 the lower black button of the left encoder section (*FX1* green LED is
@@ -86,7 +85,6 @@ The horizontal axis of the joystick controls the *Mix* knob of the
 effect unit. The vertical axis control the *Super Knob* of the unit.
 
 ## Mixer Section
-
 
 -  Using the knobs and faders should be straightforward as the controls
    follow the labels printed on the controller.
@@ -103,7 +101,6 @@ effect unit. The vertical axis control the *Super Knob* of the unit.
    *Cue B* (Deck B)
 
 ## Transport Section
-
 
 The left transport section controls Deck A transport functions, and the
 right transport section those of Deck B.

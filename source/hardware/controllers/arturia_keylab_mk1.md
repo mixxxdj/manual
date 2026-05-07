@@ -26,7 +26,7 @@ Arturia also made 61 and 25 key versions of this keyboard.
 This mapping has only been tested with the full size version and it is
 unknown whether it works for the smaller versions.
 :::
-## Menu Controls
+### Menu Controls
 
 
 On the left side of the controller is an unlabeled section of controls

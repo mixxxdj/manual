@@ -152,7 +152,6 @@ Bookmark positions in the track and jump to them.
 
 
 Pioneer DDJ-400 (hot cue pads)
-
 ```
 | No.      |  Control                        |   Function |
 | --- | --- | --- |
@@ -172,6 +171,7 @@ disable the loop. The size of the loop is assigned to the pads as follows:
 :align: center
 
 <img src="../../_static/controllers/pioneer_ddj_400_performancepads.svg" alt="Pioneer DDJ-400 (beat loop pads)" class="pretty-figures" width="40%">
+
 
 Pioneer DDJ-400 (beat loop pads)
 ```
@@ -200,6 +200,7 @@ increase the jump values by a factor of 16.
 
 <img src="../../_static/controllers/pioneer_ddj_400_performancepads.svg" alt="Pioneer DDJ-400 (beat jump pads)" class="pretty-figures" width="40%">
 
+
 Pioneer DDJ-400 (beat jump pads)
 ```
 Pioneer DDJ-400 (beat jump defaults)
@@ -226,7 +227,6 @@ the first and second sampler rows in Mixxx respectively.
 
 
 Pioneer DDJ-400 (sampler pads)
-
 ```
 | No.      |  Control                        |                                   Function |
 | --- | --- | --- |

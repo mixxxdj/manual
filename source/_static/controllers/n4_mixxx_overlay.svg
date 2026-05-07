@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1595.5 312.96" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><pattern id="pattern2681" patternTransform="matrix(-1.9753 0 0 -1.9753 27.312 -158.97)" xlink:href="#pattern2632"/><pattern id="pattern2632" patternTransform="matrix(-1.9753 0 0 -1.9753 180.16 -158.97)" xlink:href="#pattern2451"/><pattern id="pattern2451" patternTransform="matrix(-1.9753 0 0 -1.9753 180.16 -158.97)" xlink:href="#pattern2409"/><pattern id="pattern2409" patternTransform="matrix(-1.9753 0 0 -1.9753 27.312 -158.97)" xlink:href="#Checkerboard"/><pattern id="Checkerboard" width="2" height="2" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse"><rect width="1" height="1"/><rect x="1" y="1" width="1" height="1"/></pattern>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<linearGradient id="SVGID_47_" x1="133.36" x2="109.59" y1="244.09" y2="278.45" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#39B54A" offset=".478"/>
+			<stop stop-color="#1B75BC" offset="1"/>
+		</linearGradient>
+
+		<linearGradient id="SVGID_48_" x1="86.049" x2="62.275" y1="244.09" y2="278.46" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#381F1F" offset="0"/>
+			<stop stop-color="#3A1F20" offset=".0017"/>
+			<stop stop-color="#5B2926" offset=".0376"/>
+			<stop stop-color="#7C2F28" offset=".0757"/>
+			<stop stop-color="#9B3029" offset=".1173"/>
+			<stop stop-color="#B62E28" offset=".1626"/>
+			<stop stop-color="#CC2927" offset=".2129"/>
+			<stop stop-color="#DC2325" offset=".271"/>
+			<stop stop-color="#E81F25" offset=".3438"/>
+			<stop stop-color="#ED1C24" offset=".478"/>
+			<stop stop-color="#F7931E" offset="1"/>
+		</linearGradient>
+
+		<linearGradient id="SVGID_49_" x1="109.71" x2="85.934" y1="244.09" y2="278.45" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#130E1E" offset="0"/>
+			<stop stop-color="#1C1426" offset=".0231"/>
+			<stop stop-color="#442349" offset=".1446"/>
+			<stop stop-color="#652966" offset=".2552"/>
+			<stop stop-color="#7C287A" offset=".3511"/>
+			<stop stop-color="#8B2688" offset=".4286"/>
+			<stop stop-color="#91278F" offset=".478"/>
+			<stop stop-color="#ED1C24" offset="1"/>
+		</linearGradient>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</defs><g transform="matrix(1.3333 0 0 -1.3333 0 312.96)"><path d="m0 234.72s-0.097009-148.39 0-222.59c0.0083033-6.3507 6.4918-11.99 11.999-11.999 107.81-0.16255 322.51-0.0069917 322.51-0.0069917l-5.1e-4 33.152c-0.0663 2.5854 1.5244 4.2017 3.6457 4.2017l44.165-0.04849c3.0494 0.19887 4.0347-1.6287 3.9022-3.8826l-0.13759-33.405 424.48 0.38365 0.18245 32.347s-0.0888 4.498 4.2237 4.498l42.563 0.0061c4.4062-0.09375 4.5521-4.4649 4.5521-4.4649l-0.14581-32.378s241.93-0.092606 322.24-0.40169c5.4749-0.021069 12.377 3.5995 12.356 12.356-0.1781 74.04 0 222.12 0 222.12z" fill="#aaa6a5" fill-opacity=".93865" stroke="#a5c2ca" stroke-width=".75px"/><rect id="use842" transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect id="use2488" transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/><g id="use2580" transform="translate(-76.544)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/></g><use id="use2582" transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2580"/><use id="use2584" transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2582"/><use id="use2595" transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2584"/><use transform="translate(76.633)" width="100%" height="100%" xlink:href="#use2595"/><use id="use2993" transform="translate(167.25 56.25)" width="100%" height="100%" xlink:href="#use842"/><use transform="translate(166.92 32.814)" width="100%" height="100%" xlink:href="#use2580"/><g id="g2786" transform="translate(152.91)"><rect transform="scale(1,-1)" x="33.271" y="-180.68" width="13.769" height="45.403" fill="url(#pattern2681)"/><g id="g2836"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/></g><use xlink:href="#g2836"/><use transform="matrix(1.1361 0 0 1 -266.28 200.65)" width="100%" height="100%" xlink:href="#use2488"/></g><use id="use2788" transform="translate(-76.455)" width="100%" height="100%" xlink:href="#g2786"/><use id="use2790" transform="translate(-76.455)" width="100%" height="100%" xlink:href="#use2788"/><use transform="translate(229.37)" width="100%" height="100%" xlink:href="#use2790"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/></g><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(361.16 .077668)" width="100%" height="100%" xlink:href="#g2836"/><path d="m471.61 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m472.82 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(432.04 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(322.97)"><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(70.875)"><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><g transform="translate(361.16 .077668)"><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/></g></g></g><path d="m400.73 184.17-16.031-27h1.7812l14.292 24.755z"/><path d="m401.94 184.17 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(361.16 .077668)" width="100%" height="100%" xlink:href="#g2836"/><g transform="translate(-107.25,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(-36.375,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(322.97)"><g transform="translate(-107.25,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><g transform="translate(-36.375,-96.75)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g></g><g transform="translate(-71.592 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(167.25 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="436.83139" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="436.83139" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="437.05112" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.05112" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+
+<use width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="437.01694" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.01694" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">3</tspan></text>
+
+
+<path d="m426.36 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="414.71814" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="414.71814" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="459.6636" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="459.6636" y="-18.296413">MAX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="450.25024" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="450.25024" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="495.19571" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="495.19571" y="-157.2429">MAX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="450.25024" y="-157.35754" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="450.25024" y="-157.35754" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="495.19571" y="-157.35754" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="495.19571" y="-157.35754">MAX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="702.79718" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="702.79718" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="747.74268" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="747.74268" y="-157.2429">MAX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="773.86139" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="773.86139" y="-157.2429" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="818.80688" y="-157.2429" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="818.80688" y="-157.2429">MAX</tspan></text>
+
+
+<g transform="translate(35.798 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(274.64 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="544.22205" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.22205" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="544.44177" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.44177" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+
+<use transform="translate(107.39)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="544.40759" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="544.40759" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">1</tspan></text>
+
+
+<path d="m533.75 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="522.10876" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="522.10876" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="567.05426" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="567.05426" y="-18.296413">MAX</tspan></text>
+
+
+<g transform="translate(143.42 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(382.27 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="651.84827" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="651.84827" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="652.06799" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="652.06799" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+
+<use transform="translate(215.02)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="652.03381" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="652.03381" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">2</tspan></text>
+
+
+<path d="m641.38 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="629.73499" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="629.73499" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="674.68048" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="674.68048" y="-18.296413">MAX</tspan></text>
+
+
+<g transform="translate(251.24 -235.65)"><path d="m507.98 280.92-16.031-27h1.7812l14.292 24.755z"/><path d="m509.19 280.92 16.031-27h-1.7812l-14.292 24.755z"/><use transform="translate(468.41 96.828)" width="100%" height="100%" xlink:href="#g2836"/></g><use transform="translate(490.08 -10.076)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="759.66077" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.66077" y="-3.9785619" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">QUICK EFFECT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="759.88049" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.88049" y="-11.34376" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GAIN</tspan></text>
+
+
+<use transform="translate(322.83)" width="100%" height="100%" xlink:href="#use2993"/><text transform="scale(1,-1)" x="759.84631" y="-115.87502" fill="#000000" font-family="sans-serif" font-size="20px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="759.84631" y="-115.87502" font-family="sans-serif" font-size="12px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">4</tspan></text>
+
+
+<path d="m749.19 147.38 8.0625-14.625 5.5312 0.1875 7.6875 13.875v4.5938h-21.375z" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><text transform="scale(1,-1)" x="737.54749" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="737.54749" y="-18.296413" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIN</tspan></text>
+
+
+<text transform="scale(1,-1)" x="782.49298" y="-18.296413" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="782.49298" y="-18.296413">MAX</tspan></text>
+
+
+<use transform="translate(-76.873 -23.436)" width="100%" height="100%" xlink:href="#use2993"/><use transform="translate(90.377 33.564)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SHIFT</tspan></text>
+
+
+<g transform="translate(476.2)"><use transform="translate(-76.873 -23.436)" width="100%" height="100%" xlink:href="#use2993"/><use transform="translate(90.377 33.564)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="359.9585" y="-46.869007" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SHIFT</tspan></text>
+
+
+</g><text transform="scale(1,-1)" x="379.125" y="-157.35999" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="379.125" y="-157.35999" stroke-width=".75">CUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="429.1875" y="-157.35999" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="429.1875" y="-157.35999" stroke-width=".75">MASTER</tspan></text>
+
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="525.03" y="18.45" width="19.092" height="8.1317"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="597.94714" y="-223.269" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="597.94714" y="-223.269" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SCROLL / MAXIMIZE LIBRARY</tspan></text>
+
+
+<text transform="scale(1,-1)" x="437.52231" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="437.52231" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="400.66437" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="400.66437" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MIX</tspan></text>
+
+
+<rect transform="scale(1,-1)" x="410.86" y="-218.81" width="17.156" height="1.2656" ry="0"/><rect transform="scale(1,-1)" x="446.67" y="-218.81" width="14.772" height="1.2656" ry="0"/><text transform="scale(1,-1)" x="795.08844" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="795.08844" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MASTER</tspan></text>
+
+
+<text transform="scale(1,-1)" x="724.28937" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="724.28937" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BOOTH</tspan></text>
+
+
+<use transform="matrix(1.3751 0 0 1.3751 542.76 -68.766)" width="100%" height="100%" xlink:href="#g2836"/><use transform="matrix(1.794 0 0 1 114.65 126.58)" width="100%" height="100%" xlink:href="#use2488"/><text transform="scale(1,-1)" x="567.18799" y="-142.65881" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="567.18799" y="-138.23499" stroke-width=".75"/></text>
+
+
+<text transform="scale(1,-1)" x="598.36523" y="-140.50494" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="598.36523" y="-140.50494" fill="#ababab" fill-opacity=".98919" font-family="sans-serif" font-size="5px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">MOVE  FOCUS / CLICK ITEM</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42609" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEATJUMP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="193.05858" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE PAGE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="116.69104" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 SUPER</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-223.68808" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-223.68808" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 SUPER</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42609" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="193.05858" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="116.69104" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SETHOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-60.081253" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-60.081253" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="193.05861" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="62.225" y="223.86" width="4.2426" height="22.981"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="116.69106" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-12.749292" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42612" y="-12.749291" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-12.749291" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="193.05861" y="-77.714729" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-77.714729" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SLIP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="116.69106" y="-77.658089" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-77.658089" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 2</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 1</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42612" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-77.710823" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">REPEAT</tspan></text>
+
+
+<flowRoot fill="black" font-family="sans-serif" font-size="6.6667px" font-weight="bold" letter-spacing="0px" text-align="center" text-anchor="middle" word-spacing="0px" writing-mode="lr" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><flowRegion><rect x="15.556" y="199.82" width="426.39" height="18.031"/></flowRegion><flowPara/></flowRoot><text transform="scale(1,-1)" x="193.05861" y="-213.47923" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05861" y="-213.47923" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP SIZE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="116.69106" y="-213.42259" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69106" y="-213.42259" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 MIX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 MIX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42612" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42612" y="-213.47533" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">JUMP SIZE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="269.42609" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="269.42609" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">RELOOP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="193.05858" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="193.05858" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP HERE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="116.69104" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="116.69104" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP OUT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="40.323513" y="-125.84218" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="40.323513" y="-125.84218" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP IN</tspan></text>
+
+
+<g transform="translate(886.71 -.46875)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/><g transform="translate(-76.544)"><rect transform="scale(1,-1)" x="242.31" y="-55.802" width="54.77" height="31.406" ry="7.3027" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(1,-1)" x="247.65" y="-20.219" width="44.084" height="9.3471" ry="1.0956"/></g><use transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(-76.544)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2580"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2582"/><use transform="translate(0 64.7)" width="100%" height="100%" xlink:href="#use2584"/><use transform="translate(76.633)" width="100%" height="100%" xlink:href="#use2595"/><g transform="translate(152.91)"><rect transform="scale(1,-1)" x="33.271" y="-180.68" width="13.769" height="45.403" fill="url(#pattern2681)"/><circle transform="scale(1,-1)" cx="40.125" cy="-184.08" r="24.253" fill="none" stroke="#a5c2ca" stroke-width="1.5"/><rect transform="scale(-1,1)" x="-26.792" y="183.78" width="10.736" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(1,-1)" x="53.744" y="-184.92" width="10.174" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="scale(-1,1)" x="-47.886" y="183.78" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="198.2" y="39.415" width="9.9862" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,-1,-1,0,0,0)" x="-171.25" y="-40.558" width="11.749" height="1.1428" ry="0" fill="#a5c2ca"/><rect transform="matrix(0,1,1,0,0,0)" x="177.11" y="39.415" width="15.424" height="1.1428" ry="0" fill="#a5c2ca"/><use width="100%" height="100%" xlink:href="#g2836"/><use transform="matrix(1.1361 0 0 1 -266.28 200.65)" width="100%" height="100%" xlink:href="#use2488"/></g><use transform="translate(-76.455)" width="100%" height="100%" xlink:href="#g2786"/><use transform="translate(-76.455)" width="100%" height="100%" xlink:href="#use2788"/><use transform="translate(229.37)" width="100%" height="100%" xlink:href="#use2790"/></g><text transform="scale(1,-1)" x="1156.1381" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">BEATJUMP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE PAGE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 SUPER</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-223.21933" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-223.21933" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 SUPER</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1156.1381" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SETHOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-59.612503" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-59.612503" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOTCUE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-12.280542" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1156.1381" y="-12.280541" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-12.280541" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CLEAR</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-77.245979" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-77.245979" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SLIP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-77.189339" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-77.189339" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 2</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX 1</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1156.1381" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-77.242073" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">REPEAT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-213.01048" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-213.01048" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP SIZE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-212.95384" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-212.95384" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX2 MIX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FX1 MIX</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1156.1381" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-213.00658" fill="#a2b0b0" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">JUMP SIZE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1156.1381" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1156.1381" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">RELOOP</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1079.7705" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1079.7705" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP HERE</tspan></text>
+
+
+<text transform="scale(1,-1)" x="1003.403" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1003.403" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP OUT</tspan></text>
+
+
+<text transform="scale(1,-1)" x="927.03546" y="-125.37343" fill="#000000" font-family="sans-serif" font-size="30px" letter-spacing="0px" stroke-width=".75" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="927.03546" y="-125.37343" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LOOP IN</tspan></text>
+
+
+<g transform="translate(15.91 -139.74)"><polygon transform="matrix(.43539 0 0 -.43539 292.31 438.01)" points="114.82 278.59 104.38 278.59 128 244.15 138.44 244.15" fill="url(#SVGID_47_)"/><polygon transform="matrix(.43539 0 0 -.43539 292.31 438.01)" points="67.51 278.59 57.062 278.59 80.68 244.15 91.126 244.15" fill="url(#SVGID_48_)"/><polygon transform="matrix(.43539 0 0 -.43539 292.31 438.01)" points="91.167 278.59 80.722 278.59 104.34 244.15 114.78 244.15" fill="url(#SVGID_49_)"/><g transform="matrix(.43539 0 0 -.43539 292.31 438.01)">
+			<linearGradient id="SVGID_50_" x1="74.096" x2="74.096" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="80.68 278.59 91.126 278.59 67.51 244.15 57.065 244.15" fill="url(#SVGID_50_)"/>
+			<linearGradient id="SVGID_51_" x1="97.754" x2="97.754" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="104.34 278.59 114.79 278.59 91.167 244.15 80.722 244.15" fill="url(#SVGID_51_)"/>
+			<linearGradient id="SVGID_52_" x1="121.41" x2="121.41" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="128 278.59 138.44 278.59 114.82 244.15 104.38 244.15" fill="url(#SVGID_52_)"/>
+			<linearGradient id="SVGID_53_" x1="49.035" x2="49.035" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<rect x="44.568" y="244.15" width="8.934" height="34.445" fill="url(#SVGID_53_)"/>
+			<linearGradient id="SVGID_54_" x1="20.309" x2="20.309" y1="283.01" y2="240.3" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#1F1F20" offset="0"/>
+				<stop stop-color="#A5A8AA" offset="1"/>
+			</linearGradient>
+			<polygon points="40.618 278.59 40.618 244.15 30.988 244.15 20.307 261.32 9.631 244.15 0 244.15 0 278.59 8.76 278.59 8.76 258.42 20.076 275.6 20.307 275.6 31.74 258.24 31.74 278.59" fill="url(#SVGID_54_)"/>
+		</g></g><text transform="scale(1,-1)" x="471.92746" y="-215.04887" fill="#000000" font-family="sans-serif" font-size="5px" font-weight="bold" letter-spacing="0px" stroke-width=".75" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="471.92746" y="-215.04887" font-family="sans-serif" font-size="8px" font-weight="bold" stroke-width=".75" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">VOL</tspan></text>
+
+
+</g></svg>
