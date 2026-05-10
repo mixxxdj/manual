@@ -95,7 +95,9 @@ Decks
 ==========================================  ===========================================================================================================================================================================
 Control                                     Description
 ==========================================  ===========================================================================================================================================================================
-Library encoder press                       Load track selected in library to the deck or open selected tree in menu.
+Library encoder rotate                      In main list : move track selection up/down - In search : browse search history - In tree : move selection up/down
+:hwlabel:`SHIFT` + Library encoder rotate   In main list : move columns left/right - In search : move cursor left/right - In tree : expand/collapse folder/collection
+Library encoder press                       In main list : load track on selected deck - In search : move to main list - In tree : expand/collapse folder/collection
 :hwlabel:`SHIFT` + Library encoder press    Eject track.
 Small play button                           While held, plays the current track in the preview deck.  If you rotate the library encoder while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
 Star button                                 This button is not used.
