@@ -33,7 +33,7 @@ You can set configuration options in the Mixxx controller preferences.
 -  **Display VU from both decks** When enabled, the channel VU meters will display the left and right master output levels.
    When disabled (default), they will display the individual level for each active deck.
    **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
-   **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
+   **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems.
    **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
    **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
 
@@ -221,12 +221,13 @@ In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a
 
 *Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
 To activated stem control mode, activate the 'Control stems with Fader Cuts pads' option in the Mixxx preferences of your controller.
-Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33) to enter the stem mode afterwards.
+Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33) to enter the stem mode.
 
--  **Toggle a stem** by pressing the corresponding stem pad 1-4 from performance pads.
--  **Set a stem's volume** by holding a stem pad while rotating the BEATS knob (15) left or right.
--  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
--  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
+-  **Toggle a stem** by pressing the corresponding stem pad (1-4) from the 1st row of pads.
+-  **Set a stem's volume** by holding a stem pad (1-4) while rotating the BEATS knob (15) left or right.
+-  **Toggle a stem's effect** by pressing the corresponding stem pad (5-8) from the 2st row of pads.
+-  **Set a stem's effect volume** by holding a stem effect pad (5-8) while rotating the BEATS knob (15) left or right.
+-  **Seelct an effect for a stem** by pressing SHIFT while holding a stem effect pad (5-8) while rotating the BEATS knob (15) left or right
 
 ### Sampler Mode
 
