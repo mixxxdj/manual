@@ -2,6 +2,8 @@
 
 # Numark iDJ Live II
 
+![Numark iDJ Live II](https://www.numark.com/images/sized/images/product_large/iDJLiveII_ortho_web_lg-624x390.jpg)
+
 
 :::{sectionauthor} Nathan Korth <nkorth@nkorth.com>
 :::
@@ -29,6 +31,13 @@ The mapping script only handles the jog wheels and scratch button, so you can re
 Despite their appearance, the cue buttons don't seem to have LEDs. Only the play and sync buttons do.
 
 The "SET" buttons set the cue point and the arrow buttons jump to the cue point. They do not change behavior depending on whether the track is playing or paused.
+
+By default, the sync LEDs only light up when pressed or locked. To make them flash with the beat, go to "Output mappings" in the controller settings. Look for these rows, and replace "sync_enabled" with "beat_active":
+
+| Channel | Opcode  | Control | On Value | Off Value | Action                     | Min | Max |
+| ------- | ------- | ------- | -------- | --------- | -------------------------- | --- | --- |
+| 1       | Note On | 0x40    | 0x7F     | 0x00      | [Channel1],sync_enabled | 0.5 | 1   |
+| 1       | Note On | 0x47    | 0x7F     | 0x00      | [Channel2],sync_enabled | 0.5 | 1   |
 
 ### Jog wheels and scratch button
 

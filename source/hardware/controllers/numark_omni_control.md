@@ -1,6 +1,8 @@
 # Numark Omni Control
 
 
+![http://www.numark.com/images/sized/images/product\_large/omnicontrol\_angle\_large-624x390.jpg](http://www.numark.com/images/sized/images/product_large/omnicontrol_angle_large-624x390.jpg)
+
 -  [Manfacturer’s product page](https://web.archive.org/web/20251116224010/www.numark.com/product/omnicontrol)
 
 :::{versionadded} 1.10

@@ -1,5 +1,6 @@
 # Numark Mixtrack Pro II
 
+![mixtrack\_pro\_ii\_ortho-624x390.jpg](_static/controllers/mixtrack_pro_ii_ortho-624x390.jpg)
 
 The Numark Mixtrack Pro II is the successor of {ref}`Numark Mixtrack
 Pro <numark-mixtrack-pro>` and features the same hardware with some
@@ -9,9 +10,19 @@ minor design changes.
    page](http://www.numark.com/product/mixtrack-pro-ii)
 -  [Forum thread](https://mixxx.discourse.group/t/complete-mapping-for-mixtrack-pro-ii-is-ready/14756)
 
+The audio interface is recognized in Ubuntu 14.04 out of the box.
+
 :::{versionadded} 1.11
 :::
+
 ## Mapping Description
+
+This mapping is integrated in Mixxx 2.1 with [this
+PR](https://github.com/mixxxdj/mixxx/pull/1540). This mapping is based
+on [this
+mapping](https://github.com/snowyoneill/Mixxx-Numark-MixTrack-Pro-II-2016.midi).
+
+![numarkmixtrackproii.png](_static/controllers/numarkmixtrackproii.png)
 
 
 ### 1. Browser Knob
@@ -31,7 +42,6 @@ Load the track selected in the library to the deck.
 Cycles between the file structure and the music library in the software.
 
 ### 4. Shift
-
 
 Allows multiple control commands to be triggered when pressed and held
 first along with other buttons.
@@ -65,7 +75,6 @@ as you would with a vinyl record. You can also grab the
 non-touch-sensitive outer wheel to bend the pitch of the track.
 
 ### 9. Scratch
-
 
 Controls the behavior of the platters. When not active, the platter will
 function as Pitch Bend. When active, the platter will have the ability
@@ -165,15 +174,18 @@ Toggle the 1st effect in the unit on/off.<br>
 
 ### 21. FX 2 On/Off
 
+
 Toggle the 2nd effect in the unit on/off.<br>
 **Shift + FX 2:** Sets and starts playback of a 2-beat autoloop.
 
 ### 22. FX 3 On/Off
 
+
 Toggle the 3rd effect in the unit on/off.<br>
 **Shift + FX 3:** Sets and starts playback of a 4-beat autoloop.
 
 ### 23. Tap
+
 
 Allows manual entry of song’s BPM by repeated pressing along the beats
   of the track.<br>
@@ -228,3 +240,8 @@ the cue output and the main mix output.
 
 Press this button while the music is playing to jump back to the last
 set cue point, creating a “stutter” effect.
+
+## Other Community Mappings
+
+  - <https://github.com/tompreston/Mixxx-Numark-Mixtrack-Pro-II-Mappings>
+  - <https://github.com/snowyoneill/Mixxx-Numark-MixTrack-Pro-II-2016.midi>

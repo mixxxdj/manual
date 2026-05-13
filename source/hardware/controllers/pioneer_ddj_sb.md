@@ -1,7 +1,8 @@
 # Pioneer DDJ-SB
 
+![https://pdj-ecom-cdn.azureedge.net/-/media/pioneerdj/images/products/controller/ddj-sb/black/ddj-sb-main.png](https://pdj-ecom-cdn.azureedge.net/-/media/pioneerdj/images/products/controller/ddj-sb/black/ddj-sb-main.png)
 
-The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks.
+The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks. It is compatible with Mixxx since version 1.12.
 
 -  [Manufacturer’s product page](https://www.pioneerdj.com/en/product/controller/archive/ddj-sb/black/overview/)
 -  [Forum thread](https://mixxx.discourse.group/t/midi-mapping-for-pioneer-ddj-sb/14806)
@@ -9,11 +10,10 @@ The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a bu
 
 :::{versionadded} 2.0
 :::
+
 ## Drivers
 
-
 ### Windows
-
 
 Windows Vista, Windows 7 and Windows 8 are supported. You can download the latest drivers and firmware from http://www.pioneerdj.com/en/support/software/ddj-sb.
 
@@ -23,8 +23,8 @@ DirectSound seems to have issues with this controller.
 WASAPI seems to work fine, as does MME, although only with higher latencies.
 On Windows 10, only MME works.
 :::
-### Mac OS X & Linux
 
+### Mac OS X & Linux
 
 You don’t need any drivers on Mac OS X and Linux.
 
@@ -32,9 +32,7 @@ The controller supports Mac OS X 10.6 and up.
 
 ## Usage
 
-
 ### Library browsing
-
 
 The controls for library browsing can be found in the center top of the controller.
 
@@ -49,11 +47,9 @@ The controls for library browsing can be found in the center top of the controll
 
 ### Switching between decks
 
-
 Pressing Shift + “Key Lock / Tempo Range” allows the left deck to switch between decks 1 and 3 and the right deck to switch between decks 2 and 4.
 
 ### Volume, equalizers & filters
-
 
 Between the decks the usual faders, crossfader and EQ knobs can be found. A filter knob is also available.
 
@@ -64,7 +60,6 @@ The filter fade button allows to use the crossfader in an innovative way that fa
 There is no trim/gain knob, but the same effect can be achieved by using the filter knobs while holding shift.
 
 ### Jogwheels, tempo & vinyl mode
-
 
 When a deck is paused, the jogwheel allows you to browse through a track. If you want to browse faster, hold shift while using the jogwheel.
 
@@ -78,12 +73,10 @@ mode.
 
 ### Slip mode
 
-
 By pressing shift + “vinyl / slip” you can toggle slip mode. When entering slip mode, Mixxx remembers what point exactly of the track should be playing even if, for example, you scratch or make a
 loop. This allows to return to the original pace of the track.
 
 ### Pads - lower row
-
 
 The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the
 tempo of one deck is changed.
@@ -94,11 +87,10 @@ Additional functions can be accessed by holding shift
 | --- | --- |
 | Shift + play | Plays the track in reverse and enables slipping (see slip mode) |
 | Shift + cue  | Brakes the track as if the power of the motor on a turntable was turned off |
-| Shift + sync | Enables quantize mode (this makes most actions, e.g. setting the cue point, fall to the nearest beat) |
+| Shift + sync | Enables quantize mode (this makes most actions, e.g. setting the cue point, fall to the nearest beat) |
 
 
 ### Pads - hot cue mode
-
 
 In hot cue mode the upper row of pads control the hotcues. Pressing a pad that is not lit sets a hotcue. Pressing a pad that is lit makes the track jump and play from that hotcue. Pressing a pad while
 holding shift deletes that hotcue.
@@ -106,7 +98,6 @@ holding shift deletes that hotcue.
 You can control a set of 4 more hotcues by pressing shift + hot cue. The hot cue button will start blinking. The pads will behave in the same way, but controlling hotcues 5 to 8.
 
 ### Pads - auto loop mode
-
 
 Pressing the pads in auto loop mode will make loops of a specific length measured in beats.
 
@@ -123,7 +114,6 @@ Pressing the pads in auto loop mode will make loops of a specific length measure
 
 ### Pads - manual loop mode
 
-
 This mode will make the pads control looping in the way labeled on them.
 
 | Control       | Function |
@@ -139,7 +129,6 @@ This mode will make the pads control looping in the way labeled on them.
 
 ### Pads - sampler mode
 
-
 In sampler mode the sampler can be controlled. To load a file into a sampler, first press the sampler button while holding shift, so that the sampler button starts blinking. Now pressing a pad will
 load the currently highlighted track on the library into the corresponding sampler. Pressing a pad while holding shift will eject the sample.
 
@@ -147,24 +136,22 @@ To play samples, press the sampler button without holding shift (it should not b
 
 ### Pads - loop roll (shift + auto loop)
 
-
 By pressing the auto loop button while holding shift (it should start blinking) you can make loop rolls. This mode combines auto loops with slip mode. The pads will start a loop in the current
 position with a determinate beat length while simultaneously enabling slip mode, so that when releasing the pad the track will continue playing as if the loop never happened.
 
 | Control       | Function |
 | --- | --- |
 | Pad 1         | 1/16th beat loop roll |
-| Pad 2         | 1/8th beat loop roll |
-| Pad 3         | 1/4th beat loop roll |
-| Pad 4         | 1/2 beat loop roll |
-| Shift + pad 1 | 1 beat loop roll |
-| Shift + pad 2 | 2 beat loop roll |
-| Shift + pad 3 | 4 beat loop roll |
-| Shift + pad 4 | 8 beat loop roll |
+| Pad 2         | 1/8th beat loop roll  |
+| Pad 3         | 1/4th beat loop roll  |
+| Pad 4         | 1/2 beat loop roll    |
+| Shift + pad 1 | 1 beat loop roll      |
+| Shift + pad 2 | 2 beat loop roll      |
+| Shift + pad 3 | 4 beat loop roll      |
+| Shift + pad 4 | 8 beat loop roll      |
 
 
 ### Pads - kill (shift + manual loop)
-
 
 By pressing the manual loop button while holding shift (it should start blinking) you can make the pads behave as kill switches.
 
@@ -177,7 +164,6 @@ By pressing the manual loop button while holding shift (it should start blinking
 
 
 ### Effects
-
 
 Over the jogwheels there are sections allowing to control effects.
 
@@ -193,7 +179,6 @@ the left and right sides of the controller respectively.
 You can choose between effects by entering “kill mode” and using pads 1 and 2 while holding shift.
 
 ### Channel fader start
-
 
 By moving a channel fader up from the very bottom while holding shift when a deck is paused, the deck will start playing. Moving the fader back to the bottom without releasing shift stops the deck and
 moves it back to its original position.

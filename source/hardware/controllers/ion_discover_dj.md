@@ -1,18 +1,19 @@
 (ion-discover-dj)=
 # ION Discover DJ
 
+![ION Discover DJ](http://www.ionaudio.com/images/products/DISCOVER_DJ_top_Lg.jpg)
 
 The ION Discover DJ is a cheap budget MIDI controller meant to “discover DJ-ing” for people with a potential interest. It does not have a built in sound card, so a {ref}`splitter cable <hardware-splitter-cables>` or {ref}`separate audio interface <hardware-audio-interfaces>` is required to use headphones with it.
 
--  [Forum thread](https://mixxx.discourse.group/t/ion-discover-dj-controller-possible-future-support/10284)
+  - [Manufacturer's product page](http://www.ionaudio.com/products/details/discover-dj)
+  - [Forum thread](https://mixxx.discourse.group/t/ion-discover-dj-controller-possible-future-support/10284)
 
 :::{versionadded} 1.8
 :::
 ## Compatibility
 
 
-This controller is USB MIDI class compliant, so it is plug-and-play on all platforms without having to install any special drivers. The manufacturer’s page only mentions Windows and Mac but it’s
-confirmed working on Linux as well.
+This controller is USB MIDI class compliant, so it is plug-and-play on all platforms without having to install any special drivers. The manufacturer’s page only mentions Windows and Mac but it’s confirmed working on Linux as well.
 
 ## Library browsing
 
@@ -29,16 +30,14 @@ The controls for library browsing are in the center of the controller.
 ## Jog wheels
 
 
-The button in the center can be used to switch the jog wheels between search and scratch mode. In search mode, the jog wheels can be used to seek to different parts of a song when paused. When that
-deck is playing, the jog wheels can be pushed/pulled to speed up/slow down the playback. This is useful for beatmatching.
+The button in the center can be used to switch the jog wheels between search and scratch mode. In search mode, the jog wheels can be used to seek to different parts of a song when paused. When that deck is playing, the jog wheels can be pushed/pulled to speed up/slow down the playback. This is useful for beatmatching.
 
 Pressing the center button will put the jog wheels in scratch mode, which means that the deck in Mixxx will follow the absolute movement of the jog wheels. In this mode the Scratch button is lit.
 
 ## Equalizers
 
 
-This controller only has a 2-band equalizer but Mixxx uses a 3-band EQ. Therefore, the volume knob has been mapped to the low EQ, the bass knob has been mapped to the mid EQ, and the treble knob has
-been mapped to the high EQ. For controlling the volume of the decks, use the crossfader.
+This controller only has a 2-band equalizer but Mixxx uses a 3-band EQ. Therefore, the volume knob has been mapped to the low EQ, the bass knob has been mapped to the mid EQ, and the treble knob has been mapped to the high EQ. For controlling the volume of the decks, use the crossfader.
 
 ## Other buttons
 

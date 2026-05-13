@@ -1,18 +1,15 @@
-(stanton-scs-3d)=
-
 # Stanton SCS.3d “DaScratch”
-
 
 -  [Manufacturer’s product page](https://web.archive.org/web/20220613230840/http://www.stantondj.com/stanton-controllers-systems/scs3d.html)
 -  [Walk-through video!](http://www.youtube.com/watch?v=8DUpTikA8u0)
 
 :::{versionadded} 1.7
 :::
-:::{versionadded} 2.0
+::{versionadded} 2.0
 Alternate mapping with many more visual effects (flashing lights) and different behavior.
 :::
-## Default Mapping
 
+## Default Mapping
 
 ```{figure-md}
 :align: center
@@ -44,8 +41,8 @@ at the top of the script you can set to your liking:
    which LEDs mark the stored positions in TRIG & LOOP modes
 -  **jogOnLoad** - If true, the unit will automatically change to Vinyl (jog)
    mode after loading a track (from Track Select mode)
--  **globalMode** - If true, the unit will stay in the current mode on deck
-   changes (instead of switching to the mode you were in the last time you
+-  **globalMode** - If true, the unit will stay in the current mode on
+   deck changes (instead of switching to the mode you were in the last time you
    controlled that deck.)
 -  **singleDeck** - If you’ve got more than one MIDI controller, set this to
    true to have the SCS.3d stay on one deck and make Deck mode non-temporary.
@@ -64,7 +61,6 @@ text editor and you’ll see these variables right near the top. Edit & save.
 
 ### Mode buttons
 
-
 ```{figure-md}
 :align: center
 
@@ -72,7 +68,6 @@ text editor and you’ll see these variables right near the top. Edit & save.
 
 
 Stanton SCS.3d (mode buttons)
-
 ```
 -  FX - Adjust & toggle Flanger effect, toggle reverse effect
 -  EQ - Adjust channel EQ parameters
@@ -83,7 +78,6 @@ Stanton SCS.3d (mode buttons)
 -  Deck - Adjust global controls and switch to another virtual deck
 
 #### Common to all modes:
-
 
 (except where noted)
 
@@ -114,7 +108,6 @@ Stanton SCS.3d (mode buttons)
 
 ### FX Modes
 
-
 These modes let you adjust the effect unit parameters. The FX button will be red
 when adjusting effect unit 1, purple for unit 2, and black for unit 3. (In Mixxx
 versions below 2.0.1, there is only one mode that adjusts the Flanger effect.)
@@ -135,35 +128,83 @@ Stanton SCS.3d (slider mode)
 
 Hold the FX button down and touch any slider to reset it to center.
 
+To control another effect, buttons B11 through B14 allow you to switch. The
+currently active effect is shown in red where button B11 lights red when the
+first effect chain is selected, B12 for the second chain, B13 for chain 3, and
+B14 for chain 4. The buttons turn blue when the active deck is assigned to this
+effect chain. If the active effect is assigned to the current deck, the
+corresponding button will appear purple. If you don’t see purple it means that
+the effect you’re controlling is not assigned to the current deck.
+
+For example, if the controller is on deck 2, has effect slot 2 selected, and
+effects 2 and 3 assigned, the four buttons would be lit as follows:
+
+-  B11: black
+-  B12: purple
+-  B13: blue
+-  B14: black
+
+**While holding FX:**
+
+You can toggle assignment of the current deck to effect chains with buttons
+B11 through B14. B11 assigns effect chain 1, B12 assigns effect chain 2,
+B13 assigns chain 3, and B14 assigns chain 4 to the active deck. The effects
+that have the current deck assigned are shown in blue. While FX is held, S2 can
+be used to scroll through different effects. To load the next effect, touch top
+half of the slider and touch the bottom half to load the previous effect into
+the currently active effect slot.
+
+When FX is held, the button for the active deck is shown in red. So if you want
+to assign the active effect to the active deck, press the button that is red. If
+the button is purple, pressing it would deactivate the active effect on the
+active deck.
+
+Example on how to load an echo effect into chain 3 and assign it to channel 2:
+
+1. Press DECK-B12 to switch to deck 2
+2. Press FX to switch to FX mode
+3. Press B13 to select effect chain 3
+4. Slide S2 to the bottom to bypass chain 3 (precautionary measure)
+5. Hold FX and touch S2 above the middle to select the next effect (will select
+   echo if no effect was selected previously)
+6. Hold FX and press B13 to assign effect chain 3 to deck 2
+7. Adjust echo parameters with sliders S3, S4, S5
+8. Slide S2 upwards to bring the effect in
+
+**v2.0.0 and below:**
+
+  - Left slider (S3) adjusts flanger depth
+  - Center slider (S4) adjusts flanger delay
+  - Right slider (S5) adjusts flanger period (Low Frequency Oscillator)
+  - B11 plays track in reverse while held down
+  - B12 toggles flanger effect
+
 ### EQ Mode
 
+In EQ mode, the central sliders S3, S4, S5 control low/mid/high EQs. Hold EQ to
+control pre-gain on S1 instead of volume. The other controls
+(low/mid/high/pitch) are reset to center when the control is touched while EQ is
+held.
+
+### Loop mode (red)
 
 ```{figure-md}
 :align: center
 
-<img src="../../_static/controllers/stanton_scs3d_slidermode.jpg" alt="Stanton SCS.3d (slider mode)" class="pretty-figures">
+<img src="../../_static/controllers/stanton_scs3d_circlemode.jpg" alt="Stanton SCS.3d (circle mode)" class="pretty-figures">
 
 
-Stanton SCS.3d (slider mode)
+Stanton SCS.3d (circle mode)
 ```
--  Left slider (S3) adjusts low frequency equalizer
--  Center slider (S4) adjusts mid frequency equalizer
--  Right slider (S5) adjusts high frequency equalizer
+By touching the circle you activate a loop over a certain number of beats.
+Touching on the right side will activate a beat-loop over 1, 2, 4, 8 etc beats,
+starting from the top. On the left side you get fractions 1/2, 1/4, 1/8 etc
+loops starting from the top. To leave the loop, touch center.
 
-Hold the EQ button down and touch any slider to reset it to center.
-
-### Loop mode (red)
-
-
-The surface is configured as 11 buttons:
-
-| Left          | Middle      | Right |
-| --- | --- | --- |
-| 1/8-beat loop | Loop In     | 2-beat loop |
-| 1/4-beat loop | Reloop/Exit | 4-beat loop |
-| 1/2-beat loop | Reloop/Exit | 8-beat loop |
-| 1-beat loop   | Loop Out    | 16-beat loop |
-
+By touching the LOOP mode button again, the ‘rolling’ overlay comes on and the
+LOOP button turns blue. In rolling mode, the loop will be released as soon as
+you take your finger off the circle and the track will resume where it would
+have been without looping.
 
 **Mixxx v2.0.1 and above** have the left column flipped so you can adjust the
 loop size sequentially when moving along the circle:
@@ -175,7 +216,6 @@ loop size sequentially when moving along the circle:
 | 1/4-beat loop | Reloop/Exit | 8-beat loop |
 | 1/8-beat loop | Loop Out    | 16-beat loop |
 
-
 The Reloop/Exit button lights up when a loop is active. If it happens to be an
 exact number of beats, the corresponding beat loop button will light up as well.
 
@@ -186,8 +226,15 @@ Also:
 
 You can exit any loop by pressing Reloop/Exit (or a lit beat loop button.)
 
-## Instant-pitch change modes (Loop button)
+### 1.8.0-1.10.0
 
+The surface is configured as three giant buttons:
+
+  - Left: Loop In (mark the start of a loop)
+  - Middle: Reloop/Exit (toggle looping)
+  - Right: Loop Out (mark the end of a loop)
+
+## Instant-pitch change modes (Loop button)
 
 This offers instant pitch change buttons in the following arrangements:
 
@@ -214,7 +261,6 @@ vertical neighbors.
 
 ### Trig Modes
 
-
 These modes configure the surface as three separate banks of 12 buttons (lit up
 dim red for visibility) giving you a total of THIRTY-SIX hot cues! (Mixxx
 1.8.0-1.9.0 internally supports just 32, so the center 4 buttons and the lower
@@ -231,7 +277,6 @@ light when a cue point is set on that button. (Changeable with the
 -  To erase a cue, hold TRIG while pressing the button(s) you want to erase
 
 ## Vinyl Modes
-
 
 ```{figure-md}
 :align: center
@@ -266,7 +311,6 @@ Stanton SCS.3d (circle mode)
 
 ### Deck Mode
 
-
 ```{figure-md}
 :align: center
 
@@ -291,8 +335,9 @@ You are in this mode only **while holding down the Deck button**, unless the con
    value
 -  Press Deck + Play together to change the active deck
 
-### General controls
+Note that the active deck is synced with the {ref}`Stanton SCS.3m <stanton-scs-3m>`, so when switching between decks 1 and 3, or 2 and 4 the other device changes as well.
 
+## General controls
 
 ```{figure-md}
 :align: center
@@ -313,7 +358,7 @@ modes.
 -  CUE will jump to the cue point or set it, depending on your settings and
    whether the track is playing.
 -  SYNC syncs the active deck to another deck. Holding SYNC for more than one
-   second will enable SYNC lock.
+   second will enable Sync lock.
 -  Pressing TAP repeatedly will adjust track BPM.
 
 The currently active deck/channel is shown by lighting one of B11 through B14
@@ -337,7 +382,6 @@ mode-overlays are available:
 
 
 Stanton SCS.3d (mode buttons)
-
 ```
 -  FX: (red) Control effect device; (blue) Control deck superknob
 -  EQ: (red) Control deck EQ
@@ -353,13 +397,14 @@ for that deck will be selected.
 By holding a mode button, a mode is enabled temporarily in hold-mode. When the
 button is released again, the device switches back to the previously selected
 mode. Some hold-modes enable alternative, often disruptive functionality. Most
-of the time you won’t want to use the hold-modes on live decks (e.g. needledrop
+of the time you won’t want to use the hold-modes on live decks (e.g. needledrop
 in VINYL) or you must be very cautious (assigning effect chains with FX).
 
 Each mode will be explained in detail below.
 
-### FX mode
+# Alternate mapping
 
+*(Available in Mixxx 2.0 and above.)*
 
 ```{figure-md}
 :align: center

@@ -333,15 +333,14 @@ Press the **BOUNCE LOOP** mode button to set the PADs to Loop Roll mode.
 #### Pads
 
 
-Press (and keep down) any of the 4 pads to trigger a momentary
-{ref}`Loop Roll <interface-looping>` of a different size (in beats) as per the
-table.
+Press (and keep down) any of the 4 pads to trigger a momentary {ref}`Loop Roll <interface-looping>` of a different size (in beats) as per the table below.
 
-===================+++++===================== === === === ===
-Pads                                            1   2   3   4
-Press                                         1/8 1/4 1/2   1
-{ref}`SHIFT <reloop-beatpad-shift>` + Press     2   4   8  16
-===========++================================ === === === ===
+|                       |      |     |     |    |
+| --------------------- | ---- | --- | --- | -- |
+|                       | Pads |     |     |    |
+| :::                   | 1    | 2   | 3   | 4  |
+| Press                 | 1/8  | 1/4 | 1/2 | 1  |
+| {ref}`SHIFT <reloop-beatpad-shift>` + Press | 2    | 4   | 8   | 16 |
 
 Once the PAD is released the track will continue to play from the position it
 would have been if the Loop Roll was never triggered. The size of the applied
@@ -387,7 +386,7 @@ show on in Sampler mode when the controller is in {ref}`SHIFT <reloop-beatpad-sh
 
 Press the SAMPLER mode button to set the PADs to cycle between 4 sub modes:
 
--   **Sampler mode** (orange LEDs): each pad triggers a sample from the selected Sampler bank. The PADs wgich are lit indicate which samples are loaded and ready to use. While a sample is playing, the corresponding PAD changes its color to pink.
+-   **Sampler mode** (orange LEDs): each pad triggers a sample from the selected Sampler bank. The PADs which are lit indicate which samples are loaded and ready to use. While a sample is playing, the corresponding PAD changes its color to pink.
 -   **Sampler bank selection mode** (pink LED): each pad selects 1 of the 4 sampler banks. The PAD that is lit indicates which bank is active.
 -   **Loop mode** status and selection (magenta LEDs): press any pad to toggle between {ref}`regular loop mode <reloop-beatpad-loops>` and {ref}`roll loop mode <reloop-beatpad-loops>`. **Regular loop mode** is symbolized by the left PAD lit, representing the loop), and all the others switched off. **Roll loop mode** is symbolized by both the left (representing the loop) and the right PADs lit (symbolizing the position after the loop where the track will continue to play when the loop will be triggered off).
 -   **Effect rack selection** mode (purple LED): each pads selects 1 of the 4 effect racks. The PAD which is lit indicates which effect rack is active (see {ref}`Effect Section <reloop-beatpad-effects>`).
@@ -408,3 +407,68 @@ If you see a yellow exclamation point (!) in the Windows Device Manager
 indicating that the drivers did not start, unplug the power cable from your
 laptop then unplug/replug the USB cable from your controller. If that does not
 work, restart your laptop without the power cable plugged in.
+
+### No sound with your Android tablet or smartphone
+
+
+Unfortunately, Android does not have good support for low latency audio
+or USB sound cards. OS support for USB audio was only recently added to
+Android version 5.0 (Lollipop). Prior to Android 5.0, some applications
+provided their own driver for USB sound cards. On any version of
+Android, to use USB sound cards like the one in the Beatpad, the device
+has to support USB On-The-Go (OTG) and you need to use an OTG adapter
+cable to plug in your device. Not all Android devices support OTG. See
+[here](http://support.reloopdj.com/beatpad/android-device-compatibility-list/)
+for compatibility information about various Android devices.
+
+If you have trouble using your Beatpad's sound card with Android, you
+could also use a [DJ splitter cable](hardware%20compatibility#splitter%20cable) with the onboard
+sound card on your smartphone or tablet.
+
+
+### Freeze/crash/abnormal behavior with your Android tablet/smartphone
+
+
+It may be that your Android device does not provide enough power through
+the USB cable. If so, use a powered USB hub between your Android device
+and your Beatpad. The connections would be:
+
+`Android tablet/phone --- OTG cable --- powered USB hub --- USB cable
+--- Beatpad`
+
+If that does not work, you may have a [#grounding
+problem](#grounding%20problem).
+
+### For the mappings developer
+
+
+  - **{ref}`SHIFT <reloop-beatpad-shift>` + {ref}`Sampler <reloop-beatpad-samplermode>`:** On account of
+    the Reloop Beatpad limitations (bug ?), lights will not show on in
+    Sampler mode when the controller is in SHIFT mode.
+    In fact the lights update after a second press on shift!
+    In Hot cue mode, the same Pads are working perfectly in shift
+    mode.
+  - Reloop's MIDI documentation is incomplete (sysex messages), and
+    sometimes false or inaccurate.
+  - SET button is named "Cue Play" in the mapping documentation
+  - JUMP button is named "MainCue" in the mapping documentation
+  - Beatpad jog wheel is 800 intervals per revolution (and not 600 like
+    stated in the documentation)
+  - L/R\_LineFader\_Down/Open/Close: those MIDI messages are never sent
+    by the controller. What can be their usage if sent to the
+    controller, they do not map any button.
+  - L/R-Blue LEDs / 4th behaviour seems to be, according to the
+    documentation, exactly the same than the 1st behavior. If it is not,
+    this is an unknown behavior that is not documented properly.
+  - Sysex messages: the current documentation tells nothing about them.
+    An ancient beta documentation exposes this sequence:
+    `0xF0, 0x26, 0x2D, 0x65, 0x22, 0xF7`. When the MIDI controller
+    receives this OutboundMessagerequest SysEx Message, the controller
+    will send the status of every item on the control surface. This
+    sysex is used by the mapping in Mixxx to initialize the fader and
+    knobs in Mixxx. May be some other sysex messages exist, but they are
+    unknown. Sysex message could be useful to turn on or off several
+    LEDs at once in the same time.
+  - L\_Wheel\_OFF and R\_Wheel\_OFF messages: they are thrown when the
+    "Jog scratch" or the "Jog seek" buttons are activated. You won't
+    find this piece of information anywhere in the documentation.

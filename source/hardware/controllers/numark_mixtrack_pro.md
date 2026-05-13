@@ -9,6 +9,13 @@ This is the same as the {ref}`Numark Mixtrack <numark-mixtrack>` with the additi
 
 :::{versionadded} 1.8.2
 :::
+
+# Numark Mixtrack Support in Mixxx
+
+## What is the state of the support in Mixxx ?
+
+As of Mixxx 1.10 the Numark Mixtrack Pro is community-supported. In Mixxx 1.11.0+ the Numark Mixtrack Pro is supported by default.
+
 ## Mapping Description
 
 
