@@ -98,7 +98,7 @@ Control                                     Description
 Library encoder press                       Load track selected in library to the deck or open selected tree in menu.
 :hwlabel:`SHIFT` + Library encoder press    Eject track.
 Small play button                           While held, plays the current track in the preview deck.  If you rotate the library encoder while you hold the :hwlabel:`PLAY` button, Mixxx will scan through the track being previewed.
-Star button                                 This button is not used.
+Star button                                 Sort the library based on the selected column. Press again to toggle sort order ascending/descending.
 :hwlabel:`≡+` (List-plus button)            Move focus of library control between left-hand tree, search, and main list.
 :hwlabel:`VIEW` button                      Expand / minimize library view.
 ==========================================  ===========================================================================================================================================================================
