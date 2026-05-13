@@ -1,7 +1,7 @@
 .. _allen-heath-xone-k2:
 .. _allen-heath-xone-k3:
 
-Allen & Heath Xone:K2/K1/K3
+Allen & Heath Xone:K1/K2/K3
 ===========================
 
 The Allen & Heath Xone:K2 is a flexible controller that is mapped to
@@ -50,15 +50,13 @@ Setup
 **Requirements**: The Xone K2 must have Latching Layers turned off, which
 is the default. Refer to the `Xone K2
 manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
-12 for details. The K1 does not have Latching Layers.
+12 for details. The K1 does not have Latching Layers. If you are using
+Xone K3, update it to firmware v1.0.4 r 93846 before using this mapping.
 
-The Xone K3 must be updated to firmware v1.0.4 r 93846 before using this
-mapping.
-
-This mapping can be used with one or multiple Xone K2s/K1s/K3s. Multiple
-Xone K2s/K1s/K3s can be connected to each other via X-Link with one of
+This mapping can be used with one or multiple Xone K1s/K2s/K3s. Multiple
+Xone K1s/K2s/K3s can be connected to each other via X-Link with one of
 them connected to the computer via USB. Alternatively, when using 2
-K2s/K1s/K3s, they can both be connected with their own USB cable and
+K1s/K2s/K3s, they can both be connected with their own USB cable and
 this same mapping can be loaded for each.
 
 The layout of the mapping depends on the configured MIDI channel of the
@@ -206,7 +204,7 @@ Effect unit focusing
 
 In addition to focusing one effect in a unit at a time with the
 :ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone
-K2/K1/K3 has another mode for focusing a whole effect unit. This allows
+K1/K2/K3 has another mode for focusing a whole effect unit. This allows
 for controlling the parameters of all 3 effects in the unit at a time. This
 mode is only available on the 4 effect unit layouts. To access it, press
 the Layer button in the bottom left. Press one of the top encoders to
@@ -230,18 +228,16 @@ Troubleshooting
 ---------------
 
 If general functionality or supershift are not working, double check
-that Latch Layers is turned off and MIDI CH is selected. Refer to the
-`Xone K2
+that Latch Layers is turned off and MIDI CH is selected. If you are
+using Xone K3, also check that the controller is running firmware
+v1.0.4 r 93846. Refer to the `Xone K2
 manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details.
-
-If you are using Xone K3, also check that the controller is running
-firmware v1.0.4 r 93846.
 
 Known Issues
 ------------
 
-There are a few known issues with the Xone K2/K1/K3 firmware:
+There are a few known issues with the Xone K1/K2/K3 firmware:
 
 -  Since there is no way for Mixxx to ask the controller about the positions of
    all the knobs and faders when Mixxx starts, they are out of sync with the
