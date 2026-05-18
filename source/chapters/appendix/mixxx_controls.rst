@@ -2424,7 +2424,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch_adjust
                    [SamplerN],pitch_adjust
 
-   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock. It is reset after loading a new track.
+   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock. It is reset after loading a new track
+   when "Key/Pitch" is ticked in :menuselection:`Options --> Preferences --> Decks --> Reset On Track Load`.
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
