@@ -52,7 +52,7 @@ install the latest driver package available.
 Mode           Behavior
 ==========     ===========================================================================
 **2.5:** Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
-**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
+**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
@@ -212,7 +212,7 @@ No.  Control                                                   Function
 ==== ========================================================= ======================================================================
 
 .. note::
-   On 2.6, Scratch Bank moved to *Mixxed Mode* slot 4. 
+   On 2.6, Scratch Bank moved to *Mixxxed Mode* slot 4. 
 
 Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -264,12 +264,12 @@ No.  Control                                                   Function
 10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
-*MIXXED MODE* section
+*MIXXXED MODE* section
 ^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
-0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:` ←FX2/FX3→`   Select Mixxed mode.
+0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`   Select Mixxxed mode.
 1    Auto Loop Mode Mode 1: Auto Loop                          User configuration applies).
 2    Auto Loop Mode Mode 2: Beat Slicer                        Segment beat into small consumable pieces. Default continuous mode. 
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`         Update Beat Slicer domain 8/16/32/64. Loop size and slice jump size increases accordingly.
@@ -357,7 +357,7 @@ as fallback.
      - :hwlabel:`Deck Select` long press cycles through preselected ranges (wraps to first step). Default [8%, 16%, 50%], Classic [6%, 10%, 16%, 25%], Alt Step Size [8%, 24%, 50%], Extreme [8%, 16%, 50%, 100%].
      - ``Default``
    * - ``PioneerDDJREV1.multiModeEnabled``
-     - :hwlabel:`Shift` + :hwlabel:` ←FX2/FX3→` cycles through available modes.
+     - :hwlabel:`Shift` + :hwlabel:`←FX2/FX3→` cycles through available modes.
      - ``false``
    * - ``PioneerDDJREV1.disableStartFader``
      - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
@@ -386,4 +386,4 @@ Known issues
   variants on the hardware (controller limitation).
 - Fader-start behavior can depend on controller-side utility state and may
   require a Mixxx restart after utility changes (controller limitation).
-- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxed Mode slot 4.
+- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxxed Mode slot 4.
