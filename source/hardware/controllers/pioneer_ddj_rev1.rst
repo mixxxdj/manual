@@ -270,14 +270,14 @@ No.  Control                                                   Function
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`    Select Mixxxed mode.
-1    Auto Loop Mode Mode 1: Auto Loop                          User configuration applies).
-2    Auto Loop Mode Mode 2: Beat Slicer                        Segment beat into small consumable pieces. Default continuous mode. 
+1    Auto Loop Mode :hwlabel:`Mode 1:` ``Auto Loop``                          User configuration applies).
+2    Auto Loop Mode :hwlabel:`Mode 2:` ``Beat Slicer``                        Segment beat into small consumable pieces. Default continuous mode. 
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`         Update Beat Slicer domain 8/16/32/64. Loop size and slice jump size increases accordingly.
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`         Loop Beat Slicer.
 
-3    Auto Loop Mode Mode 3: Piano (Unavailable)                Coming soon Piano, Play Through+!
+3    Auto Loop Mode :hwlabel:`Mode 3:` ``Piano (Unavailable)``                Coming soon Piano, Play Through+!
 
-4    Auto Loop Mode Mode 4: Scratch Bank                       Loads selected scratch samples to respective deck.
+4    Auto Loop Mode :hwlabel:`Mode 4:` ``Scratch Bank``                       Loads selected scratch samples to respective deck.
 4    Auto Loop Mode :hwlabel:`pads 1–4`                        Load scratch samples from samples **17–20(Deck1/3) 21-24** (Deck2/4).
 
 
