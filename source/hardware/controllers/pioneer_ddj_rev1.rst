@@ -270,7 +270,7 @@ No.  Control                                                   Function
 ==== ========================================================== ======================================================================
 No.  Control                                                    Function
 0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`     Select Mixxxed mode.
-1    Auto Loop Mode :hwlabel:`Mode 1:` ``Auto Loop``            Set Loop Length. User configuration applies.
+1    Auto Loop Mode :hwlabel:`Mode 1:` ``Auto Loop``            Set loop length. User configuration applies.
 2    Auto Loop Mode :hwlabel:`Mode 2:` ``Beat Slicer``          Segment beat into small consumable pieces. Default continuous mode. 
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`          Update Beat Slicer domain 8/16/32/64. Loop size and slice jump size increases accordingly.
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Loop Beat Slicer.
