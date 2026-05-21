@@ -23,8 +23,10 @@ behavior; see the manufacturer’s manual for the physical control layout.
 Requirements
 ------------
 
-Mixxx 2.5 or newer. A compatibility mode supports 2.5 and 2.6+ behavior; see
+Mixxx 2.5 or newer. Supports 2.5 and 2.6+ behavior; see
 `Compatibility`_.
+
+AKOI Mapping version **2.2+**
 
 Firmware & drivers
 ------------------
@@ -49,9 +51,8 @@ install the latest driver package available.
 ==========     ===========================================================================
 Mode           Behavior
 ==========     ===========================================================================
-Auto           Uses the non-stems code path on Mixxx 2.5 and the stems code path on 2.6+.
-Force 2.5      Disables stems behavior regardless of the running Mixxx version.
-Force 2.6      Enables stems behavior regardless of the running Mixxx version.
+**2.5:** Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
+**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
@@ -107,19 +108,29 @@ Mapping description differences
 See the Pioneer manual for the physical control layout. The following
 describes Mixxx-specific behavior.
 
-- Compatibility mode supports Auto / Force 2.5 / Force 2.6 mapping behavior.
+- Automatic version detection (2.5 / 2.6+) (STEMS vs Scratch Bank pad routing).
 - :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` supports braking profiles (Off,
   Classic, Slow) with a default fallback when braking is disabled.
-- Beatjump and roll pads use hold semantics with configurable roll sizes.
+- Configurable Beat Jump, Auto Loop and Beat Roll pads use hold semantics with configurable roll sizes.
 - Sampler volume gate and headphone cue logic are tuned for usability.
 - ScratchBank mapping and FX buffering are refined for stability.
-- Sampler pad layout options are available (see `User configuration options`_).
+- 4 Sampler pad layout options are available (see `User configuration options`_).
 - Sixteen samples by default (samples 1–16).
 - Improvements to Library Sort.
 - Scratch Feel.
 - Split FX.
 - STEMS v2.6+.
 - Additional user configuration options.
+- Configurable beat tempo ranges.
+- VU meter options
+- Mixxxed Mode (configurable by deck from controller). 
+ - Slot 1: Auto Loop
+ - Slot 2: Beat Slicer
+ - Slot 3: *Coming Soon*
+ - Slot 4: Scratch Bank
+
+
+
 
 Controls
 -------------------------------
@@ -131,7 +142,9 @@ Browse section
 No.                       Control                                                 Function
 ========================  ======================================================  ===========================================================================================
 1                         :hwlabel:`SHIFT` + :hwlabel:`LOAD`                      Sort by user-selected configuration. Double press toggles ascending/descending.
-2                         :hwlabel:`SHIFT` + :hwlabel:`Rotary Selector`           Rotate selector while holding SHIFT to move left or right in the library or open and close the subcrates panel.
+2                         :hwlabel:`Rotary Selector PUSH`                         Push Rotary selector to cycle forward between panels in library.
+2                         :hwlabel:`SHIFT` + :hwlabel:`Rotary Selector PUSH`      Hold shift + Push Rotary selector to cycle backwards between panels in library.
+3                         :hwlabel:`SHIFT` + :hwlabel:`Rotary Selector`           Rotate selector while holding SHIFT to move left or right in the library or open and close the subcrates panel.
 ========================  ======================================================  ===========================================================================================
 
 
@@ -184,31 +197,22 @@ No.  Control                                                   Function
 10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
 10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
-10   :hwlabel:`SAMPLER PADS` 5–8                               **Mixxx 2.6+ dual mode only.** When ScratchBank is active, loads scratch samples from **17–24**.
 ==== ========================================================= =================================================================================================
 
-.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-dual-mode.png
-   :align: center
-   :width: 500
-   :alt: Dual mode: samples 1–4 on pads 1–4; ScratchBank samples on pads 5–8.
-   :figclass: pretty-figures
 
-   Dual mode: samples 1–4; ScratchBank on pads 5–8.
+Scratch Bank section (Mixxx 2.5)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ScratchBank section (Mixxx 2.5)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-When stems priority is not active, ScratchBank uses pads as follows:
+When stems priority is not active, Scratch Bank uses pads as follows:
 
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10   :hwlabel:`SCRATCH MODE` pads 1–4                          Load scratch samples from samples **17–24**.
+10   :hwlabel:`SCRATCH MODE` pads 1–4                          Load scratch samples from samples **17–20(Deck1/3) 21-24 (Deck2/4).**
 ==== ========================================================= ======================================================================
 
 .. note::
-   On a stems-capable Mixxx version, stems mode wins over ScratchBank when
-   both would apply. ScratchBank actions are suppressed in that case.
+   On 2.6, Scratch Bank moved to *Mixxed Mode* slot 4. 
 
 Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -216,12 +220,14 @@ Stem section (Mixxx 2.6+)
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10   :hwlabel:`SCRATCH MODE` pads 1–4                          Stem mute toggles (voice / melody / bass / drums).
-10   :hwlabel:`SCRATCH MODE` pads 5–8                          Stem effect toggles (voice / melody / bass / drums).
-10   :hwlabel:`STEM PAD` + :hwlabel:`LEVEL/DEPTH`              Adjust stem volume / effect parameters while held.
+10   :hwlabel:`SCRATCH MODE pads 1–4`                          Stem mute toggles (voice / melody / bass / drums).
+10   :hwlabel:`SCRATCH MODE pads 5–8`                          Stem effect toggles (voice / melody / bass / drums).
+10   :hwlabel:`STEM PAD pads 1–4` + :hwlabel:`LEVEL/DEPTH`     Adjust stem volume / while held parameters while held.
+10   :hwlabel:`STEM PAD pads 5–8` + :hwlabel:`LEVEL/DEPTH`     Adjust effect volume / while held.
+10   :hwlabel:`STEM PAD pads 1–4` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
 ==== ========================================================= ======================================================================
 
-.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.png
+.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.svg
    :align: center
    :width: 350
    :alt: Stems and stem-effect positions: voice, melody, bass, drums.
@@ -229,17 +235,17 @@ No.  Control                                                   Function
 
    Stems and stem-effect positions: voice, melody, bass, drums.
 
-Beat jump / roll section
+Beat Jump / Roll section
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10   Beatjump pads 1–4                                         One-shot beat jump / back / size controls.
-10   Beatjump pad 5                                            Previous track (deck must not be playing).
-10   Beatjump pads 6 / 7                                       Hold-to-rewind / hold-to-fast-forward.
-10   Beatjump pad 8                                            Hold-to-censor (``reverseroll``).
-10   Roll pads 1–8                                             Hold loop roll with per-pad configurable roll sizes.
+10   Beat Jump :hwlabel:`pads 1–4`                             One-shot beat jump / back / size controls.
+10   Beat Jump :hwlabel:`pad 5`                                Previous track (deck must not be playing).
+10   Beat Jump :hwlabel:`pads 6 /`                             Hold-to-rewind / hold-to-fast-forward.
+10   Beat Jump :hwlabel:`pad 8`                                Hold-to-censor (``reverseroll``).
+11   Beat Roll :hwlabel:`pads 1–8`                             Hold loop roll with per-pad configurable roll sizes and available actions.
 ==== ========================================================= ======================================================================
 
 Extra controls section
@@ -258,12 +264,32 @@ No.  Control                                                   Function
 10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
+*MIXXED MODE* section
+^^^^^^^^^^^^^^^^^^^^^^
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:` ←FX2/FX3→`   Select Mixxed mode.
+1    Auto Loop Mode Mode 1: Auto Loop                          User configuration applies).
+2    Auto Loop Mode Mode 2: Beat Slicer                        Segment beat into small consumable pieces. Default continuous mode. 
+2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`         Update Beat Slicer domain 8/16/32/64. Loop size and slice jump size increases accordingly.
+2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`         Loop Beat Slicer.
+
+3    Auto Loop Mode Mode 3: Piano (Unavailable)                Coming soon Piano, Play Through+!
+
+4    Auto Loop Mode Mode 4: Scratch Bank                       Loads selected scratch samples to respective deck.
+4    Auto Loop Mode :hwlabel:`pads 1–4`                        Load scratch samples from samples **17–20(Deck1/3) 21-24** (Deck2/4).
+
+
+==== ========================================================= ======================================================================
+
+.. note:: ``Beat Slicer`` If domain does not update and autoloop engaged, disengage auto loop. (Temp fix)*
 
 User configuration options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Controller settings are exposed in mapping options (XML); script defaults apply
-as fallbacks.
+as fallback.
 
 .. list-table::
    :header-rows: 1
@@ -273,9 +299,6 @@ as fallbacks.
    * - Variable
      - Function
      - Default
-   * - ``PioneerDDJREV1PROD.compatibilityMode``
-     - Detects the Mixxx version at runtime.
-     - ``auto``
    * - ``PioneerDDJREV1PROD.vinylMode``
      - Per-deck startup vinyl / CDJ mode.
      - ``true``
@@ -286,14 +309,29 @@ as fallbacks.
      - Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO.
      - ``Default``
    * - ``PioneerDDJREV1PROD.librarySortDefaults``
-     - Sort library by artist, BPM, date, duration, genre, key, rating.
+     - Sort by any available library option.
      - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
-   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
-     - Per-pad roll sizes for roll mode.
+   * - ``PioneerDDJREV1PROD.bigLibraryShiftPush``
+     - :hwlabel:`SHIFT` + :hwlabel:`ROTARY SELECTOR PUSH` Maximize and minimize "Big Library". *Replaces library backwards panel movement. Use forward to cycle through.*
+     - ``false``
+   * - ``PioneerDDJREV1PROD.beatJumpSize1`` … ``beatJumpSize8``
+     - Per-pad configuration for beat jump size, includes action override.
+     - ``Back/Half/Double/Forward`` … ``Prev/RWD/FWD/Censor``
+   * - ``PioneerDDJREV1PROD.autoLoopSize1`` … ``autoLoopSize8``
+     - Per-pad loop sizes for auto loop mode (1/32...-64, halves/doubles).
      - ``1/16`` … ``8``
+   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
+     - Per-pad roll sizes for beat roll mode (1/32...-64, halves/doubles).
+     - ``1/4`` … ``32``
    * - ``PioneerDDJREV1PROD.sZoom``
      - Use vinyl side jog for waveform zoom.
      - ``false``
+   * - ``PioneerDDJREV1PROD.waveformZoomMode``
+     - Attach waveform zoom to deck Vinyl or CDJ mode when enabled.
+     - ``vinyl``
+   * - ``PioneerDDJREV1PROD.vuMeterMode``
+     - VU meter routing: legacy per-deck meters, or stereo split master (left , right).
+     - ``per_deck``
    * - ``PioneerDDJREV1PROD.brakingEnabled``
      - Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking.
      - ``false``
@@ -306,27 +344,39 @@ as fallbacks.
    * - ``PioneerDDJREV1PROD.tempSamplerSkin``
      - Show sampler UI while using the sampler volume gate.
      - ``false``
-   * - ``PioneerDDJREV1PROD.scratchBankEnabled``
-     - Enable ScratchBank where not overridden by stems priority.
-     - ``false``
    * - ``PioneerDDJREV1PROD.studioPflAdjustment``
      - PFL adjustment: Off / Auto / Studio.
      - ``Auto``
    * - ``PioneerDDJREV1.splitFx``
-     - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes :hwlabel:`LEVEL/DEPTH`-> FX1 vs :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`-> FX2 .
+     - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes :hwlabel:`LEVEL/DEPTH`-> FX1 vs :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`-> FX2.
+     - ``false``
+   * - ``PioneerDDJREV1.enableFxUnit34ShiftLock``
+     - :hwlabel:`SHIFT` + :hwlabel:`LOCK ON`-> FX3/4.
+     - ``false``
+   * - ``PioneerDDJREV1.tempoRangeProfile``
+     - :hwlabel:`Deck Select` long press cycles through preselected ranges (wraps to first step). Default [8%, 16%, 50%], Classic [6%, 10%, 16%, 25%], Alt Step Size [8%, 24%, 50%], Extreme [8%, 16%, 50%, 100%].
+     - ``Default``
+   * - ``PioneerDDJREV1.multiModeEnabled``
+     - :hwlabel:`Shift` + :hwlabel:` ←FX2/FX3→` cycles through available modes.
+     - ``false``
+   * - ``PioneerDDJREV1.disableStartFader``
+     - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
      - ``false``
    * - ``PioneerDDJREV1PROD.samplePadLayout``
-     - ``Standard`` / ``Banked Rows`` / ``Mirrored``.
+     - ``Standard`` / ``Banked Rows`` / ``Mirrored``/ ``Per Pad 32``.
      - ``Standard``
 
 .. note:: ``samplePadLayout`` layouts
 
   - **Standard (linear):** (Deere, Tango) 
-      Left 1–8, right 9–16 (top to bottom, linear).
+       - Left 1–8, right 9–16 (top to bottom, linear).
   - **Banked rows:** (Late Night) 
-     Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
+      - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
   - **Mirrored:** Default order reversed within each row. 
-     Top 4 3 2 1, bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
+      - Top 4 3 2 1, bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
+  - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
+       - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
+        - Note: `Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
 
 
 Known issues
@@ -336,5 +386,4 @@ Known issues
   variants on the hardware (controller limitation).
 - Fader-start behavior can depend on controller-side utility state and may
   require a Mixxx restart after utility changes (controller limitation).
-- ScratchBank actions are intentionally suppressed when the stems-priority
-  gate is active on a stems-capable runtime.
+- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxed Mode slot 4.
