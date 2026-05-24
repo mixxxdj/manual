@@ -194,8 +194,8 @@ Sampler section
 ==== ========================================================= =================================================================================================
 No.  Control                                                   Function
 ==== ========================================================= =================================================================================================
-10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
-10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
+10   :hwlabel:`SAMPLER PADS 1-8`                               Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
+10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS 1-8`            Stop the playing sample, or eject a stopped sample.
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
 ==== ========================================================= =================================================================================================
 
@@ -299,52 +299,52 @@ as fallback.
    * - Variable
      - Function
      - Default
-   * - ``PioneerDDJREV1PROD.vinylMode``
+   * - ``PioneerDDJREV1.vinylMode``
      - Per-deck startup vinyl / CDJ mode.
      - ``true``
-   * - ``PioneerDDJREV1PROD.VinylSlipAutoff``
+   * - ``PioneerDDJREV1.VinylSlipAutoff``
      - Auto-enable slip on vinyl touch and auto-disable on release.
      - ``false``
-   * - ``PioneerDDJREV1PROD.nonShiftScratchFeel``
+   * - ``PioneerDDJREV1.nonShiftScratchFeel``
      - Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO.
      - ``Default``
-   * - ``PioneerDDJREV1PROD.librarySortDefaults``
+   * - ``PioneerDDJREV1.librarySortDefaults``
      - Sort by any available library option.
      - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
-   * - ``PioneerDDJREV1PROD.bigLibraryShiftPush``
+   * - ``PioneerDDJREV1.bigLibraryShiftPush``
      - :hwlabel:`SHIFT` + :hwlabel:`ROTARY SELECTOR PUSH` Maximize and minimize "Big Library". *Replaces library backwards panel movement. Use forward to cycle through.*
      - ``false``
-   * - ``PioneerDDJREV1PROD.beatJumpSize1`` … ``beatJumpSize8``
+   * - ``PioneerDDJREV1.beatJumpSize1`` … ``beatJumpSize8``
      - Per-pad configuration for beat jump size, includes action override.
      - ``Back/Half/Double/Forward`` … ``Prev/RWD/FWD/Censor``
-   * - ``PioneerDDJREV1PROD.autoLoopSize1`` … ``autoLoopSize8``
+   * - ``PioneerDDJREV1.autoLoopSize1`` … ``autoLoopSize8``
      - Per-pad loop sizes for auto loop mode (1/32...-64, halves/doubles).
      - ``1/16`` … ``8``
-   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
+   * - ``PioneerDDJREV1.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
      - Per-pad roll sizes for beat roll mode (1/32...-64, halves/doubles).
      - ``1/4`` … ``32``
-   * - ``PioneerDDJREV1PROD.sZoom``
+   * - ``PioneerDDJREV1.sZoom``
      - Use vinyl side jog for waveform zoom.
      - ``false``
-   * - ``PioneerDDJREV1PROD.waveformZoomMode``
+   * - ``PioneerDDJREV1.waveformZoomMode``
      - Attach waveform zoom to deck Vinyl or CDJ mode when enabled.
      - ``vinyl``
-   * - ``PioneerDDJREV1PROD.vuMeterMode``
+   * - ``PioneerDDJREV1.vuMeterMode``
      - VU meter routing: legacy per-deck meters, or stereo split master (left , right).
      - ``per_deck``
-   * - ``PioneerDDJREV1PROD.brakingEnabled``
+   * - ``PioneerDDJREV1.brakingEnabled``
      - Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking.
      - ``false``
-   * - ``PioneerDDJREV1PROD.brakingStartProfile``
+   * - ``PioneerDDJREV1.brakingStartProfile``
      - Start profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1PROD.brakingStopProfile``
+   * - ``PioneerDDJREV1.brakingStopProfile``
      - Stop profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1PROD.tempSamplerSkin``
+   * - ``PioneerDDJREV1.tempSamplerSkin``
      - Show sampler UI while using the sampler volume gate.
      - ``false``
-   * - ``PioneerDDJREV1PROD.studioPflAdjustment``
+   * - ``PioneerDDJREV1.studioPflAdjustment``
      - PFL adjustment: Off / Auto / Studio.
      - ``Auto``
    * - ``PioneerDDJREV1.splitFx``
@@ -362,7 +362,7 @@ as fallback.
    * - ``PioneerDDJREV1.disableStartFader``
      - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
      - ``false``
-   * - ``PioneerDDJREV1PROD.samplePadLayout``
+   * - ``PioneerDDJREV1.samplePadLayout``
      - ``Standard`` / ``Banked Rows`` / ``Mirrored``/ ``Per Pad 32``.
      - ``Standard``
 
