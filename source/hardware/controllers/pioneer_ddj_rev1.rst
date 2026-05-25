@@ -285,13 +285,15 @@ No.  Control                                                    Function
 
 .. note:: ``Beat Slicer`` If domain does not update and autoloop engaged, disengage auto loop. (Temp fix)*
 
+Lighting example mode selection: :hwlabel:`SHIFT` + :hwlabel:`FX3→`
+
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode4.svg
    :align: center
    :width: 250
-   :alt: Lighting example Mode 4, Scratch Bank. 8 scratch samples loaded.
+   :alt:  Mixxxed Mode 4: Scratch Bank. Scratch samples loaded.
    :figclass: pretty-figures
 
-   Lighting example Mode 4, Scratch Bank. 8 scratch samples loaded. 
+   Mixxxed Mode 4: Scratch Bank. Scratch samples loaded.
 
 User configuration options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
