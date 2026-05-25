@@ -369,11 +369,11 @@ as fallback.
 .. note:: ``samplePadLayout`` layouts
 
   - **Standard (linear):** (Deere, Tango) 
-       - Left 1–8, right 9–16 (top to bottom, linear).
+       - Top 1–8. Bottom 9–16.
   - **Banked rows:** (Late Night) 
-      - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
+      - Left top  1–4, bottom 5–8. Right: top 9–12, bottom 13–16.
   - **Mirrored:** Default order reversed within each row. 
-      - Top 4 3 2 1, bottom 8 7 6 5; deck 2 mirror: top 12 11 10 9, bottom 16 15 14 13.
+      - Left: top 4 3 2 1, bottom 8 7 6 5; Right: top 12 11 10 9, bottom 16 15 14 13.
   - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
        - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
         - Note: `Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
