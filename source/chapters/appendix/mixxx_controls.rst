@@ -2380,7 +2380,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch
                    [SamplerN],pitch
 
-   The total adjustment to the track's pitch, including changes from the rate slider if keylock is off as well as :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>`.
+   The total adjustment to the track's pitch, including changes from the rate slider
+   if keylock is off as well as :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>`.
+   It is reset to 0 after loading a new track when "Key/Pitch" is ticked in
+   :menuselection:`Options --> Preferences --> Decks --> Reset On Track Load` and when
+   "Keylock mode" is "Current key".
 
    .. note:: Do not map this to knobs or sliders on controllers; map :mixxx:coref:`pitch_adjust <[ChannelN],pitch_adjust>` instead.
 
@@ -2420,7 +2424,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],pitch_adjust
                    [SamplerN],pitch_adjust
 
-   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock. It is reset after loading a new track.
+   Adjusts the pitch in addition to the :term:`tempo` slider pitch and keylock.
+   It is reset to 0 after loading a new track when "Key/Pitch" is ticked in
+   :menuselection:`Options --> Preferences --> Decks --> Reset On Track Load`
+   and when "Keylock mode" is "Original key".
 
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
