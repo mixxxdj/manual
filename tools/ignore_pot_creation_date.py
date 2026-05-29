@@ -4,6 +4,7 @@ import os
 import subprocess
 import sys
 import typing
+import pathlib
 
 """
 This script reverts changes in PO files when only the timestamp has changed.
@@ -30,22 +31,23 @@ def get_git_changeset(from_ref, to_ref) -> str:
     return f"{from_ref}...{to_ref}" if to_ref else from_ref
 
 
-def count_meaningful_changes(changeset, po_file) -> int:
+def count_meaningful_changes(
+    changeset: str, po_file: typing.Iterable[pathlib.Path]
+) -> int:
     """
     Counts meaningful changes in the diff for a given PO file.
     """
     cmd = ["git", "diff", "--patch", "--unified=0", changeset, "--", po_file]
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    proc.check_returncode()
+    output = subprocess.check_output(cmd, text=True)
 
-    diff_lines = proc.stdout.splitlines()
+    diff_lines = output.splitlines()
     return sum(
         1
         for line in diff_lines
         if (line.startswith("-") or line.startswith("+"))
         and "POT-Creation-Date:" not in line
         and "PO-Revision-Date:" not in line
-        and po_file not in line
+        and str(po_file) not in line
     )
 
 
@@ -58,11 +60,10 @@ def revert_po_file(changeset, po_file, logger):
     ]  # Use the first part of the changeset as the reference
     logger.info(f"{po_file} has no meaningful changes, reverting to {ref}")
     cmd = ["git", "show", f"{ref}:{po_file}"]
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    proc.check_returncode()
+    output = subprocess.check_output(cmd, text=True)
 
-    with open(po_file, "w") as file:
-        file.write(proc.stdout)
+    with po_file.open(mode="w") as file:
+        file.write(output)
 
 
 def main(argv: typing.Optional[typing.List[str]] = None) -> int:
@@ -76,7 +77,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     )
     parser.add_argument("--from-ref", help="Use changes since this commit.")
     parser.add_argument("--to-ref", help="Use changes until this commit.")
-    parser.add_argument("files", nargs="*", help="Only check these files.")
+    parser.add_argument(
+        "files", nargs="*", type=pathlib.Path, help="Only check these files."
+    )
     args = parser.parse_args(argv)
 
     # Remove the first entry which is the script file name itself
