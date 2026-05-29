@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# MjrLZ, 2025
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2026-03-25 00:48+0100\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,155 +24,155 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliotheek - Pictogram AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bladeren"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Crates"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Slepen"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis huidige sessie"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Bibliotheek - Pictogram iTunes"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Vergrendeld"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Ontbrekende Nummers"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Afspeellijst"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Analyseer"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Opnames"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Rhythmbox"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Pauzeer"
 
 #: ../../shortcuts.rstext:118
 msgid "Library - Preview Play"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Afspelen"
 
 #: ../../shortcuts.rstext:124
 msgid "Library - BPM Locked"
-msgstr ""
+msgstr "Bibliotheek - BPM Vergrendeld"
 
 #: ../../shortcuts.rstext:130
 msgid "Library - BPM Unlocked"
-msgstr ""
+msgstr "Bibliotheek - BPM Ontgrendeld"
 
 #: ../../shortcuts.rstext:139
 msgid "Preferences - Icon BPM Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram BPM Detectie"
 
 #: ../../shortcuts.rstext:145
 msgid "Preferences - Icon Live Broadcasting"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Live Uitzending"
 
 #: ../../shortcuts.rstext:151
 msgid "Preferences - Icon Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Controllers"
 
 #: ../../shortcuts.rstext:157
 msgid "Preferences - Icon Crossfader"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Crossfader"
 
 #: ../../shortcuts.rstext:163
 msgid "Preferences - Icon Effects"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Effecten"
 
 #: ../../shortcuts.rstext:169
 msgid "Preferences - Icon Equalizers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Equalizers"
 
 #: ../../shortcuts.rstext:175
 msgid "Preferences - Icon Interface"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Interface"
 
 #: ../../shortcuts.rstext:181
 msgid "Preferences - Icon Key Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Toonaard Detectie"
 
 #: ../../shortcuts.rstext:187
 msgid "Preferences - Icon Library"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:193
 msgid "Preferences - Icon MIDI Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram MIDI Controllers"
 
 #: ../../shortcuts.rstext:199
 msgid "Preferences - Icon Modplug Decoder"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Modplug Decoder"
 
 #: ../../shortcuts.rstext:205
 msgid "Preferences - Icon Recording"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Opnemen"
 
 #: ../../shortcuts.rstext:211
 msgid "Preferences - Icon ReplayGain"
-msgstr ""
+msgstr "Voorkeuren - Pictogram ReplayVolume"
 
 #: ../../shortcuts.rstext:217
 msgid "Preferences - Icon Sampler"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Sampler"
 
 #: ../../shortcuts.rstext:223
 msgid "Preferences - Icon Sound Hardware"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Geluidshardware"
 
 #: ../../shortcuts.rstext:229
 msgid "Preferences - Icon Vinyl Control"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Vinyl Control"
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
@@ -215,7 +216,7 @@ msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/preferences/sound_hardware.rst:6
 msgid "Sound Hardware"
@@ -546,17 +547,17 @@ msgstr ""
 
 #: ../../chapters/preferences/sound_hardware.rst:155
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../chapters/preferences/sound_hardware.rst:156
 msgid "CoreAudio is the only Sound API on macOS."
 msgstr "CoreAudio is de enige Sound API in macOS."
 
-#: ../../chapters/preferences/sound_hardware.rst:159
+#: ../../chapters/preferences/sound_hardware.rst:161
 msgid "Other Sound Hardware options"
 msgstr "Andere Sound Hardware opties"
 
-#: ../../chapters/preferences/sound_hardware.rst:160
+#: ../../chapters/preferences/sound_hardware.rst:162
 msgid ""
 "**Multi-Soundcard Synchronization**: Mixxx is able to use two or more "
 ":term:`audio interface <audio interface>` at a time, each with its own "
@@ -572,7 +573,7 @@ msgstr ""
 " u de synchronizatie selecteren die gebruikt zal worden voor de andere audio"
 " interfaces om buffer overflows of underflows te vermijden"
 
-#: ../../chapters/preferences/sound_hardware.rst:166
+#: ../../chapters/preferences/sound_hardware.rst:168
 msgid ""
 "**Keylock/Pitch-Bending Engine**: This allows you to select the engine used "
 "for independent tempo and pitch changes (e.g. :term:`key lock`). Use "
@@ -585,7 +586,7 @@ msgstr ""
 "netbooks) of indien u buffer underflows ervaart terwijl u :term:`key lock` "
 "gebruikt."
 
-#: ../../chapters/preferences/sound_hardware.rst:171
+#: ../../chapters/preferences/sound_hardware.rst:173
 msgid ""
 "**Main Mix**: You may disable the main mix to reduce Mixxx's CPU usage if "
 "you do not use the :term:`main output`, recording or live broadcasting."
@@ -594,7 +595,7 @@ msgstr ""
 "Mixxx te verminderen wanneer u geen gebruik maakt van de :term:`main "
 "output`, van het opnemen of van live broadcasting."
 
-#: ../../chapters/preferences/sound_hardware.rst:174
+#: ../../chapters/preferences/sound_hardware.rst:176
 msgid ""
 "**Main Output Mode**: In Mono mode, the left and right channel are combined "
 "into a mono signal which is passed to both channels of your main audio "
@@ -608,85 +609,70 @@ msgstr ""
 "publiek uw mix niet in stereo kan beluisteren omwille van de plaatsing van "
 "de speakers of wanneer u speelt in een ruimte met veel reverb."
 
-#: ../../chapters/preferences/sound_hardware.rst:180
+#: ../../chapters/preferences/sound_hardware.rst:182
 msgid ""
-"**Buffer Underflow Count**: Underflows (data is not available when needed) "
-"indicate that some of the subsystems in Mixxx can't keep up with real-time "
-"deadlines imposed by the current audio buffer size. This is useful to tune "
-"the latency settings. If the counter increases, then increase your audio "
-"buffer size, decrease the sample rate setting or change the sound API "
-"setting if available."
+"**Buffer Underflow Count**: This counts overflows in output buffers or "
+"underflows in input buffers, indicating either the output device(s) can't "
+"consume audio data generated by the engine fast enough, or the input "
+"device(s) can't provide audio data as fast as required by the current audio "
+"buffer size. If the counter increases, you may try to increase your audio "
+"buffer size, decrease the sample rate setting, change the sound API "
+"available or try another keylock/pitch-bend engine."
 msgstr ""
-"**Buffer Underflow Count**: Underflows (de data is niet beschikbaar wanneer "
-"die nodig is) duidt aan dat enkele van de subsystemen in Mixxx niet in real-"
-"time de deadlines gesteld door de huidige audio buffer size kunnen "
-"volgen.Dit is handig om de latency instellingen te regelen. Wanneer de "
-"teller verhoogt verhoog dan uw audio buffer size, verlaag de sample rate "
-"instelling of verander de sound API instelling indien mogelijk."
 
-#: ../../chapters/preferences/sound_hardware.rst:188
+#: ../../chapters/preferences/sound_hardware.rst:190
 msgid "Output and Input Devices"
 msgstr "Output en Input Devices"
 
-#: ../../chapters/preferences/sound_hardware.rst:190
+#: ../../chapters/preferences/sound_hardware.rst:192
 msgid ""
 "In the usual, basic 'Digital DJ' setup (:ref:`setup-controller-and-external-"
-"card` or :ref:`setup-laptop-and-external-card`) all that needs to be "
-"configured are the Master and Headphones outputs. Though, there are many "
-"more output and input channels available for more complex setups, for "
-"example with external mixers, vinyl control or for broadcasting."
+"card` or :ref:`setup-laptop-and-external-card`), all that needs to be "
+"configured are the Main and Headphones outputs."
 msgstr ""
-"In de gewoonlijke, basis 'Digital DJ' opstelling (:ref:`setup-controller-"
-"and-external-card` of :ref:`setup-laptop-and-external-card`) moet u enkel de"
-" Master en hoofdtelefoon outputs configureren. Hoewel er veel meer output en"
-" input kanalen veschikbaar zijn foor meer complexe opstellingen, "
-"bijvoorbeeld met externe mengtafels, vinyl besturing of voor uitzending "
-"(broadcasting)."
 
 #: ../../chapters/preferences/sound_hardware.rst:196
 msgid ""
-"All outputs are usually sent to a channel pair (stereo), though they can "
-"also be sent to one channel only (mono mixdown), for example if you're short"
-" on output channels, like when you need to use one stereo output for both "
-"master and headphones (see :ref:`setup-laptop-with-splitter`)."
+"Deck and Bus outputs are intended for use with external hardware mixers. "
+"They are taken *post-fader*, which means they include channel volume and "
+"crossfader adjustments and applied effects. When mixing manually, all Mixxx-"
+"internal mixer controls (Volume fader, EQs and crossfader) need to be reset "
+"so that the internal mixer doesn’t affect the sound. When using Auto DJ, the"
+" external mixer's crossfader needs to centered since Auto DJ will use the "
+"internal crossfader."
 msgstr ""
-"Alle outputs worden gewoonlijk verstuurd als een kanaal paar (stereo), "
-"hoewel ze ook als slechts één kanaal (mono mixdown) kunnen worden verstuurd,"
-" bijvoorbeeld als u een tekort aan output kanalen heeft, zoals wanneer u één"
-" stereo output moet gebruiken woor zowel de master en hoofdtelefoon (see "
-":ref:`setup-laptop-with-splitter`)."
 
-#: ../../chapters/preferences/sound_hardware.rst:201
+#: ../../chapters/preferences/sound_hardware.rst:204
 msgid ""
-"Inputs can be mono or stereo (matching plugged sources, of course), except "
-"vinyl control inputs which require stereo to capture the entire control "
-"signal."
+"All outputs are usually sent to a channel pair (stereo), though they can "
+"also be sent to a single channel (mono mixdown), for example if you need to "
+"use one stereo output for both Master and Headphones (see :ref:`setup-"
+"laptop-with-splitter`)."
 msgstr ""
-"Inputs kunnen mono of stereo zijn (aangepast aan de verbonden bron "
-"natuurlijk) behalve vinyl control inputs. Deze vereisen stereo om het gehele"
-" signaal te kunnen opvangen."
 
-#: ../../chapters/preferences/sound_hardware.rst:205
+#: ../../chapters/preferences/sound_hardware.rst:208
+msgid ""
+"Inputs can be mono or stereo, depending on the connected sources. Vinyl "
+"control inputs always require stereo to capture the full control signal."
+msgstr ""
+
+#: ../../chapters/preferences/sound_hardware.rst:212
 msgid "Outputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:207
+#: ../../chapters/preferences/sound_hardware.rst:214
 msgid ""
-"**Master** (Main): The mix of all audible channels, e.g. main decks, all "
+"**Main** (Master): The mix of all audible channels, e.g. main decks, all "
 "samplers, enabled microphones and auxiliary inputs."
 msgstr ""
-"**Master** (Main): De mix van alle hoorbare kanalen, bv. main decks, alle "
-"samplers, geactiveerde microfoons en auxiliaire inputs."
 
-#: ../../chapters/preferences/sound_hardware.rst:210
+#: ../../chapters/preferences/sound_hardware.rst:217
 msgid ""
-"**Headphones**: All channels for which :term:`pfl` is enabled, as well as "
-"the preview deck."
+"**Headphones**: All channels for which :term:`pfl` is enabled, including the"
+" preview deck."
 msgstr ""
-"**Headphones**: Alle kanalen voor dewelke :term:`pfl` geactiveerd isalsook "
-"het voobeluisteingsdeck."
 
-#: ../../chapters/preferences/sound_hardware.rst:213
+#: ../../chapters/preferences/sound_hardware.rst:220
 msgid ""
 "**Booth**: Basically the same output as Main to be routed to a separate "
 "output, for example for the speakers in the DJ booth, external recording "
@@ -696,39 +682,25 @@ msgstr ""
 "aparte output, bijvoorbeeld voor de speakers in de DJ booth, een extern "
 "opname apparaat, terugloop apparaat voor videoopnames etc."
 
-#: ../../chapters/preferences/sound_hardware.rst:217
+#: ../../chapters/preferences/sound_hardware.rst:224
 msgid ""
-"**Left Bus**: All decks, samplers and auxiliaries that are assigned to the "
-"left side of the :term:`crossfader`."
+"**Left Bus / Center Bus / Right Bus**: All decks, samplers, and auxiliaries "
+"routed to the respective side of the :term:`crossfader`. The buses are "
+"picked post-fader and post-effects and can be used with an external two "
+"channel mixer."
 msgstr ""
-"**Left Bus**: Alle decks, samplers en auxiliarire inputs die toegewezen zijn"
-" aan de linkerkant van de :term:`crossfader`."
 
-#: ../../chapters/preferences/sound_hardware.rst:220
+#: ../../chapters/preferences/sound_hardware.rst:228
 msgid ""
-"**Center Bus**: All decks, samplers and auxiliaries that are assigned to the"
-" center of the :term:`crossfader`."
+"**Deck 1-4**: Separate outputs for each of the main decks. They are picked "
+"post-fader and include effects and crossfader (for Auto DJ)."
 msgstr ""
-"**Center Bus**: Alle decks, samplers en auxiliaire inputs die toegewezen "
-"zijn aan het centrum van de :term:`crossfader`."
 
-#: ../../chapters/preferences/sound_hardware.rst:223
-msgid ""
-"**Right Bus**: All decks, samplers and auxiliaries that are assigned to the "
-"right side of the :term:`crossfader`."
-msgstr ""
-"**Right Bus**: Alle decks, samplers en auxiliarire inputs die toegewezen "
-"zijn aan de rechterkant van de :term:`crossfader`."
-
-#: ../../chapters/preferences/sound_hardware.rst:226
-msgid "**Deck 1-4**: Separate outputs for each of the main decks."
-msgstr "**Deck 1-4**: Aparte outputs voor elk van de main decks."
-
-#: ../../chapters/preferences/sound_hardware.rst:229
+#: ../../chapters/preferences/sound_hardware.rst:232
 msgid "Inputs"
 msgstr ""
 
-#: ../../chapters/preferences/sound_hardware.rst:231
+#: ../../chapters/preferences/sound_hardware.rst:234
 msgid ""
 "**Vinyl Control 1-4**: Inputs to be used for :ref:`vinyl control and "
 "passthrough <vinyl-control>`. Note that one input can be selected for "
@@ -738,15 +710,15 @@ msgstr ""
 "en passthrough <vinyl-control>`. Let op dat één input kan worden "
 "geselecteerd voor meerdere decks."
 
-#: ../../chapters/preferences/sound_hardware.rst:234
+#: ../../chapters/preferences/sound_hardware.rst:237
 msgid "**Microphone 1-4**: The :ref:`microphone <microphones>` inputs."
 msgstr "**Microfoon 1-4**: De :ref:`microfoon <microphones>` inputs."
 
-#: ../../chapters/preferences/sound_hardware.rst:236
+#: ../../chapters/preferences/sound_hardware.rst:239
 msgid "**Auxiliary 1-4**: Auxiliary inputs."
 msgstr "**Auxiliaire 1-4**: Auxiliaire inputs."
 
-#: ../../chapters/preferences/sound_hardware.rst:238
+#: ../../chapters/preferences/sound_hardware.rst:241
 msgid ""
 "**Record/Broadcast**: The input used for the Mixxx-internal :ref:`recording "
 "<djing-recording-your-mix>` and :ref:`broadcasting <live-broadcasting>`. "

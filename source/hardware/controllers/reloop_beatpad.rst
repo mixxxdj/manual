@@ -165,7 +165,7 @@ SYNC
    that also have **quantize** enabled (which is enabled by default by the
    mapping) will always have their beats lined up.
    **Note :** the **quantize** mode is not mapped on the controller but can be
-   enabled/desabled from Mixxx.
+   enabled/disabled from Mixxx.
 
 .. _reloop-beatpad-jogwheel:
 

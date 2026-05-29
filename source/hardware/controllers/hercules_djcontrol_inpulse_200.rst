@@ -125,7 +125,7 @@ Pad 4 (deck B)                                                   Toggle Effect R
 ===============================================================  ==========================================
 
 .. seealso::
-   Read the update guide for more details about `updating the firmware <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__.
+   Read the update guide for more details about `updating the firmware <https://web.archive.org/web/20250329173925/https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide/>`__.
 
 Sampler Mode
 ^^^^^^^^^^^^

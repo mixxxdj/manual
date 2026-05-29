@@ -24,7 +24,7 @@ with Mixxx, each with their own pros and cons:
              headphone jack. Also, they can be difficult to configure at the
              same time as a different audio interface for music output.
 
-.. seealso:: The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility>`_
+.. seealso:: The `Mixxx DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-Compatibility#user-content-usb-audio-interfaces>`_
              lists specific audio interfaces with information about their prices,
              features, and suitability for use with microphones.
 

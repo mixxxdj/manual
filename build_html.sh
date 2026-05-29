@@ -11,7 +11,7 @@ NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
 # Write _redirects file
 mkdir -p build/html
 printf '/           /latest/               302\n' > build/html/_redirects
-printf '/latest/*   /2.4/:splat            301\n' >> build/html/_redirects
+printf '/latest/*   /2.5/:splat            301\n' >> build/html/_redirects
 
 i=1
 for lang in $LANGUAGES
@@ -20,10 +20,10 @@ do
 
     if [ "$lang" = "en" ]
     then
-        printf '/:version/en/* /2.4/en/404.html  404\n' >> build/html/_redirects
+        printf '/:version/en/* /2.5/en/404.html  404\n' >> build/html/_redirects
         printf '/:version/*    /:version/en/:splat    301\n' >> build/html/_redirects
     else
-        printf '/:version/%s/* /2.4/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
+        printf '/:version/%s/* /2.5/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
         printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "$(printf "%s" "$lang"  | sed 's/_/-/g')" >> build/html/_redirects
     fi
     make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"

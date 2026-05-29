@@ -70,7 +70,7 @@ Note that equalizer and filter effects create a phase shift. If the mix knob is
 anywhere in the middle between dry and wet and any of these effects are enabled
 in the unit, there will be comb filtering which is probably not desired. For
 more background information, read `Equalizers and Phase Shift
-<http://ethanwiner.com/EQPhase.html>`_.
+<https://web.archive.org/web/20250304083208/https://ethanwiner.com/EQPhase.html>`_.
 
 Effect Parameters & Metaknobs
 =============================

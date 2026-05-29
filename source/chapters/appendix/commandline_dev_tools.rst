@@ -43,6 +43,7 @@ types, go to :ref:`file-format-compatibility`.
 --resource-path PATH            Top-level directory where Mixxx will look for
                                 its resource files such as MIDI mappings,
                                 overriding the default installation location.
+--start-autodj                  Enables Auto DJ when starting Mixxx.
 --settings-path PATH            Top-level directory where Mixxx will look for
                                 user settings files such as the library database
                                 and preferences configuration file.
@@ -66,6 +67,7 @@ types, go to :ref:`file-format-compatibility`.
                                 * Disables spinning vinyl widgets
                                 * Disables synchronization polling
                                 * Doesn't open controllers by default
+--start-autodj                  Automatically start :ref:`Auto DJ<djing-auto-dj>` when Mixxx finished loading.
 --color <color>               [auto|always|never] Use colors on the console
                                 output.
 --locale LOCALE                 Use a custom locale for loading translations

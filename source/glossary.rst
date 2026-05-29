@@ -6,7 +6,12 @@ Glossary of Terms
 
    ASIO
    Audio Stream Input/Output
-     ASIO is a :term:`low-latency <latency>` :term:`audio interface` :term:`API` on Microsoft Windows.
+     Steinbergs ASIO is a third-party :term:`low-latency <latency>` Sound :term:`API`
+     for Microsoft Windows, and is seen the de facto standard for professional audio
+     devices on Windows.
+
+     ASIO shows usually better performance than the Sound APIs of Windows itself,
+     but only when the hardware manufacturer provides a dedicated ASIO driver.
 
    cueing
      Headphone cueing, or just cueing, is listening to the next track you would
@@ -81,13 +86,6 @@ Glossary of Terms
      it and play the track, just like you would put a record on turntable and
      play it.
 
-   IRC
-   Internet Relay Chat
-     IRC is an online chat network. The Mixxx IRC channel
-     was on the `FreeNode IRC Network <https://freenode.net>`_ in the ``#mixxx``
-     channel. The channel was replaced in 2018 by the
-     :term:`Mixxx Zulip Chat <Zulip>`.
-
    Zulip
      `Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat
      application that combines the immediacy of real-time chat with the
@@ -132,6 +130,12 @@ Glossary of Terms
      signals but some controllers use :term:`HID` signals. Many DJs prefer to
      control DJ software using physical knobs, faders, and wheels on controllers
      instead of using a computer keyboard and mouse.
+
+   DVS
+   Digital Vinyl System
+     A system consisting of a traditional turntable, a special vinyl record encoded
+     with a digital :term:`timecode` instead of an analog audio track, an :term:`audio interface`,
+     and a computer running DJ software such as Mixxx that supports :term:`vinyl control` functionality.
 
    vinyl control
      A method of controlling DJ applications which simulates the traditional

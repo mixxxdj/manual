@@ -92,7 +92,7 @@ Jogwheel can be used to control various things, depending of the mode they are i
 Here is how to tell what mode is on, depending the current state of the LED:
 
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel                                       | Others                                  |
+| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel LED                                   | Others                                  |
 +================+================+===============+================================================+=========================================+
 | Vinyl mode     | On             | Off           | Circling while the track is playing/scratching | --                                      |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
@@ -100,9 +100,9 @@ Here is how to tell what mode is on, depending the current state of the LED:
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
 | Turntable mode | Off            | On            | Circling while the track is playing/scratching | --                                      |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop in        | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
+| Loop in mode   | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop out       | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
+| Loop out mode  | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
 +----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
 
 Here is how to select each mode:
@@ -186,7 +186,7 @@ All mapping detail
 |                  |   short press)                                                   | - Blinking when grid/BPM move is on      |
 |                  | - Enable grid move mode while pressed                            | - Blinking when grid move mode is        |
 |                  | - Enable BPM move mode while pressed and pressing                |   enabled                                |
-|                  |   :hwlabel:`SHIFT`                                               |   enabled                                |
+|                  |   :hwlabel:`SHIFT`                                               |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Turntable        | - Toggle on or off the turntable mode                            | - On: Turntable mode on, otherwise jog   |
 |                  |                                                                  |   or vinyl                               |
@@ -197,12 +197,12 @@ All mapping detail
 | Deck Select      | - Select a deck                                                  | - The deck's main color will be the one  |
 |                  |                                                                  |   of the selected deck                   |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Shift            | Shift controls for the all controller side, including effect     | - On or Off                              |
+| Shift            | Shift controls for the entire controller side, including effect  | - On or Off                              |
 |                  | unit                                                             |                                          |
 +------------------+------------------------------------------------------------------+------------------------------------------+
-| Cue              | - Trigger the cue default effect                                 | Depends of the cue mode                  |
+| Cue              | - Trigger the cue default effect                                 | Depends on the                           |
 |                  | - Start or stop the track while pressing :hwlabel:`SHIFT`        |                                          |
-|                  | - Select the cue as the play mode when in Keyboard move mode     |                                          |
+|                  | - Select the cue as the play mode when in Keyboard move mode     | :ref:`cue mode <interface-cue-modes>`    |
 +------------------+------------------------------------------------------------------+------------------------------------------+
 | Play/Pause       | - Play/Pause the track                                           | On if track is playing                   |
 |                  | - Long press: clone the playing track                            |                                          |
@@ -381,13 +381,16 @@ Right Encoder (press)                                            Activate/exit l
 Mapping options
 ---------------
 
+Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
 
-There are various option that can be used to change some behavior:
+There are various options that can be used to change some behavior:
 
 ============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 Setting                                                                                        Variable value                              Default                                                                                                           Range                                                                                 Description
 ============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 Deck colors                                                                                    `DeckColors`                                LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple                                                   **All colors as defined in _LedColors_. Must be four color, separated by a comma**    Define the leading colors for each decks. Note that some buttons have only one color
+Tempo fader center range                                                                       `tempoCenterRangeMm`                        1.0                                                                                                               0.3..5.0                                                                              Defines the center range in mm where the rate snaps to 0.
+Tempo fader center offset                                                                      `tempoCenterOffsetMm`                       0.0                                                                                                               -3.0..3.0                                                                             Shifts the center range in case it doesn't match the center marker.
 Sortable column in the library                                                                 `LibrarySortableColumns`                    LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, LibraryColumns.Key, LibraryColumns.DatetimeAdded **All values defined in** `the Mixxx control documentation`_ **separated by a comma** Define the list of columns on which it possible to sort the library using the library encoder and the view button
 Loop In/Out jogwheel sensitivity                                                               `LoopWheelMoveFactor`                       50                                                                                                                -500..500 (Recommended)                                                               Define the sensitivity when moving the loop start or end point using the loop jogwheel mode. Negative value will reverse the order
 Loop encoder sensitivity                                                                       `LoopEncoderMoveFactor`                     500                                                                                                               -3000..3000 (Recommended)                                                             Define the sensitivity when moving the loop with the encoder when using the loop jogwheel mode. Negative value will reverse the order
@@ -406,9 +409,9 @@ Define the predefined size to use for the beatloop tab                          
 Use the two last tab as loop half/double buttons in the beatloop tab                           `AddLoopHalveAndDoubleOnBeatloopRollTab`    true                                                                                                              true/false                                                                            Use the last two pad from the bottom row as loop half and loop double. These can be used to interact with beatloop roll and normal loop.
 Jogwheel speed (in turntable mode, as well as LED indicator)                                   `BaseRevolutionsPerMinute`                  33 + 1/3                                                                                                          33+1/3, 45 (Recommended)                                                              The turntable mode defines how fast the jogwheel turns (if on) as well as the LED, and the overall jogwheel sensitivity. It is recommended to keep either 33 + 1/3 or 45 as a value
 Whether or not to use haptic feedback features                                                 `UseMotors`                                 false                                                                                                             true/false                                                                            Whether or not to use haptic feedback features. This is a beta feature, some of them may be unstable.
-Map the mixer :hwlabel`Master` knob to the Mixxx internal mixer                                `SoftwareMixerMain`                         false                                                                                                             true/false                                                                            When enabled, the Master knob will drive the Main gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
-Map the mixer :hwlabel`Booth` knob to the Mixxx internal mixer                                 `SoftwareMixerBooth`                        false                                                                                                             true/false                                                                            When enabled, the Booth knob will drive the Booth gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
-Map the mixer headphone knobs  :hwlabel`VOL` and :hwlabel`MIX` to the Mixxx internal mixer     `SoftwareMixerHeadphone`                    false                                                                                                             true/false                                                                            When enabled, the headphone knobs will drive the headphone controls of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer :hwlabel:`Master` knob to the Mixxx internal mixer                               `SoftwareMixerMain`                         false                                                                                                             true/false                                                                            When enabled, the Master knob will drive the Main gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer :hwlabel:`Booth` knob to the Mixxx internal mixer                                `SoftwareMixerBooth`                        false                                                                                                             true/false                                                                            When enabled, the Booth knob will drive the Booth gain of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
+Map the mixer headphone knobs  :hwlabel:`VOL` and :hwlabel:`MIX` to the Mixxx internal mixer   `SoftwareMixerHeadphone`                    false                                                                                                             true/false                                                                            When enabled, the headphone knobs will drive the headphone controls of the Mixxx internal mixer as well as the hardware built-in mixer in the device.
 Default Pad Layout                                                                             `DefaultPadLayout`                          default                                                                                                           default,hotcue,samplerBeatloop,keyboard                                               Define the default layout used for the pads.
 ============================================================================================== =========================================== ================================================================================================================= ===================================================================================== ================================================================================================================================================================================================================
 
@@ -423,25 +426,3 @@ Number of samples used for jogwheel speed in turntable mode      `TurnTableSpeed
 Define the tension of the jogwheel                               `TightnessFactor`                           0.5            0..1.0                                         Define the jogwheel tension. 0 makes it very tight while 1 makes it very loose
 Define how much force can the jogwheel use                       `MaxWheelForce`                             25000          10000..30000 (Recommended, can go up to 60000) Define how much resistance can the wheel use when its rotation is held
 ================================================================ =========================================== ============== ============================================== ==========================================================================================================================================================
-
-Changing settings
-~~~~~~~~~~~~~~~~~
-
-Mixxx 2.4
-^^^^^^^^^
-
-Making these changes is still a little awkward, this will be much easier to do starting in Mixxx 2.5.
-For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
-
-1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
-2. Select :file:`Traktor-Kontrol-S4-MK3-hid-scripts.js`.
-3. Click :guilabel:`Open Selected File`.
-4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
-5. Starting from the block entitled `USER CONFIGURABLE SETTINGS`, there should be configurable options.
-
-
-
-Mixxx 2.5+
-^^^^^^^^^^
-
-Settings can be edited in the preference windows, under :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK3 ...`.
