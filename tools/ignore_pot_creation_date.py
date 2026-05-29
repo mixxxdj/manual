@@ -51,13 +51,14 @@ def count_meaningful_changes(
     )
 
 
-def revert_po_file(changeset, po_file, logger):
+def revert_po_file(changeset, po_file):
     """
     Reverts a PO file to its original state in the given changeset.
     """
     ref = changeset.split("...")[
         0
     ]  # Use the first part of the changeset as the reference
+    logger = logging.getLogger(__name__)
     logger.info(f"{po_file} has no meaningful changes, reverting to {ref}")
     cmd = ["git", "show", f"{ref}:{po_file}"]
     output = subprocess.check_output(cmd, text=True)
@@ -70,8 +71,6 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     logging.basicConfig(
         format="[%(levelname)s] %(message)s", level=logging.INFO
     )
-    logger = logging.getLogger(__name__)
-
     parser = argparse.ArgumentParser(
         description="Revert PO files with only timestamp changes."
     )
@@ -90,7 +89,7 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     for po_file in files_to_process:
         count = count_meaningful_changes(changeset, po_file)
         if count == 0:
-            revert_po_file(changeset, po_file, logger)
+            revert_po_file(changeset, po_file)
 
     return 0
 
