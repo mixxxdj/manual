@@ -81,8 +81,7 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    # Remove the first entry which is the script file name itself
-    files_to_process = args.files[1:] if args.files else []
+    files_to_process = args.files if args.files else []
 
     changeset = get_git_changeset(args.from_ref, args.to_ref)
 
