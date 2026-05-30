@@ -463,6 +463,8 @@ linkcheck_ignore = [
     "https://www.allen-heath.com/support/",
     "https://www.keithmcmillen.com/QuNeo/downloads/",
     "https://www.keithmcmillen.com/products/quneo/",
+    "https://oblique-audio.com/rtl-utility.php",
+    "https://support.alphatheta.com/",
 ]
 
 # Avoid freezing during linkcheck
