@@ -19,7 +19,7 @@ Pioneer DDJ-FLX4
 The Pioneer DDJ-FLX4 is a 2 deck USB controller with an integrated audio interface
 designed for rekordbox and Serato.
 
-- `Manufacturer's Product Page <https://support.alphatheta.com/products/12077079532697>`__
+- `Manufacturer's Product Page <https://www.pioneerdj.com/product/dj-controllers/ddj-flx4/>`__
 - `Manufacturer's User Manual <https://support.alphatheta.com/articles/12267724407961>`__
 - `Hardware Diagram <https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-REV1/DDJ-REV1_HardwareDiagram_SeratoDJLite_Pro_E1.pdf>`__
 - `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-flx4/26553>`__
