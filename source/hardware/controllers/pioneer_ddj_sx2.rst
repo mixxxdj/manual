@@ -51,9 +51,9 @@ Group                 Figure           Control                                  
 3 - MIXER             4                EQ HIGH                                        Controls deck’s equalizer/filter high frequencies
 3 - MIXER             5                EQ MID                                         Controls deck’s equalizer/filter mid frequencies
 3 - MIXER             6                EQ LOW                                         Controls deck’s equalizer/filter low frequencies
-3 - MIXER             4                :hwlabel:`SHIFT` + EQ HIGH                     The first turn will kill the EQ high, turning backwards will reenable it. Without shifting, put the knob in the middle position to reset the EQ
-3 - MIXER             5                :hwlabel:`SHIFT` + EQ MID                      The first turn will kill the EQ mid, turning backwards will reenable it. Without shifting, put the knob in the middle position to reset the EQ
-3 - MIXER             6                :hwlabel:`SHIFT` + EQ LOW                      The first turn will kill the EQ low, turning backwards will reenable it. Without shifting, put the knob in the middle position to reset the EQ
+3 - MIXER             4                :hwlabel:`SHIFT` + EQ HIGH                     The first turn will kill the EQ high, turning backwards will re-enable it. Without shifting, put the knob in the middle position to reset the EQ
+3 - MIXER             5                :hwlabel:`SHIFT` + EQ MID                      The first turn will kill the EQ mid, turning backwards will re-enable it. Without shifting, put the knob in the middle position to reset the EQ
+3 - MIXER             6                :hwlabel:`SHIFT` + EQ LOW                      The first turn will kill the EQ low, turning backwards will re-enable it. Without shifting, put the knob in the middle position to reset the EQ
 3 - MIXER             7                :hwlabel:`CUE`                                 Toggles headphone pre-listen (PFL) for the deck
 3 - MIXER             7                :hwlabel:`SHIFT` + :hwlabel:`CUE`              Sends BPM tap input for manual tempo detection
 3 - MIXER             8                :hwlabel:`MASTER LEVEL`                        Controls the hardware master output level (independent from Mixxx)
@@ -165,7 +165,7 @@ Figure           Control                                    Description
 9, 10, 11, 12    :hwlabel:`FX1 ASSIGN`                      Assign EffectRack1-EffectUnit1/3 to specific deck
 13, 14, 15, 16   :hwlabel:`FX2 ASSIGN`                      Assign EffectRack1-EffectUnit2/4 to specific deck
 17, 18, 19, 20   :hwlabel:`FILTER`                          Control QuickEffectRack1 super1 knob (e.g. moog filter)
-17, 18, 19, 20   :hwlabel:`SHIFT` + :hwlabel:`FILTER`       The first turn will kill the quick effet super knob, turning backwards will reenable it. Without shifting, put the knob in the middle position to reset the effect
+17, 18, 19, 20   :hwlabel:`SHIFT` + :hwlabel:`FILTER`       The first turn will kill the quick effet super knob, turning backwards will re-enable it. Without shifting, put the knob in the middle position to reset the effect
 ===============  =========================================  =================================================================================================================================
 
 Performance Pads
