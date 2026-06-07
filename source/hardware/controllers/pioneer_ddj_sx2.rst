@@ -36,6 +36,7 @@ Group                 Figure           Control                                  
 5 - BROWSER           4                :hwlabel:`SHIFT` + :hwlabel:`LOAD`             Sort the current library by track number
 5 - BROWSER           5                :hwlabel:`SHIFT` + :hwlabel:`LOAD`             Sort the current library by artist
 5 - BROWSER           1                Rotary Selector                                Scrolls up/down through the Library list
+5 - BROWSER           1                :hwlabel:`SHIFT` + Rotary Selector             
 5 - BROWSER           1                Rotary Selector (press)                        Opens or loads the selected Library item
 5 - BROWSER           6                :hwlabel:`BACK`                                Moves focus to the Library’s left panel (crates, playlists, etc.)
 5 - BROWSER           6                :hwlabel:`SHIFT` + :hwlabel:`BACK`             Toggles between 2 or 4 decks
@@ -47,6 +48,9 @@ Group                 Figure           Control                                  
 3 - MIXER             4                EQ HIGH                                        Controls deck’s equalizer/filter high frequencies
 3 - MIXER             5                EQ MID                                         Controls deck’s equalizer/filter mid frequencies
 3 - MIXER             6                EQ LOW                                         Controls deck’s equalizer/filter low frequencies
+3 - MIXER             4                :hwlabel:`SHIFT` + EQ HIGH                     First turn will kill the EQ High, turning backwards will reenable it. Without shift, put the knob in the middle position to reset the EQ.
+3 - MIXER             5                :hwlabel:`SHIFT` + EQ MID                      First turn will kill the EQ Mid, turning backwards will reenable it. Without shift, put the knob in the middle position to reset the EQ.
+3 - MIXER             6                :hwlabel:`SHIFT` + EQ LOW                      First turn will kill the EQ Low, turning backwards will reenable it. Without shift, put the knob in the middle position to reset the EQ.
 3 - MIXER             7                :hwlabel:`CUE`                                 Toggles headphone pre-listen (PFL) for the deck
 3 - MIXER             7                :hwlabel:`SHIFT` + :hwlabel:`CUE`              Sends BPM tap input for manual tempo detection
 3 - MIXER             8                :hwlabel:`MASTER LEVEL`                        Controls the hardware master output level (independent from Mixxx)
@@ -110,14 +114,56 @@ Figure           Control                                        Description
 19               :hwlabel:`SHIFT` + :hwlabel:`GRID ADJUST`      Sets/translates the beatgrid to the current play position
 20               :hwlabel:`GRID SLIDE`                          Hold and touch/rotate Jog dial to set/translate beat grid earlier/later
 20               :hwlabel:`SHIFT` + :hwlabel:`GRID SLIDE`       Resets the beatgrid to its previous state.
-25               :hwlabel:`SLOT`                                Reset the track key (Pitch)
-25               :hwlabel:`SHIFT` + :hwlabel:`SLOT`             Set the track key DOWN (Pitch)
-26               :hwlabel:`REC`                                 Toggle the Quantize function (LED ON = Quantize enabled for the current deck, LED OFF = Quantize disabled)
+25               :hwlabel:`SLOT`                                Sync Key between decks
+25               :hwlabel:`SHIFT` + :hwlabel:`SLOT`             Reset to normal key (reset pitch)
+26               :hwlabel:`REC`                                 Set the track key down (Pitch)
 26               :hwlabel:`SHIFT` + :hwlabel:`REC`              Set the Repeat mode for the track
-27               :hwlabel:`START`                               Toggle the Loop Anchor function (LED ON = Created from ending point, LED OFF = Created from starting point (Default))
-27               :hwlabel:`SHIFT` + :hwlabel:`START`            Set the track key UP (Pitch)
+27               :hwlabel:`START`                               Set the track key up (Pitch)
+27               :hwlabel:`SHIFT` + :hwlabel:`START`            No function
 21               :hwlabel:`SHIFT`                               Enables access to secondary (shifted) controls, no direct function
 ===============  =============================================  =================================================================================================================================
+
+
+Effect Functions
+----------------
+
+This controller mapping uses the :ref:`standard Mixxx mapping for effects sections on controllers <controller-effects-mapping>`.
+The controls listed here are documented in Section 2 ("Effects") of the owner's manual.
+
+===============  =========================================  =================================================================================================================================
+Figure           Control                                    Description
+===============  =========================================  =================================================================================================================================
+1 (L)            :hwlabel:`FX1-1`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of  effect in EffectRack1-EffectUnit1/3
+1 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-1`        No function
+1 (R)            :hwlabel:`FX2-1`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of focused effect in EffectRack1-EffectUnit2/4
+1 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-1`        No function
+2 (L)            :hwlabel:`FX1-2`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect2 meta, Focused effect 1..3: Controls effect parameter 2 of focused effect in EffectRack1-EffectUnit1/3
+2 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-2`        No function
+2 (R)            :hwlabel:`FX2-2`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect2 meta, Focused effect 1..3: Controls effect parameter 2 of focused effect in EffectRack1-EffectUnit2/4
+2 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-2`        No function
+3 (L)            :hwlabel:`FX1-3`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect3 meta, Focused effect 1..3: Controls effect parameter 3 of focused effect in EffectRack1-EffectUnit1/3
+3 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-3`        No function
+3 (R)            :hwlabel:`FX2-3`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect3 meta, Focused effect 1..3: Controls effect parameter 3 of focused effect in EffectRack1-EffectUnit2/4
+3 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-3`        No function
+4 (L)            :hwlabel:`FX1 BEATS`                       Turn: Controls EffectRack1-EffectUnit1/3 mix. Click: Cycle through the different effects values. By default each knob controls the main value of all 3 effects, when clicking the BEATS knob, the effects knobs will now set the value for the different elements of the effects (For example, Decay/BW/Dampling for the Reverb effect)
+4 (R)            :hwlabel:`FX2 BEATS`                       Turn: Controls EffectRack1-EffectUnit2/4 mix. Click: Cycle through the different effects values. By default each knob controls the main value of all 3 effects, when clicking the BEATS knob, the effects knobs will now set the value for the different elements of the effects (For example, Decay/BW/Dampling for the Reverb effect)
+4 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1 BEATS`    No function
+4 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2 BEATS`    No function
+5 (L)            :hwlabel:`FX1-1 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect1
+5 (R)            :hwlabel:`FX2-1 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect1
+6 (L)            :hwlabel:`FX1-2 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect2
+6 (R)            :hwlabel:`FX2-2 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect2
+7 (L)            :hwlabel:`FX1-3 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect3
+7 (R)            :hwlabel:`FX2-3 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect3
+8 (L)            :hwlabel:`FX1 TAP`                         Sets whether to mix as wet/dry or wet+dry for FX1
+8 (R)            :hwlabel:`FX2 TAP`                         Sets whether to mix as wet/dry or wet+dry for FX2
+8 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1 TAP`      Expand or collapse the FX1 effect panel
+8 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2 TAP`      Expand or collapse the FX2 effect panel
+9, 10, 11, 12    :hwlabel:`FX1 ASSIGN`                      Assign EffectRack1-EffectUnit1/3 to specific deck
+13, 14, 15, 16   :hwlabel:`FX2 ASSIGN`                      Assign EffectRack1-EffectUnit2/4 to specific deck
+17, 18, 19, 20   :hwlabel:`FILTER`                          Control QuickEffectRack1 super1 knob (e.g. moog filter)
+17, 18, 19, 20   :hwlabel:`SHIFT` + :hwlabel:`FILTER`       First turn will kill the quick effet super knob, turning backwards will reenable it. Without shift, put the knob in the middle position to reset the effect.
+===============  =========================================  =================================================================================================================================
 
 Performance Pads
 ----------------
@@ -130,6 +176,7 @@ Figure           Control                                        Description
 ===============  =============================================  =================================================================================================================================
 9                :hwlabel:`HOT CUE` mode                        Switches pad control and illumination to :ref:`HOT CUE mode <pioneer-DDJ-SX2-hotcuemode>`
 9                :hwlabel:`SHIFT` + :hwlabel:`HOT CUE` mode     Switches pad control and illumination to :ref:`HOT CUE LOOP mode <pioneer-DDJ-SX2-hotcueloopmode>`
+9                Long press + :hwlabel:`HOT CUE` mode           Enable or disable Quantize function. The Grid SET LED will turn on or off depending on the Quantize state.
 10               :hwlabel:`ROLL` mode                           Switches pad control and illumination to :ref:`ROLL mode <pioneer-DDJ-SX2-rollmode>`
 10               :hwlabel:`SHIFT` + :hwlabel:`ROLL` mode        Switches pad control and illumination to :ref:`SAVED LOOP mode <pioneer-DDJ-SX2-savedloopmode>`
 11               :hwlabel:`SLICER` mode                         Switches pad control and illumination to :ref:`SLICER mode <pioneer-DDJ-SX2-slicermode>`, in SLICER mode switches between continuous slice mode and loop slice mode
@@ -298,46 +345,6 @@ VELOCITY SAMPLER Mode
 ~~~~~~~~~~~~~~~~~~~~~
 
 Same as SAMPLER mode, but with Velocity on the pads.
-
-Effect Functions
-----------------
-
-This controller mapping uses the :ref:`standard Mixxx mapping for effects sections on controllers <controller-effects-mapping>`.
-The controls listed here are documented in Section 2 ("Effects") of the owner's manual.
-
-===============  =========================================  =================================================================================================================================
-Figure           Control                                    Description
-===============  =========================================  =================================================================================================================================
-1 (L)            :hwlabel:`FX1-1`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of  effect in EffectRack1-EffectUnit1/3
-1 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-1`        No function
-1 (R)            :hwlabel:`FX2-1`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of focused effect in EffectRack1-EffectUnit2/4
-1 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-1`        No function
-2 (L)            :hwlabel:`FX1-2`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect2 meta, Focused effect 1..3: Controls effect parameter 2 of focused effect in EffectRack1-EffectUnit1/3
-2 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-2`        No function
-2 (R)            :hwlabel:`FX2-2`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect2 meta, Focused effect 1..3: Controls effect parameter 2 of focused effect in EffectRack1-EffectUnit2/4
-2 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-2`        No function
-3 (L)            :hwlabel:`FX1-3`                           Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect3 meta, Focused effect 1..3: Controls effect parameter 3 of focused effect in EffectRack1-EffectUnit1/3
-3 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1-3`        No function
-3 (R)            :hwlabel:`FX2-3`                           Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect3 meta, Focused effect 1..3: Controls effect parameter 3 of focused effect in EffectRack1-EffectUnit2/4
-3 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2-3`        No function
-4 (L)            :hwlabel:`FX1 BEATS`                       Turn: Controls EffectRack1-EffectUnit1/3 mix. Click: Cycle through the different effects values. By default each knob controls the main value of all 3 effects, when clicking the BEATS knob, the effects knobs will now set the value for the different elements of the effects (For example, Decay/BW/Dampling for the Reverb effect)
-4 (R)            :hwlabel:`FX2 BEATS`                       Turn: Controls EffectRack1-EffectUnit2/4 mix. Click: Cycle through the different effects values. By default each knob controls the main value of all 3 effects, when clicking the BEATS knob, the effects knobs will now set the value for the different elements of the effects (For example, Decay/BW/Dampling for the Reverb effect)
-4 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1 BEATS`    No function
-4 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2 BEATS`    No function
-5 (L)            :hwlabel:`FX1-1 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect1
-5 (R)            :hwlabel:`FX2-1 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect1
-6 (L)            :hwlabel:`FX1-2 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect2
-6 (R)            :hwlabel:`FX2-2 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect2
-7 (L)            :hwlabel:`FX1-3 ON`                        Toggles EffectRack1-EffectUnit1/3-Effect3
-7 (R)            :hwlabel:`FX2-3 ON`                        Toggles EffectRack1-EffectUnit2/4-Effect3
-8 (L)            :hwlabel:`FX1 TAP`                         Sets whether to mix as wet/dry or wet+dry for FX1
-8 (R)            :hwlabel:`FX2 TAP`                         Sets whether to mix as wet/dry or wet+dry for FX2
-8 (L)            :hwlabel:`SHIFT` + :hwlabel:`FX1 TAP`      Expand or collapse the FX1 effect panel
-8 (R)            :hwlabel:`SHIFT` + :hwlabel:`FX2 TAP`      Expand or collapse the FX2 effect panel
-9, 10, 11, 12    :hwlabel:`FX1 ASSIGN`                      Assign EffectRack1-EffectUnit1/3 to specific deck
-13, 14, 15, 16   :hwlabel:`FX2 ASSIGN`                      Assign EffectRack1-EffectUnit2/4 to specific deck
-17, 18, 19, 20   :hwlabel:`FILTER`                          Control QuickEffectRack1 super1 knob (e.g. moog filter)
-===============  =========================================  =================================================================================================================================
 
 Troubleshooting
 ---------------
