@@ -16,6 +16,9 @@ User Options
 To change the mapping’s user options, go into Mixxx's Controllers Settings and change the options:
 
 -  **PioneerDDJSX.NeedleSearchBehaviour**: Allow to use needle search when a song is playing. If disabled, you can use :hwlabel:`Shift` + :hwlabel:`NeedleSearch` to use the needle search when a song is playing.
+-  **PioneerDDJSX.LoadBehaviour**: When loading a track onto a deck, disabled all headphone cues from all deck and enable the headphone cue from the loaded deck
+-  **PioneerDDJSX.KeySyncBehaviour**: Enable Alternative Deck Key Sync (Flip Slot Button): Syncs track´s key to the opposite side loaded deck. Gives more control over which deck the key is taken from, useful for multi-deck mixing
+-  **PioneerDDJSX.SoftTakeoverBehaviour**: Disable soft takeover of sliders and knobs when launching Mixxx or switching tracks. Checking this will activate instant updates of the target Mixxx control to the hardware position.
 -  **PioneerDDJSX.safeScratchTimeout**: Safe Scratch Timeout (ms) (20ms is the minimum allowed)
 -  **PioneerDDJSX.UseShiftToBreak**: Use :hwlabel:`Play` instead of :hwlabel:`Shift` + :hwlabel:`Play` to brake/soft start.
 -  **PioneerDDJSX.SoftStartTime**: Soft Start Factor (Higher is faster) (disable with -1)
