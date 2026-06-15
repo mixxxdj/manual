@@ -3,9 +3,15 @@ Korg Kaoss DJ controller
 
 2-deck controller with touch controlled jogwheels, built-in 4-channel soundcard and a Korg Kaoss Pad as built-in effect section (can be switched off for using software effects).
 
+| Controller needs to be set as output device in order to wake up from standby (Stb).
+| Main: Channel 1-2
+| Headphone: Channel 3-4
+
 -  `Manufacturer’s product page <http://www.korg.com/uk/products/dj/kaoss_dj/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/korg-kaoss-dj-midi-mapping-help/16093>`__
 -  `Pull request on Github <https://github.com/mixxxdj/mixxx/pull/1509>`__
+
+MacOS: Please note that the Korg Kaoss DJ is only supported until `macOS Monterey <https://www.korg.com/download/global/support/os/pdf/mac_compatibilitychart_KORG_en.pdf>`__
 
 .. versionadded:: 2.1
 
