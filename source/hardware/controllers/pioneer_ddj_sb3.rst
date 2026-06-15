@@ -15,9 +15,9 @@ Pioneer DDJ-SB3
 
 The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
 
--  `Manufacturer's Product Page <https://www.pioneerdj.com/product/controller/ddj-sb3/black/overview/>`__
--  `Manufacturer's User Manual <https://docs.pioneerdj.com/Manuals/DDJ_SB3_DRI1533A_manual/>`__
--  `Manufacturer's Firmware Update <https://www.pioneerdj.com/product/controller/ddj-sb3/black/support/>`__
+-  `Manufacturer's Product Page <https://www.pioneerdj.com/product/dj-controllers/ddj-sb3/>`__
+-  `Manufacturer's User Manual <https://support.alphatheta.com/articles/4404925658009?product=4416577034009>`__
+-  `Manufacturer's Firmware Update <https://support.alphatheta.com/products/4416577034009?section=25>`__
 -  `Mixxx User Forum <https://mixxx.discourse.group/t/pioneer-ddj-sb3-mapping-v1-0-now-available/22186>`__
 
 
@@ -172,6 +172,8 @@ No.  Control                                                Function
 1    :hwlabel:`LOAD` button                                    Loads track highlighted in the library to the left or right deck
 2    :hwlabel:`BROWSE` knob (rotate)                        Rotate the knob left or right highlights the previous or next track in the library
 2    :hwlabel:`BROWSE` knob (press)                         Starts / stops track preview of highlighted track
+2    :hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (rotate)        Rotate the knob left or right highlights the previous or next item in the sidebar
+2    :hwlabel:`SHIFT`:hwlabel:`BROWSE` knob (press)         Opens the currently highlighted item in the sidebar into the track list
 ===  =====================================================  ============================================================================================
 
 Performance Pads

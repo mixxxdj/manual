@@ -115,6 +115,9 @@ Track Information Display
   The artist of the track is listed below. It is the same as listed under the
   :guilabel:`Artist` column heading in the :ref:`Mixxx library <library-tracks>`.
 
+.. hint:: Double-click any track text label to open the :ref:`Properties editor <library-properties-editor>`
+          where you can edit all track metadata.
+
 **Time Elapsed/Remaining/Both**
   By default it displays the total elapsed time in the track up to the
   millisecond. Clicking on the display switches to the *Time Remaining* view,
@@ -200,6 +203,25 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
              which differ primarily in the level of detail shown in the
              waveform, in :menuselection:`Preferences --> Waveforms --> Waveform type`.
 
+  Right next to the waveform view there are controls to adjust the :term:`beatgrid`.
+  You may stretch, compress or shift the beatgrid in case it was not detected
+  correctly (see :ref:`configuration-bpm-detection`). There are also controls to shift
+  cue points in case they are set off after decoder changes, for example when you migrated
+  your Mixxx library to another compouter or operating system. These controls are
+  hidden by default and need to be enabled in the skin settings menu.
+
+  .. figure:: ../_static/2.3/latenight-beatgrid-controls.png
+     :align: center
+     :width: 100%
+     :figwidth: 100%
+     :alt: Mixxx default skin (LateNight) - Beatgrid editing controls
+     :figclass: pretty-figures
+
+     Beatgrid editing controls in the default Mixxx skin (LateNight, PaleMoon theme)
+
+  In Deere skin, these controls are located in the expandable BPM section inside
+  the decks.
+
 **Waveform overview**
   The smaller, zoomed-out version of the waveform shows the various markers
   within the track as well as the waveform envelope of the entire track. This is
@@ -215,10 +237,11 @@ then toggling the :menuselection:`Skin Settings --> Parallel Waveforms` option.
   The line on the vinyl widget rotates if the track moves. It is similar to the
   position marker found on scratch records. Use the mouse on the vinyl widget to
   pause, scratch, spin-back or throw tracks - just like a real record.
-  When performing :ref:`Loop rolls <interface-looping>` or right-clicking on the
-  vinyl during playback, a “ghost” marker hints where the playback will continue.
+  When performing :ref:`rolling loops <interface-looping>` or when using
+  :ref:`Slip Mode <interface-button-grid>`,
+  a “ghost” marker hints where the playback will continue.
   The Vinyl Widget is hidden by default and can be enabled in the
-  :ref:`interface-button-grid`.
+  :ref:`interface-skin-settings`.
 
   If :term:`vinyl control` is enabled, it can optionally display the time-coded
   vinyl signal quality. Activate the option in :menuselection:`Preferences -->
@@ -284,9 +307,15 @@ follows:
 
 
 **Eject Track Button**
-  Clicking this button ejects the track from the deck. Alternatively you can use
-  a keyboard shortcut, go to the chapter :ref:`control-keyboard` for more
-  information.
+  Clicking this button ejects the track from the deck. If no track is loaded the
+  last-ejected track (of any deck) is reloaded.
+
+  Double-click to reload the last
+  replaced track. In empty decks the second-last ejected track is reloaded.
+
+  Alternatively you can use a keyboard shortcut, go to the chapter
+  :ref:`control-keyboard` for more information.
+
 
 **Repeat Mode Toggle**
   If enabled, the repeat mode will jump back to the beginning and continue
@@ -355,8 +384,7 @@ Auto Cue
 Mixxx automatically seeks to the saved Cue point on track load. If none exists,
 seeks to the beginning of the track.
 
-Uncheck :menuselection:`Preferences --> Interface --> Auto Cue --> Jump to main
-cue point on track load` to always seek to the beginning of the track.
+Select an alternative load point in :menuselection:`Preferences --> Decks --> Track load point`.
 
 .. _interface-cue-modes:
 
@@ -556,11 +584,12 @@ Sync and Rate Controls
 .. sectionauthor::
    RJ Ryan <rryan@mixxx.org>
    S.Brandt <s.brandt@mixxx.org>
+   Daniel Schürmann <daschuer@mixxx.org>
 
-.. figure:: ../_static/2.3/sync-and-rate.png
+.. figure:: ../_static/2.4/sync-and-rate.png
    :align: right
-   :width: 76px
-   :figwidth: 100px
+   :width: 81px
+   :figwidth: 120px
    :alt: The rate control section of the deck
    :figclass: pretty-figures
 
@@ -581,6 +610,7 @@ control rate changes also from your computer's keyboard, see the chapter
   sync to samplers and samplers can only sync to decks. The sync target for
   samplers is:
 
+  * The sync leader, identified by the lit sync-lock button and the crown symbol.
   * The first deck (in numerical order) that is playing a track with a detected
     beatgrid, and has a rate different than zero.
   * The first deck (in numerical order) that has a track loaded with a detected
@@ -592,10 +622,13 @@ control rate changes also from your computer's keyboard, see the chapter
   :ref:`sync-lock` for more information.
 
 **Pitch/Rate slider**
-  The slider allows you to change the speed of the song, by default up to 10%
-  from the tracks original tempos. The speed will increase as you move the
-  slider up, opposite to the behavior found on DJ turntables and :term:`CDJ`.
-  Right-clicking on the slider will reset the tempo to its original value.
+  The slider allows you to change the speed of the song from the track's
+  original tempo.  In default configuration the speed will increase as you move
+  the slider down, and decrease as you move the slider up (similar to the
+  behaviour found on DJ turntables and :term:`CDJ` units where moving the
+  slider towards you increases the speed).  Note that the direction can be
+  inverted, and the range of adjustment widened/narrowed by the settings found
+  under "Decks" in Mixxx's preferences.
 
 **Pitch Rate Display**
   The percent that the track's rate is sped up or slowed down is noted here. Is
@@ -653,7 +686,7 @@ You can also shift loops using the :ref:`beatjump / loop move controls <interfac
   If a loop is set, a loop overlay will be drawn on the
   :ref:`waveforms <interface-waveform>`.
 **Beatloop**
-  Left-clicking the Beatloop button starts a loop over the set number of beats. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
+  Left-clicking the Beatloop button starts a loop over the set number of beats. If the loaded track has no beats, the unit is seconds. If quantize is enabled, it snaps to the nearest beat. This works for manually placed loops as well as automatic loops set by
   the beatlooping buttons. Depending on the current status of the loop, the
   loop overlay on the waveforms changes color. Right-clicking the Beatloop button temporarily enables a rolling loop over the set number of beats. Playback will resume where the track would have been if it had not entered the loop.
 **Double loop**
@@ -805,8 +838,8 @@ Channel Faders and Level Meters
 
 .. _interface-eq-gain:
 
-Equalizers and Gain Knobs
--------------------------
+Equalizers, Gain Knobs and Quick Effects
+----------------------------------------
 
 .. figure:: ../_static/2.3/equalizers-and-gain-knob.png
    :align: center
@@ -855,14 +888,15 @@ Equalizers and Gain Knobs
   EQ settings in the preferences.
 
 **Quick Effect Super knob**
-  This knob lets you control the Meta knob of the deck's Quick Effect. 'Filter' is the default.
-  Right-click this knob to center it. This is equivalent to 'no audible effect' for the built-in
+  This knob lets you control the Meta knob of the deck's Quick Effect chain. 'Filter' is the default.
+  Right-click or double-click this knob to reset it to the default position defined by the loaded
+  chain preset. This is equivalent to 'no audible effect' for the built-in
   filter effects only (Filter, Moog Ladder 4 Filter).
   The button next to the knob toggles the effect. It provides the same latching capabilities
   like the EQ Kill switches.
 
 .. seealso:: You can customize the EQ settings in
-             :menuselection:`Preferences --> Equalizer`.
+             :menuselection:`Preferences --> Mixer`.
 
 .. _interface-pfl:
 

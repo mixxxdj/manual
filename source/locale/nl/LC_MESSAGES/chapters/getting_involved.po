@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# MjrLZ, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 08:43+0200\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: MjrLZ, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,199 +24,199 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliotheek - Pictogram AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Banshee"
 
 #: ../../shortcuts.rstext:16
 msgid "Library - Icon Recordbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Recordbox"
 
 #: ../../shortcuts.rstext:22
 msgid "Library - Icon Browse"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bladeren"
 
 #: ../../shortcuts.rstext:28
 msgid "Library - Icon  Crates"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Crates"
 
 #: ../../shortcuts.rstext:34
 msgid "Library - Icon Drag and Drop"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Slepen"
 
 #: ../../shortcuts.rstext:40
 msgid "Library - Icon History current session"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis huidige sessie"
 
 #: ../../shortcuts.rstext:46
 msgid "Library - Icon History"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Geschiedenis"
 
 #: ../../shortcuts.rstext:52
 msgid "Library - Icon iTunes"
-msgstr ""
+msgstr "Bibliotheek - Pictogram iTunes"
 
 #: ../../shortcuts.rstext:58
 msgid "Library - Icon Library"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:64
 msgid "Library - Icon Locked"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Vergrendeld"
 
 #: ../../shortcuts.rstext:70
 msgid "Library - Icon Missing Tracks"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Ontbrekende Nummers"
 
 #: ../../shortcuts.rstext:76
 msgid "Library - Icon Playlist"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Afspeellijst"
 
 #: ../../shortcuts.rstext:82
 msgid "Library - Icon Analyze"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Analyseer"
 
 #: ../../shortcuts.rstext:88
 msgid "Library - Icon Recordings"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Opnames"
 
 #: ../../shortcuts.rstext:94
 msgid "Library - Icon Rhythmbox"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Rhythmbox"
 
 #: ../../shortcuts.rstext:100
 msgid "Library - Icon Serato"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Serato"
 
 #: ../../shortcuts.rstext:106
 msgid "Library - Icon Traktor"
-msgstr ""
+msgstr "Bibliotheek - Pictogram Traktor"
 
 #: ../../shortcuts.rstext:112
 msgid "Library - Preview Pause"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Pauzeer"
 
 #: ../../shortcuts.rstext:118
 msgid "Library - Preview Play"
-msgstr ""
+msgstr "Bibliotheek - Voorbeluisteren Afspelen"
 
 #: ../../shortcuts.rstext:124
 msgid "Library - BPM Locked"
-msgstr ""
+msgstr "Bibliotheek - BPM Vergrendeld"
 
 #: ../../shortcuts.rstext:130
 msgid "Library - BPM Unlocked"
-msgstr ""
+msgstr "Bibliotheek - BPM Ontgrendeld"
 
 #: ../../shortcuts.rstext:139
 msgid "Preferences - Icon BPM Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram BPM Detectie"
 
 #: ../../shortcuts.rstext:145
 msgid "Preferences - Icon Live Broadcasting"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Live Uitzending"
 
 #: ../../shortcuts.rstext:151
 msgid "Preferences - Icon Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Controllers"
 
 #: ../../shortcuts.rstext:157
 msgid "Preferences - Icon Crossfader"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Crossfader"
 
 #: ../../shortcuts.rstext:163
 msgid "Preferences - Icon Effects"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Effecten"
 
 #: ../../shortcuts.rstext:169
 msgid "Preferences - Icon Equalizers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Equalizers"
 
 #: ../../shortcuts.rstext:175
 msgid "Preferences - Icon Interface"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Interface"
 
 #: ../../shortcuts.rstext:181
 msgid "Preferences - Icon Key Detection"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Toonaard Detectie"
 
 #: ../../shortcuts.rstext:187
 msgid "Preferences - Icon Library"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Bibliotheek"
 
 #: ../../shortcuts.rstext:193
 msgid "Preferences - Icon MIDI Controllers"
-msgstr ""
+msgstr "Voorkeuren - Pictogram MIDI Controllers"
 
 #: ../../shortcuts.rstext:199
 msgid "Preferences - Icon Modplug Decoder"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Modplug Decoder"
 
 #: ../../shortcuts.rstext:205
 msgid "Preferences - Icon Recording"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Opnemen"
 
 #: ../../shortcuts.rstext:211
 msgid "Preferences - Icon ReplayGain"
-msgstr ""
+msgstr "Voorkeuren - Pictogram ReplayVolume"
 
 #: ../../shortcuts.rstext:217
 msgid "Preferences - Icon Sampler"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Sampler"
 
 #: ../../shortcuts.rstext:223
 msgid "Preferences - Icon Sound Hardware"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Geluidshardware"
 
 #: ../../shortcuts.rstext:229
 msgid "Preferences - Icon Vinyl Control"
-msgstr ""
+msgstr "Voorkeuren - Pictogram Vinyl Control"
 
 #: ../../shortcuts.rstext:238
 msgid "Vinyl Control - Receives good signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een goed signaal"
 
 #: ../../shortcuts.rstext:242
 msgid "Vinyl Control - Signal goes in wrong direction"
-msgstr ""
+msgstr "Vinyl Control - Signaal gaat in de verkeerde richting"
 
 #: ../../shortcuts.rstext:246
 msgid "Vinyl Control - Receives no signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen signaal"
 
 #: ../../shortcuts.rstext:250
 msgid "Vinyl Control - Receives bad signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een slecht signaal"
 
 #: ../../shortcuts.rstext:254
 msgid "Vinyl Control - No input configured"
-msgstr ""
+msgstr "Vinyl Control - Geen input geconfigureerd"
 
 #: ../../shortcuts.rstext:258
 msgid "Vinyl Control - Receives no timecode signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt geen timecode signaal"
 
 #: ../../shortcuts.rstext:262
 msgid "Vinyl Control - Receives signal from wrong vinyl type"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt signaal van verkeerd vinyl type"
 
 #: ../../shortcuts.rstext:266
 msgid "Vinyl Control - Receives mono signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een mono signaal"
 
 #: ../../shortcuts.rstext:270
 msgid "Vinyl Control - Receives too loud input signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te luid signaal"
 
 #: ../../shortcuts.rstext:274
 msgid "Vinyl Control - Receives too quiet signal"
-msgstr ""
+msgstr "Vinyl Control - Ontvangt een te stil signaal"
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../chapters/getting_involved.rst:6
 msgid "Contributing to the Project"
@@ -228,8 +229,8 @@ msgid ""
 "constantly looking for more contributors."
 msgstr ""
 "Mixxx is een community-gedreven project waarbij vele DJ's wereldwijd "
-"betrokken zijn. Zonder de bijdragen van deze DJ's zou Mixxx niet bestaan, en"
-" we zijn voortdurend op zoek naar meer mensen die willen bijdragen."
+"betrokken zijn. Zonder de bijdragen van deze DJ's zou Mixxx niet bestaan en "
+"we zijn voortdurend op zoek naar meer mensen die willen bijdragen."
 
 #: ../../chapters/getting_involved.rst:12
 msgid ""
@@ -238,8 +239,8 @@ msgid ""
 "contribute**."
 msgstr ""
 "We willen het zo gemakkelijk mogelijk maken om betrokken te raken bij de "
-"ontwikkeling van Mixxx. Ten eerste, en om zeer duidelijk te zijn ** hoef je "
-"geen programmeur te zijn om bij te dragen**."
+"ontwikkeling van Mixxx. Ten eerste, om zeer duidelijk te zijn ** hoef je "
+"geen programmeur te zijn om bij te dragen aan Mixxx**."
 
 #: ../../chapters/getting_involved.rst:17
 msgid "As a non-developer"
@@ -256,36 +257,43 @@ msgstr ""
 #: ../../chapters/getting_involved.rst:21
 msgid "`Make skins <https://github.com/mixxxdj/mixxx/wiki/Creating-Skins>`_"
 msgstr ""
+"`Make skins (thema's) <https://github.com/mixxxdj/mixxx/wiki/Creating-"
+"Skins>`_"
 
 #: ../../chapters/getting_involved.rst:22
 msgid ""
 "`Make MIDI mappings <https://github.com/mixxxdj/mixxx/wiki/MIDI-Controller-"
 "Mapping-File-Format>`_ for your controller"
 msgstr ""
+"`Make MIDI toewijzingsbestanden <https://github.com/mixxxdj/mixxx/wiki/MIDI-"
+"Controller-Mapping-File-Format>`_ voor uw controller"
 
 #: ../../chapters/getting_involved.rst:25
 msgid "`Report bugs <https://github.com/mixxxdj/mixxx/issues>`_"
 msgstr ""
+"`Meldt fouten en problemen <https://github.com/mixxxdj/mixxx/issues>`_"
 
 #: ../../chapters/getting_involved.rst:26
 msgid ""
 "Update our `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ to make sure the "
 "information on it is up to date."
 msgstr ""
+"Update onze `Wiki <https://github.com/mixxxdj/mixxx/wiki>`_ om zeker te zijn"
+" dat de informatie er op up-to-date blijft."
 
 #: ../../chapters/getting_involved.rst:28
 msgid ""
-"Translate Mixxx using `Transifex <https://www.transifex.com/mixxx-dj-"
-"software/public/>`_"
+"Translate Mixxx using `Transifex <https://explore.transifex.com/mixxx-dj-"
+"software/mixxxdj/>`_"
 msgstr ""
-"Vertaal Mixxx met `Transifex <https://www.transifex.com/mixxx-dj-"
-"software/public/>`_"
 
 #: ../../chapters/getting_involved.rst:30
 msgid ""
 "Answer questions on the `Help & Support Forum "
 "<https://mixxx.discourse.group/c/support/6>`_"
 msgstr ""
+"Beantwoord vragen op het `Help & Ondersteuning Forum "
+"<https://mixxx.discourse.group/c/support/6>`_"
 
 #: ../../chapters/getting_involved.rst:32
 msgid ""
@@ -295,7 +303,8 @@ msgid ""
 msgstr ""
 "Help Mixxx te promoten: Als je een blog hebt, schrijf dan een artikel over "
 "Mixxx. Blog over onze nieuwe releases als ze uitkomen. Elke vermelding op "
-"het web en in print helpt ons project groeien, en wordt zeer gewaardeerd."
+"het web en in gedrukte media helpt ons project groeien, en wordt ten zeerste"
+" gewaardeerd."
 
 #: ../../chapters/getting_involved.rst:35
 msgid "Send us some photos of you using Mixxx at a gig!"
@@ -312,8 +321,8 @@ msgid ""
 "You don't have to know C++. There are developers who got into Mixxx "
 "development while learning C++ along the way."
 msgstr ""
-"Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die tijdens het "
-"leerproces van C++ in de Mixxx-ontwikkeling zijn gestapt."
+"Je hoeft geen C++ te kennen. Er zijn ontwikkelaars die in de Mixxx-"
+"ontwikkeling zijn gestapt terwijl ze C++ aan het leren waren."
 
 #: ../../chapters/getting_involved.rst:42
 msgid "Join our `Zulip chat <https://mixxx.zulipchat.com/>`_."
@@ -334,12 +343,17 @@ msgid ""
 "<https://github.com/mixxxdj>`_ and fork our code. See `Using Git for Mixxx "
 "Development <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 msgstr ""
+"Registreer een account op ons ontwikkelingsplatform `Github "
+"<https://github.com/mixxxdj>`_ en 'fork' onze code. Zie `Gebruik Git voor "
+"Mixxx Ontwikkeling <https://github.com/mixxxdj/mixxx/wiki/Using-Git>`_"
 
 #: ../../chapters/getting_involved.rst:48
 msgid ""
 "Get familiar with the code. Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Leer de code kennen, kies een probleem uit de 'gemakkelijke problemenlijst' "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:50
 msgid ""
@@ -347,7 +361,7 @@ msgid ""
 "do it."
 msgstr ""
 "Krijg hulp bij het oplossen van de bug op: term: `Zulip`, praat met ons over"
-" de beste manier om dit te doen."
+" de beste manier om dit te doen. "
 
 #: ../../chapters/getting_involved.rst:53
 msgid "**Contributing to Mixxx in 3 Easy Steps:**"
@@ -358,6 +372,8 @@ msgid ""
 "Pick a bug off of the `Easy Bug List "
 "<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 msgstr ""
+"Pick a bug off of the `Easy Bug List "
+"<https://github.com/mixxxdj/mixxx/issues?q=is%3Aopen+is%3Aissue+label%3Aeasy>`_"
 
 #: ../../chapters/getting_involved.rst:57
 msgid "Talk to us on :term:`Zulip` for help on how to fix it."

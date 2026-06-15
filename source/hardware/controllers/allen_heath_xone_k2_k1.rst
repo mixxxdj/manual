@@ -1,26 +1,29 @@
 .. _allen-heath-xone-k2:
+.. _allen-heath-xone-k3:
 
-Allen & Heath Xone:K2
-=====================
+Allen & Heath Xone:K1/K2/K3
+===========================
 
 The Allen & Heath Xone:K2 is a flexible controller that is mapped to
 control Mixxx’s decks, effects, or both. It has an integrated 4 channel
 audio interface with 2 RCA jacks and an 1/8" stereo headphone jack. The
 Xone K1 is the same as the Xone K2 but without the built in audio
 interface and does not come with the EVA travel case that the K2 comes
-with.
+with. The Xone K3 works with the same mapping after updating its firmware
+to v1.0.4 r 93846.
 
--  `Manufacturer’s product page <http://www.allen-heath.com/ahproducts/xonek2/>`__
+-  `Manufacturer’s product page <https://www.allen-heath.com/ahproducts/xonek2/>`__
 -  `Forum thread <https://mixxx.discourse.group/t/allen-heath-xone-k2/12506>`__
--  `Manufacturer’s User Guide <http://www.allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__
--  `Blank template diagrams <http://www.allen-heath.com/media/Xone+K2+Blank+Overlays.zip>`__
+-  `Manufacturer’s User Guide <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__
+-  `Blank template diagrams <https://www.allen-heath.com/content/uploads/2023/06/XoneK2BlankOverlays.zip>`__
 
 .. versionadded:: 1.11
 
 Audio Setup
 -----------
 
-The Xone:K2 is setup in Mixxx > Preferences > Sound Hardware > Output
+The Xone:K2 audio interface is setup in Mixxx > Preferences > Sound
+Hardware > Output
 
 ========== ======= =============
 Output     Device  Channel
@@ -44,16 +47,17 @@ mapping.
 Setup
 -----
 
-**Requirement**: The Xone K2 must have Latching Layers turned off, which
+**Requirements**: The Xone K2 must have Latching Layers turned off, which
 is the default. Refer to the `Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
-12 for details. The K1 does not have Latching Layers.
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
+12 for details. The K1 does not have Latching Layers. If you are using
+Xone K3, update it to firmware v1.0.4 r 93846 before using this mapping.
 
-This mapping can used with one or multiple Xone K2s/K1s. Multiple Xone
-K2s/K1s can be connected to each other via X-Link with one of them
-connected to the computer via USB. Alternatively, when using 2 K2s/K1s,
-they can both be connected with their own USB cable and this same
-mapping can be loaded for each.
+This mapping can be used with one or multiple Xone K1s/K2s/K3s. Multiple
+Xone K1s/K2s/K3s can be connected to each other via X-Link with one of
+them connected to the computer via USB. Alternatively, when using 2
+K1s/K2s/K3s, they can both be connected with their own USB cable and
+this same mapping can be loaded for each.
 
 The layout of the mapping depends on the configured MIDI channel of the
 controller. Change the MIDI channel of the controller by pressing the
@@ -80,16 +84,18 @@ These are available on any configuration with decks, but not the 4
 effect unit layout.
 
 -  Bottom left encoder:
--  adjust tempo of all decks with sync enabled
--  press and turn: PFL/main mix in headphones
--  shift: headphone gain
--  press with shift: toggle split cue mode
--  Bottom right encoder
--  scroll through tracks in library
--  press and release: load selected track into first stopped deck
--  press and hold: load selected track into a deck by pressing the play
-   button of the deck
--  shift: main gain
+
+   -  adjust tempo of all decks with sync enabled
+   -  press and turn: PFL/main mix in headphones
+   -  shift: headphone gain
+   -  press with shift: toggle split cue mode
+
+-  Bottom right encoder:
+
+   -  scroll through tracks in library
+   -  press and release: load selected track into first stopped deck
+   -  press and hold: load selected track into a deck by pressing the play button of the deck
+   -  shift: main gain
 
 Decks
 -----
@@ -198,8 +204,8 @@ Effect unit focusing
 
 In addition to focusing one effect in a unit at a time with the
 :ref:`Standard Effects Mapping <controller-effects-mapping>`, the Xone
-K2/K1 has another mode for focusing a whole effect unit. This allows for
-controlling the parameters of all 3 effects in the unit at a time. This
+K1/K2/K3 has another mode for focusing a whole effect unit. This allows
+for controlling the parameters of all 3 effects in the unit at a time. This
 mode is only available on the 4 effect unit layouts. To access it, press
 the Layer button in the bottom left. Press one of the top encoders to
 choose which effect unit to focus.
@@ -222,15 +228,16 @@ Troubleshooting
 ---------------
 
 If general functionality or supershift are not working, double check
-that Latch Layers is turned off and MIDI CH is selected. Refer to the
-`Xone K2
-manual <https://allen-heath.com/media/Xone+K2_UG_AP8509_2.pdf>`__ page
+that Latch Layers is turned off and MIDI CH is selected. If you are
+using Xone K3, also check that the controller is running firmware
+v1.0.4 r 93846. Refer to the `Xone K2
+manual <https://www.allen-heath.com/content/uploads/2023/06/XoneK2_UG_AP8509_3.pdf>`__ page
 12 for details.
 
 Known Issues
 ------------
 
-There are a few known issues with the Xone K2/K1 firmware:
+There are a few known issues with the Xone K1/K2/K3 firmware:
 
 -  Since there is no way for Mixxx to ask the controller about the positions of
    all the knobs and faders when Mixxx starts, they are out of sync with the

@@ -1,15 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Arnold Marko <arnold.marko@gmail.com>, 2023
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 08:43+0200\n"
+"POT-Creation-Date: 2025-04-17 19:17+0200\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +24,7 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:2
 msgid "Pioneer DDJ-SX"
-msgstr ""
+msgstr "Pioneer DDJ-SX"
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:4
 msgid ""
@@ -45,8 +50,9 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:9
 msgid ""
-"`User Manual <https://www.pioneerdj.com/en/support/documents/archive/ddj-"
-"sx/#manual>`__"
+"`User Manual <https://support.pioneerdj.com/hc/en-"
+"us/articles/22976453073305-How-to-use-the-Pioneer-DJ-DDJ-SX-DJ-Controller-"
+"Instruction-manual>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:14
@@ -398,7 +404,7 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:47
 msgid "Crossfader"
-msgstr ""
+msgstr "Navzkrižni drsnik"
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:47
 msgid "Controls Mixxx crossfader, fades between deck 1, 3 and 2, 4"
@@ -1336,7 +1342,7 @@ msgid ":hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:167
-msgid "Decreate *beatjump_size*"
+msgid "Decrease *beatjump_size*"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:174

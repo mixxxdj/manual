@@ -154,8 +154,7 @@ Tracks - View and edit your whole collection
 
   Rescanning the library will add new files to the library and mark tracks
   as missing if the corresponding file has been deleted. It tries to detect
-  and relocate missing tracks if files have been renamed or moved into another
-  directory.
+  and relocate missing tracks if files have been moved into another directory.
 
   Automatically refreshing the metadata of tracks when files have been modified
   by an external application is not supported, yet. In this case you need to
@@ -375,8 +374,7 @@ a crate, or even the whole library) for tracks that match your search query.
 * Type your search term(s). Mixxx filters the tracks as you type and shows only
   those matching the search term(s). Search terms can include an artist's name,
   a song title, BPM, etc.
-* To clear the search string hit :kbd:`ESC` or click the clear button right next
-  to the input field.
+* To clear the search string click the clear button right next to the input field.
 * Hit :kbd:`TAB` to cycle between the search and the list of results in the
   library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
   list of results.
@@ -413,25 +411,52 @@ Mixxx supports the following filters:
      It doesn't matter if you have space between the colon and the argument
      or not. Quotes must be used for multi-word text arguments.
 
-* **Numeric filtering**: bitrate, bpm, played, rating, track, year
+  You can use **=** to find exact matches. It reveals only tracks where the entire property
+  text equals the search term. As without **=**, you must use quotes for more than one word.
+  The first of the examples below will find only tracks where the title is
+  "wow" (case-insensitive like the default search), i.e. not "wowy", "oh wow!"
+  or "wow (Hej Remix)".
 
   Examples
     ::
 
-      bpm:140
-      bpm: >140
+      title:=wow
+      title:= "Track 1"
+      artist:="DJ Flop"
+
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year, added, dateadded, datetime_added, date_added
+
+  Examples
+    ::
+
       year: <2010
-      bpm: >=140
+      rating:<4
       rating: <=4
-      bpm: 140-150
+      rating:3-5
       played: >10
 
   .. note::
      You can put a space after the colon but currently there must be no space
      between the operator and the number.
 
+  * By default, `bpm:` finds tracks with the exact BPM but also half and double
+    values. If the half or double values are not integers, ranges are used. The
+    following example lists tracks with 125.2, [250-251] or [52-53] BPM
 
-* **Special filtering**: key, duration, added, dateadded, datetime_added, date_added
+    ::
+
+      bpm:125.2
+
+  * Use `bpm:=` to find exact matches only, i.e. exclude half/double values.
+
+  * `bpm` also supports fuzzy searches, see Special Filtering below.
+
+  * The `added` filter expects the same date short-format you see in the 'Date added' library column
+    which depends on the selected locale. Due to various formats it does currently not support ranges,
+    only operators like <, <=, > and >=.
+
+
+* **Special filtering**: bpm, key, duration
 
   * Supports fuzzy matching of key searches. The following example lists tracks
     with harmonically compatible keys to C# minor.
@@ -439,6 +464,16 @@ Mixxx supports the following filters:
     ::
 
        ~key:c#m
+
+  * Fuzzy BPM searches find tracks in the range of +/- N % of the current pitch
+    slider range. N can be set in :menuselection:`Preferences --> Library --> Track Search`.
+    With the default pitch slider range of 8% and the default BPM search range
+    of 75%, the following example lists tracks with BPM between 94 and 106.
+
+    ::
+
+       ~bpm:100
+
 
     The following example lists all tracks by “Danger” over 3 minutes long that
     are rated 4 or 5.
@@ -534,9 +569,6 @@ library columns. You are free to edit most metadata, and Mixxx offers a number
 of different ways to do so. Note that some information can not be edited, such
 as bitrate, size, length, type, filename, and location.
 
-.. note:: Mixxx does not support editing the metadata of many tracks at a time
-          (bulk editing).
-
 .. warning:: Mixxx won't touch your audio files by default. Changes to a track's
              metadata will be saved to the Mixxx library, but **not** to the
              track itself.
@@ -550,7 +582,7 @@ Manual Edit
 
 **Track Inline editing**:
   To enable inline editing in the :ref:`library <library-tracks>` go to
-  :menuselection:`Preferences --> Library --> Miscellaneous` and check the box
+  :menuselection:`Preferences --> Library --> Track Table View` and check the box
   "Edit metadata after clicking selected track".
 
   Select any track in the :ref:`library <library-tracks>` and click on the
@@ -566,8 +598,10 @@ Manual Edit
 
      Mixxx library - Inline editing
 
+.. _library-properties-editor:
+
 **Properties editor**:
-  To open the editor right-click on a **single track** in the library or any track
+  To open the editor right-click on selected tracks in the library or any track
   label in decks or samplers, then select :guilabel:`Properties` in the track menu.
   You can also double-click any track label in the decks or samplers to open the
   editor directly.
@@ -667,24 +701,26 @@ mixing or for using Mixxx as media player.
 
 The Auto DJ features in detail:
 
-* **Shuffle button**: Randomizes the order of tracks in the Auto DJ playlist.
-* **Add Random button**: Adds a random track from track sources (crates) to the
+* **Enable** toggle: Toggles the Auto DJ mode on or off.
+* **Fade now** button: Triggers the transition to the next track.
+* **Skip track** button: Skips the next track in the Auto DJ playlist.
+* **Transition mode** selector: Choose a transition mode.
+* **Transition time** spin-box: Determines the duration of the transition. A
+  negative value will add a pause between tracks.
+* **Shuffle** button: Randomizes the order of tracks in the Auto DJ playlist.
+* **Add Random track** button: Adds a random track from track sources (crates) to the
   Auto DJ queue. If no track sources are configured, the track is added from the
   library instead.
-* **Skip track button**: Skips the next track in the Auto DJ playlist.
-* **Fade now button**: Triggers the transition to the next track.
-* **Transition time spin-box**: Determines the duration of the transition. A
-  negative value will add a pause between tracks.
-* **Selection Info label**: Displays the duration and number of selected tracks.
+* **Repeat the playlist** toggle: Re-queue played tracks.
+* **Selection Info** label: Displays the duration and number of selected tracks.
   Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
-* **Enable Auto DJ button**: Toggles the Auto DJ mode on or off.
 
 The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
 buttons are only accessible if the Auto DJ mode is enabled. The Search field in
-the upper left corner is disabled in Auto DJ. By default, Auto DJ removes tracks
-after playing them but if you want it to play the same tracks over and over
-again, you can activate the :guilabel:`Auto DJ Requeue` option in
-:menuselection:`Preferences --> Auto DJ --> Re-queue tracks after playback`.
+the upper left corner is disabled in Auto DJ.
+
+By default, Auto DJ removes tracks after playing them but if you want it to play the same
+tracks over and over again, you can activate the :guilabel:`Repeat the playlist` toggle.
 
 .. _library-auto-dj-crates:
 

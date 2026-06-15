@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2025-08-25 07:47+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Glossary of Terms"
 msgstr "Glossaire"
 
-#: ../../glossary.rst:247
+#: ../../glossary.rst:251
 msgid "AAC"
 msgstr "AAC"
 
-#: ../../glossary.rst:248
+#: ../../glossary.rst:252
 msgid "Advanced Audio Coding"
-msgstr ""
+msgstr "Advanced Audio Coding (Codage audio avancé)"
 
-#: ../../glossary.rst:250
+#: ../../glossary.rst:254
 msgid ""
 "A patented audio compression algorithm which uses a form of :term:`lossy` "
 "data compression. Designed to be the successor to :term:`MP3`, AAC generally"
@@ -41,12 +41,18 @@ msgid ""
 "extension is sometimes used for AAC-encoded files, they are typically saved "
 "with an :file:`.m4a` file extension."
 msgstr ""
+"Un algorithme de compression audio breveté qui utilise une forme de "
+"compression de données :term:`lossy`. Conçu pour succéder au :term:`MP3`, "
+"AAC permet généralement d'obtenir une meilleure qualité sonore à des débits "
+"binaires similaires. Bien que l'extension .aac soit parfois utilisée pour "
+"les fichiers codés en AAC, ils sont généralement enregistrés avec une "
+"extension de fichier :file:`.m4a`."
 
-#: ../../glossary.rst:477
+#: ../../glossary.rst:485
 msgid "AcoustID"
 msgstr "AcoustID"
 
-#: ../../glossary.rst:479
+#: ../../glossary.rst:487
 msgid ""
 "An acoustic fingerprint system built entirely on :term:`open-source` "
 "technology. It aims to create a free database of user-submitted audio "
@@ -62,30 +68,34 @@ msgstr ""
 "base de données. Pour de plus amples informations, consultez "
 "`<https://acoustid.org/>`_."
 
-#: ../../glossary.rst:269
+#: ../../glossary.rst:273
 msgid "AIFF"
 msgstr "AIFF"
 
-#: ../../glossary.rst:270
+#: ../../glossary.rst:274
 msgid "Audio Interchange File Format"
-msgstr ""
+msgstr "Audio Interchange File Format (Format de fichier d'échange audio)"
 
-#: ../../glossary.rst:272
+#: ../../glossary.rst:276
 msgid ""
 "High-quality digital audio file format, similar to .wav files. Contains CD "
 "quality audio stored in a non-compressed, :term:`lossless` format. AIFF "
 "files generally end with a .aiff or .aif extension."
 msgstr ""
+"Format de fichier audio numérique de haute qualité, similaire aux fichiers "
+".wav. Contient de l'audio de qualité CD stocké dans un format non compressé "
+":term:`lossless`. Les fichiers AIFF se terminent généralement par une "
+"extension .aiff ou .aif."
 
-#: ../../glossary.rst:261
+#: ../../glossary.rst:265
 msgid "ALAC"
 msgstr "ALAC"
 
-#: ../../glossary.rst:262
+#: ../../glossary.rst:266
 msgid "Apple Lossless Audio Codec"
-msgstr ""
+msgstr "Apple Lossless Audio Codec (Codec audio sans perte Apple)"
 
-#: ../../glossary.rst:264
+#: ../../glossary.rst:268
 msgid ""
 "A :term:`lossless` audio file format used by iTunes and other Apple "
 "products. ALAC files use the same MP4 container format as AAC and use the "
@@ -93,42 +103,60 @@ msgid ""
 "programs are not compatible with ALAC. It is recommended to convert ALAC "
 "files to :term:`FLAC` for use in Mixxx."
 msgstr ""
+"Format de fichier audio :term:`lossless` utilisé par iTunes et d'autres "
+"produits Apple. Les fichiers ALAC utilisent le même format de conteneur MP4 "
+"que AAC et utilisent les mêmes extensions de fichier (:file:`m4a`, "
+":file:`mp4`). Mixxx et de nombreux autres programmes ne sont pas compatibles"
+" avec ALAC. Il est recommandé de convertir les fichiers ALAC en :term:`FLAC`"
+" pour une utilisation dans Mixxx."
 
-#: ../../glossary.rst:484
+#: ../../glossary.rst:492
 msgid "API"
 msgstr "API"
 
-#: ../../glossary.rst:485
+#: ../../glossary.rst:493
 msgid "Application Program Interface"
-msgstr ""
+msgstr "Application Program Interface (Interface du programme d'application)"
 
-#: ../../glossary.rst:487
+#: ../../glossary.rst:495
 msgid ""
 "An API is a specification and set of rules for how software programs "
 "interact with each other. In Mixxx, an example of this is the Sound API that"
 " Mixxx uses to communicate with the :term:`operating system` to make use of "
 "the :term:`soundcards <soundcard>` connected to the computer."
 msgstr ""
+"Une API est une spécification et un ensemble de règles régissant la manière "
+"dont les logiciels interagissent les uns avec les autres. Dans Mixxx, un "
+"exemple de ceci est l'API audio que Mixxx utilise pour communiquer avec le "
+":term:`système d'exploitation` afin d'utiliser les :term:`cartes son "
+"<soundcard>` connectées à l’ordinateur."
 
 #: ../../glossary.rst:6
 msgid "ASIO"
-msgstr ""
+msgstr "ASIO"
 
 #: ../../glossary.rst:7
 msgid "Audio Stream Input/Output"
-msgstr ""
+msgstr "Audio Stream Input/Output (Entrée/sortie du flux audio)"
 
 #: ../../glossary.rst:9
 msgid ""
-"ASIO is a :term:`low-latency <latency>` :term:`audio interface` :term:`API` "
-"on Microsoft Windows."
+"Steinbergs ASIO is a third-party :term:`low-latency <latency>` Sound "
+":term:`API` for Microsoft Windows, and is seen the de facto standard for "
+"professional audio devices on Windows."
 msgstr ""
 
-#: ../../glossary.rst:358
+#: ../../glossary.rst:13
+msgid ""
+"ASIO shows usually better performance than the Sound APIs of Windows itself,"
+" but only when the hardware manufacturer provides a dedicated ASIO driver."
+msgstr ""
+
+#: ../../glossary.rst:362
 msgid "audio interface"
 msgstr "interface audio"
 
-#: ../../glossary.rst:360
+#: ../../glossary.rst:364
 msgid ""
 "An audio interface is a device that facilitates the input and output of "
 "audio signals to and from a computer, typically connected by :term:`USB`. "
@@ -136,12 +164,17 @@ msgid ""
 "higher quality audio interface with at least 4 output channels is "
 "recommended for Mixxx."
 msgstr ""
+"Une interface audio est un périphérique qui facilite l'entrée et la sortie "
+"de signaux audio vers et depuis un ordinateur, généralement connecté par "
+":term:`USB`. Presque tous les ordinateurs sont équipés d'une interface audio"
+" de base intégrée, mais une interface audio de qualité supérieure avec au "
+"moins 4 canaux de sortie est recommandée pour Mixxx."
 
-#: ../../glossary.rst:212
+#: ../../glossary.rst:216
 msgid "balance"
 msgstr "balance"
 
-#: ../../glossary.rst:214
+#: ../../glossary.rst:218
 msgid ""
 "A balance control on a mixer allows you to adjust the balance between the "
 "left and right channel. The balance refers to the relative volume of the "
@@ -151,11 +184,11 @@ msgstr ""
 "répartition entre les canaux droit et gauche. La balance se réfère au volume"
 " relatif des canaux correspondants d'un signal audio stéréo."
 
-#: ../../glossary.rst:388
+#: ../../glossary.rst:396
 msgid "bar"
 msgstr "mesure"
 
-#: ../../glossary.rst:390
+#: ../../glossary.rst:398
 msgid ""
 "In musical notation, a bar (or measure) is a segment of time defined by a "
 "given number of beats. Typically, a piece consists of several bars of the "
@@ -165,11 +198,11 @@ msgstr ""
 "nombre donnée de battements. Typiquement, un morceau consiste en une "
 "succession de mesures de la même longueur."
 
-#: ../../glossary.rst:106
+#: ../../glossary.rst:104
 msgid "beatgrid"
 msgstr "grille rythmique"
 
-#: ../../glossary.rst:108
+#: ../../glossary.rst:106
 msgid ""
 "A series of markers that point to the location of beats within the track. "
 "Beatgrids are used for advanced mixing functions such as track :term:`sync`,"
@@ -182,11 +215,11 @@ msgstr ""
 "synchronisation précise des effets, les boucles et la représentions précise "
 "des :term:`BPM`."
 
-#: ../../glossary.rst:102
+#: ../../glossary.rst:100
 msgid "beatmatching"
 msgstr "beatmatching"
 
-#: ../../glossary.rst:104
+#: ../../glossary.rst:102
 msgid ""
 "A mixing technique used to establish a similar tempo with two or more "
 "tracks, making them sound like just one track."
@@ -194,11 +227,11 @@ msgstr ""
 "Une technique de mixage utilisée pour obtenir un tempo similaire entre deux "
 "pistes ou plus, les faisant s'entendre comme une seule piste."
 
-#: ../../glossary.rst:351
+#: ../../glossary.rst:355
 msgid "binaries"
 msgstr "binaires"
 
-#: ../../glossary.rst:353
+#: ../../glossary.rst:357
 msgid ""
 "Files that contain compiled computer code, which was compiled from source "
 "code. Source code, which is usually a bunch of text files, is processed with"
@@ -213,38 +246,46 @@ msgstr ""
 "exemple. En utilisant des binaires, vous n'avez pas besoin de compiler le "
 "code vous-même."
 
-#: ../../glossary.rst:295
+#: ../../glossary.rst:299
 msgid "bitrate"
 msgstr "débit"
 
-#: ../../glossary.rst:297
+#: ../../glossary.rst:301
 msgid ""
 "Describe the quality of an audio or video file. For audio data the bitrate "
 "is commonly measured in :term:`kbps`. For example, an MP3 audio file that is"
 " compressed at 192 Kbps will have a greater dynamic range and may sound "
 "slightly more clear than the same audio file compressed at 128 Kbps."
 msgstr ""
+"Décrire la qualité d'un fichier audio ou vidéo. Pour les données audio, le "
+"débit binaire est généralement mesuré en :term:`kbps`. Par exemple, un "
+"fichier audio MP3 compressé à 192 Kbps aura une plage dynamique plus grande "
+"et peut sembler légèrement plus clair que le même fichier audio compressé à "
+"128 Kbps."
 
-#: ../../glossary.rst:96
+#: ../../glossary.rst:94
 msgid "BPM"
 msgstr "BPM"
 
-#: ../../glossary.rst:97
+#: ../../glossary.rst:95
 msgid "Beats per minute"
-msgstr ""
+msgstr "Beats per minute (Battements par minute)"
 
-#: ../../glossary.rst:99
+#: ../../glossary.rst:97
 msgid ""
 "BPM is used as a measure of tempo in music. If you tap your foot to music "
 "you are following the “beat”. If you count how many taps you do in a minute "
 "you have calculated the BPM."
 msgstr ""
+"Le BPM est utilisé comme mesure du tempo dans la musique. Si vous tapez du "
+"pied sur de la musique, vous suivez le « rythme ». Si vous comptez le nombre"
+" de tapotements effectués en une minute, vous avez calculé le BPM."
 
-#: ../../glossary.rst:346
+#: ../../glossary.rst:350
 msgid "bug report"
 msgstr "rapport de bug"
 
-#: ../../glossary.rst:348
+#: ../../glossary.rst:352
 msgid ""
 "Every software has bugs. When you come across a bug in this software, you "
 "should submit a report about it to the developers. They can use this to "
@@ -255,11 +296,11 @@ msgstr ""
 "propos de ce bug aux développeurs. Ils pourront l'utiliser pour identifier, "
 "reproduire et corriger ce problème."
 
-#: ../../glossary.rst:335
+#: ../../glossary.rst:339
 msgid "CDJ"
 msgstr "CDJ"
 
-#: ../../glossary.rst:337
+#: ../../glossary.rst:341
 msgid ""
 "CDJ is a term originally used to describe a line of CD players from Pioneer "
 "Electronics. Today CDJ generally refers to DJ CD players that work like a "
@@ -272,11 +313,11 @@ msgstr ""
 "permettent un contrôle analogique de la musique en utilisant des CD, "
 "généralement en utilisant une surface sensible de contrôle vinyle émulée."
 
-#: ../../glossary.rst:286
+#: ../../glossary.rst:290
 msgid "codec"
 msgstr "codec"
 
-#: ../../glossary.rst:288
+#: ../../glossary.rst:292
 msgid ""
 "Short for compressor/decompressor, a codec is any technology for compressing"
 " and decompressing audio and video data. Some popular codecs for computer "
@@ -287,11 +328,11 @@ msgstr ""
 " plus populaires pour l'audio, on retrouve :term:`MP3` et :term:`Ogg "
 "Vorbis`."
 
-#: ../../glossary.rst:126
+#: ../../glossary.rst:124
 msgid "controller"
 msgstr "contrôleur"
 
-#: ../../glossary.rst:128
+#: ../../glossary.rst:126
 msgid ""
 "An external hardware device that generates and transmits signals to a "
 "computer, usually via :term:`USB`, to control software with physical "
@@ -301,37 +342,62 @@ msgid ""
 "prefer to control DJ software using physical knobs, faders, and wheels on "
 "controllers instead of using a computer keyboard and mouse."
 msgstr ""
+"Un périphérique matériel externe qui génère et transmet des signaux à un "
+"ordinateur, généralement via :term:`USB`, pour contrôler un logiciel avec "
+"des commandes physiques autres qu'une souris et un clavier. Les contrôleurs "
+"ont de nombreuses utilisations pour la musique, comme le contrôle de "
+"programmes DJ comme Mixxx. Ils envoient généralement des signaux "
+":term:`MIDI` mais certains contrôleurs utilisent des signaux :term:`HID`. De"
+" nombreux DJ préfèrent contrôler le logiciel DJ à l’aide de boutons "
+"physiques, de curseurs et de potentiomètres sur les contrôleurs plutôt que "
+"d’utiliser un clavier et une souris d’ordinateur."
 
-#: ../../glossary.rst:20
+#: ../../glossary.rst:25
 msgid "crossfader"
-msgstr "crossfader"
+msgstr "curseur de mixage"
 
-#: ../../glossary.rst:22
+#: ../../glossary.rst:27
 msgid ""
 "The crossfader is a slider that determines how much each deck of audio "
 "contributes to the :term:`main output`."
 msgstr ""
+"Un curseur de mixage qui détermine à quel niveau chaque platine contribue à "
+"la :term:`sortie principale`."
 
-#: ../../glossary.rst:377
+#: ../../glossary.rst:381
 msgid "cue"
 msgstr "repère"
 
-#: ../../glossary.rst:378
+#: ../../glossary.rst:382
 msgid "cue point"
-msgstr ""
+msgstr "point de repère"
 
-#: ../../glossary.rst:380
+#: ../../glossary.rst:384
 msgid ""
 "A reference point in the track usually placed on the position the DJ wants "
 "the track to start at by default. This is useful to instantly jump to that "
 "point without seeking through the track."
 msgstr ""
+"Un point de référence dans la piste généralement placé à la position à "
+"laquelle le DJ souhaite que la piste commence par défaut. Ceci est utile "
+"pour accéder instantanément à ce point sans parcourir la piste."
 
-#: ../../glossary.rst:320
+#: ../../glossary.rst:392
+msgid "cue marker"
+msgstr ""
+
+#: ../../glossary.rst:394
+msgid ""
+"A catch-all term used in mixxx to refer to the :term:`cue point`, "
+":term:`hotcues <hotcue>` and :ref:`intro and outro cues<djing-intro-outro-"
+"cues>`."
+msgstr ""
+
+#: ../../glossary.rst:324
 msgid "cue sheet"
 msgstr "feuille de repères"
 
-#: ../../glossary.rst:322
+#: ../../glossary.rst:326
 msgid ""
 "A cue sheet (or CUE file, CUE sheet, etc.) is a formatted plain text file "
 "which is used to provide index information for a large audio file. For "
@@ -344,11 +410,11 @@ msgstr ""
 "indiquer au logiciel des détails supplémentaires sur la disposition d'un CD "
 "à graver."
 
-#: ../../glossary.rst:10
+#: ../../glossary.rst:15
 msgid "cueing"
 msgstr "repérage"
 
-#: ../../glossary.rst:12
+#: ../../glossary.rst:17
 msgid ""
 "Headphone cueing, or just cueing, is listening to the next track you would "
 "like to mix in your headphones. The audience will not hear what you are "
@@ -359,40 +425,46 @@ msgstr ""
 "vous êtes en train de repérer dans votre casque. Être capable de repérer est"
 " un aspect crucial du DJing."
 
-#: ../../glossary.rst:510
+#: ../../glossary.rst:518
 msgid "DAW"
 msgstr "DAW"
 
-#: ../../glossary.rst:511
+#: ../../glossary.rst:519
 msgid "Digital Audio Workstation"
-msgstr ""
+msgstr "Digital Audio Workstation (Station de travail audio numérique)"
 
-#: ../../glossary.rst:513
+#: ../../glossary.rst:521
 msgid ""
 "An electronic device or application software used for recording, editing and"
 " producing audio files."
 msgstr ""
+"Un appareil électronique ou un logiciel d'application utilisé pour "
+"enregistrer, éditer et produire des fichiers audio."
 
-#: ../../glossary.rst:313
+#: ../../glossary.rst:317
 msgid "db"
 msgstr "dB"
 
-#: ../../glossary.rst:314
+#: ../../glossary.rst:318
 msgid "decibel"
-msgstr ""
+msgstr "décibel"
 
-#: ../../glossary.rst:316
+#: ../../glossary.rst:320
 msgid ""
 "A Decibel is a logarithmic measurement of sound level. Whispering is around "
 "25 dB while unbearable sound such as a jet engine is around 160 db. Rule of "
 "thumb: A volume increase of 10 dB is perceived as twice as loud."
 msgstr ""
+"Un décibel est une mesure logarithmique du niveau sonore. Les chuchotements "
+"sont d'environ 25 dB tandis que les bruits insupportables, comme ceux d'un "
+"moteur à réaction, sont d'environ 160 dB. Règle générale : une augmentation "
+"du volume de 10 dB est perçue comme deux fois plus forte."
 
-#: ../../glossary.rst:78
+#: ../../glossary.rst:83
 msgid "deck"
 msgstr "platine"
 
-#: ../../glossary.rst:80
+#: ../../glossary.rst:85
 msgid ""
 "A deck is like a virtual vinyl turntable. You can load a :term:`track` into "
 "it and play the track, just like you would put a record on turntable and "
@@ -402,11 +474,11 @@ msgstr ""
 ":term:`piste` dessus et lire cette piste, simplement comme vous mettiez un "
 "disque sur une platine physique et le lisiez."
 
-#: ../../glossary.rst:369
+#: ../../glossary.rst:373
 msgid "direct monitoring"
 msgstr "monitoring direct"
 
-#: ../../glossary.rst:371
+#: ../../glossary.rst:375
 msgid ""
 "A feature of many :term:`soundcards <soundcard>` that allows microphones and"
 " other input signals to be heard through the soundcard outputs with no "
@@ -415,12 +487,18 @@ msgid ""
 "the latency of sending the signal into the computer for Mixxx to process and"
 " sending it back out to the soundcard."
 msgstr ""
+"Une caractéristique de beaucoup de :term:`cartes son <soundcard>`  Cela "
+"permet aux microphones et autres signaux d'entrée d'être entendus via les "
+"sorties de la carte son sans latence perceptible. Avec le monitoring direct,"
+" l'interface audio mélange le signal d'entrée matériel avec le signal de "
+"sortie de Mixxx. Cela contourne la latence d'envoi du signal à l'ordinateur "
+"pour que Mixxx le traite et le renvoie à la carte son."
 
-#: ../../glossary.rst:405
+#: ../../glossary.rst:413
 msgid "DRM"
 msgstr "DRM"
 
-#: ../../glossary.rst:407
+#: ../../glossary.rst:415
 msgid ""
 "Digital Rights Management (DRM) technologies attempt to control what you can"
 " and can't do with the media and hardware you've purchased. Typically, a DRM"
@@ -440,15 +518,31 @@ msgstr ""
 "pouvez vous impliquer dans l'activisme contre les DRM, voir `Defective by "
 "Design <https://www.defectivebydesign.org>`_."
 
-#: ../../glossary.rst:497
+#: ../../glossary.rst:133
+msgid "DVS"
+msgstr ""
+
+#: ../../glossary.rst:134
+msgid "Digital Vinyl System"
+msgstr ""
+
+#: ../../glossary.rst:136
+msgid ""
+"A system consisting of a traditional turntable, a special vinyl record "
+"encoded with a digital :term:`timecode` instead of an analog audio track, an"
+" :term:`audio interface`, and a computer running DJ software such as Mixxx "
+"that supports :term:`vinyl control` functionality."
+msgstr ""
+
+#: ../../glossary.rst:505
 msgid "EQ"
 msgstr "EQ"
 
-#: ../../glossary.rst:498
+#: ../../glossary.rst:506
 msgid "Equalizer"
 msgstr "Égaliseur"
 
-#: ../../glossary.rst:500
+#: ../../glossary.rst:508
 msgid ""
 "An equalizer allows the sound in specified frequency bands to be amplified "
 "or reduced, in order to adjust the quality and character of the sound."
@@ -456,7 +550,7 @@ msgstr ""
 "Un égaliseur permet d'amplifier ou de réduire le son dans les bandes de "
 "fréquences spécifiées, afin d'ajuster la qualité et le caractère du son."
 
-#: ../../glossary.rst:503
+#: ../../glossary.rst:511
 msgid ""
 "A simple graphic equalizer consists of multiple controls for boosting or "
 "cutting bands or frequencies of sound."
@@ -464,7 +558,7 @@ msgstr ""
 "Un égaliseur graphique simple se compose de plusieurs commandes pour "
 "augmenter ou réduire les bandes ou les fréquences du son."
 
-#: ../../glossary.rst:506
+#: ../../glossary.rst:514
 msgid ""
 "A parametric equalizer controls more parameters of the sound than a graphic "
 "equalizer. It can control three aspects of each frequency: level (boost or "
@@ -476,11 +570,11 @@ msgstr ""
 "(augmentation ou coupure), la fréquence centrale ou primaire, et la bande "
 "passante ou la plage de chaque fréquence."
 
-#: ../../glossary.rst:164
+#: ../../glossary.rst:168
 msgid "fast-forward"
 msgstr "avance rapide"
 
-#: ../../glossary.rst:166
+#: ../../glossary.rst:170
 msgid ""
 "To cause something to advance at quicker than normal speed. In terms of "
 "audio software that means if you press the fast-forward button the audio "
@@ -492,11 +586,11 @@ msgstr ""
 "la musique jouera à une vitesse accrue aussi longtemps que le bouton sera "
 "pressé. Ceci est utile pour rechercher dans la piste."
 
-#: ../../glossary.rst:170
+#: ../../glossary.rst:174
 msgid "fast-rewind"
 msgstr "retour rapide"
 
-#: ../../glossary.rst:172
+#: ../../glossary.rst:176
 msgid ""
 "The opposite of :term:`fast-forward`. If you press the fast-rewind button "
 "the audio will play in reverse with increased speed as long as the button is"
@@ -506,11 +600,11 @@ msgstr ""
 "rapide, la musique jouera en sens inverse avec une vitesse accrue aussi "
 "longtemps que le bouton sera pressé."
 
-#: ../../glossary.rst:62
+#: ../../glossary.rst:67
 msgid "file manager"
 msgstr "gestionaire de fichier"
 
-#: ../../glossary.rst:64
+#: ../../glossary.rst:69
 msgid ""
 "A computer program that organizes data files into groups and shows you where"
 " they are when you need to find them again. Popular file managers for the "
@@ -523,26 +617,30 @@ msgstr ""
 "<operating system>` que Mixxx supporte sont Explorateur sous Windows, Finder"
 " sous macOS et Nautilus sous GNU/Linux."
 
-#: ../../glossary.rst:255
+#: ../../glossary.rst:259
 msgid "FLAC"
 msgstr "FLAC"
 
-#: ../../glossary.rst:256
+#: ../../glossary.rst:260
 msgid "Free Lossless Audio Compression"
-msgstr ""
+msgstr "Free Lossless Audio Compression (Compression audio libre sans perte)"
 
-#: ../../glossary.rst:258
+#: ../../glossary.rst:262
 msgid ""
 "A patent-free audio compression similar to :term:`MP3` but :term:`lossless` "
 "(i.e. there is no loss in audio quality when used). FLAC files generally end"
 " with a .flac extension."
 msgstr ""
+"Une compression audio sans brevet similaire à :term:`MP3` mais "
+":term:`lossless` (c'est-à-dire qu'il n'y a aucune perte de qualité audio "
+"lors de son utilisation). Les fichiers FLAC se terminent généralement par "
+"une extension .flac."
 
-#: ../../glossary.rst:393
+#: ../../glossary.rst:401
 msgid "flanger"
 msgstr "flanger"
 
-#: ../../glossary.rst:395
+#: ../../glossary.rst:403
 msgid ""
 "A flanger is an effect that mixes the input signal with a delayed copy of "
 "itself which leads to interferences in the signal and creates a comb-filter "
@@ -554,27 +652,31 @@ msgstr ""
 "effet de filtre en peigne. En dirigeant la sortie de l'effet à nouveau vers "
 "l'entrée (feedback), l'effet est intensifié."
 
-#: ../../glossary.rst:462
+#: ../../glossary.rst:470
 msgid "GUI"
 msgstr "GUI"
 
-#: ../../glossary.rst:463
+#: ../../glossary.rst:471
 msgid "Graphical User Interface"
-msgstr ""
+msgstr "Graphical User Interface (Interface utilisateur graphique)"
 
-#: ../../glossary.rst:465
+#: ../../glossary.rst:473
 msgid ""
 "It's pronounced \"gooey\" and it refers to a user interface based on "
 "graphics (icons, pictures and menus) instead of text. In Mixxx, it uses a "
 "mouse, keyboard, or :term:`MIDI` / :term:`HID` :term:`controllers "
 "<controller>` as input devices."
 msgstr ""
+"Il se prononce « goosey » et fait référence à une interface utilisateur "
+"basée sur des graphiques (icônes, images et menus) au lieu de texte. Dans "
+"Mixxx, cela utilise une souris, un clavier ou des :term:`MIDI` / :term:`HID`"
+" :term:`controllers ` comme périphériques d'entrée."
 
-#: ../../glossary.rst:68
+#: ../../glossary.rst:73
 msgid "head/mix button"
 msgstr "bouton casque/mix"
 
-#: ../../glossary.rst:70
+#: ../../glossary.rst:75
 msgid ""
 "The head/mix button is used to control how much you mix the :term:`main "
 "output` into your :term:`headphone output`. This can be very useful when "
@@ -582,12 +684,17 @@ msgid ""
 "with the main mix in your headphones, before letting the audience hear the "
 "track."
 msgstr ""
+"Le bouton casque/mix est utilisé pour contrôler la quantité de mixage de la "
+":term:`sortie principale` dans votre :term:`sortie casque`. Cela peut être "
+"très utile lors du :term:`repérage` d'une piste, car vous pouvez tester le "
+"son lorsqu'il est mixé avec le mixage principal dans vos écouteurs, avant de"
+" laisser le public entendre la piste."
 
-#: ../../glossary.rst:53
+#: ../../glossary.rst:58
 msgid "headphone button"
 msgstr "bouton casque"
 
-#: ../../glossary.rst:55
+#: ../../glossary.rst:60
 msgid ""
 "The headphone button is used to indicate whether or not you are pre-"
 "listening to a deck or sampler in your headphones."
@@ -595,34 +702,38 @@ msgstr ""
 "Le bouton casque est utilisé pour indiquer si vous pré-écoutez ou pas une "
 "platine ou un échantillonneur dans votre casque."
 
-#: ../../glossary.rst:31
+#: ../../glossary.rst:36
 msgid "headphone output"
 msgstr "sortie casque"
 
-#: ../../glossary.rst:33
+#: ../../glossary.rst:38
 msgid "The headphone output is what you hear in your headphones."
 msgstr "La sortie casque est ce que vous entendez dans votre casque."
 
-#: ../../glossary.rst:119
+#: ../../glossary.rst:117
 msgid "HID"
 msgstr "HID"
 
-#: ../../glossary.rst:120
+#: ../../glossary.rst:118
 msgid "Human Interface Device"
-msgstr ""
+msgstr "Human Interface Device (Dispositif d'interface humaine)"
 
-#: ../../glossary.rst:122
+#: ../../glossary.rst:120
 msgid ""
 "A part of the :term:`USB` specification. It specifies a device class (a type"
 " of computer hardware) for human interface devices such as keyboards, mice, "
 "game controllers, and some DJ :term:`controllers <controller>`."
 msgstr ""
+"Une partie de la spécification :term:`USB`. Il spécifie une classe de "
+"périphériques (un type de matériel informatique) pour les périphériques à "
+"interface humaine tels que les claviers, les souris, les contrôleurs de jeu "
+"et certains :term:`controleurs <controller>` DJ."
 
-#: ../../glossary.rst:383
+#: ../../glossary.rst:387
 msgid "hotcue"
 msgstr "repère rapide"
 
-#: ../../glossary.rst:385
+#: ../../glossary.rst:389
 msgid ""
 "Similar to the main :term:`cue` point, a hotcue is a reference point in the "
 "track. DJs usually place hotcues at distinctive positions within a track "
@@ -633,11 +744,11 @@ msgstr ""
 "des positions distinctes dans une piste telles que des drops, des breaks ou "
 "des kicks et des snares. Mixxx prend en charge jusqu'à 36 repères rapides."
 
-#: ../../glossary.rst:448
+#: ../../glossary.rst:456
 msgid "HSV"
 msgstr "HSV"
 
-#: ../../glossary.rst:450
+#: ../../glossary.rst:458
 msgid ""
 "HSV stands for hue, saturation, and value, and is also often called HSB (B "
 "for brightness). The HSV Color Model represents color in a way more suited "
@@ -653,11 +764,11 @@ msgstr ""
 "facilement en HSV. En revanche, la représentation du modèle orienté matériel"
 " :term:`RGB` est proche de ce que la plupart des moniteurs montrent."
 
-#: ../../glossary.rst:419
+#: ../../glossary.rst:427
 msgid "icecast"
 msgstr "icecast"
 
-#: ../../glossary.rst:421
+#: ../../glossary.rst:429
 msgid ""
 "Icecast is free and :term:`open-source` software that allows digital audio "
 "content to be broadcast to and from media player software, enabling the "
@@ -671,26 +782,11 @@ msgstr ""
 "<shoutcast>`, le logciel donne la possibilité de diffuser des formats libres"
 " comme :term:`Ogg Vorbis` et de faire tourner votre propre serveur."
 
-#: ../../glossary.rst:83
-msgid "IRC"
-msgstr "IRC"
-
-#: ../../glossary.rst:84
-msgid "Internet Relay Chat"
-msgstr ""
-
-#: ../../glossary.rst:86
-msgid ""
-"IRC is an online chat network. The Mixxx IRC channel was on the `FreeNode "
-"IRC Network <https://freenode.net>`_ in the ``#mixxx`` channel. The channel "
-"was replaced in 2018 by the :term:`Mixxx Zulip Chat <Zulip>`."
-msgstr ""
-
-#: ../../glossary.rst:301
+#: ../../glossary.rst:305
 msgid "kbps"
 msgstr "kbit/s"
 
-#: ../../glossary.rst:303
+#: ../../glossary.rst:307
 msgid ""
 "Short for kilobits per second. Here used to measure the quality of audio "
 "data. See :term:`bitrate`"
@@ -698,19 +794,19 @@ msgstr ""
 "Abréviation de kilobits par seconde. Ici utilisé pour mesurer la qualité des"
 " données audio. Voir :term:`débit`"
 
-#: ../../glossary.rst:469
+#: ../../glossary.rst:477
 msgid "key"
 msgstr "tonalité"
 
-#: ../../glossary.rst:471
+#: ../../glossary.rst:479
 msgid "Short for \"musical key\" (i.e. C major)."
 msgstr "Abréviation de \"tonalité musicale\" (exemple ut majeur)."
 
-#: ../../glossary.rst:48
+#: ../../glossary.rst:53
 msgid "key lock"
 msgstr "verrouillage de tonalité"
 
-#: ../../glossary.rst:50
+#: ../../glossary.rst:55
 msgid ""
 "With key lock enabled, the tempo of the track will change but the pitch "
 "remains consistent.  When unlocked, the pitch slider will speed up (or slow "
@@ -721,11 +817,11 @@ msgstr ""
 "hauteur accélérera (ou ralentira) la piste et la hauteur augmentera (ou "
 "diminuera) avec elle."
 
-#: ../../glossary.rst:200
+#: ../../glossary.rst:204
 msgid "kill switch"
 msgstr "commutateur tuer"
 
-#: ../../glossary.rst:202
+#: ../../glossary.rst:206
 msgid ""
 "A button to turn on and off individual frequency ranges within a channel, "
 "i.e. treble, mid and bass. Useful for effects where the DJ drops a track out"
@@ -736,25 +832,29 @@ msgstr ""
 " pour les effets où le DJ baisse une piste pendant une période ou crée de la"
 " place pour une transition."
 
-#: ../../glossary.rst:515
+#: ../../glossary.rst:523
 msgid "LADSPA"
 msgstr "LADSPA"
 
-#: ../../glossary.rst:516
+#: ../../glossary.rst:524
 msgid "Linux Audio Developer's Simple Plugin"
 msgstr ""
+"Linux Audio Developer's Simple Plugin (Plugin simple du développeur audio "
+"Linux)"
 
-#: ../../glossary.rst:518
+#: ../../glossary.rst:526
 msgid ""
 "The LADSPA :term:`API` is a standard for handling audio filters and audio "
 "signal processing effects."
 msgstr ""
+"L':term:`API` LADSPA est un standard pour la gestion des filtres audio et "
+"des effets de traitement du signal audio."
 
-#: ../../glossary.rst:291
+#: ../../glossary.rst:295
 msgid "LAME"
 msgstr "LAME"
 
-#: ../../glossary.rst:293
+#: ../../glossary.rst:297
 msgid ""
 "LAME is a free software :term:`codec` used to encode/compress audio into the"
 " :term:`lossy` :term:`MP3` file format."
@@ -763,11 +863,11 @@ msgstr ""
 "encoder/compresser l'audio dans un fichier de format :term:`avec perte` "
 ":term:`MP3`."
 
-#: ../../glossary.rst:194
+#: ../../glossary.rst:198
 msgid "latency"
 msgstr "latence"
 
-#: ../../glossary.rst:196
+#: ../../glossary.rst:200
 msgid ""
 "Latency refers to a short period of delay (usually measured in milliseconds)"
 " between when an audio signal enters and when it emerges from a system. "
@@ -779,11 +879,11 @@ msgstr ""
 " système. Pouvoir réduire la latence autant que possible fait une énorme "
 "différence dans la réactivité."
 
-#: ../../glossary.rst:205
+#: ../../glossary.rst:209
 msgid "level meter"
 msgstr "vue-mètre"
 
-#: ../../glossary.rst:207
+#: ../../glossary.rst:211
 msgid ""
 "The level meter is used to show the average levels of audio signals. The "
 "level should average around the top of the green region, with the loudest "
@@ -797,11 +897,11 @@ msgstr ""
 "dans la région jaune. Si le vue-mètre est dans le rouge, le signal est "
 "écrêté et le gain doit être baissé."
 
-#: ../../glossary.rst:234
+#: ../../glossary.rst:238
 msgid "lossless"
 msgstr "sans perte"
 
-#: ../../glossary.rst:236
+#: ../../glossary.rst:240
 msgid ""
 "Used when describing audio compression algorithms, a lossless algorithm is "
 "one which results in no loss in audio quality when used."
@@ -809,11 +909,11 @@ msgstr ""
 "Utilisé pour décrire un algorithme de compression audio, un algorithme sans "
 "perte ne provoque pas de perte de qualité audio lors de son utilisation."
 
-#: ../../glossary.rst:238
+#: ../../glossary.rst:242
 msgid "lossy"
 msgstr "avec perte"
 
-#: ../../glossary.rst:240
+#: ../../glossary.rst:244
 msgid ""
 "Used when describing audio compression algorithms, a lossy algorithm is one "
 "which results in a loss in audio quality when used."
@@ -821,11 +921,11 @@ msgstr ""
 "Utilisé pour décrire un algorithme de compression audio, un algorithme avec "
 "perte provoque une perte de qualité audio lors de son utilisation."
 
-#: ../../glossary.rst:492
+#: ../../glossary.rst:500
 msgid "macOS"
 msgstr "macOS"
 
-#: ../../glossary.rst:494
+#: ../../glossary.rst:502
 msgid ""
 "macOS (originally named \"Mac OS X\" until 2012 and then \"OS X\" until "
 "2016) is the current Mac operating system that officially succeeded the "
@@ -835,26 +935,30 @@ msgstr ""
 "2016) est le système d'exploitation Mac actuel, qui a officiellement succédé"
 " au Mac OS classique en 2001."
 
-#: ../../glossary.rst:24
+#: ../../glossary.rst:29
 msgid "main output"
-msgstr ""
-
-#: ../../glossary.rst:25
-msgid "master output"
 msgstr "sortie principale"
 
-#: ../../glossary.rst:27
+#: ../../glossary.rst:30
+msgid "master output"
+msgstr "sortie maitre"
+
+#: ../../glossary.rst:32
 msgid ""
 "The main output is sent to the big speakers. It's what your audience hears. "
 "Please note that the term \"master output\" has been used historically but "
 "is in the process of being phased out. Prefer using \"main output\"."
 msgstr ""
+"La sortie principale est envoyée aux grandes enceintes. C'est ce que votre "
+"public entend. Veuillez noter que le terme « sortie maitre » a été utilisé "
+"historiquement mais est en train d'être progressivement supprimé. Préférez "
+"utiliser la \"sortie principale\"."
 
-#: ../../glossary.rst:326
+#: ../../glossary.rst:330
 msgid "metadata"
 msgstr "métadonnée"
 
-#: ../../glossary.rst:328
+#: ../../glossary.rst:332
 msgid ""
 "In general, any piece of information about a music file that Mixxx uses "
 "(e.g. title, artist, album, hotcue locations, loops, etc.). Various file "
@@ -874,38 +978,48 @@ msgstr ""
 "comme les :term:`grille rythmique`, donnée de forme d'onde, :term:`repères "
 "rapides <hotcue>`, listes de lecture, bacs, nombre de lecture, etc."
 
-#: ../../glossary.rst:112
+#: ../../glossary.rst:110
 msgid "MIDI"
 msgstr "MIDI"
 
-#: ../../glossary.rst:113
+#: ../../glossary.rst:111
 msgid "Musical Instrument Digital Interface"
 msgstr ""
+"Musical Instrument Digital Interface (Interface numérique pour instruments "
+"de musique)"
 
-#: ../../glossary.rst:115
+#: ../../glossary.rst:113
 msgid ""
 "A digital communications language and hardware specification enabling "
 "compatible electronic instruments, sequencers, computers, etc., to "
 "communicate with each other in a network. Most DJ :term:`controllers "
 "<controller>` use MIDI to communicate with computers."
 msgstr ""
+"Langage de communication numérique et spécification matérielle permettant à "
+"des instruments électroniques, séquenceurs, ordinateurs, etc. compatibles de"
+" communiquer entre eux dans un réseau. La plupart des :term:`contrôleurs "
+"<controller>` DJ utiliser MIDI pour communiquer avec les ordinateurs."
 
-#: ../../glossary.rst:242
+#: ../../glossary.rst:246
 msgid "MP3"
 msgstr "MP3"
 
-#: ../../glossary.rst:244
+#: ../../glossary.rst:248
 msgid ""
 "A patented audio compression algorithm which uses a form of :term:`lossy` "
 "data compression. It is de-facto standard of digital audio compression for "
 "music. MP3 files generally end with a :file:`.mp3` extension."
 msgstr ""
+"Un algorithme de compression audio breveté qui utilise une forme de "
+"compression de données :term:`avec perte`. Il s’agit de facto d’une norme de"
+" compression audio numérique pour la musique. Les fichiers MP3 se terminent "
+"généralement par une extension :file:`.mp3`."
 
-#: ../../glossary.rst:472
+#: ../../glossary.rst:480
 msgid "MusicBrainz"
 msgstr "MusicBrainz"
 
-#: ../../glossary.rst:474
+#: ../../glossary.rst:482
 msgid ""
 "A open-source music encyclopedia that collects music :term:`metadata` and "
 "makes it available to the public. For more information, see "
@@ -915,11 +1029,11 @@ msgstr ""
 "de la musique et les met à la disposition du public. Pour plus "
 "d'informations, voir `<https://musicbrainz.org/>`_."
 
-#: ../../glossary.rst:228
+#: ../../glossary.rst:232
 msgid "Ogg Vorbis"
 msgstr "Ogg Vorbis"
 
-#: ../../glossary.rst:230
+#: ../../glossary.rst:234
 msgid ""
 "A patent-free audio compression algorithm which uses a form of lossy data "
 "compression. It is designed to provide for efficient streaming and "
@@ -932,11 +1046,11 @@ msgstr ""
 "fichiers Ogg Vorbis se terminent généralement par une extension .ogg ou "
 ".oga."
 
-#: ../../glossary.rst:426
+#: ../../glossary.rst:434
 msgid "open-source"
 msgstr "open-source"
 
-#: ../../glossary.rst:428
+#: ../../glossary.rst:436
 msgid ""
 "Generically, open-source refers to a program for which the source code is "
 "available to the public for use and/or modification from its original design"
@@ -957,11 +1071,11 @@ msgstr ""
 "à des sociétés. Pour plus d'informations, voir `Wikipedia "
 "<https://en.wikipedia.org/wiki/Open-source_software>`_."
 
-#: ../../glossary.rst:341
+#: ../../glossary.rst:345
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: ../../glossary.rst:343
+#: ../../glossary.rst:347
 msgid ""
 "An :term:`operating system` feature used to draw hardware-accelerated "
 "graphics. Mixxx uses OpenGL to draw the waveform displays and spinning vinyl"
@@ -972,11 +1086,11 @@ msgstr ""
 "dessiner les affichages de forme d'onde et les widgets en vinyle qui "
 "tournent."
 
-#: ../../glossary.rst:57
+#: ../../glossary.rst:62
 msgid "operating system"
 msgstr "système d'exploitation"
 
-#: ../../glossary.rst:59
+#: ../../glossary.rst:64
 msgid ""
 "Your operating system (OS) is the computing environment on your computer. "
 "For example, Windows, macOS, or GNU/Linux are the three operating systems "
@@ -986,21 +1100,24 @@ msgstr ""
 "ordinateur. Par exemple, Windows, macOS ou GNU/Linux sont les trois systèmes"
 " d'exploitation pris en charge par Mixxx."
 
-#: ../../glossary.rst:282
+#: ../../glossary.rst:286
 msgid "Opus"
 msgstr "Opus"
 
-#: ../../glossary.rst:284
+#: ../../glossary.rst:288
 msgid ""
 "Opus is a totally open, royalty-free, highly versatile :term:`lossy` audio "
 "codec. The :file:`.opus` filename extension is recommended."
 msgstr ""
+"Opus est un codec audio :term:`avec perte` totalement ouvert, libre de "
+"droits et très polyvalent. L'extension de nom de fichier :file:`.opus` est "
+"recommandée."
 
-#: ../../glossary.rst:34
+#: ../../glossary.rst:39
 msgid "PFL"
 msgstr "PFL"
 
-#: ../../glossary.rst:36
+#: ../../glossary.rst:41
 msgid ""
 "``PFL`` or “pre-fader listen” is the headphone signal that is not affected "
 "by the deck volume faders. This allows for pre-listening tracks in "
@@ -1013,11 +1130,11 @@ msgstr ""
 "ne joue que dans le casque mais pas vers le public. Voir aussi :term:`bouton"
 " casque`."
 
-#: ../../glossary.rst:175
+#: ../../glossary.rst:179
 msgid "phase"
 msgstr "phase"
 
-#: ../../glossary.rst:177
+#: ../../glossary.rst:181
 msgid ""
 "The phase of a track is its position relative to another track. If two "
 "tracks are :term:`sync'd <sync>` to the same tempo and in-phase then they "
@@ -1027,11 +1144,11 @@ msgstr ""
 "pistes sont :term:`synchronisée <sync>` au même tempo et en phase, alors "
 "elles devraient jouées de tel sorte que leurs battements soient alignés."
 
-#: ../../glossary.rst:180
+#: ../../glossary.rst:184
 msgid "pitch bend"
 msgstr "molette de Pitch"
 
-#: ../../glossary.rst:182
+#: ../../glossary.rst:186
 msgid ""
 "A technique used by DJs that temporarily `bends` the rate of a track up or "
 "down, usually while a button is held. This technique is usually used to make"
@@ -1048,11 +1165,11 @@ msgstr ""
 "doigt le long de la platine pour la ralentir ou en tournant la broche "
 "d'enregistrement pour l'accélérer."
 
-#: ../../glossary.rst:399
+#: ../../glossary.rst:407
 msgid "podcast"
 msgstr "podcast"
 
-#: ../../glossary.rst:401
+#: ../../glossary.rst:409
 msgid ""
 "A podcast is a feed of audio or video files made available for free or for "
 "purchase over the Internet. Podcast clients such as iTunes allow listeners "
@@ -1064,11 +1181,11 @@ msgstr ""
 "auditeurs de s'abonner au flux et de télécharger automatiquement le contenu "
 "sur leurs lecteurs audio portables dès qu'il est disponible."
 
-#: ../../glossary.rst:443
+#: ../../glossary.rst:451
 msgid "quantization"
 msgstr "quantification."
 
-#: ../../glossary.rst:445
+#: ../../glossary.rst:453
 msgid ""
 "Quantization is the process of aligning notes and other events like loops or"
 " cuepoints so that they start or finish exactly on beats or fractions of "
@@ -1078,11 +1195,11 @@ msgstr ""
 " ou les points de repère afin qu'ils commencent ou se terminent exactement "
 "sur des battements ou des fractions de battement."
 
-#: ../../glossary.rst:188
+#: ../../glossary.rst:192
 msgid "ramping pitch bend"
 msgstr "rampe de molette de Pitch"
 
-#: ../../glossary.rst:190
+#: ../../glossary.rst:194
 msgid ""
 "Basically identical to the regular :term:`pitch bend` with the difference "
 "that the pitch changes gradually, instead of all at once. Often uses for "
@@ -1095,11 +1212,11 @@ msgstr ""
 "l'effet de toucher une platine pour ralentir ou accélérer temporairement un "
 "enregistrement."
 
-#: ../../glossary.rst:157
+#: ../../glossary.rst:161
 msgid "rate"
 msgstr "taux"
 
-#: ../../glossary.rst:159
+#: ../../glossary.rst:163
 msgid ""
 "The speed at which a track is played back, usually expressed in terms of a "
 "percentage of the speed relative to the tracks normal rate. Often while "
@@ -1113,11 +1230,11 @@ msgstr ""
 "jouer au même tempo que les autres pistes. Cela permet aux DJ le "
 ":term:`beatmix <beatmatching>`, et est une partie essentielle du DJing."
 
-#: ../../glossary.rst:305
+#: ../../glossary.rst:309
 msgid "ReplayGain"
 msgstr "ReplayGain"
 
-#: ../../glossary.rst:307
+#: ../../glossary.rst:311
 msgid ""
 "ReplayGain normalizes audio data in a non-destructive way, so the tracks in "
 "your music library don't all play at different volumes. Audio files are "
@@ -1133,19 +1250,19 @@ msgstr ""
 "ReplayGain est stockée en tant que :term:`métadonnée` dans un fichier audio "
 "numérique afin que le son soit correctement joué au bon niveau de volume."
 
-#: ../../glossary.rst:225
+#: ../../glossary.rst:229
 msgid "reverse"
 msgstr "à l'envers"
 
-#: ../../glossary.rst:227
+#: ../../glossary.rst:231
 msgid "Reverse plays a track backwards."
 msgstr "Lire une piste à l'envers."
 
-#: ../../glossary.rst:456
+#: ../../glossary.rst:464
 msgid "RGB"
 msgstr "RVB"
 
-#: ../../glossary.rst:458
+#: ../../glossary.rst:466
 msgid ""
 "The RGB color model is an additive color model in which red, green, and blue"
 " light are added together in various ways to reproduce a broad array of "
@@ -1157,22 +1274,26 @@ msgstr ""
 "manières pour produire un ensemble de couleurs. Le nom de ce modèle vient "
 "des initiales des trois couleur primaires additives Rouge, Vert et Bleu."
 
-#: ../../glossary.rst:15
+#: ../../glossary.rst:20
 msgid "shortcut"
-msgstr ""
+msgstr "raccourci"
 
-#: ../../glossary.rst:17
+#: ../../glossary.rst:22
 msgid ""
 "Shortcuts let you work more efficiently. This manual shows some shortcuts "
 "for accessing Mixxx functions with an English keyboard layout. Depending on "
 "your language settings the defaults may be different."
 msgstr ""
+"Les raccourcis vous permettent de travailler plus efficacement. Ce manuel "
+"présente quelques raccourcis pour accéder aux fonctions Mixxx avec une "
+"disposition de clavier en anglais. En fonction de vos paramètres de langue, "
+"les valeurs par défaut peuvent être différentes."
 
-#: ../../glossary.rst:414
+#: ../../glossary.rst:422
 msgid "shoutcast"
 msgstr "shoutcast"
 
-#: ../../glossary.rst:416
+#: ../../glossary.rst:424
 msgid ""
 "Shoutcast is proprietary software that allows digital audio content to be "
 "broadcast to and from media player software, enabling the creation of "
@@ -1182,11 +1303,11 @@ msgstr ""
 "audio numérique vers et depuis un logiciel lecteur de média, rendant "
 "possible la création de stations radio Internet."
 
-#: ../../glossary.rst:365
+#: ../../glossary.rst:369
 msgid "soundcard"
 msgstr "carte son"
 
-#: ../../glossary.rst:367
+#: ../../glossary.rst:371
 msgid ""
 "Another name for an :term:`audio interface`, although few audio interfaces "
 "are shaped like cards anymore."
@@ -1194,11 +1315,11 @@ msgstr ""
 "Un autre nom pour une :term:`interface audio`, bien que peu d'interfaces "
 "audio aient encore la forme de cartes."
 
-#: ../../glossary.rst:147
+#: ../../glossary.rst:151
 msgid "sync"
 msgstr "synchronisation"
 
-#: ../../glossary.rst:149
+#: ../../glossary.rst:153
 msgid ""
 "Sync allows you to automatically adjust a track's :term:`tempo` and "
 ":term:`phase` to be in sync with another deck that is playing."
@@ -1207,34 +1328,38 @@ msgstr ""
 ":term:`phase` d'une piste pour être synchronisée avec une autre platine en "
 "lecture."
 
-#: ../../glossary.rst:151
+#: ../../glossary.rst:155
 msgid "sync lock"
-msgstr ""
+msgstr "verrouillage de synchronisation (sync lock)"
 
-#: ../../glossary.rst:152
+#: ../../glossary.rst:156
 msgid "master sync"
 msgstr "synchronisation principale"
 
-#: ../../glossary.rst:154
+#: ../../glossary.rst:158
 msgid ""
 "Sync lock mode persistently adjusts a track's :term:`tempo` and "
 ":term:`phase` (if :term:`quantization` is enabled) in order to stay in "
 ":term:`sync` with other decks that are in sync lock mode."
 msgstr ""
+"Le mode de verrouillage de synchronisation ajuste de manière persistante le "
+":term:`tempo` et :term:`phase` d'une piste (si :term:`quantifiation` est "
+"activé) afin de rester en :term:`synchronisation` avec les autres platines "
+"qui sont en mode verrouillage de synchronisation."
 
-#: ../../glossary.rst:217
+#: ../../glossary.rst:221
 msgid "tempo"
 msgstr "tempo"
 
-#: ../../glossary.rst:219
+#: ../../glossary.rst:223
 msgid "The speed of a track measured in :term:`BPM`."
-msgstr ""
+msgstr "La vitesse d'une piste mesurée en :term:`BPM`."
 
-#: ../../glossary.rst:141
+#: ../../glossary.rst:145
 msgid "timecode"
 msgstr "timecode"
 
-#: ../../glossary.rst:143
+#: ../../glossary.rst:147
 msgid ""
 "Used here in conjunction with :term:`vinyl control`. A special audio signal "
 "on a control vinyl or control CD (timecode media) that a computer can listen"
@@ -1245,39 +1370,43 @@ msgstr ""
 "ordinateur peut lire afin de déterminer la vitesse, la direction et la "
 "position de la lecture."
 
-#: ../../glossary.rst:75
+#: ../../glossary.rst:80
 msgid "track"
 msgstr "piste"
 
-#: ../../glossary.rst:77
+#: ../../glossary.rst:82
 msgid "A track is another word for a song."
 msgstr "Une piste est un autre mot pour une chanson."
 
-#: ../../glossary.rst:436
+#: ../../glossary.rst:444
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
-#: ../../glossary.rst:437
+#: ../../glossary.rst:445
 msgid "Uniform Resource Locator"
-msgstr ""
+msgstr "Uniform Resource Locator"
 
-#: ../../glossary.rst:439
+#: ../../glossary.rst:447
 msgid ""
 "The address that defines the route to a file on an Internet server. URLs are"
 " typed into a Web browser to access Web pages and files, and URLs are "
 "embedded within the pages themselves as hypertext links. One example of a "
 "URL is `<https://mixxx.org>`_ ."
 msgstr ""
+"L'adresse qui définit l'itinéraire vers un fichier sur un serveur Internet. "
+"Les URL sont saisies dans un navigateur Web pour accéder aux pages et "
+"fichiers Web, et les URL sont intégrées dans les pages elles-mêmes sous "
+"forme de liens hypertextes. Un exemple d'URL est `<https://mixxx.org>`_ ."
 
-#: ../../glossary.rst:520
+#: ../../glossary.rst:528
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
-#: ../../glossary.rst:521
+#: ../../glossary.rst:529
 msgid "Universal Serial Bus"
-msgstr ""
+msgstr "Universal Serial Bus (Bus série universel)"
 
-#: ../../glossary.rst:523
+#: ../../glossary.rst:531
 msgid ""
 "USB is an industry standard for cables, connectors and protocols and used "
 "for lots of consumer hardware. If an :term:`audio interface` is \"USB class "
@@ -1285,12 +1414,19 @@ msgid ""
 " <operating system>` without special drivers (on Windows, special drivers "
 "might still be necessary to use the :term:`ASIO` sound :term:`API` though)."
 msgstr ""
+"L'USB est une norme industrielle pour les câbles, les connecteurs et les "
+"protocoles et est utilisé pour de nombreux matériels grand public. Si une "
+":term:`interface audio` est \"compatible avec la classe USB\", cela signifie"
+" qu'elle peut être utilisée sur tous les principaux :term:`systèmes "
+"d'exploitation <operating system>` sans pilotes spéciaux (sous Windows, des "
+"pilotes spéciaux peuvent néanmoins être nécessaires pour utiliser une "
+":term:`API audio :term:`ASIO` `)."
 
-#: ../../glossary.rst:135
+#: ../../glossary.rst:139
 msgid "vinyl control"
 msgstr "contrôle vinyle"
 
-#: ../../glossary.rst:137
+#: ../../glossary.rst:141
 msgid ""
 "A method of controlling DJ applications which simulates the traditional "
 "DJing paradigm of two turntables. Using special :term:`timecode` media, the "
@@ -1302,11 +1438,11 @@ msgstr ""
 ":term:`timecode`, l'application DJ analyse le signal de timecode et simule "
 "le son et la sensation d'avoir votre collection de musique sur vinyle."
 
-#: ../../glossary.rst:220
+#: ../../glossary.rst:224
 msgid "volume"
 msgstr "volume"
 
-#: ../../glossary.rst:222
+#: ../../glossary.rst:226
 msgid ""
 "A term that refers to the degree of sound intensity or audibility; loudness."
 " Volume is determined by people's perception and does not directly "
@@ -1316,11 +1452,11 @@ msgstr ""
 "intensité. Le volume est déterminé par la perception des gens et ne "
 "correspond pas directement à une propriété physique du son."
 
-#: ../../glossary.rst:275
+#: ../../glossary.rst:279
 msgid "WAV"
 msgstr "WAV"
 
-#: ../../glossary.rst:277
+#: ../../glossary.rst:281
 msgid ""
 "Standard digital audio file format used for storing waveform data; allows "
 "audio recordings to be saved with different sampling rates and bitrates; "
@@ -1328,12 +1464,19 @@ msgid ""
 "format used for CD audio. Wave files are not compressed, and are therefore "
 ":term:`lossless`. Wave files generally end with a :file:`.wav` extension."
 msgstr ""
+"Format de fichier audio numérique standard utilisé pour stocker les données "
+"de forme d'onde ; permet de sauvegarder des enregistrements audio avec "
+"différents taux d'échantillonnage et débits binaires ; souvent enregistré au"
+" format stéréo 44,1 KHz, 16 bits, qui est le format standard utilisé pour "
+"les CD audio. Les fichiers Wave ne sont pas compressés et sont donc "
+":term:`sans perte`. Les fichiers Wave se terminent généralement par une "
+"extension :file:`.wav`."
 
-#: ../../glossary.rst:44
+#: ../../glossary.rst:49
 msgid "waveform overview"
 msgstr "aperçu de la forme d'onde"
 
-#: ../../glossary.rst:46
+#: ../../glossary.rst:51
 msgid ""
 "The waveform overview shows the waveform envelope of the entire track, and "
 "is useful because they allow DJs to see breakdowns far in advance."
@@ -1342,11 +1485,11 @@ msgstr ""
 "entière et est utile car elle permet aux DJ de voir les break longtemps à "
 "l'avance."
 
-#: ../../glossary.rst:40
+#: ../../glossary.rst:45
 msgid "waveform summary"
 msgstr "résumé de la forme d'onde"
 
-#: ../../glossary.rst:42
+#: ../../glossary.rst:47
 msgid ""
 "The waveform summary shows the waveform envelope of the track near the "
 "current playback position."
@@ -1354,11 +1497,11 @@ msgstr ""
 "Forme d'onde sommaire montrant l'enveloppe de la forme d'onde de la piste, "
 "près de la position de lecture actuelle."
 
-#: ../../glossary.rst:90
+#: ../../glossary.rst:88
 msgid "Zulip"
 msgstr "Zulip"
 
-#: ../../glossary.rst:92
+#: ../../glossary.rst:90
 msgid ""
 "`Zulip <https://zulipchat.com/>`_ is a powerful, open source group chat "
 "application that combines the immediacy of real-time chat with the "

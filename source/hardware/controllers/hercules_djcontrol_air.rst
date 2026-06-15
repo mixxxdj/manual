@@ -38,7 +38,7 @@ Mapping Description
    :alt: Hercules DJControl AIR (schematic view)
    :figclass: pretty-figures
 
-   Hercules DJControl AIR (schematic view). This picture is taken from the `Getting Started Tutorial <http://ts.hercules.com/download/sound/manuals/DJ_AIR/DJCAir_GettingStartedTutorial_ENG.pdf>`__ (courtesy of Guillemot Corporation S.A.).
+   Hercules DJControl AIR (schematic view). This picture is taken from the Getting Started Tutorial (courtesy of Guillemot Corporation S.A.).
 
 We assume from the annotated picture above that each decks have same controls.
 

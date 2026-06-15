@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
 "Language-Team: Portuguese (https://app.transifex.com/mixxx-dj-software/teams/7734/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -274,9 +274,9 @@ msgid ""
 " the streaming server for stability and reliability reasons. Keep in mind "
 "that if want to stream audio to a significant number of listeners, you'll "
 "need enough bandwidth. Read the `Shoutcast documentation "
-"<http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_ or `Icecast "
-"documentation <http://www.icecast.org/docs/>`_ for server setup "
-"instructions."
+"<https://web.archive.org/web/20240118132730/http://wiki.winamp.com/wiki/SHOUTcast_Getting_Started_Guide>`_"
+" or `Icecast documentation <http://www.icecast.org/docs/>`_ for server setup"
+" instructions."
 msgstr ""
 
 #: ../../chapters/livebroadcasting.rst:58

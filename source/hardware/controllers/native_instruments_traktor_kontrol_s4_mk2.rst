@@ -122,14 +122,12 @@ Autoslip mode: Holding down :hwlabel:`LOOP RECORDER PLAY` and pressing the :hwla
 Mapping options
 ~~~~~~~~~~~~~~~
 
-If you choose, you can edit the controller script and change the Remix Slot buttons to perform loop rolls instead.
-Also by default, :hwlabel:`SHIFT` + :hwlabel:`CUE` rewinds the track to the beginning but you can change this to a Reverse Roll (or “Censor”) effect instead.
+Settings can be edited in the preference windows, under :guilabel:`Preferences`
+> :guilabel:`Controllers` > :guilabel:`Traktor Kontrol S4 MK2 ...`.
 
-Making these changes is still a little awkward and we will be making controller preferences easier to change in the future.
-For now you’ll have to make a small change to the mapping script file. Don’t worry, the actual edit only involves replacing a single word in a text file.
+.. csv-table::
+   :header: "Setting", "Values", "Function"
+   :widths: 30, 50, 40
 
-1. Open Mixxx Preferences and select the Kontrol S4 in the side list.
-2. Select :file:`Traktor-Kontrol-S4-MK2-hid-scripts.js`.
-3. Click :guilabel:`Open Selected File`.
-4. Either the file should open in an editor, or you should see a file browser window with that file selected. If you see a file browser, right click the file and select an option to edit it.
-5. At the top of the file will be short instructions explaining what to do.
+   "Remix Slot Buttons", "Samplers, Loop Rolls", "Sets the behavior when a Remix Slot button is pressed."
+   ":hwlabel:`SHIFT` + :hwlabel:`CUE` Button", "Reverse playback direction, Rewind to start of track", "Sets the behavior when Shift+Cue is pressed."

@@ -149,7 +149,7 @@ eject, load, and queue any track with sync lock and it won't interrupt the
 playback of the other decks.  However, changing the rate of a stopped deck will
 change the rate of playing decks.
 
-Syn Lock will also notice if one of your tracks is double the BPM of another
+Sync Lock will also notice if one of your tracks is double the BPM of another
 track and match them correctly.  So if you want to mix a 140 BPM drum & bass
 track with a 70 bpm dubstep track, Sync Lock will make sure they are lined up
 properly.
@@ -158,6 +158,62 @@ properly.
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
+
+Sync Lock with Dynamic Tempo
+============================
+
+If you're working with dynamic tempo tracks that have a variable BPM beat grid, you have
+precise control over the sync lock behavior via the following Sync Leader
+buttons (available in the LateNight and Deere skins only).
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
+
+|follower| Follower |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |softleader| Soft Leader
+
+.. |follower| image:: ../_static/2.4/follower.png
+   :width: 124px
+   :alt: Sync Leader button as follower
+
+.. |softleader| image:: ../_static/2.4/soft-leader.png
+   :width: 124px
+   :alt: Sync Leader button as soft leader
+
+You can create a variable BPM beat grids for single tracks by using the :guilabel:`Analyze`
+library context menu and :guilabel:`Reanalyze (variable BPM)` command. Alternatively you may
+create variable BPM beat grids for all tracks to be (re)analyzed later on by unchecking :guilabel:`Assume constant tempo`
+in the :guilabel:`Beat Detection` preferences.
+
+When such a track is playing in a Leader deck, the follower decks closely follow the tempo.
+It's important to note that the track follows the "detected" leader tempo unconditionally,
+even if there are sections with unstable tempos during bridges or in the outro regions where
+the actual played tempo wasn't detected correctly.
+
+If a soft leader deck stops or is silenced, Mixxx automatically selects the next
+best deck as Leader. By clicking the Leader button, you can choose between Soft
+Leader and Follower mode. A Soft Leader is not sticky, and will automatically
+move if the current leader becomes invalid.
+
+By default the "Sync Lock with Dynamic Tempo" feature is enabled and Mixxx picks the
+first Sync Lock enabled track as Soft Leader, using the tempo from its outro during
+the following transition. If you'd like to use the the tempo from the intro of the next
+track instead, click the Leader (Crown) button of its deck.
+The deck then becomes the soft leader, and Mixxx will use that deck's tempo instead.
+
+The only case when a stopped deck can be a Leader is if no other deck is
+playing. Once a deck starts playing, Mixxx will pick that as the leader instead.
+If another deck starts playing, then you will be able to pick which one you want
+to be the leader again.
+
+If you'd prefer a steady tempo during transitions like in Mixxx before Version 2.4,
+you may select :guilabel:`Use steady Tempo` for :guilabel:`Sync mode` in the
+:guilabel:`Decks` preferences. In this mode all decks become a follower during a
+transition and you may pick a dynamic track as a leader by clicking the
+Leader (Crown) button if desired.
+
+A leader plays always the original recorded tempo changes. A follower changes its
+tempo matching the leader which may result in a notable pitch change.
+Engaging keylock helps mitigate this pitch issue.
 
 .. _harmonic-mixing:
 
@@ -336,7 +392,7 @@ Auto DJ
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Library-Auto-DJ.png
+.. figure:: ../_static/Mixxx-241-Library-Auto-DJ.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -345,11 +401,23 @@ Auto DJ
 
    Mixxx library - Auto DJ view
 
-Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
-the current track is nearly finished, and crossfade into it.  See
-:ref:`library-auto-dj`.
+Auto DJ automatically loads tracks in the decks and mixes them.
+Tracks can be manually added to the Auto DJ playlist, or automatically from assigned source crates or from the entire library.
 
 Auto DJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
+
+For mixing, Auto DJ takes control of the :ref:`crossfader <interface-crossfader>`.
+Auto DJ requires at least one deck to be assigned to the left and right side of the crossfader. This can be done with the deck orientation switches next to the crossfader. If a deck's orientation is centered, the crossfader can't affect it. Note that in the official Tango skin, these switches are in the decks' transport controls row, and in Shade skin they don't exist because decks are statically assigned to the left and right side (bus).
+
+When Auto DJ is toggled on, it will use the first two opposing decks it finds. With default settings these would be decks 1 and 2, but depending on how the orientation switches are set, this could be any configuration, for example deck 4 on the left and deck 1 on the right. If no opposing decks are found Auto DJ won't start.
+
+.. note:: Note that Auto DJ is currently not aware which decks are currently visible,
+          i.e. it might pick currently hidden decks 3 and/or 4. Refer to the
+          :ref:`skin settings <interface-skin-settings>` for how to toggle 4 decks.
+
+When you toggle Auto DJ off, the crossfader will stay on its last position.
+
+Each official Mixxx skin has an Auto DJ indicator icon, located either in the top toolbar or in the mixer. In some skins the crossfader is highlighted, too.
 
 Loading tracks into Auto DJ
 ---------------------------
@@ -357,7 +425,7 @@ Loading tracks into Auto DJ
 To play tracks automatically, they must first be loaded into the Auto DJ
 playlist. The Auto DJ playlist is empty by default.
 
-.. figure:: ../_static/Mixxx-200-Library-Add-to-Auto-DJ.png
+.. figure:: ../_static/Mixxx-241-Library-Add-to-Auto-DJ.png
    :align: center
    :width: 50%
    :figwidth: 100%

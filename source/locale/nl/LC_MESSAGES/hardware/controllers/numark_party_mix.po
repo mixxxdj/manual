@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-08 21:49+0100\n"
+"POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2023-02-08 21:06+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +30,7 @@ msgstr ""
 msgid ""
 "`Manufacturer's product page <https://www.numark.com/product/party-mix>`_ · "
 "`Manufacturer's user manual "
-"<https://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-"
+"<http://www.numark.com/images/product_downloads/Party_Mix_-_User_Guide_-"
 "_v1.1.pdf>`_ · `Forum thread <https://mixxx.discourse.group/t/numark-party-"
 "mix-midi-mapping/16712>`_"
 msgstr ""
@@ -53,7 +57,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_party_mix.rst:1
 msgid "Function"
-msgstr ""
+msgstr "Functie"
 
 #: ../../hardware/controllers/numark_party_mix.rst:1
 msgid "1"
@@ -452,7 +456,7 @@ msgstr ""
 
 #: ../../hardware/controllers/numark_party_mix.rst:1
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: ../../hardware/controllers/numark_party_mix.rst:1
 msgid "``jogScratchSensitivity``"

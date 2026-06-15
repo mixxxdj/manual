@@ -99,44 +99,182 @@ To use ``*_toggle`` the respective shortcut for scripts is:
    script.toggleControl(group, "keylock_toggle", 100);
 
 
-The ``[Master]`` group
-~~~~~~~~~~~~~~~~~~~~~~
+The ``[App]`` group
+~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine.
-This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
+.. mixxx:controlgroup:: [App]
 
-.. mixxx:control:: [Master],audio_latency_usage
+   The :mixxx:cogroupref:`[App]` group contains controls that do not belong to a specific channel, the mixer or the effects engine.
 
-   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx. At value near 25 % there is a high risk of buffer underflows
+.. mixxx:control:: [App],audio_latency_usage
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx.
+   At value near 25 % there is a high risk of buffer underflows.
 
    :range: 0 .. 25 %
    :feedback: latency meter
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_usage` control.
 
 
-.. mixxx:control:: [Master],audio_latency_overload
+.. mixxx:control:: [App],audio_latency_overload
 
-   Indicates a buffer under or over-flow. Resets after 500 ms
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+   Indicates a buffer under or over-flow. Resets after 500 ms.
 
    :range: binary
    :feedback: Overload indicator
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_overload` control.
 
 
-.. mixxx:control:: [Master],audio_latency_overload_count
+.. mixxx:control:: [App],audio_latency_overload_count
 
-   Counts buffer over and under-flows. Max one per 500 ms
+   Counts buffer over and under-flows, maximum one per 500 ms.
+   The count is displayed in Preferences -> Sound Hardware.
 
    :range: 0 .. n
    :feedback: Counter in hardware preferences
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],audio_latency_overload_count` control.
+
+
+
+.. mixxx:control:: [App],gui_tick_50ms_period_s
+
+   A throttled timer that provides the time elapsed in seconds since Mixxx was started.
+
+   This control is updated at a rate of 20 Hz (every 50 milliseconds). It is the preferred timer for scripting animations in controller mappings (like VU meters or spinning animations) as it provides a smooth visual result without the performance overhead of :mixxx:coref:`[App],gui_tick_full_period_s`.
+
+   Only available when using the legacy GUI (not the QML interface).
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],gui_tick_full_period_s
+
+   A high-resolution timer that provides the elapsed time in seconds since Mixxx was started.
+
+   This control is updated on every GUI tick, which corresponds to the waveform rendering frame rate. It is suitable for very smooth, high-framerate animations in scripts. However, for most use cases like VU meters, consider using :mixxx:coref:`[App],gui_tick_50ms_period_s` to improve performance by reducing the script execution rate.
+
+   Only available when using the legacy GUI (not the QML interface).
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],indicator_250ms
+
+   Alternates between 0.0 and 1.0 every 250 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+.. mixxx:control:: [App],indicator_500ms
+
+   Alternates between 0.0 and 1.0 every 500 milliseconds.
+
+   This control may be used to implement a blinking LED in JavaScript and is
+   guaranteed to light up at the same time as
+   :mixxx:coref:`[ChannelN],cue_indicator` and
+   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
+   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [App],num_decks
+
+   The number of decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_decks` control.
+
+
+.. mixxx:control:: [App],num_samplers
+
+   The number of samplers currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_samplers` control.
+
+
+.. mixxx:control:: [App],num_preview_decks
+
+   The number of preview decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_preview_decks` control.
+
+.. mixxx:control:: [App],num_microphones
+
+   The number of microphone inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_microphones` control.
+
+
+.. mixxx:control:: [App],num_auxiliaries
+
+   The number of auxiliary inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],num_auxiliaries` control.
+
+
+.. mixxx:control:: [App],samplerate
+
+   The current output sample rate (default: 44100 Hz).
+
+   :range: absolute value (in Hz)
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],samplerate` control.
+
+
+
+The ``[Master]`` & ``[Main]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Master]
+
+   The :mixxx:cogroupref:`[Master]` group generally corresponds to controls that affect the mixing engine. This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`crossfader` controls, headphone cueing controls, etc.).
+
+.. mixxx:controlgroup:: [Main]
+
+   The :mixxx:cogroupref:`[Main]` group contains controls for the main mix output meters and clipping indicators.
 
 
 .. mixxx:control:: [Master],balance
@@ -293,35 +431,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    .. versionadded:: 2.0.0
 
-.. mixxx:control:: [Master],indicator_250millis
-
-   Alternates between 0.0 and 1.0 every 250 milliseconds.
-
-   This control may be used to implement a blinking LED in JavaScript and is
-   guaranteed to light up at the same time as
-   :mixxx:coref:`[ChannelN],cue_indicator` and
-   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
-   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
-
-   :range: binary, read-only
-   :feedback: None
-
-   .. versionadded:: 2.4.0
-
-.. mixxx:control:: [Master],indicator_500millis
-
-   Alternates between 0.0 and 1.0 every 500 milliseconds.
-
-   This control may be used to implement a blinking LED in JavaScript and is
-   guaranteed to light up at the same time as
-   :mixxx:coref:`[ChannelN],cue_indicator` and
-   :mixxx:coref:`[ChannelN],play_indicator` when these are blinking (depending
-   on the currently chosen :ref:`cue mode <interface-cue-modes>`).
-
-   :range: binary, read-only
-   :feedback: None
-
-   .. versionadded:: 2.4.0
 
 .. mixxx:control:: [Master],latency
 
@@ -329,26 +438,6 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
-
-
-.. mixxx:control:: [Master],maximize_library
-
-   Toggle maximized view of library.
-
-   :range: binary
-   :feedback: Toggle maximized view of library
-
-   .. versionadded:: 2.0.0
-
-
-.. mixxx:control:: [Master],num_decks
-
-   The number of decks currently enabled.
-
-   :range: integer
-   :feedback: None
-
-   .. versionadded:: 1.9.0
 
 
 .. mixxx:control:: [Master],num_effectsavailable
@@ -361,62 +450,37 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
    .. versionadded:: 2.1.0
 
 
-.. mixxx:control:: [Master],num_samplers
-
-   The number of samplers currently enabled.
-
-   :range: integer
-   :feedback: None
-
-   .. versionadded:: 1.9.0
-
-
-.. mixxx:control:: [Master],num_preview_decks
-
-   The number of preview decks currently enabled.
-
-   :range: integer
-   :feedback: None
-
-   .. versionadded:: 1.11.0
-
-
-.. mixxx:control:: [Master],PeakIndicator
+.. mixxx:control:: [Main],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (mono)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicator` control.
 
-.. mixxx:control:: [Master],PeakIndicatorL
+
+.. mixxx:control:: [Main],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (left)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicatorL` control.
 
-.. mixxx:control:: [Master],PeakIndicatorR
+
+.. mixxx:control:: [Main],peak_indicator_right
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (right)
 
-
-.. mixxx:control:: [Master],samplerate
-
-   The current output sample rate (default: 44100 Hz).
-
-   :range: absolute value (in Hz)
-   :feedback: None
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],PeakIndicatorR` control.
 
 
 .. mixxx:control:: [Master],talkoverDucking
@@ -429,67 +493,58 @@ This will bear some similarity to what you will find on a DJ mixer (e.g. :term:`
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [Master],VuMeter
+.. mixxx:control:: [Main],vu_meter
 
    Outputs the current instantaneous main volume (composite).
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Main meter (mono)
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeter` control.
 
-.. mixxx:control:: [Master],VuMeterL
+
+.. mixxx:control:: [Main],vu_meter_left
 
    Outputs the current instantaneous main volume for the left channel.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Main meter L
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeterL` control.
 
-.. mixxx:control:: [Master],VuMeterR
+
+.. mixxx:control:: [Main],vu_meter_right
 
    Outputs the current instantaneous main volume for the right channel.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Main meter R
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],VuMeterR` control.
 
-.. mixxx:control:: [Master],headVolume
-
-    Adjust headphone volume.
-
-    :range: 0.0..1.0..5.0
-    :feedback: Headphone Gain knob
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[Master],headGain` instead.
-
-
-.. mixxx:control:: [Master],volume
-
-    Adjust main volume.
-
-    :range: 0.0..1.0..5.0
-    :feedback: Main Gain knob
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[Master],gain` instead.
 
 .. _appendix-mixxxcontrols-decks:
 
 Decks, Preview Decks and Samplers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group.
-Whenever you see :mixxx:cogroupref:`[ChannelN]`, think "Deck N".
-N can range from 1 to the number of active decks in Mixxx.
+.. mixxx:controlgroup:: [ChannelN]
 
-Preview decks and Sample decks ("samplers") in Mixxx are identical to regular decks, they simply have a different purpose (previewing tracks or playing samples, respectively).
+   Each deck in Mixxx corresponds to a :mixxx:cogroupref:`[ChannelN]` group.
+   Whenever you see :mixxx:cogroupref:`[ChannelN]`, think "Deck N".
+   N can range from 1 to the number of active decks in Mixxx.
+
+.. mixxx:controlgroup:: [PreviewDeckN]
+
+   Preview decks are identical to regular decks, but are used for previewing tracks; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
+
+.. mixxx:controlgroup:: [SamplerN]
+
+   Sample decks are identical to regular decks, but are used for playing samples; their controls mirror :mixxx:cogroupref:`[ChannelN]`.
+
 Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samplers and preview decks, just replace :mixxx:cogroupref:`[ChannelN]` with :mixxx:cogroupref:`[PreviewDeckN]` or :mixxx:cogroupref:`[SamplerN]`.
 
 .. seealso:: There are some :ref:`additional global controls for samplers <appendix-mixxxcontrols-samplers>`.
@@ -502,6 +557,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: binary
    :feedback: << button
+
+
+.. mixxx:control:: [ChannelN],bpmlock
+                   [PreviewDeckN],bpmlock
+                   [SamplerN],bpmlock
+
+   Toggle the :term:`beatgrid`/:term:`BPM` lock state.
+
+   :range: binary
+   :feedback: The lock icon of the track is activated/deactivated.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beat_active
@@ -534,6 +601,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
 
    Its value is set to the sample position of the closest beat of the active beat and is used for updating the beat LEDs.
+
    :range: -1, 0.0, real-valued
    :feedback: None
 
@@ -541,7 +609,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_distance
                    [SamplerN],beat_distance
 
-   Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+   Outputs the relative position of the play marker in the section between the previous and next beat marker.
+
    :range: 0.0 - 1.0, real-valued
    :feedback: None
 
@@ -550,9 +619,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
 
-   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (positive) or backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>` (negative). If a loop is active, the loop is moved by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   Jump forward (positive) or backward (negative) by N beats. If a loop is active, the loop is moved by X beats.
 
-   :range: real number, -1, 0, 1
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   :range: any real number within the range, see :mixxx:coref:`[ChannelN],beatloop_X_activate`
    :feedback: Player jumps forward or backward by X beats.
 
    .. versionadded:: 2.0.0
@@ -562,7 +633,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_size
                    [SamplerN],beatjump_size
 
-   Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`/:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`.
+   Set the number of beats to jump with :mixxx:coref:`beatjump_forward <[ChannelN],beatjump_forward>`
+   /:mixxx:coref:`beatjump_backward <[ChannelN],beatjump_backward>`.
+
+   If the loaded track has no beat grid, this value is treated as seconds instead of beats.
 
    :range: positive real number
    :feedback: Beatjump size spinbox
@@ -598,7 +672,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_forward
                    [SamplerN],beatjump_forward
 
-   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved forward by X beats.
+   Jump forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   If a loop is active, the loop is moved forward by X beats.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    :range: binary
    :feedback: Player jumps forward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
@@ -610,7 +687,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_backward
                    [SamplerN],beatjump_backward
 
-   Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`. If a loop is active, the loop is moved backward by X beats.
+   Jump backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
+   If a loop is active, the loop is moved backward by X beats.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    :range: binary
    :feedback: Player jumps backward by :mixxx:coref:`beatjump_size <[ChannelN],beatjump_size>`.
@@ -622,7 +702,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_X_forward
                    [SamplerN],beatjump_X_forward
 
-   Jump forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved forward by X betas.
+   Jump forward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+   If a loop is active, the loop is moved forward by X beats.
+
+   If the loaded track has no beat grid, this value is treated as seconds instead of beats.
 
    :range: binary
    :feedback: Player jumps forward by X beats.
@@ -634,7 +718,11 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatjump_X_backward
                    [SamplerN],beatjump_X_backward
 
-   Jump backward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64. If a loop is active, the loop is moved backward by X beats.
+   Jump backward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+   If a loop is active, the loop is moved backward by X beats.
+
+   If the loaded track has no beat grid, this value is treated as seconds instead of beats.
 
    :range: binary
    :feedback: Player jumps backward by X beats.
@@ -646,32 +734,67 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_activate
                    [SamplerN],beatloop_activate
 
-   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop
+   Set a loop that is :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats long and enables the loop.
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats
 
    .. versionadded:: 2.1.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
 
 
 .. mixxx:control:: [ChannelN],beatloop_X_activate
                    [PreviewDeckN],beatloop_X_activate
                    [SamplerN],beatloop_X_activate
 
-   Activates a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Activates a loop over X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over X beats.
 
    .. versionadded:: 1.10.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
+
+
+.. mixxx:control:: [ChannelN],beatloop_rX_activate
+                   [PreviewDeckN],beatloop_rX_activate
+                   [SamplerN],beatloop_rX_activate
+
+   Activates a loop over X beats backwards from the current position. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   :range: binary
+   :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beatloop_size
                    [PreviewDeckN],beatloop_size
                    [SamplerN],beatloop_size
 
-   Set the length of the loop in beats that will get set with :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
-   Changing this will resize an existing loop if the length of the loop matches :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   Set the length of the loop in beats that will get set with
+   :mixxx:coref:`beatloop_activate <[ChannelN],beatloop_activate>` and
+   :mixxx:coref:`beatlooproll_activate <[ChannelN],beatlooproll_activate>`.
+   Changing this will resize an existing loop if the length of the loop matches
+   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    :range: positive real number
    :feedback: Beatloop size spinbox and possibly loop section on waveform
@@ -683,7 +806,13 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatloop_X_toggle
                    [SamplerN],beatloop_X_toggle
 
-   Toggles a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Toggles a loop over X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>` the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop is shown over X beats.
@@ -707,24 +836,59 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beatlooproll_activate
                    [SamplerN],beatlooproll_activate
 
-   Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats. Once disabled, playback will resume where the track would have been if it had not entered the loop.
+   Activates a rolling loop over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats.
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   Once disabled, playback will resume where the track would have been if it had not entered the loop.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`, the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: A loop overlay is shown over :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
 
    .. versionadded:: 2.1.0
+   .. versionchanged:: 2.5.0
+      Added :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`
 
 
 .. mixxx:control:: [ChannelN],beatlooproll_X_activate
                    [PreviewDeckN],beatlooproll_X_activate
                    [SamplerN],beatlooproll_X_activate
 
-   Activates a rolling loop over X beats. Once disabled, playback will resume where the track would have been if it had not entered the loop. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Activates a rolling loop over X beats. Once disabled, playback will resume where the
+   track would have been if it had not entered the loop. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512.
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   Depending on the state of :mixxx:coref:`loop_anchor <[ChannelN],loop_anchor>`, the loop is created forwards
+   or backwards from the current position.
 
    :range: binary
    :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
 
    .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ChannelN],beatlooproll_rX_activate
+                   [PreviewDeckN],beatlooproll_rX_activate
+                   [SamplerN],beatlooproll_rX_activate
+
+   Activates a rolling loop over X beats backwards from the current position.
+   Once disabled, playback will resume where the track would have been if it had
+   not entered the loop. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
+   :range: binary
+   :feedback: Beatloop X button in skin is lit. A loop overlay is shown over X beats on waveform.
+              The :mixxx:coref:`slip mode <[ChannelN],slip_enabled>` toggle is activated.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],beats_adjust_faster
@@ -799,6 +963,60 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],shift_cues_earlier
+                   [PreviewDeckN],shift_cues_earlier
+                   [SamplerN],shift_cues_earlier
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later
+                   [PreviewDeckN],shift_cues_later
+                   [SamplerN],shift_cues_later
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_earlier_small
+                   [PreviewDeckN],shift_cues_earlier_small
+                   [SamplerN],shift_cues_earlier_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later_small
+                   [PreviewDeckN],shift_cues_later_small
+                   [SamplerN],shift_cues_later_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 1ms.
+
+   .. versionadded:: 2.3.0
+
+.. mixxx:control:: [ChannelN],beats_undo_adjustment
+                   [PreviewDeckN],beats_undo_adjustment
+                   [SamplerN],beats_undo_adjustment
+
+   Restores the :term:`beatgrid` state before the last beatgrid adjustment done with the above `beats_` controls.
+
+   The undo stack holds up to ten beatgrid states. For changes done in quick succession
+   (less than 800 milliseconds between actions), e.g. repeated :mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_later>`, only the first state is stored.
+
+   :range: binary
+   :feedback: The beatgrid is restored.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],beatsync
                    [PreviewDeckN],beatsync
                    [SamplerN],beatsync
@@ -855,12 +1073,96 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    When tapped repeatedly, adjusts the :term:`BPM` of the track on the deck (not the tempo slider!) to match the taps.
 
-   .. note:: If you want to change the :term:`rate` of the deck use `script.bpm.tapButton(deck) <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-helper-functions>`_ in your controller mapping instead.
+   .. note:: If you want to change the :term:`rate` of the deck use :mixxx:coref:`[ChannelN],tempo_tap` instead.
 
    :range: binary
    :feedback: :term:`BPM` value display (playback speed doesn't change)
 
    .. versionadded:: 1.9.2
+
+
+.. mixxx:control:: [ChannelN],tempo_tap
+                   [PreviewDeckN],tempo_tap
+                   [SamplerN],tempo_tap
+
+   When tapped repeatedly, adjusts the :term:`rate`/tempo of the deck to match the taps.
+
+   :range: binary
+   :feedback: Speed slider
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_halve
+                   [PreviewDeckN],beats_set_halve
+                   [SamplerN],beats_set_halve
+
+   Scale the :term:`BPM` by 1/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_twothirds
+                   [PreviewDeckN],beats_set_twothirds
+                   [SamplerN],beats_set_twothirds
+
+   Scale the :term:`BPM` by 2/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threefourths
+                   [PreviewDeckN],beats_set_threefourths
+                   [SamplerN],beats_set_threefourths
+
+   Scale the :term:`BPM` by 3/4.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threehalves
+                   [PreviewDeckN],beats_set_threehalves
+                   [SamplerN],beats_set_threehalves
+
+   Scale the :term:`BPM` by 3/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_fourthirds
+                   [PreviewDeckN],beats_set_fourthirds
+                   [SamplerN],beats_set_fourthirds
+
+   Scale the :term:`BPM` by 4/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_double
+                   [PreviewDeckN],beats_set_double
+                   [SamplerN],beats_set_double
+
+   Scale the :term:`BPM` by 2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],CloneFromDeck
@@ -881,7 +1183,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Clone the given sampler number, copying the play state, position, rate, and key.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_samplers` (inclusive)
    :feedback: The channel will start playing at the rate and position of the source deck.
 
    .. versionadded:: 2.3.0
@@ -893,7 +1195,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Load the track currently loaded to the given deck number.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_decks` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_decks` (inclusive)
    :feedback: Track name & waveform change
 
    .. versionadded:: 2.4.0
@@ -905,7 +1207,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Load the track currently loaded to the given sampler number.
 
-   :range: integer between 1 and :mixxx:coref:`[Master],num_samplers` (inclusive)
+   :range: integer between 1 and :mixxx:coref:`[App],num_samplers` (inclusive)
    :feedback: Track name & waveform change
 
    .. versionadded:: 2.4.0
@@ -1077,7 +1379,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],eject
                    [SamplerN],eject
 
-   Eject currently loaded track
+   Eject currently loaded track. If no track is loaded the last-ejected track
+   (of any deck) is reloaded.
+
+   Double-press to reload the last replaced track. If no track is loaded the second-last ejected track is reloaded.
 
    :range: binary
    :feedback: Eject button is lit. Be sure to set back to 0 with scripts so the button does not stay lit.
@@ -1178,6 +1483,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Identical to :mixxx:coref:`hotcue_X_activate <[ChannelN],hotcue_X_activate>`, but this always sets a saved loop, regardless of whether a loop is enabled or not.
    If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
@@ -1189,6 +1496,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Enables or disables a loop from the position of :term:`hotcue` X.
    If X is a saved loop, that loop will be used, otherwise it will set a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` from the cue position.
+   If the loaded track has no beat grid, seconds are used instead of beats.
    In case the hotcue is not set, this control will set a regular cue point at the current position and start a beatloop.
 
    This control can be used to map the primary action of the "Cue Loop" performance pad mode on Serato-style controllers.
@@ -1218,28 +1526,6 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Color of Hotcue X button and waveform marker changes.
 
    .. versionadded:: 2.3.0
-
-
-.. mixxx:control:: [ChannelN],hotcue_X_enabled
-                   [PreviewDeckN],hotcue_X_enabled
-                   [SamplerN],hotcue_X_enabled
-
-   Indicates if :term:`hotcue` slot X is set, active or empty.
-
-   :range (read-only):
-      ===== ===================================
-      Value Meaning
-      ===== ===================================
-      0     Hotcue X is not set
-      1     Hotcue X is set
-      2     Hotcue X is active (saved loop is enabled or hotcue is previewing)
-      ===== ===================================
-
-   .. versionadded:: 1.8.0
-   .. versionchanged:: 2.4.0
-      Added support for "active" state.
-   .. deprecated:: 2.4.0
-      Use :mixxx:coref:`[ChannelN],hotcue_X_status` instead.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_status
@@ -1310,6 +1596,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    If :term:`hotcue` X is set, seeks the player to hotcue X's position, starts playback and looping.
    If the hotcue is a saved loop, the loop is enabled, otherwise a beatloop of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is set from the hotcue's position.
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    This control can be used to map the secondary action of the "Cue Loop" performance pad mode on Serato-style controllers.
 
@@ -1361,7 +1648,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setcue
                    [SamplerN],hotcue_X_setcue
 
-   Identical to :mixxx:coref:`hotcue_X_setcue <[ChannelN],hotcue_X_setcue>`, but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Hotcue"), regardless of whether a loop is enabled or not.
+   Identical to :mixxx:coref:`hotcue_X_set <[ChannelN],hotcue_X_set>`, but this always sets a regular cue point (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Hotcue"), regardless of whether a loop is enabled or not.
 
 
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
@@ -1373,8 +1660,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],hotcue_X_setloop
                    [SamplerN],hotcue_X_setloop
 
-   Identical to :mixxx:coref:`hotcue_X_setloop <[ChannelN],hotcue_X_setloop>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
+   Identical to :mixxx:coref:`hotcue_X_set <[ChannelN],hotcue_X_set>`, but this always saves a loop (i.e. :mixxx:coref:`hotcue_X_type <[ChannelN],hotcue_X_type>` "Loop"), regardless of whether a loop is enabled or not.
    If no loop is available, this sets and enables a beat loop of of :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>`.
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
    This control can be used for controllers that have dedicated :term:`hotcue`/saved loop pad modes.
 
    .. versionadded:: 2.4.0
@@ -1537,6 +1826,17 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.3.0
 
 
+.. mixxx:control:: [ChannelN],jog
+                   [PreviewDeckN],jog
+                   [SamplerN],jog
+
+    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+    Use this control to map controller jog wheel turns to pitch bend.
+
+    :range: -3.0..3.0
+    :feedback: waveform
+
+
 .. mixxx:control:: [ChannelN],key
                    [PreviewDeckN],key
                    [SamplerN],key
@@ -1602,7 +1902,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],LoadSelectedTrackAndPlay
                    [SamplerN],LoadSelectedTrackAndPlay
 
-   Loads the currently highlighted track into the deck and starts playing
+   Loads the currently highlighted track into the deck and starts playing.
+
+   If the player is a preview deck and the selected track is already loaded, toggle play/pause.
 
    :range: binary
    :feedback: Track name & waveform change & Play/pause button
@@ -1618,6 +1920,27 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: positive value
    :feedback: None
+
+
+.. mixxx:control:: [ChannelN],loop_anchor
+                   [PreviewDeckN],loop_anchor
+                   [SamplerN],loop_anchor
+
+   Adjusts whether loops created with :mixxx:coref:`[ChannelN],beatloop_X_activate`,
+   :mixxx:coref:`[ChannelN],beatloop_X_toggle` or :mixxx:coref:`[ChannelN],beatloop_rX_activate`
+   span forward or backward from the current play position.
+
+   :range:
+     =====  =========
+     Value  Direction
+     =====  =========
+     0      forward
+     -----  ---------
+     1      backward
+     =====  =========
+   :feedback: Loop anchor button
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],loop_double
@@ -1750,6 +2073,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    Move loop forward by X beats (positive) or backward by X beats (negative).
 
+   If the loaded track has no beat grid, seconds are used instead of beats.
+
    If a saved loop is currently enabled, the modification is saved to the hotcue slot immediately.
 
    :range: real number
@@ -1764,7 +2089,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_move_X_forward
                    [SamplerN],loop_move_X_forward
 
-   Moves the loop in and out points forward by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Moves the loop in and out points forward by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    :range: binary
    :feedback: Loop moves forward by X beats.
@@ -1780,7 +2108,10 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_move_X_backward
                    [SamplerN],loop_move_X_backward
 
-   Loop moves by X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+   Loop moves by X beats. A control exists for
+   X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512
+
+   If the loaded track has no beat grid, seconds are used instead of beats.
 
    If a saved loop is currently enabled, the modification is saved to the hotcue slot immediately.
 
@@ -1796,7 +2127,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],loop_scale
                    [SamplerN],loop_scale
 
-   Scale the loop length by the value scale is set to by moving the end marker. :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change.
+   Scale the loop length by the value scale is set to by moving the end marker.
+   :mixxx:coref:`beatloop_size <[ChannelN],beatloop_size>` is not updated to reflect the change.
 
    If a saved loop is currently enabled, the modification is saved to the hotcue slot immediately.
 
@@ -1995,43 +2327,48 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],PeakIndicator
-                   [PreviewDeckN],PeakIndicator
-                   [SamplerN],PeakIndicator
+.. mixxx:control:: [ChannelN],peak_indicator
+                   [PreviewDeckN],peak_indicator
+                   [SamplerN],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light
 
-.. mixxx:control:: [ChannelN],PeakIndicatorL
-                   [PreviewDeckN],PeakIndicatorL
-                   [SamplerN],PeakIndicatorL
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicator`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicator` and
+      :mixxx:coref:`[SamplerN],PeakIndicator` controls.
+
+.. mixxx:control:: [ChannelN],peak_indicator_left
+                   [PreviewDeckN],peak_indicator_left
+                   [SamplerN],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicatorL`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicatorL` and
+      :mixxx:coref:`[SamplerN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [ChannelN],PeakIndicatorR
-                   [PreviewDeckN],PeakIndicatorR
-                   [SamplerN],PeakIndicatorR
+.. mixxx:control:: [ChannelN],peak_indicator_right
+                   [PreviewDeckN],peak_indicator_right
+                   [SamplerN],peak_indicator_right
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],PeakIndicatorR`,
+      :mixxx:coref:`[PreviewDeckN],PeakIndicatorR` and
+      :mixxx:coref:`[SamplerN],PeakIndicatorR` controls.
 
 .. mixxx:control:: [ChannelN],pfl
                    [PreviewDeckN],pfl
@@ -2385,7 +2722,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enabled` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative).
+   Use JavaScript functions ``engine.scratchEnable``, ``engine.scratchDisable``,  ``engine.isScratching`` and  ``engine.isScratching`` to manipulate in controller mappings.
+   See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ .
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2393,9 +2732,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
-.. mixxx:control:: [ChannelN],scratch2_enabled
-                   [PreviewDeckN],scratch2_enabled
-                   [SamplerN],scratch2_enabled
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
 
    Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
 
@@ -2403,6 +2742,59 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
    .. versionadded:: 1.8.0
+
+
+.. mixxx:control:: [ChannelN],scratch_position
+                   [PreviewDeckN],scratch_position
+                   [SamplerN],scratch_position
+
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch_position_enable` is active.
+   This is used for scratching with scrolling waveforms and spinning vinyl widgets, but can also be used in mappings for controllers with
+   jogwheels that send absolute or relative position values. Like with :mixxx:coref:`[ChannelN],scratch2` and
+   `engine.scratchTick() <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ , input values need to be scaled in order
+   to achieve the desired wheel/waveform scratch ratio. Consider that waveforms, spinnies and `scratch_position` mappings of a specific deck use the same control.
+
+   :range: double
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch_position_enable
+                   [PreviewDeckN],scratch_position_enable
+                   [SamplerN],scratch_position_enable
+
+   When active this enables scratching with :mixxx:coref:`[ChannelN],scratch_position`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],scratch2_enable
+                   [PreviewDeckN],scratch2_enable
+                   [SamplerN],scratch2_enable
+
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
+
+   :range: binary
+   :feedback: Waveform
+
+   .. versionadded:: 1.8.0
+
+
+.. mixxx:control:: [ChannelN],show_track_menu
+
+   Toggle the track context menu for the track currently loaded in this deck.
+   The control value is `1` if there is already a menu shown for this deck.
+   The menu can be navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls
+   and selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
+
+   :range: Binary
+   :feedback: The deck's track context menu is shown or hidden.
+
+   .. versionadded:: 2.5.0
 
 
 .. mixxx:control:: [ChannelN],slip_enabled
@@ -2499,18 +2891,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],sync_master
-                   [PreviewDeckN],sync_master
-                   [SamplerN],sync_master
+.. mixxx:control:: [ChannelN],sync_leader
+                   [PreviewDeckN],sync_leader
+                   [SamplerN],sync_leader
 
    Sets deck as leader clock.
 
    :range: binary
    :feedback: If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider snap to the appropriate value. Slider adjustments are linked on all decks that have :term:`sync lock` enabled.
 
-   .. versionadded:: 2.0.0
-   .. versionchanged:: 2.3.0
-      This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [ChannelN],sync_mode
@@ -2619,6 +3009,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
   value for the deck will be centered so that there is no audible difference in
   track volume, so this operation is safe to use during performance, if the controller mapping uses soft-takeover for the pregain knob.
 
+  .. note:: The pregain is adjusted only on the deck where the control was triggered. If the adjusted track
+            is also currently playing in other decks, their effective volume will change.
+
   :range: binary
   :feedback: ReplayGain value is updated in library, deck pregain is reset to 1.0.
 
@@ -2725,40 +3118,49 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [ChannelN],VuMeter
-                   [PreviewDeckN],VuMeter
-                   [SamplerN],VuMeter
+.. mixxx:control:: [ChannelN],vu_meter
+                   [PreviewDeckN],vu_meter
+                   [SamplerN],vu_meter
 
    Outputs the current instantaneous deck volume
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeter`,
+      :mixxx:coref:`[PreviewDeckN],VuMeter` and
+      :mixxx:coref:`[SamplerN],VuMeter` controls.
 
-.. mixxx:control:: [ChannelN],VuMeterL
-                   [PreviewDeckN],VuMeterL
-                   [SamplerN],VuMeterL
+
+.. mixxx:control:: [ChannelN],vu_meter_left
+                   [PreviewDeckN],vu_meter_left
+                   [SamplerN],vu_meter_left
 
    Outputs the current instantaneous deck volume for the left channel
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Deck VU meter L
 
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeterL`,
+      :mixxx:coref:`[PreviewDeckN],VuMeterL` and
+      :mixxx:coref:`[SamplerN],VuMeterL` controls.
 
-.. mixxx:control:: [ChannelN],VuMeterR
-                   [PreviewDeckN],VuMeterR
-                   [SamplerN],VuMeterR
+
+.. mixxx:control:: [ChannelN],vu_meter_right
+                   [PreviewDeckN],vu_meter_right
+                   [SamplerN],vu_meter_right
 
    Outputs the current instantaneous deck volume for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: default
    :feedback: Deck VU meter R
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[ChannelN],VuMeterR`,
+      :mixxx:coref:`[PreviewDeckN],VuMeterR` and
+      :mixxx:coref:`[SamplerN],VuMeterR` controls.
 
 
 .. mixxx:control:: [ChannelN],waveform_zoom
@@ -2819,193 +3221,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
 
-Deprecated controls
-+++++++++++++++++++
-
-These controls have been deprecated, new controller mappings should use the alternatives.
-
-.. mixxx:control:: [ChannelN],beatloop
-                   [PreviewDeckN],beatloop
-                   [SamplerN],beatloop
-
-    Setup a loop over the set number of beats.
-
-    :range: positive real number
-    :feedback: A loop is shown over the set number of beats.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[ChannelN],beatloop_size` and `[ChannelN],beatloop_toggle` instead.
-
-
-.. mixxx:control:: [ChannelN],reloop_exit
-                   [PreviewDeckN],reloop_exit
-                   [SamplerN],reloop_exit
-
-    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
-
-    :range: binary
-    :feedback: Loop range in waveform activates or deactivates.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
-
-
-.. mixxx:control:: [ChannelN],jog
-                   [PreviewDeckN],jog
-                   [SamplerN],jog
-
-    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
-
-    :range: -3.0..3.0
-    :feedback: waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
-
-
-.. mixxx:control:: [ChannelN],scratch
-                   [PreviewDeckN],scratch
-                   [SamplerN],scratch
-
-    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
-
-    :range: -3.0..3.0
-    :feedback: Waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
-
-
-.. mixxx:control:: [ChannelN],filter
-                   [PreviewDeckN],filter
-                   [SamplerN],filter
-
-    Toggles the filter effect.
-
-    :range: binary
-    :feedback: Filter button
-
-    .. versionadded:: 2.0.0
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterDepth
-                   [PreviewDeckN],filterDepth
-                   [SamplerN],filterDepth
-
-    Adjusts the intensity of the filter effect.
-
-    :range: default
-    :feedback: Filter depth knob
-
-    .. versionadded:: 2.0.0
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 <[QuickEffectRack1_[ChannelI]],super1>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterLow
-                   [PreviewDeckN],filterLow
-                   [SamplerN],filterLow
-
-    Adjusts the gain of the low :term:`EQ` filter.
-
-    :range: 0.0..1.0..4.0
-    :feedback: Low EQ knob
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterLowKill
-                   [PreviewDeckN],filterLowKill
-                   [SamplerN],filterLowKill
-
-    Holds the gain of the low :term:`EQ` to -inf while active
-
-    :range: binary
-    :feedback: Low EQ :term:`kill switch`
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterMid
-                   [PreviewDeckN],filterMid
-                   [SamplerN],filterMid
-
-    Adjusts the gain of the mid :term:`EQ` filter..
-
-    :range: 0.0..1.0..4.0
-    :feedback: Mid EQ knob
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterMidKill
-                   [PreviewDeckN],filterMidKill
-                   [SamplerN],filterMidKill
-
-    Holds the gain of the mid :term:`EQ` to -inf while active.
-
-    :range: binary
-    :feedback: Mid EQ :term:`kill switch`
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterHigh
-                   [PreviewDeckN],filterHigh
-                   [SamplerN],filterHigh
-
-    Adjusts the gain of the high :term:`EQ` filter.
-
-    :range: 0.0..1.0..4.0
-    :feedback: High EQ knob
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],filterHighKill
-                   [PreviewDeckN],filterHighKill
-                   [SamplerN],filterHighKill
-
-    Holds the gain of the high :term:`EQ` to -inf while active.
-
-    :range: binary
-    :feedback: High EQ :term:`kill switch`
-
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
-
-
-.. mixxx:control:: [ChannelN],beatloop_X
-                   [PreviewDeckN],beatloop_X
-                   [SamplerN],beatloop_X
-
-    Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
-
-    :range: toggle
-    :feedback: A loop is shown over X beats.
-
-    .. versionadded:: 1.10.0
-    .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead.
-
 .. _appendix-mixxxcontrols-samplers:
 
 Global Sampler controls
 +++++++++++++++++++++++
 
+.. mixxx:controlgroup:: [Sampler]
+
+   The :mixxx:cogroupref:`[Sampler]` group contains global controls for managing sampler banks.
+
 These controls can be used to control all samplers.
-
-.. mixxx:control:: [Samplers],show_samplers
-
-   :range: binary
-   :feedback: Shows Sampler bank(s)
 
 .. mixxx:control:: [Sampler],SaveSamplerBank
 
@@ -3014,7 +3239,7 @@ These controls can be used to control all samplers.
    :range: binary
    :feedback: Opens file dialog. Configuration file can be named and saved.
 
-   .. versionadded: 2.0.0
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [Sampler],LoadSamplerBank
@@ -3024,7 +3249,11 @@ These controls can be used to control all samplers.
    :range: binary
    :feedback: Opens file dialog. Select configuration file.
 
-   .. versionadded: 2.0.0
+   .. versionadded:: 2.0.0
+
+
+.. seealso::
+   The :mixxx:coref:`[Skin],show_samplers` control can be used to show and hide sampler banks in the GUI.
 
 
 .. _appendix-mixxxcontrols-aux:
@@ -3032,36 +3261,34 @@ These controls can be used to control all samplers.
 Microphones and Auxiliary Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. mixxx:controlgroup:: [MicrophoneN]
+
+   The :mixxx:cogroupref:`[MicrophoneN]` group contains controls for microphone input channels, including talkover and monitoring.
+
+.. mixxx:controlgroup:: [AuxiliaryN]
+
+   The :mixxx:cogroupref:`[AuxiliaryN]` group contains controls for auxiliary input channels.
+
 In contrast to :ref:`decks, preview decks and samplers <appendix-mixxxcontrols-decks>`, microphones and auxiliary channels are input channels.
 You can map audio interface's inputs to mixxx's auxiliary input channels and connect external audio source to it (cellphone, mp3 player).
 Then you can use your :term:`MIDI` controller to control its volume and some other parameters (orientation, gain, :term:`volume`), apply effects and use the prelisten function.
 
 .. note:: Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`.
 
-.. mixxx:control:: [MicrophoneN],enabled
-                   [AuxiliaryN],enabled
-
-   1 if a channel input is enabled, 0 if not.
-
-   :range: binary
-   :feedback: Microphone is enabled.
-
-   .. versionadded:: 1.10.0
-   .. deprecated:: 2.0.0
-      Use :mixxx:coref:`[MicrophoneN],input_configured` instead.
-
-
-.. mixxx:control:: [MicrophoneN],input_configured
+.. mixxx:control:: [ChannelN],input_configured
+                   [MicrophoneN],input_configured
                    [AuxiliaryN],input_configured
 
    1 if there is input is configured for this channel, 0 if not.
+   In the case of :mixxx:cogroupref:`[ChannelN]` it corresponds to
+   Vinyl Control. A configured input is required to enable :mixxx:coref:`[ChannelN],passthrough`
 
    :range: binary, read-only
    :feedback: Configured channel in the sound preferences.
 
 
-.. mixxx:control:: [MicrophoneN],master
-                   [AuxiliaryN],master
+.. mixxx:control:: [MicrophoneN],main_mix
+                   [AuxiliaryN],main_mix
 
    Hold value at 1 to mix channel input into the main output.
    For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
@@ -3070,7 +3297,6 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    :range: binary
    :feedback: Auxiliary: Play button
               Microphone: N/A
-
 
 .. mixxx:control:: [AuxiliaryN],orientation
 
@@ -3088,51 +3314,43 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
    .. versionadded:: 1.10.0
 
-.. mixxx:control:: [MicrophoneN],orientation
-
-   .. versionadded:: 1.10.0
-   .. deprecated:: 1.10.0
-
-      The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI.
-
-
-.. mixxx:control:: [MicrophoneN],PeakIndicator
-                   [AuxiliaryN],PeakIndicator
+.. mixxx:control:: [MicrophoneN],peak_indicator
+                   [AuxiliaryN],peak_indicator
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted)
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Microphone Clip light
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicator` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicator` controls.
 
 
-.. mixxx:control:: [MicrophoneN],PeakIndicatorL
-                   [AuxiliaryN],PeakIndicatorL
+.. mixxx:control:: [MicrophoneN],peak_indicator_left
+                   [AuxiliaryN],peak_indicator_left
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: binary
    :feedback: Clip light (left)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicatorL` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicatorL` controls.
 
-.. mixxx:control:: [MicrophoneN],PeakIndicatorR
-                   [AuxiliaryN],PeakIndicatorR
+.. mixxx:control:: [MicrophoneN],peak_indicator_right
+                   [AuxiliaryN],peak_indicator_right
 
 
    Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
    :range: binary
    :feedback: Clip light (right)
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],PeakIndicatorR` and
+      :mixxx:coref:`[AuxiliaryN],PeakIndicatorR` controls.
 
 .. mixxx:control:: [MicrophoneN],pfl
                    [AuxiliaryN],pfl
@@ -3147,7 +3365,7 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
                    [AuxiliaryN],talkover
 
    Hold value at 1 to mix channel input into the main output.
-   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],master` instead.
+   For :mixxx:cogroupref:`[AuxiliaryN]` use :mixxx:coref:`[AuxiliaryN],main_mix` instead.
    Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
 
    :range: binary
@@ -3192,49 +3410,54 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
    .. versionadded:: 2.0.0
 
 
-.. mixxx:control:: [MicrophoneN],VuMeter
-                   [AuxiliaryN],VuMeter
+.. mixxx:control:: [MicrophoneN],vu_meter
+                   [AuxiliaryN],vu_meter
 
    Outputs the current instantaneous channel volume
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
    :feedback: Microphone VU meter changes
 
-   .. versionadded:: 1.10.0
+   .. versionadded:: 1.10.
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeter` and
+      :mixxx:coref:`[AuxiliaryN],VuMeter` controls.
 
 
-.. mixxx:control:: [MicrophoneN],VuMeterL
-                   [AuxiliaryN],VuMeterL
+.. mixxx:control:: [MicrophoneN],vu_meter_left
+                   [AuxiliaryN],vu_meter_left
 
    Outputs the current instantaneous deck volume for the left channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
-   :feedback: Deck VU meter L
+   :feedback: Microphone/auxiliary VU meter L
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeterL` and
+      :mixxx:coref:`[AuxiliaryN],VuMeterL` controls.
 
 
-.. mixxx:control:: [MicrophoneN],VuMeterR
-                   [AuxiliaryN],VuMeterR
+.. mixxx:control:: [MicrophoneN],vu_meter_right
+                   [AuxiliaryN],vu_meter_right
 
    Outputs the current instantaneous deck volume for the right channel
 
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: default
-   :feedback: Deck VU meter R
+   :feedback: Microphone/auxiliary VU meter R
 
-   .. versionadded:: 2.0.0
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[MicrophoneN],VuMeterR` and
+      :mixxx:coref:`[AuxiliaryN],VuMeterR` controls.
 
 
 The ``[VinylControl]`` group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`.
+.. mixxx:controlgroup:: [VinylControl]
+
+   The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control feature <vinyl-control>`.
 
 .. mixxx:control:: [VinylControl],Toggle
 
@@ -3242,16 +3465,6 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
 
    :range: binary
    :feedback: If VC isn't enabled on any decks, enable it on the first one we're receiving samples for. If VC is enabled on a single (exclusive) deck, and another deck is setup to receive samples, disable it on the former deck and enable it on the next eligible deck (ordered by deck number). If VC is enabled on multiple decks, don't do anything.
-
-   .. versionadded:: 1.10.0
-
-
-.. mixxx:control:: [VinylControl],show_vinylcontrol
-
-   Toggle the vinyl control section in skins.
-
-   :range: binary
-   :feedback: Vinyl controls are shown
 
    .. versionadded:: 1.10.0
 
@@ -3266,10 +3479,17 @@ The :mixxx:cogroupref:`[VinylControl]` group can toggle the :ref:`vinyl control 
 
    .. versionadded:: 1.10.0
 
+
+.. seealso::
+   The :mixxx:coref:`[Skin],show_vinylcontrol` control can be used to show and hide :ref:`vinyl control<vinyl-control>` related elements in the GUI.
+
+
 The ``[Recording]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`.
+.. mixxx:controlgroup:: [Recording]
+
+   The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query and control the :ref:`recording of your mix <djing-recording-your-mix>`.
 
 .. mixxx:control:: [Recording],toggle_recording
 
@@ -3297,7 +3517,9 @@ The controls in the :mixxx:cogroupref:`[Recording]` group can be used to query a
 AutoDJ controls
 ~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`.
+.. mixxx:controlgroup:: [AutoDJ]
+
+   The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <library-auto-dj>`.
 
 .. mixxx:control:: [AutoDJ],enabled
 
@@ -3352,8 +3574,10 @@ The :mixxx:cogroupref:`[AutoDJ]` controls allow interacting with :ref:`AutoDJ <l
 The ``[Library]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
-Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
+.. mixxx:controlgroup:: [Library]
+
+   The controls in the :mixxx:cogroupref:`[Library]` group can be used to navigate the :ref:`library <library-interface>`.
+   Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emulate keypresses and therefore require the Mixxx window to be focused.
 
 .. mixxx:control:: [Library],MoveUp
 
@@ -3544,7 +3768,8 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    The control value is `1` if there is already a menu shown for the current view.
    Note that the control is not aware of other track menus, for example those opened
    by right-clicking track text labels in decks. Only the most recent menu can be
-   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls.
+   navigated with the :mixxx:coref:`MoveUp/Down <[Library],MoveUp>` controls and
+   selected actions or submenus can be activated with :mixxx:coref:`GoToItem <[Library],GoToItem>`.
 
    :range: Binary
    :feedback: Tracks table context menu is shown or hidden.
@@ -3572,13 +3797,6 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
    :feedback: Prepend track(s) to Auto DJ playlist
 
    .. versionadded:: 2.0.0
-
-
-.. mixxx:control:: [Library],show_coverart
-
-   Toggle the Cover Art in Library
-
-   :range: Binary
 
 
 .. mixxx:control:: [Library],font_size_increment
@@ -3749,8 +3967,19 @@ Note that :mixxx:coref:`[Library],MoveUp` and other Move and Scroll controls emu
 
    .. versionadded:: 2.4.0
 
+
+.. seealso::
+   The library section in the GUI can be enlarged by using the :mixxx:coref:`[Skin],show_maximized_library` control.
+
+   The :mixxx:coref:`[Skin],show_library_coverart` control can be used to toggle the display of library coverart.
+
+
 The ``[Shoutcast]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Shoutcast]
+
+   The :mixxx:cogroupref:`[Shoutcast]` group contains controls for broadcasting to a Shoutcast server.
 
 .. mixxx:control:: [Shoutcast],enabled
 
@@ -3771,9 +4000,10 @@ The ``[Shoutcast]`` controls
 The ``[Playlist]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering
-the currently focused widget. This is helpful when another application's window is focused.
-This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
+.. mixxx:controlgroup:: [Playlist]
+
+   :mixxx:cogroupref:`[Playlist]` controls allow navigating the sidebar and tracks table directly without considering the currently focused widget. This is helpful when another application's window is focused.
+   This group is going to be deprecated at some point, with its controls added to ``[Library]`` above.
 
 .. seealso::
    See `bug \#1772184 <https://github.com/mixxxdj/mixxx/issues/9296>`__ for the current status.
@@ -3799,20 +4029,18 @@ This group is going to be deprecated at some point, with its controls added to `
     :range: binary
     :feedback: Waveform view
 
-    Loads the currently highlighted song into the first stopped deck
+    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus
+    and Load Selected Track is set as double-click action in the Library preferences,
+    just regardless of the focus.
 
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],GoToItem` instead.
 
 
 .. mixxx:control:: [Playlist],SelectNextPlaylist
     :range: binary
     :feedback: Library sidebar
 
-    Switches to the next view (Library, Queue, etc.)
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveDown` instead.
+    Switches to the next view (Library, Queue, etc.).
+    Performs the same action action like :mixxx:coref:`[Library],MoveDown` when the sidebar has focus.
 
 
 .. mixxx:control:: [Playlist],SelectPrevPlaylist
@@ -3820,10 +4048,8 @@ This group is going to be deprecated at some point, with its controls added to `
     :range: binary
     :feedback: Library sidebar
 
-   Switches to the previous view (Library, Queue, etc.)
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveUp` instead.
+    Switches to the previous view (Library, Queue, etc.).
+    Performs the same action action like :mixxx:coref:`[Library],MoveUp` when the sidebar has focus.
 
 
 .. mixxx:control:: [Playlist],ToggleSelectedSidebarItem
@@ -3831,10 +4057,7 @@ This group is going to be deprecated at some point, with its controls added to `
     :feedback: Library sidebar
 
     Toggles (expands/collapses) the currently selected sidebar item.
-
-    .. versionadded:: 1.11.0
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],GoToItem` instead.
+    Works regardless which library widget has focus.
 
 
 .. mixxx:control:: [Playlist],SelectNextTrack
@@ -3842,9 +4065,7 @@ This group is going to be deprecated at some point, with its controls added to `
     :feedback: Library track table highlight
 
     Scrolls to the next track in the track table.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveDown` instead.
+    Performs the same action action like :mixxx:coref:`[Library],MoveDown` when the tracks table has focus.
 
 
 .. mixxx:control:: [Playlist],SelectPrevTrack
@@ -3852,16 +4073,15 @@ This group is going to be deprecated at some point, with its controls added to `
     :feedback: Library track table highlight
 
     Scrolls to the previous track in the track table.
-
-    .. deprecated:: 2.1.0
-       Use :mixxx:coref:`[Library],MoveUp` instead.
-
+    Performs the same action action like :mixxx:coref:`[Library],MoveUp` when the tracks table has focus.
 
 
 The ``[Controls]`` controls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group.
+.. mixxx:controlgroup:: [Controls]
+
+   The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in any other group.
 
 .. mixxx:control:: [Controls],touch_shift
 
@@ -3901,14 +4121,50 @@ The :mixxx:cogroupref:`[Controls]` group contains controls that didn't fit in an
 The Effects Framework
 ~~~~~~~~~~~~~~~~~~~~~
 
+.. mixxx:controlgroup:: [EffectRack1]
+
+   The :mixxx:cogroupref:`[EffectRack1]` group contains global controls for the effects rack.
+
+.. mixxx:controlgroup:: [EffectRack1_EffectUnitN]
+
+   The :mixxx:cogroupref:`[EffectRack1_EffectUnitN]` group contains controls for an individual effects unit.
+
+.. mixxx:controlgroup:: [EffectRack1_EffectUnitN_EffectM]
+
+   The :mixxx:cogroupref:`[EffectRack1_EffectUnitN_EffectM]` group contains controls for a single effect slot within an effects unit.
+
+.. mixxx:controlgroup:: [QuickEffectRack1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1]` group contains global controls for the quick effects rack.
+
+.. mixxx:controlgroup:: [EqualizerRack1]
+
+   The :mixxx:cogroupref:`[EqualizerRack1]` group contains global controls for the EQ rack.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]]` group contains per-deck quick effect controls.
+
+.. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]]
+
+   The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]]` group contains per-deck EQ rack controls.
+
+.. mixxx:controlgroup:: [QuickEffectRack1_[ChannelI]_Effect1]
+
+   The :mixxx:cogroupref:`[QuickEffectRack1_[ChannelI]_Effect1]` group contains controls for the single quick effect slot on a deck.
+
+.. mixxx:controlgroup:: [EqualizerRack1_[ChannelI]_Effect1]
+
+   The :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` group contains controls for the EQ effect slot on a deck.
+
 In the list below,
 
  *  EffectRack1 leaves room for future expansion to multiple EffectRacks.
  *  N ranges from 1 to ``[EffectRack1],num_effectunits``, inclusive.
  *  M ranges from 1 to ``[EffectRack1_EffectUnitN],num_effectslots``, inclusive. (For a given value of N)
  *  K ranges from 1 to ``[EffectRack1_EffectUnitN_EffectM],num_parameters``, inclusive.  (For given values of N and M)
- *  I ranges from 1 to ``[Master],num_decks``, inclusive.
- *  J ranges from 1 to ``[Master],num_samplers``, inclusive.
+ *  I ranges from 1 to ``[App],num_decks``, inclusive.
+ *  J ranges from 1 to ``[App],num_samplers``, inclusive.
 
 .. versionadded:: 2.0.0
 
@@ -3940,20 +4196,14 @@ Inverse       1              Linked in an inverse relation.
 EQs and Filters
 +++++++++++++++
 
-:term:`Equalizers <EQ>` and filters are special effects units.
-The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]_Effect1],enabled`.
-Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
-
+:term:`Equalizers <EQ>` and :ref:`Quick Effects <interface-eq-gain>` are special effects units.
+The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]],enabled`.
+Users can choose between several options for the effects loaded in these racks in the
+:ref:`Mixer section <preferences-mixer>` of the Preferences window. For Quick Effects, most official skins also
+provide a effect chain preset selector in the :ref:`mixer section <interface-eq-gain>`.
 
 Controls
 ++++++++
-
-.. mixxx:control:: [EffectRack1],show
-
-   Show the Effect Rack
-
-   :range: binary
-
 
 .. mixxx:control:: [EffectRack1],num_effectunits
                    [EqualizerRack1],num_effectunits
@@ -3964,18 +4214,9 @@ Controls
    :range: integer, read-only
 
 
-.. mixxx:control:: [EffectRack1],clear
-                   [EqualizerRack1],clear
-                   [QuickEffectRack1],clear
-
-   Clear the Effect Rack
-
-   :range: binary
-
-
-.. mixxx:control:: [EffectRack1_EffectUnitN],chain_selector
-                   [EqualizerRack1_[ChannelI]],chain_selector
-                   [QuickEffectRack1_[ChannelI]],chain_selector
+.. mixxx:control:: [EffectRack1_EffectUnitN],chain_preset_selector
+                   [EqualizerRack1_[ChannelI]],chain_preset_selector
+                   [QuickEffectRack1_[ChannelI]],chain_preset_selector
 
    Select EffectChain preset. \> 0 goes one forward; \< 0 goes one backward.
 
@@ -4006,7 +4247,7 @@ Controls
 
    0 indicates no effect is focused; \> 0 indicates the index of the focused effect. Focusing an effect only does something if a controller mapping changes how it behaves when an effect is focused.
 
-   :range: 0..num_effects
+   :range: 0..num_effectslots
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],group_[ChannelI]_enable
@@ -4048,6 +4289,16 @@ Controls
    :range: binary, read-only
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN],loaded_chain_preset
+                   [EqualizerRack1_[ChannelI]],loaded_chain_preset
+                   [QuickEffectRack1_[ChannelI]],loaded_chain_preset
+
+   0-based index of the currently loaded EffectChain preset. `0` is the empty/passthrough
+   preset, `-1` indicates an unsaved preset (default state of `[EffectRack1_EffectUnitN]`).
+
+   :range: integer, -1 .. [:mixxx:coref:`num_chain_presets<[EffectRack1_EffectUnitN],num_chain_presets>` - 1]
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN],mix
                    [EqualizerRack1_[ChannelI]],mix
                    [QuickEffectRack1_[ChannelI]],mix
@@ -4059,22 +4310,23 @@ Controls
    :range: 0.0..1.0
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
-                   [EqualizerRack1_[ChannelI]],next_chain
-                   [QuickEffectRack1_[ChannelI]],next_chain
+.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain_preset
+                   [EqualizerRack1_[ChannelI]],next_chain_preset
+                   [QuickEffectRack1_[ChannelI]],next_chain_preset
 
    Cycle to the next EffectChain preset after the currently loaded preset.
 
    :range: binary
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],num_effects
-                   [EqualizerRack1_[ChannelI]],num_effects
-                   [QuickEffectRack1_[ChannelI]],num_effects
+.. mixxx:control:: [EffectRack1_EffectUnitN],num_chain_presets
+                   [EqualizerRack1_[ChannelI]],num_chain_presets
+                   [QuickEffectRack1_[ChannelI]],num_chain_presets
 
-   The number of Effects that this EffectChain has
+   The number of effect chain presets available in this EffectUnit, including the
+   empty/passthrough preset "\-\-\-".
 
-   :range: integer, read-only
+   :range: integer, read-only, >=1
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],num_effectslots
@@ -4086,9 +4338,9 @@ Controls
    :range: integer, read-only
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain
-                   [EqualizerRack1_[ChannelI]],prev_chain
-                   [QuickEffectRack1_[ChannelI]],prev_chain
+.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain_preset
+                   [EqualizerRack1_[ChannelI]],prev_chain_preset
+                   [QuickEffectRack1_[ChannelI]],prev_chain_preset
 
    Cycle to the previous EffectChain preset before the currently loaded preset.
 
@@ -4158,6 +4410,16 @@ Controls
    Whether an Effect is loaded into this EffectSlot
 
    :range: binary, read-only
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],loaded_effect
+                   [EqualizerRack1_[ChannelI]_Effect1],loaded_effect
+                   [QuickEffectRack1_[ChannelI]_Effect1],loaded_effect
+
+   0-based index of the currently loaded effect preset, including the
+   empty/passthrough preset "\-\-\-".
+
+   :range: integer, 0 .. [:mixxx:coref:`num_effectsavailable<[Master],num_effectsavailable>` - 1]
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN_EffectM],next_effect
@@ -4300,6 +4562,809 @@ Controls
    :range: integer, read-only
 
 
+.. seealso::
+   The :mixxx:coref:`[EffectRack1],show` control can be used to show and hide the effect section in the GUI.
+
+
+The ``[Skin]`` group
+~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Skin]
+
+   The :mixxx:cogroupref:`[Skin]` group contains controls that are used to selective show and hide parts of the :term:`graphical user interface <GUI>` of Mixxx to suit your needs.
+
+.. note::
+   Some skins may not support some or all of these controls.
+   In this case, triggering the unsupported control will do nothing.
+
+.. mixxx:control:: [Skin],show_effectrack
+
+   Toggle the display of the effect rack in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Effect rack is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[EffectRack1],show` control.
+
+
+.. mixxx:control:: [Skin],show_library_coverart
+
+   Toggle the display of cover art in the library section of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Cover art in the library is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Library],show_coverart` control.
+
+
+.. mixxx:control:: [Skin],show_maximized_library
+
+   Toggle maximized view of library section of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: The library section of the user interface is enlarged/shrunk.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Master],maximize_library` control.
+
+
+.. mixxx:control:: [Skin],show_samplers
+
+   Toggle the display of sampler banks in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Sampler banks are shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Samplers],show_samplers` control.
+
+
+.. mixxx:control:: [Skin],show_vinylcontrol
+
+   Toggle the :ref:`vinyl control <vinyl-control>` section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Vinyl controls are shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
+
+
+Deprecated controls
+~~~~~~~~~~~~~~~~~~~
+
+These controls have been deprecated and may be removed in a future version of Mixxx.
+In the meantime, skins and controller mappings that still use them will keep working, but using the suggested alternatives is strongly recommended.
+
+.. mixxx:control:: [Master],audio_latency_usage
+
+   Reflects fraction of :term:`latency`, given by the audio buffer size, spend for audio processing inside Mixxx.
+   At value near 25 % there is a high risk of buffer underflows.
+
+   :range: 0 .. 25 %
+   :feedback: latency meter
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_usage` instead.
+
+
+.. mixxx:control:: [Master],audio_latency_overload
+
+   Indicates a buffer under or over-flow. Resets after 500 ms.
+
+   :range: binary
+   :feedback: Overload indicator
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_overload` instead.
+
+
+.. mixxx:control:: [Master],audio_latency_overload_count
+
+   Counts buffer over- and underflows, maximum one per 500 ms.
+   See :ref:`preferences-sound-other-options` for details.
+   The count is displayed in Preferences -> Sound Hardware.
+
+   :range: 0 .. n
+   :feedback: Counter in hardware preferences
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],audio_latency_overload_count` instead.
+
+.. mixxx:control:: [Master],guiTick50ms
+
+   A throttled timer that provides the time elapsed in seconds since Mixxx was started.
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+   .. deprecated:: 2.5.0
+       Use :mixxx:coref:`[App],gui_tick_50ms_period_s` instead.
+
+.. mixxx:control:: [Master],guiTickTime
+
+   A high-resolution timer that provides the elapsed time in seconds since Mixxx was started.
+
+   :range: 0.0 .. n, read-only
+   :feedback: None
+
+   .. versionadded:: 2.4.0
+   .. deprecated:: 2.5.0
+       Use :mixxx:coref:`[App],gui_tick_full_period_s` instead.
+
+.. mixxx:control:: [Master],num_decks
+
+   The number of decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_decks` instead.
+
+
+.. mixxx:control:: [Master],num_samplers
+
+   The number of samplers currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_samplers` instead.
+
+
+.. mixxx:control:: [Master],num_preview_decks
+
+   The number of preview decks currently enabled.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 1.9.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_preview_decks` instead.
+
+
+.. mixxx:control:: [Master],num_microphones
+
+   The number of microphone inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.2.4
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_microphones` instead.
+
+
+.. mixxx:control:: [Master],num_auxiliaries
+
+   The number of auxiliary inputs that can be configured.
+
+   :range: integer
+   :feedback: None
+
+   .. versionadded:: 2.2.4
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],num_auxiliaries` instead.
+
+
+.. mixxx:control:: [Master],samplerate
+
+   The current output sample rate (default: 44100 Hz).
+
+   :range: absolute value (in Hz)
+   :feedback: None
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[App],samplerate` instead.
+
+
+.. mixxx:control:: [Master],headVolume
+
+    Adjust headphone volume.
+
+    :range: 0.0..1.0..5.0
+    :feedback: Headphone Gain knob
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[Master],headGain` instead.
+
+
+.. mixxx:control:: [Master],volume
+
+    Adjust main volume.
+
+    :range: 0.0..1.0..5.0
+    :feedback: Main Gain knob
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[Master],gain` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) (composite).
+
+   :range: binary
+   :feedback: Clip light (mono)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel.
+
+   :range: binary
+   :feedback: Clip light (left)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator_left` instead.
+
+
+.. mixxx:control:: [Master],PeakIndicatorR
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel.
+
+   :range: binary
+   :feedback: Clip light (right)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],peak_indicator_right` instead.
+
+
+.. mixxx:control:: [Master],VuMeter
+
+   Outputs the current instantaneous main volume (composite).
+
+   :range: default
+   :feedback: Main meter (mono)
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter` instead.
+
+
+.. mixxx:control:: [Master],VuMeterL
+
+   Outputs the current instantaneous main volume for the left channel.
+
+   :range: default
+   :feedback: Main meter L
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter_left` instead.
+
+
+.. mixxx:control:: [Master],VuMeterR
+
+   Outputs the current instantaneous main volume for the right channel.
+
+   :range: default
+   :feedback: Main meter R
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Main],vu_meter_right` instead.
+
+
+.. mixxx:control:: [Master],maximize_library
+
+   Toggle maximized view of library.
+
+   :range: binary
+   :feedback: Toggle maximized view of library
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_maximized_library` instead.
+
+
+.. mixxx:control:: [Samplers],show_samplers
+
+   :range: binary
+   :feedback: Shows Sampler bank(s)
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_samplers` instead.
+
+
+.. mixxx:control:: [VinylControl],show_vinylcontrol
+
+   Toggle the vinyl control section in skins.
+
+   :range: binary
+   :feedback: Vinyl controls are shown
+
+   .. versionadded:: 1.10.0
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_vinylcontrol` instead.
+
+
+.. mixxx:control:: [Library],show_coverart
+
+   Toggle the Cover Art in Library
+
+   :range: Binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_library_coverart` instead.
+
+
+.. mixxx:control:: [EffectRack1],show
+
+   Show the Effect Rack
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_effectrack` instead.
+
+
+.. mixxx:control:: [ChannelN],hotcue_X_enabled
+                   [PreviewDeckN],hotcue_X_enabled
+                   [SamplerN],hotcue_X_enabled
+
+   Indicates if :term:`hotcue` slot X is set, active or empty.
+
+   :range (read-only):
+
+      ===== ===================================
+      Value Meaning
+      ===== ===================================
+      0     Hotcue X is not set
+      1     Hotcue X is set
+      2     Hotcue X is active (saved loop is enabled or hotcue is previewing)
+      ===== ===================================
+
+   .. versionadded:: 1.8.0
+   .. versionchanged:: 2.4.0
+      Added support for "active" state.
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],hotcue_X_status` instead.
+
+
+
+.. mixxx:control:: [ChannelN],sync_master
+                   [PreviewDeckN],sync_master
+                   [SamplerN],sync_master
+
+   Sets deck as leader clock.
+
+   :range: binary
+   :feedback: If enabled, the :guilabel:`Sync` button stays lit and :term:`tempo` slider snap to the appropriate value. Slider adjustments are linked on all decks that have :term:`sync lock` enabled.
+
+   .. versionadded:: 2.0.0
+   .. versionchanged:: 2.3.0
+      This button just enables :term:`sync lock` mode (similar to :mixxx:coref:`[ChannelN],sync_enabled`), it does not actually guarantee the deck will be the sync leader. This will be fixed in a future version.
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[ChannelN],sync_leader`, :mixxx:coref:`[PreviewDeckN],sync_leader` and :mixxx:coref:`[SamplerN],sync_leader` instead.
+
+
+.. mixxx:control:: [ChannelN],beatloop
+                   [PreviewDeckN],beatloop
+                   [SamplerN],beatloop
+
+    Setup a loop over the set number of beats.
+
+    If the loaded track has no beat grid, seconds are used instead of beats.
+
+    :range: positive real number
+    :feedback: A loop is shown over the set number of beats.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[ChannelN],beatloop_size` and :mixxx:coref:`[ChannelN],beatloop_activate` instead.
+
+
+.. mixxx:control:: [ChannelN],reloop_exit
+                   [PreviewDeckN],reloop_exit
+                   [SamplerN],reloop_exit
+
+    Toggles the current loop on or off. If the loop is ahead of the current play position, the track will keep playing normally until it reaches the loop.
+
+    :range: binary
+    :feedback: Loop range in waveform activates or deactivates.
+
+    .. deprecated:: 2.1.0
+       Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
+
+
+.. mixxx:control:: [ChannelN],jog
+                   [PreviewDeckN],jog
+                   [SamplerN],jog
+
+    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+    Use it in controller mappings to do pitch-bend with jog wheels. See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels
+    <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__.
+
+    :range: -3.0..3.0
+    :feedback: waveform
+
+
+.. mixxx:control:: [ChannelN],filter
+                   [PreviewDeckN],filter
+                   [SamplerN],filter
+
+    Toggles the filter effect.
+
+    :range: binary
+    :feedback: Filter button
+
+    .. versionadded:: 2.0.0
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],enabled <[QuickEffectRack1_[ChannelI]],enabled>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterDepth
+                   [PreviewDeckN],filterDepth
+                   [SamplerN],filterDepth
+
+    Adjusts the intensity of the filter effect.
+
+    :range: default
+    :feedback: Filter depth knob
+
+    .. versionadded:: 2.0.0
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],super1 <[QuickEffectRack1_[ChannelI]],super1>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterLow
+                   [PreviewDeckN],filterLow
+                   [SamplerN],filterLow
+
+    Adjusts the gain of the low :term:`EQ` filter.
+
+    :range: 0.0..1.0..4.0
+    :feedback: Low EQ knob
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterLowKill
+                   [PreviewDeckN],filterLowKill
+                   [SamplerN],filterLowKill
+
+    Holds the gain of the low :term:`EQ` to -inf while active
+
+    :range: binary
+    :feedback: Low EQ :term:`kill switch`
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter1 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterMid
+                   [PreviewDeckN],filterMid
+                   [SamplerN],filterMid
+
+    Adjusts the gain of the mid :term:`EQ` filter..
+
+    :range: 0.0..1.0..4.0
+    :feedback: Mid EQ knob
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter2 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterMidKill
+                   [PreviewDeckN],filterMidKill
+                   [SamplerN],filterMidKill
+
+    Holds the gain of the mid :term:`EQ` to -inf while active.
+
+    :range: binary
+    :feedback: Mid EQ :term:`kill switch`
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter2 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterHigh
+                   [PreviewDeckN],filterHigh
+                   [SamplerN],filterHigh
+
+    Adjusts the gain of the high :term:`EQ` filter.
+
+    :range: 0.0..1.0..4.0
+    :feedback: High EQ knob
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],parameter3 <[EqualizerRack1_[ChannelI]_Effect1],parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterHighKill
+                   [PreviewDeckN],filterHighKill
+                   [SamplerN],filterHighKill
+
+    Holds the gain of the high :term:`EQ` to -inf while active.
+
+    :range: binary
+    :feedback: High EQ :term:`kill switch`
+
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],beatloop_X
+                   [PreviewDeckN],beatloop_X
+                   [SamplerN],beatloop_X
+
+    Setup a loop over X beats. A control exists for X = 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64
+
+    If the loaded track has no beat grid, seconds are used instead of beats.
+
+    :range: toggle
+    :feedback: A loop is shown over X beats.
+
+    .. versionadded:: 1.10.0
+    .. deprecated:: 2.0.0
+       Use :mixxx:coref:`[ChannelN],beatloop_X_activate` instead.
+
+
+.. mixxx:control:: [MicrophoneN],enabled
+                   [AuxiliaryN],enabled
+
+   1 if a channel input is enabled, 0 if not.
+
+   :range: binary
+   :feedback: Microphone is enabled.
+
+   .. versionadded:: 1.10.0
+   .. deprecated:: 2.0.0
+      Use :mixxx:coref:`[MicrophoneN],input_configured` instead.
+
+
+.. mixxx:control:: [MicrophoneN],master
+                   [AuxiliaryN],master
+
+   Hold value at 1 to mix channel input into the main output.
+   For :mixxx:cogroupref:`[MicrophoneN]` use :mixxx:coref:`[MicrophoneN],talkover` instead.
+   Note that :mixxx:cogroupref:`[AuxiliaryN]` also take :mixxx:coref:`[AuxiliaryN],orientation` into account.
+
+   :range: binary
+   :feedback: Auxiliary: Play button
+              Microphone: N/A
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],talkover` and :mixxx:coref:`[AuxiliaryN],main_mix` instead.
+
+
+.. mixxx:control:: [MicrophoneN],orientation
+
+   .. versionadded:: 1.10.0
+   .. deprecated:: 1.10.0
+
+      The control is not processed in the Mixer, which is also why there are no orientation controls for Microphones in the GUI.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicator
+                   [PreviewDeckN],PeakIndicator
+                   [SamplerN],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted)
+
+   :range: binary
+   :feedback: Clip light
+
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator` and
+      :mixxx:coref:`[SamplerN],peak_indicator` instead.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicatorL
+                   [PreviewDeckN],PeakIndicatorL
+                   [SamplerN],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator_left`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_left` and
+      :mixxx:coref:`[SamplerN],peak_indicator_left` instead.
+
+
+.. mixxx:control:: [ChannelN],PeakIndicatorR
+                   [PreviewDeckN],PeakIndicatorR
+                   [SamplerN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],peak_indicator_right`,
+      :mixxx:coref:`[PreviewDeckN],peak_indicator_right` and
+      :mixxx:coref:`[SamplerN],peak_indicator_right` instead.
+
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicator
+                   [AuxiliaryN],PeakIndicator
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted)
+
+   :range: binary
+   :feedback: Microphone Clip light
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator` instead.
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicatorL
+                   [AuxiliaryN],PeakIndicatorL
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the left channel
+
+   :range: binary
+   :feedback: Clip light (left)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_left` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_left` instead.
+
+
+.. mixxx:control:: [MicrophoneN],PeakIndicatorR
+                   [AuxiliaryN],PeakIndicatorR
+
+
+   Indicates when the signal is clipping (too loud for the hardware and is being distorted) for the right channel
+
+   :range: binary
+   :feedback: Clip light (right)
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],peak_indicator_right` and
+      :mixxx:coref:`[AuxiliaryN],peak_indicator_right` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeter
+                   [PreviewDeckN],VuMeter
+                   [SamplerN],VuMeter
+
+   Outputs the current instantaneous deck volume
+
+   :range: default
+   :feedback: Deck VU meter
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter` and
+      :mixxx:coref:`[SamplerN],vu_meter` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeterL
+                   [PreviewDeckN],VuMeterL
+                   [SamplerN],VuMeterL
+
+   Outputs the current instantaneous deck volume for the left channel
+
+   :range: default
+   :feedback: Deck VU meter L
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter_left`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_left` and
+      :mixxx:coref:`[SamplerN],vu_meter_left` instead.
+
+
+.. mixxx:control:: [ChannelN],VuMeterR
+                   [PreviewDeckN],VuMeterR
+                   [SamplerN],VuMeterR
+
+   Outputs the current instantaneous deck volume for the right channel
+
+   :range: default
+   :feedback: Deck VU meter R
+
+   .. versionadded:: ?.?.?
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[ChannelN],vu_meter_right`,
+      Use :mixxx:coref:`[PreviewDeckN],vu_meter_right` and
+      :mixxx:coref:`[SamplerN],vu_meter_right` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeter
+                   [AuxiliaryN],VuMeter
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 1.10.
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterL
+                   [AuxiliaryN],VuMeterL
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_left` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_left` instead.
+
+
+.. mixxx:control:: [MicrophoneN],VuMeterR
+                   [AuxiliaryN],VuMeterR
+
+   Outputs the current instantaneous channel volume
+
+   :range: default
+   :feedback: Microphone/auxiliary VU meter changes
+
+   .. versionadded:: 2.0.0
+   .. deprecated:: 2.4.0
+      Use :mixxx:coref:`[MicrophoneN],vu_meter_right` and
+      :mixxx:coref:`[AuxiliaryN],vu_meter_right` instead.
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],next_chain
+                   [EqualizerRack1_[ChannelI]],next_chain
+                   [QuickEffectRack1_[ChannelI]],next_chain
+    :range: binary
+
+    Cycle to the next EffectChain preset after the currently loaded preset.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],next_chain_preset` instead.
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],prev_chain
+                   [EqualizerRack1_[ChannelI]],prev_chain
+                   [QuickEffectRack1_[ChannelI]],prev_chain
+    :range: binary
+
+    Cycle to the next EffectChain preset after the currently loaded preset.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],prev_chain_preset` instead.
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],chain_selector
+                   [EqualizerRack1_[ChannelI]],chain_selector
+                   [QuickEffectRack1_[ChannelI]],chain_selector
+    :range: +1/-1
+
+    Select EffectChain preset. \> 0 goes one forward; \< 0 goes one backward.
+
+    .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[EffectRack1_EffectUnitN],chain_preset_selector` instead.
+
+
+
+
 Removed controls
 ~~~~~~~~~~~~~~~~
 
@@ -4382,3 +5447,27 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     .. deprecated:: 2.0.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
+
+
+.. mixxx:control:: [EffectRack1],clear
+                   [EqualizerRack1],clear
+                   [QuickEffectRack1],clear
+    :range: binary
+
+    Clear the Effect Rack
+
+    .. deprecated:: 2.4.0
+       This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
+
+
+.. mixxx:control:: [ChannelN],scratch
+                   [PreviewDeckN],scratch
+                   [SamplerN],scratch
+
+    Affects playback speed and direction (multiplicative).
+
+    :range: -3.0..3.0
+    :feedback: Waveform
+
+    .. deprecated:: ??
+       Use the JavaScript ``engine.scratch`` functions instead.

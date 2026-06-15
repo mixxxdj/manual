@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# daschuer2 <daschuer@mixxx.org>, 2022
+# Daniel Schürmann <daschuer@mixxx.org>, 2024
+# 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-06 07:18+0200\n"
+"POT-Creation-Date: 2024-12-25 01:36+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: daschuer2 <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr ""
+msgstr "Bibliothèque - Icône d'AutoDJ"
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -215,7 +216,7 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: ../../chapters/djing_with_mixxx.rst:4
 msgid "DJing With Mixxx"
@@ -245,6 +246,8 @@ msgid ""
 "A level meter in Mixxx with the gain set properly for the loudest part\n"
 "of a track"
 msgstr ""
+"Un indicateur de niveau dans Mixxx avec le gain correctement réglé pour la partie la plus forte\n"
+"d'une piste"
 
 #: ../../chapters/djing_with_mixxx.rst:24
 msgid ""
@@ -276,7 +279,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:41
 msgid "A waveform at a good level"
-msgstr ""
+msgstr "Une forme d'onde d'un bon niveau"
 
 #: ../../chapters/djing_with_mixxx.rst:41
 msgid ""
@@ -295,6 +298,8 @@ msgid ""
 "A level meter in Mixxx indicating clipping. The gain should be turned\n"
 "down!"
 msgstr ""
+"Un indicateur de niveau dans Mixxx indiquant l'écrêtage. Le gain devrait être\n"
+"diminué !"
 
 #: ../../chapters/djing_with_mixxx.rst:52
 msgid ""
@@ -331,7 +336,7 @@ msgstr "Une forme d'onde écrêtée"
 
 #: ../../chapters/djing_with_mixxx.rst-1
 msgid "A level meter in Mixxx with the gain set too low"
-msgstr ""
+msgstr "Un indicateur de niveau dans Mixxx avec le gain réglé trop bas"
 
 #: ../../chapters/djing_with_mixxx.rst:76
 msgid ""
@@ -369,7 +374,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:0
 msgid "A waveform at too low of a level"
-msgstr ""
+msgstr "Une forme d'onde à un niveau trop bas"
 
 #: ../../chapters/djing_with_mixxx.rst:96
 msgid "A waveform that is too close to the noise floor"
@@ -400,6 +405,12 @@ msgid ""
 ":term:`tempo` and aligning the beats are the two things a DJ must do to "
 "beatmatch."
 msgstr ""
+":term:`Beatmatching<beatmatching>` est le processus d'ajustement de la "
+"vitesse de lecture d'une piste afin qu'elle corresponde au tempo d'une autre"
+" piste. Le Beatmatching implique également d'ajuster la :term:`phase` des "
+"battements d'une piste afin qu'ils soient alignés avec les battements de "
+"l'autre piste. Faire correspondre le :term:`tempo` et aligner les battements"
+" sont les deux choses qu'un DJ doit faire pour le beatmatching."
 
 #: ../../chapters/djing_with_mixxx.rst:114
 msgid ""
@@ -452,7 +463,7 @@ msgstr ""
 
 #: ../../chapters/djing_with_mixxx.rst:137
 msgid "Sync Lock"
-msgstr ""
+msgstr "Verrouillage de synchronisation"
 
 #: ../../chapters/djing_with_mixxx.rst:139
 msgid ""
@@ -460,6 +471,11 @@ msgid ""
 "leave the beatmatching to Mixxx so you can focus on track selection, effects"
 " manipulation, looping, 4 deck mixing, and other advanced DJing techniques."
 msgstr ""
+":term:`Verrouillage de synchronisation<sync lock>` est un assistant "
+"intelligent qui vous permet de laisser le beatmatching à Mixxx afin que vous"
+" puissiez vous concentrer sur la sélection des pistes, la manipulation des "
+"effets, le bouclage, le mixage à 4 platines et d'autres techniques de DJé "
+"avancées."
 
 #: ../../chapters/djing_with_mixxx.rst:143
 msgid ""
@@ -472,14 +488,30 @@ msgid ""
 "interrupt the playback of the other decks.  However, changing the rate of a "
 "stopped deck will change the rate of playing decks."
 msgstr ""
+"Pour activer le verrouillage de synchronisation sur une platine, appuyer et "
+"maintenir (ou cliquer et maintenir) le bouton :guilabel:`SYNC`. Vous saurez "
+"que le verrouillage de synchronisation est activé car le bouton de "
+"synchronisation restera allumé. Changer le taux de n'importe quelle platine "
+"sur laquelle Sync est allumé modifiera le taux de toutes les autres platines"
+" dont le bouton Sync est également allumé. Il n'est pas nécessaire de "
+"définir des platines spécifiques pour être un leader ou un follower. Vous "
+"pouvez lire, arrêter, éjecter, charger et mettre en file d'attente n'importe"
+" quelle piste avec verrouillage de synchronisation sans interrompre la "
+"lecture des autres platines. Cependant, changer le taux d'une platine à "
+"l'arrêt modifiera la taux de lecture des platines."
 
 #: ../../chapters/djing_with_mixxx.rst:152
 msgid ""
-"Syn Lock will also notice if one of your tracks is double the BPM of another"
-" track and match them correctly.  So if you want to mix a 140 BPM drum & "
-"bass track with a 70 bpm dubstep track, Sync Lock will make sure they are "
-"lined up properly."
+"Sync Lock will also notice if one of your tracks is double the BPM of "
+"another track and match them correctly.  So if you want to mix a 140 BPM "
+"drum & bass track with a 70 bpm dubstep track, Sync Lock will make sure they"
+" are lined up properly."
 msgstr ""
+"Le verrouillage de synchronisation remarquera également si l'une de vos "
+"pistes est le double du BPM d'une autre piste et les fera correspondre "
+"correctement. Donc, si vous souhaitez mixer une piste de batterie et basse à"
+" 140 BPM avec une piste dubstep à 70 bpm, Le verrouillage de synchronisation"
+" s'assurera qu'elles sont correctement alignées."
 
 #: ../../chapters/djing_with_mixxx.rst:157
 msgid ""
@@ -488,12 +520,147 @@ msgid ""
 ":guilabel:`QUANTIZE` button.  When activated, Quantize will ensure that the "
 "beats are perfectly lined up as well."
 msgstr ""
+"Habituellement, le verrouillage de synchronisation garantira uniquement que "
+"les curseurs de taux sont correctement définis. Si vous souhaitez également "
+"vous assurer que vos battements sont parfaitement synchronisés, activer le "
+"bouton :guilabel:`QUANTIFICATION`. Lorsqu'il est activé, Quantification "
+"(Quantize) garantira que les battements sont également parfaitement alignés."
+
+#: ../../chapters/djing_with_mixxx.rst:163
+msgid "Sync Lock with Dynamic Tempo"
+msgstr "Verrouillage de synchronisation avec tempo dynamique"
 
 #: ../../chapters/djing_with_mixxx.rst:165
+msgid ""
+"If you're working with dynamic tempo tracks that have a variable BPM beat "
+"grid, you have precise control over the sync lock behavior via the following"
+" Sync Leader buttons (available in the LateNight and Deere skins only)."
+msgstr ""
+"Si vous travaillez avec des pistes à tempo dynamique dotées d'une grille de "
+"battements BPM variable, vous disposez d'un contrôle précis sur le "
+"comportement du verrouillage de synchronisation via les boutons verrouillage"
+" de synchronisation suivants (disponibles dans les thèmes LateNight et Deere"
+" uniquement)."
+
+#: ../../chapters/djing_with_mixxx.rst:172
+msgid ""
+"|follower| Follower |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |softleader| Soft "
+"Leader"
+msgstr ""
+"|follower| Follower |nbsp| |nbsp| |nbsp| |nbsp| |nbsp| |softleader| Soft "
+"Leader"
+
+#: ../../chapters/djing_with_mixxx.rst:174
+msgid "Sync Leader button as follower"
+msgstr "Bouton Synchroniser du leader en tant que follower"
+
+#: ../../chapters/djing_with_mixxx.rst:178
+msgid "Sync Leader button as soft leader"
+msgstr "Bouton Synchroniser du leader en tant que soft-follower"
+
+#: ../../chapters/djing_with_mixxx.rst:182
+msgid ""
+"You can create a variable BPM beat grids for single tracks by using the "
+":guilabel:`Analyze` library context menu and :guilabel:`Reanalyze (variable "
+"BPM)` command. Alternatively you may create variable BPM beat grids for all "
+"tracks to be (re)analyzed later on by unchecking :guilabel:`Assume constant "
+"tempo` in the :guilabel:`Beat Detection` preferences."
+msgstr ""
+"Vous pouvez créer une grille rythmique avec BPM variable pour des pistes "
+"uniques en utilisant le menu contextuel de la bibliothèque "
+":guilabel:`Analyser` et la commande :guilabel:`Reanalyser (BPM variable)`. "
+"Alternativement, vous pouvez créer des grilles rythmiques avec BPM variables"
+" pour toutes les pistes à (re)analyser ultérieurement en décochant "
+":guilabel:`Supposé le tempo constant` dans les préférences "
+":guilabel:`Detection de battement`."
+
+#: ../../chapters/djing_with_mixxx.rst:187
+msgid ""
+"When such a track is playing in a Leader deck, the follower decks closely "
+"follow the tempo. It's important to note that the track follows the "
+"\"detected\" leader tempo unconditionally, even if there are sections with "
+"unstable tempos during bridges or in the outro regions where the actual "
+"played tempo wasn't detected correctly."
+msgstr ""
+"Lorsqu'une telle piste est jouée dans une platine Leader, les platines "
+"follower suivent de près le tempo. Il est important de noter que la piste "
+"suit inconditionnellement le tempo leader « détecté », même s'il y a des "
+"sections avec des tempos instables pendant les ponts ou dans les régions "
+"outro où le tempo réel joué n'a pas été détecté correctement."
+
+#: ../../chapters/djing_with_mixxx.rst:192
+msgid ""
+"If a soft leader deck stops or is silenced, Mixxx automatically selects the "
+"next best deck as Leader. By clicking the Leader button, you can choose "
+"between Soft Leader and Follower mode. A Soft Leader is not sticky, and will"
+" automatically move if the current leader becomes invalid."
+msgstr ""
+"Si une platine Soft-Leader s'arrête ou est réduit au silence, Mixxx "
+"sélectionne automatiquement la meilleur platine suivante comme Leader. En "
+"cliquant sur le bouton Leader, vous pouvez choisir entre les modes Soft-"
+"Leader et Follower. Un Soft-Leader n'est pas fixer et se déplacera "
+"automatiquement si le Leader actuel devient invalide."
+
+#: ../../chapters/djing_with_mixxx.rst:197
+msgid ""
+"By default the \"Sync Lock with Dynamic Tempo\" feature is enabled and Mixxx"
+" picks the first Sync Lock enabled track as Soft Leader, using the tempo "
+"from its outro during the following transition. If you'd like to use the the"
+" tempo from the intro of the next track instead, click the Leader (Crown) "
+"button of its deck. The deck then becomes the soft leader, and Mixxx will "
+"use that deck's tempo instead."
+msgstr ""
+"Par défaut, la fonction \"Verrouillage de synchronisation avec tempo "
+"dynamique\" est activée et Mixxx sélectionne la première piste avec le "
+"verrouillage de synchronisation activée comme Soft-Leader, en utilisant le "
+"tempo de son outro lors de la transition suivante. Si vous souhaitez plutôt "
+"utiliser le tempo de l'intro du morceau suivant, cliquer sur le bouton "
+"Leader (Couronne) de sa platine. La platine devient alors le Soft-Leader et "
+"Mixxx utilisera à la place le tempo de cette platine."
+
+#: ../../chapters/djing_with_mixxx.rst:203
+msgid ""
+"The only case when a stopped deck can be a Leader is if no other deck is "
+"playing. Once a deck starts playing, Mixxx will pick that as the leader "
+"instead. If another deck starts playing, then you will be able to pick which"
+" one you want to be the leader again."
+msgstr ""
+"Le seul cas où une platine à l'arrêt peut être un Leader est lorsque aucune "
+"autre platine n'est en train de jouer. Une fois qu'une platine commence à "
+"jouer, Mixxx la choisira comme Leader. Si une autre platine commence à "
+"jouer, vous pourrez alors choisir celle que vous souhaitez redevenir Leader."
+
+#: ../../chapters/djing_with_mixxx.rst:208
+msgid ""
+"If you'd prefer a steady tempo during transitions like in Mixxx before "
+"Version 2.4, you may select :guilabel:`Use steady Tempo` for :guilabel:`Sync"
+" mode` in the :guilabel:`Decks` preferences. In this mode all decks become a"
+" follower during a transition and you may pick a dynamic track as a leader "
+"by clicking the Leader (Crown) button if desired."
+msgstr ""
+"Si vous préférez un tempo constant pendant les transitions comme dans Mixxx "
+"avant la version 2.4, vous pouvez sélectionner :guilabel:`Utiliser un tempo "
+"constant` pour :guilabel:`Mode de synchronisation` dans les préférences "
+":guilabel:`Platines`. Dans ce mode, toutes les platines deviennent Follower "
+"lors d'une transition et vous pouvez choisir une piste dynamique comme "
+"Leader en cliquant sur le bouton Leader (Couronne) si vous le souhaitez."
+
+#: ../../chapters/djing_with_mixxx.rst:214
+msgid ""
+"A leader plays always the original recorded tempo changes. A follower "
+"changes its tempo matching the leader which may result in a notable pitch "
+"change. Engaging keylock helps mitigate this pitch issue."
+msgstr ""
+"Le Leader joue toujours les changements de tempo enregistrés d'origine. Un "
+"Follower change son tempo en fonction du Leader, ce qui peut entrainer un "
+"changement de hauteur tonale (picth) notable. L'activation du verrouillage "
+"des touches permet d'atténuer ce problème de hauteur tonale (pitch)."
+
+#: ../../chapters/djing_with_mixxx.rst:221
 msgid "Harmonic Mixing"
 msgstr "Mixage harmonique"
 
-#: ../../chapters/djing_with_mixxx.rst:167
+#: ../../chapters/djing_with_mixxx.rst:223
 msgid ""
 "Harmonic mixing is a technique to mix songs with matching melodies and "
 "harmonies. To learn more about harmonic mixing you might want to check out "
@@ -503,7 +670,7 @@ msgstr ""
 "correspondre les mélodies et les harmonies. Pour en apprendre plus à propos "
 "du mixage harmonique, vous pouvez visiter `l'archive mixshare`_."
 
-#: ../../chapters/djing_with_mixxx.rst:173
+#: ../../chapters/djing_with_mixxx.rst:229
 msgid ""
 "Mixxx has two features to help you with harmonic mixing. The first is a "
 ":term:`key lock`. When it is active changing the speed of a track won't "
@@ -523,18 +690,21 @@ msgstr ""
 "pour afficher une tonalité peut être changée dans les  :ref:`Préférences de "
 "détection de tonalité <configuration-key-detection>`."
 
-#: ../../chapters/djing_with_mixxx.rst:184
+#: ../../chapters/djing_with_mixxx.rst:240
 msgid "Recording Your Mix"
 msgstr "Enregistrer votre mix"
 
-#: ../../chapters/djing_with_mixxx.rst:189
+#: ../../chapters/djing_with_mixxx.rst:245
 msgid ""
 "With the integrated recording feature you can record your mix as an audio "
 "file and listen to it later, distribute it as a :term:`Podcast<podcast>` or "
 "burn it to CD."
 msgstr ""
+"Avec la fonction d'enregistrement intégrée, vous pouvez enregistrer votre "
+"mix sous forme de fichier audio et l'écouter plus tard, le distribuer sous "
+"forme de :term:`Podcast<podcast>` ou le gravez sur CD."
 
-#: ../../chapters/djing_with_mixxx.rst:192
+#: ../../chapters/djing_with_mixxx.rst:248
 msgid ""
 "By default, Mixxx records the :term:`main output`. Alternatively, Mixxx can "
 "record the output of an external mixer if you have an audio interface "
@@ -542,12 +712,17 @@ msgid ""
 ":menuselection:`Preferences --> Sound Hardware`. Refer to :ref:`microphones-"
 "record-broadcast-external-mixer` for details."
 msgstr ""
+"Par défaut, Mixxx enregistre la :term:`sortie principale`. Alternativement, "
+"Mixxx peut enregistrer la sortie d'un mixeur externe si vous disposez d'une "
+"interface audio configurée pour l'entrée :guilabel:`Enregistrer/Diffuser` "
+"dans :menuselection:`Préferences --> Matériel sonore`. Voir "
+":ref:`microphones-record-broadcast-external-mixer` pour plus de détails."
 
-#: ../../chapters/djing_with_mixxx.rst:205
+#: ../../chapters/djing_with_mixxx.rst:261
 msgid "Mixxx library - Recordings view"
 msgstr "Bibliothèque de Mixxx - Vue Enregistrements"
 
-#: ../../chapters/djing_with_mixxx.rst:207
+#: ../../chapters/djing_with_mixxx.rst:263
 msgid ""
 "Mixxx can record your mix in various audio formats and quality settings. You"
 " can split your recordings, generate :term:`cue files <cue sheet>`, choose a"
@@ -557,8 +732,16 @@ msgid ""
 " start recording, we recommend that you adjust the settings in "
 ":menuselection:`Preferences --> Recording`."
 msgstr ""
+"Mixxx peut enregistrer votre mix dans différents formats audio et paramètres"
+" de qualité. Vous pouvez diviser vos enregistrements, générer des :term:`cue"
+" files <cue sheet>`, choisir un répertoire d'enregistrement personnalisé et "
+"définir même votre propre :term:`metadata`. Par défaut, Mixxx enregistre vos"
+" enregistrements sous forme de fichiers :term:`WAV` sans perte dans un sous-"
+"répertoire :file:`Mixxx/Recordings` dans le répertoire de musique Mixxx. "
+"Avant de commencer l'enregistrement, nous vous recommandons d'ajuster les "
+"paramètres dans :menuselection:`Préférences --> Enregistrement`."
 
-#: ../../chapters/djing_with_mixxx.rst:215
+#: ../../chapters/djing_with_mixxx.rst:271
 msgid ""
 "If you click on the *Recordings* icon in the sidebar of the Mixxx library, "
 "the track table to the right displays the content of your recordings "
@@ -571,7 +754,7 @@ msgstr ""
 "sont automatiquement enregistrés dans ce répertoire ainsi que les fichiers "
 "CUE si vous choisissez de les créer dans les préférences."
 
-#: ../../chapters/djing_with_mixxx.rst:220
+#: ../../chapters/djing_with_mixxx.rst:276
 msgid ""
 "Recording your mixes and listening to them later to critique yourself is a "
 "great tool for improving your DJing skills. Sending your mixes to other DJs "
@@ -581,11 +764,11 @@ msgstr ""
 "critique est un bon outil pour améliorer vos talents de DJ. Envoyer vos "
 "mixes à d'autres DJs pour avoir des retours peut aussi vous aider."
 
-#: ../../chapters/djing_with_mixxx.rst:225
+#: ../../chapters/djing_with_mixxx.rst:281
 msgid "Record your mix to disk"
 msgstr "Enregistrer votre mix sur le disque"
 
-#: ../../chapters/djing_with_mixxx.rst:227
+#: ../../chapters/djing_with_mixxx.rst:283
 msgid ""
 "Click on the recording icon on top of the application window to start, and "
 "stop the recording session. The duration of the running recording is "
@@ -595,16 +778,16 @@ msgstr ""
 "pour démarrer et arrêter la session d'enregistrement. La durée de "
 "l'enregistrement en cours est affichée à côté de l'icône."
 
-#: ../../chapters/djing_with_mixxx.rst:231
+#: ../../chapters/djing_with_mixxx.rst:287
 msgid "The recording widget might not be available in some skins."
 msgstr ""
 "Le widget d'enregistrement peut ne pas être disponible dans certains thèmes."
 
-#: ../../chapters/djing_with_mixxx.rst:233
+#: ../../chapters/djing_with_mixxx.rst:289
 msgid "Alternatively:"
 msgstr "Alternativement:"
 
-#: ../../chapters/djing_with_mixxx.rst:235
+#: ../../chapters/djing_with_mixxx.rst:291
 msgid ""
 "Click on the *Recordings* icon in the sidebar to switch to the "
 ":guilabel:`Recordings` view"
@@ -612,7 +795,7 @@ msgstr ""
 "Cliquer sur l'icône *Enregistrements* dans la barre latérale pour basculer "
 "en vue :guilabel:`Enregistrements`"
 
-#: ../../chapters/djing_with_mixxx.rst:237
+#: ../../chapters/djing_with_mixxx.rst:293
 msgid ""
 "Click the :guilabel:`Start Recording` button or click "
 ":menuselection:`Options --> Record Mix` in the menu on top of the Mixxx "
@@ -622,7 +805,7 @@ msgstr ""
 ":menuselection:`Options --> Enregistrer le Mix` dans le menu en haut de la "
 "fenêtre de Mixxx."
 
-#: ../../chapters/djing_with_mixxx.rst:240
+#: ../../chapters/djing_with_mixxx.rst:296
 msgid ""
 "The display above the track table shows how much data has already been "
 "recorded, as well as the duration of the recording."
@@ -630,11 +813,11 @@ msgstr ""
 "L'affichage au dessus du tableau des pistes montre combien de données ont "
 "déjà été enregistrées, ainsi que la durée de l'enregistrement."
 
-#: ../../chapters/djing_with_mixxx.rst:242
+#: ../../chapters/djing_with_mixxx.rst:298
 msgid "Perform your mix"
 msgstr "Exécuter votre mix"
 
-#: ../../chapters/djing_with_mixxx.rst:243
+#: ../../chapters/djing_with_mixxx.rst:299
 msgid ""
 "Click the :guilabel:`Stop Recording` button to stop the recording when the "
 "mix has finished."
@@ -642,7 +825,7 @@ msgstr ""
 "Cliquez sur le bouton :guilabel:`Arrêter l'enregistrement` pour arrêter "
 "l'enregistrement quand le mix est terminé."
 
-#: ../../chapters/djing_with_mixxx.rst:246
+#: ../../chapters/djing_with_mixxx.rst:302
 msgid ""
 "You can instantly play your recording as a track in Mixxx. Simply drag-and-"
 "drop the track to a deck."
@@ -650,11 +833,11 @@ msgstr ""
 "Vous pouvez instantanément lire vos enregistrements comme une piste dans "
 "Mixxx. Glisser-déposer simplement la piste dans une platine."
 
-#: ../../chapters/djing_with_mixxx.rst:252
+#: ../../chapters/djing_with_mixxx.rst:308
 msgid "Intro and Outro Cues"
-msgstr ""
+msgstr "Repères Intro et Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:254
+#: ../../chapters/djing_with_mixxx.rst:310
 msgid ""
 "Intro/Outro cues are used to mix in and out of tracks and they can also be "
 ":ref:`used with Auto DJ <djing-auto-dj-intro-outro>` to mix in and out at "
@@ -662,8 +845,14 @@ msgid ""
 "point. The into and outro are sections and each section is defined by two "
 "points."
 msgstr ""
+"Les repères Intro/Outro sont utilisés pour mélanger les entrées et sorties "
+"des pistes et ils peuvent également être :ref:`utilisés avec Auto DJ <djing-"
+"auto-dj-intro-outro>` pour mélanger les entrées et les sorties à ces points."
+" Contrairement aux :term:`repères rapides<hotcue>`, ils ne marquent pas un "
+"seul point. L'entrée et la sortie sont des sections et chaque section est "
+"définie par deux points."
 
-#: ../../chapters/djing_with_mixxx.rst:257
+#: ../../chapters/djing_with_mixxx.rst:313
 msgid ""
 "Mixxx detects where the first and last sounds are when analyzing a track "
 "making it easy to stop playing silent parts at the beginning and at the end "
@@ -672,20 +861,31 @@ msgid ""
 "determined by the first time the signal rises above -60 dBFS and the last "
 "time it goes below -60 dBFS."
 msgstr ""
+"Mixxx détecte où se trouvent le premier et le dernier son lors de l'analyse "
+"d'une piste, ce qui permet de stopper facilement la lecture de parties "
+"silencieuses au début et à la fin de la piste. L'analyseur place le point de"
+" départ de Intro au premier son et le point de fin de Outro au dernier son. "
+"Le premier et le dernier son sont déterminés par la première fois où le "
+"signal dépasse -60 dBFS et la dernière fois où il descend en dessous de -60 "
+"dBFS."
 
-#: ../../chapters/djing_with_mixxx.rst:268
+#: ../../chapters/djing_with_mixxx.rst:324
 msgid ""
 "intro start marker placed at the first sound and outro end marker placed at "
 "the last sound"
 msgstr ""
+"marqueur de début de Intro placé au premier son et marqueur de fin de Outro "
+"placé au dernier son"
 
-#: ../../chapters/djing_with_mixxx.rst:268
+#: ../../chapters/djing_with_mixxx.rst:324
 msgid ""
 "Intro start and outro end cues placed at the first and last sound of a track"
 " respectively by the analyzer"
 msgstr ""
+"Repères de début de Intro et de fin de Outro placés respectivement au "
+"premier et au dernier son d'une piste par l'analyseur"
 
-#: ../../chapters/djing_with_mixxx.rst:270
+#: ../../chapters/djing_with_mixxx.rst:326
 msgid ""
 "You can decide where to place the intro end and the outro start points. "
 "Marking the whole intro and outro allows Mixxx to calculate how long each "
@@ -694,36 +894,49 @@ msgid ""
 "this information <djing-auto-dj-intro-outro>` to line up tracks and "
 "determine how long to crossfade."
 msgstr ""
+"Vous pouvez décider où placer  les points de fin de Intro et de début de "
+"Outro. Marquer l'intégralité de Intro et de Outro permet à Mixxx de calculer"
+" la durée de chaque section et de l'afficher sur l'aperçu de la forme "
+"d'onde. Ces informations peuvent vous aider à savoir quand appuyer sur "
+"lecture sur la piste suivante. :ref:`Auto DJ peut également utiliser ces "
+"informations <djing-auto-dj-intro-outro>` pour aligner les pistes et "
+"déterminer la durée du fondu enchainé."
 
-#: ../../chapters/djing_with_mixxx.rst:280
+#: ../../chapters/djing_with_mixxx.rst:336
 msgid "Intro and outro section on a track"
-msgstr ""
+msgstr "Section Intro et Outro d'une piste"
 
-#: ../../chapters/djing_with_mixxx.rst:280
+#: ../../chapters/djing_with_mixxx.rst:336
 msgid ""
 "Intro end and outro start markers placed on the track alongside the intro "
 "start and the outro end markers to make sections"
 msgstr ""
+"Marqueurs de fin de Intro et de début de Outro placés sur la piste à côté "
+"des marqueurs de début de Intro et de fin de Outro, pour créer des sections"
 
-#: ../../chapters/djing_with_mixxx.rst:285
+#: ../../chapters/djing_with_mixxx.rst:341
 msgid "Mixing With Intro & Outro Cues"
-msgstr ""
+msgstr "Mixage avec repères de Intro et de Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:287
+#: ../../chapters/djing_with_mixxx.rst:343
 msgid ""
 "You can line up the ends of the intro and outro so the energy of the new "
 "song picks up right as the old track ends."
 msgstr ""
+"Vous pouvez aligner les fins de Intro et de Outro afin que l’énergie de la "
+"nouvelle chanson reprenne exactement à la fin de l’ancienne piste."
 
-#: ../../chapters/djing_with_mixxx.rst:295
+#: ../../chapters/djing_with_mixxx.rst:351
 msgid "Intro and outro ends aligned"
-msgstr ""
+msgstr "Fins de Intro et Outro alignées"
 
-#: ../../chapters/djing_with_mixxx.rst:295
+#: ../../chapters/djing_with_mixxx.rst:351
 msgid "Intro and outro end markers aligned showing on the waveform"
 msgstr ""
+"Marqueurs de fin de Intro et de Outro alignés et affichés sur la forme "
+"d'onde"
 
-#: ../../chapters/djing_with_mixxx.rst:297
+#: ../../chapters/djing_with_mixxx.rst:353
 msgid ""
 "If the intro and outro are short enough to fit on the waveform at the same "
 "time, you can simply watch the waveforms and press play when the markers "
@@ -734,28 +947,45 @@ msgid ""
 "intro. If you have changed the tempo of the track, the time remaining scales"
 " to show the real time remaining at the adjusted tempo."
 msgstr ""
+"Si Intro et Outro sont suffisamment courtes pour tenir sur la forme d'onde "
+"en même temps, vous pouvez simplement regarder les formes d'onde et appuyer "
+"sur Lecture lorsque les marqueurs s'alignent. Sinon, vous pouvez regarder le"
+" temps restant sur la platine et passer le curseur de votre souris sur la "
+"ligne de fin de Outro sur l'aperçu de la forme d'onde. Mixxx vous montrera "
+"combien de temps il reste jusqu'à ce point. Lorsque ce temps est égal à la "
+"durée de Intro, appuyer sur Lecture pour aligner précisément la fin de "
+"Intro. Si vous avez modifié le tempo de la piste, le temps restant évolue "
+"pour afficher le temps réel restant au tempo ajusté."
 
 #: ../../chapters/djing_with_mixxx.rst-1
 msgid "Two tracks with the ends of the outro and intro aligned"
-msgstr ""
+msgstr "Deux pistes avec les fins de Outro et de Intro alignées"
 
-#: ../../chapters/djing_with_mixxx.rst:309
+#: ../../chapters/djing_with_mixxx.rst:365
 msgid ""
 "Alternatively, you can line up the start of the intro & outro. In this case,"
 " watch the scrolling waveform when the outro start point is coming up on the"
 " old track. Then, press play on the new track when the old track reaches the"
 " outro start."
 msgstr ""
+"Vous pouvez également aligner les débuts de Intro et Outro. Dans ce cas, "
+"observer la forme d'onde défilante lorsque le point de départ de Outro "
+"arrive sur l'ancienne piste. Ensuite, appuyer sur Lecture sur la nouvelle "
+"piste lorsque l’ancienne piste atteint le début de Outro."
 
-#: ../../chapters/djing_with_mixxx.rst:312
+#: ../../chapters/djing_with_mixxx.rst:368
 msgid ""
 "There are no rules on which method should be used. The method you decide to "
 "use is an artistic judgement based on the musical content of each track, "
 "what the vibe of the crowd is at that moment, and what you want to do with "
 "the mix."
 msgstr ""
+"Il n’y a pas de règles sur la méthode à utiliser. La méthode que vous "
+"décidez d'utiliser est un jugement artistique basé sur le contenu musical de"
+" chaque piste, l'ambiance de la foule à ce moment-là et ce que vous voulez "
+"faire du mix."
 
-#: ../../chapters/djing_with_mixxx.rst:315
+#: ../../chapters/djing_with_mixxx.rst:371
 msgid ""
 "If you do not have the intro end and outro start points marked when loading "
 "a track, you can find and mark these in headphones before you mix in the "
@@ -768,12 +998,24 @@ msgid ""
 "that is from the end of the track to compare it to the length of the intro "
 "of the next track."
 msgstr ""
+"Si vous n'avez pas marqué les points de fin de Intro et de début de Outro "
+"lors du chargement d'une piste, vous pouvez les trouver et les marquer au "
+"casque avant de mixer la piste. Revenez ensuite au début de Intro pour "
+"préparer la piste. Si vous n'avez pas le temps de trouver le point final de "
+"Outro avant de mixer la piste, vous pouvez utiliser la fonction de clonage "
+"de platine pour faire glisser et déposer sur une nouvelle platine, puis "
+"rechercher à l'avance sur la nouvelle platine et écouter au casque pour "
+"marquer le point de départ de Outro. Si vous n'avez pas le temps de le faire"
+" non plus, vous pouvez faire clic-droit sur l'aperçu de la forme d'onde à "
+"l'endroit où vous pensez que le Outro commence. Rechercher ensuite à quelle "
+"distance se trouve la fin du titre pour la comparer à la longueur de Intro "
+"du titre suivant."
 
-#: ../../chapters/djing_with_mixxx.rst:327
+#: ../../chapters/djing_with_mixxx.rst:383
 msgid "Outro right click"
-msgstr ""
+msgstr "Clic-droit Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:327
+#: ../../chapters/djing_with_mixxx.rst:383
 msgid ""
 "Here the outro is approximately 30 seconds long. However, the analyzer "
 "placed the outro end point before the end of the track, so the outro is "
@@ -781,38 +1023,84 @@ msgid ""
 "start point, you would have to do some math in your head to find exactly how"
 " long the outro is."
 msgstr ""
+"Ici, Outro dure environ 30 secondes. Cependant, l'analyseur a placé le point"
+" final de Outro avant la fin de la piste, donc Outro dure en fait un peu "
+"moins de 30 secondes. Sans marquer le point de départ de Outro, vous devrez "
+"faire quelques calculs dans votre tête pour déterminer exactement la durée "
+"de Outro."
 
-#: ../../chapters/djing_with_mixxx.rst:334
+#: ../../chapters/djing_with_mixxx.rst:390
 msgid "Auto DJ"
-msgstr ""
+msgstr "Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:346
+#: ../../chapters/djing_with_mixxx.rst:402
 msgid "Mixxx library - Auto DJ view"
 msgstr "Bibliothèque de Mixxx - Vue Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:348
+#: ../../chapters/djing_with_mixxx.rst:404
 msgid ""
-"Auto DJ allows you to automatically load tracks from the Auto DJ playlist "
-"when the current track is nearly finished, and crossfade into it.  See "
-":ref:`library-auto-dj`."
+"Auto DJ automatically loads tracks in the decks and mixes them. Tracks can "
+"be manually added to the Auto DJ playlist, or automatically from assigned "
+"source crates or from the entire library."
 msgstr ""
-"L'Auto DJ vous permet de charger automatiquement des pistes depuis la liste "
-"de lecture Auto DJ quand la piste actuelle est presque finie, et d'y "
-"effectuer un fondu enchaîné. Voir :ref:`library-auto-dj`."
 
-#: ../../chapters/djing_with_mixxx.rst:352
+#: ../../chapters/djing_with_mixxx.rst:407
 msgid ""
 "Auto DJ does not take into account the volume of each track, nor the "
 "frequency content, nor the rhythms, so it's not intended to be a replacement"
 " for a human DJ. However, it is good enough to give a human DJ a break "
 "without a major disruption to the mix."
 msgstr ""
+"Auto DJ ne prend pas en compte le volume de chaque piste, ni le contenu des "
+"fréquences, ni les rythmes, il n'est donc pas destiné à remplacer un DJ "
+"humain. Cependant, c’est suffisant pour donner une pause à un DJ humain sans"
+" perturber significativement le mix."
 
-#: ../../chapters/djing_with_mixxx.rst:355
+#: ../../chapters/djing_with_mixxx.rst:409
+msgid ""
+"For mixing, Auto DJ takes control of the :ref:`crossfader <interface-"
+"crossfader>`. Auto DJ requires at least one deck to be assigned to the left "
+"and right side of the crossfader. This can be done with the deck orientation"
+" switches next to the crossfader. If a deck's orientation is centered, the "
+"crossfader can't affect it. Note that in the official Tango skin, these "
+"switches are in the decks' transport controls row, and in Shade skin they "
+"don't exist because decks are statically assigned to the left and right side"
+" (bus)."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:412
+msgid ""
+"When Auto DJ is toggled on, it will use the first two opposing decks it "
+"finds. With default settings these would be decks 1 and 2, but depending on "
+"how the orientation switches are set, this could be any configuration, for "
+"example deck 4 on the left and deck 1 on the right. If no opposing decks are"
+" found Auto DJ won't start."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:414
+msgid ""
+"Note that Auto DJ is currently not aware which decks are currently visible, "
+"i.e. it might pick currently hidden decks 3 and/or 4. Refer to the "
+":ref:`skin settings <interface-skin-settings>` for how to toggle 4 decks."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:418
+msgid ""
+"When you toggle Auto DJ off, the crossfader will stay on its last position."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:420
+msgid ""
+"Each official Mixxx skin has an Auto DJ indicator icon, located either in "
+"the top toolbar or in the mixer. In some skins the crossfader is "
+"highlighted, too."
+msgstr ""
+
+#: ../../chapters/djing_with_mixxx.rst:423
 msgid "Loading tracks into Auto DJ"
 msgstr "Charger des pistes vers l'Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:357
+#: ../../chapters/djing_with_mixxx.rst:425
 msgid ""
 "To play tracks automatically, they must first be loaded into the Auto DJ "
 "playlist. The Auto DJ playlist is empty by default."
@@ -821,17 +1109,17 @@ msgstr ""
 "chargées dans la liste de lecture Auto DJ. La liste de lecture Auto DJ est "
 "vide par défaut."
 
-#: ../../chapters/djing_with_mixxx.rst:367
+#: ../../chapters/djing_with_mixxx.rst:435
 msgid "Mixxx library - Adding a playlist to Auto DJ"
 msgstr "Bibliothèque de Mixxx - Ajouter une liste de lecture à l'Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:369
+#: ../../chapters/djing_with_mixxx.rst:437
 msgid "There are several ways to load tracks into the Auto DJ playlist:"
 msgstr ""
 "Il y a plusieurs manières de charger des pistes dans la liste de lecture "
 "Auto DJ :"
 
-#: ../../chapters/djing_with_mixxx.rst:371
+#: ../../chapters/djing_with_mixxx.rst:439
 msgid ""
 "Select single or multiple tracks from the library, a regular playlist or "
 "crate and drag them to the Auto DJ icon on the left."
@@ -840,7 +1128,7 @@ msgstr ""
 "lecture classique ou un bac et faites-les glisser dans l'icône Auto DJ sur "
 "la gauche."
 
-#: ../../chapters/djing_with_mixxx.rst:373
+#: ../../chapters/djing_with_mixxx.rst:441
 msgid ""
 "Select a regular playlist or crate, right-click with the mouse and select "
 ":guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto"
@@ -850,7 +1138,7 @@ msgstr ""
 "avec la souris et sélectionner :guilabel:`Ajouter à la file Auto DJ` depuis "
 "le menu de la souris. Ceci ajoute toutes les pistes à l'Auto DJ."
 
-#: ../../chapters/djing_with_mixxx.rst:375
+#: ../../chapters/djing_with_mixxx.rst:443
 msgid ""
 "While in the Auto DJ view of the library, drag tracks from external file "
 "managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on"
@@ -860,11 +1148,11 @@ msgstr ""
 "gestionnaire de fichiers externe vers l'icône Auto DJ dans la barre latérale"
 " ou dans le tableau des pistes Auto DJ sur la droite."
 
-#: ../../chapters/djing_with_mixxx.rst:382
+#: ../../chapters/djing_with_mixxx.rst:450
 msgid "Automatically adding tracks from crates"
-msgstr ""
+msgstr "Ajout automatique de pistes à partir des bacs"
 
-#: ../../chapters/djing_with_mixxx.rst:384
+#: ../../chapters/djing_with_mixxx.rst:452
 msgid ""
 "Instead of inserting the contents of the crates directly into the Auto DJ "
 "playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated "
@@ -874,7 +1162,7 @@ msgstr ""
 "Auto DJ, les :ref:`bacs Auto DJ <library-auto-dj-crates>` sont des bacs "
 "associées qui deviennent une source de sélections aléatoires de pistes."
 
-#: ../../chapters/djing_with_mixxx.rst:388
+#: ../../chapters/djing_with_mixxx.rst:456
 msgid ""
 "**Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto "
 "DJ` item in the sidebar, and right-click on the :guilabel:`Crates` sub-item."
@@ -891,7 +1179,7 @@ msgstr ""
 "automatique. Le nom du bac est maintenant répertorié dessous comme sous-"
 "élément."
 
-#: ../../chapters/djing_with_mixxx.rst:395
+#: ../../chapters/djing_with_mixxx.rst:463
 msgid ""
 "If you do not have any crates available for selection in the list, go and "
 "create a crate first and add some tracks, see :ref:`library-crates`."
@@ -900,7 +1188,7 @@ msgstr ""
 "créer d'abord un bac et ajouter y quelques pistes, voir :ref:`library-"
 "crates`."
 
-#: ../../chapters/djing_with_mixxx.rst:398
+#: ../../chapters/djing_with_mixxx.rst:466
 msgid ""
 "**Manually add tracks from track sources to Auto DJ**: Click the "
 ":guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of "
@@ -913,7 +1201,7 @@ msgstr ""
 ":guilabel:`Ajouter aléatoirement` pour ajouter une piste à la fois à partir "
 "des sources de piste Auto DJ, à la fin de la liste de lecture Auto DJ."
 
-#: ../../chapters/djing_with_mixxx.rst:403
+#: ../../chapters/djing_with_mixxx.rst:471
 msgid ""
 "If you did not set any crates as an Auto DJ track source, clicking the "
 ":guilabel:`Add Random` button will add a randomly selected track from the "
@@ -923,7 +1211,7 @@ msgstr ""
 "sur le bouton :guilabel:`Ajouter aléatoirement` va ajouter une piste "
 "sélectionnée au hasard dans toute la bibliothèque."
 
-#: ../../chapters/djing_with_mixxx.rst:407
+#: ../../chapters/djing_with_mixxx.rst:475
 msgid ""
 "**Automatically add tracks from track sources to Auto DJ**: Mixxx can "
 "randomly add tracks to the Auto DJ playlist from track sources as soon as a "
@@ -941,7 +1229,7 @@ msgstr ""
 ":menuselection:`Nombre minimum de pistes avant l'ajout` pour changer le "
 "nombre minimum de pistes après lequel des pistes aléatoires seront ajoutées."
 
-#: ../../chapters/djing_with_mixxx.rst:414
+#: ../../chapters/djing_with_mixxx.rst:482
 msgid ""
 "If you did not set any crates as an Auto DJ track source, tracks are "
 "selected from the whole library instead."
@@ -949,7 +1237,7 @@ msgstr ""
 "Si vous n'avez défini aucun bac comme source de piste Auto DJ, les pistes "
 "sont sélectionnées à partir de toute la bibliothèque."
 
-#: ../../chapters/djing_with_mixxx.rst:417
+#: ../../chapters/djing_with_mixxx.rst:485
 msgid ""
 "**Remove a crate from the Auto DJ track sources**: Expand the "
 ":guilabel:`Auto DJ` item in the sidebar, and right-click on one of the "
@@ -963,11 +1251,11 @@ msgstr ""
 ":guilabel:`Supprimer le bac comme source de piste` pour supprimer le bac des"
 " sources de piste Auto DJ."
 
-#: ../../chapters/djing_with_mixxx.rst:423
+#: ../../chapters/djing_with_mixxx.rst:491
 msgid "Playing tracks in Auto DJ"
 msgstr "Lire des pistes en Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:425
+#: ../../chapters/djing_with_mixxx.rst:493
 msgid ""
 "Now that you have loaded tracks into the Auto DJ playlist, you can activate "
 "Auto DJ as follows:"
@@ -975,7 +1263,7 @@ msgstr ""
 "Maintenant que vous avez chargé des pistes dans la liste de lecture Auto DJ,"
 " vous pouvez activer l'Auto DJ comme suit :"
 
-#: ../../chapters/djing_with_mixxx.rst:428
+#: ../../chapters/djing_with_mixxx.rst:496
 msgid ""
 "Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto "
 "DJ` view of the library."
@@ -983,11 +1271,11 @@ msgstr ""
 "Cliquer sur l'icône *Auto DJ* dans la barre latérale pour basculer en vue "
 ":guilabel:`Auto DJ` de la bibliothèque."
 
-#: ../../chapters/djing_with_mixxx.rst:430
+#: ../../chapters/djing_with_mixxx.rst:498
 msgid "Click the :guilabel:`Enable Auto DJ` button."
 msgstr "Cliquer sur le bouton  :guilabel:`Activer Auto DJ`"
 
-#: ../../chapters/djing_with_mixxx.rst:431
+#: ../../chapters/djing_with_mixxx.rst:499
 msgid ""
 "The first tracks from your list are loaded into the decks and the playback "
 "starts."
@@ -995,7 +1283,7 @@ msgstr ""
 "Les premières pistes de votre liste sont chargées dans les platines et la "
 "lecture commence."
 
-#: ../../chapters/djing_with_mixxx.rst:433
+#: ../../chapters/djing_with_mixxx.rst:501
 msgid ""
 "Mixxx will continue to automatically mix until the Auto DJ playlist is "
 "empty."
@@ -1003,14 +1291,14 @@ msgstr ""
 "Mixxx va continuer à mixer automatiquement jusqu'à ce que la liste de "
 "lecture Auto DJ soit vide."
 
-#: ../../chapters/djing_with_mixxx.rst:434
+#: ../../chapters/djing_with_mixxx.rst:502
 msgid ""
 "Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing"
 msgstr ""
 "Cliquez sur le bouton :guilabel:`Arrêter Auto DJ` pour arrêter le mixage "
 "automatique"
 
-#: ../../chapters/djing_with_mixxx.rst:436
+#: ../../chapters/djing_with_mixxx.rst:504
 msgid ""
 "You can add a track to the end of the Auto DJ playlist once it is played "
 "instead of removing it. Set :menuselection:`Preferences --> Auto DJ --> Re-"
@@ -1021,41 +1309,46 @@ msgstr ""
 ":menuselection:`Préférences --> Auto DJ --> Remettre les pistes dans la file"
 " après la lecture --> Allumé`"
 
-#: ../../chapters/djing_with_mixxx.rst:443
+#: ../../chapters/djing_with_mixxx.rst:511
 msgid "Auto DJ Mix Modes"
-msgstr ""
+msgstr "Modes des mixage Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:444
+#: ../../chapters/djing_with_mixxx.rst:512
 msgid "Auto DJ has several modes it can use to mix tracks:"
 msgstr ""
+"Auto DJ dispose de plusieurs modes qu'il peut utiliser pour mixer des "
+"pistes :"
 
-#: ../../chapters/djing_with_mixxx.rst:446
+#: ../../chapters/djing_with_mixxx.rst:514
 msgid "Full Intro + Outro"
-msgstr ""
+msgstr "Intro + Outro complet"
 
-#: ../../chapters/djing_with_mixxx.rst:447
+#: ../../chapters/djing_with_mixxx.rst:515
 msgid "Fade At Outro Start"
-msgstr ""
+msgstr "Fondu au début de Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:448
+#: ../../chapters/djing_with_mixxx.rst:516
 msgid "Full Track"
-msgstr ""
+msgstr "Piste entière"
 
-#: ../../chapters/djing_with_mixxx.rst:449
+#: ../../chapters/djing_with_mixxx.rst:517
 msgid "Skip Silence"
-msgstr ""
+msgstr "Passer les silences"
 
-#: ../../chapters/djing_with_mixxx.rst:451
+#: ../../chapters/djing_with_mixxx.rst:519
 msgid ""
 "The Full Intro + Outro and Fade At Outro Start modes both use the intro and "
 "outro cues but the Full Track and Skip Silence cues do not."
 msgstr ""
+"Les modes \"Intro + Outro complet\" et \"Fondu au début de Outro\" utilisent"
+" tous deux les repères de Intro et de Outro, mais pas les modes \"Piste "
+"entière\" et \"Passer les silences\"."
 
-#: ../../chapters/djing_with_mixxx.rst:456
+#: ../../chapters/djing_with_mixxx.rst:524
 msgid "Full Intro + Outro and Fade At Outro Start"
-msgstr ""
+msgstr "Intro + Outro complet et Fondu au début de Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:457
+#: ../../chapters/djing_with_mixxx.rst:525
 msgid ""
 "The Full Intro + Outro and Fade At Outro start Auto DJ modes use the "
 ":ref:`intro & outro cues <djing-intro-outro-cues>` to determine how long to "
@@ -1063,27 +1356,37 @@ msgid ""
 "compares the duration of the outro of the old track and the intro of the new"
 " track. Auto DJ picks the time of the shorter section as the crossfade time."
 msgstr ""
+"Les modes Auto DJ \"Intro + Outro complet\" et \"Fondu au début de Outro\" "
+"utilisent les :ref:`repères Intro & Outro <djing-intro-outro-cues>` pour "
+"déterminer la durée du fondu enchainé et comment aligner les pistes dans le "
+"temps. Dans les deux modes, Auto DJ compare la durée de Outro de l'ancienne "
+"piste avec Intro de la nouvelle piste. Auto DJ choisit le temps de la "
+"section la plus courte comme temps de fondu enchainé."
 
-#: ../../chapters/djing_with_mixxx.rst:459
+#: ../../chapters/djing_with_mixxx.rst:527
 msgid ""
 "In both modes, if the outro is shorter than the intro, Auto DJ will align "
 "the start of the outro with the start of the intro."
 msgstr ""
+"Dans les deux modes, si Outro est plus courte que Intro, Auto DJ alignera le"
+" début de Outro avec le début de Intro."
 
-#: ../../chapters/djing_with_mixxx.rst:466
+#: ../../chapters/djing_with_mixxx.rst:534
 msgid "Intro and outro start markers aligned by Auto DJ"
-msgstr ""
+msgstr "Marqueurs de début Intro et de Outro alignés par Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:468
+#: ../../chapters/djing_with_mixxx.rst:536
 msgid ""
 "The two modes work differently when the outro is longer than the intro."
 msgstr ""
+"Les deux modes fonctionnent différemment lorsque Outro est plus long que "
+"Intro."
 
-#: ../../chapters/djing_with_mixxx.rst:471
+#: ../../chapters/djing_with_mixxx.rst:539
 msgid "**Full Intro + Outro Mode**"
-msgstr ""
+msgstr "**Mode Intro + Outro complet**"
 
-#: ../../chapters/djing_with_mixxx.rst:471
+#: ../../chapters/djing_with_mixxx.rst:539
 msgid ""
 "The full length of both the intro and the outro are always played. When the "
 "outro is longer than the intro, Auto DJ aligns the end of the intro and "
@@ -1091,41 +1394,53 @@ msgid ""
 "This mode is the most likely to sound good with the widest variety of "
 "tracks. Therefore, it is the default mode."
 msgstr ""
+"La longueur complète de Intro et de Outro est toujours jouée. Lorsque Outro "
+"est plus long que Intro, Auto DJ aligne la fin de Intro et de Outro en "
+"commençant la piste suivante pendant Outro de la piste précédente. Ce mode "
+"est le plus susceptible de donner un bon son avec la plus grande variété de "
+"pistes. Il s'agit donc du mode par défaut."
 
-#: ../../chapters/djing_with_mixxx.rst:478
+#: ../../chapters/djing_with_mixxx.rst:546
 msgid "Intro and outro end cues aligned by Auto DJ"
-msgstr ""
+msgstr "Repères de fin Intro et Outro alignés par Auto DJ"
 
-#: ../../chapters/djing_with_mixxx.rst:478
+#: ../../chapters/djing_with_mixxx.rst:546
 msgid ""
 "Intro and outro start cues aligned by Auto DJ in Full Intro + Outro mode"
 msgstr ""
+"Repère de début Intro et Outro alignées par Auto DJ en mode Intro + Outro "
+"complet"
 
-#: ../../chapters/djing_with_mixxx.rst:481
+#: ../../chapters/djing_with_mixxx.rst:549
 msgid "**Fade At Outro Start**"
-msgstr ""
+msgstr "**Fondu au début de Outro**"
 
-#: ../../chapters/djing_with_mixxx.rst:481
+#: ../../chapters/djing_with_mixxx.rst:549
 msgid ""
 "Auto DJ always aligns the start of the intro and outro. When the outro is "
 "longer than the intro, Auto DJ cuts off the end of the outro. This can be "
 "helpful if you want to prevent the energy of the mix from declining during a"
 " long outro. However, the transition may sound abrupt if the intro is short."
 msgstr ""
+"Auto DJ aligne toujours le début de Intro et de Outro. Lorsque Outro est "
+"plus longue que Intro, Auto DJ coupe la fin de Outro. Cela peut être utile "
+"si vous souhaitez éviter que l’énergie du mix ne décline au cours d’un long "
+"Outro. Cependant, la transition peut paraitre abrupte si Intro est court."
 
-#: ../../chapters/djing_with_mixxx.rst:488
+#: ../../chapters/djing_with_mixxx.rst:556
 msgid "Auto DJ fade at outro start"
-msgstr ""
+msgstr "Fondu Auto DJ au début de Outro"
 
-#: ../../chapters/djing_with_mixxx.rst:488
+#: ../../chapters/djing_with_mixxx.rst:556
 msgid "Intro and outro start cues aligned by Auto DJ in Fade At Outro mode"
 msgstr ""
+"Repères de début Intro et Outro alignées par Auto DJ en mode \"Fondu Outro\""
 
-#: ../../chapters/djing_with_mixxx.rst:491
+#: ../../chapters/djing_with_mixxx.rst:559
 msgid "Full Track and Skip Silence"
-msgstr ""
+msgstr " Piste entière et Passer les silences"
 
-#: ../../chapters/djing_with_mixxx.rst:492
+#: ../../chapters/djing_with_mixxx.rst:560
 msgid ""
 "The Full Track and Skip Silence Auto DJ modes do not use the intro and outro"
 " cues. They crossfade tracks over a number of seconds that you specify in "
@@ -1134,9 +1449,20 @@ msgid ""
 "automatically cuts out silence at the beginning and ends of tracks (defined "
 "as when the signal first goes above or below -60 dBFS)."
 msgstr ""
+"Les modes Auto DJ \"Piste entière\" et \"Passer les silences\" n'utilisent "
+"pas les signaux Intro et Outro. Ils effectuent un fondu enchainé des pistes "
+"pendant un nombre de secondes que vous spécifiez dans la case à côté du menu"
+" de sélection de mode. Le mode \"Piste entière\" lit toute la longueur de "
+"chaque fichier. Le mode \"Passer les silences\" fonctionne de la même "
+"manière mais coupe automatiquement le silence au début et à la fin des "
+"pistes (défini comme lorsque le signal passe pour la première fois au-dessus"
+" ou en dessous de -60 dBFS)."
 
-#: ../../chapters/djing_with_mixxx.rst:494
+#: ../../chapters/djing_with_mixxx.rst:562
 msgid ""
 "If you still want to use Auto DJ like a normal music player application, use"
 " one of these modes with a transition time of 0 seconds."
 msgstr ""
+"Si vous souhaitez toujours utiliser Auto DJ comme une application de lecture"
+" de musique normale, utilisez l'un de ces modes avec une durée de transition"
+" de 0 seconde."

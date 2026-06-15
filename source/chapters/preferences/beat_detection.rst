@@ -80,3 +80,6 @@ follow the note below.
 
 .. note:: If the detected BPM value is not sufficiently accurate but very close
           to an integer value, try to set the BPM value manually to the integer.
+
+For more granular adjustments there are beatgrid controls close to the
+:ref:`interface-waveform` of each deck in the main interface.

@@ -106,7 +106,7 @@ send messages to text displays on the controller.
 
 For more information, go to `<https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting>`_
 and `<https://github.com/mixxxdj/mixxx/wiki/Hid-Mapping>`_
-, as well as the `Comonents-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
+, as well as the `Components-JS library <https://github.com/mixxxdj/mixxx/wiki/Components-JS>`_
 which greatly simplifies mapping, for example effect units and complex behaviour
 like switching deck layers or pad grid modes. Note that this is the preferred way
 of mapping if intended your mapping to be included in Mixxx since Components-JS
@@ -140,6 +140,14 @@ Then edit this file and save the changes. On the next startup, Mixxx will check
 if :file:`Custom.kbd.cfg` is present and load that file instead of the default
 mapping file. This has the advantage that you can always revert back to the
 default mapping by deleting :file:`Custom.kbd.cfg`.
+
+Note that the situation is a bit different with the menubar shortcuts in the `[KeyboardShortcuts]` section.
+If you want to use any of these default menubar shortcuts for something else, it is not sufficient to remove
+the respective line from the mapping file. The menubar will use the hard-coded defaults if doesn't find an
+entry in the mapping file.
+Hence, to use any of the menubar shortcuts, you need to supply another key to be picked up by the menubar.
+This may be an unused key, or if you don't need the menubar shortcut at all, a key that's not present on
+your keyboard and can also not be composed by accident, for example Cyrillic characters on a french keyboard.
 
 For a list of controls that can be used in a keyboard mapping, see
 :ref:`appendix-mixxxcontrols`.
@@ -233,3 +241,56 @@ using sends for effects. This gives Mixxx access to the extensive collection of
 Make sure the correct multichannel audio interface has been selected in Jack
 (Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
 ports as :guilabel:`Portaudio`.
+
+.. _advanced-migrate-settings:
+
+Migrate your Mixxx library and settings to a new computer
+=========================================================
+
+If you move to a new computer, or to another operating system on the same computer, you can take your existing Mixxx setup with you. This includes your track library, settings, controller mappings and broadcast profiles.
+
+You don't necessarily need to be able to run your previous Mixxx installation, all you need is your :ref:`settings directory <appendix-settings-files>` and the music directories you imported into your Mixxx library via :menuselection:`Preferences --> Library`.
+
+Preparation
+-----------
+
+* If you still have access to your Mixxx installation open Mixxx, go to :menuselection:`Preferences --> Library` and uncheck :guilabel:`Rescan on startup`. If you are not able to start Mixxx anymore, e.g. if you only managed to recover your settings directory, you can do this manually in the settings file: open :file:`mixxx.cfg` with a text editor, delete the line with :file:`RescanOnStartup` and save the file.
+* Make a copy of both the Mixxx settings directory and your music directories. Put all in a save place. **Do not restructure your music directories!**
+* Install your new operating system, get your new PC ready.
+* Get the current stable Mixxx version from `the official download page <https://mixxx.org/download/>`_.
+* Install Mixxx, though **don't run it, yet!**
+
+Migration
+---------
+
+* Copy your Mixxx settings directory to the appropriate location, see :ref:`appendix-settings-files`. In case you already started Mixxx previously, make sure to rename or delete your existing settings directory in order to avoid any file conflicts.
+* Copy your music directories to the new computer.
+* Start Mixxx.
+* If you've put the settings directory in the correct location Mixxx should not ask you for your music directories and all your settings should be as before.
+* Go to :menuselection:`Preferences --> Library` and **Relink** each of your music directories as described in :ref:`configuration-import`.
+
+Now, all your music files should be available, all your playlists, crates and your session histories be restored. A library rescan is not required. Configure a sound output and test if you can play all tracks as before. Note that this will obviously not include your external libraries (iTunes, Traktor etc.), you need to configure those again.
+
+Known issues
+------------
+
+If you migrated to another operating system, operating system version or another Mixxx version, the used
+audio decoders may have changed which may cause beatgrids and cue points to appear shifted, i.e. they are
+set off from the desired points in the audio stream. Unfortunately, there is no automatic fix available, yet.
+As of now you need to shift cues for each track individually with the cue shift buttons in the beatgrid editing
+controls section, see :ref:`interface-waveform`.
+
+.. _advanced-migrate-flatpak:
+
+Migrate your Mixxx library and settings to Flatpak
+==================================================
+
+Since version 2.5 Mixxx is also provided as Flatpak.
+
+If you do want to switch from a distribution package or Mixxx built from source code to the Flatpak, a little setup is required. Flatpak stores Mixxx's database, settings, and custom controller mappings in a different location than the `~/.mixxx` directory that Mixxx has always used before. Flatpak uses `~/.var/app/org.mixxx.Mixxx/.mixxx` instead. To copy your database, settings, and controller mappings into the Flatpak sandbox, run:
+::
+
+  mkdir -p ~/.var/app/org.mixxx.Mixxx
+  cp -r ~/.mixxx ~/.var/app/org.mixxx.Mixxx
+
+If your library contains any directories outside of your XDG Music Directory (`~/Music` unless you have reconfigured this), you will need to relink these directories to access the files inside of Flatpak's sandbox. Run Mixxx from the Flatpak and go to :menuselection:`Options --> Preferences --> Library`. Any directories that have a warning icon with `!` in a yellow triangle need to be relinked. Select the directory in the preferences window and click the Relink button, then select the directory in the file picker dialog. Flatpak will automatically remap the directory under `/run/user` so Mixxx can read and write your music files from inside the Flatpak sandbox. Press Ok in the preferences window, then in Mixxx's main window, go to :menuselection:`Library > Rescan Library`.

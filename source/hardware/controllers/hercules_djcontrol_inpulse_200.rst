@@ -67,10 +67,11 @@ Browser
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`BROWSER` encoder (turn)                                Move up/down list.
-:hwlabel:`BROWSER` encoder (press)                               Switch focus between list and file view.
-:hwlabel:`SHIFT` + Encoder (press)                               Maximize/Minimize library view.
-:hwlabel:`ASSISTANT` button                                      Toggle AutoDJ (be sure a playlist was created for AutoDJ before activating this function).
+:hwlabel:`BROWSER` turn                                          Move up/down list.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` turn                       Scroll up/down list.
+:hwlabel:`BROWSER` press                                         Switch focus between list and file view.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` press                      Maximize/Minimize library view.
+:hwlabel:`ASSISTANT` button                                      Toggle AutoDJ (playlist must be set).
 ===============================================================  ==========================================
 
 Performance Pads
@@ -124,7 +125,7 @@ Pad 4 (deck B)                                                   Toggle Effect R
 ===============================================================  ==========================================
 
 .. seealso::
-   Read the update guide for more details about `updating the firmware <https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide>`__.
+   Read the update guide for more details about `updating the firmware <https://web.archive.org/web/20250329173925/https://www.djuced.com/change-your-pad-fx-on-hercules-djcontrol-inpulse-firmware-update-guide/>`__.
 
 Sampler Mode
 ^^^^^^^^^^^^

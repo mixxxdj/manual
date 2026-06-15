@@ -1,3 +1,5 @@
+.. _hercules_dj_console_rmx:
+
 Hercules DJ Console RMX
 =======================
 
@@ -83,7 +85,7 @@ Deck / Channel specific controls
 |                                  | and moves to the beginning.      |
 +----------------------------------+----------------------------------+
 | Cue                              | Sets the cue point if a track is |
-|                                  | stopped and not at the curren    |
+|                                  | stopped and not at the current   |
 |                                  | cue point                        |
 |                                  | Stops track and returns to the   |
 |                                  | current cue point if a track is  |

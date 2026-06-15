@@ -1,7 +1,7 @@
 Hercules DJ Console 4-Mx
 ========================
 
-The Hercules DJ Console 4-Mx is a USB controller with a built in sound card. It is very similar to the [[Hercules DJ Console RMX]], but with switches for 4 decks.
+The Hercules DJ Console 4-Mx is a USB controller with a built in sound card. It is very similar to the :ref:`Hercules DJ Console RMX <hercules_dj_console_rmx>`, but with switches for 4 decks.
 
 -  `Manufacturer's product page <https://support.hercules.com/en/product/djconsole4mx-en/>`__
 
@@ -134,7 +134,7 @@ Deck / Channel specific controls
 |           | jog pressed    |                                                                                                                                                                         |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Jog wheel | Up/Down        | Moves up / down in the tracklist if either Up or Down are held down                                                                                                     |
-|           | presssed       |                                                                                                                                                                         |
+|           | pressed        |                                                                                                                                                                         |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Jog wheel | LED            | If the beatflash led has been set to jogwheel in the JavaScript file, the light of this button will be flashing following the beats of the song.                        |
 +-----------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
