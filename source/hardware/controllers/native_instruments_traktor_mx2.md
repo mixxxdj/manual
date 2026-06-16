@@ -10,7 +10,6 @@ inputs (1/4" / 6.3 mm TRS). The MX2 uses the standard HID protocol to send and r
 
 :::{versionadded} 2.6.0
 :::
-
 ## Mixxx Sound Hardware Preferences
 
 -  Main output: channels 1-2

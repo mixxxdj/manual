@@ -75,6 +75,7 @@ These channel assignments are also needed to make the {hwlabel}`CH 1/2 PC/LINE/P
 The control numbering in the schematic drawings matches the those found on the
 specified page in the Owner’s Manual.
 
+A mapping has been [added to Mixxx](https://github.com/mixxxdj/mixxx/pull/2111) prior to the 2.3.0 release.
 
 ### Browser Section (p. 4)
 
@@ -233,27 +234,26 @@ Roland DJ-505 (TR-S section)
 ### Performance Pads
 
 
-You can use the Pad Mode Select buttons to select a mode for the
-performance pads.
+You can use the Pad Mode Select buttons to select a mode for the performance pads.
+Most pad modes are similar to those found when used with Serato.
 
-| Control                                                    |  Mode                 |   LED Color |
-| --- | --- | --- |
-| {hwlabel}`HOT CUE` button                                  |  Hot Cue Mode         |   White |
-| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button               |  Cue Loop Mode        |   Blue |
-| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button (press twice) |  Prepare Mode         |   Red |
-| {hwlabel}`ROLL` button                                     |  Roll Mode            |   Light blue |
-| {hwlabel}`ROLL` button (press twice)                       |  Saved Loop Mode      |   Green |
-| {hwlabel}`TR` button                                       |  TR Mode              |   Red |
-| {hwlabel}`SHIFT` + {hwlabel}`TR` button                    |  Pattern Mode         |   Green |
-| {hwlabel}`TR` button (press twice)                         |  TR Velocity Mode     |   Orange |
-| {hwlabel}`SAMPLER` button                                  |  Sampler Mode         |   Magenta |
-| {hwlabel}`SHIFT` + {hwlabel}`SAMPLER` button               |  Velocity Sampler Mod |   Purple |
-| {hwlabel}`SAMPLER` button (press twice)                    |  Pitch Play Mode      |   Green |
+| Control                                                    |  Mode                | LED Color  |
+| ---------------------------------------------------------- | ---------------------| ---------- |
+| {hwlabel}`HOT CUE` button                                  | Hot Cue Mode         | White      |
+| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button               | Cue Loop Mode        | Blue       |
+| {hwlabel}`SHIFT` + {hwlabel}`HOT CUE` button (press twice) | Prepare Mode         | Red        |
+| {hwlabel}`ROLL` button                                     | Roll Mode            | Light blue |
+| {hwlabel}`ROLL` button (press twice)                       | Saved Loop Mode      | Green      |
+| {hwlabel}`TR` button                                       | TR Mode              | Red        |
+| {hwlabel}`SHIFT` + {hwlabel}`TR` button                    | Pattern Mode         | Green      |
+| {hwlabel}`TR` button (press twice)                         | TR Velocity Mode     | Orange     |
+| {hwlabel}`SAMPLER` button                                  | Sampler Mode         | Magenta    |
+| {hwlabel}`SHIFT` + {hwlabel}`SAMPLER` button               | Velocity Sampler Mod | Purple     |
+| {hwlabel}`SAMPLER` button (press twice)                    | Pitch Play Mode      | Green      |
 
 
 Most pad modes are similar to those found when used with Serato.
-Modes that are described in the owner’s manual (Slicer, Slicer
-Loop, Flip) but not listed below are currently not mapped.
+Modes that are described in the owner’s manual (Slicer, Slicer Loop, Flip) but not listed below are currently not mapped.
 
 #### Hot Cue Mode
 
@@ -430,7 +430,7 @@ Pads right of the white lit pad raise the pitch, pads left of it lower it.
 | No.      |  Control                                                        |   Function |
 | --- | --- | --- |
 | 1-8      |  Pad                                                            |   Play currently selected hotcue with modified pitch. |
-| 1-8      |  {hwlabel}`SHIFT` + Pad (dimly lit)                             |   Select hot cue for pitch play. The pad of the currently selected hotcue pad is lit. |
+| 1-8      |  {hwlabel}`SHIFT` + Pad (dimly lit)                             |   Select hot cue for pitch play. The pad of the selected hotcue pad is lit. |
 | 9-10     |  {hwlabel}`PARAMETER -/+` buttons                               |   Cycles through semitone ranges (Up, Mid, Down). |
 
 
@@ -439,7 +439,7 @@ Pads right of the white lit pad raise the pitch, pads left of it lower it.
 
 -  TR-S Syncing currently works at the {term}`BPM` level, but phase syncing is not implemented yet.
    As a workaround, the {hwlabel}`NUDGE` button can be used to adjust the phase.
-   This depends on {term}`MIDI` clock I/O ([Bug #5682](https://github.com/mixxxdj/mixxx/issues/5682)).
+   This depends on {term}`MIDI` clock I/O ([Bug #5682](https://github.com/mixxx/issues/5682)).
 -  Some performance pad modes are missing
    (Slicer [[Launchpad Bug #9660](https://github.com/mixxxdj/mixxx/issues/9660)],
    Slicer Loop,

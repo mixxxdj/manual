@@ -28,6 +28,7 @@ Their firmwares use different MIDI messages to communicate with the
 computer. Unfortunately, it is not possible to switch between the
 VCI-400 and VCI-400 Ean Golden Edition firmware.
 
+Reference: forum(dot)djtechtools(dot)com/showthread.php?t=64071&p=572022&viewfull=1#post572022
 ## Mapping
 
 ```{figure} ../../_static/controllers/vestax_vci_400.png

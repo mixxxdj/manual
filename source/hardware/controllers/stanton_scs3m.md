@@ -9,6 +9,7 @@
 :::
 ## Mapping Description
 
+This guide explains how the SCS.3m is mapped by default in Mixxx.
 
 ```{figure-md}
 :align: center
@@ -161,3 +162,5 @@ channel, while the right side controls the main channel.
 -  Left slider: head gain
 -  Right slider: main gain
 -  Buttons: The buttons assign effects to head and main output
+
+*Images courtesy of Stanton Magnetics, Inc.*

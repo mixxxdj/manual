@@ -2,6 +2,8 @@
 
 # Behringer CMD MM-1
 
+![](../../_static/controllers/behringercmdmm1overview.png)
+
 
 The Behringer CMD MM-1 is a flexible controller that controls 4 decks by
 default. The mapping can be easily configured to control any combination
@@ -32,12 +34,12 @@ this document.
 
 
 There are a few user configurable options available for you to customize. You
-can change these by opening the {file}`Behringer-CMD-MM-1-scripts.js` file with
+can change these by opening the {file}`Behringer-CMD-MM-1-scripts.js` file in your User Controller Mapping Folder with
 your text editor of choice (such as Notepad, TextEdit, Kate, or gEdit) and
 editing the lines at the very top of the file.
 
 -  channelNumber: change this if your {ref}`controller LEDs do not light
-   up <behringer-cmd-mm1-1-troubleshooting-led>`.
+   up <behringer-cmd-mm1-1-troubleshooting-led>.
 -  invertColor: Swaps the colors which suits certain skins more
 -  defaultChannelSequence: Defines how the channels are mapped when
    Mixxx starts
@@ -132,6 +134,9 @@ their own section.
 Behringer CMD MM-1 (FX mode)
 
 ```
+
+![](../../_static/controllers/buttonsofflabeledfxmode-min.png)
+
 [1]&[2] Buttons:
 
 -  Normal: Toggle Effect 1&2 in desired FxUnit
@@ -143,7 +148,7 @@ Behringer CMD MM-1 (FX mode)
 
 -  Normal: Toggle Effect 3 for desired FxUnit
 -  Shift: Pre-Fader-Listening for FxUnit
--  Ctrl: change mix_mode of Unit
+-  Ctrl: change mix\_mode of Unit
 -  Third: Change Channelmode
 
 ### Faders
@@ -182,6 +187,13 @@ there is a rare issue where you have to change the Channel mode after
 the assignment for it to work. So it is suggested that you always change
 the assignment first).
 
+## Alternative mappings
+
+The community has created several alternative mappings for the Behringer CMD MM-1:
+
+- **Plain mapping**: A simpler mapping with visual guides and 3D model references. See the [forum thread](https://mixxx.org/forums/viewtopic.php?f=7&t=8762) for details.
+- **Advanced mapping**: Features two modifiers (Shift and Ctrl) for up to four functionalities per button. See the [forum thread](https://mixxx.discourse.group/t/advanced-behringer-cmd-mm-1-mapping/16753) for details.
+
 ## Troubleshooting
 
 
@@ -194,7 +206,8 @@ The issue is probably the MIDI channel of your MM-1. Behringer had a
 tool that can set the controller to a different MIDI channel, however
 this is no longer available for download from Behringer’s website. So
 you will have to modify the controller mapping to use the MIDI channel
-that your controller is set to.
+that your controller is set to. Refer to MIDI Crash Course for how
+to see incoming MIDI messages from your controller.
 
 Once you know the MIDI channel of your controller, open the file
 {file}`Behringer-CMD-MM-1-scripts.js` file with your text editor of choice (such as Notepad, TextEdit, Kate, or

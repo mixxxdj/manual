@@ -14,7 +14,6 @@ and using a separate power supply has no impact on the output level or LED brigh
 :::{versionchanged} 2.3
    Unbind Main knob from Mixxx's Main Gain, because it controls the hardware volume.
 :::
-
 ## Mixxx Sound Hardware Preferences
 
 -  Main output: channels 1-2

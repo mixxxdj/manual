@@ -1,5 +1,12 @@
 # Stanton DJC.4
 
+```{figure-md}
+:align: center
+
+<img src="../../_static/controllers/stanton-djc4_top.jpg" alt="Stanton DJC.4 (top view)" class="pretty-figures" width="100%">
+
+Stanton DJC.4 (top view)
+```
 
 -  [Manufacturer’s product page](https://web.archive.org/web/20220909115203/https://www.stantondj.com/stanton-controllers-systems/djc4.html)
 -  [Manual / Midi commands](https://web.archive.org/web/20211008132713/https://www.stantondj.com/pdf/products/controllers/djc4/DJC.4ManualV1.1.pdf)
@@ -15,6 +22,14 @@ However, if you wish to use the {ref}`ASIO sound API <preferences-sound-api>` un
 
 ## Sound card setup
 
+
+```{figure-md}
+:align: center
+
+<img src="../../_static/controllers/stanton-djc-4-rear.jpg" alt="Stanton DJC.4 (rear view)" class="pretty-figures" width="100%">
+
+Stanton DJC.4 (rear view)
+```
 
 This controller has a built-in 4 channel sound card, with MASTER output (RCA and balanced 6.3 mm TRS) and HEADPHONE output (6.3 and 3.5mm jack).
 
@@ -39,13 +54,21 @@ TRS on front) or Line/Phono 3/4 (RCA).
 On the rear side is a small switch to select if Input 1 is routed to the PC or directly to the main output (through). It is therefore possible to include the microphone into a recording/stream or to
 exclude it.
 
-:::{seealso}
+```{seealso}
 The {ref}`example setups section <setup-laptop-and-external-card>` provides more details about the audio configuration in Mixxx.
 :::
 ### Hardware controls
 
 
 The **Master** and **Mic Level** are hardware controls and interact directly with the integrated sound card and are not mapped to Mixxx.
+
+```{figure-md}
+:align: center
+
+<img src="../../_static/controllers/stanton-djc-4-front.jpg" alt="Stanton DJC.4 (front view)" class="pretty-figures" width="100%">
+
+Stanton DJC.4 (front view)
+```
 
 :::{seealso}
 The {ref}`gain staging documentation <djing-gain-staging>` explains how to set your levels properly when using Mixxx.
@@ -141,7 +164,7 @@ Hence, turning the knobs will not change values in the Mixxx {term}`GUI` and you
 | --- | --- | --- |
 | 1                        |  {hwlabel}`SAMPLER 1-4` (left deck)                    |   Controls Samplers 1-4 (independent of deck selection) |
 | 2                        |  {hwlabel}`SAMPLER 1-4` (right deck)                   |   Controls Samplers 5-8 (independent of deck selection) |
-
+| | | *See Standard sampler mapping.* |
 
 
 ### Effect section
@@ -156,7 +179,7 @@ Hence, turning the knobs will not change values in the Mixxx {term}`GUI` and you
 #### Tweakables
 
 
-At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few customizable options to change the default mapping.
+At the top of the file `Stanton-DJC-4-scripts.js` there are a few customizable options to change the default mapping.
 
 | Variable              |  Function                                                                                  |   Default |
 | --- | --- | --- |

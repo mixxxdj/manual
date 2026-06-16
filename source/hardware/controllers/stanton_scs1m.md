@@ -11,6 +11,16 @@ Stanton SCS.1m (top/schematic view). Image courtesy of [Stanton Magnetics, Inc.]
 ```
 -  [Manufacturer’s product page](https://web.archive.org/web/20220903093704/https://www.stantondj.com/stanton-controllers-systems/scs1m.html)
 
+## Mapping description
+
+```{figure} ../../_static/controllers/scs1m-map.png
+   :align: center
+   :class: pretty-figures
+   :width: 75%
+
+   Stanton SCS.1m (mapping view)
+```
+
 :::{versionadded} 1.7
 :::
 **Easy customization:** We have provided the following customization variables
