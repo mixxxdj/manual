@@ -2,6 +2,7 @@
 
 # Pioneer DDJ-SB2
 
+![](../../_static/controllers/pioneer-ddj-sb2_1.jpg)
 
 The Pioneer DDJ-SB2 is an all-in-one USB {term}`MIDI` controller with a built in sound card. It has controls for 2 decks that can be toggled between decks to play with 4 decks.
 
@@ -33,7 +34,7 @@ The DDJ-SB2 is a USB class compliant {term}`MIDI` and audio device, so it works 
 ## User Options
 
 
-There are some user configurable options for this mapping. To change the options, open the ``.js`` file in your controller for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or TextEdit on Mac OS X.
+There are some user configurable options for this mapping. To change the options, open the ``.js`` file in your controller for your Pioneer DDJ-SB2 with a text editor such as KWrite or GEdit on GNU/Linux, Notepad on Windows, or TextEdit on Mac OS X. The mapping files can be found in the user controller mapping folder.
 
 -  **blinkingSync**: If true the sync button blinks with the beat, if false led is lit when sync is enabled.
 -  **invertVinylSlipButton**: If true, the vinyl button activates slip. Vinyl mode is then activated by using shift. Allows toggling slip faster, but is counterintuitive.
@@ -112,7 +113,7 @@ loop. When you press shift + slip again, Mixxx will jump back to that point.
 ### Pads - lower row
 
 
-The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed.
+The play and cue pads should be self-explaining. The sync pad toggles sync lock for a deck, which tries to beatmatch the deck with the others, and also syncs the tempo between them, even when the tempo of one deck is changed. Refer to the Mixxx manual for how to use master sync.
 
 Additional functions can be accessed by holding shift
 

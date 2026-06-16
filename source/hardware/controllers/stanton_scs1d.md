@@ -1,10 +1,12 @@
 # Stanton SCS.1d
 
-
 -  [Manufacturer’s product page](https://web.archive.org/web/20220124175727/http://www.stantondj.com/stanton-controllers-systems/scs1d.html)
+
+*Image courtesy of [Stanton Magnetics, Inc.](http://www.stantondj.com)*
 
 :::{versionadded} 1.9.1
 :::
+
 ## Mapping description
 
 

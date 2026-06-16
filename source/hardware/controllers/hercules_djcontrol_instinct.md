@@ -90,3 +90,13 @@ Hercules DJControl Instinct (schematic view). This picture is taken from the pro
 16.  Sync tempo of this deck to the tempo of the other deck
 17.  If pressed while paused sets the cue and when held plays from the cue, when pressed during playback jumps to the cue.
 18.  Play and pause playback of the respective decks
+
+## MIDI Map
+
+<https://docs.google.com/spreadsheets/d/1lNR5fh5pesNiECW_U8hI9UGamxqB5SG3x-9UddwpeHw/edit?usp=sharing>
+
+### Mapping / Control files DJ Control Instinct S
+
+Standard DJ Control Instinct doesn't work with the "Instinct S" variant.
+This mapping works best: (download raw files):
+<https://github.com/nikmartin/hercules-mixxx-mapping/tree/master/controllers>

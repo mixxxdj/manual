@@ -1,7 +1,7 @@
 # Pioneer DDJ-SB
 
 
-The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks.
+The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a built in soundcard. Mixxx allows it to control 4 decks. It is compatible with Mixxx since version 1.12.
 
 -  [Manufacturer’s product page](https://www.pioneerdj.com/en/product/controller/archive/ddj-sb/black/overview/)
 -  [Forum thread](https://mixxx.discourse.group/t/midi-mapping-for-pioneer-ddj-sb/14806)
@@ -94,7 +94,7 @@ Additional functions can be accessed by holding shift
 | --- | --- |
 | Shift + play | Plays the track in reverse and enables slipping (see slip mode) |
 | Shift + cue  | Brakes the track as if the power of the motor on a turntable was turned off |
-| Shift + sync | Enables quantize mode (this makes most actions, e.g. setting the cue point, fall to the nearest beat) |
+| Shift + sync | Enables quantize mode (this makes most actions, e.g. setting the cue point, fall to the nearest beat) |
 
 
 ### Pads - hot cue mode
@@ -154,13 +154,13 @@ position with a determinate beat length while simultaneously enabling slip mode,
 | Control       | Function |
 | --- | --- |
 | Pad 1         | 1/16th beat loop roll |
-| Pad 2         | 1/8th beat loop roll |
-| Pad 3         | 1/4th beat loop roll |
-| Pad 4         | 1/2 beat loop roll |
-| Shift + pad 1 | 1 beat loop roll |
-| Shift + pad 2 | 2 beat loop roll |
-| Shift + pad 3 | 4 beat loop roll |
-| Shift + pad 4 | 8 beat loop roll |
+| Pad 2         | 1/8th beat loop roll  |
+| Pad 3         | 1/4th beat loop roll  |
+| Pad 4         | 1/2 beat loop roll    |
+| Shift + pad 1 | 1 beat loop roll      |
+| Shift + pad 2 | 2 beat loop roll      |
+| Shift + pad 3 | 4 beat loop roll      |
+| Shift + pad 4 | 8 beat loop roll      |
 
 
 ### Pads - kill (shift + manual loop)

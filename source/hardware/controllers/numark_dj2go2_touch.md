@@ -10,6 +10,7 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 
 -  [Manufacturer’s product page](https://www.numark.com/product/dj2go2-touch)
 -  [Mapping Forum Thread](https://mixxx.discourse.group/t/a-complete-numark-dj2go2-touch-mapping/22616)
+-  [Numark DJ2GO2 Touch Review (digitaldjtips.com)](https://www.digitaldjtips.com/reviews/numark-dj2go2-touch/)
 
 :::{versionadded} 2.3.1
 :::
@@ -20,6 +21,15 @@ It is the successor to the DJ2GO2, and features touch capable wheels.
 
 
 Numark DJ2GO2 Touch (schematic view)
+```
+
+```{figure-md}
+:align: center
+
+<img src="../../_static/controllers/numark-dj2go2-touch-top-down-web-624x390.jpg" alt="Numark DJ2GO2 Touch (top down view)" class="pretty-figures" width="100%">
+
+
+Numark DJ2GO2 Touch (top down view)
 ```
 ## Audio Setup
 
@@ -86,3 +96,5 @@ The pad mode is changed using the {hwlabel}`PAD MODE` button.
 | 1   |  USB                                                            |   Micro USB slot for data / power connection to the Mixxx host device. |
 | 16  |  Main (3.5mm)                                                   |   Master audio output for the onboard interface. |
 | 17  |  Headphones (3.5mm)                                             |   Headphones audio output for the onboard interface. |
+
+Nothing beyond the usual loading of the mapping in Mixxx's preferences is required.

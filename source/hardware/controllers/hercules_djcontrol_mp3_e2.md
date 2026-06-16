@@ -8,6 +8,19 @@ These controllers do not have a built in sound card, so a {ref}`splitter cable <
 :::
 :::{versionchanged} 2.3.0
 :::
+
+MP3 e2
+
+![hercules\_dj\_control\_mp3\_e2.jpg](../../_static/controllers/hercules_dj_control_mp3_e2.jpg)
+
+MP3 LE
+
+![hercules-dj-control-mp3-le.jpeg](../../_static/controllers/hercules-dj-control-mp3-le.jpeg)
+
+Glow
+
+![hercules-dj-control-glow.jpeg](../../_static/controllers/hercules-dj-control-glow.jpeg)
+
 This new version is intended to work in a more intuitive way. Once you click on a button, it does its original function.
 
 :::{note}

@@ -24,6 +24,23 @@ microphone input is suggested.
 :::{versionadded} 2.1
 :::
 
+## Additional configuration options
+
+These options can be set at the top of the :file:`Numark-Mixtrack-3-scripts.js` file:
+
+- **beatlooprollActivate**: Use beatlooproll (slip mode loop) instead
+  of beatloop command when using pads in Autoloop mode.
+- **DarkMetalSkin**: Specify if Dark Metal skin is used for your
+  installation. This is required for the Expand Library feature to
+  work properly.
+- **FXMode**: Select FX Mode based on skin used:
+  - value "1" (Deere skin): Each deck is assigned its own Effect Unit
+    with 3 effects per deck (e.g. Deck 1 = Effect Unit 1, Deck 2 =
+    Effect Unit 2, etc.)
+  - value "2" (other skins): FX button 1 = Effect Unit 1, Effect 1,
+    FX Button 2 = Effect Unit 2, Effect 1, FX button 3 = Effect Unit 3,
+    Effect 1. Effect settings are shared by each deck.
+
 ## Mapping Description
 
 ```{figure} ../../_static/controllers/numark_mixtrack_pro_3.svg
