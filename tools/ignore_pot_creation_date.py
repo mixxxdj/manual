@@ -31,13 +31,19 @@ def get_git_changeset(from_ref, to_ref) -> str:
     return f"{from_ref}...{to_ref}" if to_ref else from_ref
 
 
-def count_meaningful_changes(
-    changeset: str, po_file: typing.Iterable[pathlib.Path]
-) -> int:
+def count_meaningful_changes(changeset: str, po_file: pathlib.Path) -> int:
     """
     Counts meaningful changes in the diff for a given PO file.
     """
-    cmd = ["git", "diff", "--patch", "--unified=0", changeset, "--", po_file]
+    cmd = [
+        "git",
+        "diff",
+        "--patch",
+        "--unified=0",
+        changeset,
+        "--",
+        os.fspath(po_file),
+    ]
     output = subprocess.check_output(cmd, text=True)
 
     diff_lines = output.splitlines()
@@ -51,7 +57,7 @@ def count_meaningful_changes(
     )
 
 
-def revert_po_file(changeset, po_file):
+def revert_po_file(changeset, po_file: pathlib.Path) -> None:
     """
     Reverts a PO file to its original state in the given changeset.
     """
