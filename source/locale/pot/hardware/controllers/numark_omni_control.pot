@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 22:05+0100\n"
+"POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Numark Omni Control"
 msgstr ""
 
 #: ../../hardware/controllers/numark_omni_control.rst:4
-msgid "`Manfacturer’s product page <http://www.numark.com/product/omnicontrol>`__"
+msgid "`Manfacturer’s product page <https://web.archive.org/web/20251116215741/https://www.numark.com/product/omnicontrol>`__"
 msgstr ""
 
 #: ../../hardware/controllers/numark_omni_control.rst:9
