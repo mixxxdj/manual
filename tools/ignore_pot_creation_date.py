@@ -61,9 +61,8 @@ def revert_po_file(changeset, po_file: pathlib.Path) -> None:
     """
     Reverts a PO file to its original state in the given changeset.
     """
-    ref = changeset.split("...")[
-        0
-    ]  # Use the first part of the changeset as the reference
+    # Use the first part of the changeset as the reference
+    ref = changeset.split("...", 1)[0]
     logger = logging.getLogger(__name__)
     logger.info(f"{po_file} has no meaningful changes, reverting to {ref}")
     cmd = ["git", "show", f"{ref}:{po_file}"]
