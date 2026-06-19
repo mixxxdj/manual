@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 19:17+0200\n"
+"POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -347,7 +347,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:45
-msgid ":hwlabel:`SHIFT`  :hwlabel:`BACK`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`BACK`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:45
@@ -497,7 +497,8 @@ msgid "Toggles PFL/Cue (headphones) for specific deck"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:55
-msgid ":hwlabel:`SHIFT`  :hwlabel:`CUE`"
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:83
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:55
@@ -546,7 +547,7 @@ msgid "Toggles main cue"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:58
-msgid ":hwlabel:`SHIFT`  :hwlabel:`MASTER CUE`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`MASTER CUE`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:58
@@ -702,10 +703,6 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:82
 msgid "Toggles default cue (sets cue point/ goes to cue point)"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:83
-msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:83
@@ -882,7 +879,7 @@ msgid "Set and enable beat loop"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:103
-msgid ":hwlabel:`SHIFT`    :hwlabel:`AUTO LOOP`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`AUTO LOOP`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:103
@@ -898,7 +895,7 @@ msgid "Halves active loop"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:105
-msgid ":hwlabel:`SHIFT`    :hwlabel:`LOOP 1/2X`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOOP 1/2X`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:105
@@ -922,7 +919,7 @@ msgid "Doubles active loop"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:107
-msgid ":hwlabel:`SHIFT`    :hwlabel:`LOOP 2X`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOOP 2X`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:107
@@ -943,7 +940,7 @@ msgid "Toggles loop in"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:109
-msgid ":hwlabel:`SHIFT`    :hwlabel:`LOOP IN`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOOP IN`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:109
@@ -964,7 +961,7 @@ msgid "Toggles loop out"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:111
-msgid ":hwlabel:`SHIFT`    :hwlabel:`LOOP OUT`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`LOOP OUT`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:111
@@ -997,7 +994,7 @@ msgid "Toggles reverse roll play"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:114
-msgid ":hwlabel:`SHIFT`    :hwlabel:`CENSOR`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`CENSOR`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:114
@@ -1030,7 +1027,7 @@ msgid "Hold and touch/rotate Jog dial to adjust beats faster/slower"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:117
-msgid ":hwlabel:`SHIFT`    :hwlabel:`GRID ADJUST`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`GRID ADJUST`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:117
@@ -1151,6 +1148,7 @@ msgid "Set/activate Hot cue 1"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:149
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:289
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 1`"
 msgstr ""
 
@@ -1171,6 +1169,7 @@ msgid "Set/activate Hot cue 2"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:151
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:291
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 2`"
 msgstr ""
 
@@ -1191,6 +1190,7 @@ msgid "Set/activate Hot cue 3"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:153
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:293
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 3`"
 msgstr ""
 
@@ -1211,6 +1211,7 @@ msgid "Set/activate Hot cue 4"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:155
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:295
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 4`"
 msgstr ""
 
@@ -1231,6 +1232,7 @@ msgid "Set/activate Hot cue 5"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:157
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:297
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 5`"
 msgstr ""
 
@@ -1251,6 +1253,7 @@ msgid "Set/activate Hot cue 6"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:159
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:299
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 6`"
 msgstr ""
 
@@ -1271,6 +1274,7 @@ msgid "Set/activate Hot cue 7"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:161
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:301
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 7`"
 msgstr ""
 
@@ -1291,6 +1295,7 @@ msgid "Set/activate Hot cue 8"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:163
+#: ../../hardware/controllers/pioneer_ddj_sx.rst:303
 msgid ":hwlabel:`SHIFT` + :hwlabel:`PAD 8`"
 msgstr ""
 
@@ -1685,10 +1690,6 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:289
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 1`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:289
 msgid ""
 "Sample deck index 1 (according sampler bank) - playing: stop deck, stopped: "
 "eject track"
@@ -1699,10 +1700,6 @@ msgid ""
 "Sample deck index 2 (according sampler bank) - empty: Load selected track "
 "into sample deck, track loaded: start play (default, see user options) "
 "sample deck"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:291
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 2`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:291
@@ -1719,10 +1716,6 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:293
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 3`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:293
 msgid ""
 "Sample deck index 3 (according sampler bank) - playing: stop deck, stopped: "
 "eject track"
@@ -1733,10 +1726,6 @@ msgid ""
 "Sample deck index 4 (according sampler bank) - empty: Load selected track "
 "into sample deck, track loaded: start play (default, see user options) "
 "sample deck"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:295
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 4`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:295
@@ -1753,10 +1742,6 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:297
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 5`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:297
 msgid ""
 "Sample deck index 5 (according sampler bank) - playing: stop deck, stopped: "
 "eject track"
@@ -1767,10 +1752,6 @@ msgid ""
 "Sample deck index 6 (according sampler bank) - empty: Load selected track "
 "into sample deck, track loaded: start play (default, see user options) "
 "sample deck"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:299
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 6`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:299
@@ -1787,10 +1768,6 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:301
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 7`"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:301
 msgid ""
 "Sample deck index 7 (according sampler bank) - playing: stop deck, stopped: "
 "eject track"
@@ -1801,10 +1778,6 @@ msgid ""
 "Sample deck index 8 (according sampler bank) - empty: Load selected track "
 "into sample deck, track loaded: start play (default, see user options) "
 "sample deck"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_sx.rst:303
-msgid ":hwlabel:`SHIFT` + hwlabel:`PAD 8`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:303
@@ -1935,7 +1908,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:353
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX2-1`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2-1`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:353
@@ -1959,7 +1932,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:355
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX1-2`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX1-2`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:355
@@ -1983,7 +1956,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:357
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX2-2`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2-2`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:357
@@ -2007,7 +1980,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:359
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX1-3`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX1-3`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:359
@@ -2031,7 +2004,7 @@ msgid ""
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:361
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX2-3`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2-3`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:361
@@ -2065,7 +2038,7 @@ msgid "Controls EffectRack1-EffectUnit2/4 mix"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:364
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX1 BEATS`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX1 BEATS`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:364
@@ -2073,7 +2046,7 @@ msgid "Controls EffectRack1-EffectUnit1/3 super1 knob"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:365
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX2 BEATS`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2 BEATS`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:365
@@ -2191,7 +2164,7 @@ msgid "EffectFocusButton of EffectRack1-EffectUnit2/4"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:374
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX1 TAP`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX1 TAP`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:374
@@ -2199,7 +2172,7 @@ msgid "Switch EffectUnit 1 <-> 3"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:375
-msgid ":hwlabel:`SHIFT` + hwlabel:`FX2 TAP`"
+msgid ":hwlabel:`SHIFT` + :hwlabel:`FX2 TAP`"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_sx.rst:375

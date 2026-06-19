@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 21:45+0200\n"
+"POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
@@ -1033,7 +1033,7 @@ msgstr ""
 #: ../../chapters/appendix/changelog.rst:324
 msgid ""
 "Pitch filter improvements `#15230 "
-"<https15054://github.com/mixxxdj/mixxx/pull/15230>`__"
+"<https://github.com/mixxxdj/mixxx/pull/15230>`__"
 msgstr ""
 
 #: ../../chapters/appendix/changelog.rst:325
@@ -6243,8 +6243,8 @@ msgstr ""
 
 #: ../../chapters/appendix/changelog.rst:2194
 msgid ""
-"Find older changelog entries `here "
-"<https://github.com/mixxxdj/mixxx/blob/2.5.0/CHANGELOG.md>`__."
+"Find older changelog entries in the `2.5.0 Changelog "
+"<https://github.com/mixxxdj/mixxx/blob/2.5.0/CHANGELOG.md>`_."
 msgstr ""
 
 #: ../../chapters/appendix/changelog.rst:2197

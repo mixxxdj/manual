@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-25 00:48+0100\n"
+"POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
 "Last-Translator: 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -404,7 +404,7 @@ msgstr ""
 "La section platine vous permet de contrôler tout ce qui se rapporte à une "
 ":term:`platine` virtuelle. Découpons là en plusieurs sections."
 
-#: ../../chapters/user_interface.rst:97 ../../chapters/user_interface.rst:1102
+#: ../../chapters/user_interface.rst:97 ../../chapters/user_interface.rst:1103
 msgid "Track Information Display"
 msgstr "Affichage d'information de la piste"
 
@@ -476,7 +476,7 @@ msgstr ""
 ":menuselection:`Préférences --> Platines --> Options de platine`."
 
 #: ../../chapters/user_interface.rst:137
-#: ../../chapters/user_interface.rst:1110
+#: ../../chapters/user_interface.rst:1111
 msgid "**BPM (Tempo)**"
 msgstr "**BPM (tempo)**"
 
@@ -715,7 +715,7 @@ msgstr ""
 "extensible à l’intérieur des platines."
 
 #: ../../chapters/user_interface.rst:234
-#: ../../chapters/user_interface.rst:1091
+#: ../../chapters/user_interface.rst:1092
 msgid "**Waveform overview**"
 msgstr "**Vue d'ensemble de la forme d'onde**"
 
@@ -787,7 +787,7 @@ msgstr ""
 ":menuselection:`Préférences --> Formes d'onde`."
 
 #: ../../chapters/user_interface.rst:256
-#: ../../chapters/user_interface.rst:1094
+#: ../../chapters/user_interface.rst:1095
 msgid "**Waveform Marker**"
 msgstr "**Marqueur de forme d'onde**"
 
@@ -824,7 +824,7 @@ msgstr ""
 "repère <cue>`."
 
 #: ../../chapters/user_interface.rst:264
-#: ../../chapters/user_interface.rst:1098
+#: ../../chapters/user_interface.rst:1099
 msgid ""
 "**Hotcue marker**: Indicate the position and number of a :term:`hotcue` "
 "point if set."
@@ -920,7 +920,7 @@ msgstr ""
 "d'informations, voir chapitre :ref:`configuration-bpm-detection`."
 
 #: ../../chapters/user_interface.rst:318
-#: ../../chapters/user_interface.rst:1123
+#: ../../chapters/user_interface.rst:1124
 msgid "**Eject Track Button**"
 msgstr "**Bouton Éjecter**"
 
@@ -950,12 +950,12 @@ msgstr ""
 ":ref:`control-keyboard` pour plus d'informations."
 
 #: ../../chapters/user_interface.rst:322
-#: ../../chapters/user_interface.rst:1120
+#: ../../chapters/user_interface.rst:1121
 msgid "**Repeat Mode Toggle**"
 msgstr "**Bouton Répéter**"
 
 #: ../../chapters/user_interface.rst:321
-#: ../../chapters/user_interface.rst:1119
+#: ../../chapters/user_interface.rst:1120
 msgid ""
 "If enabled, the repeat mode will jump back to the beginning and continue "
 "playing when the track finishes."
@@ -964,7 +964,7 @@ msgstr ""
 "continuer la lecture lorsqu'elle se termine."
 
 #: ../../chapters/user_interface.rst:328
-#: ../../chapters/user_interface.rst:1127
+#: ../../chapters/user_interface.rst:1128
 msgid "**Keylock Toggle**"
 msgstr "**Bouton Verrouillage de tonalité**"
 
@@ -1622,7 +1622,7 @@ msgstr ""
 "d'informations."
 
 #: ../../chapters/user_interface.rst:631
-#: ../../chapters/user_interface.rst:1166
+#: ../../chapters/user_interface.rst:1167
 msgid "**Pitch/Rate slider**"
 msgstr "**Curseur Hauteur/Vitesse**"
 
@@ -2085,8 +2085,8 @@ msgstr ""
 "de mixage pour un fondu entre les pistes. Essayez, vous pourriez aimer cela."
 
 #: ../../chapters/user_interface.rst:842
-msgid "Equalizers and Gain Knobs"
-msgstr "Potentiomètres de gain et égaliseurs"
+msgid "Equalizers, Gain Knobs and Quick Effects"
+msgstr ""
 
 #: ../../chapters/user_interface.rst:851
 msgid "The EQ Controls of a deck in the mixer"
@@ -2098,7 +2098,7 @@ msgid "EQ Controls"
 msgstr "Contrôle égaliseur (EQ)"
 
 #: ../../chapters/user_interface.rst:872
-#: ../../chapters/user_interface.rst:1159
+#: ../../chapters/user_interface.rst:1160
 msgid "**Gain Knob**"
 msgstr "**Potentiomètre de gain**"
 
@@ -2142,7 +2142,7 @@ msgstr ""
 "soudain du gain d'une piste en cours de lecture). "
 
 #: ../../chapters/user_interface.rst:871
-#: ../../chapters/user_interface.rst:1049
+#: ../../chapters/user_interface.rst:1050
 msgid ""
 "For an explanation of why you should set your gains this way, see "
 ":ref:`Setting your levels properly (gain staging) <djing-gain-staging>`."
@@ -2197,43 +2197,35 @@ msgstr ""
 "prévu, vérifiez les paramètres d'égalisation des niveaux hauts/bas dans les "
 "préférences."
 
-#: ../../chapters/user_interface.rst:895
+#: ../../chapters/user_interface.rst:896
 msgid "**Quick Effect Super knob**"
 msgstr "**Super potentiomètre d'effet rapide**"
 
 #: ../../chapters/user_interface.rst:891
 msgid ""
-"This knob lets you control the Meta knob of the deck's Quick Effect. "
-"'Filter' is the default. Right-click this knob to center it. This is "
+"This knob lets you control the Meta knob of the deck's Quick Effect chain. "
+"'Filter' is the default. Right-click or double-click this knob to reset it "
+"to the default position defined by the loaded chain preset. This is "
 "equivalent to 'no audible effect' for the built-in filter effects only "
 "(Filter, Moog Ladder 4 Filter). The button next to the knob toggles the "
 "effect. It provides the same latching capabilities like the EQ Kill "
 "switches."
 msgstr ""
-"Ce potentiomètre vous permet de contrôler le Meta potentiomètre d'effet "
-"rapide de la platine. La valeur par défaut est « Filtre ». Clic-droit sur ce"
-" potentiomètre pour le centrer. Cela équivaut à « aucun effet audible » pour"
-" les effets de filtre intégrés uniquement (Filtre, Moog Ladder 4 Filter). Le"
-" bouton à côté du potentiomètre active/désactive l’effet. Il offre les mêmes"
-" capacités de verrouillage que les commutateurs suppression EQ."
 
-#: ../../chapters/user_interface.rst:897
+#: ../../chapters/user_interface.rst:898
 msgid ""
-"You can customize the EQ settings in :menuselection:`Preferences --> "
-"Equalizer`."
+"You can customize the EQ settings in :menuselection:`Preferences --> Mixer`."
 msgstr ""
-"Vous pouvez personnaliser les paramètres d'égalisation dans "
-":menuselection:`Préférences -> Égaliseur`."
 
-#: ../../chapters/user_interface.rst:903
+#: ../../chapters/user_interface.rst:904
 msgid "PFL/Headphone Button"
 msgstr "Bouton PFL/Casque"
 
-#: ../../chapters/user_interface.rst:912
+#: ../../chapters/user_interface.rst:913
 msgid "The headphone buttons of both decks in the mixer"
 msgstr "Les boutons du casque des deux platines de la table de mixage"
 
-#: ../../chapters/user_interface.rst:914
+#: ../../chapters/user_interface.rst:915
 msgid ""
 "The headphone button is also known as the :term:`pre-fader listen or PFL "
 "<PFL>` button and allows you to use headphone cueing. That is, it allows you"
@@ -2260,7 +2252,7 @@ msgstr ""
 "le bouton PFL et déplacer le curseur de mixage à fond sur le côté opposé de "
 "la platine ou baisser complètement le curseur de volume de la platine."
 
-#: ../../chapters/user_interface.rst:926
+#: ../../chapters/user_interface.rst:927
 msgid ""
 "Headphone cueing is only available if you have configured a Headphone Output"
 " in :menuselection:`Preferences --> Sound Hardware`."
@@ -2268,7 +2260,7 @@ msgstr ""
 "La pré-écoute au casque n'est disponible que si vous avez configuré une "
 "sortie casque dans :menuselection:`Préférences -> Matériel sonore`."
 
-#: ../../chapters/user_interface.rst:929
+#: ../../chapters/user_interface.rst:930
 msgid ""
 "If you use an external hardware mixer, plug your headphones into that rather"
 " than your sound card. Use the headphone buttons on the mixer rather than "
@@ -2278,15 +2270,15 @@ msgstr ""
 "casque dessus plutôt que sur votre carte son. Utiliser les boutons du casque"
 " sur la table de mixage plutôt que les boutons de Mixxx."
 
-#: ../../chapters/user_interface.rst:936
+#: ../../chapters/user_interface.rst:937
 msgid "Crossfader"
 msgstr "Curseur de mixage"
 
-#: ../../chapters/user_interface.rst:945
+#: ../../chapters/user_interface.rst:946
 msgid "The crossfader section of the mixer"
 msgstr "La section curseur de mixage de la table de mixage"
 
-#: ../../chapters/user_interface.rst:947
+#: ../../chapters/user_interface.rst:948
 msgid ""
 "The :term:`crossfader` determines the actual volume of each deck when moving"
 " the slider from left to right. If both decks are playing and the crossfader"
@@ -2299,7 +2291,7 @@ msgstr ""
 "centrale par défaut, vous entendrez les deux platines. Un clic droit sur le "
 "curseur de mixage réinitialisera le curseur à sa position par défaut."
 
-#: ../../chapters/user_interface.rst:952
+#: ../../chapters/user_interface.rst:953
 msgid ""
 "To move the crossfader left or right, you can use the :term:`keyboard "
 "shortcut <shortcut>` :kbd:`G` and :kbd:`H`. To apply small crossfade left "
@@ -2312,7 +2304,7 @@ msgstr ""
 "droite, les ` :term:`raccourcis <shortcut>` sont respectivement :kbd:`Shift`"
 " + :kbd:`G` et :kbd:`Shift` + :kbd:`H`."
 
-#: ../../chapters/user_interface.rst:955
+#: ../../chapters/user_interface.rst:956
 msgid ""
 "You can reverse the configuration of the crossfader, so that the right deck "
 "is on the left end of the crossfader and vice versa. This is also known as "
@@ -2325,7 +2317,7 @@ msgstr ""
 " curseur de mixage à votre style de mixage, aller dans "
 ":menuselection:`Préférences -> Table de mixage`."
 
-#: ../../chapters/user_interface.rst:960
+#: ../../chapters/user_interface.rst:961
 msgid ""
 "The :term:`crossfader` orientation switches determine to which side of the "
 "crossfader the deck is assigned. It can be set to the left or right side, or"
@@ -2336,7 +2328,7 @@ msgstr ""
 "réglé sur le côté gauche ou droit, ou au centre où il n'est pas affecté par "
 "le potentiomètre du curseur."
 
-#: ../../chapters/user_interface.rst:963
+#: ../../chapters/user_interface.rst:964
 msgid ""
 "Using the :ref:`AutoDJ <djing-auto-dj>` feature in Mixxx, you can automate "
 "the crossfade between the decks."
@@ -2344,23 +2336,23 @@ msgstr ""
 "En utilisant :ref:`AutoDJ <djing-auto-dj>` dans Mixxx, vous pouvez "
 "automatiser le fondu enchaîné entre les platines."
 
-#: ../../chapters/user_interface.rst:969
+#: ../../chapters/user_interface.rst:970
 msgid "Headphone and Main Mix Controls"
 msgstr "Commandes du casque et du mixage principal"
 
-#: ../../chapters/user_interface.rst:977
+#: ../../chapters/user_interface.rst:978
 msgid "The headphone and Main mix knobs"
 msgstr "Les potentiomètres casque et mixage principal"
 
-#: ../../chapters/user_interface.rst:977
+#: ../../chapters/user_interface.rst:978
 msgid "The headphone and main mix knobs"
 msgstr "Les potentiomètres casque et mixage principal"
 
-#: ../../chapters/user_interface.rst:997
+#: ../../chapters/user_interface.rst:998
 msgid "**Headphone Mix knob**"
 msgstr "**Potentiomètre casque MIX**"
 
-#: ../../chapters/user_interface.rst:980
+#: ../../chapters/user_interface.rst:981
 msgid ""
 "Allows you to control how much of the Main output you hear in the "
 ":guilabel:`Headphones` output. It works like a crossfader between the stereo"
@@ -2374,7 +2366,7 @@ msgstr ""
 ":term:`PFL`. Si le potentiomètre est réglé à gauche, vous n'entendez que le "
 "signal PFL, qui est la position habituelle pour la pré-écoute des titres."
 
-#: ../../chapters/user_interface.rst:985
+#: ../../chapters/user_interface.rst:986
 msgid ""
 "This can be used to practice DJing with only one stereo output and a set of "
 "either speakers or headphones."
@@ -2382,7 +2374,7 @@ msgstr ""
 "Cela peut être utilisé pour pratiquer le DJing avec une seule sortie stéréo "
 "et un ensemble de haut-parleurs ou casques."
 
-#: ../../chapters/user_interface.rst:988
+#: ../../chapters/user_interface.rst:989
 msgid ""
 "Additionally, this can be used to mix in headphones when you cannot hear the"
 " speakers connected to the :guilabel:`main` output and there are no booth "
@@ -2401,7 +2393,7 @@ msgstr ""
 "d'avoir à mixer avec des écouteurs en installant les enceintes derrière vous"
 " afin que vous et votre public puissiez les entendre."
 
-#: ../../chapters/user_interface.rst:996
+#: ../../chapters/user_interface.rst:997
 msgid ""
 "Don't forget to activate the :guilabel:`PFL` button on the deck you want to "
 "listen to in your headphones."
@@ -2409,11 +2401,11 @@ msgstr ""
 "N'oubliez pas d'activer le bouton :guilabel:`PFL` sur la platine que vous "
 "souhaitez écouter dans votre casque."
 
-#: ../../chapters/user_interface.rst:1010
+#: ../../chapters/user_interface.rst:1011
 msgid "**Head knob (Headphone gain)**"
 msgstr "**Potentiomètre HEAD (gain casque)**"
 
-#: ../../chapters/user_interface.rst:1000
+#: ../../chapters/user_interface.rst:1001
 msgid ""
 "This knob controls the gain applied to the headphone output signal that "
 "Mixxx sends to your sound card. Generally, this knob should not be adjusted."
@@ -2438,7 +2430,7 @@ msgstr ""
 ":guilabel:`Head` dans Mixxx pour contrôler le volume de votre casque sans "
 "affecter votre sortie principale."
 
-#: ../../chapters/user_interface.rst:1010
+#: ../../chapters/user_interface.rst:1011
 msgid ""
 "Not all controls may be present in all skins anymore. However, these "
 "controls can be mapped to keyboards and MIDI controllers. See "
@@ -2448,11 +2440,11 @@ msgstr ""
 "ces commandes peuvent être mappées sur des claviers et des contrôleurs MIDI."
 " Voir :ref:`appendix-mixxxcontrols` pour des informations détaillées."
 
-#: ../../chapters/user_interface.rst:1017
+#: ../../chapters/user_interface.rst:1018
 msgid "**Headphone Split Cue button**"
 msgstr "**Bouton répartition de pré-écoute au casque**"
 
-#: ../../chapters/user_interface.rst:1013
+#: ../../chapters/user_interface.rst:1014
 msgid ""
 "If activated, two mono signals are sent to the headphone output instead of "
 "one stereo signal. The main signal plays in the right channel, while the "
@@ -2466,11 +2458,11 @@ msgstr ""
 "toujours régler le potentiomètre :guilabel:`casque MIX` pour contrôler le "
 "mixage des signaux principal et pré-écoute dans le canal gauche."
 
-#: ../../chapters/user_interface.rst:1021
+#: ../../chapters/user_interface.rst:1022
 msgid "**Balance Knob**"
 msgstr "**Potentiomètre balance BAL**"
 
-#: ../../chapters/user_interface.rst:1020
+#: ../../chapters/user_interface.rst:1021
 msgid ""
 "This knob allows you to adjust the :term:`balance` (left/right orientation) "
 "of the Main output."
@@ -2478,11 +2470,11 @@ msgstr ""
 "Ce bouton vous permet d'ajuster la :term:`balance` (orientation "
 "gauche/droite) de la sortie principale."
 
-#: ../../chapters/user_interface.rst:1050
+#: ../../chapters/user_interface.rst:1051
 msgid "**Main Knob**"
 msgstr "**Potentiomètre principal MAIN**"
 
-#: ../../chapters/user_interface.rst:1026
+#: ../../chapters/user_interface.rst:1027
 msgid ""
 "The Main Gain Knob controls the gain applied to the Main output signal that "
 "Mixxx sends to your sound card, Internet broadcasting servers, and recorded "
@@ -2506,7 +2498,7 @@ msgstr ""
 "sonorisation qui ne nécessitent pas d'amplificateur séparé, cela signifie "
 "ajuster le gain des enceintes (qui peut être étiqueté « Volume »)."
 
-#: ../../chapters/user_interface.rst:1036
+#: ../../chapters/user_interface.rst:1037
 msgid ""
 "As a DJ, you may not have access to the power amplifier. In that case, "
 "adjust the volume by adjusting the gain on the equipment closest to the "
@@ -2528,7 +2520,7 @@ msgstr ""
 " de gain principal de Mixxx devrait être un dernier recours pour régler le "
 "volume."
 
-#: ../../chapters/user_interface.rst:1045
+#: ../../chapters/user_interface.rst:1046
 msgid ""
 "**In no case should any part of the signal chain be clipping, indicated by a"
 " level meter going into its red region or an LED labeled \"clipping\" "
@@ -2538,24 +2530,24 @@ msgstr ""
 "indiquée par un vue-mètre allant dans sa région rouge ou une LED étiquetée "
 "«écrêtage» allumée.**"
 
-#: ../../chapters/user_interface.rst:1055
+#: ../../chapters/user_interface.rst:1056
 msgid "Samplers"
 msgstr "Échantillonneurs"
 
-#: ../../chapters/user_interface.rst:1064
-#: ../../chapters/user_interface.rst:1073
+#: ../../chapters/user_interface.rst:1065
+#: ../../chapters/user_interface.rst:1074
 msgid "A sample deck"
 msgstr "Une platine échantillonneur"
 
-#: ../../chapters/user_interface.rst:1064
+#: ../../chapters/user_interface.rst:1065
 msgid "Sample decks"
 msgstr "Platines échantillonneur"
 
-#: ../../chapters/user_interface.rst:1073
+#: ../../chapters/user_interface.rst:1074
 msgid "Sample decks expanded"
 msgstr "Platines échantillonneur maximisées"
 
-#: ../../chapters/user_interface.rst:1075
+#: ../../chapters/user_interface.rst:1076
 msgid ""
 "Samplers are miniature decks. They allow you to play short samples and "
 "jingles but also additional tracks in your mix. They come with a small "
@@ -2568,7 +2560,7 @@ msgstr ""
 " d'ensemble et un nombre limité de commandes. Toutes les commandes "
 "fonctionnent comme sur les platines ordinaires, voir :ref:`interface-decks`."
 
-#: ../../chapters/user_interface.rst:1080
+#: ../../chapters/user_interface.rst:1081
 msgid ""
 "The Sampler section can be **hidden** in the :ref:`Mixxx user interface "
 "<interface-overview>`. Click the :guilabel:`SAMPLERS` button at the top of "
@@ -2579,11 +2571,11 @@ msgstr ""
 "\n"
 "Maximiser/Minimiser l'affichage des platines échantillonneur grâce au bouton situé au centre de la ligne des échantillonneurs."
 
-#: ../../chapters/user_interface.rst:1086
+#: ../../chapters/user_interface.rst:1087
 msgid "Waveform Display"
 msgstr "Affichage de la forme d'onde"
 
-#: ../../chapters/user_interface.rst:1089
+#: ../../chapters/user_interface.rst:1090
 msgid ""
 "The waveform shows the various markers within the track as well as the "
 "waveform envelope of the entire track. Clicking somewhere on the waveform "
@@ -2594,13 +2586,13 @@ msgstr ""
 " la forme d'onde vous permet de sauter à une position arbitraire dans la "
 "piste."
 
-#: ../../chapters/user_interface.rst:1094
+#: ../../chapters/user_interface.rst:1095
 msgid "While mixing, some additional markers can appear on the waveforms:"
 msgstr ""
 "Pendant le mix, quelques marqueurs additionnelle peuvent apparaître sur les "
 "formes d'onde:"
 
-#: ../../chapters/user_interface.rst:1096
+#: ../../chapters/user_interface.rst:1097
 msgid ""
 "**Position marker**: A vertical line indicates the playback point of the "
 "sample deck."
@@ -2608,11 +2600,11 @@ msgstr ""
 "**Marqueur de position**: une ligne verticale indique le point de lecture de"
 " la platine d'échantillonnage."
 
-#: ../../chapters/user_interface.rst:1106
+#: ../../chapters/user_interface.rst:1107
 msgid "**Track Artist/Title**"
 msgstr "Artiste/titre de la piste"
 
-#: ../../chapters/user_interface.rst:1105
+#: ../../chapters/user_interface.rst:1106
 msgid ""
 "The artist and title of the track that was loaded into a sampler deck is "
 "displayed here."
@@ -2620,7 +2612,7 @@ msgstr ""
 "L'artiste et le titre de la piste chargée dans un échantillonneur sont "
 "affichés ici."
 
-#: ../../chapters/user_interface.rst:1109
+#: ../../chapters/user_interface.rst:1110
 msgid ""
 "The number at the top right is the effective :term:`BPM` of the track. Tap "
 "the BPM to set the BPM to the speed you are tapping."
@@ -2628,11 +2620,11 @@ msgstr ""
 "Le nombre en haut à droite est le véritable :term:`BPM` de la piste. Taper "
 "le tempo pour régler le BPM à la vitesse à laquelle vous tapoter."
 
-#: ../../chapters/user_interface.rst:1113
+#: ../../chapters/user_interface.rst:1114
 msgid "Sample Deck Options Button Grid"
 msgstr "Grille de boutons des options de la platine d’échantillonnage"
 
-#: ../../chapters/user_interface.rst:1114
+#: ../../chapters/user_interface.rst:1115
 msgid ""
 "The buttons grid next to the waveform overview allow you to configure the "
 "sampler deck. Starting from the top row (left to right) and the bottom row "
@@ -2643,11 +2635,11 @@ msgstr ""
 "rangée du haut (de gauche à droite) et de la rangée du bas (de gauche à "
 "droite), les boutons sont les suivants :"
 
-#: ../../chapters/user_interface.rst:1123
+#: ../../chapters/user_interface.rst:1124
 msgid "Clicking this button ejects the track from the deck."
 msgstr "Cliquez sur ce bouton pour éjecter la piste de la platine."
 
-#: ../../chapters/user_interface.rst:1126
+#: ../../chapters/user_interface.rst:1127
 msgid ""
 ":term:`Keylock <key lock>` locks the track's pitch so that adjustments to "
 "its tempo via the rate slider do not affect its pitch."
@@ -2656,11 +2648,11 @@ msgstr ""
 "les ajustements de son tempo via le curseur de taux n'affectent pas sa "
 "hauteur."
 
-#: ../../chapters/user_interface.rst:1131
+#: ../../chapters/user_interface.rst:1132
 msgid "**Crossfader Orientation Toggle**"
 msgstr "**Commuter l'orientation du curseur de mixage (crossfader)**"
 
-#: ../../chapters/user_interface.rst:1130
+#: ../../chapters/user_interface.rst:1131
 msgid ""
 "The :term:`crossfader` orientation determines to which side of the "
 "crossfader the sampler is assigned. It can be set to the left or right side,"
@@ -2671,15 +2663,15 @@ msgstr ""
 "côté gauche ou droit, ou au centre où il n'est pas affecté par le "
 "potentiomètre du curseur."
 
-#: ../../chapters/user_interface.rst:1134
+#: ../../chapters/user_interface.rst:1135
 msgid "Sample Deck Controls"
 msgstr "Commandes platine de l'échantillonneur"
 
-#: ../../chapters/user_interface.rst:1140
+#: ../../chapters/user_interface.rst:1141
 msgid "**Play/Pause button**"
 msgstr "**Bouton de Lecture/Pause**"
 
-#: ../../chapters/user_interface.rst:1137
+#: ../../chapters/user_interface.rst:1138
 msgid ""
 "Clicking the button always starts playback from the :term:`cue point <cue>`."
 " If playback is already enabled the play position will jump back to the "
@@ -2692,11 +2684,11 @@ msgstr ""
 " bouton arrêtera la lecture et renverra la position de lecture au début de "
 "l'échantillon."
 
-#: ../../chapters/user_interface.rst:1143
+#: ../../chapters/user_interface.rst:1144
 msgid "**Sync Button**"
 msgstr "**Bouton SYNC**"
 
-#: ../../chapters/user_interface.rst:1143
+#: ../../chapters/user_interface.rst:1144
 msgid ""
 "Syncs the Sampler deck to a regular deck, as described in :ref:`interface-"
 "rate`."
@@ -2704,7 +2696,7 @@ msgstr ""
 "Synchronise la platine échantillonneur sur une platine normale, comme décrit"
 " dans :ref:`interface-rate`."
 
-#: ../../chapters/user_interface.rst:1145
+#: ../../chapters/user_interface.rst:1146
 msgid ""
 "**Left-Click**: Changes the :term:`rate` of the track so that the "
 ":term:`BPM` and :term:`phase` of the track matches the sync target."
@@ -2712,7 +2704,7 @@ msgstr ""
 "**Clic-gauche**: Change la :term:`vitesse` de la piste pour que le "
 ":term:`BPM` et la :term:`phase` corresponde à la cible à synchroniser."
 
-#: ../../chapters/user_interface.rst:1147
+#: ../../chapters/user_interface.rst:1148
 msgid ""
 "**Right-Click**: Only changes the :term:`rate` of the track to match the "
 "sync target but does not adjust the :term:`phase`."
@@ -2720,11 +2712,11 @@ msgstr ""
 "**Clic-droit**: Change seulement la :term:`vitesse` de la piste pour "
 "correspondre à la cible à synchroniser mais n'ajuste pas la :term:`phase`."
 
-#: ../../chapters/user_interface.rst:1152
+#: ../../chapters/user_interface.rst:1153
 msgid "**Hotcue Controls**"
 msgstr "**Contrôles de repère rapide**"
 
-#: ../../chapters/user_interface.rst:1151
+#: ../../chapters/user_interface.rst:1152
 msgid ""
 "To jump in between different parts of a sample, you can use these numbered "
 "hotcue buttons."
@@ -2732,11 +2724,11 @@ msgstr ""
 "Pour sauter entre les différentes parties d'un échantillon, vous pouvez "
 "utiliser les boutons numérotés de repère rapide."
 
-#: ../../chapters/user_interface.rst:1156
+#: ../../chapters/user_interface.rst:1157
 msgid "**PFL/Headphone Button**"
 msgstr "**Bouton PFL/Casque**"
 
-#: ../../chapters/user_interface.rst:1155
+#: ../../chapters/user_interface.rst:1156
 msgid ""
 "If active, the :term:`pre-fader listen or PFL <PFL>` button allows you to "
 "listen to the track in your headphones."
@@ -2744,21 +2736,21 @@ msgstr ""
 "S'il est actif, le bouton :term:`écoute pré-fader ou PFL <PFL>` vous permet "
 "d'écouter la piste dans votre casque."
 
-#: ../../chapters/user_interface.rst:1159
+#: ../../chapters/user_interface.rst:1160
 msgid "Allows you to adjust the gain applied to the track."
 msgstr "Vous permet d'ajuster le gain appliqué à la piste."
 
-#: ../../chapters/user_interface.rst:1162
+#: ../../chapters/user_interface.rst:1163
 msgid "**Level Meter**"
 msgstr "**Vue-mètre**"
 
-#: ../../chapters/user_interface.rst:1162
+#: ../../chapters/user_interface.rst:1163
 msgid "Shows the level of the signal and can be adjusted with the Gain knob."
 msgstr ""
 "Affiche le niveau du signal et peut être ajusté avec le potentiomètre de "
 "gain."
 
-#: ../../chapters/user_interface.rst:1165
+#: ../../chapters/user_interface.rst:1166
 msgid ""
 "The slider allows you to change the speed of the sample. Right-clicking on "
 "the slider will reset the tempo to its original value."
@@ -2766,24 +2758,24 @@ msgstr ""
 "Le curseur vous permet de modifier la vitesse de l'échantillon. Un clic "
 "droit sur le curseur réinitialisera le tempo à sa valeur d'origine."
 
-#: ../../chapters/user_interface.rst:1171
+#: ../../chapters/user_interface.rst:1172
 msgid "Effects"
 msgstr "Effets"
 
-#: ../../chapters/user_interface.rst:1179
-#: ../../chapters/user_interface.rst:1187
+#: ../../chapters/user_interface.rst:1180
+#: ../../chapters/user_interface.rst:1188
 msgid "An effect unit"
 msgstr "Une unité d'effet"
 
-#: ../../chapters/user_interface.rst:1179
+#: ../../chapters/user_interface.rst:1180
 msgid "Collapsed effect unit"
 msgstr "Unité d'effet minimisée"
 
-#: ../../chapters/user_interface.rst:1187
+#: ../../chapters/user_interface.rst:1188
 msgid "Expanded effect unit"
 msgstr "Unité d'effet maximisée"
 
-#: ../../chapters/user_interface.rst:1189
+#: ../../chapters/user_interface.rst:1190
 msgid ""
 "Mixxx comes with some built in sound effects that can be chained together in"
 " effect units. Effect units can be freely assigned to different decks as "
@@ -2796,7 +2788,7 @@ msgstr ""
 "de routage des platines vers les unités d'effet se trouvent dans "
 ":ref:`interface-decks`."
 
-#: ../../chapters/user_interface.rst:1194
+#: ../../chapters/user_interface.rst:1195
 msgid ""
 "The :ref:`effects` chapter has a more detailed explanation of the effects "
 "system."
@@ -2804,15 +2796,15 @@ msgstr ""
 "Le chapitre :ref:`effects` contient une explication plus détaillée du "
 "système d'effets."
 
-#: ../../chapters/user_interface.rst:1200
+#: ../../chapters/user_interface.rst:1201
 msgid "Microphones & Auxiliary Inputs"
 msgstr "Microphones et entrées auxiliaires"
 
-#: ../../chapters/user_interface.rst:1212
+#: ../../chapters/user_interface.rst:1213
 msgid "The Microphone section"
 msgstr "La section microphone"
 
-#: ../../chapters/user_interface.rst:1214
+#: ../../chapters/user_interface.rst:1215
 msgid ""
 "The microphone section is **hidden** in the default :ref:`Mixxx user "
 "interface <interface-overview>`. Click the :guilabel:`MICS & AUX` button at "
@@ -2824,7 +2816,7 @@ msgstr ""
 ":guilabel:`MIC/AUX` en haut de votre interface utilisateur, ou utiliser le "
 ":ref:`appendix-shortcuts` spécifique pour afficher ou masquer la section."
 
-#: ../../chapters/user_interface.rst:1218
+#: ../../chapters/user_interface.rst:1219
 msgid ""
 "The :ref:`microphones` chapter has detailed instructions for setting up "
 "microphones with various hardware."
@@ -2832,15 +2824,15 @@ msgstr ""
 "Le chapitre :ref:`microphones` contient des instructions détaillées sur la "
 "configuration des microphones avec divers matériels."
 
-#: ../../chapters/user_interface.rst:1222
+#: ../../chapters/user_interface.rst:1223
 msgid "Microphone Controls"
 msgstr "Commandes du microphone"
 
-#: ../../chapters/user_interface.rst:1228
+#: ../../chapters/user_interface.rst:1229
 msgid "**Talk Button**"
 msgstr "**Bouton conversation TALK**"
 
-#: ../../chapters/user_interface.rst:1225
+#: ../../chapters/user_interface.rst:1226
 msgid ""
 "Hold this button and talk to mix the microphone input into the Mixxx Main "
 "output. Short click on the button for latching. This is handy for talking "
@@ -2855,11 +2847,11 @@ msgstr ""
 "radio. En mode verrouillé, cliquer à nouveau pour couper l’entrée du "
 "microphone."
 
-#: ../../chapters/user_interface.rst:1233
+#: ../../chapters/user_interface.rst:1234
 msgid "**Mix Orientation Toggle**"
 msgstr "**Basculer l'orientation du Mix**"
 
-#: ../../chapters/user_interface.rst:1231
+#: ../../chapters/user_interface.rst:1232
 msgid ""
 "This control determines the microphone input's mix orientation. Either to "
 "the left side of crossfader, to the right side or to the center (default). "
@@ -2869,19 +2861,19 @@ msgstr ""
 "Soit à gauche du curseur de mixage, soit à droite ou au centre (par défaut)."
 " Cliquer dessus fait défiler toutes les options."
 
-#: ../../chapters/user_interface.rst:1236
+#: ../../chapters/user_interface.rst:1237
 msgid "**Microphone Volume Meter**"
 msgstr "**Vu-mètre du microphone**"
 
-#: ../../chapters/user_interface.rst:1236
+#: ../../chapters/user_interface.rst:1237
 msgid "This displays the microphone volume input signal strength."
 msgstr "Ceci affiche la force du signal d'entrée du volume du microphone."
 
-#: ../../chapters/user_interface.rst:1240
+#: ../../chapters/user_interface.rst:1241
 msgid "**Microphone Gain Knob**"
 msgstr "**Potentiomètre de gain du microphone**"
 
-#: ../../chapters/user_interface.rst:1239
+#: ../../chapters/user_interface.rst:1240
 msgid ""
 "Use this knob to adjust the gain of the microphone output. Try to keep the "
 "volume at a reasonable level to avoid signal clipping."
@@ -2890,15 +2882,15 @@ msgstr ""
 "Essayer de maintenir le volume à un niveau raisonnable pour éviter "
 "l'écrêtage du signal."
 
-#: ../../chapters/user_interface.rst:1245
+#: ../../chapters/user_interface.rst:1246
 msgid "Preview Deck"
 msgstr "Platine de pré-écoute"
 
-#: ../../chapters/user_interface.rst:1257
+#: ../../chapters/user_interface.rst:1258
 msgid "The Preview Deck with a track loaded"
 msgstr "La platine de pré-écoute avec une piste chargée"
 
-#: ../../chapters/user_interface.rst:1259
+#: ../../chapters/user_interface.rst:1260
 msgid ""
 "The Preview Deck is a special deck that allows you to pre-listen to tracks "
 "in the headphones before using them in your mix. Pre-listening to a track "
@@ -2914,11 +2906,11 @@ msgstr ""
 "history>`. Appuyer sur :kbd:`CTRL` + :kbd:`4` (Windows/Linux) ou :kbd:`CMD` "
 "+ :kbd:`4` (Mac) pour afficher la platine de pré-écoute."
 
-#: ../../chapters/user_interface.rst:1265
+#: ../../chapters/user_interface.rst:1266
 msgid "The features in detail:"
 msgstr "Les fonctionnalités en détail:"
 
-#: ../../chapters/user_interface.rst:1267
+#: ../../chapters/user_interface.rst:1268
 msgid ""
 "**Track Artist/Title**: The artist and title of the track is displayed here."
 " This is the same as that listed under the :guilabel:`Track` and "
@@ -2932,14 +2924,14 @@ msgstr ""
 "<library-tracks>`. Ces informations sont initialement chargées à partir des "
 ":term:`métadonnées` de la piste."
 
-#: ../../chapters/user_interface.rst:1271
+#: ../../chapters/user_interface.rst:1272
 msgid ""
 "**Eject Track button**: Clicking this button ejects the track from the deck."
 msgstr ""
 "**Bouton Éjecter piste**: Cliquer sur ce bouton pour éjecter la piste de la "
 "platine."
 
-#: ../../chapters/user_interface.rst:1274
+#: ../../chapters/user_interface.rst:1275
 msgid ""
 "**Play/Pause button**: Clicking the button starts and pauses the playback. "
 "Right-clicking on the button will stop playback and seek the play position "
@@ -2949,7 +2941,7 @@ msgstr ""
 "lecture. Un clic-droit sur le bouton arrêtera la lecture et déplacera la "
 "position de lecture au début des pistes."
 
-#: ../../chapters/user_interface.rst:1279
+#: ../../chapters/user_interface.rst:1280
 msgid ""
 "**Waveform overview**: Shows the various markers (Cues, Hotcues) within the "
 "track as well as the waveform envelope of the entire track. Clicking "
@@ -2961,12 +2953,12 @@ msgstr ""
 " piste toute entière. Cliquer quelque part sur la forme d'onde vous permet "
 "de sauter à une position arbitraire dans la piste."
 
-#: ../../chapters/user_interface.rst:1284
+#: ../../chapters/user_interface.rst:1285
 msgid "**Gain slider**: Move the slider to adjust the gain of the track."
 msgstr ""
 "**Curseur de gain**: Déplacer le curseur pour régler le gain de la piste."
 
-#: ../../chapters/user_interface.rst:1287
+#: ../../chapters/user_interface.rst:1288
 msgid ""
 "**Volume Meter**: Shows the current volume of the track. If it's too loud "
 "and distorted, a peak indicator flashes red."
@@ -2974,7 +2966,7 @@ msgstr ""
 "**Vu-mètre**: Affiche le volume actuel de la piste. S'il est trop fort et "
 "déformé, un indicateur de crête clignote en rouge."
 
-#: ../../chapters/user_interface.rst:1291
+#: ../../chapters/user_interface.rst:1292
 msgid ""
 "For more information, go to the chapter :ref:`library-previewing-tracks`."
 msgstr ""
