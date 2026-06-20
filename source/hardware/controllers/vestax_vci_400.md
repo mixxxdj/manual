@@ -1,5 +1,4 @@
-Vestax VCI-400
-==============
+# Vestax VCI-400
 
 The Vestax VCI-400 is a 4 deck controller. It has an integrated audio
 interface with balanced outputs (XLR and 1/4" TRS), two pairs of RCA
@@ -11,15 +10,14 @@ power.
 
 This controller has been discontinued as Vestax went out of business in 2014.
 
-.. versionadded:: 1.10.1
-
-Compatibility
--------------
+:::{versionadded} 1.10.1
+:::
+## Compatibility
 
 The original VCI-400 firmware has a bug that prevents the sound card
 from working with Linux. Now that Vestax is out of business, drivers and
-firmware for Vestax devices are hosted on `Serato’s
-website <https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware>`__.
+firmware for Vestax devices are hosted on [Serato's
+website](https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware).
 If your VCI-400’s sound card does not appear as an available device
 using Linux, use the firmware updater on a computer running Windows or
 Mac OS X. This will only need to be done once and then the controller
@@ -30,12 +28,9 @@ Their firmwares use different MIDI messages to communicate with the
 computer. Unfortunately, it is not possible to switch between the
 VCI-400 and VCI-400 Ean Golden Edition firmware.
 
-.. Reference: forum(dot)djtechtools(dot)com/showthread.php?t=64071&p=572022&viewfull=1#post572022
+## Mapping
 
-Mapping
--------
-
-.. figure:: ../../_static/controllers/vestax_vci_400.png
+```{figure} ../../_static/controllers/vestax_vci_400.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -44,6 +39,7 @@ Mapping
 
    Vestax VCI-400 (top view with annotations)
 
+```
 
 The VCI-400 mapping for Mixxx is based on the Serato Limited Edition
 overlay.
@@ -107,8 +103,7 @@ Some additional functions are accessible with the shift button:
 -  Shift + Play while the deck is playing does a breaking stop.
 -  Shift + Censor does a spinback stop.
 
-Vinyl Control Mode
-~~~~~~~~~~~~~~~~~~
+### Vinyl Control Mode
 
 If you want to use vinyl control instead of the jog wheels, you can move
 the mixer selection switches all the way to the right. In this mode, the
@@ -116,8 +111,7 @@ Play button becomes a Vinyl Control Enable/Disable button, and the Cue
 button selects which Vinyl Control mode is active – Absolute, Relative,
 or Constant. The cue button lights up when Absolute is selected.
 
-Note about VU Meters
-~~~~~~~~~~~~~~~~~~~~
+### Note about VU Meters
 
 There’s a bug in the way that the VCI400 firmware works – although Mixxx
 can control the VU meters, the VCI’s internal soundcard always *also*

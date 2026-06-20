@@ -9,4 +9,5 @@ transifex-client
 sphinxcontrib-svg2pdfconverter
 sphinx-rtd-theme
 sphinx-multiversion
+linuxdoc
 ./sphinx-mixxx

@@ -1,5 +1,4 @@
-American Audio VMS2
-===================
+# American Audio VMS2
 
 The American Audio VMS2 is a 2-deck all-in-one controller. It is a USB
 class compliant MIDI and audio device that works with GNU/Linux, Mac OS
@@ -10,18 +9,18 @@ can also be used as a stand-alone mixer with analog sources without a
 computer by setting the USB/Analog switches on the front of the device
 to “Analog”.
 
--  `Manufacturer’s product page <https://www.adj.eu/vms2>`__, provides manual and drivers for download.
--  `Forum thread <https://mixxx.discourse.group/t/american-audio-vms2/12000>`__, for discussion of mapping options.
--  `Pull Request <https://github.com/mixxxdj/mixxx/pull/876>`__, which this wiki page describes.
+-  [Manufacturer’s product page](https://www.adj.eu/vms2), provides manual and drivers for download.
+-  [Forum thread](https://mixxx.discourse.group/t/american-audio-vms2/12000), for discussion of mapping options.
+-  [Pull Request](https://github.com/mixxxdj/mixxx/pull/876), which this wiki page describes.
 
-.. versionadded:: 1.11
-
-Audio Setup
------------
+:::{versionadded} 1.11
+:::
+(american-audio-vms2-audio-setup)=
+## Audio Setup
 
 No driver needs to be installed on GNU/Linux or Mac OS X. However, on
 Windows, it is recommended to install the driver from the manufacturer
-to be able to use the :ref:`ASIO sound API <preferences-sound-api>`.
+to be able to use the {ref}`ASIO sound API <preferences-sound-api>`.
 
 Unlike most controllers with built in sound cards, which rely on Mixxx
 to do all mixing in software, the VMS2 mixes signals from the sound card
@@ -30,7 +29,7 @@ in hardware. To use it with Mixxx:
 -  Bypass the built-in hardware equalizer of the VMS2 (i.e. use Post-EQ
    Mode). Hold the forward search button on the right deck as you turn
    the VMS2 on to switch between Post-EQ and Pre-EQ modes. See section
-   15 of the `manufacturer’s manual <http://adjmedia.s3-website-eu-west-1.amazonaws.com/manuals/vms2_print_EN.pdf>`__
+   15 of the [manufacturer’s manual](http://adjmedia.s3-website-eu-west-1.amazonaws.com/manuals/vms2_print_EN.pdf)
    for details.
 -  Set the USB/Analog switches on the front side of the VMS2 to “USB”
 -  In Mixxx’s Sound Hardware Preferences:
@@ -45,8 +44,7 @@ route the headphone output there to also pre-listen using the preview
 deck. Of course, if you do so, attach the headphones to that other
 soundcard instead of the VMS2.
 
-Input and Recording
-~~~~~~~~~~~~~~~~~~~
+### Input and Recording
 
 The analog inputs are captured by the built-in soundcard as input
 signals. They can be used for timecode signals (e.g. timecode vinyl), as
@@ -71,52 +69,72 @@ the same in hardware and software. If you require a recording that
 captures exactly what the audience will hear, use a separate soundcard
 and recording software to record from the VMS2 booth output.
 
-Mapping description
--------------------
+## Mapping description
 
-Mixer section
-~~~~~~~~~~~~~
+### Mixer section
 
 All main functions are mapped straightforwardly:
 
-============== ======================
-VMS2 Control   Mixxx Control
-============== ======================
-Crossfader     Crossfader
-Volume Fader   Volume Fader
-Cue (PFL)      PFL
-Cue Mix        Cue Mix (PFL / Main)
-Headphone Gain Headphone Gain
-Channel Gain   Channel Gain
-Master Gain    Main Gain
-============== ======================
+```{list-table}
+:header-rows: 1
 
-As noted in the `#Audio Setup <#Audio%20Setup>`__ section, these control
+* - VMS2 Control
+  - Mixxx Control
+* - Crossfader
+  - Crossfader
+* - Volume Fader
+  - Volume Fader
+* - Cue (PFL)
+  - PFL
+* - Cue Mix
+  - Cue Mix (PFL / Main)
+* - Headphone Gain
+  - Headphone Gain
+* - Channel Gain
+  - Channel Gain
+* - Master Gain
+  - Main Gain
+```
+
+As noted in the {ref}`Audio Setup <american-audio-vms2-audio-setup>` section, these control
 the VMS2’s hardware mixer. Although the state of the controls is
 reflected on screen in Mixxx, the actual mixing is done by the VMS2’s
 hardware mixer.
 
-Deck Control
-~~~~~~~~~~~~
+### Deck Control
 
 Deck control is straightforward, too:
 
-===================== ===============================================
-VMS2 Control          Mixxx Control
-===================== ===============================================
-Play                  Toggle deck play/pause
-Pause                 Pause the deck
-Cue                   Cue Point (configure behavior in software)
-Pitch +/-             Temporary pitch bend +/-
-Pitch Fader           Pitch Fader
-Range (Shift+Sync)    Cycle pitch fader range (+-8/10/30/100%)
-Sync                  Sync to other deck
-Search <</>>          Search through currently loaded track
-Keylock (Shift+Vinyl) Toggle pitch independent time stretch (KeyLock)
-Vinyl                 Toggle between Scratch mode and Pitch mode
-Platter               Touch sensitive platters! Scratch or Pitchbend
-Shift + Platter       Scroll through library quickly
-===================== ===============================================
+```{list-table}
+:header-rows: 1
+
+* - VMS2 Control
+  - Mixxx Control
+* - Play
+  - Toggle deck play/pause
+* - Pause
+  - Pause the deck
+* - Cue
+  - Cue Point (configure behavior in software)
+* - Pitch +/-
+  - Temporary pitch bend +/-
+* - Pitch Fader
+  - Pitch Fader
+* - Range (Shift+Sync)
+  - Cycle pitch fader range (+-8/10/30/100%)
+* - Sync
+  - Sync to other deck
+* - Search <</>>
+  - Search through currently loaded track
+* - Keylock (Shift+Vinyl)
+  - Toggle pitch independent time stretch (KeyLock)
+* - Vinyl
+  - Toggle between Scratch mode and Pitch mode
+* - Platter
+  - Touch sensitive platters! Scratch or Pitchbend
+* - Shift + Platter
+  - Scroll through library quickly
+```
 
 In Pitch mode, moving the platters from either the top or side will only
 bend the pitch of the deck. In Scratch mode, the platters act like vinyl
@@ -124,8 +142,7 @@ turntables and can be used for scratching. Touching and holding them
 from the top stops the deck. Moving them from the edge does not stop the
 deck.
 
-Library and Track loading
-~~~~~~~~~~~~~~~~~~~~~~~~~
+### Library and Track loading
 
 Use the encoder in the center of the controller to browse through the
 library. Press the encoder to switch between library main window and
@@ -137,67 +154,86 @@ the left or right deck.
 
 The four directional buttons around the knob also control the library:
 
-====== ======================
-Button Library function
-====== ======================
-Up     Previous library entry
-Down   Next library entry
-Left   Previous sidebar entry
-Right  Next sidebar entry
-====== ======================
+```{list-table}
+:header-rows: 1
+
+* - Button
+  - Library function
+* - Up
+  - Previous library entry
+* - Down
+  - Next library entry
+* - Left
+  - Previous sidebar entry
+* - Right
+  - Next sidebar entry
+```
 
 If you hold Shift and then rotate a platter, you can scroll through the
 library much faster.
 
-Equalizer
-~~~~~~~~~
+### Equalizer
 
 The per deck EQ rotaries are mapped to their software counterparts. The
 VMS2 has no dedicated kill switches for the EQ. However, in Mixxx,
 pressing the following buttons with Shift acts as EQ kill switches.
 
-============ ================
-VMS2 Control Mixxx Control
-============ ================
-Shift+IN     Kill Switch Low
-Shift+OUT    Kill Switch Mid
-Shift+RELOOP Kill Switch High
-============ ================
+```{list-table}
+:header-rows: 1
 
-Hotcues
-~~~~~~~
+* - VMS2 Control
+  - Mixxx Control
+* - Shift+IN
+  - Kill Switch Low
+* - Shift+OUT
+  - Kill Switch Mid
+* - Shift+RELOOP
+  - Kill Switch High
+```
+
+### Hotcues
 
 The VMS2 can control 6 hotcues per deck.
 
-+-------------------------------------------------+---------------------------+
-| VMS2 Control                                    | Mixxx Control             |
-+=================================================+===========================+
-| 1 / 2 / 3                                       | Set/Jump HotCue 1 / 2 / 3 |
-+-------------------------------------------------+---------------------------+
-| Vinyl + 1 / 2 / 3                               | Delete HotCue 1 / 2 / 3   |
-+-------------------------------------------------+---------------------------+
-| 4 / 5 / 6 = (Shift + 1 / 2 / 3)                 | Set/Jump HotCue 4 / 5 / 6 |
-+-------------------------------------------------+---------------------------+
-| Vinyl + 4 / 5 / 6 = (Vinyl + Shift + 1 / 2 / 3) | Delete HotCue 4 / 5 / 6   |
-+-------------------------------------------------+---------------------------+
+```{list-table}
+:header-rows: 1
+
+* - VMS2 Control
+  - Mixxx Control
+* - 1 / 2 / 3
+  - Set/Jump HotCue 1 / 2 / 3
+* - Vinyl + 1 / 2 / 3
+  - Delete HotCue 1 / 2 / 3
+* - 4 / 5 / 6 = (Shift + 1 / 2 / 3)
+  - Set/Jump HotCue 4 / 5 / 6
+* - Vinyl + 4 / 5 / 6 = (Vinyl + Shift + 1 / 2 / 3)
+  - Delete HotCue 4 / 5 / 6
+```
 
 Pressing the vinyl/keylock button will not toggle scratch mode or
 keylock as long as a hotcue is deleted before releasing the
 vinyl/keylock button.
 
-Loops
-~~~~~
+### Loops
 
-==================== =========================================
-VMS2 Control         Mixxx Control
-==================== =========================================
-IN                   Mark beginning of loop
-OUT                  Mark end of loop
-RELOOP               Leave / Reenter current loop
-LOOP                 Start a 4 Beat loop from current position
-Smart (Shift + Loop) Toggle quantize
-(\:2) / (\*2)        Halve or double the current loop length
-==================== =========================================
+```{list-table}
+:header-rows: 1
+
+* - VMS2 Control
+  - Mixxx Control
+* - IN
+  - Mark beginning of loop
+* - OUT
+  - Mark end of loop
+* - RELOOP
+  - Leave / Reenter current loop
+* - LOOP
+  - Start a 4 Beat loop from current position
+* - Smart (Shift + Loop)
+  - Toggle quantize
+* - (\:2) / (\*2)
+  - Halve or double the current loop length
+```
 
 As Mixxx currently only supports one active loop per deck, the secondary
 loop controls have been remapped to EQ kill switches.

@@ -38,6 +38,7 @@ extensions = [
     "myst_parser",
     "sphinx_mixxx",
     "notfound.extension",
+    "linuxdoc.rstFlatTable",
 ]
 
 todo_include_todos = True
@@ -481,4 +482,5 @@ tls_verify = False
 myst_enable_extensions = [
     "attrs_block",
     "colon_fence",
+    "deflist",
 ]
