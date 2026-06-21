@@ -27,6 +27,10 @@ jobs:
         python-version: '3.10'
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
+    - name: Patch linuxdoc
+      run: >
+        python -c "import linuxdoc; print(linuxdoc.__path__[0])"
+        | xargs -I{} patch -d {} -p1 -N -i patches/linuxdoc-rstFlatTable.patch || true
     - name: Build versioned HTML manual
       run: sh build_html.sh
     - name: Deploy to Netlify
@@ -63,6 +67,10 @@ jobs:
         python-version: '3.10'
     - name: Install Python dependencies
       run: pip install --upgrade -r requirements.txt
+    - name: Patch linuxdoc
+      run: >
+        python -c "import linuxdoc; print(linuxdoc.__path__[0])"
+        | xargs -I{} patch -d {} -p1 -N -i patches/linuxdoc-rstFlatTable.patch || true
     - name: Set up SSH Agent
       if: (github.event_name == 'push' || github.event_name == 'repository_dispatch') && env.SSH_PRIVATE_KEY != null
       env:
