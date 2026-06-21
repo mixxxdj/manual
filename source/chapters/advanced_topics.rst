@@ -288,7 +288,6 @@ Migrate your Mixxx library and settings to Flatpak
 Since version 2.5 Mixxx is also provided as Flatpak.
 
 If you do want to switch from a distribution package or Mixxx built from source code to the Flatpak, a little setup is required. Flatpak stores Mixxx's database, settings, and custom controller mappings in a different location than the `~/.mixxx` directory that Mixxx has always used before. Flatpak uses `~/.var/app/org.mixxx.Mixxx/.mixxx` instead. To copy your database, settings, and controller mappings into the Flatpak sandbox, run:
-::
 
   mkdir -p ~/.var/app/org.mixxx.Mixxx
   cp -r ~/.mixxx ~/.var/app/org.mixxx.Mixxx
