@@ -11,7 +11,6 @@ to “Analog”.
 
 -  [Manufacturer’s product page](https://www.adj.eu/vms2), provides manual and drivers for download.
 -  [Forum thread](https://mixxx.discourse.group/t/american-audio-vms2/12000), for discussion of mapping options.
--  [Pull Request](https://github.com/mixxxdj/mixxx/pull/876), which this wiki page describes.
 
 :::{versionadded} 1.11
 :::

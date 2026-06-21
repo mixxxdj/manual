@@ -12,7 +12,7 @@
    Behringer BCR2000 (schematic view)
 ```
 
-- [Manufacturer's product page](https://www.behringer.com/products/0808-aaa)
+- [Manufacturer's product page](https://www.behringer.com/en/products/0808-AAA)
 - [Forum thread](https://mixxx.discourse.group/t/behringer-b-control-bcr2000/20287)
 
 The B-CONTROL BCR2000 is a general-purpose {term}`USB` {term}`MIDI` controller containing 20
