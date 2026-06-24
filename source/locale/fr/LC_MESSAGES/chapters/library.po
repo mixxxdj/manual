@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025
+# Daniel Schürmann <daschuer@mixxx.org>, 2026
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: 8dfc7d5c6529ab0de7d4a3c6faf92212_2ce1751, 2025\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2026\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1763,7 +1763,7 @@ msgstr ""
 "Mixxx essaie normalement de sélectionner des pistes qui n'ont pas encore été"
 " lues. Vous pouvez définir un nombre minimum de pistes qui sont toujours "
 "disponibles pour la sélection, peu importe quand elles ont été lues pour la "
-"dernière fois, dans :menuelection:`Préférences --> Auto DJ --> Nombre "
+"dernière fois, dans :menuselection:`Préférences --> Auto DJ --> Nombre "
 "minimum de pistes disponibles dans la Source de piste`."
 
 #: ../../chapters/library.rst:736
@@ -2139,7 +2139,7 @@ msgid ""
 " tracks from anywhere on your computer and connected devices, that are not "
 "necessarily already in your Mixxx library."
 msgstr ""
-"|ic_lib_ordinateur| Ce mode fonctionne comme un gestionnaire de fichiers et "
+"|ic_lib_computer| Ce mode fonctionne comme un gestionnaire de fichiers et "
 "vous permet de charger des pistes depuis n'importe où sur votre ordinateur "
 "et vos appareils connectés, qui ne sont pas forcément déjà dans votre "
 "bibliothèque Mixxx."
@@ -2325,7 +2325,7 @@ msgid ""
 " your tracks analyzed before you play. See :ref:`getting-started-analyze-"
 "library` for details."
 msgstr ""
-"|ic_lib_analyse| Cette section vous permet d'analyser vos pistes avant de "
+"|ic_lib_analyze| Cette section vous permet d'analyser vos pistes avant de "
 "les charger dans une platine. L'analyse des pistes nécessite une puissance "
 "CPU considérable et peut provoquer des sauts dans l'audio pendant "
 "l'exécution. Il est donc utile d'analyser vos pistes avant de les jouer. "

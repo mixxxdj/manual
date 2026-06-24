@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 14:59+0200\n"
+"POT-Creation-Date: 2026-06-24 23:05+0200\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
@@ -37,20 +37,20 @@ msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:21
 msgid ""
-"`Manufacturer's Product Page "
-"<https://www.pioneerdj.com/en/product/controller/ddj-400/black/overview/>`__"
+"`Manufacturer's Product Page <https://www.pioneerdj.com/de/product/dj-"
+"controllers/ddj-400/>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:22
 msgid ""
-"`Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-"
-"info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__"
+"`Manufacturer's User Manual "
+"<https://support.alphatheta.com/articles/4404919716761?product=4416577146009>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:23
 msgid ""
-"`Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-"
-"info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf>`__"
+"`Manufacturer's Firmware Update "
+"<https://support.alphatheta.com/products/4416577146009?section=25>`__"
 msgstr ""
 
 #: ../../hardware/controllers/pioneer_ddj_400.rst:24

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2024
 # MjrLZ, 2025
+# Daniel Schürmann <daschuer@mixxx.org>, 2026
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-25 22:05+0100\n"
 "PO-Revision-Date: 2022-09-05 05:58+0000\n"
-"Last-Translator: MjrLZ, 2025\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2026\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -401,10 +401,10 @@ msgid ""
 ":menuselection:`Preferences --> Library --> Rescan on startup`."
 msgstr ""
 "Als u uw bibliotheek wilt bijwerken (bv. omdat u bestanden hebt toegevoegd "
-"of verplaatst), kunt u dit doen met :menuselectie:`Bibliotheek --> Scan "
+"of verplaatst), kunt u dit doen met :menuselection:`Bibliotheek --> Scan "
 "Bibliotheek Opnieuw` in het menu. Als u bij elke start opnieuw wilt scannen,"
-" selecteert u :menuselectie:`Voorkeuren --> Bibliotheek --> Opnieuw Scannen "
-"bij opstarten`."
+" selecteert u :menuselection:`Voorkeuren --> Bibliotheek --> Opnieuw Scannen"
+" bij opstarten`."
 
 #: ../../chapters/getting_started.rst:94
 msgid ""
@@ -544,7 +544,7 @@ msgid ""
 "not need to configure all inputs and outputs."
 msgstr ""
 "Vooraleer u Mixxx kunt gaan gebruiken, moet u Mixxx configureren om uw "
-"geluidshardware te gebruiken in: menuselectie: `Voorkeuren -> "
+"geluidshardware te gebruiken in :menuselection: `Voorkeuren -> "
 "Geluidsapparatuur`. U hoeft niet alle in- en uitgangen te configureren. "
 
 #: ../../chapters/getting_started.rst:145
