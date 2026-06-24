@@ -1,7 +1,7 @@
 Arturia KeyLab Mk 1
 ===================
 
-`Manufacturer's product page <https://www.arturia.com/keylab88/resources>`_ ·
+`Manufacturer's product page <https://www.arturia.com/support/downloads-manuals/product/keylab88>`_ ·
 `Forum thread <https://mixxx.discourse.group/t/arturia-keylab-mk1/31080>`_
 
 .. versionadded:: 2.5.1

@@ -18,9 +18,9 @@ Pioneer DDJ-400
 The Pioneer DDJ-400 is a 2 deck USB controller with an integrated audio interface
 designed for rekordbox.
 
-- `Manufacturer's Product Page <https://www.pioneerdj.com/en/product/controller/ddj-400/black/overview/>`__
-- `Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_midi_message_list_e1.pdf>`__
-- `Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-400/ddj-400_hardwarediagram_rekordboxdj_e1.pdf>`__
+- `Manufacturer's Product Page <https://www.pioneerdj.com/de/product/dj-controllers/ddj-400/>`__
+- `Manufacturer's User Manual <https://support.alphatheta.com/articles/4404919716761?product=4416577146009>`__
+- `Manufacturer's Firmware Update <https://support.alphatheta.com/products/4416577146009?section=25>`__
 - `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-400/17476>`__
 
 .. versionadded:: 2.3.0
@@ -265,7 +265,7 @@ No.   Control                                                  Function
 4     EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)      Boosts or cuts channel frequencies
 5     Channel level indicators                                 Displays channel levels (before being sent through channel faders)
 6     :hwlabel:`HEADPHONES` :hwlabel:`MIXING`                  Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent to headphones
-7     :hwlabel:`FILTER`                                        QuickEffect superknob (by default controls a Filter, but this can be changed in the :ref:`preferences <preferences-equalizers>`)
+7     :hwlabel:`FILTER`                                        QuickEffect superknob (by default controls a Filter, but this can be changed in the :ref:`preferences <preferences-mixer>`)
 8     :hwlabel:`HEADPHONES` :hwlabel:`LEVEL`                   Adjusts output level from :hwlabel:`PHONES` jack
 9     Headphone :hwlabel:`CUE` (Channel)                       Turn on to output channel to headphones
 9     :hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`              Toggles quantize for the current channel

@@ -14,7 +14,7 @@ The *Behringer CMD Micro* is a simple controller for basic two-channel
 mixing. This device does not have a built in sound card, so it would
 require a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio interface <hardware-audio-interfaces>` to be able to preview tracks in headphones.
 
--  `Manufacturer’s product page <https://www.behringer.com/product.html?modelCode=P0AJR>`__
+-  `Manufacturer’s product page <https://www.behringer.com/en/products/0700-aai>`__
 
 .. versionadded:: 2.1
 

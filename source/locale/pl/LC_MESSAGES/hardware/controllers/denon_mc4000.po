@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 07:51+0200\n"
+"POT-Creation-Date: 2026-06-19 14:59+0200\n"
 "PO-Revision-Date: 2022-09-05 05:59+0000\n"
 "Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7734/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -37,8 +37,9 @@ msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:11
 msgid ""
-"`Manual / Midi commands <http://denon-dj.de/wp-"
-"content/uploads/2023/03/MC4000-User-Guide-v1.2_00.pdf>`__"
+"`Manual / Midi commands "
+"<https://cdn.inmusicbrands.com/denondj/MC4000/MC4000-User-"
+"Guide-v1.2_00.pdf>`__"
 msgstr ""
 
 #: ../../hardware/controllers/denon_mc4000.rst:12
