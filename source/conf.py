@@ -210,6 +210,7 @@ html_css_files = [
 ]
 
 html_js_files = [
+    "js/search-scorer.js",
     "js/widget-sidebar.js",
 ]
 
