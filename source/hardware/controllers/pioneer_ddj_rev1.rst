@@ -201,6 +201,18 @@ No.  Control                                                   Function
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
 ==== ========================================================= =================================================================================================
 
+Beat Jump / Roll section
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+==== ========================================================= ======================================================================
+10   Beat Jump :hwlabel:`pads 1–4`                             One-shot beat jump / back / size controls.
+10   Beat Jump :hwlabel:`pad 5`                                Previous track (deck must not be playing).
+10   Beat Jump :hwlabel:`pads 6 /`                             Hold-to-rewind / hold-to-fast-forward.
+10   Beat Jump :hwlabel:`pad 8`                                Hold-to-censor (``reverseroll``).
+11   Beat Roll :hwlabel:`pads 1–8`                             Hold loop roll with per-pad configurable roll sizes and available actions.
+==== ========================================================= ======================================================================
 
 Scratch Bank section (Mixxx 2.5)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -227,7 +239,7 @@ No.  Control                                                       Function
 10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`LEVEL/DEPTH`     Adjust stem volume / while held parameters while held.
 10   :hwlabel:`SCRATCH BANK pads 5–8` + :hwlabel:`LEVEL/DEPTH`     Adjust effect volume / while held.
 10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
-==== ========================================================= ======================================================================
+==== ============================================================= ==========================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.svg
    :align: center
@@ -236,19 +248,6 @@ No.  Control                                                       Function
    :figclass: pretty-figures
 
    Stems and stem-effect positions: voice, melody, bass, drums.
-
-Beat Jump / Roll section
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-==== ========================================================= ======================================================================
-No.  Control                                                   Function
-==== ========================================================= ======================================================================
-10   Beat Jump :hwlabel:`pads 1–4`                             One-shot beat jump / back / size controls.
-10   Beat Jump :hwlabel:`pad 5`                                Previous track (deck must not be playing).
-10   Beat Jump :hwlabel:`pads 6 /`                             Hold-to-rewind / hold-to-fast-forward.
-10   Beat Jump :hwlabel:`pad 8`                                Hold-to-censor (``reverseroll``).
-11   Beat Roll :hwlabel:`pads 1–8`                             Hold loop roll with per-pad configurable roll sizes and available actions.
-==== ========================================================= ======================================================================
 
 Extra controls section
 ^^^^^^^^^^^^^^^^^^^^^^
