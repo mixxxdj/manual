@@ -304,21 +304,19 @@ No.  Control                                                   Function
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Toggle Beat Slicer loop mode.
 ==== ========================================================= ======================================================================
 
-.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
-   :align: center
-   :width: 350
++-----------------------------+-----------------------------+
+| |slice-linear|              | |slice-loop|                |
+|                             |                             |
+| Beat Slicer — Linear        | Beat Slicer — Loop          |
++-----------------------------+-----------------------------+
+
+.. |slice-linear| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
+   :width: 300px
    :alt: Mixxxed Mode slot 2 — Beat Slicer linear mode pad lighting example.
-   :figclass: pretty-figures
 
-   Beat Slicer — linear mode.
-
-.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-loop.svg
-   :align: center
-   :width: 350
+.. |slice-loop| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-loop.svg
+   :width: 300px
    :alt: Mixxxed Mode slot 2 — Beat Slicer loop mode pad lighting example.
-   :figclass: pretty-figures
-
-   Beat Slicer — loop mode.
 
    Mixxxed Mode slot 2: Beat Slicer. Pad lighting follows the active slice.
 
