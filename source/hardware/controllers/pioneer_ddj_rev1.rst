@@ -342,8 +342,8 @@ the right row is decks 2 / 4. In **anchor modes** (Major / Minor), pad 1 is the
 
 .. note:: ``Keylock`` - is enabled while in piano mode. Exist all piano decks to revert back to previous enable/disabled status. 
 
-  Major [Ionian]
-  ^^^^^^^^^^^^^^
+Major [Ionian]
+""""""""""""""
 
 C-scale example — pad 1 = original reference key:
 
@@ -361,8 +361,8 @@ C-scale example — pad 1 = original reference key:
    :width: 300px
    :alt: Piano Roll Major mode — deck 2 minor scale (C example).
 
-  Minor [Aeolian]
-  ^^^^^^^^^^^^^^^
+Minor [Aeolian]
+""""""""""""""
 
 C-scale example — pad 1 = original reference key:
 
@@ -380,8 +380,8 @@ C-scale example — pad 1 = original reference key:
    :width: 300px
    :alt: Piano Roll Minor mode — deck 2 minor scale (C example).
 
-  Play Through
-  ^^^^^^^^^^^^
+Play Through
+""""""""""""""
 
 Pitch-shift only — no position snap or anchor. Main and SHIFT rows are both
 active pitch keys; the right deck adds +12 semitones.
