@@ -219,14 +219,14 @@ No.  Control                                                   Function
 Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-==== ========================================================= ======================================================================
-No.  Control                                                   Function
-==== ========================================================= ======================================================================
-10   :hwlabel:`SCRATCH MODE pads 1–4`                          Stem mute toggles (voice / melody / bass / drums).
-10   :hwlabel:`SCRATCH MODE pads 5–8`                          Stem effect toggles (voice / melody / bass / drums).
-10   :hwlabel:`STEM PAD pads 1–4` + :hwlabel:`LEVEL/DEPTH`     Adjust stem volume / while held parameters while held.
-10   :hwlabel:`STEM PAD pads 5–8` + :hwlabel:`LEVEL/DEPTH`     Adjust effect volume / while held.
-10   :hwlabel:`STEM PAD pads 1–4` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
+==== ============================================================= ==========================================================================
+No.  Control                                                       Function
+==== ============================================================= ==========================================================================
+10   :hwlabel:`SCRATCH BANK pads 1–4`                              Stem mute toggles (voice / melody / bass / drums).
+10   :hwlabel:`SCRATCH BANK pads 5–8`                              Stem effect toggles (voice / melody / bass / drums).
+10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`LEVEL/DEPTH`     Adjust stem volume / while held parameters while held.
+10   :hwlabel:`SCRATCH BANK pads 5–8` + :hwlabel:`LEVEL/DEPTH`     Adjust effect volume / while held.
+10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
 ==== ========================================================= ======================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.svg
