@@ -305,9 +305,9 @@ No.  Control                                                   Function
 ==== ========================================================= ======================================================================
 
 +---------------------------------------+---------------------------------------+
-| |slice-linear|                        | |slice-loop|                         |
+| |slice-linear|                        | |slice-loop|                          |
 |                                       |                                       |
-| Beat Slicer — Linear                  | Beat Slicer — Loop                   |
+| Beat Slicer — Linear                  | Beat Slicer — Loop                    |
 +---------------------------------------+---------------------------------------+
 
 .. |slice-linear| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
