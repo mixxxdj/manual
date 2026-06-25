@@ -532,6 +532,7 @@ as fallback.
 
 Known issues
 ^^^^^^^^^^^^
+
 - Controller Utility mode may not expose all expected fader-start MIDI
   variants on the hardware (controller limitation).
 - Fader-start behavior can depend on controller-side utility state and may
