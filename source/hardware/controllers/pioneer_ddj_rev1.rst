@@ -26,8 +26,6 @@ Requirements
 Mixxx 2.5 or newer. Supports 2.5 and 2.6+ behavior; see
 `Compatibility`_.
 
-AKOI Mapping version **2.2+**
-
 Firmware & drivers
 ------------------
 
@@ -52,7 +50,7 @@ install the latest driver package available.
 Mode           Behavior
 ==========     ===========================================================================
 **2.5:** Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
-**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
+**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
@@ -114,7 +112,7 @@ describes Mixxx-specific behavior.
 - Configurable Beat Jump, Auto Loop and Beat Roll pads use hold semantics with configurable roll sizes.
 - Sampler volume gate and headphone cue logic are tuned for usability.
 - ScratchBank mapping and FX buffering are refined for stability.
-- 4 Sampler pad layout options are available (see `User configuration options`_).
+- 3 Sampler pad layout options are available (see `User configuration options`_).
 - Sixteen samples by default (samples 1–16).
 - Improvements to Library Sort.
 - Scratch Feel.
@@ -123,11 +121,11 @@ describes Mixxx-specific behavior.
 - Additional user configuration options.
 - Configurable beat tempo ranges.
 - VU meter options
-- Mixxxed Mode (configurable by deck from controller). 
- - Slot 1: Auto Loop
- - Slot 2: Beat Slicer
- - Slot 3: *Coming Soon*
- - Slot 4: Scratch Bank
+- Mixxxed Mode (configurable per deck — see :ref:`Mixxed Mode`).
+  - Slot 1: Auto Loop
+  - Slot 2: Beat Slicer
+  - Slot 3: Piano Roll
+  - Slot 4: Scratch Bank
 
 
 
@@ -166,8 +164,8 @@ Mixer section
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-12   :hwlabel:`(HEADPHONES) CUE`                               PFL toggle with updated head-mix handling (user configuration).
-12   :hwlabel:`MASTER CUE`                                     Toggles head-mix behavior (user configuration).
+12   :hwlabel:`(HEADPHONES) CUE`                               PFL toggle with AUTO head-mix adjustment.
+12   :hwlabel:`MASTER CUE`                                     Toggles master head-mix blend (AUTO PFL).
 13   :hwlabel:`SHIFT` + :hwlabel:`CHANNEL FADER`               Channel fader start (must be enabled in Utility mode on the controller).
 15   :hwlabel:`SHIFT` + :hwlabel:`CROSSFADER`                  Crossfader start (must be enabled in Utility mode on the controller).
 ==== ========================================================= ======================================================================
@@ -194,8 +192,8 @@ Sampler section
 ==== ========================================================= =================================================================================================
 No.  Control                                                   Function
 ==== ========================================================= =================================================================================================
-10   :hwlabel:`SAMPLER PADS 1-8`                               Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
-10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS 1-8`            Stop the playing sample, or eject a stopped sample.
+10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
+10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
 ==== ========================================================= =================================================================================================
 
@@ -212,7 +210,7 @@ No.  Control                                                   Function
 ==== ========================================================= ======================================================================
 
 .. note::
-   On 2.6, Scratch Bank moved to *Mixxxed Mode* slot 4. 
+   On 2.6, Scratch Bank moved to *Mixxed Mode* slot 4. 
 
 Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -264,36 +262,174 @@ No.  Control                                                   Function
 10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
-*MIXXXED MODE* section
+*MIXXED MODE* section
 ^^^^^^^^^^^^^^^^^^^^^^
 
-==== ========================================================== ======================================================================
-No.  Control                                                    Function
-0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`     Select Mixxxed mode.
-1    Auto Loop Mode :hwlabel:`Mode 1:` ``Auto Loop``            Set loop length. User configuration applies.
-2    Auto Loop Mode :hwlabel:`Mode 2:` ``Beat Slicer``          Segment beat into small consumable pieces. Default continuous mode. 
-2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`          Update Beat Slicer domain 8/16/32/64. Loop size and slice jump size increases accordingly.
-2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Loop Beat Slicer.
+.. _Mixxed Mode:
 
-3    Auto Loop Mode :hwlabel:`Mode 3:` ``Piano (Unavailable)``  Coming soon Piano, Play Through+!
-
-4    Auto Loop Mode :hwlabel:`Mode 4:` ``Scratch Bank``         Loads selected scratch samples to respective deck.
-4    Auto Loop Mode :hwlabel:`pads 1–4`                         Load scratch samples from samples **17–20(Deck1/3) 21-24** (Deck2/4).
-
-
-==== ========================================================== ======================================================================
-
-.. note:: ``Beat Slicer`` If domain does not update and autoloop engaged, disengage auto loop. (Temp fix)*
-
-Lighting example mode selection: :hwlabel:`SHIFT` + :hwlabel:`FX3→`
+When ``multiModeEnabled`` is on, :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→` cycles
+per-deck modes on the Auto Loop pad row (1→2→3→4→1). Release :hwlabel:`SHIFT`
+or wait 1.5 s after the last step to lock. Mode preview uses the shift pad LED
+row.
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode4.svg
    :align: center
    :width: 250
-   :alt:  Mixxxed Mode 4: Scratch Bank. Scratch samples loaded.
+   :alt: Mixxxed Mode slot 4 — Scratch Bank. Scratch samples loaded.
    :figclass: pretty-figures
 
-   Mixxxed Mode 4: Scratch Bank. Scratch samples loaded.
+   Mixxxed Mode slot 4: Scratch Bank. Scratch samples loaded.
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`    Cycle Mixxed Mode (per deck).
+==== ========================================================= ======================================================================
+
+Slot 1: Auto Loop
+~~~~~~~~~~~~~~~~~
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+1    Auto Loop Mode — slot 1                                    Standard auto loop row (user configuration applies).
+==== ========================================================= ======================================================================
+
+Slot 2: Beat Slicer
+~~~~~~~~~~~~~~~~~~~
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+2    Auto Loop Mode — slot 2                                    Segment the beat into small consumable pieces. Default continuous mode.
+2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`          Cycle Beat Slicer domain 8 / 16 / 32 / 64. Loop size and slice jump size increase accordingly.
+2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Toggle Beat Slicer loop mode.
+==== ========================================================= ======================================================================
+
+.. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
+   :align: center
+   :width: 350
+   :alt: Mixxxed Mode slot 2 — Beat Slicer linear mode pad lighting example.
+   :figclass: pretty-figures
+   .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-loop.svg
+   :align: center
+   :width: 350
+   :alt: Mixxxed Mode slot 2 — Beat Slicer loop mode pad lighting example.
+   :figclass: pretty-figures
+
+   Mixxxed Mode slot 2: Beat Slicer. Pad lighting follows the active slice.
+
+
+Slot 3: Piano Roll
+~~~~~~~~~~~~~~~~~~
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+3    Auto Loop Mode — slot 3                                    Piano Roll — pitch and anchor modes (Major / Minor / Play Through).
+3    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`pads 1–8`      Anchor modes only: toggle hotcue anchor override on deck 1 (SHIFT row LEDs show set hotcues).
+==== ========================================================= ======================================================================
+
+All piano pads target **deck 1** audio. The right Auto Loop row is decks 1 / 3;
+the right row is decks 2 / 4. In **anchor modes** (Major / Minor), pad 1 is the
+**original reference key**; playback snaps to the anchor on each pad press.
+
+.. note:: ``Keylock`` - is enabled while in piano mode. Exist all piano decks to revert back to previous enable/disabled status. 
+
+Major [Ionian]
+^^^^^^^^^^^^^^
+
+C-scale example — pad 1 = original reference key:
+
++-----------------------------+-----------------------------+
+| |piano-major-d1|            | |piano-major-d2|            |
+|                             |                             |
+| Deck 1 — Major scale        | Deck 2 — Minor scale        |
++-----------------------------+-----------------------------+
+
+.. |piano-major-d1| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Major-Deck1-MajorScale.svg
+   :width: 300px
+   :alt: Piano Roll Major mode — deck 1 major scale (C example).
+
+.. |piano-major-d2| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Major-Deck2-MinorScale.svg
+   :width: 300px
+   :alt: Piano Roll Major mode — deck 2 minor scale (C example).
+
+Minor [Aeolian]
+^^^^^^^^^^^^^^^
+
+C-scale example — pad 1 = original reference key:
+
++-----------------------------+-----------------------------+
+| |piano-minor-d1|            | |piano-minor-d2|            |
+|                             |                             |
+| Deck 1 — Major scale        | Deck 2 — Minor scale        |
++-----------------------------+-----------------------------+
+
+.. |piano-minor-d1| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck1-MajorScale.svg
+   :width: 300px
+   :alt: Piano Roll Minor mode — deck 1 major scale (C example).
+
+.. |piano-minor-d2| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck2-MinorScale.svg
+   :width: 300px
+   :alt: Piano Roll Minor mode — deck 2 minor scale (C example).
+
+Play Through
+^^^^^^^^^^^^
+
+Pitch-shift only — no position snap or anchor. Main and SHIFT rows are both
+active pitch keys; the right deck adds +12 semitones.
+
++-----------------------------+-----------------------------+
+| |piano-pt-d1|               | |piano-pt-d2|               |
+| Deck 1 — Major scale        | Deck 2 — Minor scale        |
++-----------------------------+-----------------------------+
+| |piano-pt-d1-shift|         | |piano-pt-d2-shift|         |
+| Deck 1 — Major scale (SHIFT)| Deck 2 — Minor scale (SHIFT)|
++-----------------------------+-----------------------------+
+
+.. |piano-pt-d1| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-PT-Deck1-MajorScale.svg
+   :width: 300px
+   :alt: Piano Roll Play Through — deck 1 major scale (C example).
+
+.. |piano-pt-d2| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-PT-Deck2-MinorScale.svg
+   :width: 300px
+   :alt: Piano Roll Play Through — deck 2 minor scale (C example).
+
+.. |piano-pt-d1-shift| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-PT-Deck1-MajorScale-SHIFT.svg
+   :width: 300px
+   :alt: Piano Roll Play Through — deck 1 major scale SHIFT row (C example).
+
+.. |piano-pt-d2-shift| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-PT-Deck2-MinorScale-SHIFT.svg
+   :width: 300px
+   :alt: Piano Roll Play Through — deck 2 minor scale SHIFT row (C example).
+
+.. hint::
+
+   **Anchor modes (Major / Minor)**
+
+   - On a **stopped** deck, pressing a piano pad sets anchor and plays track in key.
+     Releasing a piano pad stops playback. Press :hwlabel:`PLAY` while holding a piano pad for **continuous
+     play** in that key.
+   - On a **playing** deck, pressing a piano pad sets anchor stops playback on release. Press :hwlabel:`PLAY` while holding a piano pad for **continuous
+     play** in that key.
+   - Press :hwlabel:`PLAY` alone to roll from the anchor; the next pad press
+     stops transport first.
+   - :hwlabel:`SHIFT` + Auto Loop pad select/deselect an existing hotcue as the anchor
+     (SHIFT row LED blinks for the active override). Setting a new hotcue on
+     deck 1 updates the avaiable hotcue anchors.
+
+   **Play Through**
+
+   - Hold a pad for momentary pitch shift; no playhead snap or anchor.
+   - Both pad rows are live pitch keys — SHIFT row pads reach the upper scale
+     degrees (+12 semitones on the right deck).
+
+Slot 4: Scratch Bank
+~~~~~~~~~~~~~~~~~~~~
+
+==== ========================================================= ======================================================================
+No.  Control                                                   Function
+4    Auto Loop Mode — slot 4                                    Loads selected scratch samples to the respective deck.
+4    Auto Loop Mode :hwlabel:`pads 1–4`                         Load scratch samples from samples **17–20** (deck 1 / 3) and **21–24** (deck 2 / 4).
+==== ========================================================= ======================================================================
+
 
 User configuration options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -309,81 +445,79 @@ as fallback.
    * - Variable
      - Function
      - Default
-   * - ``PioneerDDJREV1.vinylMode``
+   * - ``PioneerDDJREV1PROD.vinylMode``
      - Per-deck startup vinyl / CDJ mode.
      - ``true``
-   * - ``PioneerDDJREV1.VinylSlipAutoff``
+   * - ``PioneerDDJREV1PROD.VinylSlipAutoff``
      - Auto-enable slip on vinyl touch and auto-disable on release.
      - ``false``
-   * - ``PioneerDDJREV1.nonShiftScratchFeel``
+   * - ``PioneerDDJREV1PROD.nonShiftScratchFeel``
      - Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO.
      - ``Default``
-   * - ``PioneerDDJREV1.librarySortDefaults``
+   * - ``PioneerDDJREV1PROD.librarySortDefaults``
      - Sort by any available library option.
      - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
-   * - ``PioneerDDJREV1.bigLibraryShiftPush``
+   * - ``PioneerDDJREV1PROD.bigLibraryShiftPush``
      - :hwlabel:`SHIFT` + :hwlabel:`ROTARY SELECTOR PUSH` Maximize and minimize "Big Library". *Replaces library backwards panel movement. Use forward to cycle through.*
      - ``false``
-   * - ``PioneerDDJREV1.beatJumpSize1`` … ``beatJumpSize8``
+   * - ``PioneerDDJREV1PROD.beatJumpSize1`` … ``beatJumpSize8``
      - Per-pad configuration for beat jump size, includes action override.
      - ``Back/Half/Double/Forward`` … ``Prev/RWD/FWD/Censor``
-   * - ``PioneerDDJREV1.autoLoopSize1`` … ``autoLoopSize8``
+   * - ``PioneerDDJREV1PROD.autoLoopSize1`` … ``autoLoopSize8``
      - Per-pad loop sizes for auto loop mode (1/32...-64, halves/doubles).
      - ``1/16`` … ``8``
-   * - ``PioneerDDJREV1.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
+   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
      - Per-pad roll sizes for beat roll mode (1/32...-64, halves/doubles).
      - ``1/4`` … ``32``
-   * - ``PioneerDDJREV1.sZoom``
+   * - ``PioneerDDJREV1PROD.sZoom``
      - Use vinyl side jog for waveform zoom.
      - ``false``
-   * - ``PioneerDDJREV1.waveformZoomMode``
+   * - ``PioneerDDJREV1PROD.waveformZoomMode``
      - Attach waveform zoom to deck Vinyl or CDJ mode when enabled.
      - ``vinyl``
-   * - ``PioneerDDJREV1.vuMeterMode``
+   * - ``PioneerDDJREV1PROD.vuMeterMode``
      - VU meter routing: legacy per-deck meters, or stereo split master (left , right).
      - ``per_deck``
-   * - ``PioneerDDJREV1.brakingEnabled``
+   * - ``PioneerDDJREV1PROD.brakingEnabled``
      - Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking.
      - ``false``
-   * - ``PioneerDDJREV1.brakingStartProfile``
+   * - ``PioneerDDJREV1PROD.brakingStartProfile``
      - Start profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1.brakingStopProfile``
+   * - ``PioneerDDJREV1PROD.brakingStopProfile``
      - Stop profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1.tempSamplerSkin``
+   * - ``PioneerDDJREV1PROD.tempSamplerSkin``
      - Show sampler UI while using the sampler volume gate.
      - ``false``
-   * - ``PioneerDDJREV1.studioPflAdjustment``
-     - PFL adjustment: Off / Auto / Studio.
-     - ``Auto``
    * - ``PioneerDDJREV1.splitFx``
      - :hwlabel:`LEVEL/DEPTH` routing: Off (default) controls both FX units; On routes :hwlabel:`LEVEL/DEPTH`-> FX1 vs :hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`-> FX2.
-     - ``false``
-   * - ``PioneerDDJREV1.enableFxUnit34ShiftLock``
-     - :hwlabel:`SHIFT` + :hwlabel:`LOCK ON`-> FX3/4.
      - ``false``
    * - ``PioneerDDJREV1.tempoRangeProfile``
      - :hwlabel:`Deck Select` long press cycles through preselected ranges (wraps to first step). Default [8%, 16%, 50%], Classic [6%, 10%, 16%, 25%], Alt Step Size [8%, 24%, 50%], Extreme [8%, 16%, 50%, 100%].
      - ``Default``
    * - ``PioneerDDJREV1.multiModeEnabled``
-     - :hwlabel:`Shift` + :hwlabel:`←FX2/FX3→` cycles through available modes.
+     - :hwlabel:`Shift` + :hwlabel:` ←FX2/FX3→` cycles through available modes.
      - ``false``
+   * - ``PioneerDDJREV1.beatSlicerPattern``
+     - Beat Slicer pattern: ``linear`` or ``loop``.
+     - ``linear``
+   * - ``PioneerDDJREV1.pianoRollScale``
+     - Piano Roll scale: ``major``, ``minor``, or ``playthrough``.
+     - ``major``
    * - ``PioneerDDJREV1.disableStartFader``
      - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
      - ``false``
-   * - ``PioneerDDJREV1.samplePadLayout``
-     - ``Standard`` / ``Banked Rows`` / ``Mirrored``/ ``Per Pad 32``.
+   * - ``PioneerDDJREV1PROD.samplePadLayout``
+     - ``Standard`` / ``Banked Rows`` / ``Per Pad 32``.
      - ``Standard``
 
 .. note:: ``samplePadLayout`` layouts
 
   - **Standard (linear):** (Deere, Tango) 
-       - Top 1–8. Bottom 9–16.
+       - Left 1–8, right 9–16 (top to bottom, linear).
   - **Banked rows:** (Late Night) 
-      - Left top  1–4, bottom 5–8. Right: top 9–12, bottom 13–16.
-  - **Mirrored:** Default order reversed within each row. 
-      - Left: top 4 3 2 1, bottom 8 7 6 5; Right: top 12 11 10 9, bottom 16 15 14 13.
+      - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
   - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
        - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
         - Note: `Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
@@ -396,4 +530,4 @@ Known issues
   variants on the hardware (controller limitation).
 - Fader-start behavior can depend on controller-side utility state and may
   require a Mixxx restart after utility changes (controller limitation).
-- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxxed Mode slot 4.
+- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxed Mode slot 4.
