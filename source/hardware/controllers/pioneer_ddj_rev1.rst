@@ -190,17 +190,6 @@ No.  Control                                                                    
 4    :hwlabel:`FX1`, :hwlabel:`FX2`, :hwlabel:`FX3` + :hwlabel:`ROTARY SELECTOR`  Designate the effect for the selected FX button (descending order).
 ==== ============================================================================ ============================================================================================
 
-Sampler section
-^^^^^^^^^^^^^^^
-
-==== ========================================================= =================================================================================================
-No.  Control                                                   Function
-==== ========================================================= =================================================================================================
-10   :hwlabel:`SAMPLER PADS 1–16`                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
-10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS 1–16`           Stop the playing sample, or eject a stopped sample.
-10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
-==== ========================================================= =================================================================================================
-
 Beat Jump / Roll section
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -213,6 +202,17 @@ No.  Control                                                   Function
 10   Beat Jump :hwlabel:`pad 8`                                Hold-to-censor (``reverseroll``).
 11   Beat Roll :hwlabel:`pads 1–8`                             Hold loop roll with per-pad configurable roll sizes and available actions.
 ==== ========================================================= ======================================================================
+
+Sampler section
+^^^^^^^^^^^^^^^
+
+==== ========================================================= =================================================================================================
+No.  Control                                                   Function
+==== ========================================================= =================================================================================================
+10   :hwlabel:`SAMPLER PADS 1–16`                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
+10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS 1–16`           Stop the playing sample, or eject a stopped sample.
+10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
+==== ========================================================= =================================================================================================
 
 Scratch Bank section (Mixxx 2.5)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
