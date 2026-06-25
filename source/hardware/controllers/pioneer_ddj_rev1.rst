@@ -304,11 +304,11 @@ No.  Control                                                   Function
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Toggle Beat Slicer loop mode.
 ==== ========================================================= ======================================================================
 
-+-----------------------------+-----------------------------+
-| |slice-linear|              | |slice-loop|                |
-|                             |                             |
-| Beat Slicer — Linear        | Beat Slicer — Loop          |
-+-----------------------------+-----------------------------+
++---------------------------------------+---------------------------------------+
+| |slice-linear|                        |  |slice-loop|                         |
+|                                       |                                       |
+| Beat Slicer — Linear                  |  Beat Slicer — Loop                   |
++---------------------------------------+---------------------------------------+
 
 .. |slice-linear| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
    :width: 250px
