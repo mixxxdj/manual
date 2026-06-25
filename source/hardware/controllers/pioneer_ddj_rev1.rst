@@ -125,7 +125,7 @@ describes Mixxx-specific behavior.
 - Configurable beat tempo ranges.
 - VU meter options.
 - Additional user configuration options.
-- Mixxxed Mode (configurable per deck — see :ref:`Mixxed Mode`).
+- Mixxxed Mode (configurable per deck — see :ref:`Mixxxed Mode`).
 
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
@@ -528,8 +528,7 @@ as fallback.
       - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
   - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
        - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
-        - Note: `Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
-
+        - Note: ``Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
 
 Known issues
 ^^^^^^^^^^^^
