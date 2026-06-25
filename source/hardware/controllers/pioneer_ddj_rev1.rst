@@ -20,6 +20,10 @@ behavior; see the manufacturer’s manual for the physical control layout.
 
 .. versionadded:: 2.5.0
 
+.. contents::
+   :local:
+   :depth: 4
+
 Requirements
 ------------
 
@@ -29,7 +33,9 @@ Mixxx 2.5 or newer. Supports 2.5 and 2.6+ behavior; see
 Firmware & drivers
 ------------------
 
-**Firmware:** At the time this documentation was written there were no
+**Firmware:** At the - **Scratching not working on first run:** Close Mixxx → unplug controller → replug → restart Mixxx.
+- **Brake not working:** Enable in user config; requires Mixxx 2.5.4+ with brake support.
+...time this documentation was written there were no
 required firmware updates for the Pioneer DDJ-REV1. Check the Pioneer DJ
 website for updates.
 
@@ -535,3 +541,15 @@ Known issues
 - Fader-start behavior can depend on controller-side utility state and may
   require a Mixxx restart after utility changes (controller limitation).
 - Classic scratch row is not used on 2.6+; Scratch Bank via Mixxed Mode slot 4.
+
+Troubleshooting
+~~~~~~~~~~~~~~~
+
+- **Scratching not working on first run:** Close Mixxx → unplug controller → replug → restart Mixxx.
+- **Brake not working:** Enable in user config; requires Mixxx 2.5.4+ with brake support.
+- **Mixxx controls not found for stems:** Confirm the correct XML mapping is loaded, then restart Mixxx.
+- **Lighting is incorrect:** Same as scratching on first run: close Mixxx, unplug/replug the controller, restart Mixxx.
+- **Phantom jog/slider movement:** See the manufacturer manual — blow compressed air to clear dust from components.
+- **Scratch Bank samples not playing:**    Load samples on samplers **17–24**. Use a skin with 24+ sample slots (Late Night, Tango, Deere).
+    Check the Mixxx console for log messages if pads still fail.
+
