@@ -111,20 +111,19 @@ See the Pioneer manual for the physical control layout. The following
 describes Mixxx-specific behavior.
 
 - Automatic version detection (2.5 / 2.6+) (STEMS vs Scratch Bank pad routing).
+- Configurable Beat Jump, Auto Loop and Beat Roll pads use hold semantics with configurable sizes.
 - :hwlabel:`SHIFT` + :hwlabel:`PLAY/PAUSE` supports braking profiles (Off,
   Classic, Slow) with a default fallback when braking is disabled.
-- Configurable Beat Jump, Auto Loop and Beat Roll pads use hold semantics with configurable roll sizes.
 - Sampler volume gate and headphone cue logic are tuned for usability.
 - Scratch Bank mapping and FX buffering are refined for stability.
-- 3 Sampler pad layout options are available (see `User configuration options`_).
 - Sixteen samples by default (samples 1–16).
+- Configurable beat tempo ranges.
 - Improvements to Library Sort.
 - Scratch Feel.
-- Split FX.
+- Split FX1/2.
 - STEMS v2.6+.
-- Configurable beat tempo ranges.
 - VU meter options.
-- Additional user configuration options.
+- Additional user configuration options (see `User configuration options`_).
 - Mixxxed Mode (configurable per deck — see `MIXXXED MODE section`_).
 
   - Slot 1: Auto Loop
@@ -197,8 +196,8 @@ Sampler section
 ==== ========================================================= =================================================================================================
 No.  Control                                                   Function
 ==== ========================================================= =================================================================================================
-10   :hwlabel:`SAMPLER PADS` 1–16                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
-10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS` 1–16           Stop the playing sample, or eject a stopped sample.
+10   :hwlabel:`SAMPLER PADS 1–16`                              Play the loaded sample, or load the selected track when empty. Follows sampler pad layout.
+10   :hwlabel:`SHIFT` + :hwlabel:`SAMPLER PADS 1–16`           Stop the playing sample, or eject a stopped sample.
 10   :hwlabel:`SAMPLER` + :hwlabel:`LEVEL/DEPTH`               Sampler gain for samplers 1–16 while held (sampler volume gate).
 ==== ========================================================= =================================================================================================
 
@@ -211,7 +210,7 @@ When stems priority is not active, Scratch Bank uses pads as follows:
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10   :hwlabel:`SCRATCH MODE` pads 1–4                          Load scratch samples from samples **17–20(Deck1/3) 21-24 (Deck2/4).**
+10   :hwlabel:`SCRATCH BANK pads 1–4`                          Load scratch samples from samples **17–20(Deck1/3) 21-24 (Deck2/4).**
 ==== ========================================================= ======================================================================
 
 .. note::
