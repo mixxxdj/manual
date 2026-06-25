@@ -54,11 +54,11 @@ install the latest driver package available.
 Mode           Behavior
 ==========     ===========================================================================
 **2.5:**       Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
-**2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
+**2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
-ScratchBank when both would conflict.
+Scratch Bank when both would conflict.
 
 Sound card setup
 ----------------
@@ -115,7 +115,7 @@ describes Mixxx-specific behavior.
   Classic, Slow) with a default fallback when braking is disabled.
 - Configurable Beat Jump, Auto Loop and Beat Roll pads use hold semantics with configurable roll sizes.
 - Sampler volume gate and headphone cue logic are tuned for usability.
-- ScratchBank mapping and FX buffering are refined for stability.
+- Scratch Bank mapping and FX buffering are refined for stability.
 - 3 Sampler pad layout options are available (see `User configuration options`_).
 - Sixteen samples by default (samples 1–16).
 - Improvements to Library Sort.
@@ -125,7 +125,7 @@ describes Mixxx-specific behavior.
 - Configurable beat tempo ranges.
 - VU meter options.
 - Additional user configuration options.
-- Mixxxed Mode (configurable per deck — see `MIXXED MODE section`_).
+- Mixxxed Mode (configurable per deck — see `MIXXXED MODE section`_).
 
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
@@ -215,7 +215,7 @@ No.  Control                                                   Function
 ==== ========================================================= ======================================================================
 
 .. note::
-   On 2.6, Scratch Bank moved to *Mixxed Mode* slot 4. 
+   On 2.6, Scratch Bank moved to *Mixxxed Mode* slot 4. 
 
 Stem section (Mixxx 2.6+)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -267,10 +267,10 @@ No.  Control                                                   Function
 10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
-*MIXXED MODE* section
+*MIXXXED MODE* section
 ^^^^^^^^^^^^^^^^^^^^^^
 
-.. _Mixxed Mode:
+.. _Mixxxed Mode:
 
 When ``multiModeEnabled`` is on, :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→` cycles
 per-deck modes on the Auto Loop pad row (1→2→3→4→1). Release :hwlabel:`SHIFT`
@@ -287,7 +287,7 @@ row.
 
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
-0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`    Cycle Mixxed Mode (per deck).
+0    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→`    Cycle Mixxxed Mode (per deck).
 ==== ========================================================= ======================================================================
 
 Slot 1: Auto Loop
@@ -421,7 +421,7 @@ active pitch keys; the right deck adds +12 semitones.
      stops transport first.
    - :hwlabel:`SHIFT` + Auto Loop pad select/deselect an existing hotcue as the anchor
      (SHIFT row LED blinks for the active override). Setting a new hotcue on
-     deck 1 updates the avaiable hotcue anchors.
+     deck 1 updates the available hotcue anchors.
 
    **Play Through**
 
@@ -511,7 +511,7 @@ as fallback.
      - Beat Slicer pattern: ``linear`` or ``loop``.
      - ``linear``
    * - ``PioneerDDJREV1.pianoRollScale``
-     - Piano Roll scale: ``major``, ``minor``, or ``playthrough``.
+     - Piano Roll scale: ``major``, ``minor``, or ``play through``.
      - ``major``
    * - ``PioneerDDJREV1.disableStartFader``
      - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
@@ -528,7 +528,7 @@ as fallback.
       - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
   - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
        - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
-        - Note: ``Pad 32`` conflicts with ScratchBank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
+        - Note: ``Pad 32`` conflicts with Scratch Bank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
 
 Known issues
 ^^^^^^^^^^^^
@@ -537,7 +537,7 @@ Known issues
   variants on the hardware (controller limitation).
 - Fader-start behavior can depend on controller-side utility state and may
   require a Mixxx restart after utility changes (controller limitation).
-- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxed Mode slot 4.
+- Classic scratch row is not used on 2.6+; Scratch Bank via Mixxxed Mode slot 4.
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
