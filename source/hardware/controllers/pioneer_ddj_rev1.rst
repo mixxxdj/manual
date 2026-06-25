@@ -365,16 +365,16 @@ Minor [Aeolian]
 C-scale example — pad 1 = original reference key:
 
 +-----------------------------+-----------------------------+
-| |piano-minor-d1|            | |piano-minor-d2|            |
+| |piano-minor-d3|            | |piano-minor-d4|            |
 |                             |                             |
 | Deck 1 — Major scale        | Deck 2 — Minor scale        |
 +-----------------------------+-----------------------------+
 
-.. |piano-minor-d1| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck1-MajorScale.svg
+.. |piano-minor-d3| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck1-MajorScale.svg
    :width: 300px
    :alt: Piano Roll Minor mode — deck 1 major scale (C example).
 
-.. |piano-minor-d2| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck2-MinorScale.svg
+.. |piano-minor-d4| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-Minor-Deck2-MinorScale.svg
    :width: 300px
    :alt: Piano Roll Minor mode — deck 2 minor scale (C example).
 
