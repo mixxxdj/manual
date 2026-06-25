@@ -125,7 +125,7 @@ describes Mixxx-specific behavior.
 - Configurable beat tempo ranges.
 - VU meter options.
 - Additional user configuration options.
-- Mixxxed Mode (configurable per deck — see :ref:`Mixxxed Mode`).
+- Mixxxed Mode (configurable per deck — see `MIXXED MODE section`_).
 
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
