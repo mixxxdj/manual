@@ -238,7 +238,7 @@ No.  Control                                                       Function
 10   :hwlabel:`SCRATCH BANK pads 5–8`                              Stem effect toggles (voice / melody / bass / drums).
 10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`LEVEL/DEPTH`     Adjust stem volume / while held parameters while held.
 10   :hwlabel:`SCRATCH BANK pads 5–8` + :hwlabel:`LEVEL/DEPTH`     Adjust effect volume / while held.
-10   :hwlabel:`SCRATCH BANK pads 1–4` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
+10   :hwlabel:`SCRATCH BANK pads 5–8` + :hwlabel:`Rotary Selector` Select stem effect chain / while held.
 ==== ============================================================= ==========================================================================
 
 .. figure:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-stems-layout.svg
@@ -255,14 +255,14 @@ Extra controls section
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
 ==== ========================================================= ======================================================================
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad1`           AutoDJ.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad2`           AutoDJ fade to next.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad3`           Toggle Microphone.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad4`           Toggle Record Mix.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad5`           Key Match.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad6`           Beat Grid.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad7`           Pitch Up.
-10   Scratch Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad1`           AutoDJ.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad2`           AutoDJ fade to next.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad3`           Toggle Microphone.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad4`           Toggle Record Mix.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad5`           Key Match.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad6`           Beat Grid.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad7`           Pitch Up.
+10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
 *MIXXXED MODE* section
@@ -306,6 +306,8 @@ No.  Control                                                   Function
 2    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`Pad8`          Toggle Beat Slicer loop mode.
 ==== ========================================================= ======================================================================
 
+.. table:: Beat Slicer pad lighting
+   :align: center
 +---------------------------------------+---------------------------------------+
 | |slice-linear|                        | |slice-loop|                          |
 |                                       |                                       |
@@ -432,8 +434,8 @@ Slot 4: Scratch Bank
 
 ==== ========================================================= ======================================================================
 No.  Control                                                   Function
-4    Auto Loop Mode — slot 4                                    Loads selected scratch samples to the respective deck.
-4    Auto Loop Mode :hwlabel:`pads 1–4`                         Load scratch samples from samples **17–20** (deck 1 / 3) and **21–24** (deck 2 / 4).
+4    Auto Loop Mode — slot 4                                   Loads selected scratch samples to the respective deck.
+4    Auto Loop Mode :hwlabel:`pads 1–4`                        Load scratch samples from samples **17–20** (deck 1 / 3) and **21–24** (deck 2 / 4).
 ==== ========================================================= ======================================================================
 
 
@@ -546,5 +548,3 @@ Troubleshooting
 - **Lighting is incorrect:** Same as scratching on first run: close Mixxx, unplug/replug the controller, restart Mixxx.
 - **Phantom jog/slider movement:** See the manufacturer manual — blow compressed air to clear dust from components.
 - **Scratch Bank samples not playing:** Load samples on samplers **17–24**. Use a skin with 24+ sample slots (Late Night, Tango, Deere). Check the Mixxx console for log messages if pads still fail.
-    
-
