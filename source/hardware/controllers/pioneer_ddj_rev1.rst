@@ -53,8 +53,8 @@ install the latest driver package available.
 ==========     ===========================================================================
 Mode           Behavior
 ==========     ===========================================================================
-**2.5:** Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
-**2.6+:** Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
+**2.5:**       Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
+**2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===========================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
@@ -360,7 +360,7 @@ C-scale example — pad 1 = original reference key:
    :alt: Piano Roll Major mode — deck 2 minor scale (C example).
 
 Minor [Aeolian]
-""""""""""""""
+"""""""""""""""
 
 C-scale example — pad 1 = original reference key:
 
