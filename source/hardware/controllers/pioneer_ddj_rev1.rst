@@ -308,18 +308,21 @@ No.  Control                                                   Function
 
 .. table:: Beat Slicer pad lighting
    :align: center
-+---------------------------------------+---------------------------------------+
-| |slice-linear|                        | |slice-loop|                          |
-|                                       |                                       |
-| Beat Slicer — Linear                  | Beat Slicer — Loop                    |
-+---------------------------------------+---------------------------------------+
+
+   +---------------------------------------+---------------------------------------+
+   | |slice-linear|                        | |slice-loop|                          |
+   |                                       |                                       |
+   | Beat Slicer — Linear                  | Beat Slicer — Loop                    |
+   +---------------------------------------+---------------------------------------+
 
 .. |slice-linear| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-linear.svg
    :width: 250px
+   :align: center
    :alt: Mixxxed Mode slot 2 — Beat Slicer linear mode pad lighting example.
 
 .. |slice-loop| image:: ../../_static/controllers/Mixxx-250-Hardware-DDJ_REV1-lights-mode2-loop.svg
    :width: 250px
+   :align: center
    :alt: Mixxxed Mode slot 2 — Beat Slicer loop mode pad lighting example.
 
 Mixxxed Mode slot 2: Beat Slicer. Pad lighting follows the active slice.
