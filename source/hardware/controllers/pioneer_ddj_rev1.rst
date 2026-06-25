@@ -33,9 +33,7 @@ Mixxx 2.5 or newer. Supports 2.5 and 2.6+ behavior; see
 Firmware & drivers
 ------------------
 
-**Firmware:** At the - **Scratching not working on first run:** Close Mixxx → unplug controller → replug → restart Mixxx.
-- **Brake not working:** Enable in user config; requires Mixxx 2.5.4+ with brake support.
-...time this documentation was written there were no
+**Firmware:** At the time this documentation was written there were no
 required firmware updates for the Pioneer DDJ-REV1. Check the Pioneer DJ
 website for updates.
 
