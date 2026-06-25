@@ -13,9 +13,9 @@ Pioneer DDJ-SB3 (schematic view)
 ```
 The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
 
--  [Manufacturer's Product Page](https://www.pioneerdj.com/product/controller/ddj-sb3/black/overview/)
--  [Manufacturer's User Manual](https://support.pioneerdj.com/hc/en-us/articles/4404925658009-How-to-use-the-Pioneer-DJ-DDJ-SB3-Instruction-Manual/)
--  [Manufacturer's Firmware Update](https://www.pioneerdj.com/product/controller/ddj-sb3/black/support/)
+-  [Manufacturer's Product Page](https://www.pioneerdj.com/product/dj-controllers/ddj-sb3/)
+-  [Manufacturer's User Manual](https://support.alphatheta.com/articles/4404925658009?product=4416577034009)
+-  [Manufacturer's Firmware Update](https://support.alphatheta.com/products/4416577034009?section=25)
 -  [Mixxx User Forum](https://mixxx.discourse.group/t/pioneer-ddj-sb3-mapping-v1-0-now-available/22186)
 
 
