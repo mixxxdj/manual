@@ -118,10 +118,11 @@ describes Mixxx-specific behavior.
 - Scratch Feel.
 - Split FX.
 - STEMS v2.6+.
-- Additional user configuration options.
 - Configurable beat tempo ranges.
-- VU meter options
+- VU meter options.
+- Additional user configuration options.
 - Mixxxed Mode (configurable per deck — see :ref:`Mixxed Mode`).
+
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
   - Slot 3: Piano Roll
