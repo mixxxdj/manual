@@ -548,5 +548,6 @@ Troubleshooting
 - **Lighting is incorrect:** Same as scratching on first run: close Mixxx, unplug/replug the controller, restart Mixxx.
 - **Phantom jog/slider movement:** See the manufacturer manual — blow compressed air to clear dust from components.
 - **Scratch Bank samples not playing:** Load samples on samplers **17–24**. Use a skin with 24+ sample slots (Late Night, Tango, Deere).
-    Check the Mixxx console for log messages if pads still fail.
+    
+Check the Mixxx console for log messages if pads still fail.
 
