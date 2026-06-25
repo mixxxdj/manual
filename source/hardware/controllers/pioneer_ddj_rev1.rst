@@ -358,7 +358,7 @@ C-scale example — pad 1 = original reference key:
    :alt: Piano Roll Major mode — deck 2 minor scale (C example).
 
 Minor [Aeolian]
-"""""""""""""""
+""""""""""""""""
 
 C-scale example — pad 1 = original reference key:
 
