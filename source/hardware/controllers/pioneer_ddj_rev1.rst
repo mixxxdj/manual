@@ -50,12 +50,12 @@ install the latest driver package available.
 
 **Mixxx:** This mapping supports version-gated behavior for Mixxx 2.5 and 2.6+.
 
-==========     ===========================================================================
+==========     ===============================================================================================================================================================================================================
 Mode           Behavior
-==========     ===========================================================================
+==========      ===============================================================================================================================================================================================================
 **2.5:**       Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
 **2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
-==========     ===========================================================================
+==========     ===============================================================================================================================================================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
 Scratch Bank when both would conflict.
@@ -124,7 +124,7 @@ describes Mixxx-specific behavior.
 - STEMS v2.6+.
 - VU meter options.
 - Additional user configuration options (see `User configuration options`_).
-- Mixxxed Mode (configurable per deck — see `MIXXXED MODE section`_).
+- Mixxxed Mode (configurable per deck — see `MIXXXED Mode`_).
 
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
@@ -265,7 +265,7 @@ No.  Control                                                   Function
 10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
-*MIXXXED MODE* section
+*MIXXXED mode* section
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. _Mixxxed Mode:
