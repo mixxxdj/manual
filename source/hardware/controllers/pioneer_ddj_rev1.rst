@@ -12,9 +12,9 @@ behavior; see the manufacturer’s manual for the physical control layout.
 - `Manufacturer’s product page
   <https://www.pioneerdj.com/en/product/controller/ddj-rev1/black/overview/l>`_
 - `Manufacturer’s manual
-  <https://www.pioneerdj.com/en/support/documents/ddj-rev1/>`_
+  <https://downloads.support.alphatheta.com/manuals/DDJ_REV1_DRI1744B_manual/>`_
 - `MIDI message list (PDF)
-  <https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-rev1/ddj-rev1_midi_message_list_e1.pdf>`_
+  <https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-REV1/DDJ-REV1_MIDI_Message_List_E1.pdf>`_
 - `Mapping forum thread
   <https://mixxx.discourse.group/t/pioneer-ddj-rev1-mapping-update-2-6/32603>`_
 
@@ -54,7 +54,7 @@ install the latest driver package available.
 Mode           Behavior
 ==========     ===============================================================================================================================================================================================================
 **2.5:**       Scratch Bank on :hwlabel:`SCRATCH Bank` pads 1–4 (samples 17–24). 
-**2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`Mixxxed Mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
+**2.6+:**      Same pads on :hwlabel:`SCRATCH Bank` control stems (mute). Scratch Bank is available via :ref:`mixxxed-mode` slot 4 when enabled. Stem/EQ options apply only when stem tracks and stem controls are available.
 ==========     ===============================================================================================================================================================================================================
 
 **Priority gate:** On a stems-capable runtime, stems mode takes priority over
@@ -124,7 +124,7 @@ describes Mixxx-specific behavior.
 - STEMS v2.6+.
 - VU meter options.
 - Additional user configuration options (see `User configuration options`_).
-- Mixxxed Mode (configurable per deck — see `MIXXXED Mode`_).
+- Mixxxed Mode (configurable per deck — see :ref:`mixxxed-mode`).
 
   - Slot 1: Auto Loop
   - Slot 2: Beat Slicer
@@ -265,10 +265,10 @@ No.  Control                                                   Function
 10   Scratch Bank :hwlabel:`SHIFT` + :hwlabel:`Pad8`           Pitch Down.
 ==== ========================================================= ======================================================================
 
+.. _mixxxed-mode:
+
 *MIXXXED mode* section
 ^^^^^^^^^^^^^^^^^^^^^^
-
-.. _Mixxxed Mode:
 
 When ``multiModeEnabled`` is on, :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→` cycles
 per-deck modes on the Auto Loop pad row (1→2→3→4→1). Release :hwlabel:`SHIFT`
@@ -520,13 +520,13 @@ as fallback.
 
 .. note:: ``samplePadLayout`` layouts
 
-  - **Standard (linear):** (Deere, Tango) 
-       - Left 1–8, right 9–16 (top to bottom, linear).
-  - **Banked rows:** (Late Night) 
-      - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
-  - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
-       - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
-        - Note: ``Pad 32`` conflicts with Scratch Bank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
+   - **Standard (linear):** (Deere, Tango)
+     - Left 1–8, right 9–16 (top to bottom, linear).
+   - **Banked rows:** (Late Night)
+     - Top row: left 1–4, right 5–8. Bottom row: left 9–12, right 13–16.
+   - **Per Pad 32:** Each deck controls its own bank of 8 samplers:
+     - Deck 1 → 1–8, Deck 2 → 9–16, Deck 3 → 17–24, Deck 4 → 25–32. (Top to bottom, linear).
+     - Note: ``Pad 32`` conflicts with Scratch Bank’s current Sampler 17–24 pool (Deck 3 sampler pads overlap).
 
 Known issues
 ^^^^^^^^^^^^
