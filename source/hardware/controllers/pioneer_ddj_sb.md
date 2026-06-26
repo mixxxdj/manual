@@ -15,7 +15,7 @@ The Pioneer DDJ-SB is an all-in-one 2 deck USB {term}`MIDI` controller with a bu
 ### Windows
 
 
-Windows Vista, Windows 7 and Windows 8 are supported. You can download the latest drivers and firmware from http://www.pioneerdj.com/en/support/software/ddj-sb.
+Windows Vista, Windows 7 and Windows 8 are supported. You can download the latest drivers and firmware from https://support.alphatheta.com/products/4416565750809.
 
 :::{note}
 If you're using Windows and have problems getting both sound outputs to work properly, please try using a different Sound {term}`API` in the {ref}`preferences <preferences-sound-api>`.

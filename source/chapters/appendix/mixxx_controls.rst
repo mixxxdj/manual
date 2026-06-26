@@ -614,7 +614,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],beat_distance
                    [SamplerN],beat_distance
 
-   Outputs the relative position of the play marker in the section between the the previous and next beat marker.
+   Outputs the relative position of the play marker in the section between the previous and next beat marker.
 
    :range: 0.0 - 1.0, real-valued
    :feedback: None
@@ -1106,6 +1106,78 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: binary
    :feedback: Speed slider
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_halve
+                   [PreviewDeckN],beats_set_halve
+                   [SamplerN],beats_set_halve
+
+   Scale the :term:`BPM` by 1/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_twothirds
+                   [PreviewDeckN],beats_set_twothirds
+                   [SamplerN],beats_set_twothirds
+
+   Scale the :term:`BPM` by 2/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threefourths
+                   [PreviewDeckN],beats_set_threefourths
+                   [SamplerN],beats_set_threefourths
+
+   Scale the :term:`BPM` by 3/4.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threehalves
+                   [PreviewDeckN],beats_set_threehalves
+                   [SamplerN],beats_set_threehalves
+
+   Scale the :term:`BPM` by 3/2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_fourthirds
+                   [PreviewDeckN],beats_set_fourthirds
+                   [SamplerN],beats_set_fourthirds
+
+   Scale the :term:`BPM` by 4/3.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
+
+   .. versionadded:: 2.5.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_double
+                   [PreviewDeckN],beats_set_double
+                   [SamplerN],beats_set_double
+
+   Scale the :term:`BPM` by 2.
+
+   :range: binary
+   :feedback: BPM display, beatgrid
 
    .. versionadded:: 2.5.0
 
@@ -2725,7 +2797,9 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative).
+   Use JavaScript functions ``engine.scratchEnable``, ``engine.scratchDisable``,  ``engine.isScratching`` and  ``engine.isScratching`` to manipulate in controller mappings.
+   See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ .
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -4226,10 +4300,11 @@ Inverse       1              Linked in an inverse relation.
 EQs and Filters
 +++++++++++++++
 
-:term:`Equalizers <EQ>` and filters are special effects units.
+:term:`Equalizers <EQ>` and :ref:`Quick Effects <interface-eq-gain>` are special effects units.
 The EQs are controlled by :mixxx:cogroupref:`[EqualizerRack1_[ChannelI]_Effect1]` and the filter knob is controlled by :mixxx:coref:`[QuickEffectRack1_[ChannelI]],super1` and :mixxx:coref:`[QuickEffectRack1_[ChannelI]],enabled`.
-Users can choose between several options for the effects loaded in these racks in the Equalizers section of the Preferences window.
-
+Users can choose between several options for the effects loaded in these racks in the
+:ref:`Mixer section <preferences-mixer>` of the Preferences window. For Quick Effects, most official skins also
+provide a effect chain preset selector in the :ref:`mixer section <interface-eq-gain>`.
 
 Controls
 ++++++++
@@ -5053,17 +5128,16 @@ In the meantime, skins and controller mappings that still use them will keep wor
        Use :mixxx:coref:`[ChannelN],reloop_toggle` instead.
 
 
-.. mixxx:control:: [ChannelN],scratch
-                   [PreviewDeckN],scratch
-                   [SamplerN],scratch
+.. mixxx:control:: [ChannelN],jog
+                   [PreviewDeckN],jog
+                   [SamplerN],jog
 
-    Affects playback speed and direction (`differently whether currently playing or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative).
+    Affects relative playback speed and direction for short instances (additive & is automatically reset to 0).
+    Use it in controller mappings to do pitch-bend with jog wheels. See the example in the `Mixxx Wiki -> Controller Scripting -> Scratching and jog wheels
+    <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__.
 
     :range: -3.0..3.0
-    :feedback: Waveform
-
-    .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
+    :feedback: waveform
 
 
 .. mixxx:control:: [ChannelN],filter
@@ -5077,7 +5151,7 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. versionadded:: 2.0.0
     .. deprecated:: 2.0.0
-       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]_Effect1],enabled <[QuickEffectRack1_[ChannelI]_Effect1],enabled>` instead.
+       Use :mixxx:coref:`[QuickEffectRack1_[ChannelN]],enabled <[QuickEffectRack1_[ChannelI]],enabled>` instead.
 
 
 .. mixxx:control:: [ChannelN],filterDepth
@@ -5534,3 +5608,16 @@ These controls have been removed from Mixxx. Skins and controller mappings that 
 
     .. deprecated:: 2.4.0
        This control has been **removed** without a direct replacement. Use the :ref:`effects framework <appendix-mixxxcontrols-effects>` instead.
+
+
+.. mixxx:control:: [ChannelN],scratch
+                   [PreviewDeckN],scratch
+                   [SamplerN],scratch
+
+    Affects playback speed and direction (multiplicative).
+
+    :range: -3.0..3.0
+    :feedback: Waveform
+
+    .. deprecated:: ??
+       Use the JavaScript ``engine.scratch`` functions instead.

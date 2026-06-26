@@ -41,20 +41,20 @@ To change the mapping’s user options, you have to open the script file (*.js).
 | 5 - BROWSER          |  1              |   {hwlabel}`SHIFT` + Rotary Selector          |    Move LEFT or RIGHT the specified number of locations in Library (MoveHorizontal function) |
 | 5 - BROWSER          |  1              |   {hwlabel}`SHIFT` + Rotary Selector (press)  |    Add track from Library to AutoDJ queue at top/bottom (see user options: default = at bottom) |
 | 5 - BROWSER          |  6              |   {hwlabel}`BACK`                             |    Currently focused pane changes in Library - previously focused pane will be focused (MoveFocusBackward function) |
-| 5 - BROWSER          |  6              |   {hwlabel}`SHIFT`  {hwlabel}`BACK`           |    Maximize view of Library |
+| 5 - BROWSER          |  6              |   {hwlabel}`SHIFT` + {hwlabel}`BACK`           |    Maximize view of Library |
 | 5 - BROWSER          |  7              |   {hwlabel}`LOAD PREPARE`                     |    Load selected track into PreviewDeck, jump to position (see user options) and play, else stop already playing track |
 | 3 - MIXER            |  1              |   Crossfader                                  |    Controls Mixxx crossfader, fades between deck 1, 3 and 2, 4 |
 | 3 - MIXER            |  2              |   Channel fader                               |    Controls deck volume |
-| 3 - MIXER            |  2              |   {hwlabel}`SHIFT`  Channel fader             |    Fader start (starts playing deck when rising deck volume) |
+| 3 - MIXER            |  2              |   {hwlabel}`SHIFT` + Channel fader             |    Fader start (starts playing deck when rising deck volume) |
 | 3 - MIXER            |  3              |   TRIM                                        |    Controls deck gain |
 | 3 - MIXER            |  4              |   EQ HIGH                                     |    Controls deck’s equalizer/filter high frequencies |
 | 3 - MIXER            |  5              |   EQ MID                                      |    Controls deck’s equalizer/filter mid frequencies |
 | 3 - MIXER            |  6              |   EQ LOW                                      |    Controls deck’s equalizer/filter low frequencies |
 | 3 - MIXER            |  7              |   {hwlabel}`CUE`                              |    Toggles PFL/Cue (headphones) for specific deck |
-| 3 - MIXER            |  7              |   {hwlabel}`SHIFT`  {hwlabel}`CUE`            |    BPM Tab function for specific deck |
+| 3 - MIXER            |  7              |   {hwlabel}`SHIFT` + {hwlabel}`CUE`            |    BPM Tab function for specific deck |
 | 3 - MIXER            |  8              |   {hwlabel}`MASTER LEVEL`                     |    Controls the main output volume |
 | 3 - MIXER            |  9              |   {hwlabel}`MASTER CUE`                       |    Toggles main cue |
-| 3 - MIXER            |  9              |   {hwlabel}`SHIFT`  {hwlabel}`MASTER CUE`     |    Toggles split cue (headphones) |
+| 3 - MIXER            |  9              |   {hwlabel}`SHIFT` + {hwlabel}`MASTER CUE`     |    Toggles split cue (headphones) |
 | 3 - MIXER            |  10             |   Crossfader Assign                           |    Crossfader assignment - deck to crossfader (left (A), right (B) or center (THRU)) |
 | 3 - MIXER            |  13             |   {hwlabel}`HEADPHONES MIX`                   |    Controls headphone’s audio source (cue, main) |
 | 3 - MIXER            |  14             |   SAMPLER VOLUME                              |    Controls volume of all available Sampler decks |
@@ -98,21 +98,21 @@ The controls listed here are documented in Section 1 ("Deck") of the owner's man
 | 13              |  {hwlabel}`SYNC`                              |   Toggles deck sync |
 | 13              |  {hwlabel}`SHIFT` + {hwlabel}`SYNC`           |   Toggles quantize function |
 | 14              |  {hwlabel}`AUTO LOOP`                         |   Set and enable beat loop |
-| 14              |  {hwlabel}`SHIFT`    {hwlabel}`AUTO LOOP`     |   Activates / Deactivates current loop |
+| 14              |  {hwlabel}`SHIFT` + {hwlabel}`AUTO LOOP`      |   Activates / Deactivates current loop |
 | 15              |  {hwlabel}`LOOP 1/2X`                         |   Halves active loop |
-| 15              |  {hwlabel}`SHIFT`    {hwlabel}`LOOP 1/2X`     |   Moves active loop one beat backward (left) |
+| 15              |  {hwlabel}`SHIFT` + {hwlabel}`LOOP 1/2X`      |   Moves active loop one beat backward (left) |
 | 16              |  {hwlabel}`LOOP 2X`                           |   Doubles active loop |
-| 15              |  {hwlabel}`SHIFT`    {hwlabel}`LOOP 2X`       |   Moves active loop one beat forward (right) |
+| 15              |  {hwlabel}`SHIFT` + {hwlabel}`LOOP 2X`        |   Moves active loop one beat forward (right) |
 | 17              |  {hwlabel}`LOOP IN`                           |   Toggles loop in |
-| 17              |  {hwlabel}`SHIFT`    {hwlabel}`LOOP IN`       |   Activates current loop, jumps to its loop in point and stops playback. |
+| 17              |  {hwlabel}`SHIFT` + {hwlabel}`LOOP IN`        |   Activates current loop, jumps to its loop in point and stops playback. |
 | 18              |  {hwlabel}`LOOP OUT`                          |   Toggles loop out |
-| 18              |  {hwlabel}`SHIFT`    {hwlabel}`LOOP OUT`      |   Toggles reloop / exit loop |
+| 18              |  {hwlabel}`SHIFT` + {hwlabel}`LOOP OUT`       |   Toggles reloop / exit loop |
 | 19              |  {hwlabel}`VINYL`                             |   Toggles vinyl (scratch) mode |
 | 20              |  {hwlabel}`CENSOR`                            |   Toggles reverse roll play |
-| 20              |  {hwlabel}`SHIFT`    {hwlabel}`CENSOR`        |   Toggles reverse play |
+| 20              |  {hwlabel}`SHIFT` + {hwlabel}`CENSOR`         |   Toggles reverse play |
 | 21              |  {hwlabel}`SLIP`                              |   Toggles slip mode |
 | 22              |  {hwlabel}`GRID ADJUST`                       |   Hold and touch/rotate Jog dial to adjust beats faster/slower |
-| 22              |  {hwlabel}`SHIFT`    {hwlabel}`GRID ADJUST`   |   Set/translate beat grid to current track position (adjust position with Jog dial) |
+| 22              |  {hwlabel}`SHIFT` + {hwlabel}`GRID ADJUST`    |   Set/translate beat grid to current track position (adjust position with Jog dial) |
 | 23              |  {hwlabel}`GRID SLIDE`                        |   Hold and touch/rotate Jog dial to set/translate beat grid earlier/later |
 | 24              |  {hwlabel}`SHIFT`                             |   Switches to shifted controls, no direct function |
 
