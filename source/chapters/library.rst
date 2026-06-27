@@ -443,7 +443,7 @@ Mixxx supports the following filters:
 
       dir:"D:\My Music\Disco\"
 
-* **Numeric filtering**: bpm, bitrate, played, rating, track, year, added, dateadded, datetime_added, date_added
+* **Numeric filtering**: bpm, bitrate, played, rating, track, year, added, dateadded, datetime_added, date_added, id (internal track id)
 
   Examples
     ::
