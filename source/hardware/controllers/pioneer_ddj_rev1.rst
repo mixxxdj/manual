@@ -12,7 +12,7 @@ behavior; see the manufacturer’s manual for the physical control layout.
 - `Manufacturer’s product page
   <https://www.pioneerdj.com/en/product/controller/ddj-rev1/black/overview/l>`_
 - `Manufacturer’s manual
-  <https://downloads.support.alphatheta.com/manuals/DDJ_REV1_DRI1744B_manual/>`_
+  <https://downloads.support.alphatheta.com/manuals/DDJ_REV1_DRI1744B_manual/?page=1>`_
 - `MIDI message list (PDF)
   <https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-REV1/DDJ-REV1_MIDI_Message_List_E1.pdf>`_
 - `Mapping forum thread
