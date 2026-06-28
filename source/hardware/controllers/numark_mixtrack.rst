@@ -6,6 +6,8 @@ Numark Mixtrack
 This controller as the same as the :ref:`Numark Mixtrack Pro <numark-mixtrack-pro>` but without a built-in sound card.
 It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mixtrack-pro-3>`.
 
+Note: the mapping of :ref:`Numark Mixtrack Pro <numark-mixtrack-pro>` was upgraded in 2025.
+
 -  `Manufacturer’s product page <https://www.numark.com/product/mixtrack>`__
 -  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack/10918>`__
 
