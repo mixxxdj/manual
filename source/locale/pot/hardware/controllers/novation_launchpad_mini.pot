@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,18 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../hardware/controllers/novation_launchpad_mini.rst:2
+#: ../../hardware/controllers/novation_launchpad_mini.md:1
 msgid "Novation Launchpad Mini"
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mini.rst:4
-msgid "`Manufacturer’s product page <http://us.novationmusic.com/launch/launchpad-mini>`__"
+#: ../../hardware/controllers/novation_launchpad_mini.md:4
+msgid "[Manufacturer’s product page](http://us.novationmusic.com/launch/launchpad-mini)"
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mini.rst:5
-msgid "`Forum thread <https://mixxx.discourse.group/t/novation-launchpad-mini-mapping-official-forum/14299>`__"
+#: ../../hardware/controllers/novation_launchpad_mini.md:5
+msgid "[Forum thread](https://mixxx.discourse.group/t/novation-launchpad-mini-mapping-official-forum/14299)"
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mini.rst:10
-msgid "Unfortunately a detailed description of this controller mapping is still missing. If you own this controller, please consider `contributing one <https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-documenting-the-mapping>`__."
+#: ../../hardware/controllers/novation_launchpad_mini.md:10
+msgid "Unfortunately a detailed description of this controller mapping is still missing. If you own this controller, please consider [contributing one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-documenting-the-mapping)."
 msgstr ""
