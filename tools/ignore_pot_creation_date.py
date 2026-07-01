@@ -53,6 +53,8 @@ def count_meaningful_changes(changeset: str, po_file: pathlib.Path) -> int:
         if (line.startswith("-") or line.startswith("+"))
         and "POT-Creation-Date:" not in line
         and "PO-Revision-Date:" not in line
+        and "Project-Id-Version:" not in line
+        and "Copyright" not in line
         and str(po_file) not in line
     )
 
