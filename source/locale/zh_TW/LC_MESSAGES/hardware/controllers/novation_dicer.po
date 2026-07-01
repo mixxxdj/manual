@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -17,37 +17,36 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../hardware/controllers/novation_dicer.rst:2
+#: ../../hardware/controllers/novation_dicer.md:1
 msgid "Novation Dicer"
 msgstr ""
 
-#: ../../hardware/controllers/novation_dicer.rst:4
+#: ../../hardware/controllers/novation_dicer.md:4
 msgid ""
-"`Manufacturer’s product page "
-"<https://web.archive.org/web/20120605072402/http://www.novationmusic.com/global/products/digital_dj/dicer/>`__"
+"[Manufacturer’s product "
+"page](https://web.archive.org/web/20120605072402/http://www.novationmusic.com/global/products/digital_dj/dicer/)"
 " (archived)"
 msgstr ""
 
-#: ../../hardware/controllers/novation_dicer.rst:5
+#: ../../hardware/controllers/novation_dicer.md:5
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/novation-dicer-"
-"mapping/12329>`__"
+"[Forum thread](https://mixxx.discourse.group/t/novation-dicer-mapping/12329)"
 msgstr ""
 
-#: ../../hardware/controllers/novation_dicer.rst:7
+#: ../../hardware/controllers/novation_dicer.md:7
 msgid ""
 "The Novation Dicer is a small controller designed to be placed on the corner"
 " of turntables for use with timecode vinyl. They are sold in pairs."
 msgstr ""
 
-#: ../../hardware/controllers/novation_dicer.rst:12
+#: ../../hardware/controllers/novation_dicer.md:11
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/novation_dicer.rst:14
+#: ../../hardware/controllers/novation_dicer.md:14
 msgid ""
-"The mapping has all buttons mapped and mimics the overall layout of the `DJ "
-"Tech Tools Dicer mapping for Traktor "
-"<http://www.djtechtools.com/2010/11/11/novation-dicer-mapping-for-traktor-"
-"scratch/>`__."
+"The mapping has all buttons mapped and mimics the overall layout of the [DJ "
+"Tech Tools Dicer mapping for "
+"Traktor](http://www.djtechtools.com/2010/11/11/novation-dicer-mapping-for-"
+"traktor-scratch/)."
 msgstr ""

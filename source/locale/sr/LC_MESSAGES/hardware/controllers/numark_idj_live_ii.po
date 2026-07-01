@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,68 +17,68 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:4
+#: ../../hardware/controllers/numark_idj_live_ii.md:3
 msgid "Numark iDJ Live II"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:10
+#: ../../hardware/controllers/numark_idj_live_ii.md:8
 msgid ""
-"The Numark iDJ Live II is a budget MIDI controller similar to the `Discover "
-"DJ <ion-discover-dj>`. It does not have a built in sound card, so a "
-":ref:`splitter cable <hardware-splitter-cables>` or a :ref:`separate audio "
-"interface <hardware-audio-interfaces>` is required to use headphones with "
-"it."
+"The Numark iDJ Live II is a budget MIDI controller similar to the "
+"{ref}`Discover DJ <ion-discover-dj>`. It does not have a built in sound "
+"card, so a {ref}`splitter cable <hardware-splitter-cables>` or a "
+"{ref}`separate audio interface <hardware-audio-interfaces>` is required to "
+"use headphones with it."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:13
+#: ../../hardware/controllers/numark_idj_live_ii.md:11
 msgid ""
-"`Manufacturer's product page <https://www.numark.com/product/idj-live-ii>`__"
+"[Manufacturer's product page](https://www.numark.com/product/idj-live-ii)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:18
+#: ../../hardware/controllers/numark_idj_live_ii.md:15
 msgid "Compatibility"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:20
+#: ../../hardware/controllers/numark_idj_live_ii.md:18
 msgid ""
-"This controller is USB :term:`MIDI` class compliant, so it is plug-and-play "
+"This controller is USB {term}`MIDI` class compliant, so it is plug-and-play "
 "on all platforms without having to install any special drivers."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:23
+#: ../../hardware/controllers/numark_idj_live_ii.md:20
 msgid "Button mapping"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:25
+#: ../../hardware/controllers/numark_idj_live_ii.md:23
 msgid ""
 "Most of the mapping is self-explanatory and matches up to labels in the "
-"Mixxx :term:`GUI`. The mapping script only handles the jog wheels and "
+"Mixxx {term}`GUI`. The mapping script only handles the jog wheels and "
 "scratch button, so you can remap everything else using the learning wizard "
 "if you'd like."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:29
+#: ../../hardware/controllers/numark_idj_live_ii.md:26
 msgid "Play/Cue/Sync buttons"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:31
+#: ../../hardware/controllers/numark_idj_live_ii.md:29
 msgid ""
 "Despite their appearance, the cue buttons don't seem to have LEDs. Only the "
 "play and sync buttons do."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:33
+#: ../../hardware/controllers/numark_idj_live_ii.md:31
 msgid ""
 "The \"SET\" buttons set the cue point and the arrow buttons jump to the cue "
 "point. They do not change behavior depending on whether the track is playing"
 " or paused."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:36
+#: ../../hardware/controllers/numark_idj_live_ii.md:33
 msgid "Jog wheels and scratch button"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:38
+#: ../../hardware/controllers/numark_idj_live_ii.md:36
 msgid ""
 "The scratch button in the middle changes the mode of the jog wheels. When "
 "the scratch LED is off, you can use the wheels to adjust the pitch of a "
@@ -86,11 +86,11 @@ msgid ""
 "moves exactly 32 beats for each revolution of the jog wheel."
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:42
+#: ../../hardware/controllers/numark_idj_live_ii.md:39
 msgid "Browse knob"
 msgstr ""
 
-#: ../../hardware/controllers/numark_idj_live_ii.rst:44
+#: ../../hardware/controllers/numark_idj_live_ii.md:42
 msgid ""
 "The browse knob scrolls through your library, and the 1 and 2 buttons below "
 "it load a track into the corresponding deck. Pressing down on the Browse "

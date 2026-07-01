@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mixxx 2.5\n"
+"Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 07:56+0100\n"
-"PO-Revision-Date: 2022-09-05 06:00+0000\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
+"PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Indonesian (https://app.transifex.com/mixxx-dj-software/teams/7734/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,218 +17,218 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:2
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:1
 msgid "Behringer CMD STUDIO 4a"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:4
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:4
 msgid ""
 "The Behringer CMD STUDIO 4a is a 2 deck controller that supports 4 virtual "
 "decks and has a built in 4 channel (one stereo main, one stereo headphones) "
 "USB sound card built in."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:8
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:8
 msgid ""
-"`Manufacturer’s product page "
-"<https://www.behringer.com/product.html?modelCode=P0809>`__"
+"[Manufacturer’s product "
+"page](https://www.behringer.com/en/products/0700-aac)"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:9
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:9
 msgid ""
-"`Mixxx Forum Thread <https://mixxx.discourse.group/t/new-behringer-cmd-"
-"studio-4a-mapping/15604>`__"
+"[Mixxx Forum Thread](https://mixxx.discourse.group/t/new-behringer-cmd-"
+"studio-4a-mapping/15604)"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:14
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:13
 msgid "Mixxx Sound Hardware Preferences"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:16
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:16
 msgid "Main output: channels 1-2"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:17
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:17
 msgid "Headphone output: channels 3-4"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:20
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:19
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:22
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:22
 msgid ""
 "Most of the buttons and knobs on the controller behave as they are labelled:"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:32
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:25
 msgid "Behringer CMD STUDIO 4a Layout"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:32
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:31
 msgid "Behringer CMD STUDIO 4a (top view)"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:34
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:33
 msgid ""
 "The only major departure from the above are the 4 “FX Control” knobs and "
 "buttons at the top of each deck."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:38
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:36
 msgid "Mixer"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:40
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:39
 msgid ""
 "The HIGH, MID, and LOW EQ knobs & kill buttons, deck faders, cross-fader, "
 "main, and headphone monitoring (mix & volume) knobs all operate as labelled."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:43
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:42
 msgid "Each deck also has a gain knob (leftmost “FX Control” knob)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:46
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:44
 msgid "Navigation Control"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:48
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:47
 msgid "The BROWSE knob scrolls thorough the track list in the library panel."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:49
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:48
 msgid ""
 "The BROWSE LEFT/RIGHT buttons move through the library tree (and can also "
 "select effects, see later)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:51
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:50
 msgid "The ENTER button expands/collapses library tree items."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:54
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:52
 msgid "Deck Select Buttons"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:56
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:55
 msgid ""
 "The deck select buttons (A, B, C, D) make the respective “virtual” deck "
 "active."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:58
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:57
 msgid "On the left deck: A = Channel 1, C = Channel 3."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:59
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:58
 msgid "On the right deck: B = Channel 2, D = Channel 4."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:62
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:60
 msgid "Transport Control"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:64
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:63
 msgid ""
 "The deck LOAD buttons will load the currently highlighted track in the "
 "library window into that deck."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:66
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:65
 msgid ""
 "The deck CUE, PLAY, SYNC, and LOOP buttons work as labelled (SYNC toggles "
 "sync lock for the deck)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:70
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:68
 msgid "Wheels"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:72
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:71
 msgid ""
 "While a track is playing, spinning the wheels temporarily speeds up or slows"
 " down the track."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:74
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:73
 msgid "When a track is stopped, spinning the wheels results in a fast search."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:76
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:75
 msgid ""
 "When the top wheel surface is touched the wheels act as as a precision jog."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:78
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:77
 msgid ""
 "When the SCRATCH button is activated, moving the wheel while touching the "
 "top surface scratches the track."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:82
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:80
 msgid "Hot Cue Buttons"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:84
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:83
 msgid ""
 "If not currently set, pressing a HOT CUE button sets that hot cue at the "
 "current playback position."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:86
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:85
 msgid ""
 "If already set, pressing a HOT CUE button jumps to that hot cue position."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:88
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:87
 msgid ""
 "If the DEL button is \\*held*, pressing an already set HOT CUE button will "
 "clear that hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:90
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:89
 msgid ""
-"Tapping the DEL button toggles `#DEL-mode <#DEL-mode>`__. The button will "
+"Tapping the DEL button toggles {ref}`DEL-mode <del-mode>`. The button will "
 "light up blue. DEL-mode alters some of the other button functions like a "
 "shift button on other controllers."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:95
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:93
 msgid "Playback Pitch/Rate"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:97
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:96
 msgid "The pitch sliders control the pitch."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:98
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:97
 msgid ""
 "The PITCH BEND +/- buttons step the playback rate up or down (pressing both "
 "resets the rate back to normal)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:100
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:99
 msgid ""
 "The LOCK buttons turn on key lock so the pitch doesn’t change when the "
 "playback rate changes."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:102
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:101
 msgid ""
 "The PITCH BEND button lights will indicate whether the current pitch is "
 "higher or lower than normal."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:106
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:104
 msgid "FX Control Buttons"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:108
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:107
 msgid "These do not control effects; they have other functions:"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:110
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:109
 msgid ""
 "FX Control button 1 toggles the deck slip-mode on/off, (button lights blue "
 "when active). Slip-mode is not available in any Mixxx skin yet so may be "
@@ -238,53 +238,53 @@ msgid ""
 "(thus preserving the track beat)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:116
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:115
 msgid ""
 "FX Control button 2 toggles the deck repeat mode, (button lights blue when "
 "active)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:118
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:117
 msgid "FX Control button 3 can be tapped to adjust the beat-grid position."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:119
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:118
 msgid ""
 "FX Control button 4 toggles the deck quantise mode on/off, (button lights "
 "blue when active)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:123
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:121
 msgid "FX Control knobs"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:125
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:124
 msgid "FX Control knob 1 = Deck gain."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:126
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:125
 msgid ""
 "FX Control knob 2 = FX 1 “super” control (FX unit 1 on left deck, unit 3 on "
 "right deck)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:128
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:127
 msgid ""
 "FX Control knob 3 = FX 2 “super” control (FX unit 2 on left deck, unit 4 on "
 "right deck)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:130
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:129
 msgid ""
 "FX Control knob 4 = Deck “quick effect” control (by default this is a filter"
 " effect but can be changed in Mixxx’s preferences)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:134
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:132
 msgid "FX Assign Buttons"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:136
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:135
 msgid ""
 "Tapping either of the 2 FX ASSIGN buttons on each deck will toggle the "
 "deck’s output to one (or both) of two effects in the (default) 4-unit "
@@ -293,17 +293,17 @@ msgid ""
 "4."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:141
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:140
 msgid ""
 "\\*Holding\\* an FX ASSIGN button allows the effect in that effect unit to "
 "be changed using the BROWSE LEFT/RIGHT buttons."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:145
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:144
 msgid "DEL-mode"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:147
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:147
 msgid ""
 "DEL-mode is activated by *tapping* the deck’s hot cue DEL button (the button"
 " will light up blue). This is equivalent to a shift button on other "
@@ -311,7 +311,7 @@ msgid ""
 "buttons as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:152
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:152
 msgid ""
 "The HOT CUE buttons act as auto-loop triggers (when \\*held*) in DEL-mode. "
 "The button layout follows the default “LateNight” skin (i.e. top row = [1/8]"
@@ -322,11 +322,11 @@ msgid ""
 "size with the LOOP ON/OFF button)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:160
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:160
 msgid "The CUE button triggers reverse playback (while \\*held*)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:161
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:161
 msgid ""
 "The PLAY button triggers reverse-slip playback (while \\*held*). NB: if you "
 "already have slip-mode activated before you trigger reverse-slip playback, "
@@ -336,29 +336,29 @@ msgid ""
 "playback)."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:167
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:167
 msgid ""
 "The PITCH BEND +/- buttons step the key up/down without altering the "
 "playback rate. If both PITCH BEND buttons are pressed together, the playback"
 " key is reset to normal."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:172
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:171
 msgid "Auto-Loops and Slip-Mode"
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:174
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:174
 msgid ""
 "There are no “slip-mode aware” skins in Mixxx yet so the auto-loop behaviour"
 " of this controller (which \\*is\\* “slip-mode aware”) may be a little "
 "different than you might expect to take advantage of this feature."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:179
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:179
 msgid "Auto-loop buttons are (by default) only active when held."
 msgstr ""
 
-#: ../../hardware/controllers/behringer_cmd_studio_4a.rst:180
+#: ../../hardware/controllers/behringer_cmd_studio_4a.md:180
 msgid ""
 "In slip-mode, releasing an auto-loop button will immediately “re-sync” "
 "playback (by disabling, then immediately re-enabling slip mode), you may see"

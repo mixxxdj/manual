@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Serbian (https://app.transifex.com/mixxx-dj-software/teams/7734/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:2
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:1
 msgid "Hercules DJControl Starlight"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:4
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:4
 msgid ""
 "Ultra-compact, ultra-light, ultra-practical and ultra-unique with its "
 "lights, the DJControl Starlight packs all the features needed to mix and "
@@ -34,302 +34,292 @@ msgid ""
 " backlighting."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:14
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:14
 msgid ""
-"`Manufacturer’s product page <https://www.hercules.com/en-"
-"us/product/djcontrolstarlight/>`__"
+"[Manufacturer’s product page](https://www.hercules.com/en-"
+"us/product/djcontrolstarlight/)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:15
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:15
 msgid ""
-"`Manufacturer’s support and downloads page "
-"<https://support.hercules.com/en/product/djcontrolstarlight-en/>`__"
+"[Manufacturer’s support and downloads "
+"page](https://support.hercules.com/en/product/djcontrolstarlight-en/)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:16
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:16
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-"
-"starlight/17833/4>`__"
+"[Forum thread](https://mixxx.discourse.group/t/hercules-djcontrol-"
+"starlight/17833/4)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:21
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:20
 msgid "Compatibility"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:23
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:23
 msgid ""
-"This controller is a class compliant USB :term:`MIDI` and audio device, so "
+"This controller is a class compliant USB {term}`MIDI` and audio device, so "
 "it can be used without any special drivers on GNU/Linux, macOS, and Windows."
-" However, if you wish to use the ASIO sound :term:`API` under Windows, "
-"please install the latest driver package available from the `Support page "
-"<https://support.hercules.com/en/product/djcontrolstarlight-en/>`__."
+" However, if you wish to use the ASIO sound {term}`API` under Windows, "
+"please install the latest driver package available from the [Support "
+"page](https://support.hercules.com/en/product/djcontrolstarlight-en/)."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:27
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:26
 msgid "Sound card setup"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:29
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:29
 msgid ""
 "This controller has built-in 4 channel output sound card, with main and "
 "headphone output (both 3.5mm jack)."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:31
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:31
 msgid "Open **Preferences > Sound Hardware**"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:32
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:32
 msgid "Select the **Output** tab"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:33
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:33
 msgid ""
 "From the **Main** drop-down menu, select the audio interface, then "
 "**Channels 1-2**"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:34
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:34
 msgid ""
 "From the **Headphones** drop-down menu, select the audio interface, then "
 "**Channels 3-4**"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:35
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:35
 msgid "Click **Apply** to save the changes."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:38
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:38
 msgid ""
-"More details about audio configuration can be found in the :ref:`here "
+"More details about audio configuration can be found in the {ref}`here "
 "<setup-laptop-and-external-card>`."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:41
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:41
 msgid ""
 "The **Main** and **Headphone** knobs are hardware controls and interact "
 "directly with the integrated sound card’s output. Although they also send "
-":term:`MIDI` messages, they have NOT been mapped in Mixxx, so do not expect "
+"{term}`MIDI` messages, they have NOT been mapped in Mixxx, so do not expect "
 "an on-screen reaction when using them. This was done to prevent the knobs to"
 " adjust both the gain on the controller’s sound card and in Mixxx."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:45
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:45
 msgid ""
-"The :ref:`gain staging section of this manual <djing-gain-staging>` explains"
+"The {ref}`gain staging section of this manual <djing-gain-staging>` explains"
 " how to set your levels properly when using Mixxx."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:48
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:47
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:50
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:50
 msgid ""
 "The base LED is linked to the VU Meter for light show effect on each deck "
 "respectively."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:52
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:52
 msgid "All controls not listed here work as labeled."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:55
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:54
 msgid "Decks"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:58
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:77
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Button"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:58
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:77
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Description"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:60
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SYNC"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:60
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Sync lock"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + SYNC"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Set deck as sync leader"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:62
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "CUE"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:62
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Cue point"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:63
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + CUE"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:63
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Return to beginning of loaded song"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:64
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "PLAY"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:64
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Play/Pause"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:65
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + PLAY"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:65
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Cue Stutter"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:66
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "VINYL"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:66
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Scratch On/Off (Default: on)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:67
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + Bass/Filter"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:67
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Move FX chain metaknobs"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:70
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:69
 msgid ""
 "When Vinyl is on, turning a jog wheel scratches that deck. When Vinyl is "
 "off, turning a jog wheel bends the pitch of the track."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:74
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:72
 msgid "Pads"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:77
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad Mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:79
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:80
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Hot Cue"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:79
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pads 1-4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:79
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Set and trigger Hot Cue 1-4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:80
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + Pads 1-4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:80
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad = Delete Hot Cue 1-4."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:81
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:82
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:83
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:84
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Loop"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:81
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad 1"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:81
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Beatloop 1/2 beat"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:82
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad 2"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:82
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Beatloop 1 beat"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:83
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad 3"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:83
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Beatloop 2 beats"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:84
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pad 4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:84
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Beatloop 4 beats"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:85
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:86
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "FX"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:85
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pads 1-3"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:85
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "FX 1-3 on/off"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:86
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "SHIFT + Pads 1-3"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:86
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "FX 1-3 select"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "FX Rack 1/2 On/Off (Deck A/B respectively)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:88
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Sampler"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:88
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pads 1-4 (Deck A)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:88
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Sampler 1-4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Pads 1-4 (Deck B)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_starlight.rst:89
+#: ../../hardware/controllers/hercules_djcontrol_starlight.md:40
 msgid "Sampler 5-8"
 msgstr ""

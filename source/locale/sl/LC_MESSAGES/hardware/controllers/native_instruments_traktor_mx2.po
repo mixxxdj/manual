@@ -1,0 +1,632 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2026, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
+"PO-Revision-Date: 2026-06-30 22:16+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2026\n"
+"Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:4
+msgid "Native Instruments Traktor MX2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:6
+msgid ""
+"The MX2 is a two-channel controller with an integrated sound card. It has "
+"two integrated stereo outputs (line and 1/8\" / 3.5 mm TRS), headphone "
+"outputs (1/8\" / 3.5 mm TRS) and microphone inputs (1/4\" / 6.3 mm TRS). The"
+" MX2 uses the standard HID protocol to send and receive signals from a "
+"computer, so it can work with Mixxx."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:9
+msgid ""
+"`Manufacturer’s product page <https://www.native-"
+"instruments.com/de/products/traktor/dj-controllers/traktor-mx2/>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:10
+msgid ""
+"`Mapping forum thread <https://mixxx.discourse.group/t/native-instruments-"
+"traktor-mx2/33225>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:15
+msgid "Mixxx Sound Hardware Preferences"
+msgstr "Mixxx nastavitve strojne opreme za zvok"
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:17
+msgid "Main output: channels 1-2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:18
+msgid "Headphone output: channels 3-4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:21
+msgid "Mixxx mapping"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:23
+msgid ""
+"The Mixxx mapping tries to be as close as possible to NI's original mappings"
+" which you can find here: `In section 4 of their manual <https://www.native-"
+"instruments.com/fileadmin/ni_media/downloads/manuals/traktor/Traktor_MX2_user_guide-"
+"en.pdf>`__"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:32
+msgid "Native Instruments Traktor MX2 (schematic view)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:36
+msgid "Channel Controls (1-30)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:39
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:175
+msgid "Element"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:39
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:175
+msgid "Primary function"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:39
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:175
+msgid "Secondary function (+ SHIFT)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:41
+msgid "**1**. FX Main knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:41
+msgid "Control the 'Dry/Wet' Parameter of FX1 / FX2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:43
+msgid "**2**. FX Param knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:43
+msgid "Control the 'meta' Parameter of Effect 1-3 in FX1 / FX2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:46
+msgid "**3**. FX Toggle button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:46
+msgid "Toggles Effect 1-3 in FX1 / FX2"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:46
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:101
+msgid "Cycle through effects"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:49
+msgid "**4**. Preparation button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:49
+msgid "Add selected track to AutoDJ queue (bottom)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:49
+msgid "Add selected track to AutoDJ queue (top)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:52
+msgid "**5**. Browse knob **turn**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:52
+msgid "Scroll in Tracks table"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:52
+msgid "Scroll in tree view"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:55
+msgid "**5**. Browse knob **press**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:55
+msgid "Load selected track into deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:55
+msgid "Go to tracks table of currently hovered item"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:58
+msgid "**6**. Preview button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "Load selected track into preview deck / play, pause if already loaded"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:60
+msgid ""
+"Buttons are linked -> preview on channel 1 & 2 control the same preview deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:62
+msgid "**7**. List view button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:62
+msgid "Toggles maximizing the library"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:65
+msgid "**8**. FLX button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:65
+msgid "Enable and disable slip mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:67
+msgid "**9**. REV button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:67
+msgid "Reverse play while held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:67
+msgid "Reverse play + slip mode while held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:69
+msgid "**10**. Turntable button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:69
+msgid "Set jog wheel mode to 'turntable'"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:72
+msgid "**11**. Jog button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:72
+msgid "Set jog wheel mode to 'jog'"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:74
+msgid "**12**. Jog wheels"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid ""
+"'turntable' mode: Control scratching when touched from the top (Temporarily "
+"bend the pitch when touched from the side)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:76
+msgid "'jog' mode:       Temporarily bend the pitch"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:78
+msgid "**Shift** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:78
+msgid "Activates secondary functions when pressed"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:80
+msgid "**14**. Sync button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:80
+msgid ""
+"Syncs the BPM and phase (depending on quantize). Press longer to activate "
+"sync lock on that deck."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:80
+msgid "Syncs the phase to that of the other track"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:82
+msgid "**15**. Sync master button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:82
+msgid "Set the deck as sync leader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:85
+msgid "**16**. Move knob **turn**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "Beatjump backwards/forwards"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:87
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:99
+msgid "while **Stems** is active and **20** is held: see 'Stems mode'"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "Halve or double beatjump size"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:89
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:101
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:129
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:138
+msgid "Stems mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:89
+msgid "Control volume of stem"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:91
+msgid "**16**. Move knob **press**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:91
+msgid ""
+"Activates a rolling loop of the defined number of beats. Once disabled, "
+"playback will resume where the track would have been if it had not entered "
+"the loop"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:91
+msgid "Activate current loop, jump to its loop in point, and stop playback"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:94
+msgid "**17**. Keylock button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:94
+msgid ""
+"Enable keylock for the deck. Toggle loop knob **18** to pitch mode while "
+"being held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:97
+msgid "**18**. Loop knob **turn**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "Halve or double loop size"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:101
+msgid "Control the 'meta' parameter of the stem effect"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:103
+msgid "Pitch mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:103
+msgid "Change pitch of the track"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:105
+msgid "**18**. Loop knob **press**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:105
+msgid "Set a loop of the defined number of beats and enables the loop"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:105
+msgid "Toggles the current loop on or off"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:108
+msgid "**CUE** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:108
+msgid "CUE default"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:108
+msgid "If the CUE point is set, jump to it and stops"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:110
+msgid "**Play** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:110
+msgid "Toggles playing"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:110
+msgid "Seeks a player to the start and then stops it"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:112
+msgid "**Hotcues** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:112
+msgid "Activate hotcue mode (for the number buttons)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:115
+msgid "**Stems** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:115
+msgid "Activate stems mode (for the number buttons)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:118
+msgid "**Patterns** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:118
+msgid ""
+"Activate patterns mode (for the number buttons) --> currently not "
+"implemented"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:121
+msgid "**Loops** button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:121
+msgid "Activate loops mode (for the number buttons)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:124
+msgid "**19**. Number buttons 1-4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:124
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:133
+msgid "Function depends on current mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:127
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:136
+msgid "Hotcue mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:127
+msgid ""
+"If hotcue is set, seeks the player to hotcue position. Otherwise set hotcue "
+"at current position"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:127
+msgid "Clear the hotcue"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:129
+msgid "Toggle mute stem 1-4"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:131
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:140
+msgid "Loops mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:131
+msgid "Enable a rolling loop of 1/16, 1/8, 1/4, 1/2 beats while being held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:131
+msgid "Enable default loop instead"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:133
+msgid "**20**. Number buttons 5-8"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:136
+msgid "like **19**"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:138
+msgid "Toggle move and loop knob to stems mode while being held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:140
+msgid "Enable a rolling loop of 1, 2, 4, 8 beats while being held"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:140
+msgid "Enable a default loop instead"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:142
+msgid "**21**. Tempo fader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:142
+msgid "Speed control"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:144
+msgid "**22**. Pre-Gain knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:144
+msgid "Adjusts the pre-fader gain of the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:147
+msgid "**23**. FX select button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:147
+msgid "Selects whether FX1 / FX2 should be applied to the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:150
+msgid "**24**. HI knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:150
+msgid "High frequency filter"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:152
+msgid "**25**. MID knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:152
+msgid "Middle frequency filter"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:154
+msgid "**26**. LOW knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:154
+msgid "Low frequency filter"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:156
+msgid "**27**. GFX parameter knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:156
+msgid "Quick effect (35, 36) 'meta' parameter knob for the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:159
+msgid "**28**. GFX toggle button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:159
+msgid "Toggles whether GFX (35, 36) should be applied to the deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:162
+msgid "**29**. Headphone  | Toggles headphone cueing button            |"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:165
+msgid "**30**. Volume fader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:165
+msgid "Adjusts the channel volume fader for the corresponding deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:172
+msgid "Mixer Controls (31-38)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:177
+msgid "**31**. Gain knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:177
+msgid "*Unmapped* (adjusts the hardware gain)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:179
+msgid "**32**. VuMeter LEDs"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:179
+msgid "Show the current instantaneous deck volume"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:182
+msgid "**33**. Headphone mix knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:182
+msgid "Adjusts the cue/main mix in the headphone output"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:185
+msgid "**34**. Headphone gain knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:185
+msgid "Adjusts the headphone output gain"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:188
+msgid "**35**. Effect buttons (GFX)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid ""
+"Load preset from the Quick Effect presets list on both decks. 8 first "
+"presets from the list can be selected."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid ""
+"Press the button once to get the first preset, press twice for the second "
+"preset."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "Press once (Press twice):"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "1 (5)  2 (6)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:0
+msgid "3 (7)  4 (8)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:188
+msgid "Load preset on selected deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:194
+msgid "**36** Filter effect button (GFX)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:194
+msgid "Loads the 'Filter' effect preset"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:197
+msgid "**37**. Microphone button"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:197
+msgid "Toggles microphone talkover, long press for permanent activation"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:200
+msgid "**38**. Crossfader"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_mx2.rst:200
+msgid "Adjusts the crossfader between both decks"
+msgstr ""

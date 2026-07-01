@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../hardware/controllers/electrix_tweaker.rst:2
+#: ../../hardware/controllers/electrix_tweaker.md:1
 msgid "Electrix Tweaker"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:4
+#: ../../hardware/controllers/electrix_tweaker.md:4
 msgid ""
 "The Electrix Tweaker is an unconventional MIDI controller that can control "
 "most aspects of Mixxx. Instead of jog wheels, it fits an 8x4 grid of "
@@ -31,88 +31,89 @@ msgid ""
 "(although it does include 5-pin MIDI in and out ports)."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:11
-msgid "`Manufacturer’s website <https://electrixpro.com/>`__"
+#: ../../hardware/controllers/electrix_tweaker.md:11
+msgid "[Manufacturer’s website](https://electrixpro.com/)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:12
+#: ../../hardware/controllers/electrix_tweaker.md:12
 msgid ""
-"`Forum topic <https://mixxx.discourse.group/t/electrix-tweaker-"
-"mapping/15071>`__"
+"[Forum topic](https://mixxx.discourse.group/t/electrix-tweaker-"
+"mapping/15071)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:13
+#: ../../hardware/controllers/electrix_tweaker.md:13
 msgid ""
-"`Manufacturer’s manual <https://electrixpro.com/wp-"
-"content/uploads/2014/10/Tweaker_User_Manual.pdf>`__"
+"[Manufacturer’s manual](https://electrixpro.com/wp-"
+"content/uploads/2014/10/Tweaker_User_Manual.pdf)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:18
+#: ../../hardware/controllers/electrix_tweaker.md:17
 msgid "Compatibility and setup"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:20
+#: ../../hardware/controllers/electrix_tweaker.md:20
 msgid ""
 "The Tweaker is a USB MIDI class compliant device, so it does not require any"
 " special drivers on any operating system. Just plug it in and load the Mixxx"
 " mapping on any OS that Mixxx runs on."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:24
+#: ../../hardware/controllers/electrix_tweaker.md:24
 msgid ""
 "Use it with the Tweaker MIDI 1 port (Tweaker MIDI 2 is the 5-pin MIDI I/O on"
 " the Tweaker)."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:28
+#: ../../hardware/controllers/electrix_tweaker.md:27
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:31
+#: ../../hardware/controllers/electrix_tweaker.md:30
 msgid "Global controls"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:40
+#: ../../hardware/controllers/electrix_tweaker.md:33
+#: ../../hardware/controllers/electrix_tweaker.md:39
 msgid "Electrix Tweaker (global controls)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:42
+#: ../../hardware/controllers/electrix_tweaker.md:41
 msgid "Scroll through library. Press to toggle big library view"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:43
+#: ../../hardware/controllers/electrix_tweaker.md:42
 msgid "Scroll up left panel of library"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:44
+#: ../../hardware/controllers/electrix_tweaker.md:43
 msgid "Scroll down left panel of library"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:45
+#: ../../hardware/controllers/electrix_tweaker.md:44
 msgid "Samplers"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:47
+#: ../../hardware/controllers/electrix_tweaker.md:45
 msgid "Off when empty, red when loaded"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:48
+#: ../../hardware/controllers/electrix_tweaker.md:46
 msgid "Press a button to load the selected sample into a sampler and play it"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:50
+#: ../../hardware/controllers/electrix_tweaker.md:48
 msgid ""
 "Press a button to play a sample. When the button is released, the sample "
 "will stop playing."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:52
+#: ../../hardware/controllers/electrix_tweaker.md:50
 msgid ""
 "Press [[#top-shift-layer|top shift]] and a sampler button to eject a sample "
 "from a sampler"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:54
+#: ../../hardware/controllers/electrix_tweaker.md:52
 msgid ""
 "Samples will play with their volume proportional to how much force was used "
 "to strike the button. You can adjust the sensitivity or disable the velocity"
@@ -120,114 +121,115 @@ msgid ""
 " the top of the JavaScript file in a text editor."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:60
+#: ../../hardware/controllers/electrix_tweaker.md:58
 msgid "Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:63
+#: ../../hardware/controllers/electrix_tweaker.md:60
 msgid "Top shift layer"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:72
+#: ../../hardware/controllers/electrix_tweaker.md:63
 msgid "Electrix Tweaker (top shift layer)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:72
+#: ../../hardware/controllers/electrix_tweaker.md:69
 msgid "Electrix Tweaker (top shift layer controls)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:74
+#: ../../hardware/controllers/electrix_tweaker.md:71
 msgid ""
 "This layer is active while the top shift button (#1 in the diagram) is held "
 "down."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:77
+#: ../../hardware/controllers/electrix_tweaker.md:74
 msgid ""
 "With the exception of the headphone mix encoder (#8 in the diagram), "
 "pressing the encoders 7-12 resets them to center."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:80
+#: ../../hardware/controllers/electrix_tweaker.md:77
 msgid "Top shift button"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:81
+#: ../../hardware/controllers/electrix_tweaker.md:78
 msgid "Eject left deck"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:82
+#: ../../hardware/controllers/electrix_tweaker.md:79
 msgid "Eject right deck"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:83
-#: ../../hardware/controllers/electrix_tweaker.rst:84
+#: ../../hardware/controllers/electrix_tweaker.md:80
+#: ../../hardware/controllers/electrix_tweaker.md:81
 msgid "Expand/collapse selected item in left library pane"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:85
+#: ../../hardware/controllers/electrix_tweaker.md:82
 msgid ""
 "Scroll through library quickly. Push to load selected track into first "
 "stopped deck."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:86
+#: ../../hardware/controllers/electrix_tweaker.md:83
 msgid "Headphone gain"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:87
+#: ../../hardware/controllers/electrix_tweaker.md:84
 msgid ""
 "Headphone cue/main mix in headphones. Press to toggle split cue mode. The "
 "blue LED below encoder is lit when split cue mode is enabled."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:88
+#: ../../hardware/controllers/electrix_tweaker.md:85
 msgid "Channel gain for active deck on left side"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:89
+#: ../../hardware/controllers/electrix_tweaker.md:86
 msgid "Main output gain"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:90
+#: ../../hardware/controllers/electrix_tweaker.md:87
 msgid "Main output balance"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:91
+#: ../../hardware/controllers/electrix_tweaker.md:88
 msgid "Channel gain for active deck on right side"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:92
+#: ../../hardware/controllers/electrix_tweaker.md:89
 msgid "Eject sampler"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:93
+#: ../../hardware/controllers/electrix_tweaker.md:90
 msgid "Delete hotcue"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:94
+#: ../../hardware/controllers/electrix_tweaker.md:91
 msgid ""
 "Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that"
 " is active on the left side (press top shift button first, then this button "
 "while holding down top shift)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:95
+#: ../../hardware/controllers/electrix_tweaker.md:92
 msgid ""
 "Deck shift button. Press to enable [[#vinyl timecode mode]] on the deck that"
 " is active on the right side (press top shift button first, then this button"
 " while holding down top shift)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:98
+#: ../../hardware/controllers/electrix_tweaker.md:95
 msgid "Deck controls"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:107
+#: ../../hardware/controllers/electrix_tweaker.md:98
+#: ../../hardware/controllers/electrix_tweaker.md:104
 msgid "Electrix Tweaker (deck controls)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:109
+#: ../../hardware/controllers/electrix_tweaker.md:106
 msgid ""
 "The deck controls are the same on each half of the controller. Which deck "
 "each side controls can be switched with the deck toggle button, labeled #11 "
@@ -237,35 +239,35 @@ msgid ""
 " side are magenta when enabled, as shown on the right side of the diagram."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:117
+#: ../../hardware/controllers/electrix_tweaker.md:114
 msgid ""
 "Filter (low pass filter left of center; high pass filter right of center)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:118
+#: ../../hardware/controllers/electrix_tweaker.md:115
 msgid "Load track selected in library into deck"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:119
+#: ../../hardware/controllers/electrix_tweaker.md:116
 msgid ""
 "Toggle encoders between EQ and loop mode (see [[#channel-encoder-"
 "layers|below]])"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:120
+#: ../../hardware/controllers/electrix_tweaker.md:117
 msgid "Headphone cueing"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:121
-#: ../../hardware/controllers/electrix_tweaker.rst:176
+#: ../../hardware/controllers/electrix_tweaker.md:118
+#: ../../hardware/controllers/electrix_tweaker.md:172
 msgid "Volume"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:122
+#: ../../hardware/controllers/electrix_tweaker.md:119
 msgid "Play/pause"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:123
+#: ../../hardware/controllers/electrix_tweaker.md:120
 msgid ""
 "Hotcues. Press an unlit button to set a hotcue. When slip mode is disabled "
 "(see #9 below), pressing a hotcue simply jumps to that hotcue. When slip "
@@ -276,31 +278,31 @@ msgid ""
 "once the last hotcue button is released."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:131
+#: ../../hardware/controllers/electrix_tweaker.md:128
 msgid "Jump 4 beats forward (with quantize enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:132
+#: ../../hardware/controllers/electrix_tweaker.md:129
 msgid ""
 "Slip mode. When active, loops and hotcues will only play as long as they are"
 " held down. When they are released, the track will jump to where it would "
 "have been if the loop or hotcue was not pressed."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:135
+#: ../../hardware/controllers/electrix_tweaker.md:132
 msgid "[[#deck-shift-layer|Deck shift]]"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:136
+#: ../../hardware/controllers/electrix_tweaker.md:133
 msgid ""
 "Deck toggle between decks 1 & 3 on the left and decks 2 & 4 on the right."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:137
+#: ../../hardware/controllers/electrix_tweaker.md:134
 msgid "Jump 4 beats backward (with quantize enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:138
+#: ../../hardware/controllers/electrix_tweaker.md:135
 msgid ""
 "Quantize. In addition to snapping cues, loops, and play button presses to "
 "the nearest beat, this changes the behavior of the controller’s navigation "
@@ -313,45 +315,46 @@ msgid ""
 "navigation buttons are temporary pitch bend buttons."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:148
+#: ../../hardware/controllers/electrix_tweaker.md:145
 msgid "Key lock"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:149
+#: ../../hardware/controllers/electrix_tweaker.md:146
 msgid "Sync lock"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:150
+#: ../../hardware/controllers/electrix_tweaker.md:147
 msgid "Fast forward (with quantize disabled)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:151
+#: ../../hardware/controllers/electrix_tweaker.md:148
 msgid "Rewind (with quantize disabled)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:154
+#: ../../hardware/controllers/electrix_tweaker.md:150
 msgid "Deck Shift layer"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:163
+#: ../../hardware/controllers/electrix_tweaker.md:153
+#: ../../hardware/controllers/electrix_tweaker.md:159
 msgid "Electrix Tweaker (deck shift layer)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:165
+#: ../../hardware/controllers/electrix_tweaker.md:161
 msgid ""
 "This layer is active while the yellow deck shift button on that side of the "
 "controller is held down."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:168
+#: ../../hardware/controllers/electrix_tweaker.md:164
 msgid "Pitch (only adjusts tempo with keylock on)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:169
+#: ../../hardware/controllers/electrix_tweaker.md:165
 msgid "Jump 32 beats forward or backward"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:170
+#: ../../hardware/controllers/electrix_tweaker.md:166
 msgid ""
 "Scroll through hotcue pages. The pages are color coded, in order, cyan, "
 "green, red, and white. The LED around the encoder indicates the hotcue page "
@@ -359,93 +362,94 @@ msgid ""
 "(see [[#deck-controls|deck controls (#11)]] above)."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:175
+#: ../../hardware/controllers/electrix_tweaker.md:171
 msgid "Exit loop"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:177
+#: ../../hardware/controllers/electrix_tweaker.md:173
 msgid ""
 "Cue. When previewing from the cue point on a stopped deck, release this cue "
 "button to stop playing and jump back to the cue point. Release deck shift to"
 " continue playing."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:180
+#: ../../hardware/controllers/electrix_tweaker.md:176
 msgid "Move hotcue to current position"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:181
+#: ../../hardware/controllers/electrix_tweaker.md:177
 msgid ""
 "Jump forward 1 beat (with quantize enabled, see [[#deck-controls|deck "
 "controls #13]])"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:182
+#: ../../hardware/controllers/electrix_tweaker.md:178
 msgid "Manually place loop start point"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:183
+#: ../../hardware/controllers/electrix_tweaker.md:179
 msgid "Deck shift button"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:184
+#: ../../hardware/controllers/electrix_tweaker.md:180
 msgid "Manually place loop end point"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:185
+#: ../../hardware/controllers/electrix_tweaker.md:181
 msgid ""
 "Jump back 1 beat (with quantize enabled, see [[#deck-controls|deck controls "
 "#13]])"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:186
+#: ../../hardware/controllers/electrix_tweaker.md:182
 msgid "Align beatgrid with current position"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:187
+#: ../../hardware/controllers/electrix_tweaker.md:183
 msgid ""
 "Sync key. If key has been changed from track’s original key, reset the key."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:188
+#: ../../hardware/controllers/electrix_tweaker.md:184
 msgid "Reset tempo"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:189
+#: ../../hardware/controllers/electrix_tweaker.md:185
 msgid ""
 "Temporarily raise pitch while pressed (with quantize disabled, see [[#deck-"
 "controls|deck controls #13]])"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:190
+#: ../../hardware/controllers/electrix_tweaker.md:186
 msgid ""
 "Temporarily lower pitch while pressed (with quantize disabled, see [[#deck-"
 "controls|deck controls #13]])"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:193
+#: ../../hardware/controllers/electrix_tweaker.md:188
 msgid "Channel encoder layers"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:202
+#: ../../hardware/controllers/electrix_tweaker.md:191
+#: ../../hardware/controllers/electrix_tweaker.md:197
 msgid "Electrix Tweaker (channel encoder layers)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:204
+#: ../../hardware/controllers/electrix_tweaker.md:199
 msgid ""
 "The encoder layer buttons (#4 and #8 in the diagram) toggle the encoders "
 "between EQ and loop layers."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:207
+#: ../../hardware/controllers/electrix_tweaker.md:202
 msgid ""
 "The left side of the diagram shows EQ mode. In EQ mode, pressing encoders "
 "toggles that EQ’s kill switch. The blue LED below the encoder is lit while "
 "the kill switch is on. Pressing the encoder while holding deck shift (see "
-"`deck controls #10 <#deck-controls>`__) resets the EQ to center."
+"{ref}`deck controls #10 <deck-controls>`) resets the EQ to center."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:213
+#: ../../hardware/controllers/electrix_tweaker.md:208
 msgid ""
 "Tip: You can go to Options > Preferences > Equalizers and check “Reset "
 "equalizers on track load”. On most controllers, this would be an issue "
@@ -454,7 +458,7 @@ msgid ""
 "encoders instead of knobs, this is not an issue."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:219
+#: ../../hardware/controllers/electrix_tweaker.md:214
 msgid ""
 "The right side of the diagram shows loop mode. The LEDs on the loop move "
 "length and loop length encoders represent numbers of beats. Center means 1 "
@@ -463,65 +467,66 @@ msgid ""
 "center LED and 2 LEDs to the right are lit (2 x 2 = 4)."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:225
+#: ../../hardware/controllers/electrix_tweaker.md:220
 msgid "High EQ"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:226
+#: ../../hardware/controllers/electrix_tweaker.md:221
 msgid "Mid EQ"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:227
+#: ../../hardware/controllers/electrix_tweaker.md:222
 msgid "Low EQ"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:228
+#: ../../hardware/controllers/electrix_tweaker.md:223
 msgid "Encoder mode button. Press to switch to loop mode."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:229
+#: ../../hardware/controllers/electrix_tweaker.md:224
 msgid "Loop move length"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:230
+#: ../../hardware/controllers/electrix_tweaker.md:225
 msgid "Move loop"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:231
+#: ../../hardware/controllers/electrix_tweaker.md:226
 msgid ""
 "Loop length. Press to toggle loop. When in slip mode (see [[#deck-"
 "controls|deck control button #9]]), the loop is only active while this is "
 "held down. The blue LED below the encoder is lit while"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:232
+#: ../../hardware/controllers/electrix_tweaker.md:227
 msgid "a loop is active."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:233
+#: ../../hardware/controllers/electrix_tweaker.md:228
 msgid "Encoder mode button. Press to switch to EQ mode."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:236
+#: ../../hardware/controllers/electrix_tweaker.md:230
 msgid "Vinyl Timecode Mode"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:245
+#: ../../hardware/controllers/electrix_tweaker.md:233
+#: ../../hardware/controllers/electrix_tweaker.md:239
 msgid "Electrix Tweaker (vinyl timecode mode)"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:247
+#: ../../hardware/controllers/electrix_tweaker.md:241
 msgid "Top Shift"
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:248
+#: ../../hardware/controllers/electrix_tweaker.md:242
 msgid ""
 "Toggle vinyl timecode mode by pressing deck shift (#2 in the diagram) while "
 "holding top shift (#1 in the the diagram). This replaces the navigation "
 "buttons for that deck with buttons that toggle options for timecode control."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:249
+#: ../../hardware/controllers/electrix_tweaker.md:243
 msgid ""
 "Cycle through vinyl control modes: absolute (LED off), relative (LED "
 "indicates cue mode), and constant (LED red). If the deck is in relative mode"
@@ -530,7 +535,7 @@ msgid ""
 "pressing the button with deck shift (#2) switches to constant mode."
 msgstr ""
 
-#: ../../hardware/controllers/electrix_tweaker.rst:250
+#: ../../hardware/controllers/electrix_tweaker.md:244
 msgid ""
 "toggle vinyl control. Turns green when vinyl control is enabled. With deck "
 "shift (#2) pressed, it toggles passthrough mode and turns white.  Pressing "

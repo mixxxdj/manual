@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/mixxx-dj-software/teams/7734/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../hardware/controllers/m_audio_xponent.rst:2
+#: ../../hardware/controllers/m_audio_xponent.md:1
 msgid "M-Audio Torq Xponent"
 msgstr ""
 
-#: ../../hardware/controllers/m_audio_xponent.rst:4
+#: ../../hardware/controllers/m_audio_xponent.md:4
 msgid ""
 "This device has been discontinued. M-Audio discontinued its DJ products "
 "after the company was bought by inMusic in 2012. This device is a class "
@@ -29,11 +29,11 @@ msgid ""
 " on any OS that Mixxx runs on."
 msgstr ""
 
-#: ../../hardware/controllers/m_audio_xponent.rst:10
+#: ../../hardware/controllers/m_audio_xponent.md:9
 msgid "Note for Windows users"
 msgstr ""
 
-#: ../../hardware/controllers/m_audio_xponent.rst:12
+#: ../../hardware/controllers/m_audio_xponent.md:12
 msgid ""
 "Typically, the ASIO sound API is the best option on Windows and it requires "
 "an ASIO driver from the sound card manufacturer. However, it seems that the "
@@ -44,7 +44,7 @@ msgid ""
 "longer use the Xponent’s sound card with the ASIO sound API."
 msgstr ""
 
-#: ../../hardware/controllers/m_audio_xponent.rst:16
+#: ../../hardware/controllers/m_audio_xponent.md:16
 msgid ""
 "It is recommended to **use the WDM-KS sound API** instead. The sound card "
 "will appear as “Analog Connector 1 (Xponent Audio)” and “Analog Connector 2 "
@@ -56,10 +56,10 @@ msgid ""
 " the lights."
 msgstr ""
 
-#: ../../hardware/controllers/m_audio_xponent.rst:21
+#: ../../hardware/controllers/m_audio_xponent.md:21
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

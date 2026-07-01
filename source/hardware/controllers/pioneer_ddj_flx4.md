@@ -17,10 +17,9 @@ Pioneer DDJ-FLX4 (schematic view)
 The Pioneer DDJ-FLX4 is a 2 deck USB controller with an integrated audio interface
 designed for rekordbox and Serato.
 
-- [Manufacturer's Product Page](https://www.pioneerdj.com/en-us/product/controller/ddj-flx4/black/overview/)
-- [Manufacturer's User Manual](https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/)
-- [Midi Mappings](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_midi_message_list_e1.pdf)
-- [Hardware Diagram](https://www.pioneerdj.com/-/media/pioneerdj/software-info/controller/ddj-flx4/ddj-flx4_hardwarediagram_rekordbox_e1.pdf?la=en-us)
+- [Manufacturer's Product Page](https://www.pioneerdj.com/product/dj-controllers/ddj-flx4/)
+- [Manufacturer's User Manual](https://support.alphatheta.com/articles/12267724407961)
+- [Hardware Diagram](https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-REV1/DDJ-REV1_HardwareDiagram_SeratoDJLite_Pro_E1.pdf)
 - [Mapping Forum Thread](https://mixxx.discourse.group/t/pioneer-ddj-flx4/26553)
 
 ## Firmware
@@ -54,7 +53,7 @@ and cannot be configured as an input device.
 
 
 The schematic drawings used here can be referenced in the
-[manufacturer's manual](https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/)
+[manufacturer's manual](https://support.alphatheta.com/articles/12267724407961)
 on the given page number.
 
 ### Browser section (p. 12)
@@ -353,7 +352,7 @@ Pioneer DDJ-FLX4 (mixer section)
 | 4    |  EQs ({hwlabel}`LOW` {hwlabel}`MID` {hwlabel}`HIGH`)    |   Boosts or cuts channel frequencies |
 | 5    |  {hwlabel}`MASTER`                                      |   Microphone level. Works for microphones connected on the controller and through the controller's line out. |
 | 6    |  Channel level indicators                               |   Displays channel levels (before being sent through channel faders) |
-| 7    |  {hwlabel}`CFX`                                         |   QuickEffect superknob (by default controls a Filter, but this can be changed in the {ref}`preferences <preferences-equalizers>`) |
+| 7    |  {hwlabel}`CFX`                                         |   QuickEffect superknob (by default controls a Filter, but this can be changed in the {ref}`preferences <preferences-mixer>`) |
 | 8    |  {hwlabel}`Smart CFX`                                   |   Not implemented |
 | 9    |  Headphone {hwlabel}`CUE` (Channel)                     |   Turn on to output channel to headphones |
 | 9    |  {hwlabel}`SHIFT` + Headphone {hwlabel}`CUE`            |   Toggles quantize for the current channel |

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/korg_nanokontrol.rst:4
+#: ../../hardware/controllers/korg_nanokontrol.md:3
 msgid "Korg nanoKONTROL"
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol.rst:6
+#: ../../hardware/controllers/korg_nanokontrol.md:6
 msgid ""
-"This controller has been discontinued in favor of the :ref:`Korg nanoKONTROL"
+"This controller has been discontinued in favor of the {ref}`Korg nanoKONTROL"
 " 2<korg-nanokontrol2>`."
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol.rst:8
+#: ../../hardware/controllers/korg_nanokontrol.md:8
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/korg-"
-"nanokontrol-4-mixxx/11084>`__"
+"[Forum thread](https://mixxx.discourse.group/t/korg-"
+"nanokontrol-4-mixxx/11084)"
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol.rst:13
+#: ../../hardware/controllers/korg_nanokontrol.md:13
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

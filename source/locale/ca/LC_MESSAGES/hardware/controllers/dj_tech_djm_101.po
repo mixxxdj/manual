@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -17,29 +17,29 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/dj_tech_djm_101.rst:2
+#: ../../hardware/controllers/dj_tech_djm_101.md:1
 msgid "DJ Tech DJM 101"
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_djm_101.rst:4
+#: ../../hardware/controllers/dj_tech_djm_101.md:4
 msgid ""
-"`DJ Tech "
-"<https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php>`__"
-" is not to be confused with `DJ TechTools <http://djtechtools.com/>`__, the "
+"[DJ "
+"Tech](https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php)"
+" is not to be confused with [DJ TechTools](http://djtechtools.com/), the "
 "makers of the MIDI Fighter series, Chroma Cables, and Chroma Caps. There is "
 "no (longer) a product page for this discontinued device."
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_djm_101.rst:9
+#: ../../hardware/controllers/dj_tech_djm_101.md:9
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/djtech-"
-"djm101-cdj101-mappings/12425>`__"
+"[Forum thread](https://mixxx.discourse.group/t/djtech-"
+"djm101-cdj101-mappings/12425)"
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_djm_101.rst:14
+#: ../../hardware/controllers/dj_tech_djm_101.md:14
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

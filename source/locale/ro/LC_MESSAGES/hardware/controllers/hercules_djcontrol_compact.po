@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Romanian (https://app.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -17,72 +17,72 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:2
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:1
 msgid "Hercules DJControl Compact"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:4
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:4
 msgid ""
-"`Manufacturer’s product page "
-"<https://support.hercules.com/en/product/djcontrolcompact-en/>`__"
+"[Manufacturer’s product "
+"page](https://support.hercules.com/en/product/djcontrolcompact-en/)"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:6
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:6
 msgid ""
 "The Hercules DJControl Compact is a simple controller for basic two-channel "
 "mixing. This device does not have a built in sound card, so it would require"
-" a :ref:`splitter cable <hardware-splitter-cables>` or :ref:`separate audio "
+" a {ref}`splitter cable <hardware-splitter-cables>` or {ref}`separate audio "
 "interface <hardware-audio-interfaces>` to be able to preview tracks in "
 "headphones. It also does not have buttons for routing decks to headphones."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:13
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:13
 msgid ""
 "Thanks to Hercules for supporting the development of this mapping by "
 "providing a controller."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:19
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:18
 msgid "Mapping description"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:21
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:21
 msgid ""
 "Much of the Compact’s behavior is hard-coded into its firmware, including "
 "shift button messages and button mode selections."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:24
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:24
 msgid "Shift + Play jumps to the beginning of the track and stops playback."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:26
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:26
 msgid ""
-"The cue button behaves differently depending on the :ref:`cue mode set in "
+"The cue button behaves differently depending on the {ref}`cue mode set in "
 "Mixxx’s Preferences <interface-cue-modes>`."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:28
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:28
 msgid ""
 "The sync button synchronizes the tempo to the other deck. Press and hold "
-"sync to engage :ref:`Sync Lock <sync-lock>`."
+"sync to engage {ref}`Sync Lock <sync-lock>`."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:31
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:31
 msgid ""
 "There is only one each of the Mode, Shift, and Scratch buttons, so they "
 "affect both decks."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:34
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:34
 msgid "Shift + Scratch (Automix) toggles AutoDJ on/off."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:37
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:36
 msgid "Jog Wheels"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:39
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:39
 msgid ""
 "When Scratch is off, turning a jog wheel bends the pitch of the track. When "
 "Scratch is on, turning a jog wheel scratches that deck. Holding Shift and "
@@ -91,105 +91,105 @@ msgid ""
 "pitch to change when adjusting the tempo."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:46
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:45
 msgid "Pad Grid"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:48
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:48
 msgid "Press the MODE button to cycle through each pad mode."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:51
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:50
 msgid "Loop mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:53
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:53
 msgid ""
 "In loop mode, the buttons are mapped in a way that’s more artistically "
 "expressive:"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:56
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:56
 msgid "Button 1 enables and disables the loop"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:57
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:57
 msgid "Button 2 enables an 8 beat loop"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:58
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:58
 msgid "Button 3 divides the current loop in half"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:59
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:59
 msgid "Button 4 doubles the length of the current loop"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:60
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:60
 msgid "Shift + Button 1 performs an 1/8th beat roll"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:61
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:61
 msgid "Shift + Button 2 performs an 1/4th beat roll"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:62
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:62
 msgid "Shift + Button 3 performs an 1/2th beat roll"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:63
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:63
 msgid "Shift + Button 4 performs an 1 beat roll"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:66
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:65
 msgid "FX mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:68
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:68
 msgid "Button 1 enables and disables the first FX chain for Channel 1"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:69
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:69
 msgid "Button 2 enables and disables the second FX chain for Channel 1"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:70
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:70
 msgid "Button 1 enables and disables the first FX chain for Channel 2"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:71
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:71
 msgid "Button 2 enables and disables the second FX chain for Channel 2"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:73
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:73
 msgid "Shift-FX buttons are not mapped."
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:76
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:75
 msgid "Sampler mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:78
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:78
 msgid "Left side buttons play Sample Decks 1 through 4"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:79
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:79
 msgid "Right side buttons play Sample Decks 5 through 8"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:80
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:80
 msgid ""
 "Shift + Buttons stops Sample Deck and puts the playhead at the cue point"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:84
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:83
 msgid "Cue mode"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:86
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:86
 msgid "Each button activates the hotcue with that number"
 msgstr ""
 
-#: ../../hardware/controllers/hercules_djcontrol_compact.rst:87
+#: ../../hardware/controllers/hercules_djcontrol_compact.md:87
 msgid "Shift + button clears the hotcue with that number"
 msgstr ""

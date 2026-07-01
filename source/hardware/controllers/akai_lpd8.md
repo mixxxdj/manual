@@ -1,6 +1,6 @@
 # Akai LPD8
 
--  [Manufacturer’s product page](https://web.archive.org/web/20251116094127/https://www.akaipro.com/lpd8)
+-  [Manufacturer’s product page](https://www.akaipro.com/downloads-and-support/downloads/?product=LPD8&legacy=true)
 -  [Forum thread](https://mixxx.discourse.group/t/akai-lpd8-mapping-4-decks-30-hotcues-loops-etc-v2/13064)
 
 :::{versionadded} 1.10.1

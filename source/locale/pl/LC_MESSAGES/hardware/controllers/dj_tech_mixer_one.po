@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7734/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: ../../hardware/controllers/dj_tech_mixer_one.rst:2
+#: ../../hardware/controllers/dj_tech_mixer_one.md:1
 msgid "DJ Tech Mixer One"
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_mixer_one.rst:4
+#: ../../hardware/controllers/dj_tech_mixer_one.md:4
 msgid ""
-"`DJ Tech "
-"<https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php>`__"
-" is not to be confused with `DJ TechTools <http://djtechtools.com/>`__, the "
+"[DJ "
+"Tech](https://web.archive.org/web/20221007133801/http://www.djtechpro.com/eng/index.php)"
+" is not to be confused with [DJ TechTools](http://djtechtools.com/), the "
 "makers of the MIDI Fighter series, Chroma Cables, and Chroma Caps."
 msgstr ""
 
-#: ../../hardware/controllers/dj_tech_mixer_one.rst:11
+#: ../../hardware/controllers/dj_tech_mixer_one.md:11
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

@@ -1,7 +1,7 @@
 # M-Vave SMK-25 II
 
 
-[Manufacturer's product page](https://www.cuvave.com/productinfo/1106099.html) ·
+[Manufacturer's product page](https://web.archive.org/web/20260307143106/https://www.cuvave.com/productinfo/1106099.html) ·
 [Forum thread](https://mixxx.discourse.group/t/sinco-m-vave-smk-25-ii/31350)
 
 :::{versionadded} 2.5.1

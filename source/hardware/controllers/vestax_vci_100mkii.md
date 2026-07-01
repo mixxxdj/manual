@@ -3,7 +3,7 @@
 
 This controller has been discontinued as Vestax went out of business in 2014.
 
--  [Product page in archive.org](http://web.archive.org/web/20140809134938/http://www.vestax.com/v/products/detail.php?cate_id=118&parent_id=8)
+-  [Product page in archive.org](http://web.archive.org/web/20141022043811/http://www.vestax.com/v/products/detail.php?cate_id=118)
 -  [ASIO driver for Windows in serato.com](https://support.serato.com/hc/en-us/articles/203593924-Vestax-Hardware-Drivers-and-Firmware)
 -  [Forum thread](https://mixxx.discourse.group/t/vestax-vci-100mkii/14084)
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Turkish (https://app.transifex.com/mixxx-dj-software/teams/7734/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,25 +17,26 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../hardware/controllers/mixman_dm2.rst:2
+#: ../../hardware/controllers/mixman_dm2.md:1
 msgid "Mixman DM2"
 msgstr ""
 
-#: ../../hardware/controllers/mixman_dm2.rst:4
+#: ../../hardware/controllers/mixman_dm2.md:4
 msgid ""
-"`Manufacturer’s product page "
-"<https://web.archive.org/web/20070811232655/http://www.mixman.com/products/dm2.html>`__"
+"[Manufacturer’s product "
+"page](https://web.archive.org/web/20070811232655/http://www.mixman.com/products/dm2.html)"
 " (archived)"
 msgstr ""
 
-#: ../../hardware/controllers/mixman_dm2.rst:15
+#: ../../hardware/controllers/mixman_dm2.md:8
+#: ../../hardware/controllers/mixman_dm2.md:14
 msgid "Mixman DM2 (schematic view)"
 msgstr ""
 
-#: ../../hardware/controllers/mixman_dm2.rst:18
+#: ../../hardware/controllers/mixman_dm2.md:17
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

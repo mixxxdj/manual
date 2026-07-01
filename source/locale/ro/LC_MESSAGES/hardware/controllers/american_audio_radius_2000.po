@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Romanian (https://app.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -17,27 +17,25 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../hardware/controllers/american_audio_radius_2000.rst:2
+#: ../../hardware/controllers/american_audio_radius_2000.md:1
 msgid "American Audio Radius 2000"
 msgstr ""
 
-#: ../../hardware/controllers/american_audio_radius_2000.rst:4
+#: ../../hardware/controllers/american_audio_radius_2000.md:3
 msgid ""
 "A CD and USB media player that can control Mixxx over USB with MIDI. It can "
 "also play timecode from CDs or USB drives which can control Mixxx when they "
 "are connected by a sound card."
 msgstr ""
 
-#: ../../hardware/controllers/american_audio_radius_2000.rst:8
-msgid ""
-"`Manufacturer’s product page "
-"<https://www.americandj.eu/en/radius-2000.html>`__"
+#: ../../hardware/controllers/american_audio_radius_2000.md:7
+msgid "[Manufacturer’s product page](https://www.adj.eu/radius-2000)"
 msgstr ""
 
-#: ../../hardware/controllers/american_audio_radius_2000.rst:13
+#: ../../hardware/controllers/american_audio_radius_2000.md:12
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

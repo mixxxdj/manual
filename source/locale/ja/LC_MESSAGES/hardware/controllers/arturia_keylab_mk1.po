@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2025-08-26 21:28+0000\n"
 "Language-Team: Japanese (https://app.transifex.com/mixxx-dj-software/teams/7734/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -17,43 +17,45 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:2
+#: ../../hardware/controllers/arturia_keylab_mk1.md:1
 msgid "Arturia KeyLab Mk 1"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:4
+#: ../../hardware/controllers/arturia_keylab_mk1.md:4
 msgid ""
-"`Manufacturer's product page <https://www.arturia.com/keylab88/resources>`_ "
-"· `Forum thread <https://mixxx.discourse.group/t/arturia-keylab-mk1/31080>`_"
+"[Manufacturer's product page](https://www.arturia.com/support/downloads-"
+"manuals/product/keylab88) · [Forum "
+"thread](https://mixxx.discourse.group/t/arturia-keylab-mk1/31080)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:10
+#: ../../hardware/controllers/arturia_keylab_mk1.md:9
 msgid "Overview"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst-1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:12
+#: ../../hardware/controllers/arturia_keylab_mk1.md:17
 msgid "Arturia KeyLab 88"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:19
+#: ../../hardware/controllers/arturia_keylab_mk1.md:19
 msgid ""
 "The Arturia KeyLab 88 (retroactively called the \"Mark 1\") is a full size "
 "piano keyboard that includes various encoders, faders, buttons, and velocity"
 " sensitive touch pads. It also includes a two-line dot-matrix display."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:25
 msgid ""
 "Arturia also made 61 and 25 key versions of this keyboard. This mapping has "
 "only been tested with the full size version and it is unknown whether it "
 "works for the smaller versions."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:29
+#: ../../hardware/controllers/arturia_keylab_mk1.md:29
 msgid "Menu Controls"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:31
+#: ../../hardware/controllers/arturia_keylab_mk1.md:32
 msgid ""
 "On the left side of the controller is an unlabeled section of controls "
 "surrounding the screen and the KeyLab logo. These global controls are used "
@@ -61,679 +63,681 @@ msgid ""
 "which will be displayed on the screen."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Label"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Volume`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Volume`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Main output gain"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Menu Nav"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Param` (rotate)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Param` (rotate)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Scroll between menu items on the display"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Param` (press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Param` (press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Enter into the selected submenu"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Menu Action"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Value` (rotate)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Value` (rotate)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Select value of active menu item"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Value` (press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Value` (press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Toggle or activate selected menu item"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Deck 1/3"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Sound` (short press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Sound` (short press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Select deck 1"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Sound` (long press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Sound` (long press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Select deck 3"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Deck 2/4"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Multi` (short press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Multi` (short press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Select deck 2"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`Multi` (long press)"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "{hwlabel}`Multi` (long press)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Select deck 4"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:50
+#: ../../hardware/controllers/arturia_keylab_mk1.md:50
 msgid "The on screen menu contains the following options:"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:55
+#: ../../hardware/controllers/arturia_keylab_mk1.md:54
 msgid "Main Menu"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Action"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Key"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Rotate"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Change the key of the selected deck"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Press"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Reset the key of the selected deck to the detected key"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Beatloop"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Change the length of a loop"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Activate or deactivate the last loop"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Library"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "—"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid "Open the :ref:`library-menu`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "Open the {ref}`library-menu`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "Skin"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid "Open the :ref:`skin-menu`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "Open the {ref}`skin-menu`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "FX1"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid "Open one of the :ref:`fx-menus`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
+msgid "Open one of the {ref}`fx-menus`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "FX2"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "FX3"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:24
 msgid "FX4"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:75
+#: ../../hardware/controllers/arturia_keylab_mk1.md:73
 msgid "Library Menu"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:77
+#: ../../hardware/controllers/arturia_keylab_mk1.md:76
 msgid ""
 "The library submenu contains options for navigating and selecting items in "
 "the library view."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:80
+#: ../../hardware/controllers/arturia_keylab_mk1.md:80
 msgid ""
 "Currently Mixxx must be focused for the library navigation options to have "
 "any effect. This is an open issue that will be addressed in a future version"
 " of Mixxx."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Search"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Select previous library searches"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Clear the current search"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Focus"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Change the focused pane in the library view"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Scroll"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Move vertically in the selected pane"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid ""
 "Perform the default action for the selected item (configurable for tracks, "
 "open drop downs, etc.)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Sort"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Select sort order column"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Toggle the sort order between ascending and descending"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Maximize"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Maximize the library view, shrinking the decks and other UI elements"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Font Size"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Change the font size"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Back"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid "Go back to the :ref:`main-menu`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "Go back to the {ref}`main-menu`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:102
+#: ../../hardware/controllers/arturia_keylab_mk1.md:100
 msgid "Skin Menu"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:104
+#: ../../hardware/controllers/arturia_keylab_mk1.md:103
 msgid ""
 "The skin submenu contains options for configuring and changing the Mixxx UI."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Effect Rack"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Show or hide the effect racks"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Coverart"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Show or hide the album coverart"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Samplers"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Show or hide the samplers"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Vinyl Control"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Show or hide the vinyl controls"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:119
+#: ../../hardware/controllers/arturia_keylab_mk1.md:116
 msgid "FX Menus"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:121
+#: ../../hardware/controllers/arturia_keylab_mk1.md:119
 msgid ""
 "There are four FX menus for controlling individual effect racks. Each one "
 "has the following options:"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "FX Preset"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Select one of the effect rack presets"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Enable or disable the given effect rack for the selected deck"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "FX Focus"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Change the currently focused effect in the UI"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Show or hide the focus indicator on the given effect rack"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:135
+#: ../../hardware/controllers/arturia_keylab_mk1.md:131
 msgid "Main Controls"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:137
+#: ../../hardware/controllers/arturia_keylab_mk1.md:134
 msgid ""
 "To the right of the KeyLab logo are the main bank of controls labeled, "
-"simply, :hwlabel:`Controls`. Currently Mixxx only uses the first bank, so "
-"the :hwlabel:`Bank 1` button should be illuminated, otherwise the other "
+"simply, {hwlabel}`Controls`. Currently Mixxx only uses the first bank, so "
+"the {hwlabel}`Bank 1` button should be illuminated, otherwise the other "
 "controls in this section may not work."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Gain Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`P1`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`P1`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck gain"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "High Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`P2`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`P2`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "EQ highs"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Mid Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`P3`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`P3`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "EQ mids"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Low Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`P4`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`P4`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "EQ lows"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Effect Knob"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`P5`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`P5`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Quick effect rack"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "D3 Fader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F1`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F1`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 3 volume"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "D1 Fader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F2`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F2`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 1 volume"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "D2 Fader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F3`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F3`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 2 volume"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "D4 Fader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F4`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F4`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 4 volume"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F5`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F5`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 3 tempo"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F6`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F6`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 1 tempo"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F7`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F7`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 2 tempo"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F8`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F8`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Deck 4 tempo"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "X-Fader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`F9`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`F9`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:162
+#: ../../hardware/controllers/arturia_keylab_mk1.md:157
 msgid "Snapshots"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:164
+#: ../../hardware/controllers/arturia_keylab_mk1.md:160
 msgid ""
 "Below the main controls are a collection of 10 physical buttons labeled "
-":hwlabel:`Snapshots`."
+"{hwlabel}`Snapshots`."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Intro/Outro + Hotcues"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`1`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`1`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid ""
 "Configure first four drum pads to be the intro and outro markers and the "
 "remaining pads to be hotcues."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Hotcues"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`2`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`2`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Configure all 16 drum pads to be hotcues."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`3`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`3`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Configure all 16 drum pads to be velocity sensitive samplers."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:177
+#: ../../hardware/controllers/arturia_keylab_mk1.md:170
 msgid "Transports"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:179
+#: ../../hardware/controllers/arturia_keylab_mk1.md:173
 msgid ""
 "To the right of the snapshot buttons are a collection of buttons labeled "
-":hwlabel:`Transports`. Each of these is bound to the currently selected deck"
+"{hwlabel}`Transports`. Each of these is bound to the currently selected deck"
 " except for the record button."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Name"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Rewind"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏪`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏪`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Beatjump backwards"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Fastforward"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏩`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏩`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Beatjump forwards"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Cue"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏹`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏹`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid ""
 "If track is playing: stops the track and resets position to the main cue "
-"point"
+"point<br><br>If playback is stopped: sets the main cue point"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:3
-msgid "If playback is stopped: sets the main cue point"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏹` (hold)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏹` (hold)"
-msgstr ""
-
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid ""
 "Play the track from main cue point, release to stop playback and return to "
 "the main cue point. Playback must be initially stopped on the main cue "
 "point."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Play/Pause"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏯`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏯`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Play/pause playback"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Record"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`⏺`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`⏺`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Toggle recording the mix"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Loop"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
-msgid ":hwlabel:`🔁`"
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
+msgid "{hwlabel}`🔁`"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:79
 msgid "Toggle the previous beatloop"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:199
+#: ../../hardware/controllers/arturia_keylab_mk1.md:190
 msgid ""
 "The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
-" See :ref:`interface-cue-modes` for more info."
+" See {ref}`interface-cue-modes` for more info."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:202
+#: ../../hardware/controllers/arturia_keylab_mk1.md:192
 msgid "Drum Pads"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:204
+#: ../../hardware/controllers/arturia_keylab_mk1.md:195
 msgid ""
 "To the right of the main controls are a collection of 16 drum pads that are "
 "individually labeled Pad 16 (top right) through Pad 1 (bottom left). In "
@@ -745,73 +749,73 @@ msgid ""
 "they are hit the louder the volume of the sampler."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:216
+#: ../../hardware/controllers/arturia_keylab_mk1.md:206
 msgid "Mapping Options"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:218
+#: ../../hardware/controllers/arturia_keylab_mk1.md:209
 msgid ""
 "Several options are available for configuring the controller in the Mixxx "
 "settings:"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Setting"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Values"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Default"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Description"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Soft Takeover"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "On/Off"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "On"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Enable or disable soft takeover mode for all encoders."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Disable Pads"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Off"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Disables the pads so they can be used with with an external synth."
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Output Delay"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "Duration (ms)"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid "100"
 msgstr ""
 
-#: ../../hardware/controllers/arturia_keylab_mk1.rst:1
+#: ../../hardware/controllers/arturia_keylab_mk1.md:189
 msgid ""
 "The number of milliseconds to wait before setting output LEDs or writing to "
 "the screen. The controller sometimes sets LEDs by itself, meaning they no "
