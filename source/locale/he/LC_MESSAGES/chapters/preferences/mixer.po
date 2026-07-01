@@ -3,9 +3,6 @@
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Daniel Schürmann <daschuer@mixxx.org>, 2026
-# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,17 +10,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2026-07-01 20:14+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2026\n"
-"Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
+"Language-Team: Hebrew (https://app.transifex.com/mixxx-dj-software/teams/7734/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: he\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
 #: ../../shortcuts.rstext:4
 msgid "Library - Icon AutoDJ"
-msgstr "Bibliothèque - Icône d'AutoDJ"
+msgstr ""
 
 #: ../../shortcuts.rstext:10
 msgid "Library - Icon Banshee"
@@ -215,11 +211,11 @@ msgstr ""
 
 #: ../../shortcuts.rstext:281
 msgid "logo"
-msgstr "logo"
+msgstr ""
 
 #: ../../chapters/preferences/mixer.rst:6
 msgid "Mixer"
-msgstr "Table de mixage"
+msgstr ""
 
 #: ../../chapters/preferences/mixer.rst:18
 msgid "Mixer Preferences"
@@ -307,7 +303,7 @@ msgstr ""
 
 #: ../../chapters/preferences/mixer.rst:69
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 #: ../../chapters/preferences/mixer.rst:69
 msgid "cut"
