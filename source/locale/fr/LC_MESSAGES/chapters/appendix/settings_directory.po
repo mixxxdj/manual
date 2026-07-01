@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -309,7 +309,16 @@ msgstr ""
 msgid "Mixxx 2.2 and earlier: ``~/Library/Application Support/Mixxx``"
 msgstr "Mixxx 2.2 et antérieur : ``~/Library/Application Support/Mixxx``"
 
-#: ../../chapters/appendix/settings_directory.rst:39
+#: ../../chapters/appendix/settings_directory.rst:33
+msgid ""
+"Due to macOS App Sandbox restrictions, Mixxx cannot automatically access "
+"external files or drives (like USBs, or your Music directory). You will need"
+" to grant permission manually via a file dialog the first time you access "
+"paths outside the sandbox. This permission is saved securely in the "
+"container."
+msgstr ""
+
+#: ../../chapters/appendix/settings_directory.rst:45
 msgid "**Linux**"
 msgstr "**Linux**"
 
@@ -334,15 +343,15 @@ msgstr "Pour Flatpak :"
 msgid "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
 msgstr "``~/.var/app/org.mixxx.Mixxx/.mixxx``"
 
-#: ../../chapters/appendix/settings_directory.rst:42
+#: ../../chapters/appendix/settings_directory.rst:48
 msgid "Content"
 msgstr "Contenu"
 
-#: ../../chapters/appendix/settings_directory.rst:48
+#: ../../chapters/appendix/settings_directory.rst:54
 msgid "**analysis**"
 msgstr "**analysis**"
 
-#: ../../chapters/appendix/settings_directory.rst:45
+#: ../../chapters/appendix/settings_directory.rst:51
 msgid ""
 "This contains all waveform analysis data. This is used to compose a track's "
 "scrolling waveform and track overview. If not existent, this data will be "
@@ -355,19 +364,19 @@ msgstr ""
 "qu'une piste est chargé dans une platine Mixxx. Elle ne fait donc pas partie"
 " des données essentielles qui doivent être sauvegardées."
 
-#: ../../chapters/appendix/settings_directory.rst:51
+#: ../../chapters/appendix/settings_directory.rst:57
 msgid "**broadcast_profiles**"
 msgstr "**broadcast_profiles**"
 
-#: ../../chapters/appendix/settings_directory.rst:51
+#: ../../chapters/appendix/settings_directory.rst:57
 msgid "All broadcast profiles you have configured."
 msgstr "Tous les profils de diffusion que vous avez configurés."
 
-#: ../../chapters/appendix/settings_directory.rst:57
+#: ../../chapters/appendix/settings_directory.rst:63
 msgid "**controllers**"
 msgstr "**controllers**"
 
-#: ../../chapters/appendix/settings_directory.rst:54
+#: ../../chapters/appendix/settings_directory.rst:60
 msgid ""
 "All controller mappings you stored. This can be downloaded and :ref:`self-"
 "built mappings <advanced-controller>`, as well as built-in mappings that you"
@@ -380,11 +389,11 @@ msgstr ""
 "manuellement dans :guilabel:`Preferences` > :guilabel:`Controleurs` > "
 ":guilabel:`VotreContrôleur`  ou avec l'assistant MIDI."
 
-#: ../../chapters/appendix/settings_directory.rst:60
+#: ../../chapters/appendix/settings_directory.rst:66
 msgid "**effects.xml**"
 msgstr "**effects.xml**"
 
-#: ../../chapters/appendix/settings_directory.rst:60
+#: ../../chapters/appendix/settings_directory.rst:66
 msgid ""
 "The current configuration of the 4 effect units, incl. the state of all "
 "controls."
@@ -392,11 +401,11 @@ msgstr ""
 "La configuration actuelle des 4 unités d'effets, inclut l'état de tous les "
 "contrôles."
 
-#: ../../chapters/appendix/settings_directory.rst:64
+#: ../../chapters/appendix/settings_directory.rst:70
 msgid "**mixxx.cfg**"
 msgstr "**mixxx.cfg**"
 
-#: ../../chapters/appendix/settings_directory.rst:63
+#: ../../chapters/appendix/settings_directory.rst:69
 msgid ""
 "Everything you configured in the Preferences, deck settings, skin settings, "
 "AutoDJ configuration, effect routing etc."
@@ -405,11 +414,11 @@ msgstr ""
 "platine, les paramètres de thème, la configuration AutoDJ, le routage des "
 "effets, etc."
 
-#: ../../chapters/appendix/settings_directory.rst:68
+#: ../../chapters/appendix/settings_directory.rst:74
 msgid "**mixxx.log[.NN]**"
 msgstr "**mixxx.log[.NN]**"
 
-#: ../../chapters/appendix/settings_directory.rst:67
+#: ../../chapters/appendix/settings_directory.rst:73
 msgid ""
 "Log files of the last few Mixxx sessions, with ``mixxx.log`` being the most "
 "recent one, followed by ``mixxx.log.1`` etc."
@@ -417,11 +426,11 @@ msgstr ""
 "Fichiers de journalisation des dernières sessions Mixxx, ``mixxx.log`` étant"
 " le plus récent, suivi de ``mixxx.log.1`` etc."
 
-#: ../../chapters/appendix/settings_directory.rst:72
+#: ../../chapters/appendix/settings_directory.rst:78
 msgid "**mixxxdb.sqlite**"
 msgstr "**mixxxdb.sqlite**"
 
-#: ../../chapters/appendix/settings_directory.rst:71
+#: ../../chapters/appendix/settings_directory.rst:77
 msgid ""
 "The Mixxx library database. All track locations, all track metadata, saved "
 "cues, loops, colors, playlists, crates, ..."
@@ -430,31 +439,35 @@ msgstr ""
 "pistes, toutes les métadonnées des pistes, les repères enregistrés, les "
 "boucles, les couleurs, les listes de lecture, les bacs, ..."
 
-#: ../../chapters/appendix/settings_directory.rst:75
+#: ../../chapters/appendix/settings_directory.rst:81
 msgid "**samplers.xml**"
 msgstr "**samplers.xml**"
 
-#: ../../chapters/appendix/settings_directory.rst:75
+#: ../../chapters/appendix/settings_directory.rst:81
 msgid "Stores tracks currently loaded to sample decks."
 msgstr ""
 "Stocke les pistes actuellement chargées dans les platines d’échantillons."
 
-#: ../../chapters/appendix/settings_directory.rst:78
+#: ../../chapters/appendix/settings_directory.rst:89
 msgid "**sandbox.cfg**"
 msgstr "**sandbox.cfg**"
 
-#: ../../chapters/appendix/settings_directory.rst:78
+#: ../../chapters/appendix/settings_directory.rst:84
 msgid ""
-"This is used under macOS to track which files Mixxx will have access to"
+"This is used under macOS to track which files Mixxx will have access to. "
+"Because Mixxx runs inside an App Sandbox on macOS, it cannot automatically "
+"access files outside of its container (such as external drives, or the "
+"user's Music folder) without explicit permission. When you select a folder "
+"or file through a native macOS file dialog, Mixxx safely stores a security-"
+"scoped bookmark here so that you do not have to grant permission every time "
+"you start Mixxx."
 msgstr ""
-"Ceci est utilisé sous macOS pour suivre les fichiers auxquels Mixxx aura "
-"accès"
 
-#: ../../chapters/appendix/settings_directory.rst:80
+#: ../../chapters/appendix/settings_directory.rst:91
 msgid "**soundconfig.xml**"
 msgstr "**soundconfig.xml**"
 
-#: ../../chapters/appendix/settings_directory.rst:81
+#: ../../chapters/appendix/settings_directory.rst:92
 msgid "Sound device configuration from Preferences > Sound Hardware"
 msgstr ""
 "Configuration du périphérique audio depuis Préférences > Matériel sonore"

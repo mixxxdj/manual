@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2025-08-26 21:28+0000\n"
 "Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -17,22 +17,23 @@ msgstr ""
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:2
+#: ../../hardware/controllers/mvave_smk-25-ii.md:1
 msgid "M-Vave SMK-25 II"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:4
+#: ../../hardware/controllers/mvave_smk-25-ii.md:4
 msgid ""
-"`Manufacturer's product page "
-"<https://www.cuvave.com/productinfo/1106099.html>`_ · `Forum thread "
-"<https://mixxx.discourse.group/t/sinco-m-vave-smk-25-ii/31350>`_"
+"[Manufacturer's product "
+"page](https://web.archive.org/web/20260307143106/https://www.cuvave.com/productinfo/1106099.html)"
+" · [Forum thread](https://mixxx.discourse.group/t/sinco-m-vave-"
+"smk-25-ii/31350)"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:10
+#: ../../hardware/controllers/mvave_smk-25-ii.md:9
 msgid "Overview"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:12
+#: ../../hardware/controllers/mvave_smk-25-ii.md:13
 msgid ""
 "The controller can be connected over Bluetooth, USB-C, or both. For use with"
 " Mixxx it is recommended to disable Bluetooth and connect only via USB-C. "
@@ -40,285 +41,289 @@ msgid ""
 "and may result in less smooth fader operation and higher latencies."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:18
+#: ../../hardware/controllers/mvave_smk-25-ii.md:19
 msgid ""
 "The M-Vave SMK-25 II is mapped for Mixxx use as a 2-deck controller with two"
 " distinct layers for playing samples and for controlling the deck. On both "
 "layers, the touch strips and rotary encoders are mapped as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "#"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Name"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "MCP"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`MCP`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`MCP`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Switch between layers"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Left Strip"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid ""
 "Change the tempo of the selected deck (will return to normal on release)"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Right Strip"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Change the volume of the selected deck"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 1"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`MODE`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`MODE`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Set selected deck gain"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 2"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`OCT`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`OCT`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Selected deck high filter"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 3"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`LATCH`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`LATCH`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Selected deck mid filter"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 4"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`GATE`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`GATE`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Selected deck low filter"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 5"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`SWING`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`SWING`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Selected deck quick effect"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 6"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`TEMPO`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`TEMPO`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 7"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`RATE`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`RATE`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Main gain"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Knob 8"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`TRANSPOSE`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
+msgid "{hwlabel}`TRANSPOSE`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:12
 msgid "Cue (headphone) gain"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:40
+#: ../../hardware/controllers/mvave_smk-25-ii.md:38
 msgid "Sampler Layer"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:42
+#: ../../hardware/controllers/mvave_smk-25-ii.md:41
 msgid ""
 "The first layer (MCP button unlit, pads lit teal and pink) maps the drum "
 "pads to Samples 1–16."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst-1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:44
+#: ../../hardware/controllers/mvave_smk-25-ii.md:49
 msgid "M-Vave SMC-Mixer Layer 1"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:54
+#: ../../hardware/controllers/mvave_smk-25-ii.md:51
 msgid "Deck Layer"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:56
+#: ../../hardware/controllers/mvave_smk-25-ii.md:54
 msgid ""
 "The second layer (MCP button lit, left and right pads lit in yellow and undo"
 " pad lit in teal) maps the top row of drum pads to cues 1—8 and the bottom "
 "row to transport controls and deck switching, as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst-1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:58
+#: ../../hardware/controllers/mvave_smk-25-ii.md:63
 msgid "M-Vave SMC-Mixer Layer 2"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Action"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Play"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏵`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏵`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Play/pause playback"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Pause"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏸`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏸`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "Behavior depends on the {ref}`cue mode <interface-cue-modes>`."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏸` (hold)"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏸` (hold)"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid ""
-"Behavior depends on the :ref:`cue mode <interface-cue-modes>`. Playback must"
+"Behavior depends on the {ref}`cue mode <interface-cue-modes>`. Playback must"
 " be initially stopped on the main cue point."
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Record"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏺`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏺`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Toggle recording the mix"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Rewind"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏪`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏪`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Beatjump backwards"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Fastforward"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`⏩`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`⏩`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Beatjump forwards"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Deck 1"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`◀`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`◀`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Select deck 1"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Deck 2"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`▶`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`▶`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Select deck 2"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Reloop"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
-msgid ":hwlabel:`UNDO`"
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
+msgid "{hwlabel}`UNDO`"
 msgstr ""
 
-#: ../../hardware/controllers/mvave_smk-25-ii.rst:1
+#: ../../hardware/controllers/mvave_smk-25-ii.md:61
 msgid "Activate/deactivate the previously active loop"
 msgstr ""

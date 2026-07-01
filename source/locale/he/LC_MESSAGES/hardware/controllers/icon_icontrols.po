@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2025-08-26 21:28+0000\n"
 "Language-Team: Hebrew (https://app.transifex.com/mixxx-dj-software/teams/7734/he/)\n"
 "MIME-Version: 1.0\n"
@@ -17,416 +17,413 @@ msgstr ""
 "Language: he\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
-#: ../../hardware/controllers/icon_icontrols.rst:2
+#: ../../hardware/controllers/icon_icontrols.md:1
 msgid "Icon iControls"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:4
+#: ../../hardware/controllers/icon_icontrols.md:4
 msgid ""
-"`Manufacturer's product page <https://iconproaudio.com/product/icontrols/>`_"
-" · `Forum thread <https://mixxx.discourse.group/t/icon-pro-audio-"
-"icontrols/31593>`_"
+"[Manufacturer's product page](https://iconproaudio.com/product/icontrols/) ·"
+" [Forum thread](https://mixxx.discourse.group/t/icon-pro-audio-"
+"icontrols/31593)"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:10
+#: ../../hardware/controllers/icon_icontrols.md:9
 msgid "Overview"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst-1
+#: ../../hardware/controllers/icon_icontrols.md:12
+#: ../../hardware/controllers/icon_icontrols.md:17
 msgid "iControls by Icon Pro Audio"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:19
+#: ../../hardware/controllers/icon_icontrols.md:19
 msgid ""
 "The iControls has 9 faders and rotary encoders, a set of 8 transport "
 "buttons, and 2 buttons per fader. There is also a joystick on the left side "
 "of the controller that acts as a mouse."
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:24
+#: ../../hardware/controllers/icon_icontrols.md:25
 msgid ""
 "The iControls technically supports 4 layers, but only layer 1 is "
 "distinguishable from the other layers in the default configuration, so only "
 "layer 1 is currently mapped."
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:30
+#: ../../hardware/controllers/icon_icontrols.md:30
 msgid "Rotary Encoders"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Name"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "9–12"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`e1`–:hwlabel:`e4`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`e1`–{hwlabel}`e4`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck pregain"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "13–16"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`e5`–:hwlabel:`e8`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`e5`–{hwlabel}`e8`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Effect super knob"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "17"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`e9`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`e9`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Main gain"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:42
+#: ../../hardware/controllers/icon_icontrols.md:40
 msgid "Faders"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "36–39"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`f1`–:hwlabel:`f4`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`f1`–{hwlabel}`f4`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck volume"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "40–43"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`f5`–:hwlabel:`f8`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`f5`–{hwlabel}`f8`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck tempo"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "44"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`f9`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`f9`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Cross fader"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "18"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "—"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 3 Slip Mode"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "19"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 3 PFL"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "20"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 1 Slip Mode"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "21"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 1 PFL"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "22"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 2 Slip Mode"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "23"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 2 PFL"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "24"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 4 Slip Mode"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "25"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 4 PFL"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "26"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 3 Quick Effect Enabled"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "27"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 3 Quick Effect Select"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "28"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 1 Quick Effect Enabled"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "29"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 1 Quick Effect Select"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "30"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 2 Quick Effect Enabled"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "31"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 2 Quick Effect Select"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "32"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 4 Quick Effect Enabled"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "33"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Deck 4 Quick Effect Select"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "34"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Select deck 1"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "34 (long press)"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Select deck 3"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "35"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Select deck 2"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "35 (long press)"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Select deck 4"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:74
+#: ../../hardware/controllers/icon_icontrols.md:70
 msgid "Transports"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:76
+#: ../../hardware/controllers/icon_icontrols.md:73
 msgid ""
 "The transport buttons currently only affect deck 1 due to limitations in the"
 " default controller layout."
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "1"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏪`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏪`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Beatjump backwards"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "2"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏵`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏵`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Play/pause playback"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "3"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏩`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏩`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Beatjump forwards"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "4"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`🔁`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`🔁`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Toggle a beat loop"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "5"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏹`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏹`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid ""
 "If track is playing: stops the track and resets position to the main cue "
-"point"
+"point<br><br>If playback is stopped: sets the main cue point"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:3
-msgid "If playback is stopped: sets the main cue point"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏹` (hold)"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏹` (hold)"
-msgstr ""
-
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid ""
 "Play the track from main cue point, release to stop playback and return to "
 "the main cue point. Playback must be initially stopped on the main cue "
 "point."
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "6"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`⏺`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`⏺`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Toggle recording the mix"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "7"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`-`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`-`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "Hardware layer select (not used by Mixxx)"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
+#: ../../hardware/controllers/icon_icontrols.md:24
 msgid "8"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:1
-msgid ":hwlabel:`+`"
+#: ../../hardware/controllers/icon_icontrols.md:24
+msgid "{hwlabel}`+`"
 msgstr ""
 
-#: ../../hardware/controllers/icon_icontrols.rst:96
+#: ../../hardware/controllers/icon_icontrols.md:90
 msgid ""
 "The actual behavior of CUE and Play/Pause buttons depends on Mixxx settings."
-" See :ref:`interface-cue-modes` for more info."
+" See {ref}`interface-cue-modes` for more info."
 msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Russian (https://app.transifex.com/mixxx-dj-software/teams/7734/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -17,29 +17,29 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: ../../hardware/controllers/novation_launchpad_mk1.rst:4
+#: ../../hardware/controllers/novation_launchpad_mk1.md:3
 msgid "Novation Launchpad MK1"
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mk1.rst:6
+#: ../../hardware/controllers/novation_launchpad_mk1.md:6
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/novation-launchpad-"
-"mapping/12471>`__"
+"[Forum thread](https://mixxx.discourse.group/t/novation-launchpad-"
+"mapping/12471)"
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mk1.rst:11
+#: ../../hardware/controllers/novation_launchpad_mk1.md:12
 msgid ""
 "This device is not USB MIDI class compliant. Its signals are translated to "
 "MIDI by special drivers on Windows and Mac OS X. There is no driver "
-"available for Linux. It has been discontinued in favor of the :ref:`Novation"
+"available for Linux. It has been discontinued in favor of the {ref}`Novation"
 " Launchpad MK2 <novation-launchpad-mk2>` which is USB MIDI class compliant "
 "and has RGB pads."
 msgstr ""
 
-#: ../../hardware/controllers/novation_launchpad_mk1.rst:15
+#: ../../hardware/controllers/novation_launchpad_mk1.md:16
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

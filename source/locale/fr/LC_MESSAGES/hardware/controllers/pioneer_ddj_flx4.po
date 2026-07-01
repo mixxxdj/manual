@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -21,925 +21,1254 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:4
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:3
 msgid "Pioneer DDJ-FLX4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:17
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:10
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:15
 msgid "Pioneer DDJ-FLX4 (schematic view)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:19
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:17
 msgid ""
 "The Pioneer DDJ-FLX4 is a 2 deck USB controller with an integrated audio "
 "interface designed for rekordbox and Serato."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:22
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:20
 msgid ""
-"`Manufacturer's Product Page <https://www.pioneerdj.com/en-"
-"us/product/controller/ddj-flx4/black/overview/>`__"
+"[Manufacturer's Product Page](https://www.pioneerdj.com/product/dj-"
+"controllers/ddj-flx4/)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:23
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:21
 msgid ""
-"`Manufacturer's User Manual <https://support.pioneerdj.com/hc/en-"
-"us/articles/12267724407961-How-to-use-your-Pioneer-DJ-DDJ-FLX4-controller-"
-"Instruction-Manual/>`__"
+"[Manufacturer's User "
+"Manual](https://support.alphatheta.com/articles/12267724407961)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:24
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:22
 msgid ""
-"`Midi Mappings <https://www.pioneerdj.com/-/media/pioneerdj/software-"
-"info/controller/ddj-flx4/ddj-flx4_midi_message_list_e1.pdf>`__"
+"[Hardware "
+"Diagram](https://downloads.support.alphatheta.com/software_info/dj-"
+"controllers/DDJ-REV1/DDJ-REV1_HardwareDiagram_SeratoDJLite_Pro_E1.pdf)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:25
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:23
 msgid ""
-"`Hardware Diagram <https://www.pioneerdj.com/-/media/pioneerdj/software-"
-"info/controller/ddj-flx4/ddj-flx4_hardwarediagram_rekordbox_e1.pdf?la=en-"
-"us>`__"
+"[Mapping Forum Thread](https://mixxx.discourse.group/t/pioneer-ddj-"
+"flx4/26553)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:26
-msgid ""
-"`Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-"
-"flx4/26553>`__"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:29
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:25
 msgid "Firmware"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:31
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:28
 msgid "The mapping has been created on Firmware version 1.02"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:34
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:30
 msgid "Compatibility"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:36
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:33
 msgid ""
 "The Pioneer DDJ-FLX4 is USB audio and MIDI class compliant and works with "
 "Linux, Windows, and macOS without needing to install any drivers."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:40
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:36
 msgid "Audio Setup"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:42
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:39
 msgid ""
-"Configure Mixxx's :ref:`sound hardware settings <preferences-sound-"
+"Configure Mixxx's {ref}`sound hardware settings <preferences-sound-"
 "hardware>` as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:45
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "Output"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:45
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "Channel"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:47
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "Master"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:47
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "1-2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:48
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "Headphones"
 msgstr "Casques"
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:48
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:13
 msgid "3-4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:51
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:48
 msgid ""
 "It is not possible to record or broadcast input sent from the 1/4\" "
 "unbalanced TS microphone jack on the controller, as it is not routed back to"
 " the computer and cannot be configured as an input device."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:56
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:52
 msgid "Controller Mapping"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:58
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:55
 msgid ""
-"The schematic drawings used here can be referenced in the `manufacturer's "
-"manual <https://support.pioneerdj.com/hc/en-us/articles/12267724407961-How-"
-"to-use-your-Pioneer-DJ-DDJ-FLX4-controller-Instruction-Manual/>`__ on the "
-"given page number."
+"The schematic drawings used here can be referenced in the [manufacturer's "
+"manual](https://support.alphatheta.com/articles/12267724407961) on the given"
+" page number."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:63
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:59
 msgid "Browser section (p. 12)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:72
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:62
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:68
 msgid "Pioneer DDJ-FLX4 (browser section)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:75
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:96
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:155
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:228
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:250
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:288
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "No."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:75
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:96
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:155
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:228
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:250
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:288
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:75
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:96
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:155
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:228
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:250
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:288
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Function"
 msgstr "Fonction"
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:77
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:98
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:99
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:252
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:290
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:77
-msgid ":hwlabel:`LOAD` buttons"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+msgid "{hwlabel}`LOAD` buttons"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:77
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
 msgid "Load track selected in library into deck."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:78
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:79
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:100
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:101
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:253
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:291
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:292
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "2"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:78
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
 msgid "Rotary Selector"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:78
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
 msgid ""
 "Press to toggle focus between the library sidebar and associated panels. "
 "Turn to move focus up or down."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:79
-msgid ":hwlabel:`SHIFT` + Rotary Selector"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
+msgid "{hwlabel}`SHIFT` + Rotary Selector"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:79
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:65
 msgid "Turn to zoom parallel waveform."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:83
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:79
 msgid "Deck sections (p. 15)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:93
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:82
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:88
 msgid "Pioneer DDJ-FLX4 (deck section)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:98
-msgid ":hwlabel:`BEAT SYNC`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`BEAT SYNC`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:98
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "Press to sync tempo to the other playing track. Hold to enable sync lock."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:99
-msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT SYNC`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`BEAT SYNC`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:99
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Cycles through tempo ranges: +/-6%, +/-10%, +/-16%, +/-25%"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:100
-msgid ":hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`CUE/LOOP CALL`{hwlabel}`>`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:100
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Doubles the current loop size."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:101
-msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`>`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`CUE/LOOP CALL`{hwlabel}`>"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:101
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Jumps 32 beats forwards."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:102
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:103
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:255
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:293
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "3"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:102
-msgid ":hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`CUE/LOOP CALL`{hwlabel}`<`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:102
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Halves the current loop size."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:103
-msgid ":hwlabel:`SHIFT` + :hwlabel:`CUE/LOOP CALL`:hwlabel:`<`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`CUE/LOOP CALL`{hwlabel}`<"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:103
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Jumps 32 beats backwards."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:104
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:105
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:257
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:294
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "4"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:104
-msgid ":hwlabel:`4BEAT/EXIT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`4BEAT/EXIT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:104
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Enables/disables currently set loop."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:105
-msgid ":hwlabel:`shift` + :hwlabel:`4BEAT/EXIT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`shift` + {hwlabel}`4BEAT/EXIT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:105
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Jump to loop start, enable loop, and stop playback."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:106
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:109
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:258
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:295
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:296
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "5"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:106
-msgid ":hwlabel:`OUT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`OUT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:106
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "Sets end of loop to the current playback position. If quantize is enabled, "
 "it is set to the closest beat. If held during an active loop, sets the new "
 "end point when released."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:109
-msgid ":hwlabel:`shift` + :hwlabel:`OUT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`shift` + {hwlabel}`OUT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:109
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "When a loop is enabled, press to adjust the loop's end position with the jog"
 " wheel."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:110
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:112
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:260
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:297
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:298
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "6"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:110
-msgid ":hwlabel:`IN`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`IN`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:110
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "Sets start of loop to the current playback position. If quantize is enabled,"
 " it is set to the closest beat. If held during an active loop, sets the new "
 "start point when released."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:112
-msgid ":hwlabel:`shift` + :hwlabel:`IN`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`shift` + {hwlabel}`IN`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:112
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "When a loop is enabled, press to adjust the loop's start position with the "
 "jog wheel."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:113
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:114
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:261
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "7"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:113
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Jog Wheel (top)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:113
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Scratch (move play position)."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:114
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Jog Wheel (outer)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:114
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Nudge tempo up or down temporarily."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:115
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:262
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "8"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:115
-msgid ":hwlabel:`HOT CUE` mode"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`HOT CUE` mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:115
-msgid "Sets pads to :ref:`hot cue mode <pioneer-ddj-flx4-hot-cue-mode>`."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Sets pads to {ref}`hot cue mode <pioneer-ddj-flx4-hot-cue-mode>`."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:116
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:263
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:264
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`KEYBOARD` mode"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Sets pads to {ref}`Stems mode <pioneer-ddj-flx4-stems-mode>`."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "9"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:116
-msgid ":hwlabel:`PAD FX` mode"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`PAD FX` mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:116
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Not implemented."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:117
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:118
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:265
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "10"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:117
-msgid ":hwlabel:`BEAT JUMP` mode"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`BEAT JUMP` mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:117
-msgid "Sets pads to :ref:`beat jump mode <pioneer-ddj-flx4-beat-jump-mode>`."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Sets pads to {ref}`beat jump mode <pioneer-ddj-flx4-beat-jump-mode>`."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:118
-msgid ":hwlabel:`SHIFT` + :hwlabel:`BEAT LOOP` mode"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`BEAT LOOP` mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:118
-msgid "Sets pads to :ref:`beat loop mode <pioneer-ddj-flx4-beat-loop-mode>`."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Sets pads to {ref}`beat loop mode <pioneer-ddj-flx4-beat-loop-mode>`."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:119
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:266
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "11"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:119
-msgid ":hwlabel:`SAMPLER` mode"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SAMPLER` mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:119
-msgid "Sets pads to :ref:`sampler mode <pioneer-ddj-flx4-sampler-mode>`."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Sets pads to {ref}`sampler mode <pioneer-ddj-flx4-sampler-mode>`."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:120
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:267
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`KEY SHIFT` mode"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid ""
+"Sets pads to {ref}`Pitch Shift mode <pioneer-ddj-flx4-pitch-shift-mode>`."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "12"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:120
-msgid ":hwlabel:`TEMPO` slider"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`TEMPO` slider"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:120
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Adjust playback speed."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:121
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:268
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "13"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:121
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Performance pads"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:121
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "Functionality differs depending on the pad mode selected by 8-11."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:122
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:269
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "14"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:122
-msgid ":hwlabel:`PLAY/PAUSE`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`PLAY/PAUSE`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:122
-msgid "Play/pauses a track)."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Play/pauses a track."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:123
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "15"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:123
-msgid ":hwlabel:`CUE`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`CUE`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:123
-msgid "Behavior depends on the :ref:`cue mode <interface-cue-modes>`."
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Behavior depends on the {ref}`cue mode <interface-cue-modes>`."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:124
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT` + {hwlabel}`CUE`"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "Jump to the beginning of the track and stop playback."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid "16"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:124
-msgid ":hwlabel:`SHIFT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
+msgid "{hwlabel}`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:124
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:85
 msgid ""
 "Used to access secondary functiones of other buttons while being pressed."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:128
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:121
 msgid "Pad Modes"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:130
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:124
 msgid ""
 "The pad mode buttons change between different modes in which the performance"
 " pads operate. The main pad modes described below are similar to those found"
 " in rekordbox."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:133
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:128
 msgid ""
 "The secondary pad modes described in the manufacturer's manual "
-"(:hwlabel:`KEYBOARD` :hwlabel:`PAD FX1` :hwlabel:`PAD FX2` and "
-":hwlabel:`KEYSHIFT`) are not currently implemented by this mapping."
+"({hwlabel}`KEYBOARD` {hwlabel}`PAD FX1` {hwlabel}`PAD FX2` and "
+"{hwlabel}`KEYSHIFT`) are not currently implemented by this mapping."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:139
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:133
+msgid ""
+"{hwlabel}`KEYBOARD` is used for the {ref}`Stems mode <pioneer-ddj-"
+"flx4-stems-mode>` instead."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:137
 msgid "Hot Cue Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:142
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:140
 msgid "Bookmark positions in the track and jump to them."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:151
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:142
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:149
 msgid "Pioneer DDJ-FLX4 (hot cue pads)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:157
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:158
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:160
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:230
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:231
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:233
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
 msgid "1-8"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:157
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:230
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
 msgid "Pad (unlit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:157
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
 msgid "Save current position as hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:158
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:231
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
 msgid "Pad (lit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:158
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
 msgid ""
 "Jump to hot cue. If the track is stopped, holding the pad will preview the "
 "hot cue until the pad is released."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:160
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:233
-msgid ":hwlabel:`SHIFT` + Pad (lit)"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
+msgid "{hwlabel}`SHIFT` + Pad (lit)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:160
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:146
 msgid "Clear hot cue."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:164
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:160
 msgid "Beat Loop Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:167
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:163
 msgid ""
 "Press a pad to enable a loop from the current position. Press the pad again "
 "to disable the loop. The size of the loop is assigned to the pads as "
 "follows:"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst-1
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:166
 msgid "Pioneer DDJ-FLX4 (beat loop pads)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:177
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:171
 msgid "Pioneer DDJ-FLX4 (beat loop sizes)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:181
-msgid "1/4 beat"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:181
-msgid "1/2 beat"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:181
-msgid "1 beat"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:181
-msgid "2 beats"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:182
-msgid "4 beats"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:182
-msgid "8 beats"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:182
-msgid "16 beats"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:182
-msgid "32 beats"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:186
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:184
 msgid "Beat Jump Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:189
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:187
 msgid ""
 "Press a pad to jump forwards or backwards by the number of beats assigned to"
 " the pads below."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:192
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:190
 msgid ""
-"Press :hwlabel:`SHIFT` + pad 7 to decrease or :hwlabel:`SHIFT` + pad 8 to "
+"Press {hwlabel}`SHIFT` + pad 7 to decrease or {hwlabel}`SHIFT` + pad 8 to "
 "increase the jump values by a factor of 16."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst-1
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:193
 msgid "Pioneer DDJ-FLX4 (beat jump pads)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:202
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:198
 msgid "Pioneer DDJ-FLX4 (beat jump defaults)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:206
-msgid "1 beat back"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:206
-msgid "1 beat forward"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:206
-msgid "2 beats back"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:206
-msgid "2 beats forward"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:207
-msgid "4 beats back"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:207
-msgid "4 beats forward"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:207
-msgid "8 beats back"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:207
-msgid "8 beats forward"
-msgstr ""
-
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:211
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:211
 msgid "Sampler Mode"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:214
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:214
 msgid ""
 "Load and play samples from the library. The pads on decks 1 and 2 correspond"
 " to the first and second sampler rows in Mixxx respectively."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:224
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:217
 msgid "Pioneer DDJ-FLX4 (sampler pad)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:224
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:224
 msgid "Pioneer DDJ-FLX4 (sampler pads)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:230
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
 msgid "Load sample selected in library."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:231
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
 msgid ""
 "Play a loaded sample. If the sample is already playing, playback starts from"
 " the beginning."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:233
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:221
 msgid ""
 "Stop a loaded sample from playing. If the sample is already stopped, unload "
 "it."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:238
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:235
+msgid "Stems Mode"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:238
+msgid "This mode uses the \"KEYBOARD\" mode of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:240
+msgid ""
+"It can be used when playing a stem-enabled file. Pad 1->4 and 5->8 are "
+"linked to stems 1->4"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:242
+msgid ""
+"Pad 1->4 mute or unmute the related stem.  Pad is lit up when not muted. "
+"When loading a file, the pads lights will turn on for on the available stems"
+" (as they are initially unmuted)."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:245
+msgid ""
+"Press {hwlabel}`SHIFT` + pad 1->4 to unmute only for the related stem and "
+"mute all the others."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:247
+msgid ""
+"Pad 5->8 enable or disable the stem FX.  Pad is lit up when FX is enabled."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:249
+msgid "Press {hwlabel}`SHIFT` + pad 5->8 to cycle through FX for this stem."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:251
+msgid ""
+"Stem FX are kept unchanged when loading a new track on a deck, therefore the"
+" pads 5->8 remains usable even when loading a file without stems to allow "
+"modifying the FX config at all time."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:256
+msgid "Pioneer DDJ-FLX4 (Stems pad)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:263
+msgid "Pioneer DDJ-FLX4 (Stems pads)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "1-4"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Mute the related stem"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Unmute the related stem"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "{hwlabel}`SHIFT` + Pad"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Unmute the related stem and mute all the others"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "5-8"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Disable FX for the related stem"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Enable FX for the related stem"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:260
+msgid "Select next FX for the related stem"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:277
+msgid "Pitch Shift Mode"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:280
+msgid "This mode uses the \"KEY SHIFT\" mode of the controller."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:282
+msgid "It allows to modify a song pitch by semitones."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:285
+msgid ""
+"To make the pitch automatically reset whenever a new track is loaded go to "
+"{menuselection}`Preferences --> Decks --> Speed (Tempo) and Key (Pitch) "
+"options --> Reset on track load`."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:289
+msgid ""
+"The upper pads (1->4) are used to raise the pitch (the one on the left being"
+" the starting point) while lower pads (5->8) are used to lower the pitch "
+"(the one on the right being the starting point)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:293
+msgid "Pioneer DDJ-FLX4 (Pitch Shift pad)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:300
+msgid "Pioneer DDJ-FLX4 (Pitch Shift pads)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:302
+msgid ""
+"Pressing the pad sets an absolute value to the pitch shift. Pressing with "
+"{hwlabel}`SHIFT`, it is raised or lowered by a certain amount."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pad No."
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pad press"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "{hwlabel}`SHIFT` + pad press"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Reset the pitch shift to 0"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Raise the pitch by 1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to +1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Raise the pitch by 2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to +2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Raise the pitch by 3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to +3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Raise the pitch by 4 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to -3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Lower the pitch by 4 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to -2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Lower the pitch by 3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Set the pitch shift to -1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Lower the pitch by 2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Lower the pitch by 1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:318
+msgid ""
+"When no pitch shift is applied, pads 1 and 8 are lit up, to show that it is "
+"neither raised nor lowered. Pad lights are used as described in this table "
+"(◻ for an unlit pads, ▣ for a lit ones):"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Shift (raising pitch)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Lights"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Shift (lowering pitch)"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "The pitch is not modified"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "▣◻◻◻<br>◻◻◻▣"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻▣◻◻<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 1 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>◻◻▣◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻▣◻<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 2 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>◻▣◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 3 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 4 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "▣◻◻▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 4 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣◻◻▣"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 5 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻▣◻▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 5 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣◻▣◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 6 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻▣▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 6 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣▣◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 7 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "▣◻▣▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 7 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣▣◻▣"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by 8 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻▣▣▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by 8 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣▣▣◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch raised by more than 8 semitone"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "▣▣▣▣<br>◻◻◻◻"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "Pitch lowered by more than 8 semiton"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:297
+msgid "◻◻◻◻<br>▣▣▣▣"
+msgstr ""
+
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:336
 msgid "Mixer section (p. 25)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:247
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:339
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:345
 msgid "Pioneer DDJ-FLX4 (mixer section)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:252
-msgid ":hwlabel:`TRIM`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`TRIM`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:252
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Adjusts deck prefader gain"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:253
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:258
-msgid ":hwlabel:`MASTER`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`MASTER`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:253
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid ""
 "Adjusts master output (this is hardware implemented and is not mapped to the"
 " software gain in Mixxx)."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:255
-msgid ":hwlabel:`MASTER` :hwlabel:`CUE`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`MASTER` {hwlabel}`CUE`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:255
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid ""
 "Sends master output to headphones (this is hardware implemented and is not "
 "visible in the Mixxx interface)."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:257
-msgid "EQs (:hwlabel:`LOW` :hwlabel:`MID` :hwlabel:`HIGH`)"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "EQs ({hwlabel}`LOW` {hwlabel}`MID` {hwlabel}`HIGH`)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:257
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Boosts or cuts channel frequencies"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:258
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid ""
 "Microphone level. Works for microphones connected on the controller and "
 "through the controller's line out."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:260
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Channel level indicators"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:260
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Displays channel levels (before being sent through channel faders)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:261
-msgid ":hwlabel:`CFX`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`CFX`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:261
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid ""
 "QuickEffect superknob (by default controls a Filter, but this can be changed"
-" in the :ref:`preferences <preferences-equalizers>`)"
+" in the {ref}`preferences <preferences-mixer>`)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:262
-msgid ":hwlabel:`Smart CFX`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`Smart CFX`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:262
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:268
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Not implemented"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:263
-msgid "Headphone :hwlabel:`CUE` (Channel)"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "Headphone {hwlabel}`CUE` (Channel)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:263
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Turn on to output channel to headphones"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:264
-msgid ":hwlabel:`SHIFT` + Headphone :hwlabel:`CUE`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`SHIFT` + Headphone {hwlabel}`CUE`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:264
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Toggles quantize for the current channel"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:265
-msgid ":hwlabel:`HEADPHONES` :hwlabel:`MIXING`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`HEADPHONES` {hwlabel}`MIXING`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:265
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid ""
-"Adjusts between headphone :hwlabel:`CUE` and :hwlabel:`MASTER` levels sent "
+"Adjusts between headphone {hwlabel}`CUE` and {hwlabel}`MASTER` levels sent "
 "to headphones"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:266
-msgid ":hwlabel:`HEADPHONES` :hwlabel:`LEVEL`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`HEADPHONES` {hwlabel}`LEVEL`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:266
-msgid "Adjusts output level from :hwlabel:`PHONES` jack"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "Adjusts output level from {hwlabel}`PHONES` jack"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:267
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Channel fader"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:267
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Adjusts channel levels output to master"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:268
-msgid ":hwlabel:`Smart Fader`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
+msgid "{hwlabel}`Smart Fader`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:269
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Crossfader"
 msgstr "Curseur de mixage"
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:269
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:342
 msgid "Fade between left and right channels"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:273
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:366
 msgid "Effect section (p. 31)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:282
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:369
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:375
 msgid "Pioneer DDJ-FLX4 (effect section)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:284
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:377
 msgid ""
-"The :hwlabel:`BEAT FX` controls above are mapped to Mixxx's first effect "
+"The {hwlabel}`BEAT FX` controls above are mapped to Mixxx's first effect "
 "unit as follows:"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:290
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Channel select switch"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:290
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Route deck 1, deck 2 or both to effect unit 1"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:291
-msgid ":hwlabel:`FX SELECT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`FX SELECT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:291
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Load next effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:292
-msgid ":hwlabel:`SHIFT` + :hwlabel:`FX SELECT`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`SHIFT` + {hwlabel}`FX SELECT`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:292
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Load previous effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:293
-msgid ":hwlabel:`BEAT` :hwlabel:`<`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`BEAT` {hwlabel}`<`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:293
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Cycle effect focus leftward"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:294
-msgid ":hwlabel:`BEAT` :hwlabel:`>`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`BEAT` {hwlabel}`>`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:294
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Cycle effect focus rightward"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:295
-msgid ":hwlabel:`LEVEL/DEPTH`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`LEVEL/DEPTH`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:295
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Controls the wet/dry mix knob"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:296
-msgid ":hwlabel:`SHIFT` + :hwlabel:`LEVEL/DEPTH`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`SHIFT` + {hwlabel}`LEVEL/DEPTH`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:296
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Controls the metaknob of the currently focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:297
-msgid ":hwlabel:`ON/OFF`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`ON/OFF`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:297
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Enable/disable the currently focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:298
-msgid ":hwlabel:`SHIFT` + :hwlabel:`ON/OFF`"
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
+msgid "{hwlabel}`SHIFT` + {hwlabel}`ON/OFF`"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:298
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:372
 msgid "Disables all effects in the chain and kills the wet/dry mix"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_ddj_flx4.rst:301
+#: ../../hardware/controllers/pioneer_ddj_flx4.md:394
 msgid ""
-"Soft takeover is enabled on the :hwlabel:`LEVEL/DEPTH` knob to prevent "
+"Soft takeover is enabled on the {hwlabel}`LEVEL/DEPTH` knob to prevent "
 "sudden changes to the wet/dry mix or effect metaknob when changing between "
 "the two."
 msgstr ""

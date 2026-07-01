@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/mixxx-dj-software/teams/7734/sl/)\n"
@@ -61,7 +61,7 @@ msgstr ""
 #: ../../hardware/controllers/behringer_ddm4000.rst:26
 msgid ""
 "`Manufacturer's product page "
-"<https://www.behringer.com/behringer/product?modelCode=P0167>`_"
+"<https://www.behringer.com/en/products/0701-aak>`_"
 msgstr ""
 
 #: ../../hardware/controllers/behringer_ddm4000.rst:27

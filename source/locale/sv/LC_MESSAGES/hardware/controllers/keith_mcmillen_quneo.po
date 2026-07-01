@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Swedish (https://app.transifex.com/mixxx-dj-software/teams/7734/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -17,17 +17,16 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:2
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:1
 msgid "Keith McMillen QuNeo"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:4
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:4
 msgid ""
-"`Manufacturer’s product page "
-"<https://www.keithmcmillen.com/products/quneo/>`__"
+"[Manufacturer’s product page](https://www.keithmcmillen.com/products/quneo/)"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:6
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:6
 msgid ""
 "Keith McMillen QuNeo is a USB multi purpose pad controller and features "
 "tactile pads, sliders, rotary sensors and switches. Works with USB, MIDI or "
@@ -35,78 +34,79 @@ msgid ""
 "box."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:11
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:11
 msgid "**Features**"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:13
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:13
 msgid ""
 "27 pads, sliders and rotary sensors are pressure, velocity, and location "
 "sensitive. Even the 17 switches respond to how hard you press."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:16
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:16
 msgid ""
 "LED Light Feedback - variably diffusive elastomers with 251 multi-color "
 "LEDs, 16 square pads provide 127 levels of Velocity response, X-Y location "
 "and continuous pressure."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:19
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:19
 msgid ""
 "2 rotary sensors allow you to scrub, trigger, stretch, pinch and play "
 "phrases and sound files, manipulate continuous controllers and more ."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:21
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:21
 msgid ""
 "Each rotary sensor measures angle, pressure and distance from the center."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:23
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:23
 msgid ""
 "9 touch sensitive sliders can thomann be mapped to fader and effects "
 "controls."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:25
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:25
 msgid "LEDs within each slider act as VU meters."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:26
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:26
 msgid ""
 "QuNeo is the size of an iPad (V1) and can fit in iPad accessories such as "
 "mic clips, stands and more."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:28
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:28
 msgid ""
 "Advanced users and programmers can use the development kit and API to create"
 " their own code to respond to QuNeo’s sensor data. Hack away to control your"
 " world in ways never before possible!"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:35
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:34
 msgid "Mapping Description"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:44
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:37
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:43
 msgid "Keith McMillen Quneo (schematic view)"
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:46
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:45
 msgid ""
 "The mapping is included with the QuNeo installer, make sure to click the "
 "“Mixxx” check box when prompted during the installation. Alternatively "
-"download the Installer from `www.keithmcmillen.com "
-"<https://www.keithmcmillen.com/QuNeo/downloads/>`__. The MIDI mapping goes "
-"with QuNeo’s factory preset number 12. To change the factory preset, select "
-"the blue MODE button on the device and press tab #12. Also see `Youtube - "
-"Setting up Mixxx with QuNeo <https://www.youtube.com/watch?v=sw4Cnko-"
-"nOU>`__."
+"download the Installer from "
+"[www.keithmcmillen.com](https://www.keithmcmillen.com/QuNeo/downloads/). The"
+" MIDI mapping goes with QuNeo’s factory preset number 12. To change the "
+"factory preset, select the blue MODE button on the device and press tab #12."
+" Also see [Youtube - Setting up Mixxx with "
+"QuNeo](https://www.youtube.com/watch?v=sw4Cnko-nOU)."
 msgstr ""
 
-#: ../../hardware/controllers/keith_mcmillen_quneo.rst:55
+#: ../../hardware/controllers/keith_mcmillen_quneo.md:54
 msgid ""
 "It turns QuNeo into a full fledged DJ controller using Mixxx. It includes "
 "controls for 2 players: play, sync, cue, tempo controls, crossfading, "

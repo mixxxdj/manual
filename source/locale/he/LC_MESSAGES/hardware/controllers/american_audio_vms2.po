@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Hebrew (https://app.transifex.com/mixxx-dj-software/teams/7734/he/)\n"
 "MIME-Version: 1.0\n"
@@ -34,8 +34,8 @@ msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:13
 msgid ""
-"`Manufacturer’s product page <http://www.americandj.eu/en/vms2.html>`__, "
-"provides manual and drivers for download."
+"`Manufacturer’s product page <https://www.adj.eu/vms2>`__, provides manual "
+"and drivers for download."
 msgstr ""
 
 #: ../../hardware/controllers/american_audio_vms2.rst:14

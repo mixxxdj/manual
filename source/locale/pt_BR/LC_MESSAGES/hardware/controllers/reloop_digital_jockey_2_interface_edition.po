@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2026, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Schürmann <daschuer@mixxx.org>, 2025
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
+"PO-Revision-Date: 2025-04-17 17:25+0000\n"
+"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mixxx-dj-software/teams/7734/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:3
+msgid "Reloop Digital Jockey 2 Interface Edition"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:6
+msgid ""
+"The *Reloop Digital Jockey 2 Interface Edition* is a 2 deck USB MIDI "
+"controller designed to work with Traktor software. Compared to *Controller "
+"Edition* the *Interface Edition* is additionally equipped with a high "
+"quality 4-channel USB audio interface and touch-sensitive jog wheels. The "
+"microphone input is available to the computer for recording and "
+"broadcasting. The controller can be powered only from the USB bus, however "
+"the included external power supply can serve as the power source too. Using "
+"a separate power supply has no impact on the output level or LED brightness."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:8
+msgid ""
+"[Manufacturer’s product page](https://www.reloop.com/reloop-digital-"
+"jockey-2-ie)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:9
+msgid ""
+"[Forum thread](https://mixxx.discourse.group/t/reloop-digital-"
+"jockey-2-mapping-by-dj-ak/23971)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:13
+msgid "Compatibility"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:16
+msgid ""
+"The device should work out of the box on Windows, macOS and GNU/Linux. For "
+"Windows, Reloop offers an ASIO driver on the product page linked above."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:19
+msgid "Mixxx Sound Hardware Preferences"
+msgstr "Preferências de Hardware de Som do Mixxx"
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "Output"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "Channels"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "{guilabel}`Master`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "Channel 1 - 2"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "{guilabel}`Headphones`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:11
+msgid "Channel 3 - 4"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:26
+msgid "Mapping"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:29
+msgid ""
+"The mapping is straightforward and follows the layout of the controller. The"
+" deviations are documented below."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:31
+msgid "Decks"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:34
+msgid "This mapping handles 2 decks setup."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:37
+msgid "Pressing {hwlabel}`SHIFT` does not enable decks C and D control."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:39
+msgid "CUP button"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:42
+msgid ""
+"{hwlabel}`CUP` is mapped to {mixxx:coref}`[ChannelN],cue_play` (usual CUP "
+"button behavior)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:43
+msgid ""
+"{hwlabel}`SHIFT` + {hwlabel}`CUP`  is mapped to "
+"{mixxx:coref}`[ChannelN],cue_gotoandplay`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:46
+msgid "Jog Wheels"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:49
+msgid "Jog modes work as described in the following table:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:62
+msgid "Library"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:65
+msgid "The library can be controlled as follows:"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:67
+msgid "pressing {hwlabel}`TRAX` toggles maximized view of the library"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:68
+msgid ""
+"pressing {hwlabel}`SHIFT` + {hwlabel}`TRAX` moves focus between the sidebar "
+"and tracks table (equivalent to pressing {hwlabel}`TAB` key on the keyboard)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:69
+msgid "turning the {hwlabel}`TRAX` knob changes currently selected item"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:70
+msgid ""
+"turning the {hwlabel}`TRAX` knob with {hwlabel}`SHIFT` scrolls the items "
+"(equivalent to {hwlabel}`PageUp`/{hwlabel}`PageDown` on keyboard)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:71
+msgid ""
+"pressing {hwlabel}`SHIFT` + any of the four pitch bend buttons "
+"({hwlabel}`CLOSE/OPEN FOLDER` label) invokes action for "
+"{mixxx:coref}`[Library],GoToItem`"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:72
+msgid ""
+"turning any jog wheel with {hwlabel}`SHIFT` enables smooth and fast browsing"
+" (see {ref}`Jog Wheels <jog-wheels>`)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:75
+msgid "FX Controls"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:78
+msgid ""
+"This mapping uses the [Standard Effects "
+"Mapping](https://github.com/mixxxdj/mixxx/wiki/Standard-Effects-Mapping) to "
+"control the FX units."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:80
+msgid "Quick Effects"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:83
+msgid ""
+"The {hwlabel}`FILTER` knob ({hwlabel}`SHIFT` + {hwlabel}`HIGH` knob) is "
+"mapped to *Quick Effect*."
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:85
+msgid ""
+"pressing {hwlabel}`SHIFT` + {hwlabel}`HIGH` knob toggles *Quick Effect* "
+"(enable/disable)"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:86
+msgid ""
+"turning {hwlabel}`HIGH` knob with {hwlabel}`SHIFT` moves the metaknobs for "
+"the *Quick Effect*"
+msgstr ""
+
+#: ../../hardware/controllers/reloop_digital_jockey_2_interface_edition.md:89
+msgid "*Key* and *Pan* effects are not mapped."
+msgstr ""

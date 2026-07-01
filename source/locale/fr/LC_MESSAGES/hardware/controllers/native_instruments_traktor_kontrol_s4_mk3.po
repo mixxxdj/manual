@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7734/fr/)\n"
@@ -55,18 +55,26 @@ msgid ""
 "instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__"
 msgstr ""
 
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:17
+msgid "Added beatjump"
+msgstr ""
+
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:19
+msgid "Added stems"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:23
 msgid "Compatibility"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:21
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:25
 msgid ""
 "The Kontrol S4 MK3 is a USB class compliant audio and :term:`HID`, so it is "
 "compatible with Mixxx without any proprietary drivers on GNU/Linux, MacOS "
 "and Windows."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:23
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:27
 msgid ""
 "With the S4 plugged in, a HID device is listed as an available controller in"
 " Mixxx’s Preferences. The controller uses HID for each components on the "
@@ -74,19 +82,19 @@ msgid ""
 "select the HID device on the left side of Mixxx’s Preferences."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:27
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:31
 msgid "Controller"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:30
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:34
 msgid "Setup audio output"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:33
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:37
 msgid "Using the S4 mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:35
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:39
 msgid ""
 "In order to use the audio output of the controller, select the device "
 ":guilabel:`Traktor Kontrol S4 MK3`. :guilabel:`Channels 1 - 2` should be set"
@@ -94,18 +102,18 @@ msgid ""
 ":guilabel:`Headphones`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:38
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:42
 msgid "Using the software mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:40
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:44
 msgid ""
 "If you don't want to use certain outputs of the device, you can enable the "
 "mapping of the mixer knob to the Mixxx internal mixer. Head over to the "
 ":ref:`settings` to enable these optional mappings."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:42
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:46
 msgid ""
 "The mixer knobs are physically linked to the S4 embedded mixer. This means "
 "that there is no way to prevent these buttons to adjust gains of the output,"
@@ -113,15 +121,15 @@ msgid ""
 "also using S4 outputs."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:46
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:50
 msgid "Known bugs and limitation"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:49
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:53
 msgid "Audio"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:51
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:55
 msgid ""
 "During the development phase, it appears that using other Sound API than "
 "`ALSA` would lead the Master VU meter not to work. Furthermore, audio output"
@@ -131,11 +139,11 @@ msgid ""
 "if this was specific to the used setup."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:56
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:60
 msgid "Screens"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:58
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:62
 msgid ""
 "Currently, Mixxx doesn't support controller screen rendering. However, "
 "because the screens are technically a different device, it is safe to "
@@ -144,11 +152,11 @@ msgid ""
 "or even dynamic information."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:64
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:68
 msgid "Motors"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:66
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:70
 msgid ""
 "Haptic feedback (know as Haptic Drive (TM)) are partially implemented. "
 "Supported features include jogwheel tensions and turntable mode but these "
@@ -158,59 +166,59 @@ msgid ""
 "them by setting `UseMotors` to `true` in :ref:`settings`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:72
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:76
 msgid "Mapping Description"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:77
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:81
 msgid "Jogwheel modes"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:79
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:83
 msgid ""
 "Jogwheel can be used to control various things, depending of the mode they "
 "are in."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:81
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:85
 msgid ""
 "**Vinyl mode** (*default*): The jogwheel platter can be used for scratch. "
 "The jogwheel crown can be used to jog up or down the playback."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:82
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:86
 msgid ""
 "**Jog mode**: The wheel platter and crown can be used to jog up or down the "
 "playback."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:83
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:87
 msgid ""
 "**Turntable mode**: The wheel behaves as a 33.3 RPM turntable. If the "
 "platter or crown are slowed down or speeded up, then it will scratch down or"
 " up the track."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:85
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:89
 msgid ""
 "Because this mode relies on Mixxx's scratch mode, if the track has been "
 "pitched up, the keylock will be ignored!"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:87
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:91
 msgid ""
 "This mode is only available if the motor features are enabled. See "
 ":ref:`use-motors` for more details."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:89
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:93
 msgid ""
 "**Loop in**: The wheel behaves similarly to CDJ. If the platter or crown are"
 " turned, it will move back or forth the start of the loop. Additionally, if "
 "the loop encoder is used, it will move the all loop back or forth."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:90
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:94
 msgid ""
 "**Loop out**: Like for the **loop in** mode, but with the exit position of "
 "the loop. If the platter or crown are turned, it will move back or forth the"
@@ -218,1632 +226,1492 @@ msgid ""
 "than **Loop in** mode."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:92
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:96
 msgid ""
 "Here is how to tell what mode is on, depending the current state of the LED:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:95
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:111
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:140
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:115
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:147
 msgid "Mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:95
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
 msgid ":hwlabel:`Jog`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:95
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
 msgid ":hwlabel:`TT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:95
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
 msgid "Jogwheel LED"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:95
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
 msgid "Others"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:97
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:113
-msgid "Vinyl mode"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:97
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
-msgid "On"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:97
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
-msgid "Off"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:97
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
-msgid "Circling while the track is playing/scratching"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:97
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
-msgid "--"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:99
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:115
-msgid "Jog mode"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:117
+msgid "Vinyl mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+msgid "On"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+msgid "Off"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+msgid "Circling while the track is playing/scratching"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:101
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:107
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:109
+msgid "N/A"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:119
+msgid "Jog mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:121
 msgid "Turntable mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:107
 msgid "Loop in mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
-msgid "The whole circle is blinking"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:107
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:109
+msgid "N/A            | The whole circle is blinking"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:103
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:107
 msgid "The :hwlabel:`REV` button is blinking"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:109
 msgid "Loop out mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:105
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:109
 msgid "The :hwlabel:`FLX` button is blinking"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:108
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:112
 msgid "Here is how to select each mode:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:113
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:117
 msgid ""
 "Press the :hwlabel:`Jog` button (while the :hwlabel:`Jog` button is off)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:115
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:119
 msgid ""
 "Press the :hwlabel:`Jog` button while in vinyl mode (while the "
 ":hwlabel:`Jog` button is on)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:117
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:121
 msgid ""
 "Press the :hwlabel:`TT` button. Pressing again while restore the Vinyl mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:119
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:123
 msgid "Loop in"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:119
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:123
 msgid "Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:121
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:125
 msgid "Loop out"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:121
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:125
 msgid "Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:124
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:128
 msgid ""
 "For all modes but :hwlabel:`Vinyl` and :hwlabel:`Jog`, re-selecting the mode"
 " will restore the previous one."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:128
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:132
 msgid "Move modes"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:130
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:134
 msgid ""
 "Moves modes define how the \"move\" encoder (the one on the left) reacts "
 "when used. Here are all the various modes:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:132
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:136
 msgid ""
 "**Beat** (*default*): The track will jump backward or forward by the number "
 "of beats selected. Press before turning to select the number of beats."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:133
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:137
 msgid ""
 "**Grid**: The track's detected beats will be move forward or backward on the"
 " waveform."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:134
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:138
 msgid "**BPM**: The track's detected BPM will be increased or decreased."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:135
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:139
 msgid ""
 "**Keyboard**: The keyboard's keys displayed on pads get moved up or down to "
 "display higher or lower keynotes."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:137
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:140
+msgid ""
+"**Hotcue color**: When first holding :hwlabel:`HOTCUES`, then tapping a "
+"specific hotcue, the move encoder can be used to change the selected color."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:142
+msgid ""
+"When using the shared data API, this will display hotcue metadata such as "
+"label (if any), timecode and type."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:144
 msgid "Here is how to tell use each modes:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:142
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:149
 msgid "Beat"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:142
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:149
 msgid "This mode is enable if no other mode are enabled"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:144
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:185
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:151
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
 msgid "Grid"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:144
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:151
 msgid "This mode is enabled while :hwlabel:`GRID` is held down"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:146
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:153
 msgid "BPM"
 msgstr "BPM"
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:146
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:153
 msgid ""
 "This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`GRID` are held down"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:149
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:156
 msgid "Keyboard"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:149
-msgid "This mode is enabled while STEM is held down"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:156
+msgid ""
+"This mode is enabled while :hwlabel:`SHIFT` + :hwlabel:`STEM` is held down"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:153
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:158
+msgid "Hotcue color"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:158
+msgid ""
+"This mode is enabled after holding :hwlabel:`HOTCUES` for a short period of "
+"time"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:162
 msgid "All mapping detail"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:156
-msgid "Button"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:165
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:380
+msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:156
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:165
 msgid "Action"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:156
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:165
 msgid "Lighting"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:158
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:167
 msgid "Jogwheel platter"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:158
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:167
 msgid "Scratch when in Vinyl mode and Turntable mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:159
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:168
 msgid "Jog when in Jog mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:160
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:169
 msgid "Move loop start when in Loop In mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:161
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:170
 msgid "Move loop end when in Loop Out mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:158
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:167
 msgid "Static light rotation: Vinyl, Turntable or Jog mode on"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:160
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:169
 msgid "Ring blinking: Loop in or out mode on"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:163
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:172
 msgid "Jogwheel crown"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:163
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:172
 msgid "Jog when in Vinyl mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:164
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:173
 msgid "Same as wheel platter otherwise"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:166
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:175
 msgid "Flux"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:166
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:175
 msgid "Toggle Slip mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:167
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:176
 msgid ""
 "On shift, set a loop end at the current track position if no active loop, "
 "enable loop out wheel mode otherwise"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:166
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:175
 msgid "Steady on: Reverse enabled"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:168
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:179
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:177
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:188
 msgid "Steady on while pressing :hwlabel:`SHIFT`: loop is active"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:170
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:179
 msgid ""
 "Blinking, but flux steady off while pressing :hwlabel:`SHIFT`: loop in set "
 "wheel mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:173
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:182
 msgid ""
 "Blinking, with flux steady on while pressing :hwlabel:`SHIFT`: loop in wheel"
 " mode active"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:177
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:186
 msgid "Reverse"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:177
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:186
 msgid "Toggle reverse mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:178
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:187
 msgid ""
 "On shift, set a loop in the current track position if no active loop, enable"
 " loop out wheel mode otherwise"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:177
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:186
 msgid "Steady on: Flux enabled"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:181
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:190
 msgid ""
 "Blinking, with reverse steady on while pressing :hwlabel:`SHIFT`: loop out "
 "wheel mode active"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:185
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
 msgid ""
 "Set the beatgrid at the current track position (on release, short press)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:187
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:196
 msgid "Enable grid move mode while pressed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:188
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:197
 msgid "Enable BPM move mode while pressed and pressing :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:185
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
 msgid "On when over a detected beat"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:186
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:195
 msgid "Blinking when grid/BPM move is on"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:187
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:196
 msgid "Blinking when grid move mode is enabled"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:191
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
 msgid "Turntable"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:191
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
 msgid "Toggle on or off the turntable mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:191
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
 msgid "On: Turntable mode on, otherwise jog or vinyl"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
 msgid "Jog"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
 msgid "Toggle on or off the vinyl mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:194
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
 msgid "On: Vinyl mode on, otherwise jog or turntable"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:197
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:206
 msgid "Deck Select"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:197
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:206
 msgid "Select a deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:197
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:206
 msgid "The deck's main color will be the one of the selected deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:209
 msgid "Shift"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:209
 msgid "Shift controls for the entire controller side, including effect unit"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:200
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:209
 msgid "On or Off"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:359
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:212
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:370
 msgid "Cue"
 msgstr "Repère"
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:212
 msgid "Trigger the cue default effect"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:204
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:213
 msgid "Start or stop the track while pressing :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:205
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:214
 msgid "Select the cue as the play mode when in Keyboard move mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:203
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:212
 msgid "Depends on the"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:205
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:214
 msgid ":ref:`cue mode <interface-cue-modes>`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:207
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:216
 msgid "Play/Pause"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:207
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:216
 msgid "Play/Pause the track"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:208
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:217
 msgid "Long press: clone the playing track"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:209
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:218
 msgid ":hwlabel:`SHIFT` + Long press: eject track"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:207
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:216
 msgid "On if track is playing"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:211
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:220
 msgid "Move"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:211
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:220
 msgid "Beat jump forward (right) or backward by the number of selected beats"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:213
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:222
 msgid "Increase/Decrease the beats if turned while pressed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:214
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:223
 msgid "Increase/decrease pitch when pressing :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:215
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:224
 msgid "Move backward/forward the grid when in grid move mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:216
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:225
 msgid "Increase/decrease BPM when in BPM move mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:217
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:226
 msgid "Move down/up the keyboard notes when in keyboard move mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:219
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:228
 msgid "Loop"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:219
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:228
 msgid "Enable/disable loop when pressed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:220
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:229
 msgid "Reactivate exited loop/exit loop when pressed and shifted"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:221
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:230
 msgid "Halve/double the loop size"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:222
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:231
 msgid "Move 1 beat backward/forward when shifted"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:223
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:232
 msgid ""
 "On loop in/out wheel mode: move the loop with precision, left precision if "
 "shifted"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:226
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:355
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:366
 msgid "Master"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:226
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
 msgid "Make the current deck sync leader (on release)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:227
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:236
 msgid "Long press: Enabled/disable full range tempo fader"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:226
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
 msgid "Steady on: the deck is sync leader"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:227
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:236
 msgid "Blinking: the tempo fader is in full range"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:230
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:239
 msgid "Sync"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:230
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:239
 msgid "Toggle the sync mode (on release)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:231
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:240
 msgid "Toggle the keylock (on release)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:232
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:241
 msgid "Long press: copy the BPM of the other deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:233
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:242
 msgid ":hwlabel:`SHIFT` + Long press: copy the key of the other deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:230
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:239
 msgid "On while no shift: Sync is on"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:231
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:240
 msgid "On while shift: Keylock is on"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:244
 msgid "Tempo fader"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:244
 msgid ""
 "While change the tempo only of the left indicator is either off or of the "
 "color of the deck."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:238
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:247
 msgid ""
 "If green, it means the fader is out of sync with the software, bringing it "
 "down will eventually catch up."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:240
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:249
 msgid ""
 "If white, it means the fader is out of sync with the software, bringing it "
 "up will eventually catch up."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:235
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:244
 msgid ""
 "Deck color: default track speed Green: out of sync (down) Green: out of sync"
 " (up)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:243
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:252
 msgid "Hotcues"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:243
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:252
 msgid "Toggle the hotcues page"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:244
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:253
 msgid "Shift: toggle the second hotcue page"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:243
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:252
 msgid "Deck color with dim off: Current page isn't related to hotcue"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:245
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:254
 msgid "Deck color with dim on: page 1 of hotcue"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:247
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:256
 msgid "White: page 2 of hotcue"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:249
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:258
 msgid "Rec"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:249
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:255
-msgid "Currently unused"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:251
-msgid "Sampler"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:251
-msgid "Toggle the sampler page and display samplers on the Using"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:251
-msgid "Off: Current page isn't related to sampler"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:253
-msgid "On: sampler page is active"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:255
-msgid "Mute"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:257
-msgid "Stems"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:257
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:258
 msgid ""
-"Toggle the keyboard (on release) while press: enable keyboard move mode"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:257
-msgid "Deck color with dim off: Current page isn't related to keyboard"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:259
-msgid "Deck color with dim on: Keyboard active"
+"Toggle the beatjump page and display jump option as defined in settings"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:261
-msgid "Green: keyboard play mode active"
+msgid "Sampler"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:261
+msgid "Toggle the sampler page and display samplers on the Using"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:261
+msgid "Off: Current page isn't related to sampler"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:263
-msgid "Pads"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:263
-msgid "While in hotcue:"
+msgid "On: sampler page is active"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:265
-msgid "press will activate"
+msgid "Mute"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:266
-msgid ":hwlabel:`SHIFT` + press will delete"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:265
+msgid "Currently unused"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:267
+msgid "Stems"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:267
+msgid "Toggle the stem page"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:268
-msgid "While in sample:"
+msgid ""
+"Shift: toggle the keyboard (on release) while press: enable keyboard move "
+"mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:270
-msgid "press will play (load selected track if none are)"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:267
+msgid "Deck color with dim off: Current page isn't related to keyboard"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:269
+msgid "Deck color with dim on: Stem page or Keyboard is active"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:271
-msgid ":hwlabel:`SHIFT` + press will stop (if playing) or eject"
+msgid "Green: keyboard play mode active"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:273
-msgid "While in keyboard:"
+msgid "Pads"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:273
+msgid "While in hotcue:"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:275
-msgid "will set the key to the selected note"
+msgid "press will activate"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:276
+msgid ""
+"if preview deck is playing the loaded track (using with :hwlabel:`SHIFT`) "
+"press will activate in preview deck"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:279
+msgid ":hwlabel:`SHIFT` + press will delete (hotcue)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:281
+msgid "While in beatjump:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:283
+msgid ""
+"press will activate a jump forward of 1, 2, 4, 8, 16, 32, 64 or the "
+"currently select beatjump size, or custom size if you have changed "
+"`BeatJumpSize` in :ref:`settings`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:286
+msgid ":hwlabel:`SHIFT` + press will perform the same jump backward"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:288
+msgid "While in sample:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:290
+msgid "press will play (load selected track if none are)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:291
+msgid ":hwlabel:`SHIFT` + press will stop (if playing) or eject"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:293
+msgid "While in stem:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:295
+msgid ""
+"the top row can be used to select a stem for further actions (FX "
+"assignation, FX dry/run, volume or pre-mixed load)"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:297
+msgid "the bottom row can be used for mute control"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:299
+msgid "While in keyboard:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:301
+msgid "will set the key to the selected note"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:302
 msgid "will play from the cue if in keyboard play mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:278
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:304
 msgid "While in beatloop roll mode:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:280
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:306
 msgid ""
 "Will activate a beatloop roll of 1/16, 1/8, 1/4 , 1/2, 1, 2, 4 and 8 beats, "
 "or custom size if you have changed `BeatLoopRolls` in :ref:`settings`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:263
-msgid "In hotcue: color of the cue"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:273
+msgid "In hotcue: color of the cue. Blinking in delete (shift) mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:264
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:275
+msgid ""
+"In beatjump: Green is defined jump, red is current jump value and white is "
+"selection edition"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:279
 msgid ""
 "In Sampler: Dim on, sample is playing dim off sampler is stopped, off no "
 "sampler loaded"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:267
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:282
 msgid ""
 "In keyboard: keyboard color on each note, if Dim on, currently active note"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:270
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:285
 msgid ""
 "In Beatloop roll: brighter means a loop roll is active with the given size"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:284
-msgid "FX 1st knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:310
+msgid "FX 1 knob"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:284
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:310
 msgid "Master volume/mix of the unit"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:286
-msgid "FX 2nd knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:312
+msgid "FX 2|3|4 knob"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:286
-msgid "Meta arg of the first selected effect"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:312
+msgid "Meta arg of effect 1|2|3"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:287
-msgid "First arg of the focused effect in effect focus mode"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:313
+msgid "Parameter 1|2|3 of the focused effect in effect focus mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:289
-msgid "FX 3rd knob"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:315
+msgid "FX 1 button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:289
-msgid "Meta arg of the second selected effect"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:315
+msgid "Trigger all effects"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:290
-msgid "Second arg of the focused effect in effect focus mode"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:292
-msgid "FX 4th knob"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:292
-msgid "Meta arg of the third selected effect"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:293
-msgid "Third arg of the focused effect in effect focus mode"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:295
-msgid "FX 1st button"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:295
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:296
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:316
 msgid "Trigger all effect"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:297
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:317
 msgid ""
-"Assign/de-assign effect to master while pressing :hwlabel:`SHIFT` and no "
-"focused effect"
+"Assign/de-assign effect unit to master while pressing :hwlabel:`SHIFT` and "
+"no focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:299
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:319
 msgid "Exit focused mode while pressing :hwlabel:`SHIFT` and focused effect"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:295
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:315
 msgid "On if all effect are off and not pressing :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:297
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:317
 msgid "On when effect is attached to master and pressing :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:299
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:300
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:319
 msgid "Blinking in effect focused mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:302
-msgid "FX 2nd button"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:322
+msgid "FX 2|3|4 button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:302
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:309
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:316
-msgid ""
-"Toggle (short press) or trigger (long press) third effect if not focused "
-"effect or if pressing :hwlabel:`SHIFT`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:304
-msgid ""
-"Toggle first arg (short press) or trigger first arg (long press) of the "
-"focus effect if any"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:306
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:313
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:320
-msgid ""
-"Switch to next effect available if no focus effect and :hwlabel:`SHIFT`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:302
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:309
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:316
-msgid ""
-"On if effect is active and no focused effect or if pressing :hwlabel:`SHIFT`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:304
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:311
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:318
-msgid "On if focused effect parameter is enable"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:309
-msgid "FX 3rd button"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:311
-msgid ""
-"Toggle second arg (short press) or trigger second arg (long press) of the "
-"focus effect if any"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:316
-msgid "FX 4th button"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:318
-msgid ""
-"Toggle (short press) or trigger (long press) third arg on the focus effect "
-"if any"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:323
-msgid "Library knob"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:323
-msgid "Move up/down in tracklist"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:322
+msgid "No effect focused:"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:324
-msgid "Move up/down in tree structure while shifted"
+msgid "Toggle (short press) or trigger (long press) effect"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:325
-msgid "Move up/down in the context menu if playlist button is pressed"
+msgid "Hold :hwlabel:`SHIFT` and press to switch to next effect"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:326
-msgid "Zoom in/out the waveform when in grid move mode"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:324
+msgid "On if active"
 msgstr ""
 
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:327
+msgid "Effect focus mode:"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:329
+msgid "Hold :hwlabel:`SHIFT` and long-press to focus effect"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:330
+msgid ""
+"Toggle (short press) or trigger (long press) parameter 1|2|3 of the focused "
+"effect"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:332
+msgid "Toggle or trigger effect with :hwlabel:`SHIFT`"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:330
+msgid "On if effect parameter 1|2|3 is enabled"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:331
+msgid "On when pressing :hwlabel:`SHIFT` and effect is active"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:334
+msgid "Library knob"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:334
+msgid "Move up/down in tracklist"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:335
+msgid "Move up/down in tree structure while shifted"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:336
+msgid "Move up/down in the context menu if playlist button is pressed"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:337
+msgid "Zoom in/out the waveform when in grid move mode"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:338
 msgid ""
 "Beatjump by 16 beats backward/forward if a track is being previewed using "
 "the button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:329
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:340
 msgid ""
 "Star down/up the currently playing track while pressing the star button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:331
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:342
 msgid "Sort by next/previous column while pressing the view button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:332
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:343
 msgid ""
 "Expand the context-manu item when pressed while pressing the playlist button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:334
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:345
 msgid ""
 "Load track when pressed or expand/collapse tree node when shifted (if view "
 "button is not pressed)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:336
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:347
 msgid "Inverse the column sorting if view button is pressed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:338
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:349
 msgid "Preview button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:338
-msgid "Preview the currently selected track while pressed"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:349
+msgid ""
+"Preview the currently selected track while pressed Shift: Preview the "
+"currently playing track"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:340
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:352
 msgid "Star button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:340
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:352
 msgid ""
 "Change the selected track color on short press (next color, or previous if "
 "shifted)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:343
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:355
 msgid "Playlist button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:343
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:355
 msgid "Open or close a context menu for the currently selected track"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:343
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:355
 msgid "On if there is a context-menu open, off otherwise"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:346
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:358
 msgid "Mixer FX button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:346
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:358
 msgid ""
-"Toggle third effect (short press) or trigger third effect (long press) or "
-"assign the quick effect of FX select buttons are pressed"
+"Toggle (short press) or trigger (long press) quick effect or assign the "
+"quick effect if an FX select button is pressed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:346
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:358
 msgid "Dim on if the effect is active"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:350
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:361
 msgid "FX Select button"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:350
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:361
 msgid ""
-"Apply effect to all deck on release, if no mixer FX button have been pressed"
+"Apply effect to all deck on release. While pressed, press mixer FX button to"
+" assign effect to that deck"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:353
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:364
 msgid "Ext"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:353
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:364
 msgid "Apply the current gain as default. This will reset the gain knob."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:355
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:366
 msgid "If enabled in the :ref:`settings`, change the main gain"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:357
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:368
 msgid "Booth"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:357
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:368
 msgid "If enabled in the :ref:`settings`, change the booth gain"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:359
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:370
 msgid "If enabled in the :ref:`settings`, adjust the headphone mix"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:361
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:372
 msgid "Headphone volume"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:361
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:372
 msgid "If using Mixxx internal mixer, change the headphone gain"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:366
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:377
 msgid "Looping"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:369
-msgid "Control"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:369
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:389
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:380
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:435
 msgid "Description"
 msgstr "Description"
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:371
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:382
 msgid "Right Encoder (turn)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:371
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:382
 msgid "Double/halve loop size."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:372
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:383
 msgid "Right Encoder (press)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:372
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:383
 msgid "Activate/exit loop of set size from current position"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:373
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:384
 msgid ":hwlabel:`SHIFT` + :hwlabel:`REV` (while no loops are enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:373
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:384
 msgid "Set the loop in point. This will reset the loop out point as well."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:374
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:385
 msgid ":hwlabel:`SHIFT` + :hwlabel:`REV` (while a loop is enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:374
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:385
 msgid ""
 "Toggle the loop in jogwheel mode. See :ref:`jogwheel-modes` for more "
 "details."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:375
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:386
 msgid ":hwlabel:`SHIFT` + :hwlabel:`FLX` (while no loops are enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:375
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:386
 msgid "Set the loop out point."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:376
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:387
 msgid ":hwlabel:`SHIFT` + :hwlabel:`FLX` (while a loop is enabled)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:376
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:387
 msgid ""
 "Toggle the loop out jogwheel mode. See :ref:`jogwheel-modes` for more "
 "details."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:382
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
 msgid "Mapping options"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:384
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:445
 msgid ""
 "Settings can be edited in the preference windows, under "
 ":guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`Traktor "
 "Kontrol S4 MK3 ...`."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:386
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
 msgid "There are various options that can be used to change some behavior:"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:389
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:435
 msgid "Setting"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:389
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
-msgid "Variable value"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:389
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:435
 msgid "Default"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:389
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
-msgid "Range"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:391
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
 msgid "Deck colors"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:391
-msgid "`DeckColors`"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
+msgid "red, blue, yellow, purple"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:391
-msgid "LEDColors.red,LEDColors.blue,LEDColors.yellow, LEDColors.purple"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:391
-msgid ""
-"**All colors as defined in _LedColors_. Must be four color, separated by a "
-"comma**"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:391
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
 msgid ""
 "Define the leading colors for each decks. Note that some buttons have only "
 "one color"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:392
-msgid "Tempo fader center range"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:392
-msgid "`tempoCenterRangeMm`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:392
-msgid "1.0"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:392
-msgid "0.3..5.0"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:392
-msgid "Defines the center range in mm where the rate snaps to 0."
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
-msgid "Tempo fader center offset"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
-msgid "`tempoCenterOffsetMm`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
-msgid "0.0"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
-msgid "-3.0..3.0"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:393
-msgid "Shifts the center range in case it doesn't match the center marker."
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:394
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
 msgid "Sortable column in the library"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:394
-msgid "`LibrarySortableColumns`"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
+msgid "Artist, Title, BPM, Key, DatetimeAdded"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:394
-msgid ""
-"LibraryColumns.Artist, LibraryColumns.Title, LibraryColumns.BPM, "
-"LibraryColumns.Key, LibraryColumns.DatetimeAdded"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:394
-msgid ""
-"**All values defined in** `the Mixxx control documentation`_ **separated by "
-"a comma**"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:394
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
 msgid ""
 "Define the list of columns on which it possible to sort the library using "
-"the library encoder and the view button"
+"the library encoder and the view button. See `the Mixxx control "
+"documentation`_"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
 msgid "Loop In/Out jogwheel sensitivity"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
-msgid "`LoopWheelMoveFactor`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
 msgid "50"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
-msgid "-500..500 (Recommended)"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:395
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
 msgid ""
 "Define the sensitivity when moving the loop start or end point using the "
 "loop jogwheel mode. Negative value will reverse the order"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:396
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
 msgid "Loop encoder sensitivity"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:396
-msgid "`LoopEncoderMoveFactor`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:396
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
 msgid "500"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:396
-msgid "-3000..3000 (Recommended)"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:396
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
 msgid ""
 "Define the sensitivity when moving the loop with the encoder when using the "
 "loop jogwheel mode. Negative value will reverse the order"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
 msgid "Loop encoder sensitivity (Shifted)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
-msgid "`LoopEncoderShiftMoveFactor`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
 msgid "2500"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
-msgid "-5000..5000 (Recommended)"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:397
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
 msgid ""
 "Define the sensitivity when moving the loop with :hwlabel:`SHIFT` + the "
 "encoder when using the loop jogwheel mode. Negative value will reverse the "
 "order"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:398
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
+msgid "Tempo fader center range"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
+msgid "1.0"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
+msgid "Defines the center range in mm where the rate snaps to 0."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
+msgid "Tempo fader center offset"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
+msgid "0.0"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
+msgid "Shifts the center range in case it doesn't match the center marker."
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
 msgid "Color of the tempo led when on low takeover"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:398
-msgid "`TempoFaderSoftTakeoverColorLow`"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
+msgid "white"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:398
-msgid "LEDColors.white"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:398
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:399
-msgid "**All colors as defined on line 19**"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:398
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
 msgid ""
 "Define the color of tempo LED when the tempo fader is out of sync, and the "
 "actual value is less than on the controller"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:399
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
 msgid "Color of the tempo led when on high takeover"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:399
-msgid "`TempoFaderSoftTakeoverColorHigh`"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
+msgid "green"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:399
-msgid "LEDColors.green"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:399
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
 msgid ""
 "Define the color of tempo LED when the tempo fader is out of sync, and the "
 "actual value is more than on the controller"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
 msgid "Keep transport and play button dimmed when off"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
-msgid "`InactiveLightsAlwaysBacklit`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:401
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:421
 msgid "true"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:401
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
-msgid "true/false"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:400
 msgid ""
 "Having this setting on will keep LED always dimmed, even when off, although "
 "they may not have a matching color with the deck's color"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:401
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
 msgid "Keep the unselected deck button off rather than show its deck color"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:401
-msgid "`DeckSelectAlwaysBacklit`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:401
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
 msgid ""
 "Having this setting on will keep the LED of the unselected deck dimmed "
 "instead of off."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
 msgid ""
 "Keylock on :hwlabel:`SHIFT` + :hwlabel:`MASTER` instead of :hwlabel:`SHIFT` "
 "+ :hwlabel:`SYNC`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
-msgid "`UseKeylockOnMaster`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
 #: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:416
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:418
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:424
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
 msgid "false"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:402
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
 msgid ""
 "Use :hwlabel:`SHIFT` + :hwlabel:`MASTER` to toggle the keylock instead of "
 ":hwlabel:`SHIFT` + :hwlabel:`SYNC`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
 msgid "Make the :hwlabel:`grid` button blink when over a detected beat"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
-msgid "`GridButtonBlinkOverBeat`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:403
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:416
 msgid ""
 "Make the :hwlabel:`GRID` button blinking when the playback goes over a "
 "detected beat"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
 msgid "Make the jogwheel ring blink when the track playing is near the end"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
-msgid "`WheelLedBlinkOnTrackEnd`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:404
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
 msgid ""
 "The jogwheel LED ring will start blinking when a track is near the end. The "
 "end section can be defined in :menuselection:`Preferences --> Waveforms --> "
 "End of track warning`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:416
 msgid "Use the mixer to control input when using :hwlabel:`SHIFT`"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:405
-msgid "`MixerControlsMixAuxOnShift`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:417
 msgid "Number of samples used for jogwheel speed"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
-msgid "`WheelSpeedSample`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:417
 msgid "3"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
-msgid "1..50"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:406
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:417
 msgid ""
 "Number of samples used to determine the jogwheel movement. A higher value "
 "will increase precision but latency too, and vice-versa"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:418
 msgid "Replace the sampler tab by a beatloop roll tab"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
-msgid "`UseBeatloopRollInsteadOfSampler`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:407
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:418
 msgid ""
 "Replace the sample tab as well of the sample feature with 8 beatloop roll"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:419
+msgid "Define the predefined size to use for the beatjump tab"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:419
+msgid "1, 2, 4, 8, 16, 32, 64, beatjump"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:419
+msgid ""
+"Define the size of beatjumps of each pad, from left to right, starting from "
+"the top row. \"beatjump\" refers the currently selected value "
+"(beatjump_forward or beatjump_backward), \"half\" and \"double\" can be used"
+" to control this value"
+msgstr ""
+
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:420
 msgid "Define the predefined size to use for the beatloop tab"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
-msgid "`BeatLoopRolls`"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:420
+msgid "1/16, 1/8, 1/4, 1/2, 1, 2, 4, 8"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
-msgid "1/16,1/8,1/4,1/2,1,2,4,8"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
-msgid "eight number in range 1/32..512"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:408
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:420
 msgid ""
 "Define the size of loops of each pad, from left to right, starting from the "
 "top row."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:421
 msgid "Use the two last tab as loop half/double buttons in the beatloop tab"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
-msgid "`AddLoopHalveAndDoubleOnBeatloopRollTab`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:409
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:421
 msgid ""
 "Use the last two pad from the bottom row as loop half and loop double. These"
 " can be used to interact with beatloop roll and normal loop."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:422
 msgid "Jogwheel speed (in turntable mode, as well as LED indicator)"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
-msgid "`BaseRevolutionsPerMinute`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:422
 msgid "33 + 1/3"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
-msgid "33+1/3, 45 (Recommended)"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:410
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:422
 msgid ""
 "The turntable mode defines how fast the jogwheel turns (if on) as well as "
 "the LED, and the overall jogwheel sensitivity. It is recommended to keep "
 "either 33 + 1/3 or 45 as a value"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
 msgid "Whether or not to use haptic feedback features"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
-msgid "`UseMotors`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:411
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:423
 msgid ""
 "Whether or not to use haptic feedback features. This is a beta feature, some"
 " of them may be unstable."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:424
 msgid "Map the mixer :hwlabel:`Master` knob to the Mixxx internal mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
-msgid "`SoftwareMixerMain`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:412
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:424
 msgid ""
 "When enabled, the Master knob will drive the Main gain of the Mixxx internal"
 " mixer as well as the hardware built-in mixer in the device."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
 msgid "Map the mixer :hwlabel:`Booth` knob to the Mixxx internal mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
-msgid "`SoftwareMixerBooth`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:413
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
 msgid ""
 "When enabled, the Booth knob will drive the Booth gain of the Mixxx internal"
 " mixer as well as the hardware built-in mixer in the device."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
 msgid ""
 "Map the mixer headphone knobs  :hwlabel:`VOL` and :hwlabel:`MIX` to the "
 "Mixxx internal mixer"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
-msgid "`SoftwareMixerHeadphone`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:414
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
 msgid ""
 "When enabled, the headphone knobs will drive the headphone controls of the "
 "Mixxx internal mixer as well as the hardware built-in mixer in the device."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
 msgid "Default Pad Layout"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
-msgid "`DefaultPadLayout`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
 msgid "default"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
-msgid "default,hotcue,samplerBeatloop,keyboard"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:415
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
 msgid "Define the default layout used for the pads."
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:420
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:432
 msgid ""
 "This settings are only useful if you are using haptic feedback features"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:437
 msgid "Number of samples used for jogwheel speed in turntable mode"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
-msgid "`TurnTableSpeedSample`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:437
 msgid "20"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:425
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:437
 msgid ""
 "Number of samples used to determine the jogwheel movement when the turntable"
 " is on. A higher value will increase precision but latency too, and vice-"
 "versa"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:438
 msgid "Define the tension of the jogwheel"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
-msgid "`TightnessFactor`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:438
 msgid "0.5"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
-msgid "0..1.0"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:426
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:438
 msgid ""
 "Define the jogwheel tension. 0 makes it very tight while 1 makes it very "
 "loose"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:439
 msgid "Define how much force can the jogwheel use"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
-msgid "`MaxWheelForce`"
-msgstr ""
-
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:439
 msgid "25000"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
-msgid "10000..30000 (Recommended, can go up to 60000)"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:439
+msgid "Define how much resistance can the wheel use when its rotation is held"
 msgstr ""
 
-#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:427
-msgid "Define how much resistance can the wheel use when its rotation is held"
+#: ../../hardware/controllers/native_instruments_traktor_kontrol_s4_mk3.rst:443
+msgid "Changing settings"
 msgstr ""

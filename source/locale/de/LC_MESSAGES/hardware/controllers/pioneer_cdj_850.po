@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: German (https://app.transifex.com/mixxx-dj-software/teams/7734/de/)\n"
 "MIME-Version: 1.0\n"
@@ -17,35 +17,35 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:2
+#: ../../hardware/controllers/pioneer_cdj_850.md:1
 msgid "Pioneer CDJ-850"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:4
+#: ../../hardware/controllers/pioneer_cdj_850.md:4
 msgid ""
 "This is a CD and USB media player that can control Mixxx via USB with MIDI "
 "or HID. It can also control Mixxx by playing timecode from a CD or USB drive"
 " and running that signal into Mixxx through a sound card."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:8
+#: ../../hardware/controllers/pioneer_cdj_850.md:8
 msgid ""
-"`Manufacturer’s product page "
-"<https://www.pioneerdj.com/product/player/archive/cdj-850/black/overview/>`__"
+"[Manufacturer’s product "
+"page](https://www.pioneerdj.com/product/player/archive/cdj-850/black/overview/)"
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:10
-msgid "Support for :term:`MIDI` mode."
+#: ../../hardware/controllers/pioneer_cdj_850.md:11
+msgid "Support for {term}`MIDI` mode."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:12
-msgid "Support for :term:`HID` mode."
+#: ../../hardware/controllers/pioneer_cdj_850.md:14
+msgid "Support for {term}`HID` mode."
 msgstr ""
 
-#: ../../hardware/controllers/pioneer_cdj_850.rst:16
+#: ../../hardware/controllers/pioneer_cdj_850.md:17
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

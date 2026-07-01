@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -17,110 +17,103 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:2
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:1
 msgid "Numark Mixtrack Pro II"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:4
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:4
 msgid ""
-"The Numark Mixtrack Pro II is the successor of :ref:`Numark Mixtrack Pro "
+"The Numark Mixtrack Pro II is the successor of {ref}`Numark Mixtrack Pro "
 "<numark-mixtrack-pro>` and features the same hardware with some minor design"
 " changes."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:8
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:8
 msgid ""
-"`Manufacturer’s product page <http://www.numark.com/product/mixtrack-pro-"
-"ii>`__"
+"[Manufacturer’s product page](http://www.numark.com/product/mixtrack-pro-ii)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:10
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:10
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/complete-mapping-for-"
-"mixtrack-pro-ii-is-ready/14756>`__"
+"[Forum thread](https://mixxx.discourse.group/t/complete-mapping-for-"
+"mixtrack-pro-ii-is-ready/14756)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:15
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:14
 msgid "Mapping Description"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:18
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:17
 msgid "1. Browser Knob"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:20
-msgid "Rotate the knob to cycle through folders and tracks."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:20
+msgid ""
+"Rotate the knob to cycle through folders and tracks.<br> **Press:** Same as "
+"Back button."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:21
-msgid "**Press:** Same as Back button."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:24
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:23
 msgid "2. Load"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:26
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:26
 msgid "Load the track selected in the library to the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:29
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:28
 msgid "3. Back"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:31
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:31
 msgid ""
 "Cycles between the file structure and the music library in the software."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:34
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:33
 msgid "4. Shift"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:36
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:36
 msgid ""
 "Allows multiple control commands to be triggered when pressed and held first"
 " along with other buttons."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:40
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:39
 msgid "5. Play/Pause"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:42
-msgid "Starts and suspends playback."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:44
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:42
 msgid ""
-"**Shift + Play/Pause:** Activates *soft start* effect if paused or *brake* "
-"effect if playing."
+"Starts and suspends playback.<br> **Shift + Play/Pause:** Activates *soft "
+"start* effect if paused or   *brake* effect if playing."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:47
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:46
 msgid "6. Headphone Cue"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:49
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:49
 msgid "Sends pre-fader audio to the Cue Channel for headphone monitoring."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:52
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:51
 msgid "7. Cue (Transport Control)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:54
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:54
 msgid ""
-"The behavior depends on the :ref:`cue mode <interface-cue-modes>` set in the"
+"The behavior depends on the {ref}`cue mode <interface-cue-modes>` set in the"
 " Mixxx preferences. **Shift + Cue:** return the play head to the start of "
 "the track."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:58
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:57
 msgid "8. Platter/Jog Wheel"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:60
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:60
 msgid ""
 "This capacitive, touch-sensitive jog wheel controls the audio when the wheel"
 " is touched and moved. When the Scratch button is not active, use the wheel "
@@ -130,324 +123,249 @@ msgid ""
 " the pitch of the track."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:68
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:67
 msgid "9. Scratch"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:70
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:70
 msgid ""
 "Controls the behavior of the platters. When not active, the platter will "
 "function as Pitch Bend. When active, the platter will have the ability to "
 "scratch."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:75
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:74
 msgid "10. Pitch Fader"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:77
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:77
 msgid "Controls the tempo (speed) of the individual decks."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:80
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:79
 msgid "11. Pitch Bend -"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:82
-msgid "Press and hold to momentarily reduce the speed of the track."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:82
+msgid ""
+"Press and hold to momentarily reduce the speed of the track.<br> **Shift + "
+"Pitch Bend -:** Toggles keylock on/off."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:83
-msgid "**Shift + Pitch Bend -:** Toggles keylock on/off."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:86
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:85
 msgid "12. Pitch Bend +"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:88
-msgid "Press and hold to momentarily increase the speed of the track."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:88
+msgid ""
+"Press and hold to momentarily increase the speed of the track.<br> **Shift +"
+" Pitch Bend +:** Changes pitch fader range."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:89
-msgid "**Shift + Pitch Bend +:** Changes pitch fader range."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:92
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:91
 msgid "13. Sync"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:94
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:94
 msgid "Enables BPM syncing between decks."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:97
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:96
 msgid "14. Effect Control"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:99
-msgid "Adjusts effect metaknobs."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:99
+msgid ""
+"Adjusts effect metaknobs.<br> **Shift + Effect Control:** Selects effect."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:100
-msgid "**Shift + Effect Control:** Selects effect."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:103
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:102
 msgid "15. Beats"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:105
-msgid "Adjusts the Dry/Wet mix of the EffectUnit."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:105
+msgid ""
+"Adjusts the Dry/Wet mix of the EffectUnit.<br> **Shift + Beats:** Adjust the"
+" deck’s QuickEffect."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:106
-msgid "**Shift + Beats:** Adjust the deck’s QuickEffect."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:109
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:108
 msgid "16. Loop In"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:111
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:124
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:137
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:151
-msgid "Function of this button depends on the current Pad Mode."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:112
-msgid "**Shift + Loop In:** Sets the current Pad Mode to “Loop Mode”."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:113
-msgid "**Loop Mode:** Press this pad to set the beginning of a loop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:115
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:111
 msgid ""
-"**Sample Mode:** Plays the sample assigned to Sampler 1 (left deck) or "
-"Sampler 5 (right deck)."
+"Function of this button depends on the current Pad Mode.<br> **Shift + Loop "
+"In:** Sets the current Pad Mode to “Loop Mode”.<br> **Loop Mode:** Press "
+"this pad to set the beginning of a loop.<br> **Sample Mode:** Plays the "
+"sample assigned to Sampler 1 (left deck) or   Sampler 5 (right deck).<br> "
+"**Cue Mode:** If Hotcue 1 has not already been set for the loaded   track, "
+"this control will set Hotcue 1 at current position in the   track. If Hotcue"
+" 1 has already been set, this control will jump to   Hotcue 1."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:119
-msgid ""
-"**Cue Mode:** If Hotcue 1 has not already been set for the loaded track, "
-"this control will set Hotcue 1 at current position in the track. If Hotcue 1"
-" has already been set, this control will jump to Hotcue 1."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:122
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:121
 msgid "17. Loop Out"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:125
-msgid "**Shift + Loop Out:** Sets the current pad mode to “Sample Mode”."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:126
-msgid "**Loop Mode:** Set the end of a loop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:128
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:124
 msgid ""
-"**Sample Mode:** Plays the sample assigned to Sampler 2 (left deck) or "
-"Sampler 6 (right deck)."
+"Function of this button depends on the current Pad Mode.<br> **Shift + Loop "
+"Out:** Sets the current pad mode to “Sample Mode”.<br> **Loop Mode:** Set "
+"the end of a loop.<br> **Sample Mode:** Plays the sample assigned to Sampler"
+" 2 (left deck) or   Sampler 6 (right deck).<br> **Cue Mode:** If Hotcue 2 "
+"has not already been set for the loaded   track, this control will set "
+"Hotcue 2 at current position in the   track. If Hotcue 2 has already been "
+"set, this control will jump to   Hotcue 2."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:132
-msgid ""
-"**Cue Mode:** If Hotcue 2 has not already been set for the loaded track, "
-"this control will set Hotcue 2 at current position in the track. If Hotcue 2"
-" has already been set, this control will jump to Hotcue 2."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:135
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:134
 msgid "18. Reloop"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:138
-msgid "**Shift + Reloop:** Sets the current pad mode to “Cue Mode”."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:140
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:137
 msgid ""
-"**Loop Mode:** Deactivate an active loop. If no loop is active, this will "
-"activate the loop and start playback from its Loop In point."
+"Function of this button depends on the current Pad Mode.<br> **Shift + "
+"Reloop:** Sets the current pad mode to “Cue Mode”.<br> **Loop Mode:** "
+"Deactivate an active loop. If no loop is active, this   will activate the "
+"loop and start playback from its Loop In point.<br> **Sample Mode:** Plays "
+"the sample assigned to Sampler 3 (left deck) or   Sampler 7 (right "
+"deck).<br> **Cue Mode:** If Hotcue 3 has not already been set for the loaded"
+"   track, this control will set Hotcue 3 at current position in the   track."
+" If Hotcue 3 has already been set, this control will jump to   Hotcue 3."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:142
-msgid ""
-"**Sample Mode:** Plays the sample assigned to Sampler 3 (left deck) or "
-"Sampler 7 (right deck)."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:146
-msgid ""
-"**Cue Mode:** If Hotcue 3 has not already been set for the loaded track, "
-"this control will set Hotcue 3 at current position in the track. If Hotcue 3"
-" has already been set, this control will jump to Hotcue 3."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:149
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:148
 msgid "19. Loop x1/2"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:152
-msgid "**Loop Mode:** Half the loop size."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:153
-msgid "**Shift + Loop x1/2 when in Loop Mode:** Double the loop size."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:155
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:151
 msgid ""
-"**Sample Mode:** Plays the sample assigned to Sampler 4 (left deck) or "
-"Sampler 8 (right deck)."
+"Function of this button depends on the current Pad Mode.<br> **Loop Mode:** "
+"Half the loop size.<br> **Shift + Loop x1/2 when in Loop Mode:** Double the "
+"loop size.<br> **Sample Mode:** Plays the sample assigned to Sampler 4 (left"
+" deck) or   Sampler 8 (right deck).<br> **Cue Mode:** Toggles Hotcue Delete "
+"Mode. Press this button, and then   press one of the other pads in the row "
+"to delete that Hotcue.<br> **Note:** This button is lit when in Hotcue "
+"Delete Mode."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:157
-msgid ""
-"**Cue Mode:** Toggles Hotcue Delete Mode. Press this button, and then press "
-"one of the other pads in the row to delete that Hotcue."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:158
-msgid "**Note:** This button is lit when in Hotcue Delete Mode."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:161
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:160
 msgid "20. FX 1 On/Off"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:163
-msgid "Toggle the 1st effect in the unit on/off."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:163
+msgid ""
+"Toggle the 1st effect in the unit on/off.<br> **Shift + FX 1:** Sets and "
+"starts playback of a 1-beat autoloop."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:164
-msgid "**Shift + FX 1:** Sets and starts playback of a 1-beat autoloop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:167
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:166
 msgid "21. FX 2 On/Off"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:169
-msgid "Toggle the 2nd effect in the unit on/off."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:168
+msgid ""
+"Toggle the 2nd effect in the unit on/off.<br> **Shift + FX 2:** Sets and "
+"starts playback of a 2-beat autoloop."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:170
-msgid "**Shift + FX 2:** Sets and starts playback of a 2-beat autoloop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:173
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:171
 msgid "22. FX 3 On/Off"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:175
-msgid "Toggle the 3rd effect in the unit on/off."
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:173
+msgid ""
+"Toggle the 3rd effect in the unit on/off.<br> **Shift + FX 3:** Sets and "
+"starts playback of a 4-beat autoloop."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:176
-msgid "**Shift + FX 3:** Sets and starts playback of a 4-beat autoloop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:179
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:176
 msgid "23. Tap"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:182
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:178
 msgid ""
-"Allows manual entry of song’s BPM by repeated pressing along the beats of "
-"the track."
+"Allows manual entry of song’s BPM by repeated pressing along the beats   of "
+"the track.<br> **Shift + Tap:** Sets and starts playback of a 16-beat "
+"autoloop.<br> **Note:** This button will blink at each detected beat in the "
+"track."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:183
-msgid "**Shift + Tap:** Sets and starts playback of a 16-beat autoloop."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:184
-msgid "**Note:** This button will blink at each detected beat in the track."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:187
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:183
 msgid "24. Channel Volume"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:189
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:186
 msgid "Adjusts the volume of the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:192
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:188
 msgid "25. Master Gain"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:194
-msgid "Adjusts the volume of the main mix coming from the software."
-msgstr ""
-
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:196
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:191
 msgid ""
-"**Note:** This does not affect the microphone volume. Use the Mic Gain knob "
-"to control the microphone volume."
+"Adjusts the volume of the main mix coming from the software.<br> **Note:** "
+"This does not affect the microphone volume. Use the Mic Gain   knob to "
+"control the microphone volume."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:199
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:195
 msgid "26. Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:201
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:198
 msgid "Controls the blend between the two decks."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:204
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:200
 msgid "27. High EQ"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:206
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:203
 msgid "Controls the treble frequencies for the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:209
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:205
 msgid "28. Mid EQ"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:211
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:208
 msgid "Controls the mid range frequencies for the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:214
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:210
 msgid "29. Low EQ"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:216
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:213
 msgid "Controls the bass frequencies for the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:219
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:215
 msgid "30. Cue Gain"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:221
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:218
 msgid "Adjusts the volume for headphone cueing in the software."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:224
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:220
 msgid "31. Cue Mix"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:226
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:223
 msgid ""
 "Adjusts the software’s audio output to the headphones, mixing between the "
 "cue output and the main mix output."
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:230
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:226
 msgid "32. Stutter"
 msgstr ""
 
-#: ../../hardware/controllers/numark_mixtrack_pro_ii.rst:232
+#: ../../hardware/controllers/numark_mixtrack_pro_ii.md:229
 msgid ""
 "Press this button while the music is playing to jump back to the last set "
 "cue point, creating a “stutter” effect."

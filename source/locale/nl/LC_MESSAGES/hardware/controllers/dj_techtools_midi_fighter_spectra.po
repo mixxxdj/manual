@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 23:25+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2025-08-26 21:28+0000\n"
 "Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/mixxx-dj-software/teams/7734/nl/)\n"
@@ -21,132 +21,133 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:2
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:1
 msgid "DJ TechTools MIDI Fighter Spectra"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:4
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:4
 msgid ""
-"`Manufacturer's product page <https://store.djtechtools.com/products/midi-"
-"fighter-spectra>`_"
+"[Manufacturer's product page](https://store.djtechtools.com/products/midi-"
+"fighter-spectra)"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:5
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:5
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/dj-techtools-midi-fighter-"
-"spectra/31554>`_"
+"[Forum thread](https://mixxx.discourse.group/t/dj-techtools-midi-fighter-"
+"spectra/31554)"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:10
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:9
 msgid "Overview"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:12
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:12
 msgid ""
 "The MIDI Fighter Spectra contains 16 buttons with programmable LEDs, white "
 "ground effect lighting, and six buttons on the side."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst-1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:15
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:20
 msgid ""
 "MIDI Fighter Spectra with left buttons labeled L1–L3, right buttons labeled "
 "R1–R3, and arcade buttons labeled from 1 in the top left to 16 in the bottom"
 " right."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:22
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:22
 msgid ""
 "Out of the box all six side buttons are mapped to the layer selection "
 "functions and cannot be used for other features."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "#"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Function"
 msgstr "Functie"
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "L1"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Previous Layer"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "L2"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "L3"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "R1"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Next Layer"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "R2"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "R3"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:37
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:35
 msgid "Layer 1"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:39
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:38
 msgid ""
 "The first layer of buttons control the EQ and quick effect cutoffs. For each"
 " row of buttons, the deck order is the standard \"3, 1, 2, 4\"."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "1–4"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Kill High"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "5–8"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Kill Mid"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "9–12"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Kill Low"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "13–16"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Toggle Quick Effect"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:52
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:49
 msgid "Layer 2"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:54
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:52
 msgid ""
 "The second layer controls intro/outro markers and hotcues. The deck "
 "displayed may be selected using buttons 13–16. For each deck, the hotcues "
@@ -154,241 +155,241 @@ msgid ""
 "hotcues that are being previewed will be brighter than inactive cues."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "1"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Intro Marker Start"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "2"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Intro Marker End"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "3"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Outro Marker Start"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "4"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Outro Marker End"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Hot Cue 1–4"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Hot Cue 5–8"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Select Deck 1–4"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:74
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:70
 msgid "Layer 3"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:76
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:73
 msgid ""
 "The third layer loads and plays audio samplers. The sampler number "
 "corresponds with the button number in the image above (1 in the top left, 16"
 " in the bottom right)."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "LED"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Off"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Load sampler"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "On"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Play sampler"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:88
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:83
 msgid "Layer 4"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:90
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:86
 msgid "The fourth layer controls stems."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Row"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Mute/unmute stem"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Enable/disable quick effects for stem"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Unused"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Active deck selection"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:103
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:96
 msgid "Settings"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:105
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:99
 msgid "There are various settings available in the Mixxx preferences dialog."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Setting"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Values"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Default Layer"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "EQ, Hotcues, Samplers, Stems"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Sets the active layer when the controller is started."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Ground Effect LEDs"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Off, Pulse on Track End, Blink on Beat"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Set the behavior of the white LEDs on the bottom of the controller."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Pulse Deck Select"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Boolean"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Pulse the deck selection LED when the track on the deck is ending."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Selected Deck Color"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Colors"
 msgstr "Kleuren"
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the selected deck button."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Inactive Deck Color"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the 3 inactive deck buttons."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Intro/Outro Color"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the set intro or outro buttons."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Unset Intro/Outro Color"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of any unset intro or outro buttons."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "EQ Kill Switch On"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the EQ kill switch when it is on."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "EQ Kill Switch Off"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the EQ kill switch when it is off."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Super On"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the quick effects super button when it is on."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Super Off"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of the quick effects super button when it is off."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Sampler Loaded"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of a loaded sampler button."
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "Sampler Empty"
 msgstr ""
 
-#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.rst:1
+#: ../../hardware/controllers/dj_techtools_midi_fighter_spectra.md:18
 msgid "The color of an empty sampler button."
 msgstr ""

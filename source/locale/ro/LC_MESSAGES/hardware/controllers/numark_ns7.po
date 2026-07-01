@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Romanian (https://app.transifex.com/mixxx-dj-software/teams/7734/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../../hardware/controllers/numark_ns7.rst:2
+#: ../../hardware/controllers/numark_ns7.md:1
 msgid "Numark NS7"
 msgstr ""
 
-#: ../../hardware/controllers/numark_ns7.rst:4
+#: ../../hardware/controllers/numark_ns7.md:4
 msgid ""
 "This all-in-one controller features motorized jogwheels. This device is not "
 "USB MIDI class compliant and requires a special driver which is only "
@@ -29,14 +29,14 @@ msgid ""
 "controller has been discontinued in favor of the NS7III."
 msgstr ""
 
-#: ../../hardware/controllers/numark_ns7.rst:9
-msgid "`Manufacturer’s product page <http://www.numark.com/product/ns7>`__"
+#: ../../hardware/controllers/numark_ns7.md:9
+msgid "[Manufacturer’s product page](http://www.numark.com/product/ns7)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_ns7.rst:14
+#: ../../hardware/controllers/numark_ns7.md:14
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""
