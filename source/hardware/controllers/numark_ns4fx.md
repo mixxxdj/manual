@@ -225,7 +225,7 @@ Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33
 
 -  **Toggle a stem** by pressing the corresponding stem pad (1-4) from the 1st row of pads.
 -  **Set a stem's volume** by holding a stem pad (1-4) while rotating the BEATS knob (15) left or right.
--  **Toggle a stem's effect** by pressing the corresponding stem pad (5-8) from the 2st row of pads.
+-  **Toggle a stem's effect** by pressing the corresponding stem pad (5-8) from the 2nd row of pads.
 -  **Set a stem's effect volume** by holding a stem effect pad (5-8) while rotating the BEATS knob (15) left or right.
 -  **Seelct an effect for a stem** by pressing SHIFT while holding a stem effect pad (5-8) while rotating the BEATS knob (15) left or right
 
