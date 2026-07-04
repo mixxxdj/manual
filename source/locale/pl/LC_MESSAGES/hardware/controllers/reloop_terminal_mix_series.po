@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 20:19+0200\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7734/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:4
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:3
 msgid "Reloop Terminal Mix 2/4"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:6
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:6
 msgid ""
-"`Terminal Mix 2 product page "
-"<http://web.archive.org/web/20190916160609/http://www.reloop.com/reloop-"
-"terminal-mix-2>`__"
+"[Terminal Mix 2 product "
+"page](http://web.archive.org/web/20190916160609/http://www.reloop.com/reloop-"
+"terminal-mix-2)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:7
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:7
 msgid ""
-"`Terminal Mix 4 product page "
-"<https://web.archive.org/web/20190916134709/http://www.reloop.com/reloop-"
-"terminal-mix-4>`__"
+"[Terminal Mix 4 product "
+"page](https://web.archive.org/web/20190916134709/http://www.reloop.com/reloop-"
+"terminal-mix-4)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:9
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:9
 msgid ""
 "The Reloop Terminal Mix 2 and Terminal Mix 4 use the same mapping in Mixxx."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:14
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:13
 msgid "Sound hardware"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:16
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:16
 msgid ""
 "The Reloop Terminal Mix 2 and Terminal Mix 4 have integrated multichannel "
 "sound cards. Usually, the TerminalMix runs very well with USB power only. If"
@@ -56,51 +56,51 @@ msgid ""
 "drops below 10°C."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:23
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:22
 msgid "Inputs"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:25
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:25
 msgid ""
 "Both TerminalMix 2 and 4 have a microphone and a switchable line/phono input"
 " that can be routed into Mixxx. The Microphone jack is at the front side of "
 "the controller, the RCA line jacks are at the back next to the line/phono "
 "switch. For both inputs there is a gain knob and a switch on the "
 "controller’s front side that toggles between routing the signal to the "
-"computer (:hwlabel:`SW`) or mixing it directly with the main output "
-"(:hwlabel:`MST`). :hwlabel:`MST` allows to play music from external sources "
+"computer ({hwlabel}`SW`) or mixing it directly with the main output "
+"({hwlabel}`MST`). {hwlabel}`MST` allows to play music from external sources "
 "without any software, for example while setting up Mixxx software. Switch to"
-" :hwlabel:`SW` if you want to use the line signal for vinyl control or AUX "
+" {hwlabel}`SW` if you want to use the line signal for vinyl control or AUX "
 "input, or if you want to record the microphone input with Mixxx, broadcast "
 "it, or put on effects."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:32
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:31
 msgid "Outputs"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:34
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:34
 msgid ""
 "At the front, there are two headphone jacks (1/8\" and 1/4“), both affected "
-"by the hard-wired :hwlabel:`TONE` knob. At the back, there are unbalanced "
+"by the hard-wired {hwlabel}`TONE` knob. At the back, there are unbalanced "
 "outputs for booth and main (RCA), as well as a balanced main output (1/4”). "
 "The output level of both main outputs, booth and headphone outputs are all "
 "controlled by respective hard-wired knobs in the center column which can’t "
 "be mapped to software."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:42
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:41
 msgid "Controller hardware / Maintenance"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:44
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:44
 msgid ""
 "The jog wheels’ touch sensitivity can be adjusted separately. Refer to the "
-"`official manual <http://www.reloop.com/media/custom/upload/Reloop-"
-"TM4_Factory+JogReset.pdf>`__ for instructions."
+"[official manual](http://www.reloop.com/media/custom/upload/Reloop-"
+"TM4_Factory+JogReset.pdf) for instructions."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:47
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:47
 msgid ""
 "When used in dusty environment for a while you might find the MIDI LED "
 "flickering although you didn’t touch any of the controls. This is mostly due"
@@ -110,7 +110,7 @@ msgid ""
 "housing."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:51
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:51
 msgid ""
 "After a few years of heavy usage the buttons and sliders may start to wear "
 "out. Then, buttons need to be pressed harder or in a different manner than "
@@ -120,591 +120,591 @@ msgid ""
 "cleaned with Q-tips and alcohol."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:59
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:58
 msgid "Mapping options"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:61
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:61
 msgid ""
 "The mapping the following customization variable at the top of the script "
 "you can set to your liking:"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:64
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:64
 msgid "``pitchRanges``: Set the pitch slider range each time you toggle it."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:66
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:66
 msgid ""
-"Just open the :file:`Reloop Terminal Mix 2-4.js` file in your favorite text "
+"Just open the {file}`Reloop Terminal Mix 2-4.js` file in your favorite text "
 "editor and you’ll see these variables right near the top. Edit and save and "
 "Mixxx will automatically reload the mapping."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:72
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:71
 msgid "Deck controls"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:74
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:74
 msgid ""
 "*The controls are the same on both sides of the controller. The left side "
 "controls Deck 1 or 3 and the right side controls Deck 2 or 4.*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:77
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:77
 msgid ""
-":hwlabel:`RANGE` button - Toggles the pitch slider range. See :ref:`Mapping "
+"{hwlabel}`RANGE` button - Toggles the pitch slider range. See {ref}`Mapping "
 "Options <reloop-terminal-mix-series-options>`."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:78
-msgid ":hwlabel:`KEYLOCK*` button - Toggles key lock."
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:78
+msgid "{hwlabel}`KEYLOCK*` button - Toggles key lock."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:81
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:80
 msgid "FX Controls"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:83
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:83
 msgid ""
-"This mapping uses the :ref:`Standard Effects Mapping <controller-effects-"
+"This mapping uses the {ref}`Standard Effects Mapping <controller-effects-"
 "mapping>` to control the FX units."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:86
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:86
 msgid "These knobs and buttons don’t switch to decks 3 and 4."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:88
-msgid ":hwlabel:`FX1/2/3` knobs"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:88
+msgid "{hwlabel}`FX1/2/3` knobs"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:90
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:90
 msgid "control the Meta knob of each effect"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:91
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:91
 msgid ""
 "focused effect: control the first three knob parameters of the focused "
 "effect"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:93
-msgid ":hwlabel:`ON` buttons"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:93
+msgid "{hwlabel}`ON` buttons"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:95
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:95
 msgid "Press: toggle the effects"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:96
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:96
 msgid "Press + hold: temporarily toggle an effect"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:97
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:97
 msgid ""
 "focused effect: control the first three button parameters of the focused "
 "effect"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:99
-msgid ":hwlabel:`BEATS` encoder"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:99
+msgid "{hwlabel}`BEATS` encoder"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:101
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:101
 msgid "Turn: adjust the Wet/Dry knob of the effect unit"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:102
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:102
 msgid ""
 "Press repeatedly: adjust the BPM (not the pitch/speed!) of the loaded track"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:103
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:103
 msgid ""
-":hwlabel:`SHIFT` + Press: move the nearest beat marker to the current play "
+"{hwlabel}`SHIFT` + Press: move the nearest beat marker to the current play "
 "position"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:105
-msgid ":hwlabel:`TAP` button"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:105
+msgid "{hwlabel}`TAP` button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:107
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:107
 msgid "LED flashes on each beat"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:108
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:108
 msgid "Press + hold, then press any ON button to focus the respective effect"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:109
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:109
 msgid ""
-":hwlabel:`SHIFT` + Press: switch between FX units 1/3 (left FX section) and "
+"{hwlabel}`SHIFT` + Press: switch between FX units 1/3 (left FX section) and "
 "2/4 (right FX section)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:112
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:111
 msgid "Loop Controls"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:114
-msgid ":hwlabel:`LENGTH` knob"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:114
+msgid "{hwlabel}`LENGTH` knob"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:116
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:116
 msgid ""
 "Turn: double or halve the current *loop size* (beats) visible in loop size "
 "spinbox in each skin."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:117
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:117
 msgid "Press: set and activate a loop of *loop size*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:119
-msgid ":hwlabel:`SHIFT` + Press: re-activate the previous loop"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:119
+msgid "{hwlabel}`SHIFT` + Press: re-activate the previous loop"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:121
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:121
 msgid ""
 "play position behind loop-out: jump to loop-in point and play loop from "
 "there"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:122
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:122
 msgid ""
 "play position before loop: activate loop, keep playing and enter loop when "
 "play position crosses loop-in marker"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:124
-msgid ":hwlabel:`IN` / :hwlabel:`1/2x` button"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:124
+msgid "{hwlabel}`IN` / {hwlabel}`1/2x` button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:126
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:126
 msgid "Press: set the loop in point, flashes when a loop is active"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:127
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:127
 msgid "Press + hold: drags the loop in point of an active loop"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:129
-msgid ":hwlabel:`OUT` / :hwlabel:`2x` button"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:129
+msgid "{hwlabel}`OUT` / {hwlabel}`2x` button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:131
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:131
 msgid "Press: set the loop out point, flashes when a loop is active"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:132
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:132
 msgid "Press + hold: drags the loop out point of an active loop"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:134
-msgid ":hwlabel:`MOVE` knob"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:134
+msgid "{hwlabel}`MOVE` knob"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:136
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:136
 msgid ""
 "Press + turn: adjust the //beatjump size// visible in beatjump spinbox in "
 "each skin"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:137
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:137
 msgid ""
 "Turn with no active loop: jump back or forth in the track by beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:138
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:138
 msgid ""
 "Turn with active loop + Quantize OFF: move the loop position by 1/8 beat per"
 " detent (helpful to correct the loop in point in case it's set slightly too "
 "early or too late)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:139
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:139
 msgid ""
 "Turn with active loop + Quantize ON: move the loop position by one beat per "
 "detent (helpful to correct the loop in point in case it snapped to the wrong"
 " beat marker)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:140
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:140
 msgid ""
-":hwlabel:`SHIFT` + turn with active loop: shift the loop back or forth by "
+"{hwlabel}`SHIFT` + turn with active loop: shift the loop back or forth by "
 "beatjump size"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:143
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:142
 msgid "Hot cues / Sampler buttons"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:145
-msgid "Hot cue buttons :hwlabel:`1-4`"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:145
+msgid "Hot cue buttons {hwlabel}`1-4`"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:147
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:147
 msgid "LED: lit if a hot cue is set"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:148
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:148
 msgid "Press: set or recall a hot cue"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:149
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:149
 msgid ""
 "Press + hold when deck is stopped: play from hot cue as long as button is "
 "pressed. Press Play to continue playing after releasing hot cue button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:150
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:150
 msgid "Press + hold when deck is playing: jump to hot cue and play from there"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:151
-msgid ":hwlabel:`SHIFT` + press: delete the hot cue"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:151
+msgid "{hwlabel}`SHIFT` + press: delete the hot cue"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:153
-msgid ":hwlabel:`▶ 1-4` Sampler buttons"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:153
+msgid "{hwlabel}`▶ 1-4` Sampler buttons"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:154
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:154
 msgid ""
 "LED: lit when a sample is loaded to the corresponding sampler, flashes when "
 "that sampler is playing."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:155
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:155
 msgid "Press: play the sample from the beginning"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:156
-msgid ":hwlabel:`SHIFT` + Press: stop the sample"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:156
+msgid "{hwlabel}`SHIFT` + Press: stop the sample"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:157
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:157
 msgid ""
-":hwlabel:`✂ (scissors)` button - Switches hot cues 5-8 and samplers 5-8"
+"{hwlabel}`✂ (scissors)` button - Switches hot cues 5-8 and samplers 5-8"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:160
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:159
 msgid "Wheel & Vinyl button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:162
-msgid ":hwlabel:`Vinyl/Search` button"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:162
+msgid "{hwlabel}`Vinyl/Search` button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:163
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:163
 msgid "Press + release: toggle scratching with the wheel (LED On)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:164
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:164
 msgid "Hold down + turn the wheel: seek through the track"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:165
-msgid ":hwlabel:`Wheel`"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:165
+msgid "{hwlabel}`Wheel`"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:166
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:166
 msgid "Vinyl mode ON"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:168
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:168
 msgid ""
 "Touch the top black area + turn: scratch the current track like a vinyl "
 "record"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:169
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:169
 msgid "Touch gray rim only + turn: perform a temporary pitch bend"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:171
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:171
 msgid "Vinyl mode OFF"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:173
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:173
 msgid "Touch wheel anywhere + turn: perform a temporary pitch bend"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:176
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:175
 msgid "Transport buttons"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:178
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:178
 msgid ""
-":hwlabel:`▶◀ (Sync)` - Synchronizes the tempo and beat phase of this deck to"
+"{hwlabel}`▶◀ (Sync)` - Synchronizes the tempo and beat phase of this deck to"
 " that of the other."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:179
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:179
 msgid ""
-":hwlabel:`CUP` (Cue-Play) Start playback from the cue point (also known as "
+"{hwlabel}`CUP` (Cue-Play) Start playback from the cue point (also known as "
 "stutter play)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:180
-msgid ":hwlabel:`Q` (Cue)"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:180
+msgid "{hwlabel}`Q` (Cue)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:182
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:182
 msgid ""
 "LED: lit or flashes when play position is at cue point, depending on the "
-":ref:`cue mode <interface-cue-modes>`."
+"{ref}`cue mode <interface-cue-modes>`."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:183
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:183
 msgid "Press: Set or recall the main cue point on the track"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:184
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:184
 msgid "Press + hold: play from Cue point. Release stops playback"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:186
-msgid ":hwlabel:`▶||` (Play/Pause) Toggle playback of the track"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:186
+msgid "{hwlabel}`▶||` (Play/Pause) Toggle playback of the track"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:187
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:187
 msgid ""
-":hwlabel:`SHIFT` + :hwlabel:`▶◀` (left deck) / :hwlabel:`SHIFT` +  "
-":hwlabel:`▶||` (right deck)"
+"{hwlabel}`SHIFT` + {hwlabel}`▶◀` (left deck) / {hwlabel}`SHIFT` +  "
+"{hwlabel}`▶||` (right deck)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:189
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:189
 msgid ""
 "initiate the brake effect for the respective deck: track slows down to full "
 "stop."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:191
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:191
 msgid ""
 "Touch wheel, Vinyl mode ON: track speed jumps back to normal (considering "
 "the pitch slider) and playback continues as soon as the wheel is released. "
-"Open the :file:`controllers/Reloop Terminal Mix 2-4.js` file and look for "
+"Open the {file}`controllers/Reloop Terminal Mix 2-4.js` file and look for "
 "``TerminalMix.brake`` to adjust parameters."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:192
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:192
 msgid ""
-":hwlabel:`3` / :hwlabel:`4` button - When lit all deck buttons (except FX "
+"{hwlabel}`3` / {hwlabel}`4` button - When lit all deck buttons (except FX "
 "controls) control deck 3 (deck 4 respectively)."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:195
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:194
 msgid "Mixer controls"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:198
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:197
 msgid "Channel strips"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:200
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:200
 msgid ""
 "*The below controls adjust the specified parameter of the respective virtual"
 " deck.*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:203
-msgid ":hwlabel:`GAIN` knob - Adjusts the pre-fader gain"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:203
+msgid "{hwlabel}`GAIN` knob - Adjusts the pre-fader gain"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:204
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:204
 msgid ""
-":hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW` EQ knobs - Adjust the volume "
+"{hwlabel}`HIGH`/{hwlabel}`MID`/{hwlabel}`LOW` EQ knobs - Adjust the volume "
 "of the respective frequency range"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:205
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:205
 msgid ""
-":hwlabel:`FILTER` knob - Adjust the QuickEffect Meta knob (default: filter)"
+"{hwlabel}`FILTER` knob - Adjust the QuickEffect Meta knob (default: filter)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:206
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:206
 msgid ""
-":hwlabel:`Headphone` button - Toggles hearing the deck in the headphone "
+"{hwlabel}`Headphone` button - Toggles hearing the deck in the headphone "
 "output"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:207
-msgid ":hwlabel:`1` / :hwlabel:`2` / :hwlabel:`3` / :hwlabel:`4`"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:207
+msgid "{hwlabel}`1` / {hwlabel}`2` / {hwlabel}`3` / {hwlabel}`4`"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:209
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:209
 msgid "Press: load the currently highlighted song into that deck."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:210
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:210
 msgid ""
-":hwlabel:`SHIFT` + press: toggle fader-start (on the channel fader and "
+"{hwlabel}`SHIFT` + press: toggle fader-start (on the channel fader and "
 "cross-fader when applicable.) The button flashes when fader-start is enabled"
 " on that deck."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:212
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:212
 msgid "Channel slider - Adjust the output volume"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:214
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:214
 msgid "*The below controls are not deck-specific.*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:216
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:216
 msgid ""
-":hwlabel:`MASTER` knob - Adjust the main output volume of the internal sound"
+"{hwlabel}`MASTER` knob - Adjust the main output volume of the internal sound"
 " card. *(Hard-wired knob, does not send MIDI messages)*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:217
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:217
 msgid ""
-":hwlabel:`BOOTH` knob - Adjust the booth output volume of the internal sound"
+"{hwlabel}`BOOTH` knob - Adjust the booth output volume of the internal sound"
 " card. *(Hard-wired knob, does not send MIDI messages)*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:218
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:218
 msgid ""
-":hwlabel:`PHONES` knob - Adjust the headphone output volume of the internal "
+"{hwlabel}`PHONES` knob - Adjust the headphone output volume of the internal "
 "sound card. *(Hard-wired knob, does not send MIDI messages)*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:219
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:219
 msgid ""
-":hwlabel:`CUE MIX` knob - Adjust how much of the headphone bus vs the main "
+"{hwlabel}`CUE MIX` knob - Adjust how much of the headphone bus vs the main "
 "output you hear in the headphones."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:220
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:220
 msgid ""
-":hwlabel:`SAMPLER VOLUME` knob - Adjusts the volume of all of the samplers "
+"{hwlabel}`SAMPLER VOLUME` knob - Adjusts the volume of all of the samplers "
 "at once."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:221
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:221
 msgid ""
-":hwlabel:`CRATES` button - Does nothing at the moment. (Mixxx’s library "
+"{hwlabel}`CRATES` button - Does nothing at the moment. (Mixxx’s library "
 "doesn’t yet support direct panel selection.) Use the MIDI Learning Wizard to"
 " assign an action.*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:222
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:222
 msgid ""
-":hwlabel:`VIEW` button - Does nothing at the moment. Use the MIDI Learning "
-"Wizard to assign an action.* - :hwlabel:`PREP` button - *Does nothing at the"
+"{hwlabel}`VIEW` button - Does nothing at the moment. Use the MIDI Learning "
+"Wizard to assign an action.* - {hwlabel}`PREP` button - *Does nothing at the"
 " moment. Use the MIDI Learning Wizard to assign an action.*"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:223
-msgid ":hwlabel:`BACK` button"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:223
+msgid "{hwlabel}`BACK` button"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:225
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:225
 msgid "Press: move the highlight in the active library panel to the right"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:226
-msgid ":hwlabel:`SHIFT` + Press: move the highlight to the left"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:226
+msgid "{hwlabel}`SHIFT` + Press: move the highlight to the left"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:228
-msgid ":hwlabel:`TRAX knob`"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:228
+msgid "{hwlabel}`TRAX knob`"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:230
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:230
 msgid "Turn: move the highlight up/down by one line"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:231
-msgid ":hwlabel:`SHIFT` + turn: move the highlight one page up/down"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:231
+msgid "{hwlabel}`SHIFT` + turn: move the highlight one page up/down"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:232
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:232
 msgid ""
 "Press while Tree panel has focus: expand an item if possible. If item can’t "
 "be expanded further, it is selected and and highlight is shifted rightwarde "
 "to the respective tracks table."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:233
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:233
 msgid ""
 "Press while tracks table has focus: perform the Track Load Action specified "
-"in :menuselection:`Preferences --> Library` (default: load track to next "
+"in {menuselection}`Preferences --> Library` (default: load track to next "
 "empty deck)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:235
-msgid ":hwlabel:`Volume Level Meter`"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:235
+msgid "{hwlabel}`Volume Level Meter`"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:237
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:237
 msgid ""
 "LEDs display the hardware (!) volume of the main output (2 blue LEDs at the "
 "top indicate clipping)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:238
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:238
 msgid ""
 "*Attention:* the main volume might already clip in Mixxx before the hardware"
 " LEDs light up. You can adjust the hardware main volume knob and target "
-"loudness in :menuselection:`Preferences --> Normalization --> ReplayGain` to"
+"loudness in {menuselection}`Preferences --> Normalization --> ReplayGain` to"
 " keep enough headroom for the main volume in Mixxx and make the lower blue "
 "LEDs light up when the main volume clips in Mixxx"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:240
-msgid ":hwlabel:`POWER` LED (red)"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:240
+msgid "{hwlabel}`POWER` LED (red)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:241
-msgid ":hwlabel:`MIDI` LED (blue)"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:241
+msgid "{hwlabel}`MIDI` LED (blue)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:243
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:243
 msgid "Flashes when a MIDI messages was sent"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:244
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:244
 msgid ""
 "When it flashes although no control is touched, it’s probably due to dust in"
-" the jogwheels (See :ref:`Controller Hardware / Maintenance <reloop-"
+" the jogwheels (See {ref}`Controller Hardware / Maintenance <reloop-"
 "terminal-mix-series-maintenance>`)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:246
-msgid ":hwlabel:`Shift Lock` switch at the back side"
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:246
+msgid "{hwlabel}`Shift Lock` switch at the back side"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:248
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:248
 msgid ""
-":hwlabel:`ON`: press :hwlabel:`SHIFT` buttons once to switch to secondary "
+"{hwlabel}`ON`: press {hwlabel}`SHIFT` buttons once to switch to secondary "
 "button/knob actions"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:249
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:249
 msgid ""
-":hwlabel:`OFF`: press & hold :hwlabel:`SHIFT` buttons to switch to secondary"
+"{hwlabel}`OFF`: press & hold {hwlabel}`SHIFT` buttons to switch to secondary"
 " button/knob actions"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:252
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:251
 msgid "Cross-fader section"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:254
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:254
 msgid ""
 "Move the cross-fader to smoothly fade between the decks assigned to either "
 "side."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:257
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:256
 msgid "Deck assign switches (Terminal Mix 4 only)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:259
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:259
 msgid ""
 "Use the four switches on the front of the unit to choose on which side of "
 "the cross fader that deck will be heard. (Note that the fader-start "
@@ -713,15 +713,15 @@ msgid ""
 "heard."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:265
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:264
 msgid "Curve adjust"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:267
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:267
 msgid "Use the knob to adjust the curve from a smooth fade to a fast cut."
 msgstr ""
 
-#: ../../hardware/controllers/reloop_terminal_mix_series.rst:269
+#: ../../hardware/controllers/reloop_terminal_mix_series.md:269
 msgid ""
 "*The remaining controls on the front of the unit adjust hardware parameters "
 "and are not MIDI-mappable.*"

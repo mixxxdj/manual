@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Spanish (https://app.transifex.com/mixxx-dj-software/teams/7734/es/)\n"
 "MIME-Version: 1.0\n"
@@ -17,33 +17,33 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../../hardware/controllers/korg_nanokontrol2.rst:4
+#: ../../hardware/controllers/korg_nanokontrol2.md:3
 msgid "Korg nanoKONTROL2"
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol2.rst:6
+#: ../../hardware/controllers/korg_nanokontrol2.md:6
 msgid ""
 "There are two mappings for this controller included in Mixxx. The one "
 "labeled “Korg Nanokontrol 2 (alternative)” takes advantage of features "
 "introduced in Mixxx 2.0 such as sync lock and cue modes."
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol2.rst:8
+#: ../../hardware/controllers/korg_nanokontrol2.md:8
 msgid ""
-"`Manufacturer’s product page "
-"<http://www.korg.com/us/products/controllers/nanokontrol2/>`__"
+"[Manufacturer’s product "
+"page](http://www.korg.com/us/products/controllers/nanokontrol2/)"
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol2.rst:9
+#: ../../hardware/controllers/korg_nanokontrol2.md:9
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/korg-nanokontrol2-8-decks-"
-"cueloops-save-loops-v2-2/13246>`__"
+"[Forum thread](https://mixxx.discourse.group/t/korg-nanokontrol2-8-decks-"
+"cueloops-save-loops-v2-2/13246)"
 msgstr ""
 
-#: ../../hardware/controllers/korg_nanokontrol2.rst:14
+#: ../../hardware/controllers/korg_nanokontrol2.md:14
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

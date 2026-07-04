@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/mixxx-dj-software/teams/7734/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -17,31 +17,31 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../hardware/controllers/vestax_typhoon.rst:2
+#: ../../hardware/controllers/vestax_typhoon.md:1
 msgid "Vestax Typhoon"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_typhoon.rst:4
+#: ../../hardware/controllers/vestax_typhoon.md:4
 msgid ""
 "This controller has been discontinued as Vestax went out of business in "
 "2014."
 msgstr ""
 
-#: ../../hardware/controllers/vestax_typhoon.rst:6
+#: ../../hardware/controllers/vestax_typhoon.md:6
 msgid ""
-"`Manfacturer’s product page <http://serato.com/hardware/vestax-typhoon>`__"
+"[Manfacturer’s product page](http://serato.com/hardware/vestax-typhoon)"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_typhoon.rst:7
+#: ../../hardware/controllers/vestax_typhoon.md:7
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/vestax-typhoon-mapping-for-"
-"mixxx-2-0/12551>`__"
+"[Forum thread](https://mixxx.discourse.group/t/vestax-typhoon-mapping-for-"
+"mixxx-2-0/12551)"
 msgstr ""
 
-#: ../../hardware/controllers/vestax_typhoon.rst:12
+#: ../../hardware/controllers/vestax_typhoon.md:12
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""

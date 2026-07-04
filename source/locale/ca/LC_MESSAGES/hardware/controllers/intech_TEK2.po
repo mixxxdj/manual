@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2026, The Mixxx Development Team
+# This file is distributed under the same license as the Mixxx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mixxx 2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-24 23:05+0200\n"
+"PO-Revision-Date: 2026-06-19 13:01+0000\n"
+"Language-Team: Catalan (https://app.transifex.com/mixxx-dj-software/teams/7734/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../hardware/controllers/intech_TEK2.rst:2
+msgid "Intech Studio - Grid (TEK2)"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:11
+msgid "Intech Studio TEK2"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:11
+msgid "TEK2"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:15
+msgid ""
+"TEK2 is a modular controller with 5-point multicolor LED feedback and "
+"massive knobs with a two-state switch (pressed & released) in addition to "
+"their smooth endless turn. The programmable ‘5-bit display’ indicator can "
+"give feedback on centered or starting value positions and highlight "
+"parameter states."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:17
+msgid ""
+"Intech Grid modules are modular and fully configurable, allowing you to "
+"create your own DJ MIDI controller."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:19
+msgid "`TEK2 product page <https://intech.studio/shop/tek2>`__"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:20
+msgid "`Discord support channel <https://discord.com/invite/ntrzhxS>`__"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:23
+msgid "TEK2 and Scratch"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:25
+msgid ""
+"This basic mapping provides jogwheel and scratch functionality in Mixxx. The"
+" row of buttons below the jogwheels is mapped to Play and Cue on each "
+"channel. The buttons in the bottom row are unmapped and can be customized "
+"with the Mixxx MIDI mapping wizard."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:30
+msgid "Setting up the controller"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:32
+msgid "To make this mapping work, follow these steps:"
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:34
+msgid ""
+"Download and open the `Grid Editor <https://intech.studio/software-"
+"downloads>`__."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:35
+msgid ""
+"In the Grid Editor, access the Profile Cloud where you can load and save "
+"configurations to our Modules."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:36
+msgid "Search for 'TEK2 DJ setup', then load and store it to your TEK2."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:37
+msgid ""
+"Open up Mixxx, go to :menuselection:`Preferences` --> "
+":menuselection:`Controllers` --> :menuselection:`Intech TEK2` and select the"
+" 'Intech TEK2' mapping."
+msgstr ""
+
+#: ../../hardware/controllers/intech_TEK2.rst:39
+msgid ""
+"That's it! You are now able to use the jog wheel and create your custom "
+"mapping."
+msgstr ""

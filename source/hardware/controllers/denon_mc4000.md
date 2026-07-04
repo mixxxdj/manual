@@ -7,9 +7,9 @@ for rugged durability. In addition to precision touch-activated jog
 wheels, performers get access to dedicated hot cue and sample pads for
 on-the-fly remixes.
 
--  [Manufacturer’s product page](https://www.denondj.com/mc4000-mc4000xus)
--  [Manual / Midi commands](https://web.archive.org/web/20260221060200/http://cdn.inmusicbrands.com:80/denondj/MC4000/MC4000-User-Guide-v1.2_00.pdf)
--  [Forum thread](https://mixxx.discourse.group/t/denon-mc4000-mapping/15311)
+- [Manufacturer’s product page](https://www.denondj.com/mc4000-mc4000xus)
+- [Manual / Midi commands](https://cdn.inmusicbrands.com/denondj/MC4000/MC4000-User-Guide-v1.2_00.pdf)
+- [Forum thread](https://mixxx.discourse.group/t/denon-mc4000-mapping/15311)
 
 The microphone and auxiliary inputs are mixed with the main output in
 hardware. They are not available to the computer through the MC4000’s

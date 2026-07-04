@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Polish (https://app.transifex.com/mixxx-dj-software/teams/7734/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,305 +17,298 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:4
+#: ../../hardware/controllers/numark_dj2go2_touch.md:3
 msgid "Numark DJ2GO2 Touch"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:9
+#: ../../hardware/controllers/numark_dj2go2_touch.md:8
 msgid ""
-"The Numark DJ2GO2 Touch is a USB :term:`MIDI` controller with an integrated "
+"The Numark DJ2GO2 Touch is a USB {term}`MIDI` controller with an integrated "
 "audio interface. It is the successor to the DJ2GO2, and features touch "
 "capable wheels."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:12
+#: ../../hardware/controllers/numark_dj2go2_touch.md:11
 msgid ""
-"`Manufacturer’s product page "
-"<https://www.numark.com/product/dj2go2-touch>`__"
+"[Manufacturer’s product page](https://www.numark.com/product/dj2go2-touch)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:13
+#: ../../hardware/controllers/numark_dj2go2_touch.md:12
 msgid ""
-"`Mapping Forum Thread <https://mixxx.discourse.group/t/a-complete-numark-"
-"dj2go2-touch-mapping/22616>`__"
+"[Mapping Forum Thread](https://mixxx.discourse.group/t/a-complete-numark-"
+"dj2go2-touch-mapping/22616)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:24
+#: ../../hardware/controllers/numark_dj2go2_touch.md:16
+#: ../../hardware/controllers/numark_dj2go2_touch.md:22
 msgid "Numark DJ2GO2 Touch (schematic view)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:27
+#: ../../hardware/controllers/numark_dj2go2_touch.md:24
 msgid "Audio Setup"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:29
+#: ../../hardware/controllers/numark_dj2go2_touch.md:27
 msgid "The mapping relies on the following channel assignments:"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:32
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Output Channels"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:32
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Assigned to"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:34
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "1-2"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:34
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Master"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:35
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "3-4"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:35
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Headphones"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:39
+#: ../../hardware/controllers/numark_dj2go2_touch.md:35
 msgid "Controller Mapping"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:42
+#: ../../hardware/controllers/numark_dj2go2_touch.md:38
 msgid "Decks"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:45
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:78
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:91
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "No."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:45
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:78
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Control"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:45
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:66
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:78
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:91
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Function"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:47
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "2"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:47
-msgid ":hwlabel:`HEADPHONES`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`HEADPHONES`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:47
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Routes deck to headphones output"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:48
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "6"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:48
-msgid ":hwlabel:`LOAD`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`LOAD`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:48
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Loads a track into the deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:49
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "7"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:49
-msgid ":hwlabel:`LEVEL`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`LEVEL`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:49
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Hi / low pass filter effect."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:50
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "9"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:50
-msgid ":hwlabel:`PAD MODE`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`PAD MODE`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:50
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Switches between modes of operation for pad buttons on both decks."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:51
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:52
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "10"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:51
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Jog Wheel (top surface)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:51
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Perform scratch operation."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:52
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Jog Wheel (outer edge)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:52
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Rotate to lower/raise playback speed and pitch."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:53
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "11"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:53
-msgid ":hwlabel:`PLAY/PAUSE`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`PLAY/PAUSE`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:53
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Plays or pause the song."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:54
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "12"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:54
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:61
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+#: ../../hardware/controllers/numark_dj2go2_touch.md:56
 msgid "Pads"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:54
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "4 buttons which can be used to control various features."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:55
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "13"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:55
-msgid ":hwlabel:`CUE`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`CUE`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:55
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Specifies, plays or recalls temporary cue point."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:56
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "14"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:56
-msgid ":hwlabel:`SYNC`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`SYNC`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:56
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Match tempo and phase of other deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:57
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "15"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:57
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Tempo slider"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:57
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Adjust song playback speed."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:63
-msgid "The pad mode is changed using the :hwlabel:`PAD MODE` button."
+#: ../../hardware/controllers/numark_dj2go2_touch.md:59
+msgid "The pad mode is changed using the {hwlabel}`PAD MODE` button."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:66
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Pad Mode"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:68
-msgid ":hwlabel:`CUES`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`CUES`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:68
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid ""
 "Set cue points, and trigger them by clicking. Clear cue points by clicking "
-"while holding the :hwlabel:`PAD MODE` button."
+"while holding the {hwlabel}`PAD MODE` button."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:69
-msgid ":hwlabel:`AUTO`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`AUTO`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:69
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid ""
 "Enable / disable beat loops, with pads 1, 2, 3, and 4 creating 1, 4, 8, and "
 "16 bar loops respectively."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:70
-msgid ":hwlabel:`MANUAL`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`MANUAL`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:70
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid ""
 "Set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out "
 "point, pad 3 enables / disables the loop, and pad 4 stops the loop and "
 "returns to the beginning."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:71
-msgid ":hwlabel:`SAMPLER`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`SAMPLER`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:71
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Load / trigger sample tracks."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:75
+#: ../../hardware/controllers/numark_dj2go2_touch.md:69
 msgid "Mixer / Library"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:80
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "3"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:80
-msgid ":hwlabel:`CUE LEVEL`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`CUE LEVEL`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:80
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Adjusts the cue output level."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:81
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "4"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:81
-msgid ":hwlabel:`MASTER LEVEL`"
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
+msgid "{hwlabel}`MASTER LEVEL`"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:81
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Adjusts the master output level."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:82
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "5"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:82
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Browse encoder"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:82
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid ""
 "Scroll in the track list. Preview tracks when clicking on a track in a "
 "tracklist, scrolling the encoder allows seeking the previewed track. "
@@ -323,58 +316,58 @@ msgid ""
 " to scroll the tracklist again."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:83
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "8"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:83
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Crossfader"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:83
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Fades between left and right deck."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:88
+#: ../../hardware/controllers/numark_dj2go2_touch.md:81
 msgid "Inputs / outputs"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:91
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "IO"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:93
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "1"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:93
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "USB"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:93
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Micro USB slot for data / power connection to the Mixxx host device."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:94
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "16"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:94
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Main (3.5mm)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:94
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Master audio output for the onboard interface."
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:95
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "17"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:95
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Headphones (3.5mm)"
 msgstr ""
 
-#: ../../hardware/controllers/numark_dj2go2_touch.rst:95
+#: ../../hardware/controllers/numark_dj2go2_touch.md:19
 msgid "Headphones audio output for the onboard interface."
 msgstr ""

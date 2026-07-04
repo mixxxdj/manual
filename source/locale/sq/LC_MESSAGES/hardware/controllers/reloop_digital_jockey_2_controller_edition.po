@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2024, The Mixxx Development Team
+# Copyright (C) 2011-2026, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-29 13:35+0100\n"
+"POT-Creation-Date: 2026-07-01 00:12+0200\n"
 "PO-Revision-Date: 2024-05-22 20:50+0000\n"
 "Language-Team: Albanian (https://app.transifex.com/mixxx-dj-software/teams/7734/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.rst:2
+#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.md:1
 msgid "Reloop Digital Jockey 2 Controller Edition"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.rst:4
+#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.md:4
 msgid ""
-"`Manufacturer’s product page <http://www.reloop.com/reloop-digital-"
-"jockey-2-ce>`__"
+"[Manufacturer’s product page](http://www.reloop.com/reloop-digital-"
+"jockey-2-ce)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.rst:5
+#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.md:5
 msgid ""
-"`Forum thread <https://mixxx.discourse.group/t/reloop-digital-"
-"jockey-2-controller-edition/10489>`__"
+"[Forum thread](https://mixxx.discourse.group/t/reloop-digital-"
+"jockey-2-controller-edition/10489)"
 msgstr ""
 
-#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.rst:10
+#: ../../hardware/controllers/reloop_digital_jockey_2_controller_edition.md:10
 msgid ""
 "Unfortunately a detailed description of this controller mapping is still "
-"missing. If you own this controller, please consider `contributing one "
-"<https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-content-"
-"documenting-the-mapping>`__."
+"missing. If you own this controller, please consider [contributing "
+"one](https://github.com/mixxxdj/mixxx/wiki/Contributing-Mappings#user-"
+"content-documenting-the-mapping)."
 msgstr ""
