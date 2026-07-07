@@ -269,8 +269,9 @@ No.  Control                                                   Function
 
 *MIXXXED mode* section
 ^^^^^^^^^^^^^^^^^^^^^^
+Mixxxed mode allows you to dynamically switch autoloop mode pads to other available modes. Mode is not on by default and must be enabled in configurations. 
 
-When ``multiModeEnabled`` is on, :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→` cycles
+When ``mixxxedModeEnabled`` is on, :hwlabel:`SHIFT` + :hwlabel:`←FX2/FX3→` cycles
 per-deck modes on the Auto Loop pad row (1→2→3→4→1). Release :hwlabel:`SHIFT`
 or wait 1.5 s after the last step to lock. Mode preview uses the shift pad LED
 row.
@@ -332,11 +333,10 @@ No.  Control                                                   Function
 3    Auto Loop Mode :hwlabel:`SHIFT` + :hwlabel:`pads 1–8`      Anchor modes only: toggle hotcue anchor override on deck 1 (SHIFT row LEDs show set hotcues).
 ==== ========================================================= ======================================================================
 
-All piano pads target **deck 1** audio. The right Auto Loop row is decks 1 / 3;
-the right row is decks 2 / 4. In **anchor modes** (Major / Minor), pad 1 is the
+All piano pads target **deck 1** audio. In **anchor modes** (Major / Minor), pad 1 is the
 **original reference key**; playback snaps to the anchor on each pad press.
 
-.. note:: ``Keylock`` - is enabled while in piano mode. Exist all piano decks to revert back to previous enable/disabled status. 
+.. note:: ``Keylock`` - is enabled while in piano mode. Exit all piano decks to revert back to previous enabled/disabled status. 
 
 Major [Ionian]
 """"""""""""""
@@ -451,49 +451,49 @@ as fallback.
    * - Variable
      - Function
      - Default
-   * - ``PioneerDDJREV1PROD.vinylMode``
+   * - ``PioneerDDJREV1.vinylMode``
      - Per-deck startup vinyl / CDJ mode.
      - ``true``
-   * - ``PioneerDDJREV1PROD.VinylSlipAutoff``
+   * - ``PioneerDDJREV1.VinylSlipAutoff``
      - Auto-enable slip on vinyl touch and auto-disable on release.
      - ``false``
-   * - ``PioneerDDJREV1PROD.nonShiftScratchFeel``
+   * - ``PioneerDDJREV1.nonShiftScratchFeel``
      - Scratch speed: DEFAULT / PLX / DIGITAL / AKO / STUDIO.
      - ``Default``
-   * - ``PioneerDDJREV1PROD.librarySortDefaults``
+   * - ``PioneerDDJREV1.librarySortDefaults``
      - Sort by any available library option.
      - ``"artist"``, ``"bpm"``, ``"date added"``, ``"key"``
-   * - ``PioneerDDJREV1PROD.bigLibraryShiftPush``
+   * - ``PioneerDDJREV1.bigLibraryShiftPush``
      - :hwlabel:`SHIFT` + :hwlabel:`ROTARY SELECTOR PUSH` Maximize and minimize "Big Library". *Replaces library backwards panel movement. Use forward to cycle through.*
      - ``false``
-   * - ``PioneerDDJREV1PROD.beatJumpSize1`` … ``beatJumpSize8``
+   * - ``PioneerDDJREV1.beatJumpSize1`` … ``beatJumpSize8``
      - Per-pad configuration for beat jump size, includes action override.
      - ``Back/Half/Double/Forward`` … ``Prev/RWD/FWD/Censor``
-   * - ``PioneerDDJREV1PROD.autoLoopSize1`` … ``autoLoopSize8``
+   * - ``PioneerDDJREV1.autoLoopSize1`` … ``autoLoopSize8``
      - Per-pad loop sizes for auto loop mode (1/32...-64, halves/doubles).
      - ``1/16`` … ``8``
-   * - ``PioneerDDJREV1PROD.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
+   * - ``PioneerDDJREV1.beatLoopRollsSize1`` … ``beatLoopRollsSize8``
      - Per-pad roll sizes for beat roll mode (1/32...-64, halves/doubles).
      - ``1/4`` … ``32``
-   * - ``PioneerDDJREV1PROD.sZoom``
+   * - ``PioneerDDJREV1.sZoom``
      - Use vinyl side jog for waveform zoom.
      - ``false``
-   * - ``PioneerDDJREV1PROD.waveformZoomMode``
+   * - ``PioneerDDJREV1.waveformZoomMode``
      - Attach waveform zoom to deck Vinyl or CDJ mode when enabled.
      - ``vinyl``
-   * - ``PioneerDDJREV1PROD.vuMeterMode``
+   * - ``PioneerDDJREV1.vuMeterMode``
      - VU meter routing: legacy per-deck meters, or stereo split master (left , right).
      - ``per_deck``
-   * - ``PioneerDDJREV1PROD.brakingEnabled``
+   * - ``PioneerDDJREV1.brakingEnabled``
      - Enable profile-based :hwlabel:`SHIFT` + :hwlabel:`PLAY` braking.
      - ``false``
-   * - ``PioneerDDJREV1PROD.brakingStartProfile``
+   * - ``PioneerDDJREV1.brakingStartProfile``
      - Start profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1PROD.brakingStopProfile``
+   * - ``PioneerDDJREV1.brakingStopProfile``
      - Stop profile for :hwlabel:`SHIFT` + :hwlabel:`PLAY`: ``off`` / ``classic`` / ``slow``.
      - ``off``
-   * - ``PioneerDDJREV1PROD.tempSamplerSkin``
+   * - ``PioneerDDJREV1.tempSamplerSkin``
      - Show sampler UI while using the sampler volume gate.
      - ``false``
    * - ``PioneerDDJREV1.splitFx``
@@ -502,7 +502,7 @@ as fallback.
    * - ``PioneerDDJREV1.tempoRangeProfile``
      - :hwlabel:`Deck Select` long press cycles through preselected ranges (wraps to first step). Default [8%, 16%, 50%], Classic [6%, 10%, 16%, 25%], Alt Step Size [8%, 24%, 50%], Extreme [8%, 16%, 50%, 100%].
      - ``Default``
-   * - ``PioneerDDJREV1.multiModeEnabled``
+   * - ``PioneerDDJREV1.mixxxedModeEnabled``
      - :hwlabel:`Shift` + :hwlabel:` ←FX2/FX3→` cycles through available modes.
      - ``false``
    * - ``PioneerDDJREV1.beatSlicerPattern``
@@ -514,7 +514,10 @@ as fallback.
    * - ``PioneerDDJREV1.disableStartFader``
      - :hwlabel:`Shift` + :hwlabel:`Any fader` Disables channel and crossfader start.
      - ``false``
-   * - ``PioneerDDJREV1PROD.samplePadLayout``
+   * - ``PioneerDDJREV1.cdjVinylTogglePulseEnabled``
+     - Enable lighiting indicator for deck switch. Vinly - 2 flast blinks / CDJ 3 slower blinks ('script').
+     - ``false``
+   * - ``PioneerDDJREV1.samplePadLayout``
      - ``Standard`` / ``Banked Rows`` / ``Per Pad 32``.
      - ``Standard``
 
