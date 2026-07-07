@@ -94,11 +94,13 @@ you see clipping indicated, lower the gain of the playing decks or use {hwlabel}
 
 | Control                                    |  Description |
 | --- | --- |
-| Library encoder press                      |  Load track selected in library to the deck or open selected tree in menu. |
+| Library encoder rotate                     |  In track list: move track selection up/down. In search: browse search history. In tree: move selection up/down. |
+| {hwlabel}`SHIFT` + Library encoder rotate  |  In track list: move columns left/right. In search: move cursor left/right. In tree: expand/collapse folder/collection. |
+| Library encoder press                      |  In track list: load track on selected deck. In search: move to track list. In tree: expand/collapse folder/collection. |
 | {hwlabel}`SHIFT` + Library encoder press   |  Eject track. |
 | Small play button                          |  While held, plays the current track in the preview deck.  If you rotate the library encoder while you hold the {hwlabel}`PLAY` button, Mixxx will scan through the track being previewed. |
-| Star button                                |  Sort the library based on the selected column. Press again to toggle sort order ascending/descending. |
-| {hwlabel}`≡+` (List-plus button)           |  Move focus of library control between left-hand tree, search, and main list. |
+| Star button                                |  Sort the track list based on the selected column. Press again to toggle sort order ascending/descending. |
+| {hwlabel}`≡+` (List-plus button)           |  Move focus of library control between left-hand tree, search, and track list. |
 | {hwlabel}`VIEW` button                     |  Expand / minimize library view. |
 
 
