@@ -116,10 +116,10 @@ latex:
 	      "(use \`make latexpdf' here to do that automatically)."
 
 latexpdf:
-	$(SPHINXBUILD) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS)
-	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/latex all-pdf
-	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+	$(SPHINXBUILD) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS) -Dlatex_engine=xelatex
+	@echo "Running LaTeX files through xelatex..."
+	$(MAKE) -C $(BUILDDIR)/latex LATEXMKOPTS="-f -interaction=nonstopmode -pdf -xelatex" all-pdf
+	@echo "xelatex finished; the PDF files are in $(BUILDDIR)/latex."
 
 latexpdfja:
 	$(SPHINXBUILD) source $(BUILDDIR)/latex -b latex $(ALLSPHINXOPTS)

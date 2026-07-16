@@ -109,7 +109,7 @@ is available. Soundcards designed for musicians almost always have an ASIO
 driver available, but audio interfaces built into computers and very cheap
 audio interfaces typically do not have an ASIO driver. If there is no ASIO
 driver available for your audio interface, use the WDM-KS API. There is
-generally no advantage to using `ASIO4ALL <http://www.asio4all.org>`_, a wrapper
+generally no advantage to using `ASIO4ALL <https://asio4all.org>`_, a wrapper
 around the WDM-KS API.
 
 GNU/Linux

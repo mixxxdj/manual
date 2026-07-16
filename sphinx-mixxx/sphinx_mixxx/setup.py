@@ -1,4 +1,5 @@
 from .domains import MixxxDomain
+from .footnotes import PerSectionFootnotes
 from .roles import specific_docroles
 
 from docutils.parsers.rst import roles
@@ -22,6 +23,9 @@ def setup(app):
         "mixxx-control",
         "",
     )
+
+    app.add_config_value("per_section_footnotes", False, "env")
+    app.add_post_transform(PerSectionFootnotes)
 
     return {
         "version": "0.1",
