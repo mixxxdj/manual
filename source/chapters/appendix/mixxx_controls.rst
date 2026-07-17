@@ -4280,15 +4280,6 @@ Controls
    :range: binary
 
 
-.. mixxx:control:: [EffectRack1_EffectUnitN],loaded
-                   [EqualizerRack1_[ChannelI]],loaded
-                   [QuickEffectRack1_[ChannelI]],loaded
-
-   Whether an EffectChain is loaded into the EffectUnit
-
-   :range: binary, read-only
-
-
 .. mixxx:control:: [EffectRack1_EffectUnitN],loaded_chain_preset
                    [EqualizerRack1_[ChannelI]],loaded_chain_preset
                    [QuickEffectRack1_[ChannelI]],loaded_chain_preset
