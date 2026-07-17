@@ -135,35 +135,83 @@ Stanton SCS.3d (slider mode)
 
 Hold the FX button down and touch any slider to reset it to center.
 
+To control another effect, buttons B11 through B14 allow you to switch. The
+currently active effect is shown in red where button B11 lights red when the
+first effect chain is selected, B12 for the second chain, B13 for chain 3, and
+B14 for chain 4. The buttons turn blue when the active deck is assigned to this
+effect chain. If the active effect is assigned to the current deck, the
+corresponding button will appear purple. If you don’t see purple it means that
+the effect you’re controlling is not assigned to the current deck.
+
+For example, if the controller is on deck 2, has effect slot 2 selected, and
+effects 2 and 3 assigned, the four buttons would be lit as follows:
+
+-  B11: black
+-  B12: purple
+-  B13: blue
+-  B14: black
+
+**While holding FX:**
+
+You can toggle assignment of the current deck to effect chains with buttons
+B11 through B14. B11 assigns effect chain 1, B12 assigns effect chain 2,
+B13 assigns chain 3, and B14 assigns chain 4 to the active deck. The effects
+that have the current deck assigned are shown in blue. While FX is held, S2 can
+be used to scroll through different effects. To load the next effect, touch top
+half of the slider and touch the bottom half to load the previous effect into
+the currently active effect slot.
+
+When FX is held, the button for the active deck is shown in red. So if you want
+to assign the active effect to the active deck, press the button that is red. If
+the button is purple, pressing it would deactivate the active effect on the
+active deck.
+
+Example on how to load an echo effect into chain 3 and assign it to channel 2:
+
+1. Press DECK-B12 to switch to deck 2
+2. Press FX to switch to FX mode
+3. Press B13 to select effect chain 3
+4. Slide S2 to the bottom to bypass chain 3 (precautionary measure)
+5. Hold FX and touch S2 above the middle to select the next effect (will select
+   echo if no effect was selected previously)
+6. Hold FX and press B13 to assign effect chain 3 to deck 2
+7. Adjust echo parameters with sliders S3, S4, S5
+8. Slide S2 upwards to bring the effect in
+
+**v2.0.0 and below:**
+
+  - Left slider (S3) adjusts flanger depth
+  - Center slider (S4) adjusts flanger delay
+  - Right slider (S5) adjusts flanger period (Low Frequency Oscillator)
+  - B11 plays track in reverse while held down
+  - B12 toggles flanger effect
+
 ### EQ Mode
 
+In EQ mode, the central sliders S3, S4, S5 control low/mid/high EQs. Hold EQ to
+control pre-gain on S1 instead of volume. The other controls
+(low/mid/high/pitch) are reset to center when the control is touched while EQ is
+held.
+
+### Loop mode (red)
 
 ```{figure-md}
 :align: center
 
-<img src="../../_static/controllers/stanton_scs3d_slidermode.jpg" alt="Stanton SCS.3d (slider mode)" class="pretty-figures">
+<img src="../../_static/controllers/stanton_scs3d_circlemode.jpg" alt="Stanton SCS.3d (circle mode)" class="pretty-figures">
 
 
-Stanton SCS.3d (slider mode)
+Stanton SCS.3d (circle mode)
 ```
--  Left slider (S3) adjusts low frequency equalizer
--  Center slider (S4) adjusts mid frequency equalizer
--  Right slider (S5) adjusts high frequency equalizer
+By touching the circle you activate a loop over a certain number of beats.
+Touching on the right side will activate a beat-loop over 1, 2, 4, 8 etc beats,
+starting from the top. On the left side you get fractions 1/2, 1/4, 1/8 etc
+loops starting from the top. To leave the loop, touch center.
 
-Hold the EQ button down and touch any slider to reset it to center.
-
-### Loop mode (red)
-
-
-The surface is configured as 11 buttons:
-
-| Left          | Middle      | Right |
-| --- | --- | --- |
-| 1/8-beat loop | Loop In     | 2-beat loop |
-| 1/4-beat loop | Reloop/Exit | 4-beat loop |
-| 1/2-beat loop | Reloop/Exit | 8-beat loop |
-| 1-beat loop   | Loop Out    | 16-beat loop |
-
+By touching the LOOP mode button again, the ‘rolling’ overlay comes on and the
+LOOP button turns blue. In rolling mode, the loop will be released as soon as
+you take your finger off the circle and the track will resume where it would
+have been without looping.
 
 **Mixxx v2.0.1 and above** have the left column flipped so you can adjust the
 loop size sequentially when moving along the circle:
@@ -185,6 +233,14 @@ Also:
 -  **B12** (under the Pitch slider) doubles the length of the current loop
 
 You can exit any loop by pressing Reloop/Exit (or a lit beat loop button.)
+
+### 1.8.0-1.10.0
+
+The surface is configured as three giant buttons:
+
+  - Left: Loop In (mark the start of a loop)
+  - Middle: Reloop/Exit (toggle looping)
+  - Right: Loop Out (mark the end of a loop)
 
 ## Instant-pitch change modes (Loop button)
 
@@ -291,8 +347,9 @@ You are in this mode only **while holding down the Deck button**, unless the con
    value
 -  Press Deck + Play together to change the active deck
 
-### General controls
+Note that the active deck is synced with the {ref}`Stanton SCS.3m <stanton-scs-3m>`, so when switching between decks 1 and 3, or 2 and 4 the other device changes as well.
 
+## General controls
 
 ```{figure-md}
 :align: center
@@ -313,7 +370,7 @@ modes.
 -  CUE will jump to the cue point or set it, depending on your settings and
    whether the track is playing.
 -  SYNC syncs the active deck to another deck. Holding SYNC for more than one
-   second will enable SYNC lock.
+   second will enable Sync lock.
 -  Pressing TAP repeatedly will adjust track BPM.
 
 The currently active deck/channel is shown by lighting one of B11 through B14
@@ -353,13 +410,14 @@ for that deck will be selected.
 By holding a mode button, a mode is enabled temporarily in hold-mode. When the
 button is released again, the device switches back to the previously selected
 mode. Some hold-modes enable alternative, often disruptive functionality. Most
-of the time you won’t want to use the hold-modes on live decks (e.g. needledrop
+of the time you won’t want to use the hold-modes on live decks (e.g. needledrop
 in VINYL) or you must be very cautious (assigning effect chains with FX).
 
 Each mode will be explained in detail below.
 
-### FX mode
+# Alternate mapping
 
+*(Available in Mixxx 2.0 and above.)*
 
 ```{figure-md}
 :align: center

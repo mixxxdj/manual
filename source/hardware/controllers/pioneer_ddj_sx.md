@@ -1,5 +1,6 @@
 # Pioneer DDJ-SX
 
+![](../../_static/controllers/pioneer_ddj_sx_layout.png)
 
 The Pioneer DDJ-SX is a 4 deck all-in-one controller that provides intuitive control of all of Mixxx’s features. The DDJ-SX mapping [reportedly works with the
 DDJ-SX2](https://mixxx.discourse.group/t/pioneer-ddj-sx-controller-mapping/15954/22), but it does not use the new features of the DDJ-SX2 hardware.
@@ -20,12 +21,11 @@ To change the mapping’s user options, you have to open the script file (*.js).
 -  **PioneerDDJSX.twinkleVumeterAutodjOn**: If true, level-meter twinkles if *AutoDJ* is enabled.
 -  **PioneerDDJSX.autoDJAddTop**: If true, the selected track will be added to *AutoDJ* queue-top on pressing {hwlabel}`ROTARY SELECTOR`, else the selected track will be added to *AutoDJ* queue-bottom.
 -  **PioneerDDJSX.autoDJTickInterval**: Sets the duration of sleeping between *AutoDJ* actions if *AutoDJ* is enabled [ms].
--  **PioneerDDJSX.autoDJMaxBpmAdjustment**: Sets the maximum adjustment of BPM allowed for beats to sync if *AutoDJ* is enabled.
+-  **PioneerDDJSX.autoDJMaxBpmAdjustment**: Sets the maximum adjustment of BPM allowed for beats to sync if *AutoDJ* is enabled [BPM].
 -  **PioneerDDJSX.autoDJShuffleAfterSkip**: If true, *AutoDJ* queue is being shuffled after skipping a track.
 -  **PioneerDDJSX.jumpPreviewEnabled**: If true, by releasing the Rotary Selector, track in preview player jumps forward to ``jumpPreviewPosition``.
 -  **PioneerDDJSX.jumpPreviewPosition**: Sets the preview player absolute position, being set at releasing Rotary Selector and if ``jumpPreviewEnabled`` enabled.
--  **PioneerDDJSX.samplerCueGotoAndPlay**: If true, pad press in {hwlabel}`SAMPLER PAD MODE` repeatedly causes *sampler* to play loaded track from cue-point, else it causes to play loaded track from the
-   beginning.
+-  **PioneerDDJSX.samplerCueGotoAndPlay**: If true, pad press in {hwlabel}`SAMPLER PAD MODE` repeatedly causes *sampler* to play loaded track from cue-point, else it causes to play loaded track from the beginning.
 -  **PioneerDDJSX.autoPFL**: If true, PFL / Cue (headphone) is being activated by loading a track into certain deck.
 
 ## General Functions
@@ -160,7 +160,7 @@ The controls listed here are documented in Section 6 ("Performance Pads") of the
 | 13              |  {hwlabel}`PARAMETER LEFT`                    |   Jump *beatjump_size* beats backward |
 | 13              |  {hwlabel}`SHIFT` + {hwlabel}`PARAMETER LEFT` |   Increase *beatjump_size* |
 | 14              |  {hwlabel}`PARAMETER RIGHT`                   |   Jump *beatjump_size* beats forward |
-| 14              |  {hwlabel}`SHIFT` + {hwlabel}`PARAMETER RIGHT |   Decrease *beatjump_size* |
+| 14              |  {hwlabel}`SHIFT` + {hwlabel}`PARAMETER RIGHT` |   Decrease *beatjump_size* |
 
 
 
@@ -291,7 +291,7 @@ As soon as loop slice mode is deactivated (by pressing {hwlabel}`SLICER` mode bu
 | 7               |  {hwlabel}`SHIFT` + {hwlabel}`PAD 7`           |   Sample deck index 7 (according sampler bank) - playing: stop deck, stopped: eject track |
 | 8               |  {hwlabel}`PAD 8`                             |   Sample deck index 8 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck |
 | 8               |  {hwlabel}`SHIFT` + {hwlabel}`PAD 8`           |   Sample deck index 8 (according sampler bank) - playing: stop deck, stopped: eject track |
-| 13              |  {hwlabel}`PARAMETER LEFT`                    |   Decrement active sampler bank (0-3), button LED is illuminated at sampler bank 2, 3. Sampler bank 0: sampler 1-8, sampler bank 1: sampler 9-16 sampler bank 2: sampler 17-24, sampler bank 3: sampler 25-32 |
+| 13              |  {hwlabel}`PARAMETER LEFT`                    |   Decrement active sampler bank (0-3), button LED is illuminated at sampler bank 2, 3. Sampler bank 0: sampler 1-8, sampler bank 1: sampler 9-16, sampler bank 2: sampler 17-24, sampler bank 3: sampler 25-32 |
 | 14              |  {hwlabel}`PARAMETER RIGHT`                   |   Increment active sampler bank (0-3), button LED is illuminated at sampler bank 1, 3. Sampler bank 0: sampler 1-8, sampler bank 1: sampler 9-16, sampler bank 2: sampler 17-24, sampler bank 3: sampler 25-32 |
 
 
@@ -334,7 +334,7 @@ The controls listed here are documented in Section 2 ("Effects") of the owner's 
 
 | Figure          |  Control                               |   Description |
 | --- | --- | --- |
-| 1 (L)           |  {hwlabel}`FX1-1`                      |   Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of  effect in EffectRack1-EffectUnit1/3 |
+| 1 (L)           |  {hwlabel}`FX1-1`                      |   Focused effect none: Controls EffectRack1-EffectUnit1/3-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of focused effect in EffectRack1-EffectUnit1/3 |
 | 1 (L)           |  {hwlabel}`SHIFT` + {hwlabel}`FX1-1`   |   Controls effect selection for EffectRack1-EffectUnit1/3 effect 1 |
 | 1 (R)           |  {hwlabel}`FX2-1`                      |   Focused effect none: Controls EffectRack1-EffectUnit2/4-Effect1 meta, Focused effect 1..3: Controls effect parameter 1 of focused effect in EffectRack1-EffectUnit2/4 |
 | 1 (R)           |  {hwlabel}`SHIFT` + {hwlabel}`FX2-1`    |   Controls effect selection for EffectRack1-EffectUnit2/4 effect 1 |
@@ -362,14 +362,13 @@ The controls listed here are documented in Section 2 ("Effects") of the owner's 
 | 8 (R)           |  {hwlabel}`SHIFT` + {hwlabel}`FX2 TAP`  |   Switch EffectUnit 2 <-> 4 |
 | 9, 10, 11, 12   |  {hwlabel}`FX1 ASSIGN`                 |   Assign EffectRack1-EffectUnit1/3 to specific deck |
 | 13, 14, 15, 16  |  {hwlabel}`FX2 ASSIGN`                 |   Assign EffectRack1-EffectUnit2/4 to specific deck |
-| 17, 18, 19, 20  |  {hwlabel}`FILTER`                     |   Control QuickEffectRack1 super1 knob (e.g. moog filter) |
+| 17, 18, 19, 20  |  {hwlabel}`FILTER`                     |   Control QuickEffectRack1 super1 knob (e.g. moog filter) |
 
 
 ## Troubleshooting
 
 
-If you experience any strange behavior of a button or a LED (e.g. wheel LEDs not working), make sure your controller is set up correctly to work with Mixxx. The DDJ-SX provides several settings, which
-can be changed in a special *Utility-Mode*.
+If you experience any strange behavior of a button or a LED (e.g. wheel LEDs not working), make sure your controller is set up correctly to work with Mixxx. The DDJ-SX provides several settings, which can be changed in a special *Utility-Mode*.
 
 ### Utility-Mode
 
@@ -387,3 +386,9 @@ To use the DDJ-SX with Mixxx, the controller must be configured for the usage of
 
 -  {hwlabel}`KEY LOCK` button off: Controller is configured for using Serato DJ (default).
 -  {hwlabel}`KEY LOCK` button on (lit): Controller is configured for using different DJ-software.
+
+## References
+
+  - [List of MIDI messages](https://pdj-ecom-cdn.azureedge.net/-/media/pioneerdj/software-info/controller/ddj-sx/ddj-sx_list_of_midi_messages_e.pdf?la=en)
+  - Controller Scripting
+  - Mixxx Controls

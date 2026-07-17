@@ -233,7 +233,7 @@ Effects via JACK Rack on GNU/Linux
    The Jack routing for external effects on GNU/Linux
 
 Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
-each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
+each deck directly through `JACK Rack <https://jack-rack.sourceforge.net/>`_
 effect racks, or for more control you can use Ardour (or another :term:`DAW`)
 using sends for effects. This gives Mixxx access to the extensive collection of
 :term:`LADSPA` plugins.
@@ -288,7 +288,6 @@ Migrate your Mixxx library and settings to Flatpak
 Since version 2.5 Mixxx is also provided as Flatpak.
 
 If you do want to switch from a distribution package or Mixxx built from source code to the Flatpak, a little setup is required. Flatpak stores Mixxx's database, settings, and custom controller mappings in a different location than the `~/.mixxx` directory that Mixxx has always used before. Flatpak uses `~/.var/app/org.mixxx.Mixxx/.mixxx` instead. To copy your database, settings, and controller mappings into the Flatpak sandbox, run:
-::
 
   mkdir -p ~/.var/app/org.mixxx.Mixxx
   cp -r ~/.mixxx ~/.var/app/org.mixxx.Mixxx

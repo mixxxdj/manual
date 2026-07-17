@@ -11,7 +11,7 @@
 
 Pioneer DDJ-SB3 (schematic view)
 ```
-The Pioneer DDJ-SB3 is a 4 deck USB DJ controller.
+The Pioneer DDJ-SB3 is a 4 deck USB MIDI controller with a built-in sound card.
 
 -  [Manufacturer's Product Page](https://www.pioneerdj.com/product/dj-controllers/ddj-sb3/)
 -  [Manufacturer's User Manual](https://support.alphatheta.com/articles/4404925658009?product=4416577034009)
@@ -39,6 +39,17 @@ This controller mapping does not support any inputs. The controller itself has a
 Decks 3 and 4 you will not work unless you map at least one of Mixxx's outputs to use the DDJ-SB3 sound card. This is a limitation of the
 controller's firmware.
 :::
+
+## Compatibility
+
+### Windows
+
+Pioneer has a [driver](https://www.pioneerdj.com/en/support/software/ddj-sb3/#drivers) for Windows versions 7 and newer. Select the ASIO sound API in Mixxx's Sound Hardware Preferences.
+
+### Mac OS X & Linux
+
+The DDJ-SB3 is a USB class compliant MIDI and audio device, so it works with Mac OS X and Linux without any special drivers.
+
 ## Controller Mapping
 
 

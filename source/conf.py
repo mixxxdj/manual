@@ -38,6 +38,7 @@ extensions = [
     "myst_parser",
     "sphinx_mixxx",
     "notfound.extension",
+    "linuxdoc.rstFlatTable",
 ]
 
 todo_include_todos = True
@@ -473,6 +474,9 @@ linkcheck_ignore = [
 # Avoid freezing during linkcheck
 linkcheck_timeout = 60
 linkcheck_retries = 2
+user_agent = (
+    "Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
+)
 
 # Don't verify TLS
 tls_verify = False
@@ -481,4 +485,6 @@ tls_verify = False
 myst_enable_extensions = [
     "attrs_block",
     "colon_fence",
+    "deflist",
 ]
+per_section_footnotes = True

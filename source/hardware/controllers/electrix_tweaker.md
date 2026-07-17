@@ -24,6 +24,15 @@ the Mixxx mapping on any OS that Mixxx runs on.
 Use it with the Tweaker MIDI 1 port (Tweaker MIDI 2 is the 5-pin MIDI
 I/O on the Tweaker).
 
+## Reviews
+
+  - [DJ Tech Tools](http://djtechtools.com/2012/09/27/review-electrix-tweaker-midi-performance-controller/)
+  - [Digital DJ Tips](http://www.digitaldjtips.com/2013/01/electrix-tweaker-review-video/)
+  - [DJWORX](http://djworx.com/review-electrix-tweaker-dj-controller/)
+  - [Magnetic Mag](http://www.magneticmag.com/2013/03/gear-review-electrix-pro-tweaker-dj-controller/)
+  - [Crossfadr](http://www.crossfadr.com/2013/05/10/tweaking-knobs-on-the-electrix-tweaker/)
+  - [Core Mag TV](https://www.youtube.com/watch?v=Tk-I_lJfxys)
+
 ## Mapping description
 
 
