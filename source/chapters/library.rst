@@ -485,9 +485,11 @@ Mixxx supports the following filters:
        ~key:c#m
 
   * Fuzzy BPM searches find tracks in the range of +/- N % of the current pitch
-    slider range. N can be set in :menuselection:`Preferences --> Library --> Track Search`.
+    slider range, as well as the respective half and double ranges. N can be set 
+    in :menuselection:`Preferences --> Library --> Track Search`.
     With the default pitch slider range of 8% and the default BPM search range
-    of 75%, the following example lists tracks with BPM between 94 and 106.
+    of 75%, the following example lists tracks with BPM between 94 and 106, 
+    47 and 53, as well as 188 and 212.
 
     ::
 
