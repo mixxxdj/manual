@@ -21,6 +21,21 @@ It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, a
    - The same is true for tracks that are not STEMS tracks.
    - `Mixxx`_ 2.6 is currently (27/07/2026) in beta, but it's perfectly fine for using in non-critical scenarios.
 
+
+.. note::
+
+   - While :hwlabel:`Fade FX` can use any effect available on each channel, effects that dont have their reset point at 0, may not work as expected.
+   - Effects that don't reset at 0 are the effects that are at their lowest intensity when the knob is turned all the way to the left.
+   - These effects currently are:
+       - Filter Echo
+       - Mid/Side
+       - Balance
+       - Filter
+       - Loudness
+       - Moog Filter
+       - Pitch Shift
+
+
 -  `Product page`_
 -  `Forum thread`_
 
