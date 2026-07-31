@@ -19,7 +19,6 @@ It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, a
 
    - If a Mixxx version under 2.6 is used, the :hwlabel:`acapel` :hwlabel:`instru` and :hwlabel:`mode STEMS` controls won't be available.
    - The same is true for tracks that are not STEMS tracks.
-   - `Mixxx`_ 2.6 is currently (27/07/2026) in beta, but it's perfectly fine for using in non-critical scenarios.
 
 
 .. note::
@@ -109,7 +108,7 @@ No.     Control                                                          Functio
 **21**  :hwlabel:`Main Audio output`                                     Connect this output to an amplifier or speaker system.
 **22**  :hwlabel:`USB-C Port`                                            This USB connection serves as source of power and sends/receives audio, control information from a connected
                                                                          computer, tablet, or smartphone.
-**23**  :hwlabel:`Headphone Output`                                      Connect headphones to this 1/8” (3.5 mm) jack for monitoringthe signal. The headphone volume is controlled using the Cue Gain knob.
+**23**  :hwlabel:`Headphone Output`                                      Connect headphones to this 1/8” (3.5 mm) jack for monitoring the signal. The headphone volume is controlled using the Cue Gain knob.
 ======  ===============================================================  ===================================================================================================================================
 
 
