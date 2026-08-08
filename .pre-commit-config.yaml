@@ -60,7 +60,7 @@ repos:
   - id: rstcheck
     name: "Check RST syntax"
     args: [
-      --ignore-messages=(Hyperlink target.*not referenced)\.$,
+      --ignore-messages=(Hyperlink target.*not referenced|File referenced in "include" directive not found:.*)\.$,
     ]
     additional_dependencies:
     - sphinx

@@ -32,6 +32,7 @@ jobs:
         working-directory: manual
         run: |
           pip install -r requirements.txt
+          python -c "import linuxdoc; print(linuxdoc.__path__[0])" | xargs -I{} patch -d {} -p1 -N -i patches/linuxdoc-rstFlatTable.patch || true
           pip install pre-commit
           make html
 

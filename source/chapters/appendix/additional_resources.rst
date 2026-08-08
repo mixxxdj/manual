@@ -43,5 +43,5 @@ There are a variety of other resources where you can find out more:
 
 * **Social Media**: Follow us on `Mastodon <https://floss.social/@mixxx>`_,
   `Bluesky <https://bsky.app/profile/mixxx.bsky.social>`_,
-  `Facebook <https://www.facebook.com/pages/Mixxx-DJ-Software/21723485212>`_ and
+  `Facebook <https://www.facebook.com/mixxxdj/>`_ and
   `YouTube <https://www.youtube.com/@mixxxdj/posts>`_

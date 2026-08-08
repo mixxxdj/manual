@@ -1,20 +1,19 @@
-.. _numark-mixtrack:
+(numark-mixtrack)=
 
-Numark Mixtrack
-===============
+# Numark Mixtrack
 
-This controller as the same as the :ref:`Numark Mixtrack Pro <numark-mixtrack-pro>` but without a built-in sound card.
-It has been discontinued and succeeded by the :ref:`Numark Mixtrack 3 <numark-mixtrack-pro-3>`.
+This controller as the same as the {ref}`Numark Mixtrack Pro <numark-mixtrack-pro>` but without a built-in sound card.
+It has been discontinued and succeeded by the {ref}`Numark Mixtrack 3 <numark-mixtrack-pro-3>`.
 
--  `Manufacturer’s product page <https://www.numark.com/product/mixtrack>`__
--  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack/10918>`__
+-  [Manufacturer’s product page](https://www.numark.com/product/mixtrack)
+-  [Forum thread](https://mixxx.discourse.group/t/numark-mixtrack/10918)
 
-.. versionadded:: 1.8.2
+:::{versionadded} 1.8.2
+:::
 
-Mapping Description
--------------------
+## Mapping Description
 
-.. figure:: ../../_static/controllers/numark_mixtrack.png
+```{figure} ../../_static/controllers/numark_mixtrack.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -23,6 +22,7 @@ Mapping Description
 
    Numark Mixtrack (schematic view)
 
+```
 1.  USB cable
 2.  Channel Treble
 3.  Channel Mid
@@ -65,24 +65,20 @@ Mapping Description
        -  1 Bar: make a loop of just one bar (the current one)
        -  2 X: multiply loop length by 2
 
-The Jogs
-~~~~~~~~
+### The Jogs
 
-Not in scratch mode
-^^^^^^^^^^^^^^^^^^^
+### Not in scratch mode
 
 When not in scratch mode, touching the jogs won’t pause the song. Turning them will slightly adjust the tempo, which will resume slowly to its speed. This slowness to resume is somehow equivalent to
 what you would expect from drivebelt turntables. I hate it, and I have not found a way to correct it… This is why I mostly mix using the pitch bend buttons, which allow for an instant resume to the
 “pitch slider assigned” pitch for the track.
 
-In scratch mode
-^^^^^^^^^^^^^^^
+### In scratch mode
 
 In scratch mode, touching the jogs will pause the song. The jogs are very sensitive, and allow for scratching and launching tracks on a given moments when “cueing them in your headphones”. Be very
 careful with this: never remain in scratch mode if not needed, you will touch the jogs by error and put your tracks out of sync because one has pause, or worse, produce a “blank”.
 
-Known problems
---------------
+## Known problems
 
 -  The pitch on the controller has a very short run. Thus, having it configured as a +10/-10 (or more) is tricky because you will get a very low pitch precision. Configuring it as +8/-8 (Mk2 style) is
    highly recommended

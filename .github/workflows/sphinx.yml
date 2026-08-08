@@ -19,6 +19,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
+    - name: Patch linuxdoc
+      run: >
+        python -c "import linuxdoc; print(linuxdoc.__path__[0])"
+        | xargs -I{} patch -d {} -p1 -N -i patches/linuxdoc-rstFlatTable.patch || true
     - name: Check for broken links
       run: sphinx-build -q --color -b linkcheck source build
 
@@ -38,6 +42,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
+    - name: Patch linuxdoc
+      run: >
+        python -c "import linuxdoc; print(linuxdoc.__path__[0])"
+        | xargs -I{} patch -d {} -p1 -N -i patches/linuxdoc-rstFlatTable.patch || true
     - name: Load problem matcher
       uses: ammaraskar/sphinx-problem-matcher@master
     - name: Check for build issues

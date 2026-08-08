@@ -115,7 +115,7 @@ FX select buttons have different functions than what is printed on them. Below i
 | Effect Unit 1 Effect 1 next FX | Adjust beatgrid on deck 2 | Effect Unit 2 Effect 1 next FX |
 :::
 
-:::{table} FX select/bonus functions buttons (:hwlabel:`SHIFT`)
+:::{table} FX select/bonus functions buttons ({hwlabel}`SHIFT`)
 :widths: auto
 :align: center
 | Pitch up on deck 1 | -- | Pitch up on deck 2 |
