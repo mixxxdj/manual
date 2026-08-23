@@ -4577,6 +4577,26 @@ The ``[Skin]`` group
    Some skins may not support some or all of these controls.
    In this case, triggering the unsupported control will do nothing.
 
+.. mixxx:control:: [Skin],show_4effectunits
+
+   Toggle between showing 2 and 4 effect units in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Effect units are shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_coverart
+
+   Toggle the display of cover art in the deck sections of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Cover art in the decks is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Skin],show_effectrack
 
    Toggle the display of the effect rack in the :term:`user interface <GUI>`.
@@ -4610,6 +4630,38 @@ The ``[Skin]`` group
       Replaces the deprecated :mixxx:coref:`[Master],maximize_library` control.
 
 
+.. mixxx:control:: [Skin],show_microphones
+
+   Toggle the microphone and auxiliary section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Microphone and auxiliary section is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Microphone],show_microphone` control.
+
+
+.. mixxx:control:: [Skin],show_mixer
+
+   Toggle the mixer section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Mixer section is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_preview_decks
+
+   Toggle the preview deck in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Preview deck is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[PreviewDeck],show_previewdeck` control.
+
+
 .. mixxx:control:: [Skin],show_samplers
 
    Toggle the display of sampler banks in the :term:`user interface <GUI>`.
@@ -4619,6 +4671,26 @@ The ``[Skin]`` group
 
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[Samplers],show_samplers` control.
+
+
+.. mixxx:control:: [Skin],show_settings
+
+   Toggle the skin settings panel in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Skin settings panel is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_spinnies
+
+   Toggle the spinning vinyl widgets in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Spinning vinyl widgets are shown/hidden.
+
+   .. versionadded:: 2.4.0
 
 
 .. mixxx:control:: [Skin],show_vinylcontrol
@@ -4908,6 +4980,26 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. deprecated:: 2.4.0
        Use :mixxx:coref:`[Skin],show_effectrack` instead.
+
+
+.. mixxx:control:: [Microphone],show_microphone
+
+   Toggle the microphone section in skins.
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_microphones` instead.
+
+
+.. mixxx:control:: [PreviewDeck],show_previewdeck
+
+   Toggle the preview deck in skins.
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_preview_decks` instead.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_enabled
