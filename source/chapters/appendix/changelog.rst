@@ -184,6 +184,9 @@ Preferences
 * Interface: use main window screen to detect if skin fits
   `#15824 <https://github.com/mixxxdj/mixxx/pull/15824>`__
   `#15823 <https://github.com/mixxxdj/mixxx/issues/15823>`__
+* Waveforms: display cached waveforms size in GiB when >= 1024 MiB
+  `#15578 <https://github.com/mixxxdj/mixxx/pull/15578>`__
+  `#14874 <https://github.com/mixxxdj/mixxx/issues/14874>`__
 
 Skins
 ^^^^^
