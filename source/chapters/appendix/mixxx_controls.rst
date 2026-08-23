@@ -4704,6 +4704,87 @@ The ``[Skin]`` group
       Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
 
 
+The ``[Mixer Profile]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Mixer Profile]
+
+   The :mixxx:cogroupref:`[Mixer Profile]` group contains controls for the
+   crossfader curve and the mixing equalizer crossover frequencies. These are
+   set in :ref:`Preferences --> Mixer <preferences-mixer>`.
+
+
+.. mixxx:control:: [Mixer Profile],xFaderMode
+
+   Select the crossfader mode. A value of 0 selects additive blending, 1
+   selects constant power blending.
+
+   :range: 0 .. 1
+   :feedback: Crossfader curve graph in preferences
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderCurve
+
+   Adjust the steepness of the crossfader curve when using constant power
+   mode. Higher values produce a sharper cut.
+
+   :range: 0.6 .. 1000
+   :feedback: Crossfader curve graph in preferences
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderCalibration
+
+   Internal calibration parameter for the constant power crossfader curve,
+   derived from :mixxx:coref:`xFaderCurve <[Mixer Profile],xFaderCurve>`. Not
+   stored in the configuration and not exposed in the preferences dialog.
+
+   :range: 0.3 .. 1
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderReverse
+
+   Reverse the crossfader assignment so that decks assigned to the left side
+   are controlled by the right half of the crossfader travel and vice versa.
+
+   :range: binary
+   :feedback: Crossfader direction is reversed
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],LoEQFrequency
+
+   Crossover frequency (in Hz) between the low and mid bands of the mixing
+   equalizer. Set in
+   :ref:`Preferences --> Mixer <preferences-mixer>` via the High/Low Shelf EQ
+   slider.
+
+   :range: frequency in Hz
+   :feedback: EQ crossover in preferences
+
+   .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [Mixer Profile],HiEQFrequency
+
+   Crossover frequency (in Hz) between the mid and high bands of the mixing
+   equalizer. Set in
+   :ref:`Preferences --> Mixer <preferences-mixer>` via the High/Low Shelf EQ
+   slider.
+
+   :range: frequency in Hz
+   :feedback: EQ crossover in preferences
+
+   .. versionadded:: 2.0.0
+
+
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
 
