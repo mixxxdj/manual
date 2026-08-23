@@ -534,3 +534,13 @@ Glossary of Terms
      :term:`operating systems <operating system>` without special drivers (on
      Windows, special drivers might still be necessary to use the :term:`ASIO`
      sound :term:`API` though).
+
+   Soft Takeover
+   softTakeover
+     A feature that prevents sudden jumps when a physical :term:`controller`
+     knob or slider position does not match the corresponding control in the
+     Mixxx :term:`GUI`. When soft takeover is enabled, Mixxx will not update
+     the control value until the physical knob is turned to match the current
+     software value. This avoids abrupt changes in audio when, for example,
+     a hardware fader was moved while the software value was changed
+     independently.
