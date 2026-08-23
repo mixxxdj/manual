@@ -74,9 +74,13 @@ In addition, this mapping uses two front panel controls that the
     ==============================  ==========================================
     Control                         Mapped to
     ==============================  ==========================================
-    :hwlabel:`CROSS-FADER CURVE`    :mixxx:coref:`[Mixer Profile],xFaderCurve`
-    :hwlabel:`MIC-LEVEL`            :mixxx:coref:`[Microphone],pregain`
+    :hwlabel:`CROSS-FADER CURVE`    ``[Mixer Profile],xFaderCurve``
+    :hwlabel:`MIC-LEVEL`            :mixxx:coref:`[Microphone] <[MicrophoneN],pregain>`
     ==============================  ==========================================
+
+.. note::
+   :guilabel:`xFaderCurve` sets the crossfader contour and is not documented
+   as a :term:`ControlObject` elsewhere in this manual.
 
 .. note::
    :hwlabel:`PHONE-TONE` and :hwlabel:`MIC-TONE` are intentionally not
