@@ -465,6 +465,9 @@ linkcheck_ignore = [
     "https://www.keithmcmillen.com/products/quneo/",
     "https://oblique-audio.com/rtl-utility.php",
     "https://support.alphatheta.com/",
+    # Ignore yaeltex.com because Cloudflare blocks CI runners by IP range
+    # with 403, even with a browser User-Agent. The link is valid.
+    r"^https://yaeltex.com",
 ]
 
 # Avoid freezing during linkcheck
