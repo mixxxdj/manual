@@ -477,7 +477,9 @@ linkcheck_retries = 2
 # Use a real browser User-Agent to avoid 403 errors from sites that block
 # the default Python urllib agent (e.g. Cloudflare-protected sites like
 # yaeltex.com)
-linkcheck_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+linkcheck_user_agent = (
+    "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+)
 
 # Don't verify TLS
 tls_verify = False
