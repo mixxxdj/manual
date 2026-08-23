@@ -23,7 +23,7 @@ There are a variety of other resources where you can find out more:
   :ref:`default keyboard mappings<appendix-keyboard>`
 
 * **Mixxx Community Forums**: To search for answers, post your question or
-  answer other DJ's questions, go to: `<https://mixxx.org/forums>`_
+  answer other DJ's questions, go to: `Help & Support Forum <https://mixxx.discourse.group/c/support/6>`_
 
 * **Mixxx Zulip Chat**: Hang out with Mixxx developers and users on our
   `Zulip chat <https://mixxx.zulipchat.com/>`_. Stand-alone
