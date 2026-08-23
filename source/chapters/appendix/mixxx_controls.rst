@@ -963,6 +963,22 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],beats_translate_move
+                   [PreviewDeckN],beats_translate_move
+                   [SamplerN],beats_translate_move
+
+   Move :term:`beatgrid` by the given number of ticks, earlier for negative
+   values and later for positive values. Each tick moves the beatgrid by a
+   small amount, equivalent to one press of
+   :mixxx:coref:`beats_translate_earlier <[ChannelN],beats_translate_earlier>`
+   or :mixxx:coref:`beats_translate_later <[ChannelN],beats_translate_later>`.
+
+   :range: relative value
+   :feedback: The beatgrid moves left or right by a small amount per tick.
+
+   .. versionadded:: 2.5.0
+
+
 .. mixxx:control:: [ChannelN],shift_cues_earlier
                    [PreviewDeckN],shift_cues_earlier
                    [SamplerN],shift_cues_earlier
