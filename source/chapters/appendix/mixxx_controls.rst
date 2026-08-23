@@ -3799,6 +3799,16 @@ The ``[Library]`` controls
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [Library],AutoDjAddReplace
+
+   Replace the entire Auto DJ Queue with the selected track(s).
+
+   :range: Binary
+   :feedback: Auto DJ playlist is replaced
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [Library],font_size_increment
 
    Increase the size of the library font. If the row height is smaller than the font-size the larger of the two is used.
