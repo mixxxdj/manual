@@ -112,6 +112,13 @@ like switching deck layers or pad grid modes. Note that this is the preferred wa
 of mapping if intended your mapping to be included in Mixxx, since Components-JS
 significantly reduces effort for both mapping and reviewing Pull Requests.
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   scripting/*
+
+
 .. _advanced-keyboard:
 
 Making a Custom Keyboard Mapping
