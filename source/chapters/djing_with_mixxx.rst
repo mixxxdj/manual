@@ -154,6 +154,19 @@ track and match them correctly.  So if you want to mix a 140 BPM drum & bass
 track with a 70 bpm dubstep track, Sync Lock will make sure they are lined up
 properly.
 
+If Mixxx detects a track's :term:`BPM` at half, two-thirds, three-quarters,
+four-thirds, three-halves or double its real value, you can correct it from
+the library using the track list context menu's :guilabel:`Change BPM` item,
+which scales the BPM and :term:`beatgrid` by those ratios. The same ratios
+are also available as mappable controls
+(:mixxx:coref:`beats_set_halve <[ChannelN],beats_set_halve>`,
+:mixxx:coref:`beats_set_twothirds <[ChannelN],beats_set_twothirds>`,
+:mixxx:coref:`beats_set_threefourths <[ChannelN],beats_set_threefourths>`,
+:mixxx:coref:`beats_set_fourthirds <[ChannelN],beats_set_fourthirds>`,
+:mixxx:coref:`beats_set_threehalves <[ChannelN],beats_set_threehalves>` and
+:mixxx:coref:`beats_set_double <[ChannelN],beats_set_double>`) for correcting
+a loaded track from a controller.
+
 .. hint:: Usually, Sync Lock will only make sure the rate sliders are set
           correctly.  If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
