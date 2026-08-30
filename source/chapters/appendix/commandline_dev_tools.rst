@@ -60,6 +60,8 @@ types, go to :ref:`file-format-compatibility`.
                                 on performance and the Developer tools menu as
                                 well as tooltips and logs useful for skin
                                 developers.
+--stats                         Enable collection of performance statistics,
+                                without the overhead of full ``--developer`` mode.
 --safe-mode                     Disable OpenGL widgets (scrolling waveforms,
                                 spinnies) to work around GPU driver bugs.
                                 If Mixxx is crashing on startup, try using this.
