@@ -53,7 +53,7 @@ Content
 **controllers**
     All controller mappings you stored. This can be downloaded and :ref:`self-built
     mappings <advanced-controller>`, as well as built-in mappings that you modified in
-    :guilabel:`Preferences` > :guilabel:`Controllers` > :guilabel:`YourController`
+    :menuselection:`Preferences --> Controllers --> YourController`
     manually or with the MIDI Wizard.
 
 **effects.xml**
@@ -75,7 +75,7 @@ Content
     Stores tracks currently loaded to sample decks.
 
 **sandbox.cfg**
-    This is used under macOS to track which files Mixxx will have access to
+    This is used under macOS to track which files Mixxx will have access to.
 
 **soundconfig.xml**
-    Sound device configuration from Preferences > Sound Hardware
+    Sound device configuration from :menuselection:`Preferences --> Sound Hardware`.
