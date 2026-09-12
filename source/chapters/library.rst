@@ -451,12 +451,17 @@ Mixxx supports the following filters:
       year: <2010
       rating:<4
       rating: <=4
+      rating: 2+
       rating:3-5
       played: >10
+      played:5-
+      duration: 3:10+
 
   .. note::
      You can put a space after the colon but currently there must be no space
      between the operator and the number.
+
+  .. note:: `+123` equals `>=123`, `97-` equals `<=97`
 
   * By default, `bpm:` finds tracks with the exact BPM but also half and double
     values. If the half or double values are not integers, ranges are used. The
