@@ -1,27 +1,33 @@
 Native Instruments Traktor Kontrol S4 MK3
 =========================================
 
-The Kontrol S4 MK3 is a 4 deck all-in-one controller with a sturdy build quality and integrated sound card.
-Compared to the MK2 and MK1, it also have motorised shiny aluminum jogwheels, screens and a set of pads which can be use for
-various features.
+The Traktor Kontrol S4 MK3 is a 4 deck, all-in-one controller with a sturdy build
+quality and integrated sound card.
 
-The S4 MK3 uses the standard :term:`HID` protocol for the Buttons, Knobs, Faders and LEDs, and extends it for the motorized Jog-Wheels.
-The screens use a USB Bulk transfer. Mixxx doesn't support rendering content for external screens yet.
-The easiest way to tell the MK3 apart from the other MK1 and 2 are these screens, displace between the "Move" and "Loop" encoder.
+Unlike its predecessors, the S4 MK2 and S4 MK1, the MK3 has motorized jogwheels,
+screens (currently unsupported by Mixxx), and configurable pads which can be
+used for multiple purposes.
+The MK3 can no longer run on :term:`bus power <USB>` and requires an external
+power supply.
 
-Unlike its predecessor, the Kontrol S4 Mk3 cannot run from :term:`USB` power and the separate power supply must be used.
+The MK3 uses the standard :term:`HID` protocol for the Buttons, Knobs, Faders
+and LEDs, and extends it for the motorized jogwheels.
 
--  `Manufacturer’s product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`__
+- `Manufacturer's product page <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/>`_
 
 .. versionadded:: 2.4
 
 Compatibility
 -------------
 
-The Kontrol S4 MK3 is a USB class compliant audio and :term:`HID`, so it is compatible with Mixxx without any proprietary drivers on GNU/Linux, MacOS and Windows.
+The Traktor Kontrol S4 MK3 is a USB class compliant audio interface making it
+compatible with Linux and macOS without any proprietary drivers.
 
-With the S4 plugged in, a HID device is listed as an available controller in Mixxx’s Preferences.
-The controller uses HID for each components on the device, except the screens, so the mapping can only be loaded when you select the HID device on the left side of Mixxx’s Preferences.
+All controls (except for the screens) are mapped as a single HID device which
+can be enabled in :menuselection:`Options --> Preferences`.
+
+  .. note:: See :ref:`Loading a controller mapping <control-load-mapping>` for more information on enabling
+     controllers.
 
 Controller
 -------------
@@ -32,15 +38,20 @@ Setup audio output
 Using the S4 mixer
 ^^^^^^^^^^^^^^^^^^
 
-In order to use the audio output of the controller, select the device :guilabel:`Traktor Kontrol S4 MK3`. :guilabel:`Channels 1 - 2` should be set as :guilabel:`Main` and :guilabel:`Channels 3 - 4` should be set as :guilabel:`Headphones`
+In order to use the audio output of the controller open the :ref:`Sound Hardware
+Preferences <preferences-sound-hardware>` and select the device
+:guilabel:`Traktor Kontrol S4 MK3` on the :guilabel:`Output` tab.
+:guilabel:`Main` should be set to :guilabel:`Channels 1 - 2` and
+:guilabel:`Headphones` should be set to :guilabel:`Channels 3 - 4`.
 
 Using the software mixer
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you don't want to use certain outputs of the device, you can enable the mapping of the mixer knob to the Mixxx internal mixer. Head over to the :ref:`settings` to enable these optional mappings.
-
-   .. note:: The mixer knobs are physically linked to the S4 embedded mixer. This means that there is no way to prevent these buttons to adjust gains of the output, and will lead to unexpected volume mixing if the Mixxx mixer is used while also using S4 outputs.
-
+The mixer knobs are physically linked to the S4's embedded mixer and do not
+control the Mixxx software mixer by default to avoid unexpected volume changes.
+If you are using a different audio interface or only want to use some outputs of
+the S4, you can enable the mapping of the mixer knobs to Mixxx's internal mixer
+in the :ref:`mapping options <settings>`.
 
 Known bugs and limitation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,24 +59,32 @@ Known bugs and limitation
 Audio
 ^^^^^
 
-During the development phase, it appears that using other Sound API than `ALSA` would lead the Master VU meter not to work. Furthermore, audio output power would be half as loud as it should
-be, which can be a problem if you are also using other software, since you audio setting will suddenly become twice as loud. It remains unclear whether or not this was a common issue or if
-this was specific to the used setup.
+On Linux, the main VU meter may not work when using Sound APIs other than
+`ALSA`.
+Furthermore, audio output power may be half as loud as it should be when using
+other sound APIs.
+If you observe this behavior, please `report an issue
+<https://github.com/mixxxdj/mixxx/issues>`_ describing your sound setup.
 
 Screens
 ^^^^^^^
 
-Currently, Mixxx doesn't support controller screen rendering. However, because the screens are technically a different device, it is safe to interact with them outside of Mixxx while
-the device is being used by Mixxx. This can be particularly handy if you want to display some images or text, or even dynamic information.
+Mixxx does not currently support controller screen rendering.
+However it is safe to interact with the screens outside of Mixxx while the
+device is being used by Mixxx.
 
 .. _use-motors:
 
 Motors
 ^^^^^^
 
-Haptic feedback (know as Haptic Drive (TM)) are partially implemented. Supported features include jogwheel tensions and turntable mode but these features remains in beta and
-may sometime have unexpected behaviours. Since there is no guarantee on the long term effect to the controller of how Mixxx implements these features, they are disabled by default.
-You can enable them by setting `UseMotors` to `true` in :ref:`settings`.
+Haptic feedback (also called Haptic Drive™ by Native Instruments) is partially
+implemented.
+Supported features include jogwheel tension and turntable mode.
+These features remains in beta and may sometime have unexpected behaviour.
+Since the long term effect to the controller of Mixxx's implementation of these
+features is unknown, they are disabled by default.
+You can enable them in the :ref:`mapping options <settings>`.
 
 
 Mapping Description
@@ -76,7 +95,7 @@ Mapping Description
 Jogwheel modes
 ~~~~~~~~~~~~~~
 
-Jogwheel can be used to control various things, depending of the mode they are in.
+The jogwheels can be used to control various things, depending of the mode they are in.
 
 1. **Vinyl mode** (*default*): The jogwheel platter can be used for scratch. The jogwheel crown can be used to jog up or down the playback.
 2. **Jog mode**: The wheel platter and crown can be used to jog up or down the playback.
@@ -91,37 +110,31 @@ Jogwheel can be used to control various things, depending of the mode they are i
 
 Here is how to tell what mode is on, depending the current state of the LED:
 
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Mode           | :hwlabel:`Jog` | :hwlabel:`TT` | Jogwheel LED                                   | Others                                  |
-+================+================+===============+================================================+=========================================+
-| Vinyl mode     | On             | Off           | Circling while the track is playing/scratching | --                                      |
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Jog mode       | Off            | Off           | Circling while the track is playing/scratching | --                                      |
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Turntable mode | Off            | On            | Circling while the track is playing/scratching | --                                      |
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop in mode   | --             | --            | The whole circle is blinking                   | The :hwlabel:`REV` button is blinking   |
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
-| Loop out mode  | --             | --            | The whole circle is blinking                   | The :hwlabel:`FLX` button is blinking   |
-+----------------+----------------+---------------+------------------------------------------------+-----------------------------------------+
+.. csv-table::
+   :header: "Mode", ":hwlabel:`Jog`", ":hwlabel:`TT`", "Jogwheel LED", "Others"
+   :widths: 15 5 5 25 25
+
+   "Vinyl mode", "On", "Off", "Circling while the track is playing/scratching", "--"
+   "Jog mode", "Off", "Off", "Circling while the track is playing/scratching", "--"
+   "Turntable mode", "Off", "On", "Circling while the track is playing/scratching", "--"
+   "Loop in mode", "--", "--", "The whole circle is blinking", "The :hwlabel:`REV` button is blinking"
+   "Loop out mode", "--", "--", "The whole circle is blinking", "The :hwlabel:`FLX` button is blinking"
 
 Here is how to select each mode:
 
-+----------------+---------------------------------------------------------------------------------------------+
-| Mode           |                                                                                             |
-+================+=============================================================================================+
-| Vinyl mode     | Press the :hwlabel:`Jog` button (while the :hwlabel:`Jog` button is off)                    |
-+----------------+---------------------------------------------------------------------------------------------+
-| Jog mode       | Press the :hwlabel:`Jog` button while in vinyl mode (while the :hwlabel:`Jog` button is on) |
-+----------------+---------------------------------------------------------------------------------------------+
-| Turntable mode | Press the :hwlabel:`TT` button. Pressing again while restore the Vinyl mode                 |
-+----------------+---------------------------------------------------------------------------------------------+
-| Loop in        | Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable                              |
-+----------------+---------------------------------------------------------------------------------------------+
-| Loop out       | Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable                              |
-+----------------+---------------------------------------------------------------------------------------------+
+.. csv-table::
+   :header: "Mode", ""
+   :widths: 15 50
 
-For all modes but :hwlabel:`Vinyl` and :hwlabel:`Jog`, re-selecting the mode will restore the previous one.
+   "Vinyl mode", "Press the :hwlabel:`Jog` button (while the :hwlabel:`Jog` button is off)"
+   "Jog mode", "Press the :hwlabel:`Jog` button while in vinyl mode (while the :hwlabel:`Jog` button is on)"
+   "Turntable mode", "Press the :hwlabel:`TT` button. Pressing again while restore the Vinyl mode"
+   "Loop in", "Press :hwlabel:`SHIFT` + :hwlabel:`REV` while a loop is enable"
+   "Loop out", "Press :hwlabel:`SHIFT` + :hwlabel:`FLX` while a loop is enable"
+
+
+For all modes except :hwlabel:`Vinyl` and :hwlabel:`Jog`, re-selecting the mode
+will restore the previous one.
 
 
 Move modes
