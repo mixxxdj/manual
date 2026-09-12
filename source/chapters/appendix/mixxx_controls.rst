@@ -3846,6 +3846,16 @@ The ``[Library]`` controls
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [Library],AutoDjAddReplace
+
+   Replace the entire Auto DJ Queue with the selected track(s).
+
+   :range: Binary
+   :feedback: Auto DJ playlist is replaced
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [Library],font_size_increment
 
    Increase the size of the library font. If the row height is smaller than the font-size the larger of the two is used.
@@ -4624,6 +4634,26 @@ The ``[Skin]`` group
    Some skins may not support some or all of these controls.
    In this case, triggering the unsupported control will do nothing.
 
+.. mixxx:control:: [Skin],show_4effectunits
+
+   Toggle between showing 2 and 4 effect units in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Effect units are shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_coverart
+
+   Toggle the display of cover art in the deck sections of the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Cover art in the decks is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Skin],show_effectrack
 
    Toggle the display of the effect rack in the :term:`user interface <GUI>`.
@@ -4657,6 +4687,38 @@ The ``[Skin]`` group
       Replaces the deprecated :mixxx:coref:`[Master],maximize_library` control.
 
 
+.. mixxx:control:: [Skin],show_microphones
+
+   Toggle the microphone and auxiliary section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Microphone and auxiliary section is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[Microphone],show_microphone` control.
+
+
+.. mixxx:control:: [Skin],show_mixer
+
+   Toggle the mixer section in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Mixer section is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_preview_decks
+
+   Toggle the preview deck in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Preview deck is shown/hidden.
+
+   .. versionadded:: 2.4.0
+      Replaces the deprecated :mixxx:coref:`[PreviewDeck],show_previewdeck` control.
+
+
 .. mixxx:control:: [Skin],show_samplers
 
    Toggle the display of sampler banks in the :term:`user interface <GUI>`.
@@ -4668,6 +4730,26 @@ The ``[Skin]`` group
       Replaces the deprecated :mixxx:coref:`[Samplers],show_samplers` control.
 
 
+.. mixxx:control:: [Skin],show_settings
+
+   Toggle the skin settings panel in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Skin settings panel is shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
+.. mixxx:control:: [Skin],show_spinnies
+
+   Toggle the spinning vinyl widgets in the :term:`user interface <GUI>`.
+
+   :range: binary
+   :feedback: Spinning vinyl widgets are shown/hidden.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [Skin],show_vinylcontrol
 
    Toggle the :ref:`vinyl control <vinyl-control>` section in the :term:`user interface <GUI>`.
@@ -4677,6 +4759,87 @@ The ``[Skin]`` group
 
    .. versionadded:: 2.4.0
       Replaces the deprecated :mixxx:coref:`[VinylControl],show_vinylcontrol` control.
+
+
+The ``[Mixer Profile]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [Mixer Profile]
+
+   The :mixxx:cogroupref:`[Mixer Profile]` group contains controls for the
+   crossfader curve and the mixing equalizer crossover frequencies. These are
+   set in :ref:`Preferences --> Mixer <preferences-mixer>`.
+
+
+.. mixxx:control:: [Mixer Profile],xFaderMode
+
+   Select the crossfader mode. A value of 0 selects additive blending, 1
+   selects constant power blending.
+
+   :range: 0 .. 1
+   :feedback: Crossfader curve graph in preferences
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderCurve
+
+   Adjust the steepness of the crossfader curve when using constant power
+   mode. Higher values produce a sharper cut.
+
+   :range: 0.6 .. 1000
+   :feedback: Crossfader curve graph in preferences
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderCalibration
+
+   Internal calibration parameter for the constant power crossfader curve,
+   derived from :mixxx:coref:`xFaderCurve <[Mixer Profile],xFaderCurve>`. Not
+   stored in the configuration and not exposed in the preferences dialog.
+
+   :range: 0.3 .. 1
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],xFaderReverse
+
+   Reverse the crossfader assignment so that decks assigned to the left side
+   are controlled by the right half of the crossfader travel and vice versa.
+
+   :range: binary
+   :feedback: Crossfader direction is reversed
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [Mixer Profile],LoEQFrequency
+
+   Crossover frequency (in Hz) between the low and mid bands of the mixing
+   equalizer. Set in
+   :ref:`Preferences --> Mixer <preferences-mixer>` via the High/Low Shelf EQ
+   slider.
+
+   :range: frequency in Hz
+   :feedback: EQ crossover in preferences
+
+   .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [Mixer Profile],HiEQFrequency
+
+   Crossover frequency (in Hz) between the mid and high bands of the mixing
+   equalizer. Set in
+   :ref:`Preferences --> Mixer <preferences-mixer>` via the High/Low Shelf EQ
+   slider.
+
+   :range: frequency in Hz
+   :feedback: EQ crossover in preferences
+
+   .. versionadded:: 2.0.0
 
 
 Deprecated controls
@@ -4955,6 +5118,26 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
    .. deprecated:: 2.4.0
        Use :mixxx:coref:`[Skin],show_effectrack` instead.
+
+
+.. mixxx:control:: [Microphone],show_microphone
+
+   Toggle the microphone section in skins.
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_microphones` instead.
+
+
+.. mixxx:control:: [PreviewDeck],show_previewdeck
+
+   Toggle the preview deck in skins.
+
+   :range: binary
+
+   .. deprecated:: 2.4.0
+       Use :mixxx:coref:`[Skin],show_preview_decks` instead.
 
 
 .. mixxx:control:: [ChannelN],hotcue_X_enabled
