@@ -187,7 +187,7 @@ measure the round trip latency. These programs are recommended on each
 * **GNU/Linux**:
   `jack_iodelay <https://linuxmusicians.com/viewtopic.php?t=8022>`_
 * **Windows**: `RTL Utility  <https://oblique-audio.com/rtl-utility.php>`_
-* **macOS**: `Tenacity <https://tenacityaudio.org/docs/_content/Tips_And_Tricks.html#latency-compensation>`_
+* **macOS**: `Audacity <https://support.audacityteam.org/au3/troubleshooting/solving-recording-problems/latency-compensation>`_
 
 .. TODO: Uncomment when this diagram is added.
   .. figure:: ../_static/latency-measurement.png
