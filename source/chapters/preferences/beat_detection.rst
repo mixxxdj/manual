@@ -59,6 +59,8 @@ The table below summarizes the beat detection settings:
 |                                       | programs are present.                |
 +---------------------------------------+--------------------------------------+
 
+.. _correcting-beat-grids:
+
 Correcting Beat Grids
 ---------------------
 
@@ -83,3 +85,16 @@ follow the note below.
 
 For more granular adjustments there are beatgrid controls close to the
 :ref:`interface-waveform` of each deck in the main interface.
+
+If Mixxx detects a track's :term:`BPM` at half, two-thirds, three-quarters,
+four-thirds, three-halves or double its real value, you can correct it from
+the library using the track list context menu's :guilabel:`Change BPM` item,
+which scales the BPM and :term:`beatgrid` by those ratios. The same ratios
+are also available as mappable controls
+(:mixxx:coref:`beats_set_halve <[ChannelN],beats_set_halve>`,
+:mixxx:coref:`beats_set_twothirds <[ChannelN],beats_set_twothirds>`,
+:mixxx:coref:`beats_set_threefourths <[ChannelN],beats_set_threefourths>`,
+:mixxx:coref:`beats_set_fourthirds <[ChannelN],beats_set_fourthirds>`,
+:mixxx:coref:`beats_set_threehalves <[ChannelN],beats_set_threehalves>` and
+:mixxx:coref:`beats_set_double <[ChannelN],beats_set_double>`) for correcting
+a loaded track from a controller.
