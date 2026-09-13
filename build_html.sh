@@ -8,6 +8,8 @@ cd .. || exit 1
 LANGUAGES="$LANGUAGES en"
 NUM_LANGUAGES="$(printf '%s' "$LANGUAGES" | wc -w)"
 
+SITE_URL="https://manual.mixxx.org"
+
 # Write _redirects file
 mkdir -p build/html
 printf '/           /latest/               302\n' > build/html/_redirects
@@ -26,6 +28,6 @@ do
         printf '/:version/%s/* /2.5/%s/404.html  404\n' "$lang" "$lang" >> build/html/_redirects
         printf '/:version/*    /:version/%s/:splat    301 Language=%s\n' "$lang" "$(printf "%s" "$lang"  | sed 's/_/-/g')" >> build/html/_redirects
     fi
-    make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang"
+    make versionedhtml SPHINXOPTS="-j $(nproc) -Dlanguage=$lang -Dhtml_baseurl=${SITE_URL}/latest/${lang}/"
     i=$((i + 1))
 done
