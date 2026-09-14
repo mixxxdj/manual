@@ -5520,6 +5520,60 @@ In the meantime, skins and controller mappings that still use them will keep wor
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
 
 
+.. mixxx:control:: [ChannelN],filterLow_loaded
+                   [PreviewDeckN],filterLow_loaded
+                   [SamplerN],filterLow_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterMid_loaded
+                   [PreviewDeckN],filterMid_loaded
+                   [SamplerN],filterMid_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter2_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterHigh_loaded
+                   [PreviewDeckN],filterHigh_loaded
+                   [SamplerN],filterHigh_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter3_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterLowKill_loaded
+                   [PreviewDeckN],filterLowKill_loaded
+                   [SamplerN],filterLowKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter1_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterMidKill_loaded
+                   [PreviewDeckN],filterMidKill_loaded
+                   [SamplerN],filterMidKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter2_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterHighKill_loaded
+                   [PreviewDeckN],filterHighKill_loaded
+                   [SamplerN],filterHighKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter3_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
 .. mixxx:control:: [ChannelN],beatloop_X
                    [PreviewDeckN],beatloop_X
                    [SamplerN],beatloop_X
