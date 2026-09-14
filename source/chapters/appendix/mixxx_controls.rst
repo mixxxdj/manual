@@ -2923,6 +2923,20 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],scratch2_indicates_scratching
+                   [PreviewDeckN],scratch2_indicates_scratching
+                   [SamplerN],scratch2_indicates_scratching
+
+   Indicates whether the deck is currently being scratched via the
+   :mixxx:coref:`scratch2 <[ChannelN],scratch2>` control. Used internally
+   by the engine to manage scratch state.
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
 .. mixxx:control:: [ChannelN],show_track_menu
 
    Toggle the track context menu for the track currently loaded in this deck.
