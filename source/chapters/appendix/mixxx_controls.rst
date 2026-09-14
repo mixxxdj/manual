@@ -4672,6 +4672,62 @@ Controls
    :range: binary
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[AuxiliaryK]_enable
+
+   Whether or not this EffectChain applies to Auxiliary K
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusCenter]_enable
+
+   Whether or not this EffectChain applies to the Center bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusLeft]_enable
+
+   Whether or not this EffectChain applies to the Left bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusRight]_enable
+
+   Whether or not this EffectChain applies to the Right bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusTalkover]_enable
+
+   Whether or not this EffectChain applies to the Talkover bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[MasterOutput]_enable
+
+   Whether or not this EffectChain applies to the Master output
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[MicrophoneK]_enable
+
+   Whether or not this EffectChain applies to Microphone K
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[PreviewDeckK]_enable
+
+   Whether or not this EffectChain applies to Preview Deck K
+
+   :range: binary
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN],loaded_chain_preset
                    [EqualizerRack1_[ChannelI]],loaded_chain_preset
                    [QuickEffectRack1_[ChannelI]],loaded_chain_preset
@@ -4691,6 +4747,26 @@ Controls
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: 0.0..1.0
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],mix_mode
+                   [EqualizerRack1_[ChannelI]],mix_mode
+                   [QuickEffectRack1_[ChannelI]],mix_mode
+
+   Selects how the dry and wet signals are combined: DRY/WET (the dry signal
+   is replaced by the wet signal according to the mix knob) or DRY+WET (the
+   wet signal is added on top of the dry signal).
+
+   :range:
+      =====  =========================
+      Value  Mode
+      =====  =========================
+      0      DRY/WET
+      1      DRY+WET
+      =====  =========================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],next_chain_preset
