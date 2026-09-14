@@ -1606,6 +1606,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       Added support for saved loops.
 
 
+.. mixxx:control:: [ChannelN],hotcue_X_activate_preview
+                   [PreviewDeckN],hotcue_X_activate_preview
+                   [SamplerN],hotcue_X_activate_preview
+
+   Jumps to :term:`hotcue` X and starts previewing (playing while the control
+   is held). When the control is released, playback stops and the player
+   seeks back to the hotcue position, unless :mixxx:coref:`play <[ChannelN],play>`
+   was set to 1 during previewing.
+
+   :range: binary
+   :feedback: Player seeks to hotcue X and plays while held.
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [ChannelN],hotcue_X_activatecue
                    [PreviewDeckN],hotcue_X_activatecue
                    [SamplerN],hotcue_X_activatecue
@@ -2329,6 +2344,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.8.0
 
 
+.. mixxx:control:: [ChannelN],master
+                   [PreviewDeckN],master
+                   [SamplerN],master
+
+   Alias for ``[ChannelN],main_mix``. Enables the deck in the main mix.
+
+   :range: binary
+   :feedback: Deck is included in the main output.
+
+
 .. mixxx:control:: [ChannelN],orientation
                    [PreviewDeckN],orientation
                    [SamplerN],orientation
@@ -2862,6 +2887,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.9.0
 
 
+.. mixxx:control:: [ChannelN],replaygain
+                   [PreviewDeckN],replaygain
+                   [SamplerN],replaygain
+
+   The ReplayGain adjustment factor applied to the loaded track. Set from
+   the track's ReplayGain metadata when a track is loaded.
+
+   :range: 0.0..1.0..5.0
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
 .. mixxx:control:: [ChannelN],reset_key
                    [PreviewDeckN],reset_key
                    [SamplerN],reset_key
@@ -3118,6 +3156,50 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Match musical key.
 
    .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],talkover
+                   [PreviewDeckN],talkover
+                   [SamplerN],talkover
+
+   Enables the deck in the talkover mix. When active, the deck's signal is
+   routed to the microphone/talkover bus.
+
+   :range: binary
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],time_elapsed
+                   [PreviewDeckN],time_elapsed
+                   [SamplerN],time_elapsed
+
+   The elapsed time of the loaded track at the current play position, in
+   seconds.
+
+   :range: >=0, read-only
+   :feedback: Track time display
+
+
+.. mixxx:control:: [ChannelN],time_remaining
+                   [PreviewDeckN],time_remaining
+                   [SamplerN],time_remaining
+
+   The remaining time of the loaded track from the current play position,
+   in seconds.
+
+   :range: >=0, read-only
+   :feedback: Track time display
+
+
+.. mixxx:control:: [ChannelN],total_gain
+                   [PreviewDeckN],total_gain
+                   [SamplerN],total_gain
+
+   The total gain applied to the deck's signal, including pregain, ReplayGain,
+   and user-adjusted gain. Read-only.
+
+   :range: >=0, read-only
+   :feedback: None
 
 
 .. mixxx:control:: [ChannelN],track_color
@@ -5644,6 +5726,18 @@ In the meantime, skins and controller mappings that still use them will keep wor
    Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter3_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
 
    .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterWaveformEnable
+                   [PreviewDeckN],filterWaveformEnable
+                   [SamplerN],filterWaveformEnable
+
+   Toggles whether the waveform display is filtered by the EQ controls.
+   When enabled, the waveform reflects the EQ adjustments; when disabled,
+   the full unfiltered signal is shown.
+
+   :range: binary
+   :feedback: Waveform display
 
 
 .. mixxx:control:: [ChannelN],beatloop_X
