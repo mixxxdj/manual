@@ -3187,6 +3187,79 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0
 
 
+.. mixxx:control:: [ChannelN],vinylcontrol_rate
+                   [PreviewDeckN],vinylcontrol_rate
+                   [SamplerN],vinylcontrol_rate
+
+   The playback rate reported by the vinyl control signal. Used internally
+   by the engine to adjust playback speed and key when vinyl control is
+   active. Read-only from a mapping perspective.
+
+   :range: read-only
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_scratching
+                   [PreviewDeckN],vinylcontrol_scratching
+                   [SamplerN],vinylcontrol_scratching
+
+   Indicates whether the deck is currently being scratched via vinyl
+   control.
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_seek
+                   [PreviewDeckN],vinylcontrol_seek
+                   [SamplerN],vinylcontrol_seek
+
+   Setting this to a fractional position (0.0 to 1.0) seeks the loaded
+   track to that position, as if the needle was dropped there. Used
+   internally by the vinyl control engine.
+
+   :range: 0.0..1.0
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_signal_enabled
+                   [PreviewDeckN],vinylcontrol_signal_enabled
+                   [SamplerN],vinylcontrol_signal_enabled
+
+   Toggles whether the vinyl control signal is processed. When disabled,
+   the vinyl control input is ignored even if vinyl control is enabled.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_speed_type
+                   [PreviewDeckN],vinylcontrol_speed_type
+                   [SamplerN],vinylcontrol_speed_type
+
+   The speed type of the control vinyl (33 or 45 RPM). Set in the
+   :ref:`Vinyl Control Configuration <vinyl-control-config>`.
+
+   :range:
+      ===== =============================
+      Value Meaning
+      ===== =============================
+      33    33⅓ RPM
+      45    45 RPM
+      ===== =============================
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
 .. mixxx:control:: [ChannelN],vinylcontrol_status
                    [PreviewDeckN],vinylcontrol_status
                    [SamplerN],vinylcontrol_status
@@ -3195,6 +3268,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: 0.0-3.0, read-only
    :feedback: Off for control disabled, green for control enabled, blinking yellow for when the needle reaches the end of the record, and red for needle skip detected
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_wantenabled
+                   [PreviewDeckN],vinylcontrol_wantenabled
+                   [SamplerN],vinylcontrol_wantenabled
+
+   Reflects the user's intention to enable vinyl control. When set to 1,
+   Mixxx attempts to enable vinyl control on the next available input.
+   Differs from :mixxx:coref:`vinylcontrol_enabled <[ChannelN],vinylcontrol_enabled>`
+   in that it represents the requested state rather than the actual state.
+
+   :range: binary
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
