@@ -4924,6 +4924,30 @@ The ``[Mixer Profile]`` group
    .. versionadded:: 2.0.0
 
 
+The ``[SoundManager]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [SoundManager]
+
+   The :mixxx:cogroupref:`[SoundManager]` group exposes the connection state
+   of the audio backend.
+
+.. mixxx:control:: [SoundManager],status
+
+   Reflects the current connection state of the sound system. This is a
+   read-only status indicator set by Mixxx; mappings should not write to it.
+
+   :range:
+      =====  =========================
+      Value  State
+      =====  =========================
+      0      Disconnected
+      1      Connecting
+      2      Connected
+      =====  =========================
+   :feedback: None
+
+
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
 
