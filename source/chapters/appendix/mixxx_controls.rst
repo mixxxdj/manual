@@ -2027,6 +2027,44 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.9.0
 
 
+.. mixxx:control:: [ChannelN],keylockMode
+                   [PreviewDeckN],keylockMode
+                   [SamplerN],keylockMode
+
+   Selects which key is locked when key lock is enabled. Set in
+   :menuselection:`Preferences --> Decks --> Keylock`.
+
+   :range:
+      =====  ================================
+      Value  Mode
+      =====  ================================
+      0      Lock original key (track's key)
+      1      Lock current key (key at lock time)
+      =====  ================================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],keyunlockMode
+                   [PreviewDeckN],keyunlockMode
+                   [SamplerN],keyunlockMode
+
+   Selects what happens to the key when key lock is disabled. Set in
+   :menuselection:`Preferences --> Decks --> Keylock`.
+
+   :range:
+      =====  ================================
+      Value  Mode
+      =====  ================================
+      0      Reset to original key
+      1      Keep the locked key
+      =====  ================================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [ChannelN],LoadSelectedTrack
                    [PreviewDeckN],LoadSelectedTrack
                    [SamplerN],LoadSelectedTrack
