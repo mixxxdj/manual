@@ -4245,6 +4245,25 @@ The ``[Controls]`` controls
       ===== ===========================================================================
    :feedback: None
 
+.. mixxx:control:: [Controls],TimeFormat
+
+   Selects the format used to display track durations in the decks. Set in
+   :menuselection:`Preferences --> Decks --> Time Format`.
+
+   :range:
+      =====  =========================
+      Value  Format
+      =====  =========================
+      0      Traditional (``mm:ss.zzz``)
+      1      Traditional (Coarse) (``mm:ss``)
+      2      Seconds (``s.zzz``)
+      3      Seconds (Long) (``sss.zzz``)
+      4      Kiloseconds (``s.zss.zz``)
+      =====  =========================
+   :feedback: Track time display widgets
+
+   .. versionadded:: 2.1.0
+
 .. _appendix-mixxxcontrols-effects:
 
 The Effects Framework
