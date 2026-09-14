@@ -86,11 +86,12 @@ follow the note below.
 For more granular adjustments there are beatgrid controls close to the
 :ref:`interface-waveform` of each deck in the main interface.
 
-If Mixxx detects a track's :term:`BPM` at half, two-thirds, three-quarters,
-four-thirds, three-halves or double its real value, you can correct it from
-the library using the track list context menu's :guilabel:`Change BPM` item,
-which scales the BPM and :term:`beatgrid` by those ratios. The same ratios
-are also available as mappable controls
+If Mixxx has detected a track's :term:`BPM` incorrectly (commonly at half or
+double its real value), you can correct it from the library using the track
+list context menu's :guilabel:`Change BPM` item, which scales the BPM and
+:term:`beatgrid` by a ratio. The available ratios are halve, two-thirds,
+three-quarters, four-fifths, five-fourths, four-thirds, three-halves and
+double. The same ratios are also available as mappable controls
 (:mixxx:coref:`beats_set_halve <[ChannelN],beats_set_halve>`,
 :mixxx:coref:`beats_set_twothirds <[ChannelN],beats_set_twothirds>`,
 :mixxx:coref:`beats_set_threefourths <[ChannelN],beats_set_threefourths>`,
