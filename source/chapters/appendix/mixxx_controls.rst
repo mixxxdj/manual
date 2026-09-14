@@ -5268,6 +5268,59 @@ The ``[SoundManager]`` group
    :feedback: None
 
 
+The ``[ReplayGain]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [ReplayGain]
+
+   The :mixxx:cogroupref:`[ReplayGain]` group controls Mixxx's ReplayGain
+   normalization. These controls are set in
+   :menuselection:`Preferences --> ReplayGain`.
+
+.. mixxx:control:: [ReplayGain],ReplayGainEnabled
+
+   Enables or disables ReplayGain normalization globally. When enabled,
+   tracks with ReplayGain metadata are adjusted by the
+   :mixxx:coref:`ReplayGainBoost <[ReplayGain],ReplayGainBoost>` factor, and
+   tracks without ReplayGain data are adjusted by the
+   :mixxx:coref:`DefaultBoost <[ReplayGain],DefaultBoost>` factor.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ReplayGain],ReplayGainBoost
+
+   The gain factor applied to tracks that have ReplayGain metadata, as a
+   linear ratio. Set in
+   :menuselection:`Preferences --> ReplayGain --> Adjust gain with ReplayGain`.
+   The slider range is -12 to +12 dB (default 0 dB).
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..1.0..5.0 (linear ratio, -12..+12 dB)
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ReplayGain],DefaultBoost
+
+   The gain factor applied to tracks that lack ReplayGain metadata, as a
+   linear ratio. Set in
+   :menuselection:`Preferences --> ReplayGain --> Initial boost without
+   ReplayGain data`. The slider range is -12 to +12 dB (default -6 dB).
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..1.0..5.0 (linear ratio, -12..+12 dB)
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
 Deprecated controls
 ~~~~~~~~~~~~~~~~~~~
 
