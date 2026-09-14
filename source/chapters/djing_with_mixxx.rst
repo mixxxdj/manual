@@ -154,8 +154,8 @@ track and match them correctly.  So if you want to mix a 140 BPM drum & bass
 track with a 70 bpm dubstep track, Sync Lock will make sure they are lined up
 properly.
 
-If Mixxx has detected a track's :term:`BPM` at half, two-thirds,
-three-quarters, four-thirds, three-halves or double its real value, see
+If Mixxx has detected a track's :term:`BPM` incorrectly (commonly at half or
+double its real value), see
 :ref:`Correcting Beat Grids <correcting-beat-grids>` for how to correct it.
 
 .. hint:: Sync Lock will only make sure the rate sliders are set
