@@ -718,6 +718,26 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: None
 
 
+.. mixxx:control:: [ChannelN],beat_next
+                   [PreviewDeckN],beat_next
+                   [SamplerN],beat_next
+
+   The sample position of the next beat after the current play position.
+
+   :range: -1 if no beat grid, otherwise sample position, read-only
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],beat_prev
+                   [PreviewDeckN],beat_prev
+                   [SamplerN],beat_prev
+
+   The sample position of the previous beat before the current play position.
+
+   :range: -1 if no beat grid, otherwise sample position, read-only
+   :feedback: None
+
+
 .. mixxx:control:: [ChannelN],beatjump
                    [PreviewDeckN],beatjump
                    [SamplerN],beatjump
