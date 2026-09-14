@@ -1613,7 +1613,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Jumps to :term:`hotcue` X and starts previewing (playing while the control
    is held). When the control is released, playback stops and the player
    seeks back to the hotcue position, unless :mixxx:coref:`play <[ChannelN],play>`
-   was set to 1 during previewing.
+   was toggled during previewing (in which case playback latches and continues
+   without seeking).
 
    :range: binary
    :feedback: Player seeks to hotcue X and plays while held.
@@ -3003,11 +3004,12 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2_indicates_scratching
                    [SamplerN],scratch2_indicates_scratching
 
-   Indicates whether the deck is currently being scratched via the
-   :mixxx:coref:`scratch2 <[ChannelN],scratch2>` control. Used internally
-   by the engine to manage scratch state.
+   When set to 1 (default), scratch2 activity on this deck is interpreted as
+   scratching. Moving-platter controllers can set this to 0 to indicate that
+   platter movement is not scratching, allowing key lock to remain active
+   while the platter is moved.
 
-   :range: binary, read-only
+   :range: binary
    :feedback: None
 
    .. versionadded:: 1.10.0
@@ -3195,8 +3197,8 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],total_gain
                    [SamplerN],total_gain
 
-   The total gain applied to the deck's signal, including pregain, ReplayGain,
-   and user-adjusted gain. Read-only.
+   The total gain applied to the deck's signal, calculated as the pregain
+   knob value multiplied by the ReplayGain correction factor. Read-only.
 
    :range: >=0, read-only
    :feedback: None
