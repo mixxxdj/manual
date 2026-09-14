@@ -402,6 +402,19 @@ The ``[Master]`` & ``[Main]`` group
    :feedback: If set to 1 the internal crossfader position is the opposite of the GUI crossfader.
 
 
+.. mixxx:control:: [Master],delay
+
+   Delays the Main output by the given time. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
+
+
 .. mixxx:control:: [Master],duckStrength
 
    Microphone ducking strength
@@ -435,6 +448,20 @@ The ``[Master]`` & ``[Main]`` group
 
    .. versionadded:: 2.0.0
 
+
+
+.. mixxx:control:: [Master],headDelay
+
+   Delays the Headphone output by the given time, useful for aligning
+   headphones with the main output. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
 
 
 .. mixxx:control:: [Master],headEnabled
