@@ -309,6 +309,20 @@ The ``[Master]`` & ``[Main]`` group
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Master],boothDelay
+
+   Delays the Booth output by the given time, useful for aligning the booth
+   monitor with other outputs. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
+
+
 .. mixxx:control:: [Master],crossfader
 
    Adjusts the :term:`crossfader` between players/decks (-1.0 is all the way left).
@@ -512,6 +526,21 @@ The ``[Master]`` & ``[Main]`` group
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
+
+
+.. mixxx:control:: [Master],microphoneLatencyCompensation
+
+   Delays the record/broadcast mix so the microphone talkover signal stays
+   aligned with the main mix, compensating for the round-trip input/output
+   :term:`latency`. The main and booth outputs are not affected by this
+   control. Set in the :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],num_effectsavailable
