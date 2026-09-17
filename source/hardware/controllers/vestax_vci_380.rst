@@ -39,26 +39,29 @@ Turn wheels with :kbd:`JOG SCROLL`                 library scrolling
 :kbd:`SYNC` / :kbd:`CUE` / :kbd:`>||`
 -------------------------------------
 
-|Key|Function|
-|---|---|
-|:kbd:`>/\|\|`|Play/pause|
-|:kbd:`SHIFT`+:kbd:`>/\|\|`|Soft start / brake|
-|:kbd:`CUE`|go to cue point|
-|:kbd:`SHIFT` + :kbd:`CUE`|set the cue point|
-|:kbd:`SYNC`|blinks on each beat. Press to adjust beatgrid position.|
-|:kbd:`SHIFT`+:kbd:`SYNC`|activates auto-sync|
-|:kbd:`VINYL`|toggles slip mode|
-
+================================================== =================================
+Key                                                Function
+-------------------------------------------------- ---------------------------------
+:kbd:`>/\|\|`                                      Play/pause
+:kbd:`SHIFT`+:kbd:`>/\|\|`                         Soft start / brake
+:kbd:`CUE`                                         go to cue point
+:kbd:`SHIFT` + :kbd:`CUE`                          set the cue point
+:kbd:`SYNC`                                        blinks on each beat. Press to adjust beatgrid position.
+:kbd:`SHIFT`+:kbd:`SYNC`                           activates auto-sync
+:kbd:`VINYL`                                       toggles slip mode
+================================================== ================================
 
 "Tempo" sliders (pitch)
 -----------------------
 
 The sliders adjust pitch  
-|Action|Effect|
-|---|---|
-|:kbd:`SHIFT` + move slider|reset speed to 1X|  
-|:kbd:`SHIFT` + :kbd:`RANGE`|toggle keylock|  
-|:kbd:`RANGE`|toggle quantization|
+================================================== =================================
+Action                                             Effect
+-------------------------------------------------- ---------------------------------
+:kbd:`SHIFT` + move slider                         reset speed to 1X  
+:kbd:`SHIFT` + :kbd:`RANGE`                        toggle keylock  
+:kbd:`RANGE`                                       toggle quantization
+================================================== ================================
 
 While the pitch is different from zero, the red PAD FX LED will light up as a reminder that the deck is pitched 
 
@@ -67,21 +70,22 @@ Navigation area
 
 Library
 ^^^^^^^
-
-|Action|Effect|
-|---|---|
-|:kbd:`SCROLL` turn|move up/down|
-|:kbd:`BACK` and :kbd:`FWD`|move left/right|
-|Left :kbd:`PAD FX` turn|move up/down (equivalent to turning SCROLL)|
-|:kbd:`SHIFT` + Left :kbd:`PAD FX` turn|page up/down|
-|Right :kbd:`PAD FX` turn|move left/right|
-|:kbd:`SHIFT` + Right :kbd:`PAD FX` turn|adjust waveform zoom|
-|:kbd:`SHIFT` + :kbd:`PAD FX` push|clone other deck|
-|:kbd:`AREA` or any :kbd:`PAD FX` push|Default action|
-|:kbd:`SCROLL` push|change focus zone (:kbd:`TAB`)|
-|:kbd:`SORT`|Sort according to active column|
-|:kbd:`JOGSCROLL`+:kbd:`LOAD A` / :kbd:`LOAD B`|Load selected track into deck A or B|
-|:kbd:`VIEW`|Load and play selected track on preview deck. Push again to stop.|
+================================================== =================================
+Action                                             Effect
+-------------------------------------------------- ---------------------------------
+:kbd:`SCROLL` turn                                 move up/down
+:kbd:`BACK` and :kbd:`FWD`                         move left/right
+Left :kbd:`PAD FX` turn                            move up/down (equivalent to turning SCROLL)
+:kbd:`SHIFT` + Left :kbd:`PAD FX` turn             page up/down
+Right :kbd:`PAD FX` turn                           move left/right
+:kbd:`SHIFT` + Right :kbd:`PAD FX` turn            adjust waveform zoom
+:kbd:`SHIFT` + :kbd:`PAD FX` push                  clone other deck
+:kbd:`AREA` or any :kbd:`PAD FX` push              Default action
+:kbd:`SCROLL` push                                 change focus zone (:kbd:`TAB`)
+:kbd:`SORT`                                        Sort according to active column
+:kbd:`JOGSCROLL`+:kbd:`LOAD A` / :kbd:`LOAD B`     Load selected track into deck A or B
+:kbd:`VIEW`                                        Load and play selected track on preview deck. Push again to stop.
+================================================== ================================
 
 End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
@@ -94,12 +98,14 @@ Quick Effects
 -------------
 
 For both decks:  
-|Action|Effect|
-|---|---|
-|:kbd:`FX SELECT` turn|Select a quick effect preset|  
-|:kbd:`FX SELECT` push|Reset quick effect preset selection|  
-|:kbd:`FX ON/OFF`|Toggle quick effect ON/OFF|
-|:kbd:`FX DEPTH` turn|adjust the effect parameter ("superknob")|
+================================================== =================================
+Action                                             Effect
+-------------------------------------------------- ---------------------------------
+:kbd:`FX SELECT` turn                              Select a quick effect preset  
+:kbd:`FX SELECT` push                              Reset quick effect preset selection  
+:kbd:`FX ON/OFF`                                   Toggle quick effect ON/OFF
+:kbd:`FX DEPTH` turn                               adjust the effect parameter ("superknob")
+================================================== ================================
 
 Performance pads and strips
 ---------------------------
@@ -154,9 +160,12 @@ Stems 1 to 4, left to right
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In Sampler mode, each pad is controlling one of the samplers.  
 They are mapped so the pads are organized in the same layout as the 8 samplers on mixxx default skin.  
-|Color|Meaning|Pad action|:kbd:`SHIFT` + pad action|
-|---|---|---|---|
-|OFF|no track loaded|load selected track| |
-|green|a track is loaded|play|eject|
-|yellow|playing|restart|stop|
+
+====== ================= ==================== =========================
+Color  Meaning           Pad action           :kbd:`SHIFT` + pad action
+------ ----------------- -------------------- -------------------------
+OFF    no track loaded   load selected track
+green  a track is loaded play                 eject
+yellow playing           restart              stop
+====== ================= ==================== =========================
 
