@@ -26,13 +26,15 @@ You can turn the wheels with our without touching the sensitive metallic part.
 Get sure that the sensibility is correctly set with :kbd:`TOUCH SENSOR ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!  
 The LED rings are simulating a vinyl record spin.
 
-|Action|Effect|
-|---|---|
-|Touch and turn wheels|scratching|
-|Touch and turn wheels with :kbd:`SHIFT`|scratching at 10X speed|
-|Turn wheels without touching|temporary rate adjustments (jog)|
-|Turn wheels without touching and with :kbd:`SHIFT`|beatjump|
-|Turn wheels with :kbd:`JOG SCROLL`|library scrolling|  
+================================================== =================================
+Action                                             Effect
+-------------------------------------------------- ---------------------------------
+Touch and turn wheels                              scratching
+Touch and turn wheels with :kbd:`SHIFT`            scratching at 10X speed
+Turn wheels without touching                       temporary rate adjustments (jog)
+Turn wheels without touching and with :kbd:`SHIFT` beatjump
+Turn wheels with :kbd:`JOG SCROLL`                 library scrolling
+================================================== =================================
 
 :kbd:`SYNC` / :kbd:`CUE` / :kbd:`>||`
 -------------------------------------
