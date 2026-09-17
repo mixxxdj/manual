@@ -142,8 +142,8 @@ If the loaded track has stems, the pads will light up in vertical pairs with the
 Stems 1 to 4, left to right  
 - Push the lower button to mute/unmute the stem  
 - Maintain the upper button (it will turn white) for FX control. While the button is pressed:  
-   - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)  
-   - the parameter strip sets the individual volume of the selected stem  
+  - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)  
+  - the parameter strip sets the individual volume of the selected stem  
 
 :kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT CUE`)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
