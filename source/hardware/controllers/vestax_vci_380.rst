@@ -92,7 +92,7 @@ Right :kbd:`PAD FX` turn                           move left/right
 :kbd:`SORT`                                        Sort according to active column
 :kbd:`JOGSCROLL`+:kbd:`LOAD A` / :kbd:`LOAD B`     Load selected track into deck A or B
 :kbd:`VIEW`                                        Load and play selected track on preview deck. Push again to stop.
-================================================== ================================
+================================================== =================================
 
 End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
@@ -114,7 +114,7 @@ Action                                             Effect
 :kbd:`FX SELECT` push                              Reset quick effect preset selection  
 :kbd:`FX ON/OFF`                                   Toggle quick effect ON/OFF
 :kbd:`FX DEPTH` turn                               adjust the effect parameter ("superknob")
-================================================== ================================
+================================================== =================================
 
 Performance pads and strips
 ---------------------------
