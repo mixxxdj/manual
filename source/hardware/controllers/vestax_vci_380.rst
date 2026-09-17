@@ -1,30 +1,22 @@
-This mapping allows using the VESTAX VCI-380 controller with Mixxx DJ software.
-I would appreciate any feedback, suggestions for changes or improvement.
+Vestax VCI-380
+==============
 
-# Where to get Mixxx
-Download and install Mixxx DJ sofware from [Mixx website](https://mixxx.org/)   
-If you want to use Stems feature, be sure to get [Beta version 2.6](https://mixxx.org/download/#beta). Current stable version 2.5.1 doesn't have the Stems feature yet. 
+The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.
+Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.
+Inputs: 2 microphones, and RCA inputs with line/phono switch.
+The output will refuse to work at any other sample rate than 48Khz, so there's an option to automatically set Mixxx output sample rate to 48Khz when using the mapping.
+It requires its own external barrel plug power adapter.
 
-# How to install the mapping
-- Copy the 2 files `Vestax_VCI-380.midi.xml` and `Vestax-VCI-380-scripts.js` to the "Controllers" folder of Mixxx:
+As Vestax went out if business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
 
-|OS|Folder location|
-|---|---|
-|GNU/Linux| `/home/<username>/.mixxx/controllers` |
-|OS X| `/Users/<username>/Library/Containers/org.mixxx.mixxx/Data/Library/Application Support/Mixxx/controllers` |
-|Windows| `C:\Users\<username>\AppData\local\Mixxx\controllers` |
+Mapping
+=======
 
-- Restart Mixx
-- Go to settings / controllers, find your controller and assign the mapping to it.
-
-If it's correctly set up, all the controller lights will quickly flash on Mixxx startup.
-
-# How to use the controller with this mapping
-
-## Mixer functions
+Mixer functions
+---------------
 
 Main knobs and sliders work straightforward.  
-Hold <kbd>SHIFT</kbd> while turning EQ knobs (<kbd>HIGH</kbd>/<kbd>MID</kbd>/<kbd>LOW</kbd>) for EQ kill mode  
+Hold :kbd:`SHIFT` while turning EQ knobs (<kbd>HIGH</kbd>/<kbd>MID</kbd>/<kbd>LOW</kbd>) for EQ kill mode  
 Hold <kbd>SHIFT</kbd> while moving the crossfader to control output balance  
 
 ## Wheels
