@@ -61,13 +61,14 @@ Key                                                Function
 -----------------------
 
 The sliders adjust pitch  
+
 ================================================== =================================
 Action                                             Effect
 -------------------------------------------------- ---------------------------------
 :kbd:`SHIFT` + move slider                         reset speed to 1X  
 :kbd:`SHIFT` + :kbd:`RANGE`                        toggle keylock  
 :kbd:`RANGE`                                       toggle quantization
-================================================== ================================
+================================================== =================================
 
 While the pitch is different from zero, the red PAD FX LED will light up as a reminder that the deck is pitched 
 
