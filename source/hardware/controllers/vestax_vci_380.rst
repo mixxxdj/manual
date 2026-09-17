@@ -1,16 +1,16 @@
 Vestax VCI-380
 ==============
 
-The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.  
-It requires its own external barrel plug power adapter.  
+The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.
+It requires its own external barrel plug power adapter.
 
-Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.  
+Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.
 
-Inputs: 2 microphones, and RCA inputs with line/phono switch.  
+Inputs: 2 microphones, and RCA inputs with line/phono switch.
 
-The output will refuse to work at any other sample rate than 48Khz, so there's an option to automatically set Mixxx output sample rate to 48Khz when using the mapping.  
+The output will refuse to work at any other sample rate than 48Khz, so there's an option to automatically set Mixxx output sample rate to 48Khz when using the mapping.
 
-As Vestax went out if business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.  
+As Vestax went out if business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
 
 Mapping
 =======
@@ -18,17 +18,17 @@ Mapping
 Mixer functions
 ---------------
 
-Main knobs and sliders work straightforward.  
+Main knobs and sliders work straightforward.
 
-Hold :kbd:`SHIFT` while turning EQ knobs (:kbd:`HIGH`/:kbd:`MID`/:kbd:`LOW`) for EQ kill mode  
+Hold :kbd:`SHIFT` while turning EQ knobs (:kbd:`HIGH`/:kbd:`MID`/:kbd:`LOW`) for EQ kill mode
 
-Hold :kbd:`SHIFT` while moving the crossfader to control output balance  
+Hold :kbd:`SHIFT` while moving the crossfader to control output balance
 
 Wheels
 ------
 
-You can turn the wheels with our without touching the sensitive metallic part.  
-Get sure that the sensibility is correctly set with :kbd:`TOUCH SENSOR ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!  
+You can turn the wheels with our without touching the sensitive metallic part.
+Get sure that the sensibility is correctly set with :kbd:`TOUCH SENSOR ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!
 
 The LED rings are simulating a vinyl record spin.
 
@@ -45,9 +45,9 @@ Turn wheels with :kbd:`JOG SCROLL`                 library scrolling
 :kbd:`SYNC` / :kbd:`CUE` / :kbd:`>||`
 -------------------------------------
 
-================================================== =================================
+================================================== =======================================================
 Key                                                Function
--------------------------------------------------- ---------------------------------
+-------------------------------------------------- -------------------------------------------------------
 :kbd:`>/\|\|`                                      Play/pause
 :kbd:`SHIFT`+:kbd:`>/\|\|`                         Soft start / brake
 :kbd:`CUE`                                         go to cue point
@@ -55,22 +55,22 @@ Key                                                Function
 :kbd:`SYNC`                                        blinks on each beat. Press to adjust beatgrid position.
 :kbd:`SHIFT`+:kbd:`SYNC`                           activates auto-sync
 :kbd:`VINYL`                                       toggles slip mode
-================================================== ================================
+================================================== =======================================================
 
 "Tempo" sliders (pitch)
 -----------------------
 
-The sliders adjust pitch  
+The sliders adjust pitch
 
 ================================================== =================================
 Action                                             Effect
 -------------------------------------------------- ---------------------------------
-:kbd:`SHIFT` + move slider                         reset speed to 1X  
-:kbd:`SHIFT` + :kbd:`RANGE`                        toggle keylock  
+:kbd:`SHIFT` + move slider                         reset speed to 1X
+:kbd:`SHIFT` + :kbd:`RANGE`                        toggle keylock
 :kbd:`RANGE`                                       toggle quantization
 ================================================== =================================
 
-While the pitch is different from zero, the red PAD FX LED will light up as a reminder that the deck is pitched 
+While the pitch is different from zero, the red PAD FX LED will light up as a reminder that the deck is pitched
 
 Navigation area
 ---------------
@@ -97,22 +97,22 @@ Right :kbd:`PAD FX` turn                           move left/right
 End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
 
-When a track is playing with less than 30 seconds remaining, the library LEDs will blink.  
+When a track is playing with less than 30 seconds remaining, the library LEDs will blink.
 
-For deck 1: :kbd:`AREA` and :kbd:`BACK`  
+For deck 1: :kbd:`AREA` and :kbd:`BACK`
 
-For deck 2: :kbd:`SORT` and :kbd:`FWD`  
+For deck 2: :kbd:`SORT` and :kbd:`FWD`
 
 Quick Effects
 -------------
 
-For both decks:  
+For both decks:
 
 ================================================== =================================
 Action                                             Effect
 -------------------------------------------------- ---------------------------------
-:kbd:`FX SELECT` turn                              Select a quick effect preset  
-:kbd:`FX SELECT` push                              Reset quick effect preset selection  
+:kbd:`FX SELECT` turn                              Select a quick effect preset
+:kbd:`FX SELECT` push                              Reset quick effect preset selection
 :kbd:`FX ON/OFF`                                   Toggle quick effect ON/OFF
 :kbd:`FX DEPTH` turn                               adjust the effect parameter ("superknob")
 ================================================== =================================
@@ -128,8 +128,8 @@ To do a needle drop on the main decks, touch the strip with :kbd:`SHIFT`
 
 :kbd:`HOT CUE` mode: HOTCUES
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-8 hot cues available, one per pad. The pads will light up when their hotcue is set.  
-the colors of the lights will approximate the colors defined for the hot cues.  
+8 hot cues available, one per pad. The pads will light up when their hotcue is set.
+the colors of the lights will approximate the colors defined for the hot cues.
 
 - push a lighted pad to play the hotcue
 - push a blank pad to set a new hotcue to the current position.
@@ -139,42 +139,42 @@ the colors of the lights will approximate the colors defined for the hot cues.
 :kbd:`SLICER` mode : BEAT GRID tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The 8 pads will illuminate in sequence following the beat grid. To reset the sequence to beat 1, push the :kbd:`SLICER` button again.
-- Push a button of higher row: BPM tap. Tap it in rhythm to adjust the calculated BPM of the track  
-- Push a button of lower row: align beatgrid. Tap it to align the beatgrid bars to the current position.    
+- Push a button of higher row: BPM tap. Tap it in rhythm to adjust the calculated BPM of the track
+- Push a button of lower row: align beatgrid. Tap it to align the beatgrid bars to the current position.
 
 :kbd:`AUTO LOOP`: loop mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The green buttons on the left control loop activation.  
+The green buttons on the left control loop activation.
 
-- upper (button 1): creates or disables a loop (beatloop_activate)  
-- lower (button 5): reactivates existing loop (reloop_toggle)  
+- upper (button 1): creates or disables a loop (beatloop_activate)
+- lower (button 5): reactivates existing loop (reloop_toggle)
 
 The yellow buttons control beatloop size
 
 - left (button 3): halves the size
 - right (button 4): doubles the size
 
-The white buttons control the loop position  
+The white buttons control the loop position
 
-- left (button 7): move left  
-- right (button 8): move right  
+- left (button 7): move left
+- right (button 8): move right
 
 :kbd:`ROLL`: Stems mode
 ^^^^^^^^^^^^^^^^^^^^^^^
-If the loaded track has stems, the pads will light up in vertical pairs with the corresponding stem colors  
-Stems 1 to 4, left to right  
+If the loaded track has stems, the pads will light up in vertical pairs with the corresponding stem colors
+Stems 1 to 4, left to right
 
-- Push the lower button to mute/unmute the stem  
-- Maintain the upper button (it will turn white) for FX control. While the button is pressed:  
+- Push the lower button to mute/unmute the stem
+- Maintain the upper button (it will turn white) for FX control. While the button is pressed:
 
-  - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)  
-  - the parameter strip sets the individual volume of the selected stem  
+  - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)
+  - the parameter strip sets the individual volume of the selected stem
 
 
 :kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT CUE`)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In Sampler mode, each pad is controlling one of the samplers.  
-They are mapped so the pads are organized in the same layout as the 8 samplers on mixxx default skin.  
+In Sampler mode, each pad is controlling one of the samplers.
+They are mapped so the pads are organized in the same layout as the 8 samplers on mixxx default skin.
 
 ====== ================= ==================== =========================
 Color  Meaning           Pad action           :kbd:`SHIFT` + pad action
@@ -183,4 +183,3 @@ OFF    no track loaded   load selected track
 green  a track is loaded play                 eject
 yellow playing           restart              stop
 ====== ================= ==================== =========================
-
