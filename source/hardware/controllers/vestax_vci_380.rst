@@ -1,13 +1,16 @@
 Vestax VCI-380
 ==============
 
-The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.
-Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.
-Inputs: 2 microphones, and RCA inputs with line/phono switch.
-The output will refuse to work at any other sample rate than 48Khz, so there's an option to automatically set Mixxx output sample rate to 48Khz when using the mapping.
-It requires its own external barrel plug power adapter.
+The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.  
+It requires its own external barrel plug power adapter.  
 
-As Vestax went out if business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
+Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.  
+
+Inputs: 2 microphones, and RCA inputs with line/phono switch.  
+
+The output will refuse to work at any other sample rate than 48Khz, so there's an option to automatically set Mixxx output sample rate to 48Khz when using the mapping.  
+
+As Vestax went out if business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.  
 
 Mapping
 =======
@@ -16,7 +19,9 @@ Mixer functions
 ---------------
 
 Main knobs and sliders work straightforward.  
+
 Hold :kbd:`SHIFT` while turning EQ knobs (:kbd:`HIGH`/:kbd:`MID`/:kbd:`LOW`) for EQ kill mode  
+
 Hold :kbd:`SHIFT` while moving the crossfader to control output balance  
 
 Wheels
@@ -24,6 +29,7 @@ Wheels
 
 You can turn the wheels with our without touching the sensitive metallic part.  
 Get sure that the sensibility is correctly set with :kbd:`TOUCH SENSOR ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!  
+
 The LED rings are simulating a vinyl record spin.
 
 ================================================== =================================
@@ -91,7 +97,9 @@ End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
 
 When a track is playing with less than 30 seconds remaining, the library LEDs will blink.  
+
 For deck 1: :kbd:`AREA` and :kbd:`BACK`  
+
 For deck 2: :kbd:`SORT` and :kbd:`FWD`  
 
 Quick Effects
@@ -110,15 +118,17 @@ Action                                             Effect
 Performance pads and strips
 ---------------------------
 They work in different modes, according to the selection buttons on the top of the controller.
-My modes are not always related to the names they bear on the controller :
 
+My modes are not always related to the names they bear on the controller :
 The left strip is used in any mode for needle drop (quick navigate) on the preview deck
+
 To do a needle drop on the main decks, touch the strip with :kbd:`SHIFT`
 
 :kbd:`HOT CUE` mode: HOTCUES
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 8 hot cues available, one per pad. The pads will light up when their hotcue is set.  
 the colors of the lights will approximate the colors defined for the hot cues.  
+
 - push a lighted pad to play the hotcue
 - push a blank pad to set a new hotcue to the current position.
 - push :kbd:`SHIFT` + lighted pad to clear a hotcue
@@ -133,14 +143,17 @@ The 8 pads will illuminate in sequence following the beat grid. To reset the seq
 :kbd:`AUTO LOOP`: loop mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The green buttons on the left control loop activation.  
+
 - upper (button 1): creates or disables a loop (beatloop_activate)  
 - lower (button 5): reactivates existing loop (reloop_toggle)  
 
 The yellow buttons control beatloop size
+
 - left (button 3): halves the size
 - right (button 4): doubles the size
 
 The white buttons control the loop position  
+
 - left (button 7): move left  
 - right (button 8): move right  
 
