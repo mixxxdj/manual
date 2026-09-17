@@ -90,7 +90,7 @@ Right :kbd:`PAD FX` turn                           move left/right
 :kbd:`AREA` or any :kbd:`PAD FX` push              Default action
 :kbd:`SCROLL` push                                 change focus zone (:kbd:`TAB`)
 :kbd:`SORT`                                        Sort according to active column
-:kbd:`JOGSCROLL`+:kbd:`LOAD A` / :kbd:`LOAD B`     Load selected track into deck A or B
+:kbd:`JOGSCROLL` + :kbd:`LOAD A` / :kbd:`LOAD B`     Load selected track into deck A or B
 :kbd:`VIEW`                                        Load and play selected track on preview deck. Push again to stop.
 ================================================== =================================
 
