@@ -101,7 +101,6 @@ For both decks:
 
 Performance pads and strips
 ---------------------------
-
 They work in different modes, according to the selection buttons on the top of the controller.
 My modes are not always related to the names they bear on the controller :
 
@@ -110,7 +109,6 @@ To do a needle drop on the main decks, touch the strip with :kbd:`SHIFT`
 
 :kbd:`HOT CUE` mode: HOTCUES
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 8 hot cues available, one per pad. The pads will light up when their hotcue is set.  
 the colors of the lights will approximate the colors defined for the hot cues.  
 - push a lighted pad to play the hotcue
@@ -118,12 +116,14 @@ the colors of the lights will approximate the colors defined for the hot cues.
 - push :kbd:`SHIFT` + lighted pad to clear a hotcue
 - loop hotcues: the pad will turn green when the loop is active, push to disable loop
 
-### :kbd:`SLICER` mode : BEAT GRID tools
+:kbd:`SLICER` mode : BEAT GRID tools
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The 8 pads will illuminate in sequence following the beat grid. To reset the sequence to beat 1, push the :kbd:`SLICER` button again.
 - Push a button of higher row: BPM tap. Tap it in rhythm to adjust the calculated BPM of the track  
 - Push a button of lower row: align beatgrid. Tap it to align the beatgrid bars to the current position.    
 
-### :kbd:`AUTO LOOP`: loop mode
+:kbd:`AUTO LOOP`: loop mode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The green buttons on the left control loop activation.  
 - upper (button 1): creates or disables a loop (beatloop_activate)  
 - lower (button 5): reactivates existing loop (reloop_toggle)  
@@ -136,7 +136,8 @@ The white buttons control the loop position
 - left (button 7): move left  
 - right (button 8): move right  
 
-### :kbd:`ROLL`: Stems mode
+:kbd:`ROLL`: Stems mode
+^^^^^^^^^^^^^^^^^^^^^^^
 If the loaded track has stems, the pads will light up in vertical pairs with the corresponding stem colors  
 Stems 1 to 4, left to right  
 - Push the lower button to mute/unmute the stem  
@@ -144,7 +145,8 @@ Stems 1 to 4, left to right
    - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)  
    - the parameter strip sets the individual volume of the selected stem  
 
-### :kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT CUE`)
+:kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT CUE`)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In Sampler mode, each pad is controlling one of the samplers.  
 They are mapped so the pads are organized in the same layout as the 8 samplers on mixxx default skin.  
 |Color|Meaning|Pad action|:kbd:`SHIFT` + pad action|
