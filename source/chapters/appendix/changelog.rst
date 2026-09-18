@@ -118,7 +118,6 @@ Miscellaneous
 * Mixdown headphone and booth outputs in mono mode
   `#17013 <https://github.com/mixxxdj/mixxx/pull/17013>`__
   `#16942 <https://github.com/mixxxdj/mixxx/issues/16942>`__
-
 .. _v2-5-6:
 
 `2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (2026-03-25)
@@ -229,7 +228,6 @@ Miscellaneous
 * Num deck streamline
   `#14112 <https://github.com/mixxxdj/mixxx/pull/14112>`__
   `#16009 <https://github.com/mixxxdj/mixxx/pull/16009>`__
-
 .. _v2-5-5:
 
 `2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (skipped)
@@ -381,7 +379,6 @@ Misc
 * Fix possible crash due to division by zereo in waveform code
   `#15738 <https://github.com/mixxxdj/mixxx/pull/15738>`__
   `#15737 <https://github.com/mixxxdj/mixxx/issues/15737>`__
-
 .. _v2-5-3:
 
 `2.5.3 <https://github.com/mixxxdj/mixxx/milestone/50>`__ (2025-09-02)
@@ -470,7 +467,6 @@ Misc
 * Fix column header text assignment `#14944 <https://github.com/mixxxdj/mixxx/pull/14944>`__
 * Remove runtime assert to not risk crashes `#15000 <https://github.com/mixxxdj/mixxx/pull/15000>`__
 * Tracks: prevent reorder with Alt keys when model (playlist) is locked `#15135 <https://github.com/mixxxdj/mixxx/pull/15135>`__
-
 .. _v2-5-2:
 
 `2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`__ (2025-06-13)
@@ -554,7 +550,7 @@ Misc
 
 
 * Vinyl Control: Reduce sticker drift `#14435 <https://github.com/mixxxdj/mixxx/pull/14435>`__
-* Fix infinite number of pop ups of the "No Vinyl|Mic|Aux|Passthrough input configured" dialog
+* Fix infinite number of pop ups of the "No Vinyl\|Mic\|Aux\|Passthrough input configured" dialog
   `#14841 <https://github.com/mixxxdj/mixxx/pull/14841>`__
   `#14837 <https://github.com/mixxxdj/mixxx/issues/14837>`__
 * Reduce CPU usage with Trace log messages
@@ -576,7 +572,6 @@ Misc
 * Update cue & play indicators on paused decks when switching cue mode
   `14930 <https://github.com/mixxxdj/mixxx/pull/14930>`__
   `9928 <https://github.com/mixxxdj/mixxx/issues/9928>`__
-
 .. _v2-5-1:
 
 `2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`__ (2025-04-27)
@@ -801,7 +796,6 @@ Target support
 * Handle new " / " from taglib 2.0
   `#12854 <https://github.com/mixxxdj/mixxx/pull/12854>`__
   `#12790 <https://github.com/mixxxdj/mixxx/issues/12790>`__
-
 .. _v2-5-0:
 
 `2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
@@ -1196,7 +1190,6 @@ Target support
 * Disable warning in lib/apple code `#13522 <https://github.com/mixxxdj/mixxx/pull/13522>`__
 * GitHub CI: Use retry loop for CPack to work around macOS issue `#13991 <https://github.com/mixxxdj/mixxx/pull/13991>`__
 * Github CI: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
-
 .. _v2-4-2:
 
 `2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (2024-11-26)
@@ -1334,7 +1327,6 @@ Fixes
 * Fix waveform EQ High&Mid visualization
   `#13923 <https://github.com/mixxxdj/mixxx/pull/13923>`__
   `#13922 <https://github.com/mixxxdj/mixxx/issues/13922>`__
-
 .. _v2-4-1:
 
 `2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (2024-05-08)
@@ -1464,7 +1456,6 @@ Miscellaneous
   `#13055 <https://github.com/mixxxdj/mixxx/issues/13055>`__
   `#13073 <https://github.com/mixxxdj/mixxx/pull/13073>`__
 * Fix hid addOutput
-
 .. _v2-4-0:
 
 `2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`__ (2024-02-16)
