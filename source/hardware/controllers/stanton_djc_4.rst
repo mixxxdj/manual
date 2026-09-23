@@ -164,7 +164,7 @@ No.                       Control                                               
 Tweakables
 ^^^^^^^^^^
 
-At the top of the file file:`Stanton-DJC-4-scripts.js` there are a few customizable options to change the default mapping.
+At the top of the file :file:`Stanton-DJC-4-scripts.js` there are a few customizable options to change the default mapping.
 
 =====================  ==========================================================================================  =========
 Variable               Function                                                                                    Default
