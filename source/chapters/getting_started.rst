@@ -128,6 +128,8 @@ Once you have :ref:`imported your music library<getting-started-import-audio-fil
 * Go to the :guilabel:`Analyze` view on the left side panel of the library.
 * To analyze a few specific tracks, hold down the :kbd:`Ctrl` button, and select the tracks that you want to analyze or you can :kbd:`shift`-select a range of tracks. Once they've been highlighted, click the :guilabel:`Analyze` button on the top right of the library section.
 * To analyze the newly added tracks, toggle the :guilabel:`New` label and then click :guilabel:`Analyze`.
+  The :guilabel:`New` view lists tracks added to the library within the last 7 days; this period can
+  be changed with the spin box next to the :guilabel:`New` button.
 * To analyze the entire library, toggle the :guilabel:`All` label and then click :guilabel:`Analyze`.
 * The :guilabel:`New` and :guilabel:`All` toggle buttons are located at the top left of the analysis pane - just above the :guilabel:`Preview` and :guilabel:`Cover Art` column titles of the library.
 
