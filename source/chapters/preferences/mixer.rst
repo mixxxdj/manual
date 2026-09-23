@@ -43,7 +43,7 @@ equalizer effect for the main output.
   The remaining treble range is controlled by the high knob.
 
 * **Main EQ**: This section allows you to setup an EQ that affects the
-  term:`main output`.
+  :term:`main output`.
 
 
 Mixing Equalizers
