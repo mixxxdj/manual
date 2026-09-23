@@ -59,6 +59,15 @@ Wizard.
    control.
 #. When you are finished mapping controls, click :guilabel:`Done`
 
+.. hint::
+   On controllers that have a :guilabel:`Shift` or other modifier button, the
+   shifted version of a control usually sends a different MIDI message and can
+   be learned like any other control. Press or lock the controller's modifier
+   button *before* choosing the control in the wizard and keep it held while
+   moving or pressing the control — the wizard maps the first message it
+   receives, so this avoids the modifier's own "Shift on" MIDI message being
+   registered instead of the shifted control's message.
+
 There are also some advanced options in the Midi Wizard you may need to use:
 
 * Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in
