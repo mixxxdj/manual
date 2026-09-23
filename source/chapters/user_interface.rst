@@ -1240,6 +1240,32 @@ Microphone Controls
   Use this knob to adjust the gain of the microphone output. Try to keep the
   volume at a reasonable level to avoid signal clipping.
 
+Auxiliary Inputs
+----------------
+
+Auxiliary inputs are stereo line-level inputs for connecting external audio
+sources — such as a phone, media player or synthesizer — directly to the
+Mixxx main output. Assign them in :menuselection:`Preferences --> Sound
+Hardware --> Input`. Unlike microphones, auxiliary inputs have no talk
+button and are not affected by microphone ducking.
+
+Each auxiliary channel provides:
+
+**Enable Button**
+  Mixes the auxiliary input into the Mixxx main output. Hold for momentary
+  use or short-click for latching. If no input is assigned to the channel,
+  the button switches off again.
+
+**Headphone Button**
+  Sends the auxiliary input to the headphone output for cueing.
+
+**Gain Knob**
+  Adjusts the gain of the auxiliary input. Try to keep the volume at a
+  reasonable level to avoid signal clipping.
+
+**Volume Meter**
+  Displays the auxiliary input signal strength.
+
 .. _interface-preview-deck:
 
 Preview Deck
