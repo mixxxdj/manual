@@ -369,6 +369,25 @@ pitch control, simply lift the needle and place it anywhere in the main timecode
 area. It's OK, the track won't stop playing. As soon as Mixxx detects that the
 needle has settled, it will automatically switch to *Relative Mode*.
 
+Passthrough
+===========
+
+Passthrough lets you route the audio from a configured :ref:`Vinyl Control
+input <preferences-sound-hardware>` directly through a deck's channel. This
+allows mixing external media — such as a regular record or a :term:`CDJ`
+output — into your set, where it passes through the deck's gain, EQ, effects
+and crossfader like a normal track.
+
+To use passthrough, assign a **Vinyl Control** input to the deck in
+:menuselection:`Preferences --> Sound Hardware --> Input`, then enable it with
+the deck's :ref:`Pass button <interface-vc-mode>` or by mapping the
+:mixxx:coref:`[ChannelN],passthrough` control. While passthrough is active,
+the deck's transport is disabled — a loaded track cannot be played or
+seeked — and a **Passthrough** label is shown in the :term:`waveform
+overview`.
+
+.. versionadded:: 2.0.0
+
 Control Track
 =============
 
