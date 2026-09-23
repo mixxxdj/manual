@@ -44,6 +44,10 @@ def changelog_to_rst(changelog):
 
     changelog = TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
 
+    # m2r2 drops the blank line between content and the inserted anchors,
+    # producing "Bullet list ends without a blank line" warnings
+    changelog = re.sub(r"([^\n])\n(\.\. _v)", r"\g<1>\n\n\g<2>", changelog)
+
     # m2r2 produces links with postfix _. We need anonymous references instead
     # See https://github.com/mixxxdj/manual/issues/553
     changelog = re.sub(r"(`\S+ \<\S+\>`)_", r"\g<1>__", changelog)
