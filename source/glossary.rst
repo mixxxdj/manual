@@ -534,3 +534,14 @@ Glossary of Terms
      :term:`operating systems <operating system>` without special drivers (on
      Windows, special drivers might still be necessary to use the :term:`ASIO`
      sound :term:`API` though).
+
+   Soft Takeover
+   soft-takeover
+     A feature that prevents sudden jumps of Mixxx :term:`GUI` controls
+     when the physical :term:`controller` knob or slider position no longer
+     matches the software value, for example after a software fader was moved
+     by Auto DJ or Sync. When soft-takeover is enabled, Mixxx will not update
+     the control value until the physical knob passes the current software
+     value. The option is available in the :ref:`Controller Wizard
+     <advanced-controller-wizard>`. For more details, see the
+     `MIDI Scripting wiki <https://github.com/mixxxdj/mixxx/wiki/midi-scripting#user-content-soft-takeover>`_.
