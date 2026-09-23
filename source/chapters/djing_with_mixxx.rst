@@ -370,7 +370,8 @@ outro start point is coming up on the old track. Then, press play on the new tra
 
 If you do not have the intro end and outro start points marked when loading a track, you can find and
 mark these in headphones before you mix in the track. Then seek back to the intro start to get the track ready. If you don't
-have time to find the outro end point before mixing in the track, you can use the deck cloning feature to drag and drop to a new deck,
+have time to find the outro end point before mixing in the track, you can use the :ref:`deck cloning <djing-deck-cloning>`
+feature to drag and drop to a new deck,
 then seek ahead on the new deck and listen in headphones to mark the outro start point. If you don't have time to do that either,
 you can right click on the overview waveform where you think the outro starts. Then look for how far that is from the end of the track to
 compare it to the length of the intro of the next track.
@@ -383,6 +384,40 @@ compare it to the length of the intro of the next track.
    Here the outro is approximately 30 seconds long. However, the analyzer placed the outro end point before the end of the track,
    so the outro is actually a little bit shorter than 30 seconds. Without marking the outro start point, you would have to do some
    math in your head to find exactly how long the outro is.
+
+.. _djing-deck-cloning:
+
+Deck Cloning
+============
+
+Deck cloning copies a loaded track from one :term:`deck` to another together
+with its play state, position, :term:`rate` and key. The cloned deck continues
+playback seamlessly from the same position as the source deck, including any
+active loop.
+
+This enables several techniques: you can free up a deck while its track keeps
+playing — for example when mixing with a single turntable — or seek ahead on
+the cloned deck to find an outro point while the original keeps playing for
+the audience. Cloning the same track onto multiple decks also allows beat
+juggling, where two or more copies are offset and cut against each other to
+loop or rearrange a section.
+
+To clone a loaded deck, drag its track from the deck's :ref:`track information
+display <interface-track-info>`, cover art, vinyl widget or :term:`waveform
+overview` and drop it onto another deck.
+
+Cloning can also be triggered from a controller mapping with the
+:mixxx:coref:`[ChannelN],CloneFromDeck` and
+:mixxx:coref:`[ChannelN],CloneFromSampler` controls.
+
+.. note::
+   Cloning a playing deck means the same track is playing on two decks at the
+   same position. If both decks are audible in the main mix — for example with
+   the :term:`crossfader` centered — the combined output is considerably
+   louder and may distort. Lower the target deck's channel fader or move the
+   crossfader fully to one side before cloning a playing deck.
+
+.. versionadded:: 2.3.0
 
 .. _djing-auto-dj:
 
