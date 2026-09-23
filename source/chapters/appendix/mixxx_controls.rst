@@ -309,6 +309,20 @@ The ``[Master]`` & ``[Main]`` group
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Master],boothDelay
+
+   Delays the Booth output by the given time, useful for aligning the booth
+   monitor with other outputs. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
+
+
 .. mixxx:control:: [Master],crossfader
 
    Adjusts the :term:`crossfader` between players/decks (-1.0 is all the way left).
@@ -402,6 +416,19 @@ The ``[Master]`` & ``[Main]`` group
    :feedback: If set to 1 the internal crossfader position is the opposite of the GUI crossfader.
 
 
+.. mixxx:control:: [Master],delay
+
+   Delays the Main output by the given time. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
+
+
 .. mixxx:control:: [Master],duckStrength
 
    Microphone ducking strength
@@ -435,6 +462,20 @@ The ``[Master]`` & ``[Main]`` group
 
    .. versionadded:: 2.0.0
 
+
+
+.. mixxx:control:: [Master],headDelay
+
+   Delays the Headphone output by the given time, useful for aligning
+   headphones with the main output. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
 
 
 .. mixxx:control:: [Master],headEnabled
@@ -485,6 +526,21 @@ The ``[Master]`` & ``[Main]`` group
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
+
+
+.. mixxx:control:: [Master],microphoneLatencyCompensation
+
+   Delays the record/broadcast mix so the microphone talkover signal stays
+   aligned with the main mix, compensating for the round-trip input/output
+   :term:`latency`. The main and booth outputs are not affected by this
+   control. Set in the :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],num_effectsavailable
@@ -4189,6 +4245,25 @@ The ``[Controls]`` controls
       ===== ===========================================================================
    :feedback: None
 
+.. mixxx:control:: [Controls],TimeFormat
+
+   Selects the format used to display track durations in the decks. Set in
+   :menuselection:`Preferences --> Decks --> Time Format`.
+
+   :range:
+      =====  =========================
+      Value  Format
+      =====  =========================
+      0      Traditional (``mm:ss.zzz``)
+      1      Traditional (Coarse) (``mm:ss``)
+      2      Seconds (``s.zzz``)
+      3      Seconds (Long) (``sss.zzz``)
+      4      Kiloseconds (``s.zss.zz``)
+      =====  =========================
+   :feedback: Track time display widgets
+
+   .. versionadded:: 2.1.0
+
 .. _appendix-mixxxcontrols-effects:
 
 The Effects Framework
@@ -4847,6 +4922,30 @@ The ``[Mixer Profile]`` group
    :feedback: EQ crossover in preferences
 
    .. versionadded:: 2.0.0
+
+
+The ``[SoundManager]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [SoundManager]
+
+   The :mixxx:cogroupref:`[SoundManager]` group exposes the connection state
+   of the audio backend.
+
+.. mixxx:control:: [SoundManager],status
+
+   Reflects the current connection state of the sound system. This is a
+   read-only status indicator set by Mixxx; mappings should not write to it.
+
+   :range:
+      =====  =========================
+      Value  State
+      =====  =========================
+      0      Disconnected
+      1      Connecting
+      2      Connected
+      =====  =========================
+   :feedback: None
 
 
 Deprecated controls
