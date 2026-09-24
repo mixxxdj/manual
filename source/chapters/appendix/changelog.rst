@@ -120,8 +120,8 @@ Miscellaneous
   `#16942 <https://github.com/mixxxdj/mixxx/issues/16942>`__
 .. _v2-5-6:
 
-`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (2026-03-25)
--------------------------------------------------------------------------
+`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`___ (2026-03-25)
+--------------------------------------------------------------------------
 
 Library
 ^^^^^^^
@@ -230,15 +230,15 @@ Miscellaneous
   `#16009 <https://github.com/mixxxdj/mixxx/pull/16009>`__
 .. _v2-5-5:
 
-`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (skipped)
-----------------------------------------------------------------------
+`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`___ (skipped)
+-----------------------------------------------------------------------
 
 Note: Version 2.5.5 has been skipped following an issue in the release workflow.
 
 .. _v2-5-4:
 
-`2.5.4 <https://github.com/mixxxdj/mixxx/milestone/51>`__ (2025-12-14)
--------------------------------------------------------------------------
+`2.5.4 <https://github.com/mixxxdj/mixxx/milestone/51>`___ (2025-12-14)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -381,8 +381,8 @@ Misc
   `#15737 <https://github.com/mixxxdj/mixxx/issues/15737>`__
 .. _v2-5-3:
 
-`2.5.3 <https://github.com/mixxxdj/mixxx/milestone/50>`__ (2025-09-02)
--------------------------------------------------------------------------
+`2.5.3 <https://github.com/mixxxdj/mixxx/milestone/50>`___ (2025-09-02)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -469,8 +469,8 @@ Misc
 * Tracks: prevent reorder with Alt keys when model (playlist) is locked `#15135 <https://github.com/mixxxdj/mixxx/pull/15135>`__
 .. _v2-5-2:
 
-`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`__ (2025-06-13)
--------------------------------------------------------------------------
+`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`___ (2025-06-13)
+--------------------------------------------------------------------------
 
 Library
 ^^^^^^^
@@ -574,8 +574,8 @@ Misc
   `9928 <https://github.com/mixxxdj/mixxx/issues/9928>`__
 .. _v2-5-1:
 
-`2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`__ (2025-04-27)
--------------------------------------------------------------------------
+`2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`___ (2025-04-27)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -798,8 +798,8 @@ Target support
   `#12790 <https://github.com/mixxxdj/mixxx/issues/12790>`__
 .. _v2-5-0:
 
-`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
----------------------------------------------------------------------------------------
+`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`___ (2024-12-24)
+----------------------------------------------------------------------------------------
 
 Modernized Platform: Update to Qt6
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1192,8 +1192,8 @@ Target support
 * Github CI: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
 .. _v2-4-2:
 
-`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (2024-11-26)
-----------------------------------------------------------------------------------
+`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`___ (2024-11-26)
+-----------------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -1329,8 +1329,8 @@ Fixes
   `#13922 <https://github.com/mixxxdj/mixxx/issues/13922>`__
 .. _v2-4-1:
 
-`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (2024-05-08)
-----------------------------------------------------------------------------------
+`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`___ (2024-05-08)
+-----------------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -1458,8 +1458,8 @@ Miscellaneous
 * Fix hid addOutput
 .. _v2-4-0:
 
-`2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`__ (2024-02-16)
-----------------------------------------------------------------------------------
+`2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`___ (2024-02-16)
+-----------------------------------------------------------------------------------
 
 Music Library: Tracks Table & Track Menu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
