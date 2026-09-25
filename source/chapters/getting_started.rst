@@ -117,6 +117,9 @@ If the tracks have never been played with Mixxx before, the library columns :gui
 :guilabel:`Duration` and :guilabel:`Key` will be empty or unreliable (because the values are just read from the file's tags if present and might be wrong).
 Pre-generating beatgrids gives you the chance to double-check
 the beat markers to make sure they are correct. Errors in beatgrids can cause difficulty when syncing tracks.
+See :ref:`Correcting Beat Grids <correcting-beat-grids>` for how to fix
+misdetected BPM values, including tracks detected at half or double their
+real BPM.
 Furthermore, track analysis takes considerable CPU power and might cause skips in the audio ---
 things you surely don't need while performing.
 
