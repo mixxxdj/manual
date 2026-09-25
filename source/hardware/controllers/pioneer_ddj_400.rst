@@ -65,6 +65,10 @@ Headphones   3-4
           TS microphone jack on the controller, as it is not routed back to the computer
           and cannot be configured as an input device.
 
+.. note:: On Windows the CUE buttons for the channels will not work correctly unless
+          you use the "Windows WASAPI" Sound API.  DirectSound will not play the individual
+          channels through PFL correctly.
+
 Controller Mapping
 ------------------
 
