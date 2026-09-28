@@ -20,6 +20,7 @@ Controller Mappings
 
 * Allen & Heath Xone K3: Update midi mappings (backport `#16453 <https://github.com/mixxxdj/mixxx/pull/16453>`__\ ) `#16496 <https://github.com/mixxxdj/mixxx/pull/16496>`__
 * Numark Mixtrack 3: fix settings bool evaluation `#16708 <https://github.com/mixxxdj/mixxx/pull/16708>`__
+* Vestax VCI-400: fix VU meters, midi.sendShortMsg() `#16180 <https://github.com/mixxxdj/mixxx/pull/16180>`__
 
 Library
 ^^^^^^^
@@ -36,9 +37,13 @@ Library
 * Fixing last played time being wiped on history deletion
   `#16178 <https://github.com/mixxxdj/mixxx/pull/16178>`__
   `#14427 <https://github.com/mixxxdj/mixxx/issues/14427>`__
+  `#16911 <https://github.com/mixxxdj/mixxx/pull/16911>`__
 * Fix false-positive missing tracks
   `#16685 <https://github.com/mixxxdj/mixxx/pull/16685>`__
   `#13533 <https://github.com/mixxxdj/mixxx/issues/13533>`__
+* Rekordbox: detect databases in hidden .PIONEER directory
+  `#16895 <https://github.com/mixxxdj/mixxx/pull/16895>`__
+  `#16894 <https://github.com/mixxxdj/mixxx/issues/16894>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -105,11 +110,18 @@ Miscellaneous
   `#16816 <https://github.com/mixxxdj/mixxx/pull/16816>`__
   `#16783 <https://github.com/mixxxdj/mixxx/issues/16783>`__
   `#16592 <https://github.com/mixxxdj/mixxx/pull/16592>`__
-
+* Avoid spurious play control update
+  `#16912 <https://github.com/mixxxdj/mixxx/pull/16912>`__
+  `#16910 <https://github.com/mixxxdj/mixxx/issues/16910>`__
+* Respect ``repeat`` in slip mode when enabled before slip, like looping
+  `#16982 <https://github.com/mixxxdj/mixxx/pull/16982>`__
+* Mixdown headphone and booth outputs in mono mode
+  `#17013 <https://github.com/mixxxdj/mixxx/pull/17013>`__
+  `#16942 <https://github.com/mixxxdj/mixxx/issues/16942>`__
 .. _v2-5-6:
 
-`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (2026-03-25)
--------------------------------------------------------------------------
+`2.5.6 <https://github.com/mixxxdj/mixxx/milestone/53>`___ (2026-03-25)
+--------------------------------------------------------------------------
 
 Library
 ^^^^^^^
@@ -216,18 +228,17 @@ Miscellaneous
 * Num deck streamline
   `#14112 <https://github.com/mixxxdj/mixxx/pull/14112>`__
   `#16009 <https://github.com/mixxxdj/mixxx/pull/16009>`__
-
 .. _v2-5-5:
 
-`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`__ (skipped)
-----------------------------------------------------------------------
+`2.5.5 <https://github.com/mixxxdj/mixxx/milestone/53>`___ (skipped)
+-----------------------------------------------------------------------
 
 Note: Version 2.5.5 has been skipped following an issue in the release workflow.
 
 .. _v2-5-4:
 
-`2.5.4 <https://github.com/mixxxdj/mixxx/milestone/51>`__ (2025-12-14)
--------------------------------------------------------------------------
+`2.5.4 <https://github.com/mixxxdj/mixxx/milestone/51>`___ (2025-12-14)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -368,11 +379,10 @@ Misc
 * Fix possible crash due to division by zereo in waveform code
   `#15738 <https://github.com/mixxxdj/mixxx/pull/15738>`__
   `#15737 <https://github.com/mixxxdj/mixxx/issues/15737>`__
-
 .. _v2-5-3:
 
-`2.5.3 <https://github.com/mixxxdj/mixxx/milestone/50>`__ (2025-09-02)
--------------------------------------------------------------------------
+`2.5.3 <https://github.com/mixxxdj/mixxx/milestone/50>`___ (2025-09-02)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -457,11 +467,10 @@ Misc
 * Fix column header text assignment `#14944 <https://github.com/mixxxdj/mixxx/pull/14944>`__
 * Remove runtime assert to not risk crashes `#15000 <https://github.com/mixxxdj/mixxx/pull/15000>`__
 * Tracks: prevent reorder with Alt keys when model (playlist) is locked `#15135 <https://github.com/mixxxdj/mixxx/pull/15135>`__
-
 .. _v2-5-2:
 
-`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`__ (2025-06-13)
--------------------------------------------------------------------------
+`2.5.2 <https://github.com/mixxxdj/mixxx/milestone/49>`___ (2025-06-13)
+--------------------------------------------------------------------------
 
 Library
 ^^^^^^^
@@ -541,7 +550,7 @@ Misc
 
 
 * Vinyl Control: Reduce sticker drift `#14435 <https://github.com/mixxxdj/mixxx/pull/14435>`__
-* Fix infinite number of pop ups of the "No Vinyl|Mic|Aux|Passthrough input configured" dialog
+* Fix infinite number of pop ups of the "No Vinyl\|Mic\|Aux\|Passthrough input configured" dialog
   `#14841 <https://github.com/mixxxdj/mixxx/pull/14841>`__
   `#14837 <https://github.com/mixxxdj/mixxx/issues/14837>`__
 * Reduce CPU usage with Trace log messages
@@ -563,11 +572,10 @@ Misc
 * Update cue & play indicators on paused decks when switching cue mode
   `14930 <https://github.com/mixxxdj/mixxx/pull/14930>`__
   `9928 <https://github.com/mixxxdj/mixxx/issues/9928>`__
-
 .. _v2-5-1:
 
-`2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`__ (2025-04-27)
--------------------------------------------------------------------------
+`2.5.1 <https://github.com/mixxxdj/mixxx/milestone/45>`___ (2025-04-27)
+--------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -788,11 +796,10 @@ Target support
 * Handle new " / " from taglib 2.0
   `#12854 <https://github.com/mixxxdj/mixxx/pull/12854>`__
   `#12790 <https://github.com/mixxxdj/mixxx/issues/12790>`__
-
 .. _v2-5-0:
 
-`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`__ (2024-12-24)
----------------------------------------------------------------------------------------
+`2.5.0 <https://github.com/mixxxdj/mixxx/issues?q=milestone%3A2.5.0>`___ (2024-12-24)
+----------------------------------------------------------------------------------------
 
 Modernized Platform: Update to Qt6
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1183,11 +1190,10 @@ Target support
 * Disable warning in lib/apple code `#13522 <https://github.com/mixxxdj/mixxx/pull/13522>`__
 * GitHub CI: Use retry loop for CPack to work around macOS issue `#13991 <https://github.com/mixxxdj/mixxx/pull/13991>`__
 * Github CI: Enable ``WARNINGS_FATAL`` on macOS, too `#11905 <https://github.com/mixxxdj/mixxx/pull/11905>`__
-
 .. _v2-4-2:
 
-`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`__ (2024-11-26)
-----------------------------------------------------------------------------------
+`2.4.2 <https://github.com/mixxxdj/mixxx/milestone/43?closed=1>`___ (2024-11-26)
+-----------------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -1321,11 +1327,10 @@ Fixes
 * Fix waveform EQ High&Mid visualization
   `#13923 <https://github.com/mixxxdj/mixxx/pull/13923>`__
   `#13922 <https://github.com/mixxxdj/mixxx/issues/13922>`__
-
 .. _v2-4-1:
 
-`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`__ (2024-05-08)
-----------------------------------------------------------------------------------
+`2.4.1 <https://github.com/mixxxdj/mixxx/milestone/41?closed=1>`___ (2024-05-08)
+-----------------------------------------------------------------------------------
 
 Controller Mappings
 ^^^^^^^^^^^^^^^^^^^
@@ -1451,11 +1456,10 @@ Miscellaneous
   `#13055 <https://github.com/mixxxdj/mixxx/issues/13055>`__
   `#13073 <https://github.com/mixxxdj/mixxx/pull/13073>`__
 * Fix hid addOutput
-
 .. _v2-4-0:
 
-`2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`__ (2024-02-16)
-----------------------------------------------------------------------------------
+`2.4.0 <https://github.com/mixxxdj/mixxx/milestone/15?closed=1>`___ (2024-02-16)
+-----------------------------------------------------------------------------------
 
 Music Library: Tracks Table & Track Menu
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -137,7 +137,7 @@ Sync Lock
 =========
 
 :term:`Sync Lock<sync lock>` is an intelligent assistant that allows you to
-leave the beatmatching to Mixxx so you can focus on track selection, effects
+leave the tempo matching to Mixxx so you can focus on track selection, effects
 manipulation, looping, 4 deck mixing, and other advanced DJing techniques.
 
 To activate Sync Lock on a deck, push and hold (or click and hold) the
@@ -154,8 +154,8 @@ track and match them correctly.  So if you want to mix a 140 BPM drum & bass
 track with a 70 bpm dubstep track, Sync Lock will make sure they are lined up
 properly.
 
-.. hint:: Usually, Sync Lock will only make sure the rate sliders are set
-          correctly.  If you also want to make sure your beats are perfectly in
+.. hint:: Sync Lock will only make sure the rate sliders are set
+          correctly. If you also want to make sure your beats are perfectly in
           sync, turn on the :guilabel:`QUANTIZE` button.  When activated,
           Quantize will ensure that the beats are perfectly lined up as well.
 
