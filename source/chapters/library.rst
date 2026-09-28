@@ -108,6 +108,14 @@ Tracks - View and edit your whole collection
   Make sure the :guilabel:`Rating` column is not hidden. Rate tracks by hovering
   over the rating field and clicking the stars.
 
+**BPM lock**
+  The |ic_lib_bpm_unlocked| icon next to a track's :term:`BPM` in the library
+  is a toggle. Clicking it locks the :term:`beatgrid`, preventing the BPM from
+  being changed in the track properties or by re-analyzing the track. The icon
+  changes to |ic_lib_bpm_locked| when locked. BPM can also be locked or
+  unlocked for selected tracks via the
+  :ref:`track list context menu <library-tracks>`.
+
 **Track Inline editing**
   Mixxx reads :term:`metadata` from the tracks to fill the columns of the
   library. Double-click on a field, edit the data, and hit :kbd:`Enter` when you
