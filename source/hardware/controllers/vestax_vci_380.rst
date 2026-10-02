@@ -28,7 +28,7 @@ Wheels
 ------
 
 You can turn the wheels with our without touching the sensitive metallic part.
-Get sure that the sensibility is correctly set with :kbd:`TOUCH SENSOR ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!
+Get sure that the sensibility is correctly set with :kbd:`TOUCH_SENSOR_ADJ` knobs on the front panel: the wheels must turn red when touched, and only then. If not, the tracks will refuse to play if Mixxx thinks that a platter is touched!
 
 The LED rings are simulating a vinyl record spin.
 
@@ -39,7 +39,7 @@ Touch and turn wheels                              scratching
 Touch and turn wheels with :kbd:`SHIFT`            scratching at 10X speed
 Turn wheels without touching                       temporary rate adjustments (jog)
 Turn wheels without touching and with :kbd:`SHIFT` beatjump
-Turn wheels with :kbd:`JOG SCROLL`                 library scrolling
+Turn wheels with :kbd:`JOG_SCROLL`                 library scrolling
 ================================================== =================================
 
 :kbd:`SYNC` / :kbd:`CUE` / :kbd:`>||`
@@ -49,11 +49,11 @@ Turn wheels with :kbd:`JOG SCROLL`                 library scrolling
 Key                                                Function
 -------------------------------------------------- -------------------------------------------------------
 :kbd:`>/\|\|`                                      Play/pause
-:kbd:`SHIFT`+:kbd:`>/\|\|`                         Soft start / brake
+:kbd:`SHIFT` + :kbd:`>/\|\|`                         Soft start / brake
 :kbd:`CUE`                                         go to cue point
 :kbd:`SHIFT` + :kbd:`CUE`                          set the cue point
 :kbd:`SYNC`                                        blinks on each beat. Press to adjust beatgrid position.
-:kbd:`SHIFT`+:kbd:`SYNC`                           activates auto-sync
+:kbd:`SHIFT` + :kbd:`SYNC`                           activates auto-sync
 :kbd:`VINYL`                                       toggles slip mode
 ================================================== =======================================================
 
@@ -82,15 +82,15 @@ Action                                             Effect
 -------------------------------------------------- ---------------------------------
 :kbd:`SCROLL` turn                                 move up/down
 :kbd:`BACK` and :kbd:`FWD`                         move left/right
-Left :kbd:`PAD FX` turn                            move up/down (equivalent to turning SCROLL)
-:kbd:`SHIFT` + Left :kbd:`PAD FX` turn             page up/down
-Right :kbd:`PAD FX` turn                           move left/right
-:kbd:`SHIFT` + Right :kbd:`PAD FX` turn            adjust waveform zoom
-:kbd:`SHIFT` + :kbd:`PAD FX` push                  clone other deck
-:kbd:`AREA` or any :kbd:`PAD FX` push              Default action
+Left :kbd:`PAD_FX` turn                            move up/down (equivalent to turning SCROLL)
+:kbd:`SHIFT` + Left :kbd:`PAD_FX` turn             page up/down
+Right :kbd:`PAD_FX` turn                           move left/right
+:kbd:`SHIFT` + Right :kbd:`PAD_FX` turn            adjust waveform zoom
+:kbd:`SHIFT` + :kbd:`PAD_FX` push                  clone other deck
+:kbd:`AREA` or any :kbd:`PAD_FX` push              Default action
 :kbd:`SCROLL` push                                 change focus zone (:kbd:`TAB`)
 :kbd:`SORT`                                        Sort according to active column
-:kbd:`JOGSCROLL` + :kbd:`LOAD A` / :kbd:`LOAD B`     Load selected track into deck A or B
+:kbd:`JOGSCROLL` + :kbd:`LOAD_A` / :kbd:`LOAD_B`     Load selected track into deck A or B
 :kbd:`VIEW`                                        Load and play selected track on preview deck. Push again to stop.
 ================================================== =================================
 
@@ -111,10 +111,10 @@ For both decks:
 ================================================== =================================
 Action                                             Effect
 -------------------------------------------------- ---------------------------------
-:kbd:`FX SELECT` turn                              Select a quick effect preset
-:kbd:`FX SELECT` push                              Reset quick effect preset selection
-:kbd:`FX ON/OFF`                                   Toggle quick effect ON/OFF
-:kbd:`FX DEPTH` turn                               adjust the effect parameter ("superknob")
+:kbd:`FX_SELECT` turn                              Select a quick effect preset
+:kbd:`FX_SELECT` push                              Reset quick effect preset selection
+:kbd:`FX_ON/OFF`                                   Toggle quick effect ON/OFF
+:kbd:`FX_DEPTH` turn                               adjust the effect parameter ("superknob")
 ================================================== =================================
 
 Performance pads and strips
@@ -126,7 +126,7 @@ The left strip is used in any mode for needle drop (quick navigate) on the previ
 
 To do a needle drop on the main decks, touch the strip with :kbd:`SHIFT`
 
-:kbd:`HOT CUE` mode: HOTCUES
+:kbd:`HOT_CUE` mode: HOTCUES
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 8 hot cues available, one per pad. The pads will light up when their hotcue is set.
 the colors of the lights will approximate the colors defined for the hot cues.
@@ -139,10 +139,11 @@ the colors of the lights will approximate the colors defined for the hot cues.
 :kbd:`SLICER` mode : BEAT GRID tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The 8 pads will illuminate in sequence following the beat grid. To reset the sequence to beat 1, push the :kbd:`SLICER` button again.
+
 - Push a button of higher row: BPM tap. Tap it in rhythm to adjust the calculated BPM of the track
 - Push a button of lower row: align beatgrid. Tap it to align the beatgrid bars to the current position.
 
-:kbd:`AUTO LOOP`: loop mode
+:kbd:`AUTO_LOOP`: loop mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The green buttons on the left control loop activation.
 
@@ -171,7 +172,7 @@ Stems 1 to 4, left to right
   - the parameter strip sets the individual volume of the selected stem
 
 
-:kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT CUE`)
+:kbd:`SAMPLER` mode (:kbd:`SHIFT` + :kbd:`HOT_CUE`)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In Sampler mode, each pad is controlling one of the samplers.
 They are mapped so the pads are organized in the same layout as the 8 samplers on mixxx default skin.
