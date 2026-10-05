@@ -152,13 +152,14 @@ TIP: the bottom four pads can also be used for the selected pad mode.
 
 31. **Cue mode:** Press this button to enter Cue mode.
 
-32. **Auto Loop:** Press this button to enter Auto Loop mode.
+32. **Auto Loop:** Press this button to enter Auto Loop mode. Press **SHIFT + Auto Loop** to enter Loop Roll mode.
 
 33. **Fader Cuts:** Press this button to enter Fader Cuts mode.
 
 34. **Sampler:** Press this button to enter Sampler mode.
 
 35. **Loop On/Off:** Press this button to activate auto loop on/off. Hold SHIFT and press this button to trigger a reloop.
+    Pressing this button on a currently activated loop deactivates it.
 
 36. **Loop 1/2:** Press this button when a loop is active to decrease the loop size by half. Hold SHIFT and press this button to set the Loop In point.
 
@@ -176,18 +177,17 @@ Turn left to increase the Low frequency tone, or turn right to increase the High
 
 42. **Main Volume:** Turn this knob to adjust the output volume of the Main Output mix.
 
+
 (performance-pads)=
-
-## Performance Pads:
-
+## Performance Pads
 
 The top row of pads 31-34 controls hotcues, loops, stems and samples function of the performance pads below.
 To select a mode, just press one of these upper pads.
 An LED under the pad section indicates the currently selected mode.
 See the subsections below for details about each mode.
 
-### Cue Mode
 
+### Cue Mode
 
 Press the **CUE** pad (31) to enter the cue mode.
 By pressing a pad from the upper row of performance pads, you assign a hotcue 1-4 at the current play position of the track.
@@ -197,8 +197,8 @@ To erase a hotcue, press SHIFT + pad related to that hotcue.
 
 **TIP:** If you enable the 'Add hotcues 5-8 to the second row of pads' option in the controller's preferences, you add another row of hotcues 5-8.
 
-### Auto Loop Mode
 
+### Auto Loop Mode
 
 Press the **AUTO LOOP** pad (32) to enter the auto loop mode.
 It assigns the upper 4 performance pads to the following functions:
@@ -210,14 +210,14 @@ It assigns the upper 4 performance pads to the following functions:
 
 **TIP:** You can also control loop s with the 'Loop On/Off', 'Loop 1/2' and 'Loop x2' buttons (35-37).
 
-### Fader Cuts Mode
 
+### Fader Cuts Mode
 
 Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
 In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-### Stems Mode
 
+### Stems Mode
 
 *Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
 To activated stem control mode, activate the 'Control stems with Fader Cuts pads' option in the Mixxx preferences of your controller.
@@ -228,8 +228,8 @@ Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33
 -  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
 -  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
 
-### Sampler Mode
 
+### Sampler Mode
 
 Press the **SAMPLE** pad (34) to enter the sampler mode.
 A press of any of the sample buttons 1-4 will load and start playing a sample if the sampler is not loaded.
@@ -242,10 +242,22 @@ Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switchin
 This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
 
 
+### Loop Roll Mode
+
+Press **SHIFT + AUTO LOOP** to enter the loop roll mode.
+Pressing and holding one of performance pads 1-4 activates a loop roll of the following duration:
+
+- pad 4: 1/2 of a beat
+- pad 3: 1/4 of a beat
+- pad 2: 1/8 of a beat
+- pad 1: 1/16 of a beat
+
+The slip mode is automatically activated when starting a roll and deactivated on the roll pad release.
+If quantize is active, the end of the loop roll is aligned with the next beat boundary.
+
+
 (jog-wheel-display)=
-
 ## Jog Wheel display
-
 
 The Jog wheel of Numark NS4FX include a color LED display with useful information about the loaded / playing track.
 
