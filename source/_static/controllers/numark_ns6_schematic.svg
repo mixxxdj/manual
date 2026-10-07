@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Numark NS6 control areas</title>
+  <desc id="desc">A not-to-scale diagram of the original Numark NS6 showing left and right deck sections, four mixer channels, and library controls.</desc>
+  <defs>
+    <style>
+      .body { fill: #e6e8eb; stroke: #28313b; stroke-width: 4; }
+      .panel { fill: #f9fafb; stroke: #586575; stroke-width: 2; }
+      .deck { fill: #e9eef6; stroke: #315b87; stroke-width: 2; }
+      .mixer { fill: #f7ece5; stroke: #96542e; stroke-width: 2; }
+      .library { fill: #e8f2eb; stroke: #3d7650; stroke-width: 2; }
+      .label { font: 700 22px sans-serif; fill: #1d2730; }
+      .small { font: 16px sans-serif; fill: #26323d; }
+      .tiny { font: 14px sans-serif; fill: #34424f; }
+      .wheel { fill: #303944; stroke: #101820; stroke-width: 3; }
+      .ring { fill: none; stroke: #96a6b6; stroke-width: 4; }
+      .control { fill: #fff; stroke: #45515e; stroke-width: 2; }
+      .fader { stroke: #343f4b; stroke-width: 5; stroke-linecap: round; }
+      .knob { fill: #495460; stroke: #202a33; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect class="body" x="12" y="12" width="1176" height="516" rx="26"/>
+
+  <!-- Left deck -->
+  <rect class="deck" x="34" y="34" width="340" height="472" rx="18"/>
+  <text class="label" x="204" y="70" text-anchor="middle">LEFT DECK</text>
+  <circle class="wheel" cx="205" cy="267" r="126"/>
+  <circle class="ring" cx="205" cy="267" r="108"/>
+  <circle class="ring" cx="205" cy="267" r="78"/>
+  <text class="small" x="205" y="263" text-anchor="middle">JOG</text>
+  <text class="tiny" x="205" y="286" text-anchor="middle">top: scratch · edge: nudge</text>
+  <rect class="control" x="54" y="104" width="82" height="48" rx="7"/><text class="tiny" x="95" y="133" text-anchor="middle">PITCH</text>
+  <rect class="control" x="274" y="104" width="82" height="48" rx="7"/><text class="tiny" x="315" y="133" text-anchor="middle">STRIP</text>
+  <rect class="control" x="64" y="414" width="74" height="38" rx="7"/><text class="tiny" x="101" y="438" text-anchor="middle">CUE</text>
+  <rect class="control" x="151" y="414" width="90" height="38" rx="7"/><text class="tiny" x="196" y="438" text-anchor="middle">PLAY</text>
+  <rect class="control" x="254" y="414" width="94" height="38" rx="7"/><text class="tiny" x="301" y="438" text-anchor="middle">HOT CUES</text>
+  <text class="tiny" x="204" y="482" text-anchor="middle">Layer button selects deck 1 or 3</text>
+
+  <!-- Center mixer -->
+  <rect class="mixer" x="390" y="34" width="420" height="472" rx="18"/>
+  <text class="label" x="600" y="70" text-anchor="middle">4-CHANNEL MIXER</text>
+  <rect class="library" x="420" y="88" width="360" height="76" rx="10"/>
+  <text class="small" x="600" y="117" text-anchor="middle">CRATES · FILES · PREPARE · VIEW</text>
+  <text class="tiny" x="600" y="143" text-anchor="middle">Library focus, Big Library, and deck layout</text>
+  <g>
+    <text class="tiny" x="445" y="198" text-anchor="middle">CH 1</text><text class="tiny" x="535" y="198" text-anchor="middle">CH 2</text>
+    <text class="tiny" x="625" y="198" text-anchor="middle">CH 3</text><text class="tiny" x="715" y="198" text-anchor="middle">CH 4</text>
+    <g transform="translate(445 230)"><circle class="knob" cx="0" cy="0" r="14"/><circle class="knob" cx="0" cy="43" r="14"/><circle class="knob" cx="0" cy="86" r="14"/><line class="fader" x1="0" y1="120" x2="0" y2="226"/><rect class="control" x="-10" y="164" width="20" height="18" rx="4"/></g>
+    <g transform="translate(535 230)"><circle class="knob" cx="0" cy="0" r="14"/><circle class="knob" cx="0" cy="43" r="14"/><circle class="knob" cx="0" cy="86" r="14"/><line class="fader" x1="0" y1="120" x2="0" y2="226"/><rect class="control" x="-10" y="164" width="20" height="18" rx="4"/></g>
+    <g transform="translate(625 230)"><circle class="knob" cx="0" cy="0" r="14"/><circle class="knob" cx="0" cy="43" r="14"/><circle class="knob" cx="0" cy="86" r="14"/><line class="fader" x1="0" y1="120" x2="0" y2="226"/><rect class="control" x="-10" y="164" width="20" height="18" rx="4"/></g>
+    <g transform="translate(715 230)"><circle class="knob" cx="0" cy="0" r="14"/><circle class="knob" cx="0" cy="43" r="14"/><circle class="knob" cx="0" cy="86" r="14"/><line class="fader" x1="0" y1="120" x2="0" y2="226"/><rect class="control" x="-10" y="164" width="20" height="18" rx="4"/></g>
+  </g>
+  <text class="tiny" x="600" y="480" text-anchor="middle">PFL · EQ · gain · channel faders · crossfader</text>
+
+  <!-- Right deck -->
+  <rect class="deck" x="826" y="34" width="340" height="472" rx="18"/>
+  <text class="label" x="996" y="70" text-anchor="middle">RIGHT DECK</text>
+  <circle class="wheel" cx="995" cy="267" r="126"/>
+  <circle class="ring" cx="995" cy="267" r="108"/>
+  <circle class="ring" cx="995" cy="267" r="78"/>
+  <text class="small" x="995" y="263" text-anchor="middle">JOG</text>
+  <text class="tiny" x="995" y="286" text-anchor="middle">top: scratch · edge: nudge</text>
+  <rect class="control" x="846" y="104" width="82" height="48" rx="7"/><text class="tiny" x="887" y="133" text-anchor="middle">PITCH</text>
+  <rect class="control" x="1066" y="104" width="82" height="48" rx="7"/><text class="tiny" x="1107" y="133" text-anchor="middle">STRIP</text>
+  <rect class="control" x="856" y="414" width="74" height="38" rx="7"/><text class="tiny" x="893" y="438" text-anchor="middle">CUE</text>
+  <rect class="control" x="943" y="414" width="90" height="38" rx="7"/><text class="tiny" x="988" y="438" text-anchor="middle">PLAY</text>
+  <rect class="control" x="1046" y="414" width="94" height="38" rx="7"/><text class="tiny" x="1093" y="438" text-anchor="middle">HOT CUES</text>
+  <text class="tiny" x="996" y="482" text-anchor="middle">Layer button selects deck 2 or 4</text>
+</svg>
