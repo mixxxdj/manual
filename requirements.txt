@@ -1,5 +1,5 @@
 # sphinx-rtd-theme seems to suffer issues with sphinx>=7
-sphinx <7.0.0
+sphinx <10.0.0
 sphinx-intl
 sphinx-notfound-page
 graphviz
