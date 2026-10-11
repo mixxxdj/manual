@@ -37,7 +37,7 @@ def changelog_to_rst(changelog):
 
     changelog = re.sub(
         r"^## \[?(\d+)\.(\d+)\.(\d+)(?:\]\([^\)]+\))?(?: \([^\)]+\))?$",
-        r".. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
+        r"\.. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
         changelog,
         flags=re.MULTILINE,
     )
@@ -46,7 +46,7 @@ def changelog_to_rst(changelog):
 
     # m2r2 produces links with postfix _. We need anonymous references instead
     # See https://github.com/mixxxdj/manual/issues/553
-    changelog = re.sub(r"(`\S+ \<\S+\>`)_", r"\g<1>__", changelog)
+    changelog = re.sub(r"(`\S+ \<\S+\>`)_", r"\g<1>_", changelog)
 
     return changelog
 
