@@ -310,7 +310,7 @@ This mode is used as a beatjump, the four top pad jumps backward and the four bo
 SLICER LOOP Mode
 ~~~~~~~~~~~~~~~~
 
-Same as SLICER mode.
+Same as SLICER mode for now.
 
 .. _pioneer-DDJ-SX2-samplermode:
 
@@ -321,21 +321,21 @@ SAMPLER Mode
 Figure           Control                                        Description
 ===============  =============================================  =================================================================================================================================
 1                :hwlabel:`PAD 1`                               Sample deck index 1 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-1                :hwlabel:`SHIFT` + :hwlabel:`PAD 1`            Sample deck index 1 (according sampler bank) - playing: stop deck, stopped: eject track
+1                :hwlabel:`SHIFT` + :hwlabel:`PAD 1`            Sample deck index 1 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 2                :hwlabel:`PAD 2`                               Sample deck index 2 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-2                :hwlabel:`SHIFT` + :hwlabel:`PAD 2`            Sample deck index 2 (according sampler bank) - playing: stop deck, stopped: eject track
+2                :hwlabel:`SHIFT` + :hwlabel:`PAD 2`            Sample deck index 2 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 3                :hwlabel:`PAD 3`                               Sample deck index 3 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-3                :hwlabel:`SHIFT` + :hwlabel:`PAD 3`            Sample deck index 3 (according sampler bank) - playing: stop deck, stopped: eject track
+3                :hwlabel:`SHIFT` + :hwlabel:`PAD 3`            Sample deck index 3 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 4                :hwlabel:`PAD 4`                               Sample deck index 4 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-4                :hwlabel:`SHIFT` + :hwlabel:`PAD 4`            Sample deck index 4 (according sampler bank) - playing: stop deck, stopped: eject track
+4                :hwlabel:`SHIFT` + :hwlabel:`PAD 4`            Sample deck index 4 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 5                :hwlabel:`PAD 5`                               Sample deck index 5 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-5                :hwlabel:`SHIFT` + :hwlabel:`PAD 5`            Sample deck index 5 (according sampler bank) - playing: stop deck, stopped: eject track
+5                :hwlabel:`SHIFT` + :hwlabel:`PAD 5`            Sample deck index 5 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 6                :hwlabel:`PAD 6`                               Sample deck index 6 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-6                :hwlabel:`SHIFT` + :hwlabel:`PAD 6`            Sample deck index 6 (according sampler bank) - playing: stop deck, stopped: eject track
+6                :hwlabel:`SHIFT` + :hwlabel:`PAD 6`            Sample deck index 6 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 7                :hwlabel:`PAD 7`                               Sample deck index 7 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-7                :hwlabel:`SHIFT` + :hwlabel:`PAD 7`            Sample deck index 7 (according sampler bank) - playing: stop deck, stopped: eject track
+7                :hwlabel:`SHIFT` + :hwlabel:`PAD 7`            Sample deck index 7 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 8                :hwlabel:`PAD 8`                               Sample deck index 8 (according sampler bank) - empty: Load selected track into sample deck, track loaded: start play (default, see user options) sample deck
-8                :hwlabel:`SHIFT` + :hwlabel:`PAD 8`            Sample deck index 8 (according sampler bank) - playing: stop deck, stopped: eject track
+8                :hwlabel:`SHIFT` + :hwlabel:`PAD 8`            Sample deck index 8 (according sampler bank) - playing: stop sample deck playback, stopped: eject sample
 13               :hwlabel:`PARAMETER LEFT`                      Selects previous sampler bank (Up to 64 samples)
 14               :hwlabel:`PARAMETER RIGHT`                     Selects next sampler bank (Up to 64 samples)
 14               :hwlabel:`SHIFT` + :hwlabel:`PARAMETER RIGHT`  No function
