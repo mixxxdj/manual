@@ -526,6 +526,11 @@ Glossary of Terms
      The LADSPA :term:`API` is a standard for handling audio filters and audio
      signal processing effects.
 
+   LV2
+   LADSPA Version 2
+     LV2 is a replacement for the older :term:`LADSPA` :term:`API` for creating
+     music plugins for handling audio filters and effects.
+
    USB
    Universal Serial Bus
      USB is an industry standard for cables, connectors
@@ -534,3 +539,8 @@ Glossary of Terms
      :term:`operating systems <operating system>` without special drivers (on
      Windows, special drivers might still be necessary to use the :term:`ASIO`
      sound :term:`API` though).
+
+   JACK
+   JACK Audio Connection Kit
+     JACK is a professional sound serve API that provides real-time, low-latency
+     connections for both audio and MIDI data between applications.
