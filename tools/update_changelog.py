@@ -1,25 +1,15 @@
 #!/usr/bin/env python3
 import argparse
 import os
-import re
 
-import m2r2
 import requests
 
 
 TEMPLATE = """
-.. This is a generated file. Do not edit it manually, because it is updated
-   automatically via tools/update_changelog.py.
+% This is a generated file. Do not edit it manually, because it is updated
+% automatically via tools/update_changelog.py.
 
-.. include:: /shortcuts.rstext
-
-.. _appendix-changelog:
-
-{content}
-
-.. seealso:: For an overview of previous versions, `take a look
-             <https://launchpad.net/mixxx/+series>`_ at the timeline.
-"""
+{content}"""
 
 
 def fetch_changelog(branch):
@@ -32,23 +22,10 @@ def fetch_changelog(branch):
     return r.text
 
 
-def changelog_to_rst(changelog):
-    """Convert changelog to RST format used by sphinx."""
+def changelog_apply_tmpl(changelog):
+    """Apply the template to the changelog."""
 
-    changelog = re.sub(
-        r"^## \[?(\d+)\.(\d+)\.(\d+)(?:\]\([^\)]+\))?(?: \([^\)]+\))?$",
-        r".. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
-        changelog,
-        flags=re.MULTILINE,
-    )
-
-    changelog = TEMPLATE.lstrip().format(content=m2r2.convert(changelog))
-
-    # m2r2 produces links with postfix _. We need anonymous references instead
-    # See https://github.com/mixxxdj/manual/issues/553
-    changelog = re.sub(r"(`\S+ \<\S+\>`)_", r"\g<1>__", changelog)
-
-    return changelog
+    return TEMPLATE.lstrip().format(content=changelog)
 
 
 def main(argv=None):
@@ -58,12 +35,12 @@ def main(argv=None):
 
     # Fetch changelog and convert to RST
     changelog = fetch_changelog(args.branch)
-    changelog = changelog_to_rst(changelog)
+    changelog = changelog_apply_tmpl(changelog)
 
-    # Write changelog to changelog.rst file
+    # Write changelog to changelog.md file
     path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
-        "../source/chapters/appendix/changelog.rst",
+        "../source/chapters/appendix/changelog.md",
     )
     with open(path, mode="w") as fp:
         fp.write(changelog)
