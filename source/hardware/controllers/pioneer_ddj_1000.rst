@@ -18,7 +18,9 @@ to them as closely as Mixxx allows.
 - `Manufacturer's Product Page <https://www.pioneerdj.com/product/controller/ddj-1000/>`__
 - `Manufacturer's Operating Instructions <https://www.manualslib.com/manual/1436395/Pioneer-Dj-Ddj-1000.html>`__
 - `List of MIDI messages <https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-1000/DDJ-1000_MIDI_Message_List_E1.pdf>`__
-- `Mapping Forum Thread <TODO>`__
+
+.. TODO: add "- `Mapping Forum Thread <...>`__" to the list above once the
+   thread exists.
 
 .. versionadded:: 2.5.7
 
@@ -50,7 +52,8 @@ The :hwlabel:`HEADPHONES LEVEL`, :hwlabel:`HEADPHONES MIXING`,
 :hwlabel:`MASTER CUE` controls act on the controller's hardware and are not
 mapped. The controller blends the headphone channels (3-4) with main (1-2)
 using its :hwlabel:`HEADPHONES MIXING` knob, so by default the mapping sets
-Mixxx's own headphone mix to cue only (see :ref:`pioneer-ddj-1000-settings`).
+Mixxx's own headphone mix to cue only while the controller is connected (see
+:ref:`pioneer-ddj-1000-settings`).
 
 .. _pioneer-ddj-1000-mono-split:
 
@@ -93,6 +96,28 @@ These options are in :menuselection:`Preferences --> Controllers --> Pioneer DDJ
      - The Quick Effect chain preset each :hwlabel:`SOUND COLOR FX` button loads
        on all four decks, counted in the order of the Quick Effect preset list
        (0 keeps each deck's own preset).
+
+.. _pioneer-ddj-1000-changes:
+
+Changes to your Mixxx setup
+---------------------------
+
+Some controls change Mixxx settings that outlast a single button press:
+
+- **Put back on disconnect:** Mixxx's headphone mix (setting above), the tempo
+  range set at startup, effect unit 1's routing (changed by
+  :hwlabel:`BEAT FX CH SELECT`) and the Quick Effect on/off switches (only with
+  the "COLOR knobs only work while a SOUND COLOR FX button is on" setting).
+  Anything you changed yourself in the meantime is left as you set it.
+- **Memory cues** (:hwlabel:`MEMORY`) are stored as hot cues 17-36. They show
+  up as hot cues on the waveforms, in skins and on other controllers, and a hot
+  cue you set in that range elsewhere counts as a memory cue. :hwlabel:`MEMORY`
+  only uses free hot cues; :hwlabel:`SHIFT` + :hwlabel:`MEMORY` deletes one.
+- **CUE/LOOP CALL on a paused deck** moves the deck's cue point to the called
+  cue, as on a CDJ. This replaces the cue point stored with the track.
+- **Samplers:** the :hwlabel:`SAMPLER` pads use the samplers Mixxx already has,
+  8 per bank. The mapping never adds samplers; show more samplers in the skin
+  to get more banks.
 
 Controller Mapping
 ------------------
@@ -202,7 +227,8 @@ Deck sections (p. 6-7)
    * - :hwlabel:`SHIFT` + :hwlabel:`SEARCH` :hwlabel:`<<` / :hwlabel:`>>`
      - :hwlabel:`CUE/LOOP CALL`: jump to the previous or next stored point
        (cue point, hot cues and memory cues). When paused, the point becomes
-       the cue point.
+       the cue point (this replaces the track's stored cue point, see
+       :ref:`pioneer-ddj-1000-changes`).
    * - :hwlabel:`MEMORY`
      - Store the current position as a memory cue. Memory cues are kept as hot
        cues 17-36 in red, so they appear on the waveforms.
@@ -280,9 +306,11 @@ Beat FX section (p. 9)
      - :hwlabel:`BEAT FX ON/OFF` starts a loop roll (with or without slip) on
        the selected channel, or on all playing decks for :hwlabel:`MASTER`.
    * - :hwlabel:`BEAT FX CH SELECT`
-     - Route the effect unit to channel 1-4, :hwlabel:`MASTER` or
-       :hwlabel:`SAMPLER`. :hwlabel:`MIC` does nothing (the microphones are
-       not routed to the computer).
+     - Route the effect unit to channel 1-4, :hwlabel:`MASTER`,
+       :hwlabel:`MIC` (Mixxx's microphone channels) or :hwlabel:`SAMPLER`.
+       The controller does not report this switch when Mixxx starts, so
+       until it is moved the effect unit keeps the routing set in Mixxx. The
+       routing is put back when the controller is disconnected.
    * - :hwlabel:`LEVEL/DEPTH`
      - Dry/wet mix of the effect unit.
    * - :hwlabel:`BEAT` :hwlabel:`<` / :hwlabel:`>`
@@ -292,7 +320,10 @@ Beat FX section (p. 9)
    * - :hwlabel:`BEAT FX ON/OFF`
      - Switch the effect unit on or off.
    * - :hwlabel:`SHIFT` + :hwlabel:`BEAT FX ON/OFF`
-     - Release FX: switch the effect off and brake the selected deck(s).
+     - :hwlabel:`RELEASE FX`: switch the effect off. With
+       :hwlabel:`BEAT FX CH SELECT` on channel 1-4 that deck also stops with
+       a vinyl brake; :hwlabel:`MASTER`, :hwlabel:`MIC` and
+       :hwlabel:`SAMPLER` never stop a deck.
 
 Performance pads (p. 6)
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -322,9 +353,10 @@ pads 5-8 the bottom row.
        1/2 beat. Page 2: the same with effect unit 4; rolls 1/32, 1, 2, 4.
      - Same as without :hwlabel:`SHIFT`.
    * - :hwlabel:`PAD FX2`
-     - Page 1: vinyl brake, backspin, reverse (all with slip), roll 3/4; pads
-       5-8 effect unit 4. Page 2: the same tricks with roll 3/2; pads 5-8
-       effect unit 3.
+     - Page 1: vinyl brake, backspin, reverse (all with slip, so the track
+       carries on where it would have been; a paused deck stays paused),
+       roll 3/4; pads 5-8 effect unit 4. Page 2: the same tricks with roll
+       3/2; pads 5-8 effect unit 3.
      - Same as without :hwlabel:`SHIFT`.
    * - :hwlabel:`BEAT JUMP`
      - Jump back or forward 1, 1, 2, 2 / 4, 4, 8, 8 beats (odd pads back, even
@@ -334,8 +366,8 @@ pads 5-8 the bottom row.
    * - :hwlabel:`SAMPLER`
      - Play sampler 1-8 of the current bank from the start. An empty sampler
        loads the track selected in the library. :hwlabel:`PAGE`
-       :hwlabel:`<` / :hwlabel:`>` change the bank (8 samplers per bank,
-       up to 64).
+       :hwlabel:`<` / :hwlabel:`>` change the bank (8 samplers per bank, as
+       many banks as Mixxx has samplers).
      - Stop the sampler.
    * - :hwlabel:`KEYBOARD`
      - Play the chosen hot cue shifted by +4, +5, +6, +7 / 0, +1, +2, +3
@@ -352,7 +384,8 @@ pads 5-8 the bottom row.
      - Same as without :hwlabel:`SHIFT`.
 
 .. note:: Effects held from the pads are routed to the pad's deck only while
-          the pad is held. The effect unit's routing and effect switches are
+          the pad is held (also off :guilabel:`Main`, the headphones, samplers
+          and microphones). The effect unit's routing and effect switches are
           restored when it is released, so the unit can still be used from
           the GUI.
 
