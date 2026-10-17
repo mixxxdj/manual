@@ -56,7 +56,7 @@ Numark Mixtrack Pro (schematic view)
   - Turn this knob to scroll through lists of tracks / library. When a file is selected, press the knob to load the currently highlighted song into the first stopped deck.
 * - **9**
   - {hwlabel}`BACK`
-  - This button will switch the Browse Knob to scroll into the track list (FILE LED will illuminate) or into the library section (FOLDER LED will illuminate).
+  - This button will switch the {hwlabel}`BROWSE KNOB` to scroll into the track list (FILE LED will illuminate) or into the library section (FOLDER LED will illuminate).
 * - **10**
   - {hwlabel}`LOAD A / LOAD B`
   - Press one of these buttons while a track is selected to assign it to Deck A or Deck B, respectively.
@@ -87,11 +87,11 @@ Numark Mixtrack Pro (schematic view)
 
 * - **14**
   - {hwlabel}`JOG WHEEL`
-  - When the deck is playing, the JOG WHEEL will bend the track’s pitch. When the SCRATCH button is on, touching the top of the JOG WHEEL will scratch the selected track **(can do
-    backspin effect)**, and touching the border of the JOG WHEEL will bend the track’s pitch. When the deck is not playing, rotating the JOG WHEEL will scan through the track.
+  - When the deck is playing, the {hwlabel}`JOG WHEEL` will bend the track’s pitch. When the {hwlabel}`SCRATCH` button is on, touching the top of the {hwlabel}`JOG WHEEL` will scratch the selected track **(can do
+    backspin effect)**, and touching the border of the {hwlabel}`JOG WHEEL` will bend the track’s pitch. When the deck is not playing, rotating the {hwlabel}`JOG WHEEL` will scan through the track.
 * - **15**
   - {hwlabel}`SCRATCH`
-  - Turns Scratch Mode on or off. If Scratch Mode is on, the button will light up and the JOG WHEEL will scratch like a turntable when you spin it.
+  - Turns Scratch Mode on or off. If Scratch Mode is on, the button will light up and the {hwlabel}`JOG WHEEL` will scratch like a turntable when you spin it.
 * - **16**
   - {hwlabel}`PLAY / PAUSE`
   - Starts or resumes playback if the Deck is paused. Pauses playback if the Deck is playing. LED ON when playing. LED OFF when stopped.
@@ -103,8 +103,8 @@ Numark Mixtrack Pro (schematic view)
   - **\*LED Blink at each Beat** *of the grid.*
 * - **18**
   - {hwlabel}`CUE`
-  - The CUE button will return and pause the track at the last set cue point. For temporary play of the cue point, you can hold down the CUE button. The track will play for as long as the
-    button is held down and will return to the cue point once it has been released (Until it has been pressed PLAY before release CUE, then playback will continue). LED ON when stopped. LED OFF when
+  - The {hwlabel}`CUE` button will return and pause the track at the last set cue point. For temporary play of the cue point, you can hold down the {hwlabel}`CUE` button. The track will play for as long as the
+    button is held down and will return to the cue point once it has been released (Until it has been pressed {hwlabel}`PLAY / PAUSE` before release {hwlabel}`CUE`, then playback will continue). LED ON when stopped. LED OFF when
     playing.
 * -
   -
@@ -123,7 +123,7 @@ Numark Mixtrack Pro (schematic view)
   - **\*LED Blink at Clip Gain** *(Peak indicator).*
 * -
   -
-  - **\*Pressing DELETE** *before SYNC: Set Pitch to 0%.*
+  - *\*Pressing {hwlabel}`DELETE`* *before {hwlabel}`SYNC`: Set Pitch to 0%.*
 * - **20**
   - {hwlabel}`PITCH FADER`
   - Controls the track’s playback speed. An LED next to the fader will light up when set at 0%.
@@ -147,7 +147,7 @@ Numark Mixtrack Pro (schematic view)
     Once it is assigned, the {hwlabel}`HOT CUE BUTTON` will light. To return to that Cue Point, simply press it.
 * -
   -
-  - **\*Pressing DELETE** before {hwlabel}`HOT CUE`: Clear Hotcue.
+  - \*Pressing {hwlabel}`DELETE` before {hwlabel}`HOT CUE`: Clear Hotcue.
 ```
 ## Other Functions
 
@@ -206,25 +206,25 @@ Numark Mixtrack Pro (schematic view)
   - **Autoloop Mode (LED ON)**:
 * -
   -
-  - • 1/2 X: Press this to halve the length of the loop.
+  - • {hwlabel}`1/2 X`: Press this to halve the length of the loop.
 * -
   -
-  - • 1 BAR: Press this to set a 4 beat loop automatically and enable it (LED ON). **Press again to exit loop**.
+  - • {hwlabel}`1 BAR`: Press this to set a 4 beat loop automatically and enable it (LED ON). **Press again to exit loop**.
 * -
   -
-  - • 2 X: Press this to double the length of the loop.
+  - • {hwlabel}`2 X`: Press this to double the length of the loop.
 * -
   -
   - **Manual Mode (LED OFF)**:
 * -
   -
-  - • IN: Press this to set a “Loop In” point where your loop will begin (LED ON).
+  - • {hwlabel}`IN`: Press this to set a “Loop In” point where your loop will begin (LED ON).
 * -
   -
-  - • OUT: Press this to set a “Loop Out” point where your loop will end, and enable it (LED ON).
+  - • {hwlabel}`OUT`: Press this to set a “Loop Out” point where your loop will end, and enable it (LED ON).
 * -
   -
-  - • RELOOP: If the Deck is already looping when you press it (LED ON), exit loop. If not, jump to the start of the loop and enable it. (If no loop is set, nothing will happen.)
+  - • {hwlabel}`RELOOP`: If the Deck is already looping when you press it (LED ON), exit loop. If not, jump to the start of the loop and enable it. (If no loop is set, nothing will happen.)
 * -
   -
   - \*Pressing {hwlabel}`DELETE` before {hwlabel}`RELOOP`: Clear Loop.
