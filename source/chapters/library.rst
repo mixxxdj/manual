@@ -957,6 +957,14 @@ a deck. Analyzing tracks requires considerable CPU power and may cause skips in
 the audio while performing, so it helps to have your tracks analyzed before you
 play. See :ref:`getting-started-analyze-library` for details.
 
+Besides the :guilabel:`Analyze` view itself, you can also start an analysis by:
+
+* selecting tracks in the library and choosing :guilabel:`Analyze` or
+  :guilabel:`Reanalyze` from the right-click menu,
+* dragging tracks onto the :guilabel:`Analyze` item in the sidebar,
+* right-clicking a crate and choosing :guilabel:`Analyze entire crate`, or
+* right-clicking a playlist and choosing :guilabel:`Analyze entire playlist`.
+
 
 .. _library-third-party:
 
