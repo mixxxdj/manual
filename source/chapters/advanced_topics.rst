@@ -61,7 +61,7 @@ Wizard.
 
 There are also some advanced options in the Midi Wizard you may need to use:
 
-* Soft Takeover: Use this option for knobs or sliders to avoid sudden jumps in
+* :term:`Soft Takeover`: Use this option for knobs or sliders to avoid sudden jumps in
   when the knob in the :term:`GUI` doesn't match the physical knob. If you
   select this option, you won't be able to perform super-fast motions as easily.
   (Recommended off)
