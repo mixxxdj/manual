@@ -120,7 +120,7 @@ Making a Custom Keyboard Mapping
 The :ref:`default keyboard mappings<appendix-keyboard>` are defined in a text
 file which can be found at the following location:
 
-* Linux: :file:`/usr/local/share/mixxx/keyboard/en_US.kbd.cfg`
+* Linux: :file:`/usr/share/mixxx/keyboard/en_US.kbd.cfg`
 * macOS: :file:`/Applications/Mixxx.app/Contents/Resources/keyboard/en_US.kbd.cfg`
 * Windows: :file:`<Mixxx installation directory>\\keyboard\\en_US.kbd.cfg`
 
