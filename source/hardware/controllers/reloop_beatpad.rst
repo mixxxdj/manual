@@ -275,7 +275,7 @@ FX SELECT
    pressed).
 -  **Quick Effect:** Hold :ref:`SHIFT <reloop-beatpad-shift>` down and then push the encoder
    Activate or Kill the **Quick Effect**. You can change the Quick effect
-   assigned in Mixxx, via Options -> Settings-> Equalizers -> Quick Effect.
+   assigned in Mixxx, via :menuselection:`Options --> Preferences --> Mixer` under :guilabel:`Quick Effect`.
 
 FX PARAM
 ~~~~~~~~

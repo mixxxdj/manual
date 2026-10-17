@@ -210,7 +210,7 @@ is lit while the kill switch is on. Pressing the encoder while holding
 deck shift (see `deck controls #10 <#deck-controls>`__) resets the EQ to
 center.
 
-Tip: You can go to Options > Preferences > Equalizers and check “Reset
+Tip: You can go to :menuselection:`Options --> Preferences --> Mixer` and check “Reset
 equalizers on track load”. On most controllers, this would be an issue
 because the physical knobs would be misaligned with the values in
 software when the EQs were reset, but because the Tweaker has LED rings
