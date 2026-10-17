@@ -406,10 +406,14 @@ Mixxx supports the following filters:
       composer: foo
       comment: foo
       genre:hip-hop -genre:country
+      genre:"electro "
 
   .. note::
      It doesn't matter if you have space between the colon and the argument
-     or not. Quotes must be used for multi-word text arguments.
+     or not. Quotes must be used for multi-word text arguments. A space inside
+     the quotes is part of the search term: ``genre:"electro "`` matches
+     “electro house” but not “electroclash”, while ``genre:electro`` matches
+     both.
 
   You can use **=** to find exact matches. It reveals only tracks where the entire property
   text equals the search term. As without **=**, you must use quotes for more than one word.
