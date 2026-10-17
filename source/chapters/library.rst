@@ -927,6 +927,20 @@ posting set-lists, or reporting your plays to licensing organizations. Every
 time you start Mixxx, a new history section is created. If you don't play any
 tracks during the session, it will be discarded.
 
+Mixxx only logs tracks that are **audible** in the main output. A deck counts
+as audible while its track is playing, the channel gain and channel fader are
+turned up, and the deck is audible through the :term:`crossfader`. If several
+decks are audible at once, the loudest one is considered *now playing*.
+Samplers and the preview deck are not logged, and tracks loaded from sources
+outside the Mixxx library cannot be added to the history. Repeating a track
+right away counts it only once.
+
+.. note::
+   When mixing on an external mixer with Mixxx's channel faders or gains
+   turned down, tracks may not be recognized as audible: they will not be
+   logged in the history, and the *now playing* metadata used for
+   :ref:`live broadcasting <live-broadcasting>` will not update.
+
 |ic_lib_history_current| This icon indicates the current session.
 
 Click on the *History* icon in the sidebar to switch to the :guilabel:`History`
