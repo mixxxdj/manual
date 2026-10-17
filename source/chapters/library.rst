@@ -489,14 +489,6 @@ Mixxx supports the following filters:
 
        genre:hip-hop -year:1990
 
-  * Search for empty fields. The following example lists all tracks without a
-    genre. It works for all text fields, including crates.
-
-    ::
-
-       genre:""
-
-
   Examples
     ::
 
@@ -508,6 +500,17 @@ Mixxx supports the following filters:
   .. note::
      You can put a space after the colon but currently there must be no space
      between the operator and the number.
+
+* **Empty fields**: ``""`` finds tracks where a field is empty or missing. It
+  works for all filters — text, numeric and special — and for ``crate``, which
+  lists tracks that are not in any crate.
+
+  Examples
+    ::
+
+      genre:""
+      year:""
+      crate:""
 
 In addition to combining filters directly (effectively an "AND"), you can also combine queries using the "OR" operator, spelled ``|``.
 
