@@ -54,6 +54,9 @@ Wizard.
    :guilabel:`Learn` button if you are learning many controls.
 #. If you are learning a button, just push it once.  If you are learning a knob
    or a slider, try to move it throughout its range.
+#. If you are learning a shifted control, you will have to have the :hwlabel:`SHIFT`
+   button pressed and held down before clicking :guilabel:`Learning Wizard (MIDI Only)`
+   or the :term:`MIDI` signal from the :hwlabel:`SHIFT` button will be learned instead.
 #. After Mixxx detects the control, you may click :guilabel:`Learn Another` or
    you can click on another button in the Mixxx :term:`GUI` to learn another
    control.
