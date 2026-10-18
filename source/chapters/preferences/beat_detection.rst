@@ -38,26 +38,27 @@ The table below summarizes the beat detection settings:
 +---------------------------------------+--------------------------------------+
 | Option                                | Description                          |
 +=======================================+======================================+
-| Enable Fast Analysis                  | If enabled, BPM will be detected by  |
-|                                       | only using the first minute of audio.|
-+---------------------------------------+--------------------------------------+
-| Assume constant tempo                 | If enabled, Mixxx assumes that the   |
+| Assume constant tempo (Recommended)   | If enabled, Mixxx assumes that the   |
 |                                       | distances between the beats are      |
 |                                       | constant. If disabled, the raw beat  |
 |                                       | grid obtained by the analyzer is     |
 |                                       | presented. The latter is appropriate |
 |                                       | for tracks with variable tempo.      |
 +---------------------------------------+--------------------------------------+
-| Enable Offset Correction              | Prevents beat markers from being     |
-|                                       | placed incorrectly.                  |
+| Enable Fast Analysis (For slow        | If enabled, BPM will be detected by  |
+| computers, may be less accurate)      | only using the first minute of audio.|
 +---------------------------------------+--------------------------------------+
-| Re-analyze beats when settings        | If enabled, Mixxx over-writes old    |
-| change or beat detection data is      | beat grids from prior versions.      |
+| Re-analyze beats when settings        | If enabled, Mixxx overwrites old beat|
+| change or beat detection data is      | grids from prior versions.           |
 | outdated                              | Moreover, it will re-analyze the BPM |
 |                                       | if your beat detection preferences   |
 |                                       | change or BPM data from 3rd party    |
 |                                       | programs are present.                |
 +---------------------------------------+--------------------------------------+
+| Re-analyse beatgrids imported from    | If enabled, Mixxx overwrite beatgrids|
+| other DJ software                     | imported from other DJ software.     |
++---------------------------------------+--------------------------------------+
+
 
 Correcting Beat Grids
 ---------------------
