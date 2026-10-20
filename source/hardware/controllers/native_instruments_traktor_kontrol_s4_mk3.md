@@ -441,6 +441,9 @@ There are various options that can be used to change some behavior:
 * - Loop encoder sensitivity (Shifted)
   - 2500
   - Define the sensitivity when moving the loop with {hwlabel}`SHIFT` + the encoder when using the loop jogwheel mode. Negative value will reverse the order
+* - Jogwheel sensitivity adjustment factor
+  - 1.00
+  - Adjusts the sensitivity of the jogwheel when scratching or adjusting pitch.
 * - Tempo fader center range
   - 1.0
   - Defines the center range in mm where the rate snaps to 0.
@@ -504,6 +507,15 @@ There are various options that can be used to change some behavior:
 * - Default Pad Layout
   - default
   - Define the default layout used for the pads.
+* - Alternative assignments for move encoder
+  - false
+  - Alternative assignments for the move encoder: Rotate: Adjust beatjump size. {hwlabel}`SHIFT` + move encoder: Beatjump. Push + move encoder: adjust pitch up and down.
+* - Relative tempo slider adjustment mode
+  - false
+  - Meant for Sync Lock mode, adjustments to tempo are always relative to the current slider position, so there's no need for soft takeover. {hwlabel}`SHIFT` + moving tempo fader does not change tempo, for resetting slider position.
+* - {hwlabel}`SHIFT`+tempo slider mode
+  - false
+  - Only valid when `RelativeTempoMode` is enabled. For low-vision situations, only adjust tempo when {hwlabel}`SHIFT` is held. Helps prevent accidental bumps.
 ```
 
 This settings are only useful if you are using haptic feedback features
