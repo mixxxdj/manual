@@ -427,7 +427,7 @@ While using Mixxx with a microphone, you might want the music to automatically f
    The microphone ducking controls
 
 The :guilabel:`Strength` knob adjusts the microphone talkover ducking strength and its behaviour depends on any of the Microphone talkover modes described below.
-Clicking  on the :guilabel:`Auto` button will switch it to any of three modes:
+Clicking  on the :guilabel:`Duck` button will switch it to any of three modes:
 
    * :guilabel:`Off`: When you speak through the microphone, the music  volume does not reduce.
    * :guilabel:`Auto`: When you speak through the microphone, the music volume will be reduced when Mixxx detects your voice. You can adjust the amount by which the volume is automatically reduced with the Strength knob.
