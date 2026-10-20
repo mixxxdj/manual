@@ -39,12 +39,12 @@ This controller has a built-in 4 channel output sound card, with a stereo Main o
   - On each side there is a deck control area, where in Mixxx the left deck control will control Deck 1 and the right deck will control Deck 2.
   - Both decks have essentially the same controls each. What differs is that the left side also has the connector to the Main Output and on the right side there's both a USB-C plug and Headphones connector.
 
-![alt text](../../_static/controllers/numark_mixtrack_go_full.svg "Title")
+![alt text](../../_static/controllers/numark_mixtrack_go_full.svg "Schematic of the Full Controller Surface")
 
 
 ## Mixer Area Layout
 
-![alt text](../../_static/controllers/numark_mixtrack_go_mixer.svg "Title")
+![alt text](../../_static/controllers/numark_mixtrack_go_mixer.svg "Schematic of Mixer Area")
 
 
 ```{list-table}
@@ -107,7 +107,7 @@ This controller has a built-in 4 channel output sound card, with a stereo Main o
 
 ## Deck Area Layout
 
-![alt text](../../_static/controllers/numark_mixtrack_go_deck1.svg "Title")
+![alt text](../../_static/controllers/numark_mixtrack_go_deck1.svg "Schematic of the Left Deck Area")
 
 
 ```{list-table}
@@ -155,7 +155,7 @@ This controller has a built-in 4 channel output sound card, with a stereo Main o
    {hwlabel}`ACAPEL` and {hwlabel}`INSTRU` functions require a STEMS track to be loaded and a MIXXX version 2.6 or higher.
 ```
 
-![alt text](../../_static/controllers/numark_mixtrack_go_deck2.svg "Title")
+![alt text](../../_static/controllers/numark_mixtrack_go_deck2.svg "Schematic of the Right Deck Area")
 
 ```{list-table}
 :header-rows: 1
