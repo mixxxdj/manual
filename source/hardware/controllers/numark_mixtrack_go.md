@@ -30,6 +30,21 @@ This controller has a built-in 4 channel output sound card, with a stereo Main o
    - Click **Apply** to save the changes.
 
 
+## Mapping Settings
+
+This mapping allows for some user settings.
+
+To configure settings:
+- Go to **Options** > **Preferences** > **Controllers**
+- Select **Numark Mixtrack Go** > **confirm this mapping is loaded**
+- Choose your personalized settings on the **Mapping Settings** tab.
+
+Available user settings:
+
+- Initial LEDs State
+    - Initial LEDs Setting Delay
+      - select a delay in seconds for the LEDs to be set (default is 2s)
+      - this delay should be long enough for the lightshow termination to finish
 
 
 ## Controller Layout
