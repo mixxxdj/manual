@@ -41,6 +41,12 @@ To configure settings:
 
 Available user settings:
 
+- Jog Wheel
+    - Pitch Bend Sharpness
+       - a finer sharpness is more suitable for fine tuning the beatmatching when using sync with grid aligned tracks.
+       - a more coarse option is better suited for faster manual beatmatching.
+    - Vinyl Mode Default State On
+      - check this box for the Vinyl Mode to be activated from the start.
 - Initial LEDs State
     - Initial LEDs Setting Delay
       - select a delay in seconds for the LEDs to be set (default is 2s)
