@@ -165,6 +165,22 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
+* **Search related Tracks**
+
+  Allows searching for tracks, related to the selected track, using a
+  combination of the following filters:
+
+  * **Key**: looks for tracks whose :term:`Key` is harmonic with the selected track's :term:`Key`.
+  * **BPM**: looks for tracks that are within  -8/+8 :term:`Beats per minute` of the selected track.
+  * **Artist**: looks for tracks of the same artist as the selected track.
+  * **Album Artist**: looks for tracks of the same album artist as the selected track.
+  * **Title**: looks for tracks with the same title as the selected track.
+  * **Year**: looks for tracks of the same year as the selected track.
+  * **Directory**: looks for tracks located on the same directory of the selected track.
+
+  At least 1 filter needs to be selected to use the search and if more than one
+  track is selected, the filters will use only the first selected track.
+
 * **Add to Auto DJ**
 
   Adds the content of the selection to either the
@@ -253,13 +269,6 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       icon next to the track's BPM in the library row is a toggle. Clicking it
       will set the status to "locked", and the icon changes to
       |ic_lib_bpm_locked|.
-
-* **Update ReplayGain from Deck Gain**: Applies the deck pregain knob value to
-  the detected ReplayGain value for the current track. This is a way to update
-  the ReplayGain value of a track if it has been detected incorrectly. When this
-  option is selected, the pregain value for the deck will be centered so that
-  there is no audible difference in track volume, so this operation is safe to
-  use during performance.
 
 * **Hide from Library**
 
