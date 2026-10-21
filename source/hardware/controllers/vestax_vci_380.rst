@@ -85,8 +85,9 @@ Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It mutes the externa
 
 The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
 
-Some knobs only act on the external inputs, in the controller's integrated mixer:
+Some knobs act on the external inputs, in the controller's integrated mixer:
 
+- :hwlabel:`TRIM` sets the gain of the external input. It also sets the gain of the Mixxx deck (see `Mixer functions`_).
 - :hwlabel:`IF CURVE` (input fader curve) sets the curve of the volume sliders.
 - :hwlabel:`CF CURVE` sets the curve of the crossfader. It also sets the Mixxx crossfader curve (see `Mixer functions`_).
 - :hwlabel:`DEPTH` and :hwlabel:`FX ON/OFF` drive a high-pass filter on the external input. They also drive the Mixxx quick effect of the deck, so with a turntable on the input and a track playing in Mixxx on the same channel, both are affected.
