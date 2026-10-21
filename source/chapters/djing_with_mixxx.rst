@@ -251,7 +251,7 @@ the :guilabel:`Record/Broadcast` input in :menuselection:`Preferences --> Sound
 Hardware`. Refer to :ref:`microphones-record-broadcast-external-mixer` for
 details.
 
-.. figure:: ../_static/Mixxx-111-Library-Recordings.png
+.. figure:: ../_static/Mixxx-256-Library-Recordings.png
    :align: center
    :width: 100%
    :figwidth: 100%
