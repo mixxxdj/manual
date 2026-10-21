@@ -165,34 +165,35 @@ Track list context menu
 
 Right-clicking on selected tracks in the track list reveals the context menu:
 
-* **Search related Tracks**
-
-  Allows searching for tracks, related to the selected track, using a
+* :guilabel:`Search related Tracks`
+  Allows searching for tracks, related to the selected track, using a 
   combination of the following filters:
 
-  * **Key**: looks for tracks whose :term:`Key` is harmonic with the selected
-    track's :term:`Key`.
-  * **BPM**: looks for tracks that are within  -8/+8 :term:`Beats per minute`
-    of the selected track.
-  * **Artist**: looks for tracks of the same artist as the selected track.
-  * **Album Artist**: looks for tracks of the same album artist as the selected
-    track.
-  * **Title**: looks for tracks with the same title as the selected track.
-  * **Year**: looks for tracks of the same year as the selected track.
-  * **Directory**: looks for tracks located on the same directory of the
-    selected track.
+ * :guilabel:`Key`: looks for tracks whose :term:`Key` is harmonic with the selected
+   track's :term:`Key`.
+ * :guilabel:`BPM`: looks for tracks that are within  -8/+8 :term:`Beats per minute`
+   of the selected track.
+ * :guilabel:`Artist`: looks for tracks of the same artist as the selected track.
+ * :guilabel:`Album Artist`: looks for tracks of the same album artist as the selected
+   track.
+ * :guilabel:`Title`: looks for tracks with the same title as the selected track.
+ * :guilabel:`Year`: looks for tracks of the same year as the selected track.
+ * :guilabel:`Directory`: looks for tracks located on the same directory of the
+   selected track.
 
   At least 1 filter needs to be selected to use the search and if more than one
   track is selected, the filters will use only the first selected track.
 
-* **Add to Auto DJ**
+* :guilabel:`Add to Auto DJ`
 
-  Adds the content of the selection to either the
-  :guilabel:`bottom` or :guilabel:`top` of the :ref:`Auto DJ <library-auto-dj>`
-  playlist for automatic mixing. The :guilabel:`replace` option deletes the
-  Auto DJ queue first, and then fills it with the selected tracks.
+ * :guilabel:`Add to Auto DJ Queue (bottom)`: adds the selected tracks to the
+   bottom of the :ref:`Auto DJ <library-auto-dj>` playlist.
+ * :guilabel:`Add to Auto DJ Queue (bottom)`: adds the selected tracks to the
+   top of the :ref:`Auto DJ <library-auto-dj>` playlist.
+ * :guilabel:`Add to Auto DJ Queue (replace)`: replaces all the tracks in the
+   :ref:`Auto DJ <library-auto-dj>` playlist with the tracks selected.
 
-* **Load to**
+* :guilabel:`Load to`
 
   Loads a selected file to one of the available
   :ref:`Decks <interface-decks>`, :ref:`Samplers <interface-sampler>` or to the
@@ -201,126 +202,134 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   and samplers might differ, depending on the selected skin. Note that you
   can't load multiple files at once.
 
-* **Add to Playlist**
+* :guilabel:`Add to Playlist`
+  
+  Add selected tracks to an existing playlist, 
+  or drag the selection to a playlist crate in the sidebar. Choose 
+  :guilabel:`Create new playlist` to put them into a new playlist.
 
-  Add selected tracks to an existing playlist, or drag the
-  selection to a playlist crate in the sidebar. Choose :guilabel:`Create new
-  playlist` to put them into a new playlist.
+* :guilabel:`Remove From Crate`
+  
+  Removes the track from the Crate. This 
+  option is only visible when in the context menu of a track when browsing 
+  inside a Crate.
 
-* **Crates**
+* :guilabel:`Remove From Playlist`
+  
+  Removes the track from the Playlist. This
+  option is only visible when in the context menu of a track when browsing 
+  inside a Playlist.
 
+* :guilabel:`Crates`
+  
   The checkbox shows in which existing crates the selection is in.
   Changing the crates selection does not collapse the menu, which allows
   much easier categorization of tracks without going through the menu from
   scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
 
-**Adjust BPM**
+* :guilabel:`Adjust BPM`
 
-* Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
-  200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
-  the tracks. If many of the detected BPM values are incorrect, you may try
-  other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
-  and re-run the analysis.
+ * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
+   200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
+   the tracks. If many of the detected BPM values are incorrect, you may try
+   other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
+   and re-run the analysis.
 
-* **Lock/Unlock BPM**:
+ * :guilabel:`Lock/Unlock BPM`:Locks/Unlocks the :term:`BPM` of selected tracks 
+   so you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
+   icon next to the track's BPM in the library row is a toggle. Clicking it
+   will set the status to "locked", and the icon changes to
+   |ic_lib_bpm_locked|.
 
-  Locks/Unlocks the :term:`BPM` of selected tracks so
-  you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
-  icon next to the track's BPM in the library row is a toggle. Clicking it
-  will set the status to "locked", and the icon changes to
-  |ic_lib_bpm_locked|.
-
-* **Rating**
+* :guilabel:`Rating`
 
   View or set a new star Rating. This can also be done on the Rating column.
   If the Rating column is not visible, right click any column name and mark
   Rating. To clear a Rating, right click at least one track and select Clear
   and then select Rating.
 
-* **Select Color**
+* :guilabel:`Select Color`
 
   Assign a color to all selected tracks to indicate mood, energy etc.
   Select the black button at the top left to remove the color.
 
-* **Metadata**
+* :guilabel:`Metadata`
 
-    * **Import from File Tags**: If the track's :term:`metadata` changes,
-      (e.g. if you used iTunes to edit it,) this option lets you save the new
-      values for the selected tracks to the Mixxx library. See
-      :ref:`edit metadata <library-edit-metadata>`.
-    * **Import from MusicBrainz**: Look up :term:`metadata` online by searching
-      the :term:`MusicBrainz` database and apply the search results to your
-      tracks. See :ref:`edit metadata <library-edit-metadata>`.
-    * **Export to File Tags:** Saves :term:`metadata` to files. Mixxx may wait
-      to modify files until they are not loaded to any decks or samplers. If you
-      do not see changed metadata in other programs immediately, eject the track
-      from all decks and samplers or shutdown Mixxx.
-    * **Find on Web**: Select one of the online music platforms and search for
-      other music using the available filters.
+ * :guilabel:`Import from File Tags`: If the track's :term:`metadata` changes,
+   (e.g. if you used iTunes to edit it,) this option lets you save the new
+   values for the selected tracks to the Mixxx library. See
+   :ref:`edit metadata <library-edit-metadata>`.
+ * :guilabel:`Import from MusicBrainz`: Look up :term:`metadata` online by searching
+   the :term:`MusicBrainz` database and apply the search results to your
+   tracks. See :ref:`edit metadata <library-edit-metadata>`.
+ * :guilabel:`Export to File Tags:` Saves :term:`metadata` to files. Mixxx may wait
+   to modify files until they are not loaded to any decks or samplers. If you
+   do not see changed metadata in other programs immediately, eject the track
+   from all decks and samplers or shutdown Mixxx.
+ * :guilabel:`Find on Web`: Select one of the online music platforms and search for
+   other music using the available filters.
+ * :guilabel:`Cover Art`
+ 
+    * :guilabel:`Choose new Cover`: Select an image from the file browser as the cover.
+    * :guilabel:`Clear cover`: Delete any cover information saved for this track.
+    * :guilabel:`Reload from file/folder`: Reload the cover from the tracks' ID3v2
+      :term:`tags <metadata>` or a picture in the track folder if the tags do
+      not supply any.
 
-    * **Cover Art**
+* :guilabel:`Clear`
 
-      * **Choose New Cover**: Select an image from the file browser as the cover.
-      * **Clear Cover**: Delete any cover information saved for this track.
-      * **Reload from track/folder**: Reload the cover from the tracks' ID3v2
-        :term:`tags <metadata>` or a picture in the track folder if the tags do
-        not supply any.
+ * :guilabel:`BPM and Beatgrid`: Removes the :term:`BPM` and :term:`beatgrid` data
+   from the selected tracks in the Mixxx library. After doing this, we
+   recommend :ref:`analyzing <library-analyze>` the tracks again.
+ * :guilabel:`Play Count`: Marks selected tracks as not played in the current
+   session and sets their play counter to zero. The icon in the
+   :guilabel:`Played` column changes.
+ * :guilabel:`Rating`: Clears the star Rating of the track.
+ * :guilabel:`Comment`: Clears the comment of the track.
+ * :guilabel:`*Cue Point`: Resets the main Cue Point to the default position.
+ * :guilabel:`Intro`: Clears the Intro Start Marker.
+ * :guilabel:`Outro`: Clears the Outro End Marker.
+ * :guilabel:`Loops`: Clears, both active and inactive, loops on the track.
+ * :guilabel:`Key`: Clear the Key set for the track. Reanalyse the track to 
+   automatically set the Key again.
+ * :guilabel:`Hotcues`: Clears all saved :term:`hotcues <hotcue>` and 
+   :ref:`hotcue labels <interface-hotcues>`.
+ * :guilabel:`ReplayGain`: Clears all saved :term:`ReplayGain` values.
+ * :guilabel:`Waveform`: Clears the saved waveform data from the selected tracks.
+   This is useful if a file is overwritten by another file of the same name,
+   or was edited externally (e.g. in a waveform editor). To clear the 
+   waveform cache for all tracks in the library, select
+   :menuselection:`Preferences --> Waveforms --> Clear cached Waveforms`
+ * :guilabel:`All`: Clears all of the data above from the Mixxx library database at
+   once.
 
-* **Clear**
+* :guilabel:`Analyze`
 
-    * **BPM and Beatgrid**: Removes the :term:`BPM` and :term:`beatgrid` data
-      from the selected tracks in the Mixxx library. After doing this, we
-      recommend :ref:`analyzing <library-analyze>` the tracks again.
-    * **Play Count**: Marks selected tracks as not played in the current
-      session and sets their play counter to zero. The icon in the
-      :guilabel:`Played` column changes.
-    * **Rating**: Clears the star Rating of the track.
-    * **Comment**: Clears the comment of the track.
-    * **Cue Point**: Resets the main Cue Point to the default position.
-    * **Intro**: Clears the Intro Start Marker.
-    * **Outro**: Clears the Outro End Marker.
-    * **Loops**: Clears, both active and inactive, loops on the track.
-    * **Key**: Clear the Key set for the track. Reanalyse the track to
-      automatically set the Key again.
-    * **Hotcues**: Clears all saved :term:`hotcues <hotcue>` and
-      :ref:`hotcue labels <interface-hotcues>`.
-    * **ReplayGain**: Clears all saved :term:`ReplayGain` values.
-    * **Waveform**: Clears the saved waveform data from the selected tracks.
-      This is useful if a file is overwritten by another file of the same name,
-      or was edited externally (e.g. in a waveform editor). To clear the
-      waveform cache for all tracks in the library, select
-      :menuselection:`Preferences --> Waveforms --> Clear cached Waveforms` .
-    * **All**: Clears all of the data above from the Mixxx library database at
-      once.
-
-* **Analyze**
-
-    * **Analyze**: Analyse the selected tracks to find their :term:`BPM` and Beat positions.
-
-    * **Reanalyze**: Reanalyse a track that was previously analysed.
-
-    * **Reanalyze (constant BPM)**: Reanalyse a track with variable :term:`BPM`.
+ * :guilabel:`Analyze`: Analyse the selected tracks to find their :term:`BPM` 
+   and Beat positions.
+ * :guilabel:`Reanalyze`: Reanalyse a track that was previously analysed.
+ * :guilabel:`Reanalyze (constant BPM)`: Reanalyse a track with variable :term:`BPM`.
 
   The analyzer settings can be changed in :menuselection:`Preferences --> Beat Detection`.
   For these functions to be able to make changes to the track both
   :menuselection:`Preferences --> Beat Detection --> Enable BPM and Beat Detection`
   need to be enabled and the :term:`BPM` lock needs to be disabled (see **Lock/Unlock BPM** above).
 
-* **Move Track File(s) to Trash**
+* :guilabel:`Move Track File(s) to Trash`
 
   Moves the Track File(s) to the trash bin and purges it from the Mixxx database.
 
-* **Hide from Library**
+* :guilabel:`Hide from Library`
 
   Temporarily hides selected tracks from the track list.
   Hidden tracks are listed in the :guilabel:`Hidden Tracks` menu item which is
   explained below.
 
-* **Open in File Browser**
+* :guilabel:`Open in File Browser`
 
   Brings up the selected files in your file manager.
 
-* **Properties**
+* :guilabel:`Properties`
 
   Similar to inline editing explained above, the properties
   dialog allows you to view and edit metadata such as title, artist, album, and
