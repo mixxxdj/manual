@@ -2,25 +2,31 @@ Vestax VCI-380
 ==============
 
 The Vestax VCI-380 is a 2-deck controller with integrated audio interface and stand-alone mixer.
-It requires its own external barrel plug power adapter.
+It requires its own external barrel plug power adapter (7.5 V DC, 1 A), and has a :hwlabel:`POWER` switch on the rear panel.
 
-Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.
+Outputs:
 
-Inputs: 2 microphones, and RCA inputs with line/phono switch.
+- :hwlabel:`MASTER OUT (BAL.)`: balanced XLR main output on the rear panel. Its volume is set by the :hwlabel:`MASTER` knob on the top panel.
+- :hwlabel:`BOOTH OUT`: RCA booth output on the rear panel, with its own :hwlabel:`LEVEL` knob next to it.
+- Headphones: 3.5 mm and 6.35 mm jacks on the front panel, with the :hwlabel:`CUE/MASTER` and :hwlabel:`LEVEL` knobs.
+
+Inputs, on the rear panel:
+
+- :hwlabel:`MIC 1` (XLR) and :hwlabel:`MIC 2` (6.35 mm jack), each with its own :hwlabel:`LEVEL` knob.
+- :hwlabel:`INPUT A` and :hwlabel:`INPUT B` (RCA), each with a :hwlabel:`PRE-TRIM` knob and a :hwlabel:`PHONO` / :hwlabel:`LINE` button, and a :hwlabel:`GND` terminal for the turntable ground wire.
 
 The audio interface only works at 48kHz: set :guilabel:`Sample Rate` to 48000 Hz in :menuselection:`Preferences --> Sound Hardware`.
 
 As Vestax went out of business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
 
-.. figure:: ../../_static/controllers/vestax_vci_380.png
+.. figure:: ../../_static/controllers/vestax_vci_380.svg
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Vestax VCI-380 (top view)
+   :alt: Vestax VCI-380: rear, top and front panels
    :figclass: pretty-figures
 
-   Vestax VCI-380 (top view)
-   Image (c) Vestax
+   Vestax VCI-380: rear panel (seen from behind), top panel and front panel
 
 Useful links
 ------------
@@ -57,7 +63,9 @@ Channel 6     Mic 2 In            microphone 2 (mono)
 Channel 7 - 8 Master Mix L / R    master mix of the controller
 ============= =================== ================================
 
-Each RCA input has a :hwlabel:`LINE` / :hwlabel:`PHONO` switch, for a line level source or a turntable.
+Each RCA input has a :hwlabel:`PHONO` / :hwlabel:`LINE` push button. Released (:hwlabel:`PHONO`), it switches on the turntable preamplifier; pressed (:hwlabel:`LINE`), the input takes a line level source (CD player, media player...).
+If a line level source sounds distorted, check that the button is pressed (:hwlabel:`LINE`): the phono preamplifier saturates with line levels.
+The :hwlabel:`PRE-TRIM` knob next to each input sets its gain.
 
 For instance, the RCA inputs can be used for vinyl control, and the master mix for :guilabel:`Record/Broadcast`, to record the whole set including the external inputs and microphones mixed by the controller.
 
@@ -83,7 +91,14 @@ Some knobs only act on the external inputs, in the controller's integrated mixer
 - :hwlabel:`CF CURVE` sets the curve of the crossfader. It also sets the Mixxx crossfader curve (see `Mixer functions`_).
 - :hwlabel:`DEPTH` and :hwlabel:`FX ON/OFF` drive a high-pass filter on the external input. They also drive the Mixxx quick effect of the deck, so with a turntable on the input and a track playing in Mixxx on the same channel, both are affected.
 
-The :hwlabel:`CUE/MASTER` knob mixes the main output and the headphone cue (PFL / preview) in the headphones. It's done by the controller, so it isn't mapped.
+Other knobs are handled by the controller itself, so they aren't mapped:
+
+- :hwlabel:`MASTER` (top panel) sets the volume of the balanced XLR outputs only.
+- :hwlabel:`LEVEL` next to :hwlabel:`BOOTH OUT` (rear panel) sets the volume of the booth output.
+- :hwlabel:`PRE-TRIM` (rear panel) sets the gain of the RCA inputs, and the two :hwlabel:`LEVEL` knobs next to the microphone inputs set the microphone volumes.
+- :hwlabel:`CUE/MASTER` (front panel) mixes the main output and the headphone cue (PFL / preview) in the headphones, and :hwlabel:`LEVEL` next to it sets the headphone volume.
+
+The level meter in the middle of the top panel is driven by the controller too: it shows the master output, or the channels whose headphone cue is on.
 
 Mapping
 -------
@@ -91,7 +106,7 @@ Mapping
 Mixer functions
 ~~~~~~~~~~~~~~~
 
-Main knobs and sliders work straightforwardly.
+Main knobs and sliders work straightforwardly: :hwlabel:`TRIM` sets the gain of the deck, :hwlabel:`HIGH` / :hwlabel:`MID` / :hwlabel:`LOW` the EQ, and the volume sliders and crossfader the mix.
 
 When the mapping starts, Mixxx takes the current position of every slider, knob and switch of the controller, so they're in sync from the start. The headphone cue buttons (:hwlabel:`CUE A` / :hwlabel:`CUE B`) toggle the headphone cue (PFL). The toggle is handled by the controller itself, and Mixxx follows its state.
 
