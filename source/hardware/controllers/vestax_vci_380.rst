@@ -8,7 +8,7 @@ Outputs: Balanced XLR and RCA output, and both 3.5 and 6.35mm headphone jacks.
 
 Inputs: 2 microphones, and RCA inputs with line/phono switch.
 
-The output will refuse to work at any other sample rate than 48kHz, so there's an option to automatically set Mixxx output sample rate to 48kHz when using the mapping. Open :menuselection:`Preferences --> Controllers --> Vestax VCI-380 --> Mapping settings` and enable :guilabel:`Automatically set sample rate to 48000 Hz`.
+The audio interface only works at 48kHz: set :guilabel:`Sample Rate` to 48000 Hz in :menuselection:`Preferences --> Sound Hardware`.
 
 As Vestax went out of business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
 
