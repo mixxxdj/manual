@@ -715,7 +715,7 @@ The Auto DJ features in detail:
 * **Selection Info** label: Displays the duration and number of selected tracks.
   Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
 
-The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
+The :guilabel:`Fade now` and :guilabel:`Skip track`
 buttons are only accessible if the Auto DJ mode is enabled. The Search field in
 the upper left corner is disabled in Auto DJ.
 
