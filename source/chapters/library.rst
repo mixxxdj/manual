@@ -170,13 +170,17 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   Allows searching for tracks, related to the selected track, using a
   combination of the following filters:
 
-  * **Key**: looks for tracks whose :term:`Key` is harmonic with the selected track's :term:`Key`.
-  * **BPM**: looks for tracks that are within  -8/+8 :term:`Beats per minute` of the selected track.
+  * **Key**: looks for tracks whose :term:`Key` is harmonic with the selected
+    track's :term:`Key`.
+  * **BPM**: looks for tracks that are within  -8/+8 :term:`Beats per minute`
+    of the selected track.
   * **Artist**: looks for tracks of the same artist as the selected track.
-  * **Album Artist**: looks for tracks of the same album artist as the selected track.
+  * **Album Artist**: looks for tracks of the same album artist as the selected
+    track.
   * **Title**: looks for tracks with the same title as the selected track.
   * **Year**: looks for tracks of the same year as the selected track.
-  * **Directory**: looks for tracks located on the same directory of the selected track.
+  * **Directory**: looks for tracks located on the same directory of the
+    selected track.
 
   At least 1 filter needs to be selected to use the search and if more than one
   track is selected, the filters will use only the first selected track.
@@ -210,6 +214,29 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   much easier categorization of tracks without going through the menu from
   scratch. Choose :guilabel:`Create new Crate` to put them into a new crate.
 
+**Adjust BPM**
+
+* Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
+  200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
+  the tracks. If many of the detected BPM values are incorrect, you may try
+  other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
+  and re-run the analysis.
+
+* **Lock/Unlock BPM**:
+
+  Locks/Unlocks the :term:`BPM` of selected tracks so
+  you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
+  icon next to the track's BPM in the library row is a toggle. Clicking it
+  will set the status to "locked", and the icon changes to
+  |ic_lib_bpm_locked|.
+
+* **Rating**
+
+  View or set a new star Rating. This can also be done on the Rating column.
+  If the Rating column is not visible, right click any column name and mark
+  Rating. To clear a Rating, right click at least one track and select Clear
+  and then select Rating.
+
 * **Select Color**
 
   Assign a color to all selected tracks to indicate mood, energy etc.
@@ -228,6 +255,8 @@ Right-clicking on selected tracks in the track list reveals the context menu:
       to modify files until they are not loaded to any decks or samplers. If you
       do not see changed metadata in other programs immediately, eject the track
       from all decks and samplers or shutdown Mixxx.
+    * **Find on Web**: Select one of the online music platforms and search for
+      other music using the available filters.
 
     * **Cover Art**
 
@@ -245,6 +274,14 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     * **Play Count**: Marks selected tracks as not played in the current
       session and sets their play counter to zero. The icon in the
       :guilabel:`Played` column changes.
+    * **Rating**: Clears the star Rating of the track.
+    * **Comment**: Clears the comment of the track.
+    * **Cue Point**: Resets the main Cue Point to the default position.
+    * **Intro**: Clears the Intro Start Marker.
+    * **Outro**: Clears the Outro End Marker.
+    * **Loops**: Clears, both active and inactive, loops on the track.
+    * **Key**: Clear the Key set for the track. Reanalyse the track to
+      automatically set the Key again.
     * **Hotcues**: Clears all saved :term:`hotcues <hotcue>` and
       :ref:`hotcue labels <interface-hotcues>`.
     * **ReplayGain**: Clears all saved :term:`ReplayGain` values.
@@ -256,19 +293,22 @@ Right-clicking on selected tracks in the track list reveals the context menu:
     * **All**: Clears all of the data above from the Mixxx library database at
       once.
 
-* **Change BPM**
+* **Analyze**
 
-    * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
-      200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
-      the tracks. If many of the detected BPM values are incorrect, you may try
-      other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
-      and re-run the analysis.
+    * **Analyze**: Analyse the selected tracks to find their :term:`BPM` and Beat positions.
 
-    * **Lock/Unlock BPM**: Locks/Unlocks the :term:`BPM` of selected tracks so
-      you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
-      icon next to the track's BPM in the library row is a toggle. Clicking it
-      will set the status to "locked", and the icon changes to
-      |ic_lib_bpm_locked|.
+    * **Reanalyze**: Reanalyse a track that was previously analysed.
+
+    * **Reanalyze (constant BPM)**: Reanalyse a track with variable :term:`BPM`.
+
+  The analyzer settings can be changed in :menuselection:`Preferences --> Beat Detection`.
+  For these functions to be able to make changes to the track both
+  :menuselection:`Preferences --> Beat Detection --> Enable BPM and Beat Detection`
+  need to be enabled and the :term:`BPM` lock needs to be disabled (see **Lock/Unlock BPM** above).
+
+* **Move Track File(s) to Trash**
+
+  Moves the Track File(s) to the trash bin and purges it from the Mixxx database.
 
 * **Hide from Library**
 
