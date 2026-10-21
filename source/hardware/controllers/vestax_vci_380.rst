@@ -37,14 +37,53 @@ Audio Setup
 
 The audio interface is set up in :menuselection:`Preferences --> Sound Hardware --> Output`.
 
-========== ============== =============
-Output     Device         Channel
-========== ============== =============
-Main       VESTAX VCI-380 Channel 1 - 2
-Headphones VESTAX VCI-380 Channel 3 - 4
-========== ============== =============
+========== ============== ============= ===================
+Output     Device         Channel       Name in the device
+========== ============== ============= ===================
+Main       VESTAX VCI-380 Channel 1 - 2 Master Out L / R
+Headphones VESTAX VCI-380 Channel 3 - 4 PFL Out L / R
+========== ============== ============= ===================
 
 Inputs - RCA (line/phono) and MIC - can be handled by the integrated mixer, so they don't need to be set up in Mixxx.
+The audio interface also sends them to the computer, together with the controller's own master mix, so they can be used in :menuselection:`Preferences --> Sound Hardware --> Input`:
+
+============= =================== ================================
+Channel       Name in the device  Content
+============= =================== ================================
+Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel
+Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel
+Channel 5     Mic 1 In            microphone 1 (mono)
+Channel 6     Mic 2 In            microphone 2 (mono)
+Channel 7 - 8 Master Mix L / R    master mix of the controller
+============= =================== ================================
+
+Each RCA input has a :hwlabel:`LINE` / :hwlabel:`PHONO` switch, for a line level source or a turntable.
+
+For instance, the RCA inputs can be used for vinyl control, and the master mix for :guilabel:`Record/Broadcast`, to record the whole set including the external inputs and microphones mixed by the controller.
+
+.. note::
+
+   On Linux, the inputs may sound choppy: the controller only configures its clock when the computer explicitly sets the sample rate, which Linux skips because the rate already reads 48 kHz.
+   The outputs are not affected.
+   A script and a udev rule that fix it are available in the `mapping repository <https://github.com/jaymanu79/Vestax_VCI-380_Mixxx_Mapping/tree/main/linux-audio-fix>`__.
+
+Integrated mixer and external inputs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It mutes the external RCA input of the channel:
+
+- :hwlabel:`PC`: the external input is muted.
+- :hwlabel:`MIXER`: the external input (turntable, CD player...) is mixed by the controller itself.
+
+The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
+
+Some knobs only act on the external inputs, in the controller's integrated mixer:
+
+- :hwlabel:`IF CURVE` (input fader curve) sets the curve of the volume sliders.
+- :hwlabel:`CF CURVE` sets the curve of the crossfader. It also sets the Mixxx crossfader curve (see `Mixer functions`_).
+- :hwlabel:`DEPTH` and :hwlabel:`FX ON/OFF` drive a high-pass filter on the external input. They also drive the Mixxx quick effect of the deck, so with a turntable on the input and a track playing in Mixxx on the same channel, both are affected.
+
+The :hwlabel:`CUE/MASTER` knob mixes the main output and the headphone cue (PFL / preview) in the headphones. It's done by the controller, so it isn't mapped.
 
 Mapping
 -------
@@ -59,6 +98,8 @@ When the mapping starts, Mixxx takes the current position of every slider, knob 
 Hold :hwlabel:`SHIFT` while turning EQ knobs (:hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW`) for EQ kill mode: turning the EQ to the left side cuts the frequency range, turning to the right side re-enables it (all or nothing).
 
 Hold :hwlabel:`SHIFT` while moving the crossfader to control output balance.
+
+:hwlabel:`CF CURVE` sets the crossfader curve of Mixxx, from smooth transition (left) to sharp cut (right). It replaces the crossfader curve slider of :menuselection:`Preferences --> Mixer`.
 
 Wheels
 ~~~~~~
