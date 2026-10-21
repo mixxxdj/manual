@@ -174,7 +174,7 @@ push :hwlabel:`SCROLL`                                         change focus zone
 End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
 
-When a track is playing with less than 30 seconds remaining, the library LEDs will blink.
+When a track is playing within the end-of-track warning time (set in :menuselection:`Preferences --> Waveforms --> End of track warning`), the library LEDs blink.
 
 For deck 1: :hwlabel:`AREA` and :hwlabel:`BACK`
 
