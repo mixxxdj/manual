@@ -269,4 +269,4 @@ Customization
 ~~~~~~~~~~~~~
 
 The colors used can be customized by editing the mapping JavaScript file.
-Also the color pattern when no track is loaded can be modified to your liking.
+Also the color pattern shown at startup on decks without a track can be modified to your liking.
