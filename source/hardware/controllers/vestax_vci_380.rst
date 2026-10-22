@@ -15,6 +15,8 @@ Inputs, on the rear panel:
 - :hwlabel:`MIC 1` (XLR) and :hwlabel:`MIC 2` (6.35 mm jack), each with its own :hwlabel:`LEVEL` knob.
 - :hwlabel:`INPUT A` and :hwlabel:`INPUT B` (RCA), each with a :hwlabel:`PRE-TRIM` knob and a :hwlabel:`PHONO` / :hwlabel:`LINE` button, and a :hwlabel:`GND` terminal for the turntable ground wire.
 
+The mapping requires Mixxx 2.5 or later; the stems mode requires Mixxx 2.6 or later.
+
 The audio interface only works at 48kHz: set :guilabel:`Sample Rate` to 48000 Hz in :menuselection:`Preferences --> Sound Hardware`.
 
 As Vestax went out of business in 2014, there is no support for this hardware anymore. But as it is class compliant, no driver should be needed.
@@ -124,7 +126,8 @@ Mixer functions
 
 Main knobs and sliders work straightforwardly: :hwlabel:`TRIM` sets the gain of the deck, :hwlabel:`HIGH` / :hwlabel:`MID` / :hwlabel:`LOW` the EQ, and the volume sliders and crossfader the mix.
 
-When the mapping starts, Mixxx takes the current position of every slider, knob and switch of the controller, so they're in sync from the start. The headphone cue buttons (:hwlabel:`CUE A` / :hwlabel:`CUE B`) toggle the headphone cue (PFL). The toggle is handled by the controller itself, and Mixxx follows its state.
+When the mapping starts, Mixxx takes the current position of every slider, knob and switch of the controller, so they're in sync from the start.
+After that, the sliders and knobs have soft takeover: if Mixxx changes a value by itself (sync, AutoDJ, a change with the mouse, or the other function of a control used with :hwlabel:`SHIFT`), the control only takes over once it reaches the value of Mixxx, so the sound doesn't jump. The headphone cue buttons (:hwlabel:`CUE A` / :hwlabel:`CUE B`) toggle the headphone cue (PFL). The toggle is handled by the controller itself, and Mixxx follows its state.
 
 Hold :hwlabel:`SHIFT` while turning EQ knobs (:hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW`) for EQ kill mode: turning the EQ to the left side cuts the frequency range, turning to the right side re-enables it (all or nothing).
 
@@ -185,9 +188,9 @@ Navigation area
 
 Library
 ^^^^^^^
-============================================================== =================================================================
+============================================================== =============================================================================================================================
 Action                                                         Effect
-============================================================== =================================================================
+============================================================== =============================================================================================================================
 Turn :hwlabel:`SCROLL`                                         move up/down
 :hwlabel:`BACK` and :hwlabel:`FWD`                             move left/right
 Turn left :hwlabel:`PAD FX`                                    move up/down (equivalent to turning SCROLL)
@@ -200,8 +203,8 @@ push :hwlabel:`SCROLL`                                         change focus zone
 :hwlabel:`SORT`                                                sort according to active column
 :hwlabel:`CUE A` / :hwlabel:`CUE B`                            toggle headphone cue (PFL) for deck A or B
 :hwlabel:`JOG SCROLL` + :hwlabel:`CUE A` / :hwlabel:`CUE B`    load selected track into deck A or B
-:hwlabel:`VIEW`                                                load and play selected track on preview deck. Push again to stop.
-============================================================== =================================================================
+:hwlabel:`VIEW`                                                load and play selected track on preview deck. Push again to stop. The :hwlabel:`VIEW` LED is on while the preview deck plays.
+============================================================== =============================================================================================================================
 
 End-of-track alerts
 ^^^^^^^^^^^^^^^^^^^
@@ -307,7 +310,6 @@ The options of the mapping are in :menuselection:`Preferences --> Controllers`, 
    With this option, it also sets the crossfader curve of Mixxx, from smooth (left) to sharp cut (right), including when the mapping starts: the knob then replaces the crossfader curve slider of :menuselection:`Preferences --> Mixer`.
    The slider of the preferences doesn't follow the knob, and clicking :guilabel:`Apply` or :guilabel:`OK` in :menuselection:`Preferences --> Mixer` sets the curve of the slider until the knob is turned again.
 
-Mapping options require Mixxx 2.5 or later.
 
 Customization
 ~~~~~~~~~~~~~
