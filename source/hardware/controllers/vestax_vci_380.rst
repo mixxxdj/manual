@@ -91,7 +91,9 @@ Use :hwlabel:`PC` when Mixxx processes the input:
 
 - **Vinyl control**: set the channel of the timecode turntable or CD player to :hwlabel:`PC`, otherwise the timecode signal is heard on the master output on top of the track played by Mixxx.
   Configure the input in :menuselection:`Preferences --> Sound Hardware --> Input` (:guilabel:`Vinyl Control 1` on :guilabel:`Channel 1 - 2` for the left input, :guilabel:`Vinyl Control 2` on :guilabel:`Channel 3 - 4` for the right one), and press :hwlabel:`PHONO` / :hwlabel:`LINE` according to the source.
-- **Auxiliary input or recording through Mixxx**: with the input set as :guilabel:`Auxiliary` in Mixxx, :hwlabel:`PC` avoids hearing the source twice (once through the controller's mixer, once through Mixxx).
+- **Mixxx effects on an external source**: instead of the simple hardware filter of :hwlabel:`DEPTH` / :hwlabel:`FX ON/OFF`, the RCA inputs and the microphones can go through Mixxx and its effects.
+  In :menuselection:`Preferences --> Sound Hardware --> Input`, select :guilabel:`Auxiliary` for an RCA input (:guilabel:`Channel 1 - 2` for the left one, :guilabel:`Channel 3 - 4` for the right one), or :guilabel:`Microphone` for :guilabel:`Mic 1 In` (:guilabel:`Channel 5`) and :guilabel:`Mic 2 In` (:guilabel:`Channel 6`).
+  :hwlabel:`PC` then avoids hearing the source twice: once directly through the controller's mixer, and once with the effects through Mixxx.
 
 Some knobs act on the external inputs, in the controller's integrated mixer:
 
