@@ -326,7 +326,7 @@ The features in detail:
   lists again. The tracks will re-appear in every playlist or crate they were
   in before being hidden.
 * :guilabel:`Purge and Delete Files`: Does the same as the Purge Button, but
-  also moves the selected to the trash bin.
+  also moves the selected tracks to the trash bin.
 
 .. seealso:: To learn how to permanently remove tracks from the Mixxx library
              using the :guilabel:`Hidden Tracks` view, see
