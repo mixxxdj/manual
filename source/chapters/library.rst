@@ -166,23 +166,34 @@ Track list context menu
 Right-clicking on selected tracks in the track list reveals the context menu:
 
 * :guilabel:`Search related Tracks`
-  Allows searching for tracks, related to the selected track, using a 
+  Allows searching for tracks, related to the selected track, using a
   combination of the following filters:
 
- * :guilabel:`Key`: looks for tracks whose :term:`Key` is harmonic with the selected
-   track's :term:`Key`.
- * :guilabel:`BPM`: looks for tracks that are within  -8/+8 :term:`Beats per minute`
-   of the selected track.
+ * :guilabel:`Key`: looks for tracks whose :term:`Key` is harmonic with the
+   selected track's :term:`Key`.
+ * :guilabel:`BPM`: looks for tracks that are within a certain :term:`Beats per minute`
+   range of the selected track. This range can be selected in
+   :menuselection:`Preferences --> Decks --> Slider range`.
  * :guilabel:`Artist`: looks for tracks of the same artist as the selected track.
  * :guilabel:`Album Artist`: looks for tracks of the same album artist as the selected
    track.
+ * :guilabel:`Composer`: looks for tracks of the same composer as the selected
+   track.
  * :guilabel:`Title`: looks for tracks with the same title as the selected track.
+ * :guilabel:`Album`: looks for tracks with the same album as the selected track.
+ * :guilabel:`Grouping`: looks for tracks with the same grouping as the selected track.
  * :guilabel:`Year`: looks for tracks of the same year as the selected track.
+ * :guilabel:`Genre`: looks for tracks with the same genre as the selected track.
  * :guilabel:`Directory`: looks for tracks located on the same directory of the
    selected track.
 
-  At least 1 filter needs to be selected to use the search and if more than one
-  track is selected, the filters will use only the first selected track.
+.. note:: - At least 1 filter needs to be selected to use the search.
+          - If more than one track is selected, the filters will use only the
+            first selected track.
+          - Only filters for the populated tags on the selected track will be
+            available.
+          - For convenience, an extra :guilabel:`Artist` and :guilabel:`Album Artist`
+            filters, using eatch other's tag data, are added.
 
 * :guilabel:`Add to Auto DJ`
 
@@ -203,25 +214,25 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   can't load multiple files at once.
 
 * :guilabel:`Add to Playlist`
-  
-  Add selected tracks to an existing playlist, 
-  or drag the selection to a playlist crate in the sidebar. Choose 
+
+  Add selected tracks to an existing playlist,
+  or drag the selection to a playlist crate in the sidebar. Choose
   :guilabel:`Create new playlist` to put them into a new playlist.
 
 * :guilabel:`Remove From Crate`
-  
-  Removes the track from the Crate. This 
-  option is only visible when in the context menu of a track when browsing 
+
+  Removes the track from the Crate. This
+  option is only visible when in the context menu of a track when browsing
   inside a Crate.
 
 * :guilabel:`Remove From Playlist`
-  
+
   Removes the track from the Playlist. This
-  option is only visible when in the context menu of a track when browsing 
+  option is only visible when in the context menu of a track when browsing
   inside a Playlist.
 
 * :guilabel:`Crates`
-  
+
   The checkbox shows in which existing crates the selection is in.
   Changing the crates selection does not collapse the menu, which allows
   much easier categorization of tracks without going through the menu from
@@ -235,7 +246,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
    other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`
    and re-run the analysis.
 
- * :guilabel:`Lock/Unlock BPM`:Locks/Unlocks the :term:`BPM` of selected tracks 
+ * :guilabel:`Lock/Unlock BPM`:Locks/Unlocks the :term:`BPM` of selected tracks
    so you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
    icon next to the track's BPM in the library row is a toggle. Clicking it
    will set the status to "locked", and the icon changes to
@@ -267,9 +278,9 @@ Right-clicking on selected tracks in the track list reveals the context menu:
    do not see changed metadata in other programs immediately, eject the track
    from all decks and samplers or shutdown Mixxx.
  * :guilabel:`Find on Web`: Select one of the online music platforms and search for
-   other music using the available filters.
+   other music related to the selected track using the available filters.
  * :guilabel:`Cover Art`
- 
+
     * :guilabel:`Choose new Cover`: Select an image from the file browser as the cover.
     * :guilabel:`Clear cover`: Delete any cover information saved for this track.
     * :guilabel:`Reload from file/folder`: Reload the cover from the tracks' ID3v2
@@ -290,14 +301,14 @@ Right-clicking on selected tracks in the track list reveals the context menu:
  * :guilabel:`Intro`: Clears the Intro Start Marker.
  * :guilabel:`Outro`: Clears the Outro End Marker.
  * :guilabel:`Loops`: Clears, both active and inactive, loops on the track.
- * :guilabel:`Key`: Clear the Key set for the track. Reanalyse the track to 
+ * :guilabel:`Key`: Clear the Key set for the track. Reanalyse the track to
    automatically set the Key again.
- * :guilabel:`Hotcues`: Clears all saved :term:`hotcues <hotcue>` and 
+ * :guilabel:`Hotcues`: Clears all saved :term:`hotcues <hotcue>` and
    :ref:`hotcue labels <interface-hotcues>`.
  * :guilabel:`ReplayGain`: Clears all saved :term:`ReplayGain` values.
  * :guilabel:`Waveform`: Clears the saved waveform data from the selected tracks.
    This is useful if a file is overwritten by another file of the same name,
-   or was edited externally (e.g. in a waveform editor). To clear the 
+   or was edited externally (e.g. in a waveform editor). To clear the
    waveform cache for all tracks in the library, select
    :menuselection:`Preferences --> Waveforms --> Clear cached Waveforms`
  * :guilabel:`All`: Clears all of the data above from the Mixxx library database at
@@ -305,10 +316,11 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
 * :guilabel:`Analyze`
 
- * :guilabel:`Analyze`: Analyse the selected tracks to find their :term:`BPM` 
+ * :guilabel:`Analyze`: Analyse the selected tracks to find their :term:`BPM`
    and Beat positions.
  * :guilabel:`Reanalyze`: Reanalyse a track that was previously analysed.
  * :guilabel:`Reanalyze (constant BPM)`: Reanalyse a track with variable :term:`BPM`.
+ * :guilabel:`Reanalyze (variable BPM)`: Reanalyse a track with constant :term:`BPM`.
 
   The analyzer settings can be changed in :menuselection:`Preferences --> Beat Detection`.
   For these functions to be able to make changes to the track both
