@@ -67,7 +67,7 @@ Each RCA input has a :hwlabel:`PHONO` / :hwlabel:`LINE` push button. Released (:
 If a line level source sounds distorted, check that the button is pressed (:hwlabel:`LINE`): the phono preamplifier saturates with line levels.
 The :hwlabel:`PRE-TRIM` knob next to each input sets its gain.
 
-For instance, the RCA inputs can be used for vinyl control, and the master mix for :guilabel:`Record/Broadcast`, to record the whole set including the external inputs and microphones mixed by the controller.
+For instance, the RCA inputs can be used for vinyl control (see the :hwlabel:`PC` / :hwlabel:`MIXER` switch below), and the master mix for :guilabel:`Record/Broadcast`, to record the whole set including the external inputs and microphones mixed by the controller.
 
 .. note::
 
@@ -78,12 +78,20 @@ For instance, the RCA inputs can be used for vinyl control, and the master mix f
 Integrated mixer and external inputs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It mutes the external RCA input of the channel:
+Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the external RCA input of the channel is heard through the controller's own mixer:
 
-- :hwlabel:`PC`: the external input is muted.
-- :hwlabel:`MIXER`: the external input (turntable, CD player...) is mixed by the controller itself.
+- :hwlabel:`MIXER`: the external input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
+- :hwlabel:`PC`: the external input is muted in the controller's mixer. It is still sent to the computer (see the input channels above), so Mixxx can use it.
 
 The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
+
+Use :hwlabel:`MIXER` to play an external source directly, like on a classic DJ mixer, for instance a turntable or a CD player alongside Mixxx.
+
+Use :hwlabel:`PC` when Mixxx processes the input:
+
+- **Vinyl control**: set the channel of the timecode turntable or CD player to :hwlabel:`PC`, otherwise the timecode signal is heard on the master output on top of the track played by Mixxx.
+  Configure the input in :menuselection:`Preferences --> Sound Hardware --> Input` (:guilabel:`Vinyl Control 1` on :guilabel:`Channel 1 - 2` for the left input, :guilabel:`Vinyl Control 2` on :guilabel:`Channel 3 - 4` for the right one), and press :hwlabel:`PHONO` / :hwlabel:`LINE` according to the source.
+- **Auxiliary input or recording through Mixxx**: with the input set as :guilabel:`Auxiliary` in Mixxx, :hwlabel:`PC` avoids hearing the source twice (once through the controller's mixer, once through Mixxx).
 
 Some knobs act on the external inputs, in the controller's integrated mixer:
 
