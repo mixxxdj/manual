@@ -53,15 +53,17 @@ Headphones VESTAX VCI-380 Channel 3 - 4 PFL Out L / R
 Inputs - RCA (line/phono) and MIC - can be handled by the integrated mixer, so they don't need to be set up in Mixxx.
 The audio interface also sends them to the computer, together with the controller's own master mix, so they can be used in :menuselection:`Preferences --> Sound Hardware --> Input`:
 
-============= =================== ================================ ======================================================
+============= =================== ================================ ============================================================
 Channel       Name in the device  Content                          Mixxx input
-============= =================== ================================ ======================================================
-Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel    :guilabel:`Auxiliary 1` or :guilabel:`Vinyl Control 1`
-Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel   :guilabel:`Auxiliary 2` or :guilabel:`Vinyl Control 2`
+============= =================== ================================ ============================================================
+Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel    :guilabel:`Auxiliary 1` and / or :guilabel:`Vinyl Control 1`
+Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel   :guilabel:`Auxiliary 2` and / or :guilabel:`Vinyl Control 2`
 Channel 5     Mic 1 In            microphone 1 (mono)              :guilabel:`Microphone 1`
 Channel 6     Mic 2 In            microphone 2 (mono)              :guilabel:`Microphone 2`
 Channel 7 - 8 Master Mix L / R    master mix of the controller     :guilabel:`Record/Broadcast`
-============= =================== ================================ ======================================================
+============= =================== ================================ ============================================================
+
+The same input channels can be assigned to both an :guilabel:`Auxiliary` and a :guilabel:`Vinyl Control` input, for instance to switch between vinyl control and playing the turntable through Mixxx's auxiliary input without changing the sound preferences.
 
 Each RCA input has a :hwlabel:`PHONO` / :hwlabel:`LINE` push button. Released (:hwlabel:`PHONO`), it switches on the turntable preamplifier; pressed (:hwlabel:`LINE`), the input takes a line level source (CD player, media player...).
 If a line level source sounds distorted, check that the button is pressed (:hwlabel:`LINE`): the phono preamplifier saturates with line levels.
