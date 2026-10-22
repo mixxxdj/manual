@@ -375,9 +375,10 @@ a crate, or even the whole library) for tracks that match your search query.
   those matching the search term(s). Search terms can include an artist's name,
   a song title, BPM, etc.
 * To clear the search bar input field click the :guilabel:`X` button next to the
-  input field, or press :kbd:`CTRL` + :kbd:`BACKSPACE`.
-* Hit :kbd:`TAB` until the focus is in the results track list in the library. Use
-  the :kbd:`↑` and :kbd:`↓` keys to scroll in the list of results.
+  input field.
+* To quickly move from the search bar to the search results, you can either tap
+  :kbd:`ENTER` or :kbd:`TAB` until the focus is in the tracks list. Use the
+  :kbd:`↑` and :kbd:`↓` keys to scroll in the list of results.
 
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
