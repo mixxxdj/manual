@@ -313,7 +313,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
   The analyzer settings can be changed in :menuselection:`Preferences --> Beat Detection`.
   For these functions to be able to make changes to the track both
   :menuselection:`Preferences --> Beat Detection --> Enable BPM and Beat Detection`
-  need to be enabled and the :term:`BPM` lock needs to be disabled (see **Lock/Unlock BPM** above).
+  need to be enabled and the :term:`BPM` lock needs to be disabled (see :guilabel:`Lock/Unlock BPM` above).
 
 * :guilabel:`Move Track File(s) to Trash`
 
