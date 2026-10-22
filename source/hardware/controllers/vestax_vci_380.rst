@@ -53,15 +53,15 @@ Headphones VESTAX VCI-380 Channel 3 - 4 PFL Out L / R
 Inputs - RCA (line/phono) and MIC - can be handled by the integrated mixer, so they don't need to be set up in Mixxx.
 The audio interface also sends them to the computer, together with the controller's own master mix, so they can be used in :menuselection:`Preferences --> Sound Hardware --> Input`:
 
-============= =================== ================================
-Channel       Name in the device  Content
-============= =================== ================================
-Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel
-Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel
-Channel 5     Mic 1 In            microphone 1 (mono)
-Channel 6     Mic 2 In            microphone 2 (mono)
-Channel 7 - 8 Master Mix L / R    master mix of the controller
-============= =================== ================================
+============= =================== ================================ ======================================================
+Channel       Name in the device  Content                          Mixxx input
+============= =================== ================================ ======================================================
+Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel    :guilabel:`Auxiliary 1` or :guilabel:`Vinyl Control 1`
+Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel   :guilabel:`Auxiliary 2` or :guilabel:`Vinyl Control 2`
+Channel 5     Mic 1 In            microphone 1 (mono)              :guilabel:`Microphone 1`
+Channel 6     Mic 2 In            microphone 2 (mono)              :guilabel:`Microphone 2`
+Channel 7 - 8 Master Mix L / R    master mix of the controller     :guilabel:`Record/Broadcast`
+============= =================== ================================ ======================================================
 
 Each RCA input has a :hwlabel:`PHONO` / :hwlabel:`LINE` push button. Released (:hwlabel:`PHONO`), it switches on the turntable preamplifier; pressed (:hwlabel:`LINE`), the input takes a line level source (CD player, media player...).
 If a line level source sounds distorted, check that the button is pressed (:hwlabel:`LINE`): the phono preamplifier saturates with line levels.
@@ -78,10 +78,10 @@ For instance, the RCA inputs can be used for vinyl control (see the :hwlabel:`PC
 Integrated mixer and external inputs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the external inputs (the RCA input of the channel, and the microphones) are heard through the controller's own mixer:
+Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the RCA input of the channel is heard through the controller's own mixer:
 
-- :hwlabel:`MIXER`: the external input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
-- :hwlabel:`PC`: the external inputs are muted in the controller's mixer. They are still sent to the computer (see the input channels above), so Mixxx can use them.
+- :hwlabel:`MIXER`: the RCA input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
+- :hwlabel:`PC`: the RCA input is muted in the controller's mixer. It is still sent to the computer (see the input channels above), so Mixxx can use it.
 
 The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
 
@@ -91,9 +91,12 @@ Use :hwlabel:`PC` when Mixxx processes the input:
 
 - **Vinyl control**: set the channel of the timecode turntable or CD player to :hwlabel:`PC`, otherwise the timecode signal is heard on the master output on top of the track played by Mixxx.
   Configure the input in :menuselection:`Preferences --> Sound Hardware --> Input` (:guilabel:`Vinyl Control 1` on :guilabel:`Channel 1 - 2` for the left input, :guilabel:`Vinyl Control 2` on :guilabel:`Channel 3 - 4` for the right one), and press :hwlabel:`PHONO` / :hwlabel:`LINE` according to the source.
-- **Mixxx effects on an external source**: instead of the simple hardware filter of :hwlabel:`DEPTH` / :hwlabel:`FX ON/OFF`, the RCA inputs and the microphones can go through Mixxx and its effects.
-  In :menuselection:`Preferences --> Sound Hardware --> Input`, select :guilabel:`Auxiliary` for an RCA input (:guilabel:`Channel 1 - 2` for the left one, :guilabel:`Channel 3 - 4` for the right one), or :guilabel:`Microphone` for :guilabel:`Mic 1 In` (:guilabel:`Channel 5`) and :guilabel:`Mic 2 In` (:guilabel:`Channel 6`).
+- **Mixxx effects on an RCA input**: instead of the simple hardware filter of :hwlabel:`DEPTH` / :hwlabel:`FX ON/OFF`, the RCA input can go through Mixxx and its effects.
+  In :menuselection:`Preferences --> Sound Hardware --> Input`, select :guilabel:`Auxiliary` for the input (see the table above).
   :hwlabel:`PC` then avoids hearing the source twice: once directly through the controller's mixer, and once with the effects through Mixxx.
+
+The microphones are not affected by the :hwlabel:`PC` / :hwlabel:`MIXER` switches: the controller always mixes them into its outputs, with their :hwlabel:`LEVEL` knobs on the rear panel.
+They can also be set as :guilabel:`Microphone` inputs in Mixxx, but they are then heard twice (directly, and through Mixxx), so Mixxx effects on the microphones are not practical with this controller.
 
 Some knobs act on the external inputs, in the controller's integrated mixer:
 
