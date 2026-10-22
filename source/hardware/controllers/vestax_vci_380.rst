@@ -78,10 +78,10 @@ For instance, the RCA inputs can be used for vinyl control (see the :hwlabel:`PC
 Integrated mixer and external inputs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the external RCA input of the channel is heard through the controller's own mixer:
+Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the external inputs (the RCA input of the channel, and the microphones) are heard through the controller's own mixer:
 
 - :hwlabel:`MIXER`: the external input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
-- :hwlabel:`PC`: the external input is muted in the controller's mixer. It is still sent to the computer (see the input channels above), so Mixxx can use it.
+- :hwlabel:`PC`: the external inputs are muted in the controller's mixer. They are still sent to the computer (see the input channels above), so Mixxx can use them.
 
 The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
 
