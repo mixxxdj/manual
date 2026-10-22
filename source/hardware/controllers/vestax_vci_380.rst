@@ -104,7 +104,7 @@ Some knobs act on the external inputs, in the controller's integrated mixer:
 
 - :hwlabel:`TRIM` sets the gain of the external input. It also sets the gain of the Mixxx deck (see `Mixer functions`_).
 - :hwlabel:`IF CURVE` (input fader curve) sets the curve of the volume sliders.
-- :hwlabel:`CF CURVE` sets the curve of the crossfader. It also sets the Mixxx crossfader curve (see `Mixer functions`_).
+- :hwlabel:`CF CURVE` sets the curve of the crossfader for the external inputs. It can also set the Mixxx crossfader curve, with a mapping option (see `Mapping options`_).
 - :hwlabel:`DEPTH` and :hwlabel:`FX ON/OFF` drive a high-pass filter on the external input. They also drive the Mixxx quick effect of the deck, so with a turntable on the input and a track playing in Mixxx on the same channel, both are affected.
 
 Other knobs are handled by the controller itself, so they aren't mapped:
@@ -130,7 +130,8 @@ Hold :hwlabel:`SHIFT` while turning EQ knobs (:hwlabel:`HIGH`/:hwlabel:`MID`/:hw
 
 Hold :hwlabel:`SHIFT` while moving the crossfader to control output balance.
 
-:hwlabel:`CF CURVE` sets the crossfader curve of Mixxx, from smooth transition (left) to sharp cut (right). It replaces the crossfader curve slider of :menuselection:`Preferences --> Mixer`.
+With the :guilabel:`CF CURVE knob also sets the Mixxx crossfader curve` option, :hwlabel:`CF CURVE` sets the crossfader curve of Mixxx, from smooth transition (left) to sharp cut (right).
+Without this option, the crossfader curve is set in :menuselection:`Preferences --> Mixer`.
 
 Wheels
 ~~~~~~
@@ -295,6 +296,18 @@ yellow playing           restart              stop
 ====== ================= ==================== =============================
 
 Switching to sampler mode will automatically activate the samplers display on screen.
+
+Mapping options
+~~~~~~~~~~~~~~~
+
+The options of the mapping are in :menuselection:`Preferences --> Controllers`, after selecting the Vestax VCI-380. Hover an option to see its description.
+
+:guilabel:`CF CURVE knob also sets the Mixxx crossfader curve` (off by default)
+   The :hwlabel:`CF CURVE` knob always sets the crossfader curve of the external inputs, in the controller.
+   With this option, it also sets the crossfader curve of Mixxx, from smooth (left) to sharp cut (right), including when the mapping starts: the knob then replaces the crossfader curve slider of :menuselection:`Preferences --> Mixer`.
+   The slider of the preferences doesn't follow the knob, and clicking :guilabel:`Apply` or :guilabel:`OK` in :menuselection:`Preferences --> Mixer` sets the curve of the slider until the knob is turned again.
+
+Mapping options require Mixxx 2.5 or later.
 
 Customization
 ~~~~~~~~~~~~~
