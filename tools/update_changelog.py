@@ -35,9 +35,14 @@ def fetch_changelog(branch):
 def changelog_to_rst(changelog):
     """Convert changelog to RST format used by sphinx."""
 
+    # The m2r2.convert call (below) is currently removing a required
+    # empty line below the bullet lists in changelog.rst.
+    # A \ was added to the start of the replacement string(2nd argument)
+    # here to add an extra empty line so that there is still an empty
+    # line after the bullet lists after the m2r2.convert call.
     changelog = re.sub(
         r"^## \[?(\d+)\.(\d+)\.(\d+)(?:\]\([^\)]+\))?(?: \([^\)]+\))?$",
-        r".. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
+        r"\.. _v\g<1>-\g<2>-\g<3>:\n\n\g<0>",
         changelog,
         flags=re.MULTILINE,
     )
