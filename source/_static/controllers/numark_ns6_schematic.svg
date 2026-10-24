@@ -3,19 +3,19 @@
   <desc id="desc">A not-to-scale diagram of the original Numark NS6 showing left and right deck sections, four mixer channels, and library controls.</desc>
   <defs>
     <style>
-      .body { fill: #e6e8eb; stroke: #28313b; stroke-width: 4; }
-      .panel { fill: #f9fafb; stroke: #586575; stroke-width: 2; }
-      .deck { fill: #e9eef6; stroke: #315b87; stroke-width: 2; }
-      .mixer { fill: #f7ece5; stroke: #96542e; stroke-width: 2; }
-      .library { fill: #e8f2eb; stroke: #3d7650; stroke-width: 2; }
-      .label { font: 700 22px sans-serif; fill: #1d2730; }
-      .small { font: 16px sans-serif; fill: #26323d; }
-      .tiny { font: 14px sans-serif; fill: #34424f; }
-      .wheel { fill: #303944; stroke: #101820; stroke-width: 3; }
-      .ring { fill: none; stroke: #96a6b6; stroke-width: 4; }
-      .control { fill: #fff; stroke: #45515e; stroke-width: 2; }
-      .fader { stroke: #343f4b; stroke-width: 5; stroke-linecap: round; }
-      .knob { fill: #495460; stroke: #202a33; stroke-width: 2; }
+      .body { fill: none; stroke: currentColor; stroke-width: 4; }
+      .panel { fill: none; stroke: currentColor; stroke-width: 2; }
+      .deck { fill: none; stroke: currentColor; stroke-width: 2; }
+      .mixer { fill: none; stroke: currentColor; stroke-width: 2; }
+      .library { fill: none; stroke: currentColor; stroke-width: 2; }
+      .label { font: 700 22px sans-serif; fill: currentColor; }
+      .small { font: 16px sans-serif; fill: currentColor; }
+      .tiny { font: 14px sans-serif; fill: currentColor; }
+      .wheel { fill: none; stroke: currentColor; stroke-width: 3; }
+      .ring { fill: none; stroke: currentColor; stroke-width: 4; }
+      .control { fill: none; stroke: currentColor; stroke-width: 2; }
+      .fader { stroke: currentColor; stroke-width: 5; stroke-linecap: round; }
+      .knob { fill: none; stroke: currentColor; stroke-width: 2; }
     </style>
   </defs>
   <rect class="body" x="12" y="12" width="1176" height="516" rx="26"/>

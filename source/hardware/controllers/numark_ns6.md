@@ -28,6 +28,12 @@ Mixxx uses the NS6 MIDI input and output ports exposed by the operating system. 
 
 The mapping was tested by its maintainer with an original NS6 on Ubuntu 26.04 LTS, Fedora 43, and macOS Sequoia. It does not target the NS6II. Availability of the NS6's MIDI ports depends on the driver or USB MIDI bridge used on each system.
 
+## Controller settings
+
+In Mixxx's controller preferences, **Start Time** ranges from 0 to 6 in 0.25 increments. The default value of 0 starts playback immediately; higher values enable a soft start, with higher values accelerating faster.
+
+**Scratch Sensitivity** ranges from 25% to 100% and defaults to 50%. Higher values make the jog more responsive while scratching or scrubbing a stopped deck; lower values require more platter movement.
+
 ## Controls
 
 The mapping keeps the controller's four-channel layout and adds feedback for its LEDs. Controls in each deck section follow the selected layer: the left layer selects deck 1 or 3, and the right layer selects deck 2 or 4.
@@ -39,11 +45,11 @@ The mapping keeps the controller's four-channel layout and adds feedback for its
 | **Cue** | Use Mixxx's native Cue behavior, including preview while held. |
 | **Hot Cue 1–5** | Trigger the corresponding hotcue; **Shift + Hot Cue** clears it. |
 | **Load** | Load the selected track to the corresponding deck; **Shift + Load** ejects the track. |
-| **Jog top** | Scratch while touched when scratch mode is enabled. Releasing returns to playback without following platter inertia. |
+| **Jog top** | Scratch while touched when scratch mode is enabled. After release, playback follows the platter's remaining movement and returns to normal when the platter stops. |
 | **Jog edge** | Pitch bend during playback; jog or scrub the track while paused. Fast reverse motion can continue as a backspin. |
 | **Scratch** | Toggle scratch mode for the selected deck. |
 | **Strip Search** | Seek to the position indicated by the touch strip. |
-| **Pitch fader** | Adjust playback rate with 14-bit MIDI data. The range button cycles through ±8%, ±16%, and ±50%. Center and beatmatching LEDs provide pitch guidance. |
+| **Pitch fader** | Adjust playback rate with 14-bit MIDI data. The range button cycles through ±8%, ±16%, and ±50%. Hold Shift while moving the fader for fine pitch adjustment, preserving the current rate as the starting point. Center and beatmatching LEDs provide pitch guidance. |
 | **Pitch bend − / +** | Temporarily slow down or speed up the selected deck. Shift uses finer steps. |
 | **Sync** | Toggle Sync; **Shift + Sync** toggles Quantize. |
 | **Loop controls** | Toggle automatic/manual mode, set manual loop in/out points, activate or exit loops, and select or change automatic loop sizes (1, 2, 4, or 8 beats). |
@@ -60,7 +66,9 @@ The mapping keeps the controller's four-channel layout and adds feedback for its
 | **Channel PFL** | Selecting one channel disables PFL on the other channels. Pressing the active PFL button again turns it off. The NS6 mixer controls the PFL LEDs. |
 | **Channel faders, gain, and EQ** | Control the corresponding Mixxx channel. Fader endpoints are shaped to reach minimum and maximum reliably. |
 | **Channel input switch** | Toggle mute for the corresponding Mixxx channel. |
-| **Crossfader** | Control the Mixxx crossfader. The separate X-Fader knob adjusts the crossfader curve. |
+| **Crossfader** | Control the Mixxx crossfader. |
+| **X-Fader slope knob** | Adjust the crossfader curve and calibration without forcing a Mixxx crossfader mode. |
+| **X-Fader contour button** | Hold to use the mapping's scratch contour; release to restore the saved curve and calibration. |
 | **Crossfader assignment** | Assign the deck to the left or right crossfader side; releasing the control returns it to center. |
 | **Fader Start** | Enable crossfader-endpoint start/return-to-cue behavior for the corresponding side. |
 | **Master / headphone level / Cue-Mix** | Control Mixxx's master level, headphone level, and cue-to-master headphone blend. |
