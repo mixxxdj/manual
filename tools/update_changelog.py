@@ -15,11 +15,7 @@ TEMPLATE = """
 
 .. _appendix-changelog:
 
-{content}
-
-.. seealso:: For an overview of previous versions, `take a look
-             <https://launchpad.net/mixxx/+series>`_ at the timeline.
-"""
+{content}"""
 
 
 def fetch_changelog(branch):
