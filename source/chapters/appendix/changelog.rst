@@ -19,8 +19,19 @@ Controller Mappings
 
 
 * Allen & Heath Xone K3: Update midi mappings (backport `#16453 <https://github.com/mixxxdj/mixxx/pull/16453>`__\ ) `#16496 <https://github.com/mixxxdj/mixxx/pull/16496>`__
+* Numark DJ2GO2 Touch: fix bug with preview deck `#16844 <https://github.com/mixxxdj/mixxx/pull/16844>`__
 * Numark Mixtrack 3: fix settings bool evaluation `#16708 <https://github.com/mixxxdj/mixxx/pull/16708>`__
+* Pioneer DDJ-400: unmap headphones mixing knob `#17121 <https://github.com/mixxxdj/mixxx/pull/17121>`__
 * Vestax VCI-400: fix VU meters, midi.sendShortMsg() `#16180 <https://github.com/mixxxdj/mixxx/pull/16180>`__
+
+Controller Backend
+^^^^^^^^^^^^^^^^^^
+
+
+* Fix brake in reverse playback `#17295 <https://github.com/mixxxdj/mixxx/pull/17295>`__
+* Clear focus on the effect unit being switched away from
+  `#17071 <https://github.com/mixxxdj/mixxx/pull/17071>`__
+  `#17070 <https://github.com/mixxxdj/mixxx/issues/17070>`__
 
 Library
 ^^^^^^^
@@ -44,6 +55,49 @@ Library
 * Rekordbox: detect databases in hidden .PIONEER directory
   `#16895 <https://github.com/mixxxdj/mixxx/pull/16895>`__
   `#16894 <https://github.com/mixxxdj/mixxx/issues/16894>`__
+* Track table header: throw warning when storing the state fails `#17072 <https://github.com/mixxxdj/mixxx/pull/17072>`__
+* Row colors: fix missing opacity of track colors
+  `#17043 <https://github.com/mixxxdj/mixxx/pull/17043>`__
+  `#17037 <https://github.com/mixxxdj/mixxx/issues/17037>`__
+  `#17251 <https://github.com/mixxxdj/mixxx/pull/17251>`__
+* Row colors: fix missing library feedback when resetting the color of tracks
+  `#17170 <https://github.com/mixxxdj/mixxx/pull/17170>`__
+  `#10241 <https://github.com/mixxxdj/mixxx/issues/10241>`__
+  `#12758 <https://github.com/mixxxdj/mixxx/issues/12758>`__
+* Tracks view: enforce selection on cursor move with just one row and no selection `#17273 <https://github.com/mixxxdj/mixxx/pull/17273>`__
+* Skip beat grid creation when importing a BPM without a valid sample rate
+  `#17282 <https://github.com/mixxxdj/mixxx/pull/17282>`__
+  `16846 <https://github.com/mixxxdj/mixxx/issues/16846>`__
+* Track menu > Crates: Enter toggles checkbox `#17320 <https://github.com/mixxxdj/mixxx/pull/17320>`__
+* Track header menu: fix Enter keypress behavior `#17324 <https://github.com/mixxxdj/mixxx/pull/17324>`__
+
+Engine
+^^^^^^
+
+
+* EngineBuffer: Reset sample counter after indicator update `#16245 <https://github.com/mixxxdj/mixxx/pull/16245>`__
+* Avoid spurious play control update
+  `#16912 <https://github.com/mixxxdj/mixxx/pull/16912>`__
+  `#16910 <https://github.com/mixxxdj/mixxx/issues/16910>`__
+* Respect ``repeat`` in slip mode when enabled before slip, like looping
+  `#16982 <https://github.com/mixxxdj/mixxx/pull/16982>`__
+* Mixdown headphone and booth outputs in mono mode
+  `#17013 <https://github.com/mixxxdj/mixxx/pull/17013>`__
+  `#16942 <https://github.com/mixxxdj/mixxx/issues/16942>`__
+* Clear Booth buffer if it is not used, to fix audible artefacts after disabling `#17028 <https://github.com/mixxxdj/mixxx/pull/17028>`__
+* Don't reset ``beatloop_size`` to 1/32 when loop doesn't match any of the pre-defined sizes
+  `#16881 <https://github.com/mixxxdj/mixxx/pull/16881>`__
+  `#16880 <https://github.com/mixxxdj/mixxx/issues/16880>`__
+* Fix Hotcue 350 hours before song start, caused by a race condition with quantize control
+  `#16743 <https://github.com/mixxxdj/mixxx/pull/16743>`__
+  `#16320 <https://github.com/mixxxdj/mixxx/issues/16320>`__
+
+Preferences
+^^^^^^^^^^^
+
+
+* Fix warning/violated debug assertion when opening Preferences (backport `#16257 <https://github.com/mixxxdj/mixxx/pull/16257>`__\ ) `#16274 <https://github.com/mixxxdj/mixxx/pull/16274>`__
+* Color Preferences: avoid crash when saving palette after color row drag'n'drop `#17228 <https://github.com/mixxxdj/mixxx/pull/17228>`__
 
 Target support
 ^^^^^^^^^^^^^^
@@ -65,9 +119,17 @@ Target support
   `#16368 <https://github.com/mixxxdj/mixxx/pull/16368>`__
 * Flatpak: fix building with Soundtouch, update to 2.4.1
   `#16720 <https://github.com/mixxxdj/mixxx/pull/16720>`__
-* Flatpack: prevent branches to delete each other
+* Flatpak: prevent branches to delete each other
   `#16779 <https://github.com/mixxxdj/mixxx/pull/16779>`__
   `#16810 <https://github.com/mixxxdj/mixxx/pull/16810>`__
+* Flatpak: generate public key from Github secrets.
+  `#17239 <https://github.com/mixxxdj/mixxx/pull/17239>`__
+  `#17257 <https://github.com/mixxxdj/mixxx/pull/17257>`__
+* Fix Upload PPA issues
+  `#16990 <https://github.com/mixxxdj/mixxx/pull/16990>`__
+  `#16981 <https://github.com/mixxxdj/mixxx/pull/16981>`__
+  `#17107 <https://github.com/mixxxdj/mixxx/pull/17107>`__
+  `#17124 <https://github.com/mixxxdj/mixxx/pull/17124>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
@@ -81,13 +143,11 @@ Miscellaneous
 * macOS: Discover both Effect and MusicEffect AudioUnits in one pass `#16287 <https://github.com/mixxxdj/mixxx/pull/16287>`__
 * Fix killing Analysis worker threads during shutdown, possible data loss. `#16064 <https://github.com/mixxxdj/mixxx/pull/16064>`__
 * MIDI: guard against null script engine in makeInputHandler `#16003 <https://github.com/mixxxdj/mixxx/pull/16003>`__
-* EngineBuffer: Reset sample counter after indicator update `#16245 <https://github.com/mixxxdj/mixxx/pull/16245>`__
-* libfdk_aac: SoundSourceProxyTest.seekBoundaries fix
-  `#16440 <https://github.com/mixxxdj/mixxx/pull/16440>`__
-  `#14624 <https://github.com/mixxxdj/mixxx/issues/14624>`__
 * FFmpeg: fix of gap bug fix
   `#16439 <https://github.com/mixxxdj/mixxx/pull/16439>`__
   `#10464 <https://github.com/mixxxdj/mixxx/issues/10464>`__
+* FFmpeg: fix DEBUG_ASSERT when reading past the end `#17096 <https://github.com/mixxxdj/mixxx/pull/17096>`__
+* FFmpeg: use the default AAC decoder and warn about known seeking issues. `#17218 <https://github.com/mixxxdj/mixxx/pull/17218>`__
 * Fix flaky unittests test
   `#16275 <https://github.com/mixxxdj/mixxx/pull/16275>`__
   `#12554 <https://github.com/mixxxdj/mixxx/issues/12554>`__
@@ -95,29 +155,33 @@ Miscellaneous
   `#16290 <https://github.com/mixxxdj/mixxx/pull/16290>`__
   `#16162 <https://github.com/mixxxdj/mixxx/issues/16162>`__
   `#16693 <https://github.com/mixxxdj/mixxx/pull/16693>`__
-* Fix warning/violated debug assertion when opening Preferences (backport `#16257 <https://github.com/mixxxdj/mixxx/pull/16257>`__\ ) `#16274 <https://github.com/mixxxdj/mixxx/pull/16274>`__
-* Don't reset ``beatloop_size`` to 1/32 when loop doesn't match any of the pre-defined sizes
-  `#16881 <https://github.com/mixxxdj/mixxx/pull/16881>`__
-  `#16880 <https://github.com/mixxxdj/mixxx/issues/16880>`__
-* Fix last played time being wiped on history deletion
-  `#16178 <https://github.com/mixxxdj/mixxx/pull/16178>`__
-  `#14427 <https://github.com/mixxxdj/mixxx/issues/14427>`__
-* Fix Hotcue 350 hours before song start, caused by a race condition with quantize control
-  `#16743 <https://github.com/mixxxdj/mixxx/pull/16743>`__
-  `#16320 <https://github.com/mixxxdj/mixxx/issues/16320>`__
+  `#17003 <https://github.com/mixxxdj/mixxx/pull/17003>`__
+  `#17260 <https://github.com/mixxxdj/mixxx/pull/17260>`__
+  `#17337 <https://github.com/mixxxdj/mixxx/pull/17337>`__
+* Run all tests `#17058 <https://github.com/mixxxdj/mixxx/pull/17058>`__
 * Skins: Fix tiny battery icons `#16801 <https://github.com/mixxxdj/mixxx/pull/16801>`__
 * Fix broadcasting using libshout-idjc >= 2.4.6, by using the correct usage flag
   `#16816 <https://github.com/mixxxdj/mixxx/pull/16816>`__
   `#16783 <https://github.com/mixxxdj/mixxx/issues/16783>`__
   `#16592 <https://github.com/mixxxdj/mixxx/pull/16592>`__
-* Avoid spurious play control update
-  `#16912 <https://github.com/mixxxdj/mixxx/pull/16912>`__
-  `#16910 <https://github.com/mixxxdj/mixxx/issues/16910>`__
-* Respect ``repeat`` in slip mode when enabled before slip, like looping
-  `#16982 <https://github.com/mixxxdj/mixxx/pull/16982>`__
-* Mixdown headphone and booth outputs in mono mode
-  `#17013 <https://github.com/mixxxdj/mixxx/pull/17013>`__
-  `#16942 <https://github.com/mixxxdj/mixxx/issues/16942>`__
+* Fix SoundSourceProxyTest.openEmptyFile on Qt 6.11.1 `#17116 <https://github.com/mixxxdj/mixxx/pull/17116>`__
+* Speed up CI
+  `#17152 <https://github.com/mixxxdj/mixxx/pull/17152>`__
+  `#17145 <https://github.com/mixxxdj/mixxx/pull/17145>`__
+  `#17147 <https://github.com/mixxxdj/mixxx/pull/17147>`__
+  `#17137 <https://github.com/mixxxdj/mixxx/pull/17137>`__
+  `#17224 <https://github.com/mixxxdj/mixxx/pull/17224>`__
+  `#17259 <https://github.com/mixxxdj/mixxx/pull/17259>`__
+  `#17258 <https://github.com/mixxxdj/mixxx/pull/17258>`__
+  `#17226 <https://github.com/mixxxdj/mixxx/pull/17226>`__
+* Fix warning when parsing macOs music xml `#17084 <https://github.com/mixxxdj/mixxx/pull/17084>`__
+* Vinyl Control: fix reverse decoder for SWITCH_POLARITY timecodes
+  `#17242 <https://github.com/mixxxdj/mixxx/pull/17242>`__
+  `#16259 <https://github.com/mixxxdj/mixxx/issues/16259>`__
+* Vinyl Control: fix vinyl control startup sample rate `#17188 <https://github.com/mixxxdj/mixxx/pull/17188>`__
+* Fix MIDI learning wizard not showing up
+  `#17343 <https://github.com/mixxxdj/mixxx/pull/17343>`__
+  `#17155 <https://github.com/mixxxdj/mixxx/issues/17155>`__
 
 .. _v2-5-6:
 
