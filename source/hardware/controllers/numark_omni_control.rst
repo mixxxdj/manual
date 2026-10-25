@@ -43,10 +43,10 @@ Channel output
 --------------
 
 ===================== ================
-Output Channels       Assigned to
+ Output Channels       Assigned to
 ===================== ================
-1-2                   Main
-3-4                   Headphones
+ 1-2                   Main
+ 3-4                   Headphones
 ===================== ================
 
 Microphone inputs
@@ -87,13 +87,13 @@ CHANNEL
   6   SELECT = switchs loop anchor between start and end of loop (end of loop = light on)
   8   PAR = Beatjump; uses beatloop size (left/right = backward/forward)
   9   FINE PITCH = temporary change of the pitch even over min/max (resets at PITCH moving)
- 11	  TAP = manual tap to calculate speed of the tracklist
+ 11   TAP = manual tap to calculate speed of the tracklist
  12   PITCH-BEND(-/+) = adjusting temporary deck play speed (-/+ = slower/faster) aka NUDGE
  13   LOOP IN = sets loop-in point
  14   LOOP OUT = sets loop-out point and reloop; keep pressed to disable reloop
  15   GAIN = adjusts gain of the channel
  16   EQ = (left/right = min/max) (press = push kill on/off) (light indicator = push kill)
- 17	  LOAD TRACK = loads selected track into channel (if not playing)
+ 17   LOAD TRACK = loads selected track into channel (if not playing)
  19   CUE = play deck from current cue point (cue is start if nothing else selected)
  20   SET CUE = sets new cue point
  21   PLAY = play/pause current deck
@@ -165,13 +165,13 @@ Autostart
 
 Enables the following setting from start of MIXXX. Recommended settings enabled by default.
 
-=================== =======================	==============================================
- Setting			 Buttons (if any)		 Description
- 'Scratch-Mode'		 left channel: ON/OFF	 Custom mode is enabled from start (see above)
- 'Extended Looping'	 right channel: ON/OFF	 Custom mode is enabled from start (see above)
- QuickEffects		 5 (left), 0 (right)	 QuickEffects of the left and right channel. 
- SoftTakeover		 (none)					 see `public documentation <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#soft-takeover>`__
-=================== =======================	==============================================
+=================== =======================    ==============================================
+ Setting             Buttons (if any)           Description
+ 'Scratch-Mode'      left channel: ON/OFF       Custom mode is enabled from start (see above)
+ 'Extended Looping'  right channel: ON/OFF      Custom mode is enabled from start (see above)
+ QuickEffects        5 (left), 0 (right)        QuickEffects of the left and right channel. 
+ SoftTakeover        (none)                     see `public documentation <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#soft-takeover>`__
+=================== =======================    ==============================================
 
 FinePitch and JogWheel Adjustment
 ---------------------------------
@@ -189,9 +189,9 @@ Advanced
 --------
 
 =============================== =====================================================================================================================
- Setting              		    Description
- CUE doesn't stop playing deck  Pressing the CUE button while playing, doesn't stop the deck; if disabled, CUE button is in "CUP (Cue + Play) mode"
- only one PFL enabled at time	If PFL is enabled by pressing the button 1 (aka PFL) it disables the PFL on the opposite site.
+ Setting                         Description
+ CUE doesn't stop playing deck   Pressing the CUE button while playing, doesn't stop the deck. If disabled, Preferences ‣ Decks ‣ Cue mode is used
+ only one PFL enabled at time    If PFL is enabled by pressing the button 1 (aka PFL) it disables the PFL on the opposite site.
 =============================== =====================================================================================================================
 
 Known Issues
