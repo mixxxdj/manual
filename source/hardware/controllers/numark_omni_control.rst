@@ -5,26 +5,39 @@ Numark Omni Control
 -  `Wiki page <https://github.com/mixxxdj/mixxx/wiki/Numark%20Omni%20Control>`__
 
 
-.. versionadded:: 1.10
-.. versionchanged:: 2.5.6
+.. versionadded:: 2.5.6
 
 Description
 ===========
 
 The Numark Omni Control is an 2 channel stereo DJ controller with integrated soundcard, 2 dual stereo outputs (RCA), 1 headphone output and 1 microphone input.
 The device should be connected at least via USB 2.0 (USB-B plug) to use all of its features. Additional power supply (6 Volt, 1 Ampere) is usually not required.
-This device is not `USB Audio Device Class <https://www.usb.org/document-library/usb-audio-devices-rev-30-and-adopters-agreement>`__ compliant and requires special drivers on Windows and macOS to work as a MIDI device. 
+This device is not `USB Audio Device Class <https://www.usb.org/document-library/usb-audio-devices-rev-30-and-adopters-agreement>`__ compliant and requires special drivers to work. 
 
-(In)Compatibility
-=================
+Compatibility
+=============
 
--  `Latest working Windows drivers <https://web.archive.org/web/20251116224010/https://www.numark.com/images/product_downloads/Numark_OMNICONTROL_2.9.64.zip>`__
--  Latest MacOS driver is still Intel-Architecture and is untested with ARM.
--  There is no driver available for Linux.
+Official drivers
+----------------
 
+Latest official drivers can be found `here <https://web.archive.org/web/20251116224010/https://www.numark.com/product/omnicontrol>`__
+-  Windows: 2.9.64 (still working with Windows 10 and 11)
+-  Latest MacOS driver is still Intel-Architecture and is untested with ARM (aka M1 processors and later)
+-  There is no official driver available for Linux.
+
+Community drivers
+-----------------
+
+`Ozzy <https://github.com/mischa85/Ozzy>`__ is a reference implementation. Only use it at your own risk. 
+It's is single-tested with MIXXX version 2.5.6 and feel free to add your experience for the community driver `here <https://github.com/mischa85/Ozzy/issues/95>`__ .
+-  Windows 10: todo
+-  MacOS: untested yet
+-  Linux: Debian 6.12.113+deb13-amd64
 
 Inputs and outputs of the audio interface
 =========================================
+
+TODO: It's highly recommended to reset all "hardware - soundcards" settings to "default" before, to avoid scattered sound samples.
 
 Channel output
 --------------
@@ -36,16 +49,10 @@ Output Channels       Assigned to
 3-4                   Headphones
 ===================== ================
 
-Special instructions
---------------------
-
-To reduce the audio latency time, the setting must be made in MIXXX and the "Numark Omni Control Panel" software (requires reboot of controller). But it's recommended to leave the audio latencies as they are.
-
 Microphone inputs
 -----------------
 
-Untested yet, but the Windows driver also doesn't show any usable input devices.
-
+Untested yet.
 
 .. figure:: ../../_static/controllers/Numark-Omni-Control.png
    :align: center
@@ -57,7 +64,7 @@ Untested yet, but the Windows driver also doesn't show any usable input devices.
    Numark Omni Control (schematic view)
 
 
-Controller Mapping in normal Mode
+Controller Mapping in Normal Mode
 =================================
 
 MASTER
@@ -108,54 +115,87 @@ QuickEffect (green group)
 Custom Mode switches (yellow)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Custom modes can be enabled from start by editing the -> User customisations.
-
 ==== ===================
- M5   Directory mode 
- 10   Scratch mode 
- 18   ExtendedLoop mode
+ M5   Directory Mode 
+ 10   Scratch Mode 
+ 18   ExtendedLoop Mode
 ==== ===================
 
 Custom Modes
 ============
 
-Directory mode 
+Directory Mode 
 --------------
+
+This mode is enabled, if you press the "DIRECTORY" button or manually move to the folder in the MIXXX UI. The activation is shown by LED.
 
 ==== =========================================================================
  M4   Trackselector (left/right = up/down) (press = right aka open subfolder)
 ==== =========================================================================
 
-Scratch mode
+Scratch Mode
 ------------
+
 ==== ====================================================
  23   JOGWHEEL = scratch (left/right = backward/forward)
 ==== ====================================================
 
-ExtendedLoop mode
+ExtendedLoop Mode
 -----------------
 
 This mode also enables quantisation, so the LOOP IN and LOOP OUT are aligned at the beat grid.
 
-===== ==================================================================================
+===== ============================================================================================================
   8*   PAR = moves loop block* (left/right = backward/forward)
- 12    PITCH-BEND(-/+) = changes size of the loop (-/+ = half/double), but keeps anchor
+ 12    PITCH-BEND(-/+) = changes size of the loop (-/+ = half/double), but keeps anchor (see: button 6 aka SELECT)
  13    LOOP IN = sets loop-in point and removes LOOP OUT point; disables reloop
- 14    LOOP OUT = sets loop-out point and reloop; keep pressed to disable reloop
- 20*   SET CUE = sets new cue point at the closest beat grid (because of quantisation)
-===== ==================================================================================
+ 14    LOOP OUT = sets loop-out point and reloop; keep pressed to disable reloop while reaching the end of loop
+ 20    SET CUE = sets new cue point at the closest beat grid (because of quantisation)
+===== ============================================================================================================
+
 * = this is standard behavior of MIXXX
 
 User customisations
 ===================
 
-Edit the js-file at the "LoadUserDefaults" function to customise the controller by enabling custom modes from start and:
--  FINE PITCH speed adjusting
--  JOGWHEEL speed adjusting (Scratch mode and normal mode)
+Edit the controller setup settings to customise the behavior.
 
+Autostart
+---------
+
+Enables the following setting from start of MIXXX. Recommended settings enabled by default.
+
+=================== =======================	==============================================
+ Setting			 Buttons (if any)		 Description
+ 'Scratch-Mode'		 left channel: ON/OFF	 Custom mode is enabled from start (see above)
+ 'Extended Looping'	 right channel: ON/OFF	 Custom mode is enabled from start (see above)
+ QuickEffects		 5 (left), 0 (right)	 QuickEffects of the left and right channel. 
+ SoftTakeover		 (none)					 see `public documentation <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#soft-takeover>`__
+=================== =======================	==============================================
+
+FinePitch and JogWheel Adjustment
+---------------------------------
+
+====================== ========= ========= =======================================================================================================================================
+ Setting                Range     Default   Description
+ FinePitchAdjustment    1-20(*)      9.00   FINE PITCH: the higher the value, the smaller the impact by FINE PITCH rotation. The value of '6' means same behavior as rate sliders.
+ JogScratchAdjustment   1-5(*)       3.00   JOGWHEEL (in Scratch-Mode): the higher the value, the lower the impact on JOGWHEEL rotation)
+ JogMoveAdjustment      1-20         3.00   JOGWHEEL (not in Scratch-Mode): the higher the value, the higher the impact by JOGWHEEL rotation
+====================== ========= ========= =======================================================================================================================================
+
+* = Exponential impact; small changes recommended.
+
+Advanced
+--------
+
+=============================== =====================================================================================================================
+ Setting              		    Description
+ CUE doesn't stop playing deck  Pressing the CUE button while playing, doesn't stop the deck; if disabled, CUE button is in "CUP (Cue + Play) mode"
+ only one PFL enabled at time	If PFL is enabled by pressing the button 1 (aka PFL) it disables the PFL on the opposite site.
+=============================== =====================================================================================================================
 
 Known Issues
 ============
 
 -  After changing "audio latency time" the device needs be disconnected from USB. Restarting MIXXX won't be enough.
--  Right volume fader may be shown with wrong position after MIXXX programm start; just move the right volume fader once to re-adjust.
+-  Right volume slider may be shown with wrong position after MIXXX programm start; just move the right volume slider once to re-adjust.
