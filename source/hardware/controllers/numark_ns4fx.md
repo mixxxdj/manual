@@ -6,7 +6,7 @@
 
 The Numark NS4FX is a 4 channel (with channel layering) DJ controller with an integrated audio interface.
 Its stand out feature is the LCD displays integrated into the jog wheels.
-It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
+It is a USB Audio and MIDI Class compliant device and works with Linux, macOS and Windows.
 
 :::{versionadded} 1.0
 :::
@@ -17,12 +17,14 @@ Configure Mixxx’s main output for channels 1-2 and Headphones output for Chann
 
 The microphone input on this controller is not available to the computer through the controller’s audio interface.
 It is mixed with the main output in hardware, so this controller’s audio interface is not suitable for broadcasting or recording the inputs.
-If you want to use the controller for broadcasting or recording, a separate {ref}`audio interface <hardware-audio-interfaces>` with a microphone input is suggested.
+To use the controller for broadcasting or recording, a separate {ref}`audio interface <hardware-audio-interfaces>` with a microphone input is suggested.
+
 
 ## Configuration Options
 
-
 You can set configuration options in the Mixxx controller preferences.
+
+### General Options
 
 -  **Enable Wheel on startup** When enabled (default), the jog wheels will be in vinyl/scratch mode by default.
    When disabled, they will be in pitch bend/nudge mode.
@@ -32,13 +34,23 @@ You can set configuration options in the Mixxx controller preferences.
    When disabled (default), effects are applied to both decks on that side (e.g., Deck 1 and 3).
 -  **Display VU from both decks** When enabled, the channel VU meters will display the left and right master output levels.
    When disabled (default), they will display the individual level for each active deck.
-   **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
-   **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
-   **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
-   **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+-  **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
+-  **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
+-  **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+
+
+### Stem Control Options
+
+-  **Control stems with Slicer pads** When enabled, the 'Slicer' pad mode is replaced with a mode to control Stems (mute, volume, and quick effects).
+
+-  **Use transport pads to control stem effects in Stem Control mode** When enabled, transport pads (CUE, START, BACK, FWD) will function as stem effects 1-4 when the pad mode is set to 'Stems'.
+
+-  **Control stem effects with EQ knobs** When enabled, the EQ knobs of decks 3 and 4 control stem effects of decks 1 and 2.
+
+-  **Select the mode for EQ knobs** Select whether the EQ knobs should work normally or assign extended stem control behaviour to them.
+
 
 ## Mapping
-
 
 ```{figure-md}
 :align: center
@@ -87,7 +99,7 @@ Turning the knob left and right will produce a low-pass filter and high-pass fil
 16. **Tap BPM:** Press this button 4 or more times to manually enter a new BPM.
 The software will ignore the track's BPM and follow your manually entered tempo.
 
-Press SHIFT and this button to reset the tempo to the track’s default BPM.
+    Press SHIFT and this button to reset the tempo to the track’s default BPM.
 
 17. **Software FX:** Press one or more of these buttons to select active software effects.
 
@@ -103,7 +115,7 @@ When the Scratch button is not active, use the jog wheel to bend the pitch of th
 When the Scratch button is active, use the jog wheel to grab and move the audio, "scratching" the track as you would with a vinyl record.
 You can also grab the non-touch-sensitive outer wheel to bend the pitch of the track.
 
-Press SHIFT and move the wheel to quickly search through the track audio.
+    Press SHIFT and move the wheel to quickly search through the track audio.
 
 21. **Display:** Use this screen to view information about the current track.
 See the TODO DISPLAY for more information.
@@ -116,8 +128,6 @@ See the TODO DISPLAY for more information.
 Moving towards the " + " will speed the music up, while moving towards the "–" will slow it down.
 **NOTE:** You can reverse the slider direction by deactivating the `Down increases speed` option in Mixxx Deck preferences.
 **SHIFT + Pitch Fader** changes the pitch range of the deck between 4% to 90%.
-
-
 
 25. **Pitch Bend Down:** Press and hold to momentarily reduce the speed of the track.
 **SHIFT + Pitch Bend Down:** Adjust the key of the playing track down.
@@ -141,14 +151,14 @@ Moving towards the " + " will speed the music up, while moving towards the "–"
 30. **Performance Pads:** These pads have different functions on each deck depending on the current pad mode.
 See {ref}`performance-pads` for more information to learn how to use the pads in each mode.
 
-With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
+    With Mixxx, the bottom row of pads is used to trigger Stutter, Start, Search Backward and Search Forward:
 
-* **Stutter:** Repeats or "stutters" the sample when the pad is repeatedly tapped from the last cue position.
-* **Start:** Jumps to the beginning of the current track.
-* **Search Backward:** Searches backward through the current track.
-* **Search Forward:** Searches forward through the current track.
+    * **Stutter:** Repeats or "stutters" the sample when the pad is repeatedly tapped from the last cue position.
+    * **Start:** Jumps to the beginning of the current track.
+    * **Search Backward:** Searches backward through the current track.
+    * **Search Forward:** Searches forward through the current track.
 
-TIP: the bottom four pads can also be used for the selected pad mode.
+    TIP: the bottom four pads can also be used for the selected pad mode.
 
 31. **Cue mode:** Press this button to enter Cue mode.
 
@@ -176,10 +186,9 @@ Turn left to increase the Low frequency tone, or turn right to increase the High
 
 42. **Main Volume:** Turn this knob to adjust the output volume of the Main Output mix.
 
+
 (performance-pads)=
-
 ## Performance Pads:
-
 
 The top row of pads 31-34 controls hotcues, loops, stems and samples function of the performance pads below.
 To select a mode, just press one of these upper pads.
@@ -187,7 +196,6 @@ An LED under the pad section indicates the currently selected mode.
 See the subsections below for details about each mode.
 
 ### Cue Mode
-
 
 Press the **CUE** pad (31) to enter the cue mode.
 By pressing a pad from the upper row of performance pads, you assign a hotcue 1-4 at the current play position of the track.
@@ -197,8 +205,8 @@ To erase a hotcue, press SHIFT + pad related to that hotcue.
 
 **TIP:** If you enable the 'Add hotcues 5-8 to the second row of pads' option in the controller's preferences, you add another row of hotcues 5-8.
 
-### Auto Loop Mode
 
+### Auto Loop Mode
 
 Press the **AUTO LOOP** pad (32) to enter the auto loop mode.
 It assigns the upper 4 performance pads to the following functions:
@@ -212,24 +220,28 @@ It assigns the upper 4 performance pads to the following functions:
 
 ### Fader Cuts Mode
 
-
-Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
+Press the **Fader Cuts** pad (33) to enter the fader cuts mode.
 In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
+
 
 ### Stems Mode
 
-
 *Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
-To activated stem control mode, activate the 'Control stems with Fader Cuts pads' option in the Mixxx preferences of your controller.
-Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33) to enter the stem mode afterwards.
+To activated stem control mode, activate the 'Control stems with Slicer pads' option in the Mixxx preferences of your controller.
+Stems replace Slicer functionality which is not implemented in Mixxx.
+To enter the stem mode, activate the **Slicer** pad by holding the **SHIFT** button while pressing **Fader Cuts** (33).
 
 -  **Toggle a stem** by pressing the corresponding stem pad 1-4 from performance pads.
 -  **Set a stem's volume** by holding a stem pad while rotating the BEATS knob (15) left or right.
--  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
--  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
+
+**TIP:** To use transport pads to control stems' effects in the Stem mode, activate the 'Use transport pads to control stem effects in Stem Control mode' option in Mixxx preferences. This adds the following functionality:
+
+-  **Toggle a stem's effect** by pressing the corresponding transport stem pad.
+-  **Set a stem's effect volume** by holding an effect stem pad while rotating the BEATS knob (15) left or right.
+-  **Cycle through effects** by pressing **SHIFT** and the corresponding transport pad while rotating the BEATS knob (15) left or right.
+
 
 ### Sampler Mode
-
 
 Press the **SAMPLE** pad (34) to enter the sampler mode.
 A press of any of the sample buttons 1-4 will load and start playing a sample if the sampler is not loaded.
@@ -242,10 +254,40 @@ Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switchin
 This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
 
 
+(eq-knobs)=
+## Equalizer (EQ) Knobs
+
+In the controller settings window, you can choose the functionality of the EQ knobs.
+The HI knob controls voice, the MID knob controls melodic instruments, and the BASS knob controls drums and bass together.
+Select one of the available modes:
+
+**Normal EQs**
+:   EQ knobs are treated normally as HI-MID-BASS knobs. This is the default.
+
+**Stem Control (Simple)**
+:   If all EQ knobs are turned to the very right, all stems have full volume gain.
+    Turning a knob to the left reduces the volume of the related stem.
+    For example, turning the HI knob to the very right while the other knobs to the very left produces an a-capella mix.
+    This mode is not balanced - if none of the EQ knobs is at their maximum (very right), the overall volume of the track is reduced.
+
+**Stem Control (SoftMax)**
+:   Smooth, non-linear EQ control that gently boosts the dominant stem while subtly reducing others.
+    Feels natural and musical, avoids harsh transitions.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+**Stem Control (Gated Attenuation)**
+:   Applies threshold-based suppression — stems below a certain level are strongly reduced.
+    Creates clean isolation, great for cutting elements decisively.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+**Stem Control (Triangle)**
+:   Linearly redistributes energy between stems using a triangular weighting curve — boosting one stem proportionally reduces the others based on their distance from the control position.
+    Provides predictable, centered blending with smooth transitions, making it ideal for controlled, balanced mixing without abrupt changes.
+    This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+
 (jog-wheel-display)=
-
 ## Jog Wheel display
-
 
 The Jog wheel of Numark NS4FX include a color LED display with useful information about the loaded / playing track.
 
