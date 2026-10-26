@@ -830,7 +830,7 @@ context menu:
 * :guilabel:`Duplicate`: Just like playlists you can duplicate an existing crate.
   Select the crate you would like to duplicate, choose
   :guilabel:`Duplicate Crate`, name the new crate and click :guilabel:`OK`.
-* :guilabel:`Remove`: Removes an unlocked crate. Tracks in the crate are still 
+* :guilabel:`Remove`: Removes an unlocked crate. Tracks in the crate are still
   available in the library for later use.
 * :guilabel:`Lock`: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
@@ -847,8 +847,8 @@ context menu:
 * :guilabel:`Export Track Files`: This copies all of the tracks in a crate into a folder
   such as an external USB stick. Only files are copied, not Mixxx-specific
   metadata like waveforms or cover art that is not embedded in the file.
-* :guilabel:`Export to Engine DJ`: This not only copies all of the tracks in a crate 
-  into a folder but also creates another folder with a database that contains 
+* :guilabel:`Export to Engine DJ`: This not only copies all of the tracks in a crate
+  into a folder but also creates another folder with a database that contains
   the metadata to use with Engine DJ.
 
 Crates vs. Playlists
