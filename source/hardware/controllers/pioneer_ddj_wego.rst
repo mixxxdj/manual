@@ -13,6 +13,12 @@ switch between decks A/C and B/D with the :hwlabel:`DECK` button), jog wheel
 scratching and pitch bend, jog-controlled effects ("Jog FX"), performance pads
 in hot cue and sampler modes, and LED feedback including the jog ring.
 
+.. figure:: ../../_static/controllers/pioneer_ddj_wego.jpg
+   :width: 100%
+   :alt: Pioneer DDJ-WeGO
+
+   Pioneer DDJ-WeGO
+
 - `Manufacturer's Product Page <https://www.pioneerdj.com/en/product/dj-controllers/ddj-wego/black/overview/>`__
 - `Mapping Forum Thread <https://mixxx.discourse.group/t/pioneer-ddj-wego-mapping/34388>`__
 
@@ -225,9 +231,7 @@ Browser
    * - :hwlabel:`SHIFT` + :hwlabel:`BROWSE` (turn)
      - Move the selection faster.
    * - :hwlabel:`BROWSE` (press)
-     - Open or load the selected item.
-   * - :hwlabel:`SHIFT` + :hwlabel:`BROWSE` (press)
-     - Switch focus between the library panes.
+     - Cycle library focus between the sources sidebar, the track list and the search box.
 
 Mapping settings
 ----------------
