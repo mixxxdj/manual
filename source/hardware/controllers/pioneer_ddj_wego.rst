@@ -41,6 +41,13 @@ Main         1-2
 Headphones   3-4
 ============ ========
 
+.. note::
+
+   The :hwlabel:`CUE` (headphone) buttons only produce sound when the
+   **Headphones** output is assigned as shown above. If the headphone cue
+   toggles on screen but you hear nothing, check that assignment and turn the
+   :hwlabel:`headphone MIX` knob toward :hwlabel:`CUE`.
+
 Controller Mapping
 ------------------
 
