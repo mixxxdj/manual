@@ -13,6 +13,8 @@ This new version is intended to work in a more intuitive way. Once you click on 
    These controllers are not class compliant :term:`MIDI` devices.
    On Linux, older versions of Mixxx required using a custom Hercules kernel module.
    This is neither necessary not recommended anymore.
+   Also note that these controllers may not work with USB3, so make sure they're
+   plugged into a USB2 port.
 
 
 .. figure:: ../../_static/controllers/hercules_djcontrol_mp3_e2_mapping.svg
