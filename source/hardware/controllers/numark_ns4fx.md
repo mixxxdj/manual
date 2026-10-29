@@ -228,6 +228,13 @@ Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33
 -  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
 -  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
 
+
+### Fader Cuts Mode
+
+Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
+In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
+
+
 ### Sampler Mode
 
 
