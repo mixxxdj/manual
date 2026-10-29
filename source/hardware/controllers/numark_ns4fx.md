@@ -35,10 +35,18 @@ You can set configuration options in the Mixxx controller preferences.
    **Select default pad mode after Mixxx startup** Sets the performance pad mode that is active when Mixxx starts.
    **Control stems with Fader Cuts pads** When enabled, the 'Fader Cuts' pad mode is replaced with a mode to control Stems (mute, volume and quick effects).
    **Add hotcues 5-8 to the second row of pads** When enabled, the bottom row of transport pads (CUE, START, BACK, FWD) will function as hotcues 5-8 when the pad mode is set to 'Hot Cue'.
-   **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+
+
+### Scratching Options
+
+-  **Exit slip mode after scratching** When enabled, then when the slip mode is on and you start scratching, the slip mode exits after you finish the scratching so that the track can continue playing from the position where it originally should have been.
+
+-  **Use transport pads as scratch patterns in Scratch Banks mode** When enabled, transport pads (CUE, START, BACK, FWD) will function as scratch patterns 5-8 when the pad mode is set to 'Scratch Banks'.
+
+-  **Pad 1-8 scratch patterns and duration** Specify which scratch pattern to use for each performance and transport pad in Fader Cuts mode. Also, specify across how man beats should the scratch effect be stretched. Smaller number means faster scratching.
+
 
 ## Mapping
-
 
 ```{figure-md}
 :align: center
