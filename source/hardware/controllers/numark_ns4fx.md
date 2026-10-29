@@ -176,18 +176,17 @@ Turn left to increase the Low frequency tone, or turn right to increase the High
 
 42. **Main Volume:** Turn this knob to adjust the output volume of the Main Output mix.
 
+
 (performance-pads)=
-
 ## Performance Pads:
-
 
 The top row of pads 31-34 controls hotcues, loops, stems and samples function of the performance pads below.
 To select a mode, just press one of these upper pads.
 An LED under the pad section indicates the currently selected mode.
 See the subsections below for details about each mode.
 
-### Cue Mode
 
+### Cue Mode
 
 Press the **CUE** pad (31) to enter the cue mode.
 By pressing a pad from the upper row of performance pads, you assign a hotcue 1-4 at the current play position of the track.
@@ -197,8 +196,8 @@ To erase a hotcue, press SHIFT + pad related to that hotcue.
 
 **TIP:** If you enable the 'Add hotcues 5-8 to the second row of pads' option in the controller's preferences, you add another row of hotcues 5-8.
 
-### Auto Loop Mode
 
+### Auto Loop Mode
 
 Press the **AUTO LOOP** pad (32) to enter the auto loop mode.
 It assigns the upper 4 performance pads to the following functions:
@@ -210,14 +209,14 @@ It assigns the upper 4 performance pads to the following functions:
 
 **TIP:** You can also control loop s with the 'Loop On/Off', 'Loop 1/2' and 'Loop x2' buttons (35-37).
 
-### Fader Cuts Mode
 
+### Fader Cuts Mode
 
 Press the **FADER CUTS** pad (33) to enter the fader cuts mode.
 In Fader Cuts mode, the pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-### Stems Mode
 
+### Stems Mode
 
 *Stems* control separated drum (pad 1), bass (pad 2), melody (pad3) and voice (pad 4) streams of a track.
 To activated stem control mode, activate the 'Control stems with Fader Cuts pads' option in the Mixxx preferences of your controller.
@@ -228,8 +227,8 @@ Because stems replace Fader Cuts functionality, press the **FADER CUTS** pad (33
 -  **Toggle a stem's effect** by holding SHIFT (22) while pressing the corresponding stem pad.
 -  **Set a stem's effect volume** by holding a stem pad, pressing SHIFT (22) while rotating the BEATS knob (15) left or right.
 
-### Sampler Mode
 
+### Sampler Mode
 
 Press the **SAMPLE** pad (34) to enter the sampler mode.
 A press of any of the sample buttons 1-4 will load and start playing a sample if the sampler is not loaded.
@@ -242,8 +241,15 @@ Use **SHIFT + Cue Gain** (12) to adjust the volume of the sampler. When switchin
 This is a hardware limitation, as the controller sends identical MIDI signals from both sides, preventing Mixxx from distinguishing between them.
 
 
-(jog-wheel-display)=
+### Pitch Play Mode
 
+Use **SHIFT + CUE** pad (31) to enter the **Pitch Play** mode.
+If at least one hotcue is set, the holding a performance pad (1-4) or a transport pad (5-8) starts playing the track from the hotcue in a diffenrent pitch in a semitone scale.
+Pad 8 is lowest (-4 semitones) while pad 4 is highest (+3 semitones).
+Pad 1 is the normal track pitch.
+
+
+(jog-wheel-display)=
 ## Jog Wheel display
 
 
