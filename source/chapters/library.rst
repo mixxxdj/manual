@@ -246,7 +246,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
    and re-run the analysis.
 
  * :guilabel:`Lock/Unlock BPM`:Locks/Unlocks the :term:`BPM` of selected tracks
-   so you can't edit them in the track properties. The |ic_lib_bpm_unlocked|
+   to allow/prevent editing them. The |ic_lib_bpm_unlocked|
    icon next to the track's BPM in the library row is a toggle. Clicking it
    will set the status to "locked", and the icon changes to
    |ic_lib_bpm_locked|.
