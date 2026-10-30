@@ -215,8 +215,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
 * :guilabel:`Add to Playlist`
 
-  Add selected tracks to an existing playlist,
-  or drag the selection to a playlist crate in the sidebar. Choose
+  Add selected tracks to an existing playlist, or choose
   :guilabel:`Create new playlist` to put them into a new playlist.
 
 * :guilabel:`Remove From Crate`
