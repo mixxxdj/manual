@@ -315,9 +315,12 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
 * :guilabel:`Analyze`
 
- * :guilabel:`Analyze`: Analyse the selected tracks to find their :term:`BPM`
-   and Beat positions.
- * :guilabel:`Reanalyze`: Reanalyse a track that was previously analysed.
+ * :guilabel:`Analyze`: Analyse the selected tracks to set several parameters like
+   :term:`BPM`, :term:`beatgrid`, :term:`key`, :term:`ReplayGain` and
+   :ref:`intro and outro cues<djing-intro-outro-cues>`.
+ * :guilabel:`Reanalyze`: Reanalyse a track that was previously analysed, setting it's
+   :term:`BPM`, :term:`beatgrid` again. :term:`key`, :term:`ReplayGain` will also be set
+   again if they have been cleared.
  * :guilabel:`Reanalyze (constant BPM)`: Reanalyse a track with variable :term:`BPM`.
  * :guilabel:`Reanalyze (variable BPM)`: Reanalyse a track with constant :term:`BPM`.
 
