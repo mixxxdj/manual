@@ -28,33 +28,33 @@ Latest official drivers can be found `here <https://web.archive.org/web/20251116
 Community drivers
 -----------------
 
-`Ozzy <https://github.com/mischa85/Ozzy>`__ is a reference implementation. Only use it at your own risk. 
+`Ozzy <https://github.com/mischa85/Ozzy>`__ is a reference implementation under MIT license. Only use it at your own risk. I am not liable for any harm or damage.
 It's is single-tested with MIXXX version 2.5.6 and feel free to add your experience for the community driver `here <https://github.com/mischa85/Ozzy/issues/95>`__ .
--  Windows 10: todo
--  MacOS: untested yet
--  Linux: Debian 6.12.113+deb13-amd64
+-  Windows: requires Windows11 x64 (other ones are not supported) -> untested
+-  MacOS -> untested
+-  Linux: Debian 6.12.113+deb13-amd64 -> tested and working
 
 Inputs and outputs of the audio interface
 =========================================
 
-TODO: It's highly recommended to reset all "hardware - soundcards" settings to "default" before, to avoid scattered sound samples.
+It's highly recommended to reset all "hardware - soundcards" settings to "default" before, to avoid scattered sound samples.
 
 Channel output
 --------------
 
-===================== ================
- Output Channels       Assigned to
-===================== ================
- 1-2                   Main
- 3-4                   Headphones
-===================== ================
+================= =============
+ Output Channels   Assigned to
+================= =============
+ 1-2               Main
+ 3-4               Headphones
+================= =============
 
 Microphone inputs
 -----------------
 
 Untested yet.
 
-.. figure:: ../../_static/controllers/Numark-Omni-Control.png
+.. figure:: ../../_static/controllers/numark-omni-control.png
    :align: center
    :width: 100%
    :figwidth: 100%
