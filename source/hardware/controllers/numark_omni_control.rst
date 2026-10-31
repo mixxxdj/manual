@@ -12,7 +12,7 @@ Description
 
 The Numark Omni Control is an 2 channel stereo DJ controller with integrated soundcard, 2 dual stereo outputs (RCA), 1 headphone output and 1 microphone input.
 The device should be connected at least via USB 2.0 (USB-B plug) to use all of its features. Additional power supply (6 Volt, 1 Ampere) is usually not required.
-This device is not `USB Audio Device Class <https://www.usb.org/document-library/usb-audio-devices-rev-30-and-adopters-agreement>`__ compliant and requires special drivers to work. 
+This device is not `USB Audio Device Class <https://www.usb.org/document-library/usb-audio-devices-rev-30-and-adopters-agreement>`__ compliant and requires special drivers to work.
 
 Compatibility
 =============
@@ -28,9 +28,9 @@ Latest official drivers can be found `here <https://web.archive.org/web/20251116
 Community drivers
 -----------------
 
-`Ozzy <https://github.com/mischa85/Ozzy>`__ is a reference implementation under MIT license. Only use it at your own risk. I am not liable for any harm or damage.
+`Ozzy <https://github.com/mischa85/Ozzy>`__ is a reference implementation under MIT license. Only use it at your own risk. We are not liable for any harm or damage.
 It's is single-tested with MIXXX version 2.5.6 and feel free to add your experience for the community driver `here <https://github.com/mischa85/Ozzy/issues/95>`__ .
--  Windows: requires Windows11 x64 (other ones are not supported) -> untested
+-  Windows: requires Windows 11 x64 (other ones are not supported) -> untested
 -  MacOS -> untested
 -  Linux: Debian 6.12.113+deb13-amd64 -> tested and working
 
@@ -84,7 +84,7 @@ CHANNEL
   1   PFL = Pre Fader Listening
   2   KEY = Keeps the key
   3   SYNC = one time synch of tempo (blinks at beat)
-  6   SELECT = switchs loop anchor between start and end of loop (end of loop = light on)
+  6   SELECT = switches loop anchor between start and end of loop (end of loop = light on)
   8   PAR = Beatjump; uses beatloop size (left/right = backward/forward)
   9   FINE PITCH = temporary change of the pitch even over min/max (resets at PITCH moving)
  11   TAP = manual tap to calculate speed of the tracklist
@@ -99,7 +99,7 @@ CHANNEL
  21   PLAY = play/pause current deck
  22   PITCH = adjusting play speed of deck
  23   JOGWHEEL = adjusting temporary deck play speed (left/right = slower/faster)
- 24   CHANNEL VOLUME 
+ 24   CHANNEL VOLUME
  25   CROSS FADER
 ==== =======================================================================================
 
@@ -116,15 +116,15 @@ Custom Mode switches (yellow)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ==== ===================
- M5   Directory Mode 
- 10   Scratch Mode 
+ M5   Directory Mode
+ 10   Scratch Mode
  18   ExtendedLoop Mode
 ==== ===================
 
 Custom Modes
 ============
 
-Directory Mode 
+Directory Mode
 --------------
 
 This mode is enabled, if you press the "DIRECTORY" button or manually move to the folder in the MIXXX UI. The activation is shown by LED.
@@ -169,8 +169,8 @@ Enables the following setting from start of MIXXX. Recommended settings enabled 
  Setting             Buttons (if any)           Description
  'Scratch-Mode'      left channel: ON/OFF       Custom mode is enabled from start (see above)
  'Extended Looping'  right channel: ON/OFF      Custom mode is enabled from start (see above)
- QuickEffects        5 (left), 0 (right)        QuickEffects of the left and right channel. 
- SoftTakeover        (none)                     see `public documentation <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#soft-takeover>`__
+ QuickEffects        5 (left), 0 (right)        QuickEffects of the left and right channel.
+ SoftTakeover        (none)                     see `public documentation <https://github.com/mixxxdj/mixxx/wiki/Midi-Scripting#user-content-soft-takeover>`__
 =================== =======================    ==============================================
 
 FinePitch and JogWheel Adjustment
@@ -198,4 +198,4 @@ Known Issues
 ============
 
 -  After changing "audio latency time" the device needs be disconnected from USB. Restarting MIXXX won't be enough.
--  Right volume slider may be shown with wrong position after MIXXX programm start; just move the right volume slider once to re-adjust.
+-  Right volume slider may be shown with wrong position after MIXXX program start; just move the right volume slider once to re-adjust.
