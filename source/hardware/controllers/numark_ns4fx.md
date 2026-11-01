@@ -45,7 +45,7 @@ You can set configuration options in the Mixxx controller preferences.
 
 -  **Use transport pads to control stem effects in Stem Control mode** When enabled, transport pads (CUE, START, BACK, FWD) will function as stem effects 1-4 when the pad mode is set to 'Stems'.
 
--  **Control stem effects with EQ knobs** When enabled, the EQ knobs of decks 3 and 4 control stem effects of decks 1 and 2.
+-  **Use EQs of decks 3 and 4 to control High/Mid/Low EQs of decks 1 and 2** When enabled, if a stem-separated track is loaded on Deck 1 or 2 and no track is loaded on Deck 3 or 4 (or set to passthrough), the EQ knobs of Decks 3 and 4 will control the standard frequency EQs of Decks 1 and 2.
 
 -  **Select the mode for EQ knobs** Select whether the EQ knobs should work normally or assign extended stem control behaviour to them.
 
@@ -234,7 +234,7 @@ To enter the stem mode, activate the **Slicer** pad by holding the **SHIFT** but
 -  **Toggle a stem** by pressing the corresponding stem pad 1-4 from performance pads.
 -  **Set a stem's volume** by holding a stem pad while rotating the BEATS knob (15) left or right.
 
-**TIP:** To use transport pads to control stems' effects in the Stem mode, activate the 'Use transport pads to control stem effects in Stem Control mode' option in Mixxx preferences. This adds the following functionality:
+**TIP:** To use transport pads to control stems' effects in the Stem mode, activate the **Use transport pads to control stem effects in Stem Control mode** option in Mixxx preferences. This adds the following functionality:
 
 -  **Toggle a stem's effect** by pressing the corresponding transport stem pad.
 -  **Set a stem's effect volume** by holding an effect stem pad while rotating the BEATS knob (15) left or right.
@@ -257,7 +257,7 @@ This is a hardware limitation, as the controller sends identical MIDI signals fr
 (eq-knobs)=
 ## Equalizer (EQ) Knobs
 
-In the controller settings window, you can choose the functionality of the EQ knobs.
+In the controller settings window, you can choose the functionality of the EQ knobs by setting the **Select the mode for EQ knobs** mode.
 The HI knob controls voice, the MID knob controls melodic instruments, and the BASS knob controls drums and bass together.
 Select one of the available modes:
 
@@ -284,6 +284,9 @@ Select one of the available modes:
 :   Linearly redistributes energy between stems using a triangular weighting curve — boosting one stem proportionally reduces the others based on their distance from the control position.
     Provides predictable, centered blending with smooth transitions, making it ideal for controlled, balanced mixing without abrupt changes.
     This mode is balanced - the stem whose EQ knob is most to the right has maximum volume gain to maintain overall track volume.
+
+**TIP:** By activating the **Use EQs of decks 3 and 4 to control High/Mid/Low EQs of decks 1 and 2** option, the EQ knobs of Decks 3 and 4 will control the standard frequency EQs of Decks 1 and 2.
+
 
 
 (jog-wheel-display)=
