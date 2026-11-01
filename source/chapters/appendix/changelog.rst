@@ -499,6 +499,7 @@ Engine
   `#16185 <https://github.com/mixxxdj/mixxx/pull/16185>`__
   `#16183 <https://github.com/mixxxdj/mixxx/issues/16183>`__
   `#16054 <https://github.com/mixxxdj/mixxx/pull/16054>`__
+* Improve logging and file access during type probing `#16396 <https://github.com/mixxxdj/mixxx/pull/16396>`__
 
 Preferences
 ^^^^^^^^^^^
@@ -609,6 +610,8 @@ Skins
 * Menubar: avoid crash with invalid keyboard shortcut strings
   `#16219 <https://github.com/mixxxdj/mixxx/pull/16219>`__
   `#16216 <https://github.com/mixxxdj/mixxx/issues/16216>`__
+* Tooltips: combine ``latency_usage`` and ``latency_overload`` for combo widgets `#17365 <https://github.com/mixxxdj/mixxx/pull/17365>`__
+* Retry build-environment downloads, to prevent manual CI rebuilds if network transport issues occur `#17356 <https://github.com/mixxxdj/mixxx/pull/17356>`__
 
 Experimental Features
 ^^^^^^^^^^^^^^^^^^^^^
@@ -905,6 +908,7 @@ Misc Refactorings
 * Fix flaky unittests test
   `#16956 <https://github.com/mixxxdj/mixxx/pull/16956>`__
   `#10516 <https://github.com/mixxxdj/mixxx/issues/10516>`__
+* SoundSourceProxyTest: split file loops into per-file tests `#17198 <https://github.com/mixxxdj/mixxx/pull/17198>`__
 .. _v2-5-7:
 
 `2.5.7 <https://github.com/mixxxdj/mixxx/milestone/56>`___ (unreleased)
@@ -1046,6 +1050,7 @@ Miscellaneous
 * FFmpeg: use the default AAC decoder and warn about known seeking issues. `#17218 <https://github.com/mixxxdj/mixxx/pull/17218>`__
 * Fix flaky unittests test
   `#16275 <https://github.com/mixxxdj/mixxx/pull/16275>`__
+  `#17375 <https://github.com/mixxxdj/mixxx/pull/17375>`__
   `#12554 <https://github.com/mixxxdj/mixxx/issues/12554>`__
   `#16332 <https://github.com/mixxxdj/mixxx/pull/16332>`__
   `#16290 <https://github.com/mixxxdj/mixxx/pull/16290>`__
