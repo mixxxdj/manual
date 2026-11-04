@@ -223,27 +223,59 @@ applications with zero additional :term:`latency`, and
 
 The effect should now react if you play a track in Mixxx.
 
-Effects via JACK Rack on GNU/Linux
-----------------------------------
+Effects via Carla on Linux
+--------------------------
 
-.. figure:: ../_static/Mixxx-111-external-fx-jackrack-setup.png
+.. figure:: ../_static/Mixxx-256-external-fx-carla-setup.png
    :align: center
    :width: 90%
    :figwidth: 100%
-   :alt: The Jack routing for external effects
+   :alt: The carla interface showing a rack with two plugins loaded.
    :figclass: pretty-figures
 
-   The Jack routing for external effects on GNU/Linux
+   The Carla rack with two plugins loaded and their GUIs activated.
 
-Use `Jack <https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit>`_ to route
-each deck directly through `JACK Rack <http://jack-rack.sourceforge.net/>`_
-effect racks, or for more control you can use Ardour (or another :term:`DAW`)
-using sends for effects. This gives Mixxx access to the extensive collection of
-:term:`LADSPA` plugins.
+Mixxx has built in support for basic :term:`LV2` plugins.
+More complicated effect chains, or plugins otherwise not supported by Mixxx, may
+be added using external mixer mode and routing each deck through a plugin host.
 
-Make sure the correct multichannel audio interface has been selected in Jack
-(Jack settings visible bottom left). Note that Mixxx possibly labels its Jack
-ports as :guilabel:`Portaudio`.
+To do this, :term:`JACK` must be used as the Sound API and a plugin host such as
+`Carla <https://kx.studio/Applications:Carla>`_ or a :term:`DAW` such as `Ardour
+<https://ardour.org/>`_ must be configured with the plugins and effects we want
+to use.
+In this example, Carla will be used, but similar steps will apply when using a
+DAW.
+
+**In Carla**
+
+.. hint:: To run more complex chains of plugins per deck, load the "Carla-Rack"
+   or "Carla-Patchbay" plugins to create sub chains that show up in Mixxx as a
+   single output option.
+
+* Open the engine settings :menuselection:`Settings --> Configure Carla --> Engine`
+* Set :guilabel:`Audio Driver` to "JACK"
+* Set :guilabel:`Process Mode` to "Multiple clients"
+* Restart the engine (see the :guilabel:`Engine` menu)
+* Select the :guilabel:`Patchbay` tab and ensure that each plugin you want to
+  use is routed to the correct audio output
+
+.. figure:: ../_static/Mixxx-256-external-fx-carla-routing.png
+   :align: center
+   :width: 90%
+   :figwidth: 100%
+   :alt: The carla interface showing a patchbay with audio routed from Mixxx to a plugin and a mixer and eventually to the built in audio output.
+   :figclass: pretty-figures
+
+   The Carla patchbay being used to route audio to the main output.
+
+**In Mixxx**
+
+* Go to :menuselection:`Preferences --> Sound Hardware--> Output`
+* Ensure that :guilabel:`Sound API` is set to "JACK"
+* Select the plugin you want to use for :guilabel:`Deck 1`
+* Select the plugin you want to use for :guilabel:`Deck 2`
+* Click the :guilabel:`Apply` button
+
 
 .. _advanced-migrate-settings:
 
