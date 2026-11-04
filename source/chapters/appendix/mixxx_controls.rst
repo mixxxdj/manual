@@ -355,53 +355,6 @@ The ``[Master]`` & ``[Main]`` group
    .. versionadded:: 1.10.0
 
 
-.. mixxx:control:: [MixerProfile],xFaderMode
-
-   Switches the :term:`crossfader` between Additive and Constant Power mode.
-   This is also controlled by the toggle in :menuselection:`Options --> Preferences --> Mixer`
-
-   :range: binary
-   :values:
-       =====  ==============
-       Value  Mode
-       =====  ==============
-       0      Additive
-       1      Constant power
-       =====  ==============
-   :feedback: Main volume when adjusting the crossfader
-
-
-.. mixxx:control:: [MixerProfile],xFaderCurve
-
-   Adjusts the shape of the :term:`crossfader` mxing curve.
-   This is also controlled by the Mixing / Scratching slider in :menuselection:`Options --> Preferences --> Mixer`.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
-   :range: 0.6..1000.0, default: 1.0
-   :feedback: Main volume when adjusting the crossfader
-
-
-.. mixxx:control:: [MixerProfile],xFaderCalibration
-
-   This is an internal engine control set indirectly by :mixxx:coref:`[MixerProfile],xFaderCurve`
-
-   For controller scripts use :mixxx:coref:`[MixerProfile],xFaderCurve`.
-
-   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
-
-   :range: 0.3..1.0
-   :feedback: Main volume when adjusting the crossfader
-
-
-.. mixxx:control:: [MixerProfile],xFaderReverse
-
-   Flips the direction of :mixxx:coref:`[Master],crossfader` control, also known as "Hamster mode".
-
-   :range: binary
-   :feedback: If set to 1 the internal crossfader position is the opposite of the GUI crossfader.
-
-
 .. mixxx:control:: [Master],duckStrength
 
    Microphone ducking strength
