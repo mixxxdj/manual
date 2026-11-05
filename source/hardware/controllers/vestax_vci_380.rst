@@ -52,6 +52,10 @@ Main       VESTAX VCI-380 Channel 1 - 2 Master Out L / R
 Headphones VESTAX VCI-380 Channel 3 - 4 PFL Out L / R
 ========== ============== ============= ===================
 
+The controller mixes the headphones itself: its :hwlabel:`CUE/MASTER` knob blends the :guilabel:`Main` and :guilabel:`Headphones` outputs.
+So the headphone mix of Mixxx (Pre/Main) must be fully on the cue side, otherwise part of the master is heard in the headphones even with :hwlabel:`CUE/MASTER` turned fully to :hwlabel:`CUE`.
+The mapping does it when it starts, unless the headphones are plugged into another sound card (see `Mapping options`_).
+
 Inputs - RCA (line/phono) and MIC - can be handled by the integrated mixer, so they don't need to be set up in Mixxx.
 The audio interface also sends them to the computer, together with the controller's own master mix, so they can be used in :menuselection:`Preferences --> Sound Hardware --> Input`:
 
@@ -105,7 +109,7 @@ They can also be set as :guilabel:`Microphone` inputs in Mixxx, but they are the
 Some knobs act on the external inputs, in the controller's integrated mixer:
 
 - :hwlabel:`TRIM` sets the gain of the external input. It also sets the gain of the Mixxx deck (see `Mixer functions`_).
-- :hwlabel:`IF CURVE` (input fader curve) sets the curve of the volume sliders.
+- :hwlabel:`IF CURVE` (input fader curve) sets the curve of the volume sliders for the external inputs. It doesn't act on the Mixxx decks: Mixxx has no setting for the curve of its channel faders.
 - :hwlabel:`CF CURVE` sets the curve of the crossfader for the external inputs. It can also set the Mixxx crossfader curve, with a mapping option (see `Mapping options`_).
 - :hwlabel:`DEPTH` and :hwlabel:`FX ON/OFF` drive a high-pass filter on the external input. They also drive the Mixxx quick effect of the deck, so with a turntable on the input and a track playing in Mixxx on the same channel, both are affected.
 
@@ -114,7 +118,7 @@ Other knobs are handled by the controller itself, so they aren't mapped:
 - :hwlabel:`MASTER` (top panel) sets the volume of the balanced XLR outputs only.
 - :hwlabel:`LEVEL` next to :hwlabel:`BOOTH OUT` (rear panel) sets the volume of the booth output.
 - :hwlabel:`PRE-TRIM` (rear panel) sets the gain of the RCA inputs, and the two :hwlabel:`LEVEL` knobs next to the microphone inputs set the microphone volumes.
-- :hwlabel:`CUE/MASTER` (front panel) mixes the main output and the headphone cue (PFL / preview) in the headphones, and :hwlabel:`LEVEL` next to it sets the headphone volume.
+- :hwlabel:`CUE/MASTER` (front panel) mixes the main output and the headphone cue (PFL / preview) in the headphones, and :hwlabel:`LEVEL` next to it sets the headphone volume. With a mapping option, :hwlabel:`CUE/MASTER` sets the headphone mix of Mixxx instead (see `Mapping options`_).
 
 The level meter in the middle of the top panel is driven by the controller too: it shows the master output, or the channels whose headphone cue is on.
 
@@ -192,6 +196,7 @@ Library
 Action                                                         Effect
 ============================================================== =============================================================================================================================
 Turn :hwlabel:`SCROLL`                                         move up/down
+:hwlabel:`SHIFT` + turn :hwlabel:`SCROLL`                      page up/down
 :hwlabel:`BACK` and :hwlabel:`FWD`                             move left/right
 Turn left :hwlabel:`PAD FX`                                    move up/down (equivalent to turning SCROLL)
 :hwlabel:`SHIFT` + turn left :hwlabel:`PAD FX`                 page up/down
@@ -309,6 +314,19 @@ The options of the mapping are in :menuselection:`Preferences --> Controllers`, 
    The :hwlabel:`CF CURVE` knob always sets the crossfader curve of the external inputs, in the controller.
    With this option, it also sets the crossfader curve of Mixxx, from smooth (left) to sharp cut (right), including when the mapping starts: the knob then replaces the crossfader curve slider of :menuselection:`Preferences --> Mixer`.
    The slider of the preferences doesn't follow the knob, and clicking :guilabel:`Apply` or :guilabel:`OK` in :menuselection:`Preferences --> Mixer` sets the curve of the slider until the knob is turned again.
+
+:guilabel:`Headphone mix by the controller (recommended)` (on by default)
+   For headphones plugged into the controller, with the :guilabel:`Headphones` output of Mixxx on the controller (channels 3 - 4).
+   The :hwlabel:`CUE/MASTER` knob mixes the cue and the master in the headphones, in the controller, and the headphone mix of Mixxx is set to cue only when the mapping starts.
+   Disable it if the headphones are plugged into another sound card: :hwlabel:`CUE/MASTER` then sets the headphone mix of Mixxx, with soft takeover.
+
+Changing an option reloads the mapping.
+
+Troubleshooting
+~~~~~~~~~~~~~~~
+
+If the LEDs of the controller stop responding while the controls still work, switch the controller off and on again.
+The controller stops handling incoming MIDI messages when it receives too many at once, which can happen when the mapping is reloaded several times in a row.
 
 
 Customization
