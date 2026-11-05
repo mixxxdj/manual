@@ -91,7 +91,8 @@ Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether t
 - :hwlabel:`MIXER`: the RCA input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
 - :hwlabel:`PC`: the RCA input is muted in the controller's mixer. It is still sent to the computer (see the input channels above), so Mixxx can use it.
 
-The sound coming from Mixxx goes through in both positions, so the switch doesn't change anything to the mapping.
+The sound coming from Mixxx goes through in both positions.
+With a mapping option, the switch can also enable the Mixxx input of the channel in :hwlabel:`PC` position and disable it in :hwlabel:`MIXER` position (see `Mapping options`_).
 
 Use :hwlabel:`MIXER` to play an external source directly, like on a classic DJ mixer, for instance a turntable or a CD player alongside Mixxx.
 
@@ -102,6 +103,7 @@ Use :hwlabel:`PC` when Mixxx processes the input:
 - **Mixxx effects on an RCA input**: instead of the simple hardware filter of :hwlabel:`DEPTH` / :hwlabel:`FX ON/OFF`, the RCA input can go through Mixxx and its effects.
   In :menuselection:`Preferences --> Sound Hardware --> Input`, select :guilabel:`Auxiliary` for the input (see the table above).
   :hwlabel:`PC` then avoids hearing the source twice: once directly through the controller's mixer, and once with the effects through Mixxx.
+  In :hwlabel:`PC` position, the controller's crossfader doesn't act on the RCA input anymore: set the crossfader orientation of :guilabel:`Auxiliary 1` to :guilabel:`L` and :guilabel:`Auxiliary 2` to :guilabel:`R` in Mixxx for the crossfader to act on them.
 
 The microphones are not affected by the :hwlabel:`PC` / :hwlabel:`MIXER` switches: the controller always mixes them into its outputs, with their :hwlabel:`LEVEL` knobs on the rear panel.
 They can also be set as :guilabel:`Microphone` inputs in Mixxx, but they are then heard twice (directly, and through Mixxx), so Mixxx effects on the microphones are not practical with this controller.
@@ -234,6 +236,8 @@ push :hwlabel:`FX SELECT`                          load the first quick effect p
 turn :hwlabel:`DEPTH`                              adjust the effect parameter ("superknob")
 ================================================== ==============================================
 
+In stems mode, these controls apply to the held stems instead of the whole track (see the stems mode below).
+
 Performance pads and strips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Both strips are used in any mode for needle drop (quick navigate) on the preview deck.
@@ -280,14 +284,18 @@ Buttons 2 and 6 are unused.
 
 :hwlabel:`ROLL`: Stems mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If the loaded track has stems, the pads will light up in vertical pairs with the corresponding stem colors.
+If the loaded track has stems, the pads light up in vertical pairs with the corresponding stem colors.
 Stems 1 to 4, left to right:
 
-- Push the lower button to mute/unmute the stem
-- Hold the upper button (it will turn white) for FX control. While the button is pressed:
+- Push the lower pad to mute or unmute the stem (dimmed: muted).
+- :hwlabel:`SHIFT` + lower pad: solo, only this stem is heard and the others are muted. Again on the same stem: all the stems are heard again.
+- Hold one or several upper pads (they turn white) to control these stems. While they are held:
 
-  - the quick effect buttons (FX Depth, FX select and FX on/off) apply to the selected stem instead of the whole track. (see: quick effects)
-  - the parameter strip sets the individual volume of the selected stem
+  - the quick effect controls (:hwlabel:`DEPTH`, :hwlabel:`FX SELECT` and :hwlabel:`FX ON/OFF`) apply to the held stems instead of the whole track (see `Quick Effects`_).
+    With several stems, :hwlabel:`DEPTH` sets the same value on all of them, and :hwlabel:`FX SELECT` loads the same preset on all of them.
+  - the touch strip sets the volume of the held stems.
+
+The :hwlabel:`FX ON/OFF` LED is toggled by the controller itself: it shows the last state that was set, on the deck or on a stem.
 
 
 :hwlabel:`SAMPLER` mode (:hwlabel:`SHIFT` + :hwlabel:`HOT CUE`)
@@ -319,6 +327,11 @@ The options of the mapping are in :menuselection:`Preferences --> Controllers`, 
    For headphones plugged into the controller, with the :guilabel:`Headphones` output of Mixxx on the controller (channels 3 - 4).
    The :hwlabel:`CUE/MASTER` knob mixes the cue and the master in the headphones, in the controller, and the headphone mix of Mixxx is set to cue only when the mapping starts.
    Disable it if the headphones are plugged into another sound card: :hwlabel:`CUE/MASTER` then sets the headphone mix of Mixxx, with soft takeover.
+
+:guilabel:`PC / MIXER switches also control Mixxx inputs` (:guilabel:`No` by default)
+   With :guilabel:`Auxiliary inputs`, the :hwlabel:`PC` position enables :guilabel:`Auxiliary 1` (left channel) or :guilabel:`Auxiliary 2` (right channel) in Mixxx, and the :hwlabel:`MIXER` position disables it, so the source isn't heard twice.
+   With :guilabel:`Vinyl control`, the :hwlabel:`PC` position enables vinyl control on deck 1 (left channel) or deck 2 (right channel), and the :hwlabel:`MIXER` position disables it: with one turntable, switch between a timecode record (:hwlabel:`PC`) and a regular record (:hwlabel:`MIXER`).
+   The inputs must be set up in :menuselection:`Preferences --> Sound Hardware --> Input` (see `Integrated mixer and external inputs`_). The position of the switches is also applied when the mapping starts.
 
 Changing an option reloads the mapping.
 
