@@ -250,6 +250,7 @@ The pads work in different modes, according to the selection buttons on the top 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 8 hot cues available, one per pad. The pads will light up when their hotcue is set.
 The colors of the lights will approximate the colors defined for the hot cues.
+The pads without hotcue are dimmed, in the color of the loaded track (blue if the track has no color).
 
 - push a lighted pad to play the hotcue
 - push a blank pad to set a new hotcue to the current position.
@@ -259,6 +260,7 @@ The colors of the lights will approximate the colors defined for the hot cues.
 :hwlabel:`SLICER` mode: BEAT GRID tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The 8 pads will illuminate in sequence following the beat grid. To reset the sequence to beat 1, push the :hwlabel:`SLICER` button again.
+The other pads are dimmed, in the color of the loaded track (cyan if the track has no color).
 
 - Push a button of higher row: BPM tap. Tap it in rhythm to adjust the calculated BPM of the track
 - Push a button of lower row: align beatgrid. Tap it to align the beatgrid bars to the current position.
@@ -303,13 +305,13 @@ The :hwlabel:`FX ON/OFF` LED is toggled by the controller itself: it shows the l
 In Sampler mode, each pad is controlling one of the samplers.
 They are mapped so the pads are organized in the same layout as the 8 samplers on Mixxx default skin.
 
-====== ================= ==================== =============================
-Color  Meaning           Pad action           :hwlabel:`SHIFT` + pad action
-====== ================= ==================== =============================
-dimmed no track loaded   load selected track
-green  a track is loaded play                 eject
-yellow playing           restart              stop
-====== ================= ==================== =============================
+=================================== ================= ==================== =============================
+Color                               Meaning           Pad action           :hwlabel:`SHIFT` + pad action
+=================================== ================= ==================== =============================
+dimmed white                        no track loaded   load selected track
+color of the track (green if none)  a track is loaded play                 eject
+yellow (white for a yellow track)   playing           restart              stop
+=================================== ================= ==================== =============================
 
 Switching to sampler mode will automatically activate the samplers display on screen.
 
