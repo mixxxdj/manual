@@ -65,6 +65,7 @@ The pad mode is changed using the {hwlabel}`PAD MODE` button.
 | {hwlabel}`MANUAL`                                               |  Set a custom loop: pad 1 sets the loop in point, pad 2 sets the loop out point, pad 3 enables / disables the loop, and pad 4 stops the loop and returns to the beginning. |
 | {hwlabel}`SAMPLER`                                              |  Load / trigger sample tracks. |
 
+Optionally, you may use the controller preferences to re-assign the sampler pad mode to be stem mutes instead. In this mode tapping the pad will toggle muting on the corresponding stem. Long-press on a pad has the same effect for the duration that you hold down the pad.
 
 ### Mixer / Library
 
