@@ -999,6 +999,7 @@ Preferences
 
 * Fix warning/violated debug assertion when opening Preferences (backport `#16257 <https://github.com/mixxxdj/mixxx/pull/16257>`__\ ) `#16274 <https://github.com/mixxxdj/mixxx/pull/16274>`__
 * Color Preferences: avoid crash when saving palette after color row drag'n'drop `#17228 <https://github.com/mixxxdj/mixxx/pull/17228>`__
+* DlgPrefWaveform: fix stray colon in OpenGL status `#17409 <https://github.com/mixxxdj/mixxx/pull/17409>`__
 
 Target support
 ^^^^^^^^^^^^^^
