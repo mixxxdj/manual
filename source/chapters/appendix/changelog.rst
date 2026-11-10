@@ -56,6 +56,9 @@ Library
 * Rekordbox: detect databases in hidden .PIONEER directory
   `#16895 <https://github.com/mixxxdj/mixxx/pull/16895>`__
   `#16894 <https://github.com/mixxxdj/mixxx/issues/16894>`__
+* Rekordbox: fix empty USB device and first-open crash in the macOS sandbox
+  `#17441 <https://github.com/mixxxdj/mixxx/pull/17441>`__
+  `#13624 <https://github.com/mixxxdj/mixxx/issues/13624>`__
 * Track table header: throw warning when storing the state fails `#17072 <https://github.com/mixxxdj/mixxx/pull/17072>`__
 * Row colors: fix missing opacity of track colors
   `#17043 <https://github.com/mixxxdj/mixxx/pull/17043>`__
