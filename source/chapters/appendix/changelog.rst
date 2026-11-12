@@ -588,7 +588,9 @@ Target support
   `#16810 <https://github.com/mixxxdj/mixxx/pull/16810>`__
   `#16515 <https://github.com/mixxxdj/mixxx/pull/16515>`__
   `#15958 <https://github.com/mixxxdj/mixxx/pull/15958>`__
-* Provide an AppImage build: Supports glibc >= 2.28 (>= Ubuntu Cosmic 18.10) `#17298 <https://github.com/mixxxdj/mixxx/pull/17298>`__
+* Provide an AppImage build: Supports glibc >= 2.28 (>= Ubuntu Cosmic 18.10)
+  `#17298 <https://github.com/mixxxdj/mixxx/pull/17298>`__
+  `#17461 <https://github.com/mixxxdj/mixxx/pull/17461>`__
 * Retire Ubuntu 22.04 (Jammy) PPA builds. Use Flatpak instead `#14784 <https://github.com/mixxxdj/mixxx/pull/14784>`__
 * Windows MSI: fix incorrect install scope, a known issue with CPack and WiX toolset 3.x
   `#15056 <https://github.com/mixxxdj/mixxx/issues/15056>`__
