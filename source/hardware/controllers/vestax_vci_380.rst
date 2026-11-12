@@ -53,7 +53,7 @@ Headphones VESTAX VCI-380 Channel 3 - 4 PFL Out L / R
 ========== ============== ============= ===================
 
 The controller mixes the headphones itself: its :hwlabel:`CUE/MASTER` knob blends the :guilabel:`Main` and :guilabel:`Headphones` outputs.
-So the headphone mix of Mixxx (Pre/Main) must be fully on the cue side, otherwise part of the master is heard in the headphones even with :hwlabel:`CUE/MASTER` turned fully to :hwlabel:`CUE`.
+So :guilabel:`Headphone Mix` knob must be fully on the cue side, otherwise part of Main is heard in the headphones even with :hwlabel:`CUE/MASTER` turned fully to :hwlabel:`CUE`.
 The mapping does it when it starts, unless the headphones are plugged into another sound card (see `Mapping options`_).
 
 Inputs - RCA (line/phono) and MIC - can be handled by the integrated mixer, so they don't need to be set up in Mixxx.
@@ -120,7 +120,7 @@ Other knobs are handled by the controller itself, so they aren't mapped:
 - :hwlabel:`MASTER` (top panel) sets the volume of the balanced XLR outputs only.
 - :hwlabel:`LEVEL` next to :hwlabel:`BOOTH OUT` (rear panel) sets the volume of the booth output.
 - :hwlabel:`PRE-TRIM` (rear panel) sets the gain of the RCA inputs, and the two :hwlabel:`LEVEL` knobs next to the microphone inputs set the microphone volumes.
-- :hwlabel:`CUE/MASTER` (front panel) mixes the main output and the headphone cue (PFL / preview) in the headphones, and :hwlabel:`LEVEL` next to it sets the headphone volume. With a mapping option, :hwlabel:`CUE/MASTER` sets the headphone mix of Mixxx instead (see `Mapping options`_).
+- :hwlabel:`CUE/MASTER` (front panel) mixes Main and PFL in the headphones, and :hwlabel:`LEVEL` next to it sets the headphone volume. With a mapping option, :hwlabel:`CUE/MASTER` sets the :guilabel:`Headphone Mix` knob instead (see `Mapping options`_).
 
 The level meter in the middle of the top panel is driven by the controller too: it shows the master output, or the channels whose headphone cue is on.
 
@@ -327,8 +327,8 @@ The options of the mapping are in :menuselection:`Preferences --> Controllers`, 
 
 :guilabel:`Headphone mix by the controller (recommended)` (on by default)
    For headphones plugged into the controller, with the :guilabel:`Headphones` output of Mixxx on the controller (channels 3 - 4).
-   The :hwlabel:`CUE/MASTER` knob mixes the cue and the master in the headphones, in the controller, and the headphone mix of Mixxx is set to cue only when the mapping starts.
-   Disable it if the headphones are plugged into another sound card: :hwlabel:`CUE/MASTER` then sets the headphone mix of Mixxx, with soft takeover.
+   The :hwlabel:`CUE/MASTER` knob mixes PFL and Main in the headphones, in the controller, and :guilabel:`Headphone Mix` knob is set to cue only when the mapping starts.
+   Disable it if the headphones are plugged into another sound card: :hwlabel:`CUE/MASTER` then sets :guilabel:`Headphone Mix` knob, with soft takeover.
 
 :guilabel:`PC / MIXER switches also control Mixxx inputs` (:guilabel:`No` by default)
    With :guilabel:`Auxiliary inputs`, the :hwlabel:`PC` position enables :guilabel:`Auxiliary 1` (left channel) or :guilabel:`Auxiliary 2` (right channel) in Mixxx, and the :hwlabel:`MIXER` position disables it, so the source isn't heard twice.
