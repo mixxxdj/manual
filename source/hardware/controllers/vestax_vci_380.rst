@@ -62,8 +62,8 @@ The audio interface also sends them to the computer, together with the controlle
 ============= =================== ================================ ============================================================
 Channel       Name in the device  Content                          Mixxx input
 ============= =================== ================================ ============================================================
-Channel 1 - 2 Analogue In 1 L / R RCA input of the left channel    :guilabel:`Auxiliary 1` and / or :guilabel:`Vinyl Control 1`
-Channel 3 - 4 Analogue In 2 L / R RCA input of the right channel   :guilabel:`Auxiliary 2` and / or :guilabel:`Vinyl Control 2`
+Channel 1 - 2 Analogue In 1 L / R left RCA input                   :guilabel:`Auxiliary 1` and / or :guilabel:`Vinyl Control 1`
+Channel 3 - 4 Analogue In 2 L / R right RCA input                  :guilabel:`Auxiliary 2` and / or :guilabel:`Vinyl Control 2`
 Channel 5     Mic 1 In            microphone 1 (mono)              :guilabel:`Microphone 1`
 Channel 6     Mic 2 In            microphone 2 (mono)              :guilabel:`Microphone 2`
 Channel 7 - 8 Master Mix L / R    master mix of the controller     :guilabel:`Record/Broadcast`
@@ -86,7 +86,7 @@ For instance, the RCA inputs can be used for vinyl control (see the :hwlabel:`PC
 Integrated mixer and external inputs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each channel has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether the RCA input of the channel is heard through the controller's own mixer:
+Each side of the mixer has a :hwlabel:`PC` / :hwlabel:`MIXER` switch. It decides whether its RCA input is heard through the controller's own mixer:
 
 - :hwlabel:`MIXER`: the RCA input (turntable, CD player...) is mixed by the controller itself, with the channel's TRIM, EQ, volume slider and the crossfader, together with the sound coming from Mixxx.
 - :hwlabel:`PC`: the RCA input is muted in the controller's mixer. It is still sent to the computer (see the input channels above), so Mixxx can use it.
