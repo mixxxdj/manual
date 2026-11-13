@@ -134,11 +134,14 @@ Target support
 * Flatpak: generate public key from Github secrets.
   `#17239 <https://github.com/mixxxdj/mixxx/pull/17239>`__
   `#17257 <https://github.com/mixxxdj/mixxx/pull/17257>`__
-* Fix Upload PPA issues
+* Ubuntu: fix upload to PPA
   `#16990 <https://github.com/mixxxdj/mixxx/pull/16990>`__
   `#16981 <https://github.com/mixxxdj/mixxx/pull/16981>`__
   `#17107 <https://github.com/mixxxdj/mixxx/pull/17107>`__
   `#17124 <https://github.com/mixxxdj/mixxx/pull/17124>`__
+* Fix Linux X11 dock integration
+  `#17422 <https://github.com/mixxxdj/mixxx/pull/17422>`__
+  `#16090 <https://github.com/mixxxdj/mixxx/issues/16090>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
