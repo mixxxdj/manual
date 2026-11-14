@@ -317,14 +317,16 @@ later set to be hidden from the library will appear here. Use the
 
 The features in detail:
 
-* **Select All button**: Selects all tracks in the current view.
-* **Purge Button**: Purges the selected tracks from the Mixxx library, but does
+* :guilabel:`Select All`: Selects all tracks in the current view.
+* :guilabel:`Purge`: Purges the selected tracks from the Mixxx library, but does
   not remove them from your computer. This will delete all :term:`metadata`
   Mixxx has for a track.
-* **Unhide Button**: Removes the selected tracks from the
-  :guilabel:`Hidden Tracks` view and makes them available in the regular track
+* :guilabel:`Unhide`: Removes the selected tracks from the
+  :guilabel:`Hidden` view and makes them available in the regular track
   lists again. The tracks will re-appear in every playlist or crate they were
   in before being hidden.
+* :guilabel:`Purge and Delete Files`: Does the same as the Purge Button, but
+  also moves the selected tracks to the trash bin.
 
 .. seealso:: To learn how to permanently remove tracks from the Mixxx library
              using the :guilabel:`Hidden Tracks` view, see
