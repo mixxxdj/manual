@@ -613,6 +613,7 @@ Controller Mappings
 * Numark DJ2GO2 Touch: fix bug with preview deck `#16844 <https://github.com/mixxxdj/mixxx/pull/16844>`__
 * Numark Mixtrack 3: fix settings bool evaluation `#16708 <https://github.com/mixxxdj/mixxx/pull/16708>`__
 * Pioneer DDJ-400: unmap headphones mixing knob `#17121 <https://github.com/mixxxdj/mixxx/pull/17121>`__
+* Reloop Beatpad: Fix typo in group tags for ShiftBtn `#17455 <https://github.com/mixxxdj/mixxx/pull/17455>`__
 * Vestax VCI-400: fix VU meters, midi.sendShortMsg() `#16180 <https://github.com/mixxxdj/mixxx/pull/16180>`__
 
 Controller Backend
@@ -646,6 +647,9 @@ Library
 * Rekordbox: detect databases in hidden .PIONEER directory
   `#16895 <https://github.com/mixxxdj/mixxx/pull/16895>`__
   `#16894 <https://github.com/mixxxdj/mixxx/issues/16894>`__
+* Rekordbox: fix empty USB device and first-open crash in the macOS sandbox
+  `#17441 <https://github.com/mixxxdj/mixxx/pull/17441>`__
+  `#13624 <https://github.com/mixxxdj/mixxx/issues/13624>`__
 * Track table header: throw warning when storing the state fails `#17072 <https://github.com/mixxxdj/mixxx/pull/17072>`__
 * Row colors: fix missing opacity of track colors
   `#17043 <https://github.com/mixxxdj/mixxx/pull/17043>`__
@@ -661,6 +665,9 @@ Library
   `16846 <https://github.com/mixxxdj/mixxx/issues/16846>`__
 * Track menu > Crates: Enter toggles checkbox `#17320 <https://github.com/mixxxdj/mixxx/pull/17320>`__
 * Track header menu: fix Enter keypress behavior `#17324 <https://github.com/mixxxdj/mixxx/pull/17324>`__
+* Fix hiding tracks when removing a music directory
+  `#17457 <https://github.com/mixxxdj/mixxx/pull/17457>`__
+  `#14790 <https://github.com/mixxxdj/mixxx/issues/14790>`__
 
 Engine
 ^^^^^^
@@ -717,11 +724,14 @@ Target support
 * Flatpak: generate public key from Github secrets.
   `#17239 <https://github.com/mixxxdj/mixxx/pull/17239>`__
   `#17257 <https://github.com/mixxxdj/mixxx/pull/17257>`__
-* Fix Upload PPA issues
+* Ubuntu: fix upload to PPA
   `#16990 <https://github.com/mixxxdj/mixxx/pull/16990>`__
   `#16981 <https://github.com/mixxxdj/mixxx/pull/16981>`__
   `#17107 <https://github.com/mixxxdj/mixxx/pull/17107>`__
   `#17124 <https://github.com/mixxxdj/mixxx/pull/17124>`__
+* Fix Linux X11 dock integration
+  `#17422 <https://github.com/mixxxdj/mixxx/pull/17422>`__
+  `#16090 <https://github.com/mixxxdj/mixxx/issues/16090>`__
 
 Miscellaneous
 ^^^^^^^^^^^^^
