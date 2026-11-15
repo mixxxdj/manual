@@ -53,16 +53,16 @@ A schematic drawing with the control numbers used below is shown in the diagram 
 
 | No. | Control | Function |
 | --- | --- | --- |
-| D1  | Jog Wheel (top surface) | Scratch (move playback position). |
+| D1  | Jog Wheel (top surface) | Scratch (move playback position) while touching the platter. |
 | D1  | Jog Wheel (outer ring) | Pitch bend (temporary speed up / slow down). |
-| D1  | {hwlabel}`SHIFT` + Jog Wheel (top surface) | Scroll library track list. |
+| D1  | {hwlabel}`SHIFT` + Jog Wheel (top surface) | Scroll library track list (touching the platter with {hwlabel}`SHIFT` held does not stop the track). |
 | D1  | {hwlabel}`SHIFT` + Jog Wheel (outer ring) | Scroll library track list. |
-| D2  | {hwlabel}`BEAT SYNC` button | Short press: Match tempo and phase of opposite deck (Beat Sync). Long press: Toggle Master Sync. |
-| D2  | {hwlabel}`SHIFT` + {hwlabel}`BEAT SYNC` button | Cycle active Pad Mode (Hot Cue, Pad FX, Beat Loop, Sampler). |
-| D3  | {hwlabel}`TEMPO` slider | Adjust playback tempo and pitch. |
+| D2  | {hwlabel}`BEAT SYNC` button | Short press: Match the tempo of the other deck once (Beat Sync; the phase is matched too when Quantize is enabled), or disable Sync Lock if it is enabled. Long press: Enable Sync Lock. |
+| D2  | {hwlabel}`SHIFT` + {hwlabel}`BEAT SYNC` button | Pad Mode selection (Hot Cue, Pad FX, Beat Loop, Sampler), handled by the controller firmware. |
+| D3  | {hwlabel}`TEMPO` slider | Adjust playback tempo (soft takeover). The on-screen slider always moves together with the hardware slider; whether moving it up increases or decreases speed follows the slider direction set in {menuselection}`Preferences --> Decks`. |
 | D4  | {hwlabel}`PLAY/PAUSE` button | Play or pause track. |
-| D4  | {hwlabel}`SHIFT` + {hwlabel}`PLAY/PAUSE` button | Set the temporary cue point. |
-| D5  | {hwlabel}`CUE` button | Set (while touching the platter) or jump to and play the temporary cue point. |
+| D4  | {hwlabel}`SHIFT` + {hwlabel}`PLAY/PAUSE` button | Set the cue point at the current position. |
+| D5  | {hwlabel}`CUE` button | Behaves according to the {ref}`cue mode <interface-cue-modes>` selected in {menuselection}`Preferences --> Decks` (e.g. Mixxx, Pioneer, Denon), including cue preview while held. The button LED follows the selected cue mode as well. |
 | D5  | {hwlabel}`SHIFT` + {hwlabel}`CUE` button | Jump to the cue point and stop playback. |
 | D6  | {hwlabel}`SHIFT` button | Access secondary functions of hardware controls. |
 
@@ -74,15 +74,19 @@ A schematic drawing with the control numbers used below is shown in the diagram 
 | M1  | {hwlabel}`HI` EQ knob | Adjust high-frequency equalizer band (14-bit resolution, soft takeover). |
 | M2  | {hwlabel}`MID` EQ knob | Adjust mid-frequency equalizer band (14-bit resolution, soft takeover). |
 | M3  | {hwlabel}`LOW` EQ knob | Adjust low-frequency equalizer band (14-bit resolution, soft takeover). |
-| M4  | {hwlabel}`CFX` knob | Normal: Adjust QuickEffect filter (14-bit resolution, soft takeover). {hwlabel}`SHIFT`: Adjust channel Pre-Gain (in Dual mode, 14-bit resolution, soft takeover). |
-| M5  | {hwlabel}`HEADPHONES CUE (MASTER)` button | Toggle headphone Master monitor output. |
+| M4  | {hwlabel}`CFX` knob | Normal: Adjust QuickEffect filter (14-bit resolution, soft takeover). {hwlabel}`SHIFT`: Adjust channel Pre-Gain with the same curve as the on-screen gain knob, from silence (fully left) through unity gain (center) to +12 dB (fully right) (in Dual mode, 14-bit resolution, soft takeover). |
+| M5  | {hwlabel}`HEADPHONES CUE (MASTER)` button | Toggle the headphone mix between cue only and master only. The button LED is lit when the mix is on the master side, also when it is changed with the on-screen Cue/Mix knob. |
 | M5  | {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE (MASTER)` | Toggle **4-Deck Mode** (switches physical decks between Decks 1/2 and Decks 3/4). |
 | M6  | {hwlabel}`HEADPHONES CUE (CH 1 / CH 2)` buttons | Toggle headphone pre-fader listening (PFL) for corresponding channel. |
-| M6  | {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE 1` | Short press: Load selected library track into active deck. Long press: Eject track from active deck. |
-| M6  | {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE 2` | Cycle the effect in the first slot of the deck's Effect Unit (Deck 1 → Effect Unit 1, Deck 2 → Effect Unit 2). |
-| M7  | Channel Faders | Adjust channel volume (soft takeover). |
+| M6  | {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE 1` | Short press: Load selected library track. Long press: Eject track. The target deck is the active deck of the side whose {hwlabel}`SHIFT` is held: left {hwlabel}`SHIFT` targets the left deck (Deck 1 or 3), right {hwlabel}`SHIFT` targets the right deck (Deck 2 or 4). |
+| M6  | {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE 2` | Cycle the effect in slot 1 of Effect Unit 2, i.e. the effect triggered by Pad FX pad 1 on the right deck (in both deck layers). |
+| M7  | Channel Faders | Adjust channel volume (14-bit resolution, soft takeover). The volume curve matches the on-screen channel fader. |
 | M8  | Crossfader | Blend audio output between left and right decks. |
-| F1  | {hwlabel}`SMART FADER` button | Toggle software Fader Start: raising a channel fader starts its deck, lowering it to the minimum stops it. |
+| F1  | {hwlabel}`SMART FADER` button | Toggle software Fader Start: raising a channel fader from the bottom starts its deck with Sync Lock enabled; lowering it to the bottom jumps to the cue point and stops the deck. |
+
+:::{note}
+Soft takeover is also active when the mapping starts: faders and knobs do not jump to their physical position. Move a control to (or past) its current on-screen value to take over.
+:::
 
 ### Performance Pads (P1 - P8)
 
@@ -91,25 +95,29 @@ The 8 performance pads operate in four primary modes:
 
 #### Hot Cue Mode (Pad Mode 1)
 
-* **Pads 1 - 8**: Set (if empty) or jump to and play Hot Cue 1 - 8.
+* **Pads 1 - 8**: Set (if empty) or jump to Hot Cue 1 - 8. While the deck is paused, holding a pad previews from the hot cue. Pad LEDs show which hot cues are set.
 * **{hwlabel}`SHIFT` + Pads 1 - 8**: Delete Hot Cue 1 - 8.
 
 #### Pad FX Mode (Pad Mode 2)
 
-* **Pads 1 - 3**: Trigger effect slots 1, 2, and 3 in the deck's first Effect Unit (Effect Unit 1 for Deck 1, Effect Unit 2 for Deck 2). In the default *Override* setting, holding a pad temporarily enables the effect slot with 100% wet mix and the configured meta intensity; releasing the pad restores the previous effect parameters and enabled state. In *Toggle* mode, pressing a pad toggles the effect slot on or off without altering mix levels.
-* **Pads 5 - 7**: Same as Pads 1 - 3, but address effect slots 1, 2, and 3 in the deck's second Effect Unit (Effect Unit 3 for Deck 1, Effect Unit 4 for Deck 2).
+The effect units used by the pads depend on the physical deck side and stay the same in both deck layers.
+
+* **Pads 1 - 3**: Trigger effect slots 1, 2, and 3 in the side's first Effect Unit (Effect Unit 1 for the left deck, Effect Unit 2 for the right deck). In the default *Override* setting, holding a pad temporarily routes the Effect Unit to the active deck only and enables the unit and the effect slot with 100% wet mix and the configured meta intensity; releasing the pad restores the previous routing, mix, meta value, and enabled states. In *Toggle* mode, pressing a pad only toggles the effect slot on or off: routing, unit enable, and mix are not changed, so the Effect Unit must already be enabled and assigned to the deck to hear the effect.
+* **Pads 5 - 7**: Same as Pads 1 - 3, but address effect slots 1, 2, and 3 in the side's second Effect Unit (Effect Unit 3 for the left deck, Effect Unit 4 for the right deck).
 * **Pads 4 and 8**: No function.
 
 #### Beat Loop Mode (Pad Mode 3)
 
-* **Pads 1 - 8**: Trigger seamless beat loops with fixed lengths (1/8, 1/4, 1/2, 1, 2, 4, 8, and 16 beats).
-* **{hwlabel}`SHIFT` + Pads 1 - 8**: Trigger loop rolls at corresponding divisions.
+* **Pads 1 - 8**: Toggle beat loops with fixed lengths (1/8, 1/4, 1/2, 1, 2, 4, 8, and 16 beats). Pressing the pad of the active loop length disables the loop. The pad of the active loop length blinks, also for loops activated or resized from the Mixxx interface.
+* **{hwlabel}`SHIFT` + Pads 1 - 8**: Trigger loop rolls at corresponding divisions while held.
 
 #### Sampler Mode (Pad Mode 4)
 
-* **Pads 1 - 8 (Deck 1)**: Trigger Sampler slots 1 - 8.
-* **Pads 1 - 8 (Deck 2)**: Trigger Sampler slots 9 - 16.
+* **Pads 1 - 8 (left deck)**: Trigger Sampler slots 1 - 8.
+* **Pads 1 - 8 (right deck)**: Trigger Sampler slots 9 - 16.
 * **{hwlabel}`SHIFT` + Pads 1 - 8**: Stop sampler playback.
+
+Pad LEDs are off for empty samplers, lit for loaded samplers, and blink while a sampler is playing. Pads for sampler slots that are not available in the current Mixxx setup have no function.
 
 #### Optional Beat Jump Mode
 
@@ -125,8 +133,9 @@ Pressing {hwlabel}`SHIFT` + {hwlabel}`HEADPHONES CUE (MASTER)` (M5) toggles betw
 
 * The physical left deck switches control between **Deck 1** and **Deck 3**.
 * The physical right deck switches control between **Deck 2** and **Deck 4**.
-* **Soft Takeover** is automatically engaged on Volume faders, Tempo sliders, EQ knobs, and CFX/Gain knobs to prevent audible jumps until physical controls catch up with target software positions.
+* **Soft Takeover** is automatically engaged on Volume faders, Tempo sliders, EQ knobs, and CFX/Gain knobs to prevent audible jumps until physical controls reach (or cross) the newly active deck's on-screen values.
 * Active momentary Pad FX overrides are safely released when switching layers to prevent stuck effects.
+* Actions held while switching layers (scratching, {hwlabel}`CUE` preview, hot cue preview, loop roll) are released on the deck where they started.
 * Deck button LEDs and loaded state indicators automatically update to reflect the newly active layer.
 
 ## Mapping Options
