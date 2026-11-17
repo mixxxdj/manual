@@ -154,6 +154,17 @@ At the present time, Serato records are recommended if you are looking to buy
 vinyl. If you want to use CDs, you can download a free copy for personal use
 from `Serato`_.
 
+Mixxx features experimental support for Traktor Scratch MK2 timecodes.
+The decoder for this timecode is in a very early state and currently demanding
+in terms of memory requirements. Current restrictions:
+- Only works with a hardware phono preamp. Simply amplifying the phono signal
+  in software will not work.
+- The lookup tables for these timecodes are currently quite large. For
+  performance reasons they are cached and can be found in
+  ``$(MIXXX_CONFIG_HOME)/lut``. The first generation will take a few seconds.
+  In case absolute mode should not work, although the right timecode is
+  selected, these files can be deleted to trigger a regeneration.
+
 .. _Serato: https://serato.com/controlcd/downloads
 
 .. _vinyl-control-config:
