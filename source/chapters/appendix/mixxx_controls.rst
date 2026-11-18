@@ -309,6 +309,20 @@ The ``[Master]`` & ``[Main]`` group
    .. versionadded:: 2.1.0
 
 
+.. mixxx:control:: [Master],boothDelay
+
+   Delays the Booth output by the given time, useful for aligning the booth
+   monitor with other outputs. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
+
+
 .. mixxx:control:: [Master],crossfader
 
    Adjusts the :term:`crossfader` between players/decks (-1.0 is all the way left).
@@ -402,6 +416,19 @@ The ``[Master]`` & ``[Main]`` group
    :feedback: If set to 1 the internal crossfader position is the opposite of the GUI crossfader.
 
 
+.. mixxx:control:: [Master],delay
+
+   Delays the Main output by the given time. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
+
+
 .. mixxx:control:: [Master],duckStrength
 
    Microphone ducking strength
@@ -435,6 +462,20 @@ The ``[Master]`` & ``[Main]`` group
 
    .. versionadded:: 2.0.0
 
+
+
+.. mixxx:control:: [Master],headDelay
+
+   Delays the Headphone output by the given time, useful for aligning
+   headphones with the main output. Set in the
+   :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 1.12.0
 
 
 .. mixxx:control:: [Master],headEnabled
@@ -485,6 +526,21 @@ The ``[Master]`` & ``[Main]`` group
 
    :range: >=0 (absolute value)
    :feedback: Latency slider in the prefs
+
+
+.. mixxx:control:: [Master],microphoneLatencyCompensation
+
+   Delays the record/broadcast mix so the microphone talkover signal stays
+   aligned with the main mix, compensating for the round-trip input/output
+   :term:`latency`. The main and booth outputs are not affected by this
+   control. Set in the :ref:`Sound Hardware Preferences <preferences-sound-hardware>`.
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..500.0 ms
+   :feedback: None
+
+   .. versionadded:: 2.1.0
 
 
 .. mixxx:control:: [Master],num_effectsavailable
@@ -659,6 +715,26 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    Outputs the relative position of the play marker in the section between the previous and next beat marker.
 
    :range: 0.0 - 1.0, real-valued
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],beat_next
+                   [PreviewDeckN],beat_next
+                   [SamplerN],beat_next
+
+   The sample position of the next beat after the current play position.
+
+   :range: -1 if no beat grid, otherwise sample position, read-only
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],beat_prev
+                   [PreviewDeckN],beat_prev
+                   [SamplerN],beat_prev
+
+   The sample position of the previous beat before the current play position.
+
+   :range: -1 if no beat grid, otherwise sample position, read-only
    :feedback: None
 
 
@@ -1530,6 +1606,22 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
       Added support for saved loops.
 
 
+.. mixxx:control:: [ChannelN],hotcue_X_activate_preview
+                   [PreviewDeckN],hotcue_X_activate_preview
+                   [SamplerN],hotcue_X_activate_preview
+
+   Jumps to :term:`hotcue` X and starts previewing (playing while the control
+   is held). When the control is released, playback stops and the player
+   seeks back to the hotcue position, unless :mixxx:coref:`play <[ChannelN],play>`
+   was toggled during previewing (in which case playback latches and continues
+   without seeking).
+
+   :range: binary
+   :feedback: Player seeks to hotcue X and plays while held.
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [ChannelN],hotcue_X_activatecue
                    [PreviewDeckN],hotcue_X_activatecue
                    [SamplerN],hotcue_X_activatecue
@@ -1951,6 +2043,44 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.9.0
 
 
+.. mixxx:control:: [ChannelN],keylockMode
+                   [PreviewDeckN],keylockMode
+                   [SamplerN],keylockMode
+
+   Selects which key is locked when key lock is enabled. Set in
+   :menuselection:`Preferences --> Decks --> Keylock`.
+
+   :range:
+      =====  ================================
+      Value  Mode
+      =====  ================================
+      0      Lock original key (track's key)
+      1      Lock current key (key at lock time)
+      =====  ================================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],keyunlockMode
+                   [PreviewDeckN],keyunlockMode
+                   [SamplerN],keyunlockMode
+
+   Selects what happens to the key when key lock is disabled. Set in
+   :menuselection:`Preferences --> Decks --> Keylock`.
+
+   :range:
+      =====  ================================
+      Value  Mode
+      =====  ================================
+      0      Reset to original key
+      1      Keep the locked key
+      =====  ================================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
+
+
 .. mixxx:control:: [ChannelN],LoadSelectedTrack
                    [PreviewDeckN],LoadSelectedTrack
                    [SamplerN],LoadSelectedTrack
@@ -2213,6 +2343,16 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Loop-in marker changes on waveform.
 
    .. versionadded:: 1.8.0
+
+
+.. mixxx:control:: [ChannelN],master
+                   [PreviewDeckN],master
+                   [SamplerN],master
+
+   Alias for ``[ChannelN],main_mix``. Enables the deck in the main mix.
+
+   :range: binary
+   :feedback: Deck is included in the main output.
 
 
 .. mixxx:control:: [ChannelN],orientation
@@ -2748,6 +2888,19 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.9.0
 
 
+.. mixxx:control:: [ChannelN],replaygain
+                   [PreviewDeckN],replaygain
+                   [SamplerN],replaygain
+
+   The ReplayGain adjustment factor applied to the loaded track. Set from
+   the track's ReplayGain metadata when a track is loaded.
+
+   :range: 0.0..1.0..5.0
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
 .. mixxx:control:: [ChannelN],reset_key
                    [PreviewDeckN],reset_key
                    [SamplerN],reset_key
@@ -2845,6 +2998,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    :feedback: Waveform
 
    .. versionadded:: 1.8.0
+
+
+.. mixxx:control:: [ChannelN],scratch2_indicates_scratching
+                   [PreviewDeckN],scratch2_indicates_scratching
+                   [SamplerN],scratch2_indicates_scratching
+
+   When set to 1 (default), scratch2 activity on this deck is interpreted as
+   scratching. Moving-platter controllers can set this to 0 to indicate that
+   platter movement is not scratching, allowing key lock to remain active
+   while the platter is moved.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.10.0
 
 
 .. mixxx:control:: [ChannelN],show_track_menu
@@ -2992,6 +3160,50 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],talkover
+                   [PreviewDeckN],talkover
+                   [SamplerN],talkover
+
+   Enables the deck in the talkover mix. When active, the deck's signal is
+   routed to the microphone/talkover bus.
+
+   :range: binary
+   :feedback: None
+
+
+.. mixxx:control:: [ChannelN],time_elapsed
+                   [PreviewDeckN],time_elapsed
+                   [SamplerN],time_elapsed
+
+   The elapsed time of the loaded track at the current play position, in
+   seconds.
+
+   :range: >=0, read-only
+   :feedback: Track time display
+
+
+.. mixxx:control:: [ChannelN],time_remaining
+                   [PreviewDeckN],time_remaining
+                   [SamplerN],time_remaining
+
+   The remaining time of the loaded track from the current play position,
+   in seconds.
+
+   :range: >=0, read-only
+   :feedback: Track time display
+
+
+.. mixxx:control:: [ChannelN],total_gain
+                   [PreviewDeckN],total_gain
+                   [SamplerN],total_gain
+
+   The total gain applied to the deck's signal, calculated as the pregain
+   knob value multiplied by the ReplayGain correction factor. Read-only.
+
+   :range: >=0, read-only
+   :feedback: None
+
+
 .. mixxx:control:: [ChannelN],track_color
                    [PreviewDeckN],track_color
                    [SamplerN],track_color
@@ -3131,6 +3343,79 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 1.10.0
 
 
+.. mixxx:control:: [ChannelN],vinylcontrol_rate
+                   [PreviewDeckN],vinylcontrol_rate
+                   [SamplerN],vinylcontrol_rate
+
+   The playback rate reported by the vinyl control signal. Used internally
+   by the engine to adjust playback speed and key when vinyl control is
+   active. Read-only from a mapping perspective.
+
+   :range: read-only
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_scratching
+                   [PreviewDeckN],vinylcontrol_scratching
+                   [SamplerN],vinylcontrol_scratching
+
+   Indicates whether the deck is currently being scratched via vinyl
+   control.
+
+   :range: binary, read-only
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_seek
+                   [PreviewDeckN],vinylcontrol_seek
+                   [SamplerN],vinylcontrol_seek
+
+   Setting this to a fractional position (0.0 to 1.0) seeks the loaded
+   track to that position, as if the needle was dropped there. Used
+   internally by the vinyl control engine.
+
+   :range: 0.0..1.0
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_signal_enabled
+                   [PreviewDeckN],vinylcontrol_signal_enabled
+                   [SamplerN],vinylcontrol_signal_enabled
+
+   Toggles whether the vinyl control signal is processed. When disabled,
+   the vinyl control input is ignored even if vinyl control is enabled.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_speed_type
+                   [PreviewDeckN],vinylcontrol_speed_type
+                   [SamplerN],vinylcontrol_speed_type
+
+   The speed type of the control vinyl (33 or 45 RPM). Set in the
+   :ref:`Vinyl Control Configuration <vinyl-control-config>`.
+
+   :range:
+      ===== =============================
+      Value Meaning
+      ===== =============================
+      33    33⅓ RPM
+      45    45 RPM
+      ===== =============================
+   :feedback: None
+
+   .. versionadded:: 1.10.0
+
+
 .. mixxx:control:: [ChannelN],vinylcontrol_status
                    [PreviewDeckN],vinylcontrol_status
                    [SamplerN],vinylcontrol_status
@@ -3139,6 +3424,21 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
 
    :range: 0.0-3.0, read-only
    :feedback: Off for control disabled, green for control enabled, blinking yellow for when the needle reaches the end of the record, and red for needle skip detected
+
+   .. versionadded:: 1.10.0
+
+
+.. mixxx:control:: [ChannelN],vinylcontrol_wantenabled
+                   [PreviewDeckN],vinylcontrol_wantenabled
+                   [SamplerN],vinylcontrol_wantenabled
+
+   Reflects the user's intention to enable vinyl control. When set to 1,
+   Mixxx attempts to enable vinyl control on the next available input.
+   Differs from :mixxx:coref:`vinylcontrol_enabled <[ChannelN],vinylcontrol_enabled>`
+   in that it represents the requested state rather than the actual state.
+
+   :range: binary
+   :feedback: None
 
    .. versionadded:: 1.10.0
 
@@ -4189,6 +4489,25 @@ The ``[Controls]`` controls
       ===== ===========================================================================
    :feedback: None
 
+.. mixxx:control:: [Controls],TimeFormat
+
+   Selects the format used to display track durations in the decks. Set in
+   :menuselection:`Preferences --> Decks --> Time Format`.
+
+   :range:
+      =====  =========================
+      Value  Format
+      =====  =========================
+      0      Traditional (``mm:ss.zzz``)
+      1      Traditional (Coarse) (``mm:ss``)
+      2      Seconds (``s.zzz``)
+      3      Seconds (Long) (``sss.zzz``)
+      4      Kiloseconds (``s.zss.zz``)
+      =====  =========================
+   :feedback: Track time display widgets
+
+   .. versionadded:: 2.1.0
+
 .. _appendix-mixxxcontrols-effects:
 
 The Effects Framework
@@ -4353,6 +4672,62 @@ Controls
    :range: binary
 
 
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[AuxiliaryK]_enable
+
+   Whether or not this EffectChain applies to Auxiliary K
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusCenter]_enable
+
+   Whether or not this EffectChain applies to the Center bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusLeft]_enable
+
+   Whether or not this EffectChain applies to the Left bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusRight]_enable
+
+   Whether or not this EffectChain applies to the Right bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[BusTalkover]_enable
+
+   Whether or not this EffectChain applies to the Talkover bus
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[MasterOutput]_enable
+
+   Whether or not this EffectChain applies to the Master output
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[MicrophoneK]_enable
+
+   Whether or not this EffectChain applies to Microphone K
+
+   :range: binary
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],group_[PreviewDeckK]_enable
+
+   Whether or not this EffectChain applies to Preview Deck K
+
+   :range: binary
+
+
 .. mixxx:control:: [EffectRack1_EffectUnitN],loaded_chain_preset
                    [EqualizerRack1_[ChannelI]],loaded_chain_preset
                    [QuickEffectRack1_[ChannelI]],loaded_chain_preset
@@ -4372,6 +4747,26 @@ Controls
    This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
 
    :range: 0.0..1.0
+
+
+.. mixxx:control:: [EffectRack1_EffectUnitN],mix_mode
+                   [EqualizerRack1_[ChannelI]],mix_mode
+                   [QuickEffectRack1_[ChannelI]],mix_mode
+
+   Selects how the dry and wet signals are combined: DRY/WET (the dry signal
+   is replaced by the wet signal according to the mix knob) or DRY+WET (the
+   wet signal is added on top of the dry signal).
+
+   :range:
+      =====  =========================
+      Value  Mode
+      =====  =========================
+      0      DRY/WET
+      1      DRY+WET
+      =====  =========================
+   :feedback: None
+
+   .. versionadded:: 2.0.0
 
 
 .. mixxx:control:: [EffectRack1_EffectUnitN],next_chain_preset
@@ -4847,6 +5242,83 @@ The ``[Mixer Profile]`` group
    :feedback: EQ crossover in preferences
 
    .. versionadded:: 2.0.0
+
+
+The ``[SoundManager]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [SoundManager]
+
+   The :mixxx:cogroupref:`[SoundManager]` group exposes the connection state
+   of the audio backend.
+
+.. mixxx:control:: [SoundManager],status
+
+   Reflects the current connection state of the sound system. This is a
+   read-only status indicator set by Mixxx; mappings should not write to it.
+
+   :range:
+      =====  =========================
+      Value  State
+      =====  =========================
+      0      Disconnected
+      1      Connecting
+      2      Connected
+      =====  =========================
+   :feedback: None
+
+
+The ``[ReplayGain]`` group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. mixxx:controlgroup:: [ReplayGain]
+
+   The :mixxx:cogroupref:`[ReplayGain]` group controls Mixxx's ReplayGain
+   normalization. These controls are set in
+   :menuselection:`Preferences --> ReplayGain`.
+
+.. mixxx:control:: [ReplayGain],ReplayGainEnabled
+
+   Enables or disables ReplayGain normalization globally. When enabled,
+   tracks with ReplayGain metadata are adjusted by the
+   :mixxx:coref:`ReplayGainBoost <[ReplayGain],ReplayGainBoost>` factor, and
+   tracks without ReplayGain data are adjusted by the
+   :mixxx:coref:`DefaultBoost <[ReplayGain],DefaultBoost>` factor.
+
+   :range: binary
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ReplayGain],ReplayGainBoost
+
+   The gain factor applied to tracks that have ReplayGain metadata, as a
+   linear ratio. Set in
+   :menuselection:`Preferences --> ReplayGain --> Adjust gain with ReplayGain`.
+   The slider range is -12 to +12 dB (default 0 dB).
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..1.0..5.0 (linear ratio, -12..+12 dB)
+   :feedback: None
+
+   .. versionadded:: 1.11.0
+
+
+.. mixxx:control:: [ReplayGain],DefaultBoost
+
+   The gain factor applied to tracks that lack ReplayGain metadata, as a
+   linear ratio. Set in
+   :menuselection:`Preferences --> ReplayGain --> Initial boost without
+   ReplayGain data`. The slider range is -12 to +12 dB (default -6 dB).
+
+   This is a :ref:`ControlPotMeter control <appendix-mixxxcontrols-controlpotmeter>`.
+
+   :range: 0.0..1.0..5.0 (linear ratio, -12..+12 dB)
+   :feedback: None
+
+   .. versionadded:: 1.11.0
 
 
 Deprecated controls
@@ -5331,6 +5803,72 @@ In the meantime, skins and controller mappings that still use them will keep wor
 
     .. deprecated:: 2.0.0
        Use :mixxx:coref:`[EqualizerRack1_[ChannelI]_Effect1],button_parameter3 <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK>` instead.
+
+
+.. mixxx:control:: [ChannelN],filterLow_loaded
+                   [PreviewDeckN],filterLow_loaded
+                   [SamplerN],filterLow_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter1_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterMid_loaded
+                   [PreviewDeckN],filterMid_loaded
+                   [SamplerN],filterMid_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter2_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterHigh_loaded
+                   [PreviewDeckN],filterHigh_loaded
+                   [SamplerN],filterHigh_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],parameter3_loaded <[EqualizerRack1_[ChannelI]_Effect1],parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterLowKill_loaded
+                   [PreviewDeckN],filterLowKill_loaded
+                   [SamplerN],filterLowKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter1_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterMidKill_loaded
+                   [PreviewDeckN],filterMidKill_loaded
+                   [SamplerN],filterMidKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter2_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterHighKill_loaded
+                   [PreviewDeckN],filterHighKill_loaded
+                   [SamplerN],filterHighKill_loaded
+
+   Alias for :mixxx:coref:`[EqualizerRack1_[ChannelN]_Effect1],button_parameter3_loaded <[EqualizerRack1_[ChannelI]_Effect1],button_parameterK_loaded>`.
+
+   .. deprecated:: 2.0.0
+
+
+.. mixxx:control:: [ChannelN],filterWaveformEnable
+                   [PreviewDeckN],filterWaveformEnable
+                   [SamplerN],filterWaveformEnable
+
+   Toggles whether the waveform display is filtered by the EQ controls.
+   When enabled, the waveform reflects the EQ adjustments; when disabled,
+   the full unfiltered signal is shown.
+
+   :range: binary
+   :feedback: Waveform display
 
 
 .. mixxx:control:: [ChannelN],beatloop_X
