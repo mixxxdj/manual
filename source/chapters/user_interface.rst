@@ -1078,6 +1078,10 @@ but also additional tracks in your mix. They come with a small overview waveform
 and a limited number of controls. All controls work just like on the regular
 decks, see :ref:`interface-decks`.
 
+Each row of sampler decks can be toggled between a compact and an expanded
+layout with the small expand button at the side of the row. The expanded
+layout shows full-size decks with additional controls.
+
 The Sampler section can be **hidden** in the
 :ref:`Mixxx user interface <interface-overview>`. Click the
 :guilabel:`SAMPLERS` button at the top of the user interface, or use the specific
