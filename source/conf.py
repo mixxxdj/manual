@@ -484,3 +484,14 @@ linkcheck_user_agent = (
 
 # Don't verify TLS
 tls_verify = False
+
+def _html_page_context_language(app, pagename, templatename, context, doctree):
+    # html_context["language"] binds the conf.py-level `language` literal when
+    # this file executes, before -Dlanguage overrides are applied. Set the
+    # effective value so templates (download.html, languages.html) render
+    # per-language output correctly.
+    context["language"] = app.config.language
+
+
+def setup(app):
+    app.connect("html-page-context", _html_page_context_language)
