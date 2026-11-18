@@ -20,11 +20,16 @@ The Kontrol S2 MK3 does not have effects knobs at the top.
 Compatibility
 -------------
 
-The Kontrol S2 MK1 is a USB audio and HID class compliant device. It is
-fully compatible with Linux, Windows, and macOS. No proprietary driver
-is required on Linux or macOS. For Windows, download and install the
-latest driver from `Native Instruments’
-website <https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
+The Kontrol S2 MK1 is a :term:`USB` audio and :term:`HID` class compliant
+device. It is fully compatible with Linux, Windows, and macOS. No proprietary
+driver is required on Linux or macOS. For Windows, download and install the
+latest driver from `Native Instruments’ website
+<https://www.native-instruments.com/en/support/downloads/drivers-other-files/>`__.
+
+The mapping uses the hardware calibration which is necessary to detect a
+jog-wheel press. A calibration might be necessary before first use. This is
+possible in the Controller Manager or Traktor from Native Instruments which is
+available for Windows and macOS.
 
 Audio routing
 -------------
@@ -37,6 +42,8 @@ Output                    Channels
 ========================  =======================
 
 The microphone is routed internally and is not accessible to Mixxx.
+
+On Windows setting the sound API to ASIO might be necessary.
 
 Mapping
 -------
@@ -54,21 +61,32 @@ wheel from the edge without pressing the top to nudge the track. Hold
 Loop Section
 ^^^^^^^^^^^^
 
-The encoders work differently in Mixxx than in Traktor:
+We are going to use the terminology from :ref:`loop controls
+<interface-looping>` and :ref:`transport controls <interface-transport>`.
 
-Left encoder
-    Turning jumps forward/backwards by the beatjump size.
-    If a loop is enabled, turning moves the loop by the beatjump size.
-    Push and turn to adjust the beatjump size.
-    Turning with :hwlabel:`SHIFT` adjusts the musical key.
-    Pushing with :hwlabel:`SHIFT` resets the key to the track’s default.
-Right encoder
-    Turning halves/doubles the loop size.
-    Turning with :hwlabel:`SHIFT` beatjumps by 1 beat forward/backward, or if a loop is enabled, moves the loop 1 beat forward/backward.
-    Pushing (de)activates a loop. Pushing with :hwlabel:`SHIFT` reactivates a disabled loop, or if a loop is enabled, jumps to the loop in point and stops the deck.
-:hwlabel:`LOOP IN`/:hwlabel:`LOOP OUT` buttons
-    Manually set the loop in and out points.
-    Press and hold while moving the jog wheel to adjust the loop in or out point.
+Activate loop
+    To beatloop press the right encoder. To reloop hold :hwlabel:`SHIFT` and
+    press the right encoder.
+    Holding :hwlabel:`SHIFT` and pressing the right encoder when a will pause
+    the deck and jump to the start of the loop.
+    To set the loop-in marker press :hwlabel:`LOOP IN`.
+    If the loop-out marker is set it will also activate the loop right away.
+    To set the loop-out marker press :hwlabel:`LOOP OUT`.
+    If the loop-in marker is set it will also activate the loop right away.
+
+Deactivate loop
+    To deactivate a loop press the right encoder.
+
+Changing beatloop size
+    To half or double the beatloop size turn the right encoder.
+    The loop-in marker can be moved by pressing or holding :hwlabel:`LOOP IN`.
+    The loop-out marker can be moved by pressing or holding :hwlabel:`LOOP OUT`.
+
+Beatjump/Moving loop
+    To beatjump by the beatjump size forward/backward turn the left encoder.
+    To change the beatjump size press and turn the left encoder.
+    To jump one beat forward/backward hold :hwlabel:`SHIFT` and turn the right
+    encoder.
 
 Top Pad Row
 ~~~~~~~~~~~
@@ -77,23 +95,30 @@ The top pad row has 3 different modes.
 
 Hotcue mode
     This is the default mode when Mixxx starts.
+    This mode is active if the :hwlabel:`SAMPLES` and the :hwlabel:`RESET`
+    lights are off.
     The pads control hotcues 1-4.
     Active hotcues light up blue.
     Press an unlit button to set a new :term:`hotcue`.
-    Press a lit pad to seek to the hotcue.
-    Press a lit pad with :hwlabel:`SHIFT` to delete the hotcue.
+    When a loop is active it will save the loop instead.
+    Press a lit pad to seek to the hotcue or seek and activate the loop.
+    Press a lit pad with :hwlabel:`SHIFT` to delete the hotcue or loop.
 Intro & Outro cue mode
-    This mode is activated by pressing the :hwlabel:`RESET` button above the tempo fader.
+    This mode is activated by pressing the :hwlabel:`RESET` button above the
+    tempo fader.
+    This mode is active if the :hwlabel:`RESET` light is on.
     Pads 1 & 2 are used for the intro start & end cues and light up green.
     Pads 3 & 4 are used for the outro start & end cues and light up blue.
 Sampler mode
-    This mode is activated by the button under the Sampler knob in the center of the mixer.
+    This mode is activated by the button under the :hwlabel:`SAMPLES` knob in
+    the center of the mixer.
+    This mode is active if the :hwlabel:`SAMPLES` light is on.
     Press an unlit pad to load the selected track in the library to the sampler.
     Loaded and stopped sampler pads are lit dim green.
     Press a dim green pad to play a sampler.
     A playing sampler is lit green.
-    Press a lit pad with :hwlabel:`SHIFT` to stop a sampler, or if it is already stopped, unload the
-    sample.
+    Press a lit pad with :hwlabel:`SHIFT` to stop a sampler, or if it is already
+    stopped, unload the sample.
     Looping sampler pads are lit cyan.
 
 Transport Controls
@@ -107,15 +132,18 @@ The transport controls work mostly as labeled on the controller:
     Press again to disable sync lock.
     Press with :hwlabel:`SHIFT` to enable sync lock without needing to hold.
 :hwlabel:`CUE` button
-    Behavior depends on the :ref:`cue mode set in the Mixxx preferences <interface-cue-modes>`.
+    Behavior depends on the :ref:`cue mode set in the Mixxx preferences
+    <interface-cue-modes>`.
     Press with :hwlabel:`SHIFT` to seek the beginning of the track and stop.
 :hwlabel:`PLAY` button
     Play or pause the deck. Press with :hwlabel:`SHIFT` to toggle key lock.
 :hwlabel:`TEMPO` fader
     Adjusts the :term:`tempo`.
+:hwlabel:`SHIFT` and left encoder
+    Adjusts the :term:`key`.
 :hwlabel:`RESET` button
-    This button toggles the top pad row to the intro/outro cues. Press the button
-    when it is lit to return the top pad row to hotcue mode.
+    This does not reset the tempo but rather switch between the intro/outro cues
+    and the hot cues.
 
 Mixer
 ~~~~~
@@ -133,7 +161,8 @@ Deck Columns
 :hwlabel:`HI`/:hwlabel:`MID`/:hwlabel:`LOW` knobs
     Adjust the high, middle, and low frequencies.
 :hwlabel:`CUE` button
-    Toggle whether the deck is routed to the :term:`prefader headphone output <PFL>`.
+    Toggle whether the deck is routed to the :term:`prefader headphone output
+    <PFL>`.
     With :hwlabel:`SHIFT`, toggle quantize for the deck.
 Fader
     Control the deck volume.
@@ -143,8 +172,8 @@ Center Column
 
 :hwlabel:`MAIN LEVEL` knob
     Adjust the volume of the main output.
-    This acts on the controller’s audio interface output in hardware,
-    so it is not mapped to the main mix gain knob in Mixxx (otherwise the gain would be applied twice).
+    This acts on the controller’s audio interface output in hardware, so it is
+    not mapped to the main mix gain knob in Mixxx.
 :hwlabel:`SAMPLES` knob
     Adjusts the gain of samplers 1-8.
 :hwlabel:`SAMPLES ON A`/:hwlabel:`SAMPLES ON B` buttons
@@ -154,7 +183,8 @@ Center Column
     Scroll through the music library.
     Turn with :hwlabel:`SHIFT` to scroll a whole page at a time.
     Push to open/select the highlighted item.
-    Push with :hwlabel:`SHIFT` to cycle through the windows (Track List, Sidebar, search box).
+    Push with :hwlabel:`SHIFT` to cycle through the windows (Track List,
+    Sidebar, search box).
 :hwlabel:`LOAD A`/:hwlabel:`LOAD B` buttons
     Load the track selected in the library to the corresponding deck.
     Press with :hwlabel:`SHIFT` to clone the other deck.
