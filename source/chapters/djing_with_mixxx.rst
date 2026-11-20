@@ -222,11 +222,11 @@ Harmonic Mixing
 
 Harmonic mixing is a technique to mix songs with matching melodies and
 harmonies. To learn more about harmonic mixing you might want to check out `the
-mixshare archive`_, or `a Camelot wheel`_ that shows which keys mix and plays
+mixshare archive`_, or `a Lancelot wheel`_ that shows which keys mix and plays
 each one.
 
 .. _the mixshare archive: https://web.archive.org/web/20161123191234/http://www.mixshare.com/wiki/doku.php?id=harmonic_mixing
-.. _a Camelot wheel: https://plastic.audio/camelot-wheel/
+.. _a Lancelot wheel: https://plastic.audio/camelot-wheel/
 
 Mixxx has two features to help you with harmonic mixing. The first is a
 :term:`key lock`. When it is active changing the speed of a track won't affect
