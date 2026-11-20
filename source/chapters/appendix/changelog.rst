@@ -23,6 +23,7 @@ Controller Mappings
 * Numark DJ2GO2 Touch: fix bug with preview deck `#16844 <https://github.com/mixxxdj/mixxx/pull/16844>`__
 * Numark Mixtrack 3: fix settings bool evaluation `#16708 <https://github.com/mixxxdj/mixxx/pull/16708>`__
 * Pioneer DDJ-400: unmap headphones mixing knob `#17121 <https://github.com/mixxxdj/mixxx/pull/17121>`__
+* Pioneer DDJ-SX: fix isuue with 2-deck skins `#17477 <https://github.com/mixxxdj/mixxx/pull/17477>`__
 * Reloop Beatpad: Fix typo in group tags for ShiftBtn `#17455 <https://github.com/mixxxdj/mixxx/pull/17455>`__
 * Vestax VCI-400: fix VU meters, midi.sendShortMsg() `#16180 <https://github.com/mixxxdj/mixxx/pull/16180>`__
 
@@ -54,12 +55,15 @@ Library
 * Fix false-positive missing tracks
   `#16685 <https://github.com/mixxxdj/mixxx/pull/16685>`__
   `#13533 <https://github.com/mixxxdj/mixxx/issues/13533>`__
+* Search: stop re-search when entering the search box `#17471 <https://github.com/mixxxdj/mixxx/pull/17471>`__
 * Rekordbox: detect databases in hidden .PIONEER directory
   `#16895 <https://github.com/mixxxdj/mixxx/pull/16895>`__
   `#16894 <https://github.com/mixxxdj/mixxx/issues/16894>`__
 * Rekordbox: fix empty USB device and first-open crash in the macOS sandbox
   `#17441 <https://github.com/mixxxdj/mixxx/pull/17441>`__
   `#13624 <https://github.com/mixxxdj/mixxx/issues/13624>`__
+* Recordbox: fix empty library when sorting for key
+  `#17484 <https://github.com/mixxxdj/mixxx/pull/17484>`__
 * Track table header: throw warning when storing the state fails `#17072 <https://github.com/mixxxdj/mixxx/pull/17072>`__
 * Row colors: fix missing opacity of track colors
   `#17043 <https://github.com/mixxxdj/mixxx/pull/17043>`__
@@ -170,6 +174,8 @@ Miscellaneous
   `#17003 <https://github.com/mixxxdj/mixxx/pull/17003>`__
   `#17260 <https://github.com/mixxxdj/mixxx/pull/17260>`__
   `#17337 <https://github.com/mixxxdj/mixxx/pull/17337>`__
+  `#17496 <https://github.com/mixxxdj/mixxx/pull/17496>`__
+  `#10441 <https://github.com/mixxxdj/mixxx/issues/10441>`__
 * Run all tests `#17058 <https://github.com/mixxxdj/mixxx/pull/17058>`__
 * Skins: Fix tiny battery icons `#16801 <https://github.com/mixxxdj/mixxx/pull/16801>`__
 * Fix broadcasting using libshout-idjc >= 2.4.6, by using the correct usage flag
