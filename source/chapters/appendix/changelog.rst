@@ -43,6 +43,7 @@ STEM File Support
   `#17185 <https://github.com/mixxxdj/mixxx/pull/17185>`__
   `#17159 <https://github.com/mixxxdj/mixxx/pull/17159>`__
   `#17158 <https://github.com/mixxxdj/mixxx/issues/17158>`__
+  `#17463 <https://github.com/mixxxdj/mixxx/pull/17463>`__
 * Add stem controls and waveforms
   `#13086 <https://github.com/mixxxdj/mixxx/pull/13086>`__
   `#14951 <https://github.com/mixxxdj/mixxx/pull/14951>`__
@@ -90,6 +91,7 @@ STEM File Support
   `#13123 <https://github.com/mixxxdj/mixxx/pull/13123>`__
   `#15743 <https://github.com/mixxxdj/mixxx/pull/15743>`__
   `#15530 <https://github.com/mixxxdj/mixxx/pull/15530>`__
+  `#17382 <https://github.com/mixxxdj/mixxx/pull/17382>`__
 * Multithreaded Rubberband (Smooth keylock support)
   `#13143 <https://github.com/mixxxdj/mixxx/pull/13143>`__
   `#13649 <https://github.com/mixxxdj/mixxx/pull/13649>`__
